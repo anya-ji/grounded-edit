@@ -67,7 +67,7 @@ st.set_page_config(layout="wide")
 st.title("Data Dashboard")
 
 # Loop through /data directory
-base_dir = "../data"
+base_dir = "./data"
 examples = sorted([os.path.join(base_dir, d) for d in os.listdir(base_dir) if os.path.isdir(os.path.join(base_dir, d))])
 
 for i, example in enumerate(examples):
