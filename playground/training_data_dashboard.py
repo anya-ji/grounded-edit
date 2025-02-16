@@ -67,8 +67,12 @@ st.set_page_config(layout="wide")
 st.title("Data Dashboard")
 
 # Loop through /data directory
-base_dir = "./data"
-examples = sorted([os.path.join(base_dir, d) for d in os.listdir(base_dir) if os.path.isdir(os.path.join(base_dir, d))])
+# Read paths from file because os.listdir doesn't work for remote deployment
+# Run `dashboard/store_paths.py` to store path
+# base_dir = "./data"
+# examples = sorted([os.path.join(base_dir, d) for d in os.listdir(base_dir) if os.path.isdir(os.path.join(base_dir, d))])
+with open('./dashboard/remote_paths.txt', "r") as f:
+    examples = [line.strip() for line in f.readlines()]
 
 for i, example in enumerate(examples):
     display_example(example, i+1, len(examples), 'gpt-4o')
