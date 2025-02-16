@@ -1,0 +1,20 @@
+--- ./data/art_photos_slide_2/iter_0/gpt-4o/code.py	2025-02-14 07:22:40.416642847 +0000
++++ ./data/art_photos_slide_2/iter_1/gpt-4o/code.py	2025-02-14 07:23:10.291604104 +0000
+@@ -55,11 +55,14 @@
+ p2.font.size = Pt(24)
+ p2.font.color.rgb = RGBColor(0, 0, 0)
+ 
+-# Set the background of the content area to a semi-transparent color
++# Setting the background to be semi-transparent
+ content_box.fill.solid()
+-# Here, we are simulating a semi-transparent effect by using an RGB color
+ content_box.fill.fore_color.rgb = RGBColor(255, 255, 255)  # White color
+ content_box.fill.fore_color.alpha = 180  # Set alpha for transparency (0-255)
+ 
++# Add a darker outline to the content box
++content_box.line.color.rgb = RGBColor(0, 0, 0)  # Black outline
++content_box.line.width = Pt(2)  # Set line width
++
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

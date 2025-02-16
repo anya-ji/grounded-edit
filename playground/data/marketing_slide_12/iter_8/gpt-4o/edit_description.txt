@@ -1,0 +1,1 @@
+Change the background color of the rendered image to a dark but slightly brighter tone to improve text contrast and clarity.

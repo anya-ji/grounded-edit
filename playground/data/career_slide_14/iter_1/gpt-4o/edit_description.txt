@@ -1,0 +1,1 @@
+Adjust the color of the "Professional World" text from green to the same shade of blue used for the "Academic World" heading to maintain visual consistency.

@@ -1,0 +1,1 @@
+Replace the right image in the rendered image with a more realistic depiction of pollution that closely matches the target image's factory scene.

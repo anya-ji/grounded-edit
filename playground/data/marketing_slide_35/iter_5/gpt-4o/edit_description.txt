@@ -1,0 +1,1 @@
+Change the background color of the rendered image from green to a dark teal color to match the target image.

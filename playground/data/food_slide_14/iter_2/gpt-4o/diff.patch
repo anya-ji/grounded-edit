@@ -1,0 +1,23 @@
+--- ./data/food_slide_14/iter_1/gpt-4o/code.py	2025-02-14 19:15:20.257535210 +0000
++++ ./data/food_slide_14/iter_2/gpt-4o/code.py	2025-02-14 19:15:44.042481264 +0000
+@@ -32,13 +32,14 @@
+ instruction.font.size = Pt(24)
+ instruction.space_after = Pt(14)
+ 
++# Rearranged events
+ events = [
+-    "1. Joey apologizes for getting angry that Sarah took his food on the first date.",
+-    "2. The waiter arrives with their desserts.",
+-    "3. Joey doesn’t like the dessert he orders and tries to order a different one.",
+-    "4. Sarah leaves the table for a phone call.",
+-    "5. Joey is unable to control himself and eats all of Sarah’s dessert.",
+-    "6. Joey refuses to apologize when Sarah returns."
++    "1. The waiter arrives with their desserts.",
++    "2. Joey doesn’t like the dessert he orders and tries to order a different one.",
++    "3. Sarah leaves the table for a phone call.",
++    "4. Joey is unable to control himself and eats all of Sarah’s dessert.",
++    "5. Joey refuses to apologize when Sarah returns.",
++    "6. Joey apologizes for getting angry that Sarah took his food on the first date."
+ ]
+ 
+ for event_text in events:

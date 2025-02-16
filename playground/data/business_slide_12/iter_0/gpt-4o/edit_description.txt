@@ -1,0 +1,1 @@
+Adjust the size of the "NYC" text in the rendered image to be smaller and reposition it to be centered at the top of the image, similar to the target image's placement.

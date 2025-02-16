@@ -1,0 +1,18 @@
+--- ./data/technology_slide_11/iter_5/gpt-4o/code.py	2025-02-16 02:34:33.640229403 +0000
++++ ./data/technology_slide_11/iter_6/gpt-4o/code.py	2025-02-16 02:35:01.320143673 +0000
+@@ -40,9 +40,13 @@
+     p.space_after = Pt(10)  # Adjusted spacing for uniformity
+     p.space_before = Pt(10)  # Added space before for uniformity
+ 
++# Add vertical line separating the lists
++line = slide.shapes.add_line(Inches(10), Inches(1.5), Inches(10), Inches(6.5))
++line.line.width = Pt(2)
++
+ # Add image on the right
+ image_path = "../../media/image_0.jpg"
+-slide.shapes.add_picture(image_path, Inches(10), Inches(1.5), Inches(6), Inches(5))  # Adjusted position
++slide.shapes.add_picture(image_path, Inches(10.1), Inches(1.5), Inches(5.9), Inches(5))  # Adjusted position
+ 
+ # Save presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

@@ -1,0 +1,11 @@
+--- ./data/environment_slide_7/iter_1/gpt-4o/code.py	2025-02-14 18:59:51.594657773 +0000
++++ ./data/environment_slide_7/iter_2/gpt-4o/code.py	2025-02-14 19:00:12.432608995 +0000
+@@ -25,7 +25,7 @@
+ title.text = "NEGATIVE IMPACT"
+ title.font.bold = True
+ title.font.size = Pt(44)
+-title.font.color.rgb = RGBColor(0, 153, 0) # bold green font
++title.font.color.rgb = RGBColor(0, 100, 0) # dark green font
+ 
+ # Add Content
+ content = [

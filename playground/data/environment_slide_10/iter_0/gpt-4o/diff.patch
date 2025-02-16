@@ -1,0 +1,20 @@
+--- ./data/environment_slide_10/init/code.py	2025-02-14 06:46:11.903156906 +0000
++++ ./data/environment_slide_10/iter_0/gpt-4o/code.py	2025-02-14 18:42:44.184850351 +0000
+@@ -2,8 +2,6 @@
+ from pptx.util import Inches, Pt
+ from pptx.dml.color import RGBColor
+ from pptx.enum.text import PP_ALIGN
+-from pptx.oxml import parse_xml
+-from pptx.oxml.ns import nsdecls
+ 
+ # Create a presentation object
+ presentation = Presentation()
+@@ -35,7 +33,7 @@
+ p.text = "THANK YOU"
+ p.font.bold = True
+ p.font.size = Pt(100)  # Large font size
+-p.font.color.rgb = RGBColor(0, 102, 0)  # Green font
++p.font.color.rgb = RGBColor(51, 153, 51)  # Changed to a lighter green font
+ p.alignment = PP_ALIGN.CENTER  # Center the text
+ 
+ # Save the presentation

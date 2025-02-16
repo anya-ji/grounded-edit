@@ -1,0 +1,11 @@
+--- ./data/art_photos_slide_23/iter_0/gpt-4o/code.py	2025-02-14 07:47:44.290726346 +0000
++++ ./data/art_photos_slide_23/iter_1/gpt-4o/code.py	2025-02-14 07:48:27.880616379 +0000
+@@ -25,7 +25,7 @@
+ title_p.font.bold = True
+ title_p.font.color.rgb = RGBColor(0x00, 0x00, 0x00)
+ title_box.fill.solid()
+-title_box.fill.fore_color.rgb = RGBColor(0xFF, 0xFF, 0x00)  # Yellow background
++title_box.fill.fore_color.rgb = RGBColor(0xE6, 0xE600, 0x00)  # Change to original yellow color
+ 
+ # Add subtitle textbox
+ subtitle_box = slide.shapes.add_textbox(Inches(0.5), Inches(1.75), Inches(15), Inches(1))

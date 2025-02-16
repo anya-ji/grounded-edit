@@ -1,0 +1,1 @@
+Change the color of the human figures in the rendered image to a darker shade to enhance contrast against the lighter background, matching the target image's visibility better.

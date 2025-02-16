@@ -1,0 +1,1 @@
+Increase the thickness of the yellow vertical bar on the left side to match the width of the target image.

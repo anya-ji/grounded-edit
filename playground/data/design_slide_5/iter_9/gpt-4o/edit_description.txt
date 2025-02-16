@@ -1,0 +1,1 @@
+Change the background color of the rendered image to a solid blue similar to the target image to enhance contrast and readability of the text.

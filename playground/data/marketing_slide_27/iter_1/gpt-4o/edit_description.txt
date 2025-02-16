@@ -1,0 +1,1 @@
+Reduce the size of the text "Types of Markets" to match the font size of the original target image to create a more cohesive visual balance.

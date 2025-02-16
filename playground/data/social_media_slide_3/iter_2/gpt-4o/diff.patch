@@ -1,0 +1,37 @@
+--- ./data/social_media_slide_3/iter_1/gpt-4o/code.py	2025-02-16 02:10:10.057326609 +0000
++++ ./data/social_media_slide_3/iter_2/gpt-4o/code.py	2025-02-16 02:10:55.400220157 +0000
+@@ -2,6 +2,8 @@
+ from pptx.util import Inches, Pt
+ from pptx.enum.text import PP_ALIGN
+ from pptx.dml.color import RGBColor
++from pptx.oxml import parse_xml
++from pptx.oxml.ns import nsdecls
+ from PIL import Image
+ import numpy as np
+ 
+@@ -39,11 +41,21 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set background color
+-background = slide.background
+-fill = background.fill
++# Set background gradient
++gradient_xml = """
++<gradFill>
++    <stop position="0%">
++        <color rgb="005400"/>
++    </stop>
++    <stop position="100%">
++        <color rgb="90EE90"/>
++    </stop>
++</gradFill>
++"""
++fill = slide.background.fill
++fill.gradient()
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(144, 238, 144)  # Light green
++fill._element.get_or_add_fill().append(parse_xml(gradient_xml))
+ 
+ # Title text
+ title = slide.shapes.add_textbox(Inches(0.5), Inches(0.5), Inches(15), Inches(1))

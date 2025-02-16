@@ -1,0 +1,1 @@
+Remove the additional images from the right side of the rendered image to focus solely on the main art piece and improve clarity.

@@ -1,0 +1,1 @@
+Center the title "Types of Blockchain" at the top of the rendered image for consistent formatting.

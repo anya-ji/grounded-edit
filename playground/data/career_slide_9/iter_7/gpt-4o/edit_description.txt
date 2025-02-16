@@ -1,0 +1,1 @@
+Change the color of the word "Skills" from green to blue to match the target image.

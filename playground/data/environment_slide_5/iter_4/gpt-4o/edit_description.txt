@@ -1,0 +1,1 @@
+Update the font color of the title "Further types of natural environment" in the rendered image to match the green color used in the target image.

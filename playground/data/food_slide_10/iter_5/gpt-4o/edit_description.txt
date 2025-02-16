@@ -1,0 +1,1 @@
+Change the cell background color of the correct answers from white to light blue in the rendered image for visual consistency with the target image.

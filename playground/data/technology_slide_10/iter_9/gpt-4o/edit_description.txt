@@ -1,0 +1,1 @@
+Adjust the alignment of the checkboxes to ensure they are perfectly left-aligned with the text in each bullet point for consistency.

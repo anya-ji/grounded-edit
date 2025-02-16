@@ -1,0 +1,1 @@
+Change the header text color from yellow to black to ensure better contrast and readability against the background.

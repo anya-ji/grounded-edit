@@ -1,0 +1,1 @@
+Change the font size of the yellow text in the rendered image to match the font size of the orange text, ensuring both overlays appear consistently sized.

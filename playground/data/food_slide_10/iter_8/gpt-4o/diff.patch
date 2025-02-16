@@ -1,0 +1,18 @@
+--- ./data/food_slide_10/iter_7/gpt-4o/code.py	2025-02-14 19:06:37.129697609 +0000
++++ ./data/food_slide_10/iter_8/gpt-4o/code.py	2025-02-14 19:07:10.090618800 +0000
+@@ -91,6 +91,15 @@
+ joey_image_path = "../../media/image_1.jpg"
+ joey_image = slide.shapes.add_picture(joey_image_path, Inches(11), Inches(5.5), height=Inches(2))
+ 
++# Modify the dialogue bubble text
++bubble_text = "That's not true."  # Updated text
++bubble_box = slide.shapes.add_textbox(Inches(1), Inches(5.5), Inches(5), Inches(1))  # Adjust position as needed
++bubble_frame = bubble_box.text_frame
++bubble_p = bubble_frame.add_paragraph()
++bubble_p.text = bubble_text
++bubble_p.font.size = Pt(16)
++bubble_p.font.color.rgb = RGBColor(0, 0, 0)
++
+ # Add buttons below Joey's image
+ button_check = slide.shapes.add_textbox(Inches(11), Inches(7.7), Inches(2.5), Inches(0.7))
+ button_check.fill.solid()

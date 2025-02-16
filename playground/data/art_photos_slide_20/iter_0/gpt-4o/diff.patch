@@ -1,0 +1,11 @@
+--- ./data/art_photos_slide_20/init/code.py	2025-02-14 06:46:11.807157250 +0000
++++ ./data/art_photos_slide_20/iter_0/gpt-4o/code.py	2025-02-14 07:27:34.907203628 +0000
+@@ -17,7 +17,7 @@
+ slide.shapes.add_picture(image_path, Inches(0), Inches(0), presentation.slide_width, presentation.slide_height)
+ 
+ # Title: Three levels of meaning
+-title_box = slide.shapes.add_textbox(Inches(3), Inches(1), Inches(10), Inches(1.5))
++title_box = slide.shapes.add_textbox(Inches(0), Inches(1), Inches(16), Inches(1.5))  # Adjusted width here
+ title_frame = title_box.text_frame
+ title = title_frame.add_paragraph()
+ title.text = "Three levels of meaning"

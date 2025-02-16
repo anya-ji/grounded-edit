@@ -1,0 +1,22 @@
+--- ./data/business_slide_1/iter_0/gpt-4o/code.py	2025-02-14 08:16:07.676740538 +0000
++++ ./data/business_slide_1/iter_1/gpt-4o/code.py	2025-02-14 08:16:23.700704157 +0000
+@@ -11,16 +11,10 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Define colors
+-background_color = RGBColor(252, 110, 100)  # Coral
+-
+ # Set background color
+-background = slide.shapes.add_shape(
+-    6,  # Rectangle shape
+-    0, 0, presentation.slide_width, presentation.slide_height
+-)
+-background.fill.solid()
+-background.fill.fore_color.rgb = background_color
++background_color = RGBColor(252, 110, 100)  # Coral
++slide.background.fill.solid()
++slide.background.fill.fore_color.rgb = background_color
+ 
+ # Update Airbnb icon path and position
+ logo_icon_path = "../../media/image_1.jpg"

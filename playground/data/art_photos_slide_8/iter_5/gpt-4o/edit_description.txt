@@ -1,0 +1,1 @@
+Change the background color of the rendered image from blue to a soft, light shade similar to the one in the target image to enhance the vibrancy of the bouquet.

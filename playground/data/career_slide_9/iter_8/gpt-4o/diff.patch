@@ -1,0 +1,17 @@
+--- ./data/career_slide_9/iter_7/gpt-4o/code.py	2025-02-14 18:13:28.121978239 +0000
++++ ./data/career_slide_9/iter_8/gpt-4o/code.py	2025-02-14 18:13:52.639902051 +0000
+@@ -47,12 +47,12 @@
+ paragraph.font.color.rgb = RGBColor(255, 255, 255) # white
+ paragraph.alignment = PP_ALIGN.CENTER
+ 
+-# Change the color of "Skills" from green to blue
++# Change the color of "Skills" to green
+ paragraph = content_frame.add_paragraph()
+ paragraph.text = "Skills, "
+ paragraph.font.bold = True
+ paragraph.font.size = Pt(36)
+-paragraph.font.color.rgb = RGBColor(0, 0, 255) # blue
++paragraph.font.color.rgb = RGBColor(0, 255, 0) # green
+ paragraph.alignment = PP_ALIGN.CENTER
+ 
+ # Change the color of "Experiences" from green to blue

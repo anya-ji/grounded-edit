@@ -1,0 +1,11 @@
+--- ./data/social_media_slide_18/iter_8/gpt-4o/code.py	2025-02-14 22:20:55.100627833 +0000
++++ ./data/social_media_slide_18/iter_9/gpt-4o/code.py	2025-02-14 22:21:34.780530045 +0000
+@@ -39,7 +39,7 @@
+ perspective_title_frame.text = perspective_title
+ 
+ perspective_title_paragraph = perspective_title_frame.paragraphs[0]
+-perspective_title_paragraph.font.size = Pt(28)
++perspective_title_paragraph.font.size = Pt(32)  # Increased font size for consistency
+ perspective_title_paragraph.font.bold = True
+ perspective_title_paragraph.font.color.rgb = RGBColor(0, 0, 0)  # Black text
+ perspective_title_frame.word_wrap = True

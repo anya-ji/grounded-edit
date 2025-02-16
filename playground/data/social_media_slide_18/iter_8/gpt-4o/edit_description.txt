@@ -1,0 +1,1 @@
+Change the background color of the top section from light blue to solid dark blue to match the target image.

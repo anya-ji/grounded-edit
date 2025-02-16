@@ -1,0 +1,1 @@
+Increase the font weight of the subtitle text "Market and Opportunity" and "Market and Equality" to match the boldness of the title text "ELO's."

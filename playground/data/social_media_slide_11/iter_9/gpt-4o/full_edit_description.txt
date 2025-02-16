@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: The target image has a blue header with bold white text stating "Various Media drive Various forms of Global Integration," and below that is the bolded title "GLOBAL INTEGRATION" in white on a blue background. It contains two bullet points describing the process of global integration.
+2. Description of Rendered Image: The rendered image has the same header and title, but the first part of the header is cut off. The two bullet points are present but there is less information visible compared to the target image.
+3. Change Suggestion: Adjust the cropping of the rendered image to include the full header text.
+```

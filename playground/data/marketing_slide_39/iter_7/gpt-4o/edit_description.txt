@@ -1,0 +1,1 @@
+Change the background color from light blue and green to a gradient similar to the target image, specifically a darker teal transitioning to a lighter shade.

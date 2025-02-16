@@ -1,0 +1,1 @@
+Adjust the formatting of the text in the rendered image to match the target image, specifically ensuring that the headings are bold and the paragraph follows the same layout and font style as the target image.

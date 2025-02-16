@@ -1,0 +1,1 @@
+Adjust the font style of the "References" header in the rendered image to match the font style of the target image, specifically using the same font type as the target image.

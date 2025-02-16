@@ -1,0 +1,1 @@
+Change the color of the text for the subpoints under "Leadership and Teamwork" from yellow back to gray to match the target image's style.

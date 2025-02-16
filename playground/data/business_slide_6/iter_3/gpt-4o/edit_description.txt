@@ -1,0 +1,1 @@
+Increase the font weight of the text to a bold setting and ensure it is horizontally and vertically centered within the image for better alignment.

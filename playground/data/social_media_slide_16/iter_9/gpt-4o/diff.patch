@@ -1,0 +1,11 @@
+--- ./data/social_media_slide_16/iter_8/gpt-4o/code.py	2025-02-14 22:13:30.849723167 +0000
++++ ./data/social_media_slide_16/iter_9/gpt-4o/code.py	2025-02-14 22:13:50.895673715 +0000
+@@ -19,7 +19,7 @@
+ title_frame.paragraphs[0].alignment = PP_ALIGN.CENTER
+ title_box.fill.solid()
+ title_box.fill.fore_color.rgb = RGBColor(0, 0, 255)  # Blue background (removed outline handling)
+-title_frame.paragraphs[0].font.color.rgb = RGBColor(255, 255, 255)  # Changed text color to white
++title_frame.paragraphs[0].font.color.rgb = RGBColor(0, 0, 128)  # Changed title text color to dark navy
+ 
+ # Subtitle
+ subtitle_box = slide.shapes.add_textbox(Inches(0.5), Inches(2), Inches(15), Inches(1))

@@ -1,0 +1,1 @@
+Change the font of the questions in the rendered image to match the bold font used in the target image for better visibility and consistency.

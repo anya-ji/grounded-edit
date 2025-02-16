@@ -1,0 +1,1 @@
+Change the background color of the rendered image to a light blue similar to that of the target image to enhance text visibility.

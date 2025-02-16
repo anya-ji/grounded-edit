@@ -1,0 +1,1 @@
+Change the background color of the rendered image to a darker shade (e.g., black or dark grey) to improve text visibility and match the visual impact of the target image.

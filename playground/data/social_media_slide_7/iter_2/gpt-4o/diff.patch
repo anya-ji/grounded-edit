@@ -1,0 +1,13 @@
+--- ./data/social_media_slide_7/iter_1/gpt-4o/code.py	2025-02-16 02:21:40.965678628 +0000
++++ ./data/social_media_slide_7/iter_2/gpt-4o/code.py	2025-02-16 02:22:13.903599162 +0000
+@@ -47,8 +47,8 @@
+     p_bullet.font.size = Pt(24)
+     p_bullet.space_after = Pt(10)
+ 
+-# Insert image
+-image_path = "../../media/image_0.jpg"  # Adjust path as needed
++# Insert a different image without a watermark
++image_path = "../../media/image_without_watermark.jpg"  # Update path to the new image
+ slide.shapes.add_picture(image_path, Inches(11), Inches(2.5), Inches(4), Inches(4))
+ 
+ # Save the presentation

@@ -1,0 +1,47 @@
+--- ./data/social_media_slide_12/iter_8/gpt-4o/code.py	2025-02-14 22:00:17.797684438 +0000
++++ ./data/social_media_slide_12/iter_9/gpt-4o/code.py	2025-02-14 22:00:51.187601549 +0000
+@@ -52,20 +52,13 @@
+     paragraph.space_after = Pt(20)  # Add space after title
+     paragraph.alignment = 1  # Center the text
+ 
+-# Add a white background rectangle for the main content area
++# Remove the white background rectangle for the main content area
+ content_box_width = Inches(14)
+ content_box_height = Inches(5)
+ content_left = Inches(1)
+ content_top = Inches(3)
+ 
+-content_rect = slide.shapes.add_shape(
+-    MSO_SHAPE.RECTANGLE, content_left, content_top,
+-    content_box_width, content_box_height
+-)
+-content_rect.fill.solid()
+-content_rect.fill.fore_color.rgb = RGBColor(255, 255, 255)  # White
+-
+-# Add the content text within the white background
++# Instead of adding a rectangle, directly add the content text
+ content_text = (
+     "1. Improvements in transportation and communication technology have reduced "
+     "the cost of transporting goods, services and factors of production and communicating "
+@@ -74,19 +67,16 @@
+     "taking advantage of the opportunities provided by declining."
+ )
+ 
+-content_tf = content_rect.text_frame
++content_tf = slide.shapes.add_textbox(content_left, content_top, content_box_width, content_box_height).text_frame
+ content_tf.word_wrap = True
+ content_p = content_tf.add_paragraph()
+ content_p.text = content_text
+ content_p.font.size = Pt(20)
+-content_p.font.color.rgb = RGBColor(0, 0, 0)  # Black
++content_p.font.color.rgb = RGBColor(255, 255, 255)  # White to ensure readability against blue background
+ 
+ # Adjust spacing above the content box
+ content_tf.space_before = Pt(30)  # Increase space before content
+ 
+-# Update the second bullet point to include a period
+-content_p.text = content_p.text.replace("by declining.", "by declining.")  # Ensure period is included
+-
+ # Center the content text and adjust spacing between bullet points for consistency
+ for paragraph in content_tf.paragraphs:
+     paragraph.alignment = 1  # Center the content text

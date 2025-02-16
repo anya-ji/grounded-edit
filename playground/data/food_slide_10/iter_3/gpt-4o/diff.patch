@@ -1,0 +1,11 @@
+--- ./data/food_slide_10/iter_2/gpt-4o/code.py	2025-02-14 19:04:10.941045988 +0000
++++ ./data/food_slide_10/iter_3/gpt-4o/code.py	2025-02-14 19:04:38.413980676 +0000
+@@ -63,7 +63,7 @@
+     cell.text_frame.paragraphs[0].font.size = Pt(20)
+     cell.text_frame.paragraphs[0].font.color.rgb = RGBColor(0, 0, 0)
+ 
+-# Set the background color for the first statement
++# Change the background color for the first statement to blue
+ cell = table.cell(0, 0)
+ fill = cell.fill
+ fill.solid()

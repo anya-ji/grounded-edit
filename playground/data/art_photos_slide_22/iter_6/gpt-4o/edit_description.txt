@@ -1,0 +1,1 @@
+Change the background of the content area from yellow to white for better alignment with the target image.

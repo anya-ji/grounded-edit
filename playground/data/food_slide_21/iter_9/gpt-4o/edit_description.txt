@@ -1,0 +1,1 @@
+Change the font color of the stressed words in the rendered image from regular text color to red for consistent emphasis as seen in the target image.

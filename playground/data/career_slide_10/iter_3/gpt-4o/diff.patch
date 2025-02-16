@@ -1,0 +1,29 @@
+--- ./data/career_slide_10/iter_2/gpt-4o/code.py	2025-02-14 08:56:59.613875820 +0000
++++ ./data/career_slide_10/iter_3/gpt-4o/code.py	2025-02-14 08:57:25.993871482 +0000
+@@ -42,12 +42,15 @@
+ ]
+ 
+ # Add images and descriptions
+-left_inch = 0.5
+-top_inch = 2
+ spacing = 0.5  # Set consistent spacing
++total_width = 2 * len(people_info) + spacing * (len(people_info) - 1)
++left_inch = (presentation.slide_width.inches - total_width) / 2  # Center the images horizontally
++top_inch = 2
++
+ for image_path, name, description in people_info:
+     # Add circular pictures
+     pic = slide.shapes.add_picture(image_path, Inches(left_inch), Inches(top_inch), Inches(2), Inches(2.5))
++    
+     # Update the top position for description to be below the picture
+     desc_top_inch = top_inch + 2.5 + Inches(0.2)  # Space below the picture
+ 
+@@ -67,6 +70,6 @@
+     desc_paragraph.text = description
+     desc_paragraph.font.size = Pt(14)
+     desc_paragraph.font.color.rgb = RGBColor(255, 255, 255)
+-    
++
+ # Save presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

@@ -1,0 +1,16 @@
+--- ./data/career_slide_3/init/code.py	2025-02-14 06:46:11.978156638 +0000
++++ ./data/career_slide_3/iter_0/gpt-4o/code.py	2025-02-14 09:45:17.936853854 +0000
+@@ -28,6 +28,13 @@
+ shape.fill.solid()
+ shape.fill.fore_color.rgb = RGBColor(178, 34, 34)  # Red color
+ 
++# Add drop shadow effect to the shape
++shape.shadow.draw_opaque = True
++shape.shadow.blur_radius = Inches(0.2)
++shape.shadow.distance = Inches(0.2)
++shape.shadow.angle = 45
++shape.shadow.color.rgb = RGBColor(0, 0, 0)  # Black shadow
++
+ # Add decorative quotation marks
+ quotation_top = slide.shapes.add_textbox(Inches(7.5), Inches(1.5), Inches(1), Inches(1))
+ quotation_p = quotation_top.text_frame.add_paragraph()

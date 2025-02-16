@@ -1,0 +1,1 @@
+Change the background color of the rendered image from blue to white for improved text visibility and clarity.

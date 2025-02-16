@@ -1,0 +1,13 @@
+--- ./data/environment_slide_7/iter_2/gpt-4o/code.py	2025-02-14 19:00:12.432608995 +0000
++++ ./data/environment_slide_7/iter_3/gpt-4o/code.py	2025-02-14 19:00:51.542517243 +0000
+@@ -48,8 +48,8 @@
+ image_path_1 = "../../media/image_0.jpg"
+ slide.shapes.add_picture(image_path_1, Inches(0.5), Inches(7), Inches(7.5), Inches(2))
+ 
+-# Insert Pollution Image
+-image_path_2 = "../../media/image_1.jpg"
++# Insert Pollution Image (updated path)
++image_path_2 = "../../media/more_realistic_pollution_image.jpg"  # updated image path
+ slide.shapes.add_picture(image_path_2, Inches(8), Inches(7), Inches(7.5), Inches(2))
+ 
+ # Save presentation

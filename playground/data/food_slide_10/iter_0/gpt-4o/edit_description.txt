@@ -1,0 +1,1 @@
+Change the background color of the rendered image to a lighter shade similar to that of the target image for improved readability.

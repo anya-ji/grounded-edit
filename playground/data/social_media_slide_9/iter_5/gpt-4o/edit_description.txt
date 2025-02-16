@@ -1,0 +1,1 @@
+Align all text to the left, including the list items and headings, and add a period at the end of the first bullet point.

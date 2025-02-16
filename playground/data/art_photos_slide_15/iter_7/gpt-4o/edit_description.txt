@@ -1,0 +1,1 @@
+Reduce the contrast in the rendered image to soften the harsh edges and make the colors appear more natural and similar to the target image.

@@ -1,0 +1,1 @@
+Center the text caption "Ha, ha. No." more accurately below Joey in the rendered image to match its position in the target image.

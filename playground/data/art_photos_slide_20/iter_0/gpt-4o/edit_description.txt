@@ -1,0 +1,1 @@
+Increase the width of the yellow background band in the title to match the width of the band in the target image.

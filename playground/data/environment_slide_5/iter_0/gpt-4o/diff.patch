@@ -1,0 +1,22 @@
+--- ./data/environment_slide_5/init/code.py	2025-02-14 06:46:11.924156831 +0000
++++ ./data/environment_slide_5/iter_0/gpt-4o/code.py	2025-02-14 18:52:32.744660536 +0000
+@@ -13,10 +13,6 @@
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+ # Set a light green background with a subtle hexagonal pattern
+-# Normally, we'd add custom images or patterns but for simplicity,
+-# we'll just set a plain light green background. Hexagonal pattern
+-# requires more complex operations not implemented here.
+-
+ background = slide.background
+ fill = background.fill
+ fill.solid()
+@@ -42,6 +38,8 @@
+ title_p.font.size = Pt(44)
+ title_p.font.color.rgb = RGBColor(0, 102, 0)  # Bold Green
+ title_p.alignment = PP_ALIGN.LEFT
++title_p.space_before = Pt(0)  # Reduce top padding
++title_p.space_after = Pt(0)   # Reduce bottom padding
+ 
+ # Add content with bullet points
+ bullet_points = [

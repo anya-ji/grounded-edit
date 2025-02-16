@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: The target image has a clean layout with well-organized text and a bulleted format for categorizing sentences into past simple and past continuous.
+2. Description of Rendered Image: The rendered image has a less organized layout, with the text in a different format and spacing that looks cluttered, making it harder to read and categorize.
+3. Change Suggestion: Adjust the layout by adding bullet points or clear separators for each category in the past simple and past continuous sections to enhance readability and organization.
+```

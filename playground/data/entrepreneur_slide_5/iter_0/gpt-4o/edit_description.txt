@@ -1,0 +1,1 @@
+Change the dashes in the rendered image to bullet points and ensure the title "Early life of Elon Musk" is bolded for consistency with the target image.

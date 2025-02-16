@@ -1,0 +1,1 @@
+Increase the saturation and brightness of the colors in the grid images and backgrounds to match the vividness of the target image.

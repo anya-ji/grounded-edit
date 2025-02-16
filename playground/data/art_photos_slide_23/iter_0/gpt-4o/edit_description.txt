@@ -1,0 +1,1 @@
+Change the bullet point in front of the section description to remove it, transforming it into a block of text like in the target image.

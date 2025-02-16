@@ -1,0 +1,11 @@
+--- ./data/food_slide_21/iter_7/gpt-4o/code.py	2025-02-14 19:32:06.937182126 +0000
++++ ./data/food_slide_21/iter_8/gpt-4o/code.py	2025-02-14 19:32:29.940127469 +0000
+@@ -56,7 +56,7 @@
+     response_frame = response_box.text_frame
+     response_paragraph = response_frame.add_paragraph()
+     response_paragraph.text = "Stressed word(s):"
+-    response_paragraph.font.size = Pt(16)
++    response_paragraph.font.size = Pt(18)  # Increased font size
+     response_paragraph.font.color.rgb = RGBColor(255, 0, 0)  # Make the text red
+     response_paragraph.font.bold = True  # Make the text bold
+ 

@@ -1,0 +1,18 @@
+--- ./data/technology_slide_3/iter_5/gpt-4o/code.py	2025-02-16 02:41:57.693921349 +0000
++++ ./data/technology_slide_3/iter_6/gpt-4o/code.py	2025-02-16 02:42:12.188880483 +0000
+@@ -25,11 +25,11 @@
+ title_p.font.size = Pt(44)
+ title_p.alignment = PP_ALIGN.LEFT
+ 
+-# Add bullet points as marked checkbox items
++# Add bullet points as standard items
+ bullet_text = (
+-    "✔ The blockchain was created by a person (or group of people) using the name (or pseudonym) Satoshi Nakamoto in 2008 to serve as the public distributed ledger for bitcoin cryptocurrency transactions.\n"
+-    "✔ The implementation of the blockchain within bitcoin made it the first digital currency to solve the double-spending problem without the need of a trusted authority or central server.\n"
+-    "✔ Private blockchains have been proposed for business use."
++    "• The blockchain was created by a person (or group of people) using the name (or pseudonym) Satoshi Nakamoto in 2008 to serve as the public distributed ledger for bitcoin cryptocurrency transactions.\n"
++    "• The implementation of the blockchain within bitcoin made it the first digital currency to solve the double-spending problem without the need of a trusted authority or central server.\n"
++    "• Private blockchains have been proposed for business use."
+ )
+ 
+ content_box = slide.shapes.add_textbox(Inches(1), Inches(2.5), Inches(14), Inches(5))

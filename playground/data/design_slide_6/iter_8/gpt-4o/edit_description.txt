@@ -1,0 +1,1 @@
+Adjust the text positioning to provide adequate spacing above and below, ensuring it does not overlap with the graphic elements.

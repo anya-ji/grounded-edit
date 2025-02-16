@@ -1,0 +1,11 @@
+--- ./data/marketing_slide_27/iter_0/gpt-4o/code.py	2025-02-14 20:53:44.007608838 +0000
++++ ./data/marketing_slide_27/iter_1/gpt-4o/code.py	2025-02-14 20:54:12.127559772 +0000
+@@ -57,7 +57,7 @@
+ 
+ p = text_frame.add_paragraph()
+ p.text = title_text
+-p.font.size = Pt(40)
++p.font.size = Pt(24)  # Reduced font size for better visual balance
+ p.font.bold = True
+ p.font.color.rgb = RGBColor(255, 255, 255)  # White color for contrast
+ 

@@ -1,0 +1,1 @@
+Add CSS styles to highlight the stressed words in red for better visibility in the rendered image.

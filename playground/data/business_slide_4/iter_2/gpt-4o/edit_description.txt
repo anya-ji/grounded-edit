@@ -1,0 +1,1 @@
+Change the background color of the header from light pink to a vibrant red to match the target image.

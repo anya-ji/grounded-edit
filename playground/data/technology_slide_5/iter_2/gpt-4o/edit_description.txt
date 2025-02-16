@@ -1,0 +1,1 @@
+Change the checked state of the second item ("Network Protocol") to checked and the third item ("Distributed Ledger Technology") to unchecked.

@@ -1,0 +1,1 @@
+Align all labeled boxes (e.g., "Direct," "Retail," "Wholesale") and ensure they have consistent font styles to match the target image.

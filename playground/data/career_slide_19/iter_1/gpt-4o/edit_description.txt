@@ -1,0 +1,1 @@
+Replace the trophy in the rendered image with a more defined trophy design resembling the one in the target image, ensuring it emits a bright light similar to the target's trophy.

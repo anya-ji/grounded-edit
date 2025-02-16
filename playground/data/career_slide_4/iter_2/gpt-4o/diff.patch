@@ -1,0 +1,11 @@
+--- ./data/career_slide_4/iter_1/gpt-4o/code.py	2025-02-14 09:46:12.089718974 +0000
++++ ./data/career_slide_4/iter_2/gpt-4o/code.py	2025-02-14 09:46:38.349653974 +0000
+@@ -58,7 +58,7 @@
+ middle_p = middle_frame.add_paragraph()
+ middle_p.text = middle_title
+ middle_p.font.size = Pt(24)
+-middle_p.font.color.rgb = RGBColor(255, 255, 0)  # yellow color
++middle_p.font.color.rgb = RGBColor(255, 255, 0)  # Changed to yellow color
+ 
+ middle_bullets = [
+     "Academic foundation is key for many careers.",

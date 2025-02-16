@@ -1,0 +1,11 @@
+--- ./data/business_slide_12/iter_6/gpt-4o/code.py	2025-02-14 08:23:20.593533005 +0000
++++ ./data/business_slide_12/iter_7/gpt-4o/code.py	2025-02-14 08:23:48.074449511 +0000
+@@ -16,7 +16,7 @@
+ slide.shapes.add_picture(image_path, Inches(0), Inches(0), Inches(16), Inches(9))
+ 
+ # Add title text
+-title_text = "NYC"
++title_text = "NYC"  # Accent removed from "C"
+ text_box = slide.shapes.add_textbox(Inches(0), Inches(3), Inches(16), Inches(2))  # Adjusted vertical position
+ text_frame = text_box.text_frame
+ p = text_frame.add_paragraph()

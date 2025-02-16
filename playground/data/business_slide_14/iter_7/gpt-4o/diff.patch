@@ -1,0 +1,11 @@
+--- ./data/business_slide_14/iter_6/gpt-4o/code.py	2025-02-14 08:28:23.045654533 +0000
++++ ./data/business_slide_14/iter_7/gpt-4o/code.py	2025-02-14 08:28:43.144598763 +0000
+@@ -25,7 +25,7 @@
+ p = text_frame.add_paragraph()
+ p.text = "Innovations (Future Products or Services)"
+ p.font.bold = True  # Changed to bold font
+-p.font.size = Pt(36)  
++p.font.size = Pt(28)  # Changed font size to 28 for better visibility of the artwork
+ p.font.color.rgb = RGBColor(255, 165, 0)  # Changed font color to bold orange
+ 
+ # Save the presentation

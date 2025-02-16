@@ -1,0 +1,29 @@
+--- ./data/social_media_slide_11/iter_0/gpt-4o/code.py	2025-02-14 21:49:18.299336087 +0000
++++ ./data/social_media_slide_11/iter_1/gpt-4o/code.py	2025-02-14 21:49:39.071283421 +0000
+@@ -9,7 +9,7 @@
+ presentation.slide_height = Inches(9)
+ 
+ # Add a blank slide layout
+-slide_layout = presentation.slide_layouts[5] 
++slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+ # Set the slide background color
+@@ -24,7 +24,7 @@
+ title_tf.word_wrap = True
+ p = title_tf.add_paragraph()
+ p.text = "Various Media drive Various forms of Global Integration"
+-p.font.size = Pt(36)
++p.font.size = Pt(44)  # Increased font size
+ p.font.bold = True  # Title is bold
+ p.font.color.rgb = RGBColor(255, 255, 255)
+ p.alignment = PP_ALIGN.CENTER
+@@ -45,7 +45,7 @@
+ subtitle_box.fill.fore_color.rgb = RGBColor(0, 51, 102)
+ 
+ # Add the Content
+-content_box = slide.shapes.add_textbox(Inches(0.5), Inches(3), Inches(15), Inches(5))
++content_box = slide.shapes.add_textbox(Inches(0.5), Inches(3.5), Inches(15), Inches(5))  # Moved down for separation
+ content_tf = content_box.text_frame
+ content_tf.word_wrap = True
+ 

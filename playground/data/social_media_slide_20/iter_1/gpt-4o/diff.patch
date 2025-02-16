@@ -1,0 +1,11 @@
+--- ./data/social_media_slide_20/iter_0/gpt-4o/code.py	2025-02-14 22:29:59.513286511 +0000
++++ ./data/social_media_slide_20/iter_1/gpt-4o/code.py	2025-02-14 22:30:21.791231634 +0000
+@@ -15,7 +15,7 @@
+ background = slide.background
+ fill = background.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(0, 51, 102)  # Dark blue
++fill.fore_color.rgb = RGBColor(0, 32, 96)  # Adjusted to a new shade of blue
+ 
+ # Add a title text box
+ title_text_box = slide.shapes.add_textbox(Inches(1), Inches(1), Inches(14), Inches(1))

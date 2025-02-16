@@ -1,0 +1,1 @@
+Change the font of the text "Thank You!" to a bold, regular weight font and remove the blue line below the text.

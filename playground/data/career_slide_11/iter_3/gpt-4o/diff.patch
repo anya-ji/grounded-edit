@@ -1,0 +1,16 @@
+--- ./data/career_slide_11/iter_2/gpt-4o/code.py	2025-02-14 09:01:18.123737190 +0000
++++ ./data/career_slide_11/iter_3/gpt-4o/code.py	2025-02-14 09:01:40.120717005 +0000
+@@ -52,10 +52,11 @@
+     p_main = content_frame.add_paragraph()
+     p_main.text = main_point
+     
+-    # Check for the specific bullet point to add formatting
++    # Change to white color for consistency
++    p_main.font.color.rgb = RGBColor(255, 255, 255)  # White color for the main point
++
+     if main_point == "Effective Communication":
+         p_main.font.bold = True
+-        p_main.font.color.rgb = RGBColor(0, 255, 0)  # Change to desired color for emphasis
+ 
+     p_main.font.size = Pt(28)
+     p_main.space_after = Pt(10)  # Increased space after main point

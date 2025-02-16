@@ -1,0 +1,1 @@
+Change the layout of the images from rectangles to circles to match the target image's format.

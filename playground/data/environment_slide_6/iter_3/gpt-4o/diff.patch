@@ -1,0 +1,37 @@
+--- ./data/environment_slide_6/iter_2/gpt-4o/code.py	2025-02-14 18:56:10.812169058 +0000
++++ ./data/environment_slide_6/iter_3/gpt-4o/code.py	2025-02-14 18:56:52.104074310 +0000
+@@ -2,6 +2,7 @@
+ from pptx.util import Inches, Pt
+ from pptx.dml.color import RGBColor
+ from pptx.enum.text import PP_ALIGN
++from PIL import Image, ImageEnhance
+ 
+ # Create a presentation object
+ presentation = Presentation()
+@@ -48,9 +49,23 @@
+ content.font.size = Pt(20)
+ content.alignment = PP_ALIGN.LEFT
+ 
+-# Add the sunset image below the texts
++# Modify the image for brightness and saturation
+ image_path = "../../media/image_0.jpg"
+-slide.shapes.add_picture(image_path, Inches(3), Inches(5.5), Inches(10), Inches(3))
++image = Image.open(image_path)
++
++# Increase brightness and saturation
++enhancer = ImageEnhance.Brightness(image)
++image = enhancer.enhance(1.2)  # Increase brightness by 20%
++
++enhancer = ImageEnhance.Color(image)
++image = enhancer.enhance(1.2)  # Increase saturation by 20%
++
++# Save the modified image
++modified_image_path = "../../media/modified_image_0.jpg"
++image.save(modified_image_path)
++
++# Add the modified sunset image below the texts
++slide.shapes.add_picture(modified_image_path, Inches(3), Inches(5.5), Inches(10), Inches(3))
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

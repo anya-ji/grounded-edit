@@ -1,0 +1,1 @@
+Change the text for "Warren Buffett" to uppercase and change the text color to yellow to match the other names in the image.

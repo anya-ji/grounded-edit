@@ -1,0 +1,15 @@
+--- ./data/food_slide_10/iter_4/gpt-4o/code.py	2025-02-14 19:05:04.063919629 +0000
++++ ./data/food_slide_10/iter_5/gpt-4o/code.py	2025-02-14 19:05:38.366837886 +0000
+@@ -81,6 +81,12 @@
+ # Update the first statement to have a checkmark
+ table.cell(0, 1).text = '✓'  # Checkmark for the first statement
+ 
++# Change the background color of the correct answer cell to light blue
++cell = table.cell(1, 0)
++fill = cell.fill
++fill.solid()
++fill.fore_color.rgb = RGBColor(173, 216, 230)  # Light blue background
++
+ # Add Joey's image
+ joey_image_path = "../../media/image_1.jpg"
+ joey_image = slide.shapes.add_picture(joey_image_path, Inches(11), Inches(5.5), height=Inches(2))

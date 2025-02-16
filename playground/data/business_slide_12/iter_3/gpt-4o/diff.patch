@@ -1,0 +1,20 @@
+--- ./data/business_slide_12/iter_2/gpt-4o/code.py	2025-02-14 08:21:22.517902673 +0000
++++ ./data/business_slide_12/iter_3/gpt-4o/code.py	2025-02-14 08:21:47.856821728 +0000
+@@ -15,7 +15,7 @@
+ image_path = "../../media/image_0.jpg"
+ slide.shapes.add_picture(image_path, Inches(0), Inches(0), Inches(16), Inches(9))
+ 
+-# Add title text without duplicate
++# Add title text
+ title_text = "NYC"
+ text_box = slide.shapes.add_textbox(Inches(0), Inches(1), Inches(16), Inches(2))  # Adjusted vertical position
+ text_frame = text_box.text_frame
+@@ -24,7 +24,7 @@
+ p.font.bold = True
+ p.font.size = Pt(72)  # Font size
+ p.font.color.rgb = RGBColor(255, 255, 255)  # White color
+-p.font.name = 'Impact'  # Change font to a bolder style (replace with the distressed font if available)
++p.font.name = 'Impact'  # Change font to a bolder style
+ text_frame.paragraphs[0].alignment = 1  # Center alignment
+ 
+ # Add Airbnb logo

@@ -1,0 +1,1 @@
+Change the background color of the rendered image from light green to a gradient that transitions from dark green to a lighter green to enhance contrast with the text and improve overall vibrancy.

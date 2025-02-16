@@ -1,0 +1,1 @@
+Change the font color of the header from black to a specific shade of blue (e.g., #003DA5) to match the target image.

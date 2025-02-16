@@ -1,0 +1,11 @@
+--- ./data/technology_slide_4/iter_2/gpt-4o/code.py	2025-02-16 02:43:48.517610912 +0000
++++ ./data/technology_slide_4/iter_3/gpt-4o/code.py	2025-02-16 02:44:07.347558591 +0000
+@@ -43,7 +43,7 @@
+ # Add each bullet point as bullet points with checkboxes
+ for bullet in bullet_points:
+     bullet_p = content_frame.add_paragraph()
+-    bullet_p.text = "[ ] " + bullet  # Added checkbox
++    bullet_p.text = "☑ " + bullet  # Changed to checkbox symbol
+     bullet_p.font.size = Pt(24)
+     bullet_p.space_after = Pt(12)
+     bullet_p.level = 0  # Set bullet point level to 0

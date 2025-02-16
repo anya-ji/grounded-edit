@@ -1,0 +1,1 @@
+Add a gradient background to the rendered image, transitioning from light green at the top to a darker green at the bottom, to match the target image more closely.

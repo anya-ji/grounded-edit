@@ -1,0 +1,12 @@
+--- ./data/food_slide_12/iter_7/gpt-4o/code.py	2025-02-14 19:10:27.120186015 +0000
++++ ./data/food_slide_12/iter_8/gpt-4o/code.py	2025-02-14 19:10:46.938143009 +0000
+@@ -47,5 +47,8 @@
+ left_paragraph.font.size = Pt(20)
+ left_paragraph.font.color.rgb = RGBColor(255, 255, 255)  # white
+ 
++# Adjust the caption position to directly beneath the image
++caption_box.top = Inches(6)  # Move caption directly beneath the image
++
+ # Save presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

@@ -1,0 +1,14 @@
+--- ./data/design_slide_3/iter_7/gpt-4o/code.py	2025-02-14 18:20:21.702746231 +0000
++++ ./data/design_slide_3/iter_8/gpt-4o/code.py	2025-02-14 18:20:57.047644935 +0000
+@@ -7,9 +7,9 @@
+ image_path = "../../media/image_0.jpg"
+ image = Image.open(image_path)
+ 
+-# Reduce saturation
++# Increase saturation
+ enhancer = ImageEnhance.Color(image)
+-image = enhancer.enhance(0.5)  # Decrease saturation
++image = enhancer.enhance(1.5)  # Increase saturation to 1.5 for more vibrant colors
+ 
+ # Increase contrast
+ enhancer = ImageEnhance.Contrast(image)

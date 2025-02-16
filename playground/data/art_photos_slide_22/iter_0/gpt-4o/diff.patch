@@ -1,0 +1,15 @@
+--- ./data/art_photos_slide_22/init/code.py	2025-02-14 06:46:11.699157636 +0000
++++ ./data/art_photos_slide_22/iter_0/gpt-4o/code.py	2025-02-14 07:41:19.099608883 +0000
+@@ -12,6 +12,12 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
++# Set background color to a light color
++background = slide.background
++fill = background.fill
++fill.solid()
++fill.fore_color.rgb = RGBColor(255, 255, 204)  # Light yellow background
++
+ # Add background image
+ image_path = "../../media/image_0.jpg"
+ slide.shapes.add_picture(image_path, 0, 0, presentation.slide_width, presentation.slide_height)

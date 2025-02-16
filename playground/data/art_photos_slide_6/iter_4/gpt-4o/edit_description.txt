@@ -1,0 +1,1 @@
+Change the background color of the rendered image from light blue to the swirling brushstroke pattern seen in the target image.

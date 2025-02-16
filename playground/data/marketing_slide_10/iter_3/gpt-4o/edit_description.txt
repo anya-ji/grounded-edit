@@ -1,0 +1,1 @@
+Change the background color of the rendered image to a dark-blue gradient, similar to that of the target image, to create a closer visual match.

@@ -1,0 +1,12 @@
+--- ./data/art_photos_slide_17/iter_3/gpt-4o/code.py	2025-02-14 07:08:13.565213128 +0000
++++ ./data/art_photos_slide_17/iter_4/gpt-4o/code.py	2025-02-14 07:08:35.580153228 +0000
+@@ -51,7 +51,7 @@
+ p_content = text_frame_content.add_paragraph()
+ p_content.text = "✓ The content of art is the meaning, message, and/or feeling imparted by a work of art."
+ p_content.font.size = Pt(24)
+-p_content.font.color.rgb = RGBColor(0, 0, 0)  # Black text
++p_content.font.color.rgb = RGBColor(0, 0, 0)  # Change to black text
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

@@ -1,0 +1,24 @@
+--- ./data/art_photos_slide_25/iter_2/gpt-4o/code.py	2025-02-14 07:50:15.793347994 +0000
++++ ./data/art_photos_slide_25/iter_3/gpt-4o/code.py	2025-02-14 07:50:47.686269606 +0000
+@@ -13,14 +13,18 @@
+ image_path = "../../media/image_0.jpg"
+ slide.shapes.add_picture(image_path, Inches(0), Inches(0), Inches(16), Inches(9))
+ 
+-# Add title with darker yellow background
++# Add title with gradient background
+ title_box = slide.shapes.add_textbox(Inches(1), Inches(0.3), Inches(14), Inches(1))
+ title_frame = title_box.text_frame
+ title_frame.word_wrap = True
+ 
+ title_fill = title_box.fill
+-title_fill.solid()
+-title_fill.fore_color.rgb = RGBColor(255, 255, 153)  # Adjusted to slightly darker yellow
++title_fill.gradient()
++stops = title_fill.gradient_stops
++stops[0].position = 0.0
++stops[0].color.rgb = RGBColor(255, 0, 0)  # Red
++stops[1].position = 1.0
++stops[1].color.rgb = RGBColor(255, 255, 0)  # Yellow
+ 
+ p = title_frame.add_paragraph()
+ p.text = "References:"

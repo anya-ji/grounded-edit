@@ -1,0 +1,1 @@
+Change the stressed words in the rendered image to be highlighted in bold red to match the target image's emphasis.

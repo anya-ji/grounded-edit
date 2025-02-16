@@ -1,0 +1,1 @@
+Adjust the left margin of the bullet points in the rendered image to match the alignment and spacing of the target image, creating a uniform layout for better readability.

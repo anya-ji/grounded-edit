@@ -1,0 +1,1 @@
+Decrease the font size of the "PROFESSIONAL WORLD" header to match the font size of the "ACADEMIC WORLD" header for consistent formatting.

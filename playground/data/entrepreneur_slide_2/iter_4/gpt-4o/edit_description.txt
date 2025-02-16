@@ -1,0 +1,1 @@
+Add a yellow highlighted vertical bar on the left side of the rendered image to match the visual style of the target image.

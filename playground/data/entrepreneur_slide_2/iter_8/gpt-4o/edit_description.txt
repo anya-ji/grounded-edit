@@ -1,0 +1,1 @@
+Increase the font size of the title "Content" in the rendered image to match the size in the target image and add a solid yellow left accent to enhance visibility.

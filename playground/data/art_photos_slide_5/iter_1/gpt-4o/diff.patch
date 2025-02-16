@@ -1,0 +1,13 @@
+--- ./data/art_photos_slide_5/iter_0/gpt-4o/code.py	2025-02-14 07:56:47.077407798 +0000
++++ ./data/art_photos_slide_5/iter_1/gpt-4o/code.py	2025-02-14 07:57:15.214341597 +0000
+@@ -39,8 +39,8 @@
+ p_title.font.color.rgb = RGBColor(0, 0, 0)  # Black
+ p_title.alignment = PP_ALIGN.CENTER
+ 
+-# Add the main content
+-content_box = slide.shapes.add_textbox(Inches(1), Inches(3.5), Inches(14), Inches(4))
++# Add the main content with extended width
++content_box = slide.shapes.add_textbox(Inches(1), Inches(3.5), Inches(14), Inches(5))  # Increased height
+ content_box.fill.solid()
+ content_box.fill.fore_color.rgb = RGBColor(255, 255, 255)  # White
+ tf_content = content_box.text_frame

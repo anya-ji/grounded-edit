@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: The target image features text checkboxes that are filled in with a bold title "Origin of Blockchain Technology" followed by several bullet points with solid circles next to them.
+2. Description of Rendered Image: The rendered image shows the same title but has hollow checkboxes that are unfilled next to each bullet point, giving a less complete appearance.
+3. Change Suggestion: Change the checkbox style from hollow to filled for each bullet point in the rendered image to match the target image.
+```

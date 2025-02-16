@@ -1,0 +1,1 @@
+Change the positioning of the text "AND" to be non-existent in the title. Instead, ensure "ACADEMIC WORLD AND PROFESSIONAL WORLD" is separated clearly from "DEMANDS AND CHARACTERISTICS" in a standard font color without excess stylization.

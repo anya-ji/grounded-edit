@@ -1,0 +1,1 @@
+Adjust the layout to ensure proper alignment of text boxes for "PART 2" and "PART 3", creating clear separation with adequate spacing and consistent font size.

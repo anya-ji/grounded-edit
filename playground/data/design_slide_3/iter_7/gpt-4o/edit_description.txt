@@ -1,0 +1,1 @@
+Reduce the color saturation of the rendered image to match the target image's contrast and sharpen the edges around the eye to enhance clarity and define the details better.

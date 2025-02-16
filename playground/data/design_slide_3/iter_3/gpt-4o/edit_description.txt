@@ -1,0 +1,1 @@
+Change the font color from yellow to white to improve text readability against the colorful background.

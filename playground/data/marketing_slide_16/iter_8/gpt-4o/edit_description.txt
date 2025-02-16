@@ -1,0 +1,1 @@
+Adjust the positioning of the "Marketing" label on the left side to remove any overlap with the "Sales" label, ensuring it is correctly located in the funnel without interfering with the "Sales" label.

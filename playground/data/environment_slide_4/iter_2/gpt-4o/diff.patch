@@ -1,0 +1,13 @@
+--- ./data/environment_slide_4/iter_1/gpt-4o/code.py	2025-02-14 18:49:31.267054239 +0000
++++ ./data/environment_slide_4/iter_2/gpt-4o/code.py	2025-02-14 18:49:51.000012284 +0000
+@@ -24,8 +24,8 @@
+ width = Inches(10)
+ height = Inches(6)
+ text_box = slide.shapes.add_textbox(left, top, width, height)
+-text_box.fill.solid()
+-text_box.fill.fore_color.rgb = RGBColor(255, 255, 255)  # white
++text_box.fill.solid()  # Ensure the fill is solid
++text_box.fill.fore_color.rgb = RGBColor(255, 255, 255)  # white background
+ 
+ # Add title text
+ text_frame = text_box.text_frame

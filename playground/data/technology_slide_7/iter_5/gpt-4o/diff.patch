@@ -1,0 +1,36 @@
+--- ./data/technology_slide_7/iter_4/gpt-4o/code.py	2025-02-16 02:53:35.819017225 +0000
++++ ./data/technology_slide_7/iter_5/gpt-4o/code.py	2025-02-16 02:54:17.232906861 +0000
+@@ -2,6 +2,7 @@
+ from pptx.util import Inches, Pt
+ from pptx.enum.text import PP_ALIGN
+ from pptx.dml.color import RGBColor
++from PIL import Image, ImageEnhance
+ 
+ # Create presentation
+ presentation = Presentation()
+@@ -51,9 +52,22 @@
+     # Adjust line spacing for readability
+     p.space_before = Pt(5)  # Add space before each bullet point
+ 
+-# Image
++# Image processing
+ image_path = "../../media/image_0.jpg"
+-slide.shapes.add_picture(image_path, Inches(11), Inches(2), Inches(4), Inches(4))
++image = Image.open(image_path)
++
++# Enhance brightness and contrast
++enhancer_brightness = ImageEnhance.Brightness(image)
++image = enhancer_brightness.enhance(1.2)  # Adjust brightness factor as needed
++enhancer_contrast = ImageEnhance.Contrast(image)
++image = enhancer_contrast.enhance(1.3)  # Adjust contrast factor as needed
++
++# Save modified image temporarily
++modified_image_path = "../../media/modified_image.jpg"
++image.save(modified_image_path)
++
++# Add modified image to slide
++slide.shapes.add_picture(modified_image_path, Inches(11), Inches(2), Inches(4), Inches(4))
+ 
+ # Save presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

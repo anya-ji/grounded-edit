@@ -1,0 +1,1 @@
+Change the background color of the rendered image from dark green to a light green to match the target image.

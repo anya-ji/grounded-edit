@@ -1,0 +1,1 @@
+Change the background color of the rendered image to dark blue (#001F3F) and the title text color to white (#FFFFFF) to match the target image.

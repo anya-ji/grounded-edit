@@ -1,0 +1,1 @@
+Decrease the sharpness of the rendered image to match the softer focus of the target image, creating a more cohesive appearance with the background elements.

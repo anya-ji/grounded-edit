@@ -1,0 +1,13 @@
+--- ./data/marketing_slide_16/iter_0/gpt-4o/code.py	2025-02-14 20:28:38.339074102 +0000
++++ ./data/marketing_slide_16/iter_1/gpt-4o/code.py	2025-02-14 20:29:02.032016641 +0000
+@@ -41,8 +41,8 @@
+ p_marketing.font.size = Pt(24)   # Adjust size as needed
+ p_marketing.font.color.rgb = RGBColor(255, 0, 0)  # Red color, adjust as needed
+ 
+-# Add "Sales" with styling
+-sales_box = slide.shapes.add_textbox(Inches(0.5), Inches(4), Inches(2), Inches(1))
++# Add "Sales" with new positioning
++sales_box = slide.shapes.add_textbox(Inches(7.5), Inches(2.5), Inches(2), Inches(1))  # Modified position
+ sales_frame = sales_box.text_frame
+ p_sales = sales_frame.add_paragraph()
+ p_sales.text = "Sales"

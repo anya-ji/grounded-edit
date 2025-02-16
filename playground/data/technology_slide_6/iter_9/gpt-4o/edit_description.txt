@@ -1,0 +1,1 @@
+Modify the rendered image by removing the checkmarks from the first three items in the list to match the target image.

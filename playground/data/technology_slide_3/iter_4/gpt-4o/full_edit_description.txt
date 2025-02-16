@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: A slide titled "Origin of Blockchain Technology" with unmarked checkboxes next to each statement.
+2. Description of Rendered Image: A slide titled "Origin of Blockchain Technology" with checked checkboxes next to each statement.
+3. Change Suggestion: Replace all checked checkboxes with unmarked checkboxes to match the target image.
+```

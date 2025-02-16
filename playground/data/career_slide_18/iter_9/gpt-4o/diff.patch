@@ -1,0 +1,40 @@
+--- ./data/career_slide_18/iter_8/gpt-4o/code.py	2025-02-14 09:39:23.330774634 +0000
++++ ./data/career_slide_18/iter_9/gpt-4o/code.py	2025-02-14 09:39:42.999721369 +0000
+@@ -17,33 +17,15 @@
+ fill.solid()
+ fill.fore_color.rgb = RGBColor(30, 30, 30)  # Dark background
+ 
+-# Add main title with adjusted spacing
+-title_text = "ACADEMIC      WORLD        AND        PROFESSIONAL          WORLD"
++# Add main title without "AND"
++title_text = "ACADEMIC WORLD AND PROFESSIONAL WORLD"
+ title_box = slide.shapes.add_textbox(Inches(0.5), Inches(0.5), Inches(15), Inches(1))
+ title_frame = title_box.text_frame
+ title_frame.word_wrap = True
+ title_paragraph = title_frame.add_paragraph()
+ title_paragraph.text = title_text
+-
+-# Split title into parts to have different sizes
+-academic_world = title_frame.add_paragraph()
+-academic_world.text = "ACADEMIC WORLD"
+-academic_world.font.size = Pt(58)  # Larger font size for emphasis
+-academic_world.font.bold = True
+-academic_world.font.color.rgb = RGBColor(255, 255, 255)  # White color
+-
+-professional_world = title_frame.add_paragraph()
+-professional_world.text = "PROFESSIONAL WORLD"
+-professional_world.font.size = Pt(58)  # Larger font size for emphasis
+-professional_world.font.bold = True
+-professional_world.font.color.rgb = RGBColor(255, 255, 255)  # White color
+-
+-# Adjust the "AND" paragraph to match the size and positioning
+-and_paragraph = title_frame.add_paragraph()
+-and_paragraph.text = "AND"
+-and_paragraph.font.size = Pt(58)  # Adjusted size to match other elements
+-and_paragraph.font.color.rgb = RGBColor(255, 255, 255)  # White color
+-and_paragraph.font.bold = True  # Set bold to true for uniformity
++title_paragraph.font.size = Pt(58)  # Standard font size
++title_paragraph.font.color.rgb = RGBColor(255, 255, 255)  # White color
+ 
+ # Adjust line spacing for title
+ title_paragraph.space_after = Pt(10)  # Set desired spacing after the title

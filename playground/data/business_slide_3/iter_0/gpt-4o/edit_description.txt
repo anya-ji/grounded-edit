@@ -1,0 +1,1 @@
+Remove the extra white space on the left side of the rendered image to align with the target image's composition.

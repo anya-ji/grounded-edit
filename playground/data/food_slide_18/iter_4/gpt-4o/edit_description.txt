@@ -1,0 +1,1 @@
+Add a background color to the dialogue text of each character, similar to the target image, to enhance readability and visually separate the speech from the background.

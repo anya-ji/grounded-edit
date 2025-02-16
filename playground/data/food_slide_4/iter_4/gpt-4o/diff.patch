@@ -1,0 +1,14 @@
+--- ./data/food_slide_4/iter_3/gpt-4o/code.py	2025-02-14 19:59:18.107322578 +0000
++++ ./data/food_slide_4/iter_4/gpt-4o/code.py	2025-02-14 20:00:01.375219837 +0000
+@@ -80,5 +80,10 @@
+ image_path = "../../media/image_0.jpg"
+ slide.shapes.add_picture(image_path, Inches(14), Inches(3), Inches(2), Inches(2))
+ 
++# Add a decorative element on the right side
++decorative_shape = slide.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, Inches(14), Inches(4), Inches(1.5), Inches(1))
++decorative_shape.fill.solid()
++decorative_shape.fill.fore_color.rgb = RGBColor(255, 223, 186)  # Light color for decorative element
++
+ # Save presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

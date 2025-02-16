@@ -1,0 +1,1 @@
+Change the background color of the rendered image to a dark shade similar to the target image to enhance text visibility and create a cohesive look.

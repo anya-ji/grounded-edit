@@ -1,0 +1,1 @@
+Change the background of the rendered image to solid white to enhance readability and make it more closely match the target image.

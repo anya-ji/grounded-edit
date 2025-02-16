@@ -1,0 +1,43 @@
+--- ./data/career_slide_5/iter_3/gpt-4o/code.py	2025-02-14 09:52:01.100871913 +0000
++++ ./data/career_slide_5/iter_4/gpt-4o/code.py	2025-02-14 09:52:30.627801580 +0000
+@@ -30,18 +30,18 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set background color to a darker shade
++# Set background color to a lighter shade
+ background = slide.background
+ fill = background.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(0, 0, 0)  # Keep it black or adjust to desired dark shade
++fill.fore_color.rgb = RGBColor(240, 240, 240)  # Changed to a light gray for better visibility
+ 
+ # Add title
+ title = slide.shapes.add_textbox(Inches(0), Inches(0), Inches(16), Inches(1))
+ title.text_frame.text = "KEY REASONS WHY ACADEMIC SUCCESS IS IMPORTANT IN SOCIETY"
+ title.text_frame.paragraphs[0].font.size = Pt(34)
+ title.text_frame.paragraphs[0].font.bold = True
+-title.text_frame.paragraphs[0].font.color.rgb = RGBColor(255, 255, 255)
++title.text_frame.paragraphs[0].font.color.rgb = RGBColor(0, 0, 0)  # Changed text color to black for contrast
+ title.text_frame.paragraphs[0].alignment = 1  # Center alignment
+ 
+ # Define layouts
+@@ -87,7 +87,7 @@
+     p.text = section['title']
+     p.font.size = Pt(20)
+     p.font.bold = True
+-    p.font.color.rgb = RGBColor(255, 255, 0)
++    p.font.color.rgb = RGBColor(255, 0, 0)  # Keeping it distinct, changed to red for better visibility
+ 
+     # Add content
+     text_box = slide.shapes.add_textbox(section['left'], Inches(5 + section.get('top_spacing', 0)), layout_width, text_box_height)
+@@ -95,7 +95,7 @@
+     p = tf.add_paragraph()
+     p.text = section['content']
+     p.font.size = Pt(16)
+-    p.font.color.rgb = RGBColor(255, 255, 255)
++    p.font.color.rgb = RGBColor(0, 0, 0)  # Changed text color to black for contrast
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: A quiz interface showing statements about characters with a selection option for true, false, or not given.
+2. Description of Rendered Image: A quiz interface displaying a statement highlighting it and the corresponding answer options, with a visible character image on the side.
+3. Change Suggestion: Change the color of the statement "Phoebe sarcastically says that Sarah is a monster for her etiquette." from blue to bold black.
+```

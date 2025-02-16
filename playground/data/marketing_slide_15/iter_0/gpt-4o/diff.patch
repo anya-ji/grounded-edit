@@ -1,0 +1,18 @@
+--- ./data/marketing_slide_15/init/code.py	2025-02-14 06:46:11.563158123 +0000
++++ ./data/marketing_slide_15/iter_0/gpt-4o/code.py	2025-02-14 20:25:48.637486673 +0000
+@@ -12,11 +12,12 @@
+ slide_layout = presentation.slide_layouts[5]  # blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set a gradient background with dark green tones
++# Set a gradient background with teal tones
+ background = slide.background
+ fill = background.fill
+-fill.solid()
+-fill.fore_color.rgb = RGBColor(0, 51, 25)  # dark green
++fill.gradient()
++fill.gradient_stops[0].color.rgb = RGBColor(0, 128, 128)  # dark teal
++fill.gradient_stops[1].color.rgb = RGBColor(0, 255, 255)  # light cyan
+ 
+ # Insert the graphic on the left side
+ image_path = "../../media/image_0.jpg"

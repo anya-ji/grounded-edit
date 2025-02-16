@@ -1,0 +1,16 @@
+--- ./data/social_media_slide_2/iter_8/gpt-4o/code.py	2025-02-14 22:29:16.148393333 +0000
++++ ./data/social_media_slide_2/iter_9/gpt-4o/code.py	2025-02-14 22:29:39.279336354 +0000
+@@ -65,5 +65,12 @@
+ culture_box.line.color.rgb = RGBColor(0, 0, 0)  # Set border color to black
+ culture_box.line.width = Pt(1)  # Set border width
+ 
++# Change the background of the Media and Culture textboxes to white
++media_box.fill.solid()
++media_box.fill.fore_color.rgb = RGBColor(255, 255, 255)  # Set background of media box to white
++
++culture_box.fill.solid()
++culture_box.fill.fore_color.rgb = RGBColor(255, 255, 255)  # Set background of culture box to white
++
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

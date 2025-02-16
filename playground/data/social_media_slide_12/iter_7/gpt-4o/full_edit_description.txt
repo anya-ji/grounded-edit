@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: The text is presented in a visually appealing format with clear separation between the title and the content, including bold formatting and consistent alignment.
+2. Description of Rendered Image: The text is displayed in a less aesthetically pleasing manner, with inconsistent formatting, missing bold styling for the title, and some alignment issues that make it look cluttered.
+3. Change Suggestion: Apply bold formatting to the title "3 Factors that have affected the process of Economic Globalization" and ensure consistent alignment across the entire text.
+```

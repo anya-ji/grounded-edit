@@ -1,0 +1,1 @@
+Change the text color of the "PROFESSIONAL WORLD" heading from blue to yellow for better contrast and consistency with the target image.

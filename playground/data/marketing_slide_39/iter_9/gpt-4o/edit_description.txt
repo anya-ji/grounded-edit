@@ -1,0 +1,1 @@
+Remove the text overlay and replace the background with a light gradient similar to the target image.

@@ -1,0 +1,1 @@
+Change the color of the text boxes from black to dark gray to match the target image's contrast and enhance visibility.

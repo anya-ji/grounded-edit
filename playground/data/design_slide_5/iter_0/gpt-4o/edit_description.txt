@@ -1,0 +1,1 @@
+Change the title text color from bold blue to white to match the target image.

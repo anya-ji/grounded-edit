@@ -1,0 +1,21 @@
+--- ./data/social_media_slide_14/iter_6/gpt-4o/code.py	2025-02-14 22:07:36.649597663 +0000
++++ ./data/social_media_slide_14/iter_7/gpt-4o/code.py	2025-02-14 22:07:59.741540599 +0000
+@@ -25,7 +25,7 @@
+ content_text = [
+     ("Electronic media allowed opportunities to spread all over the world.", True),
+     ("Radio and Television is a powerful mass medium in providing accessible information for people.", True),
+-    ("Digital media through phone and computers allows people to access information from around the world.", False)
++    ("Digital media through phone and computers allows people to access information from around the world.", False)  # Updated single sentence
+ ]
+ 
+ left = Inches(1)
+@@ -44,9 +44,6 @@
+     if is_bold:
+         p.font.bold = True  # Apply bold formatting
+ 
+-# Remove duplicate last sentence
+-# last_paragraph = content_frame.add_paragraph()  # This was removed
+-
+ # Add image
+ image_path = "../../media/image_0.jpg"
+ slide.shapes.add_picture(image_path, Inches(10), Inches(2.5), Inches(5), Inches(5))

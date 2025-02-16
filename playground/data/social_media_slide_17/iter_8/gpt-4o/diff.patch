@@ -1,0 +1,29 @@
+--- ./data/social_media_slide_17/iter_7/gpt-4o/code.py	2025-02-14 22:16:23.369297672 +0000
++++ ./data/social_media_slide_17/iter_8/gpt-4o/code.py	2025-02-14 22:16:57.869212606 +0000
+@@ -37,9 +37,11 @@
+ content_text = (
+     "Global flows of culture tend to move more easily around the globe than ever before, "
+     "especially through non-material digital forms.\n\n"
+-    "There are three perspectives on global cultural flows:\n"
+ )
+ 
++# Adding the new phrase above the list items
++perspective_text = "There are three perspectives on global cultural flows:\n"
++
+ bullet_points = [
+     "Cultural differentialism",
+     "Hybridization",
+@@ -59,6 +61,13 @@
+ p.font.size = Pt(28)
+ p.font.color.rgb = RGBColor(0, 0, 0)  # Black text
+ 
++# Adding the new phrase
++p = content_frame.add_paragraph()
++p.text = perspective_text
++p.font.size = Pt(28)
++p.font.color.rgb = RGBColor(0, 0, 0)  # Black text
++p.space_after = Pt(14)  # Adjust line spacing
++
+ # Adding bullet points
+ for point in bullet_points:
+     p = content_frame.add_paragraph()

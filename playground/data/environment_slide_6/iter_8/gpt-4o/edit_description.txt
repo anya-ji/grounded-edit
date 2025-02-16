@@ -1,0 +1,1 @@
+Adjust the aspect ratio of the landscape image to match the dimensions used in the target image to avoid distortion.

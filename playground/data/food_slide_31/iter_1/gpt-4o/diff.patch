@@ -1,0 +1,16 @@
+--- ./data/food_slide_31/iter_0/gpt-4o/code.py	2025-02-14 19:53:19.739172111 +0000
++++ ./data/food_slide_31/iter_1/gpt-4o/code.py	2025-02-14 19:53:38.686127277 +0000
+@@ -12,11 +12,11 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set slide background color
++# Set slide background color to light blue
+ background = slide.background
+ fill = background.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(255, 204, 204)  # Softer vibrant background
++fill.fore_color.rgb = RGBColor(173, 216, 230)  # Light blue background
+ 
+ # Add title with speech bubble graphic
+ title = slide.shapes.add_textbox(Inches(1), Inches(0.5), Inches(10), Inches(1))

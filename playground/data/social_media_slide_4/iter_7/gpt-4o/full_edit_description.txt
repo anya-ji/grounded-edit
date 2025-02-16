@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: The target image features a title "5 Stages of Development of Media" with the subtitle "1. ORAL COMMUNICATION" and a list of points. The visual is bright and includes stylized illustrations of people engaging in conversation with multiple speech bubbles above them.
+2. Description of Rendered Image: The rendered image also displays the same title and subtitle, but the subtitle is in a different font (bold) and the spacing between the text and the illustration is reduced, making it feel cramped. The speech bubbles are similarly colored but lack some patterns present in the target image.
+3. Change Suggestion: Change the font style of the subtitle "1. ORAL COMMUNICATION" to match the font style used in the target image, and increase the spacing between the text and the illustration to provide better visual balance.
+```

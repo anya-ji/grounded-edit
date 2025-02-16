@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: The target image features a title "The Technology used in Blockchain" with a list of technologies depicted in checkboxes. The text and checkbox items are well-defined and the overall layout is clean with a dark background.
+2. Description of Rendered Image: The rendered image has the same title and list, but the text is bolder and the layout is slightly misaligned. The color contrast and spacing between the items are different from the target image, and it has a white background, making it look less cohesive.
+3. Change Suggestion: Change the background color of the rendered image to dark purple to match the target image.
+```

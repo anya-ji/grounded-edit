@@ -1,0 +1,1 @@
+Increase the line spacing between the bullet points and headings to match the spacing in the target image for improved readability and consistency.

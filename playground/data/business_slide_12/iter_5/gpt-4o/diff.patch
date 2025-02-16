@@ -1,0 +1,11 @@
+--- ./data/business_slide_12/iter_4/gpt-4o/code.py	2025-02-14 08:22:11.863745889 +0000
++++ ./data/business_slide_12/iter_5/gpt-4o/code.py	2025-02-14 08:22:40.578656210 +0000
+@@ -24,7 +24,7 @@
+ p.font.bold = True
+ p.font.size = Pt(72)  # Font size
+ p.font.color.rgb = RGBColor(255, 255, 255)  # White color
+-p.font.name = 'Impact'  # Change font to a bolder style
++p.font.name = 'Arial'  # Change font to a more uniform style
+ text_frame.paragraphs[0].alignment = 1  # Center alignment
+ 
+ # Add Airbnb logo

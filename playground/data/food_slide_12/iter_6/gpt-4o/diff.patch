@@ -1,0 +1,17 @@
+--- ./data/food_slide_12/iter_5/gpt-4o/code.py	2025-02-14 19:09:49.367267451 +0000
++++ ./data/food_slide_12/iter_6/gpt-4o/code.py	2025-02-14 19:10:08.188226935 +0000
+@@ -31,7 +31,13 @@
+ image_path = "../../media/image_0.jpg"
+ slide.shapes.add_picture(image_path, Inches(9), Inches(2), height=Inches(4))
+ 
+-# Removed the duplicate title
++# Add text caption below image
++caption_box = slide.shapes.add_textbox(Inches(9), Inches(6), Inches(2), Inches(0.5))  # Centered below the image
++caption_frame = caption_box.text_frame
++caption_paragraph = caption_frame.add_paragraph()
++caption_paragraph.text = "Ha, ha. No."
++caption_paragraph.font.size = Pt(20)
++caption_paragraph.font.color.rgb = RGBColor(255, 255, 255)  # white
+ 
+ # Add text on the left side
+ left_text_box = slide.shapes.add_textbox(Inches(0.5), Inches(3), Inches(4), Inches(1))

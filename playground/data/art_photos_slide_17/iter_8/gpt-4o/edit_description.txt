@@ -1,0 +1,1 @@
+Change the title background from yellow to gold to match the target image and center-align the bullet point text for consistency.

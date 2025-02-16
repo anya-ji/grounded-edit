@@ -1,0 +1,1 @@
+Remove the white box around the list items to allow the text to flow more naturally with the blue background and improve overall readability.

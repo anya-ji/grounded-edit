@@ -1,0 +1,37 @@
+--- ./data/technology_slide_4/iter_0/gpt-4o/code.py	2025-02-16 02:43:14.058706962 +0000
++++ ./data/technology_slide_4/iter_1/gpt-4o/code.py	2025-02-16 02:43:29.526663797 +0000
+@@ -24,15 +24,15 @@
+ title_p.font.bold = True
+ title_p.alignment = PP_ALIGN.CENTER
+ 
+-# Content text
++# Content text without trailing periods
+ content_text = (
+-    "Private Blockchain Networks: Private blockchains operate on closed networks, and tend to work well for private businesses and organizations.\n"
+-    "Public Blockchain Networks: Bitcoin and other cryptocurrencies originated from public blockchains, which also played a role in popularizing distributed ledger technology (DLT).\n"
+-    "Permissioned Blockchain Networks: Also sometimes known as hybrid blockchains, permissioned blockchain networks are private blockchains that allow special access for authorized individuals.\n"
+-    "Hybrid Blockchains: Hybrid blockchains are the combination of both public and private blockchains. In a hybrid blockchain, some parts of the blockchain are public and transparent, while others are private and accessible only to authorized and specific participants."
++    "Private Blockchain Networks: Private blockchains operate on closed networks, and tend to work well for private businesses and organizations\n"
++    "Public Blockchain Networks: Bitcoin and other cryptocurrencies originated from public blockchains, which also played a role in popularizing distributed ledger technology (DLT)\n"
++    "Permissioned Blockchain Networks: Also sometimes known as hybrid blockchains, permissioned blockchain networks are private blockchains that allow special access for authorized individuals\n"
++    "Hybrid Blockchains: Hybrid blockchains are the combination of both public and private blockchains. In a hybrid blockchain, some parts of the blockchain are public and transparent, while others are private and accessible only to authorized and specific participants"
+ )
+ 
+-# Add content as bullet points
++# Add content as bullet points with checkboxes
+ content_box = slide.shapes.add_textbox(Inches(1), Inches(2), Inches(14), Inches(6.5))
+ content_frame = content_box.text_frame
+ content_frame.word_wrap = True
+@@ -40,10 +40,10 @@
+ # Split content into individual bullet points
+ bullet_points = content_text.split("\n")
+ 
+-# Add each bullet point as bullet points instead of numbered
++# Add each bullet point as bullet points with checkboxes
+ for bullet in bullet_points:
+     bullet_p = content_frame.add_paragraph()
+-    bullet_p.text = bullet
++    bullet_p.text = "[ ] " + bullet  # Added checkbox
+     bullet_p.font.size = Pt(24)
+     bullet_p.font.underline = True if ':' in bullet else False  # Underline topic
+     bullet_p.space_after = Pt(12)

@@ -1,0 +1,1 @@
+Change the title font color from dark blue to black to improve readability and visually balance it with the image on the right.

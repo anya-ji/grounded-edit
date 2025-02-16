@@ -1,0 +1,1 @@
+Change the color of the text "PEOPLE + PLACES + LOVE + AIRBNB = Bélo" from light red to dark green to match the color used in the target image.

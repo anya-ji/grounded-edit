@@ -1,0 +1,16 @@
+--- ./data/career_slide_13/iter_3/gpt-4o/code.py	2025-02-14 09:10:33.609985134 +0000
++++ ./data/career_slide_13/iter_4/gpt-4o/code.py	2025-02-14 09:11:08.907925497 +0000
+@@ -64,10 +64,9 @@
+     p.text = f"• {title}"
+     p.font.size = Pt(24)
+     p.font.bold = True
+-    if title in ["Health and Wellness", "Digital Literacy", "Conflict Resolution"]:
+-        p.font.color.rgb = RGBColor(255, 223, 0)  # change to warm yellow
+-    else:
+-        p.font.color.rgb = RGBColor(255, 223, 0)  # keep warm yellow for Networking and Relationship Building
++    p.font.color.rgb = RGBColor(255, 223, 0)  # change to warm yellow
++    # Highlight with yellow
++    p.font.highlight_color = RGBColor(255, 255, 0)  # yellow highlight
+ 
+     # Content without indentation
+     p = text_frame.add_paragraph()

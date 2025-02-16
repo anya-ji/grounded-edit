@@ -1,0 +1,12 @@
+--- ./data/social_media_slide_14/init/code.py	2025-02-14 06:46:11.955156720 +0000
++++ ./data/social_media_slide_14/iter_0/gpt-4o/code.py	2025-02-14 22:05:42.727879322 +0000
+@@ -44,7 +44,7 @@
+ 
+ # Add image
+ image_path = "../../media/image_0.jpg"
+-slide.shapes.add_picture(image_path, Inches(10.5), Inches(2.5), Inches(4), Inches(4))
++slide.shapes.add_picture(image_path, Inches(10), Inches(2.5), Inches(5), Inches(5))
+ 
+ # Save presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

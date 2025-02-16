@@ -1,0 +1,1 @@
+Apply a gradient overlay from a deep green to a lighter green in the background of the rendered image to closely match the target image.

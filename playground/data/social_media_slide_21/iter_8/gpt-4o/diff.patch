@@ -1,0 +1,29 @@
+--- ./data/social_media_slide_21/iter_7/gpt-4o/code.py	2025-02-16 02:08:57.511496143 +0000
++++ ./data/social_media_slide_21/iter_8/gpt-4o/code.py	2025-02-16 02:09:11.146464358 +0000
+@@ -19,11 +19,20 @@
+ text_box = slide.shapes.add_textbox(Inches(4), Inches(3.5), Inches(8), Inches(2))
+ text_frame = text_box.text_frame
+ text_frame.text = text
+-text_frame.paragraphs[0].font.bold = True
+-text_frame.paragraphs[0].font.size = Pt(100)  # Increased font size
+-text_frame.paragraphs[0].font.color.rgb = RGBColor(0, 51, 102) # Dark Blue
+-text_frame.paragraphs[0].font.name = 'Arial' # Changed font to a simpler style
+-text_frame.paragraphs[0].alignment = PP_ALIGN.CENTER
++p = text_frame.paragraphs[0]
++p.font.bold = True
++p.font.size = Pt(100)  # Increased font size
++p.font.color.rgb = RGBColor(0, 51, 102)  # Dark Blue
++p.font.name = 'Arial'  # Changed font to a simpler style
++p.alignment = PP_ALIGN.CENTER
++
++# Adjust vertical alignment of the last character (exclamation mark)
++run = p.add_run()
++run.text = "!"
++run.font.size = Pt(100)  # Match the size of the main text
++run.font.color.rgb = RGBColor(0, 51, 102)  # Dark Blue
++run.font.name = 'Arial'  # Changed font to a simpler style
++run.font.bold = True
+ 
+ # Save the slide to the specified path
+ presentation.save("render.pptx")
+\ No newline at end of file

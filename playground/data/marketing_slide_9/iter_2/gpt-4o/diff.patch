@@ -1,0 +1,17 @@
+--- ./data/marketing_slide_9/iter_1/gpt-4o/code.py	2025-02-14 21:43:06.024293536 +0000
++++ ./data/marketing_slide_9/iter_2/gpt-4o/code.py	2025-02-14 21:43:30.472229658 +0000
+@@ -38,10 +38,10 @@
+ 
+ # Define step details
+ steps = [
+-    ("Step 1: Producer", "• Goods are produced in large factories or farms.", RGBColor(255, 165, 0)),
+-    ("Step 2: Wholesale", "• Wholesalers buy goods in large quantity from factories or farms.", RGBColor(255, 223, 0)),
+-    ("Step 3: Distributors", "• They provide goods to retailers on their demand.", RGBColor(255, 223, 0)),
+-    ("Step 4: Retailer", "• Sell goods to consumers.", RGBColor(255, 223, 0))
++    ("Step 1: Producer", "• Goods are produced in large factories or farms.", RGBColor(255, 165, 0)),  # Orange
++    ("Step 2: Wholesale", "• Wholesalers buy goods in large quantity from factories or farms.", RGBColor(255, 255, 255)),  # White
++    ("Step 3: Distributors", "• They provide goods to retailers on their demand.", RGBColor(255, 255, 255)),  # White
++    ("Step 4: Retailer", "• Sell goods to consumers.", RGBColor(255, 255, 255))  # White
+ ]
+ 
+ # Add rectangles and text for each step

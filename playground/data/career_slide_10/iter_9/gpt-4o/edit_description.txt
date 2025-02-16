@@ -1,0 +1,1 @@
+Center the caption for Richard Branson directly below his image to match the alignment of the captions in the target image.

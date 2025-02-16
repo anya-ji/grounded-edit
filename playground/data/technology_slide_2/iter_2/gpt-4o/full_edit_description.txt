@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: The target image contains a complete explanation of blockchain, with all sentences visible and clear formatting, including bullet points for clarity. 
+2. Description of Rendered Image: The rendered image has missing text and truncated bullet points, making it less informative and visually disorganized.
+3. Change Suggestion: Adjust the text wrapping or scaling to ensure all content fits within the visible area without truncation.
+```

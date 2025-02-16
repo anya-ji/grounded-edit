@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: A slide titled "Purpose of Blockchain" with all the checkboxes in the bulleted list checked, indicating completed items.
+2. Description of Rendered Image: A slide with the same title, but most checkboxes are empty, with only one checkbox checked, indicating incomplete items.
+3. Change Suggestion: Change all checkboxes to be checked in the bulleted list in the rendered image to match the target image.
+```

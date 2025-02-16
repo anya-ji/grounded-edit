@@ -1,0 +1,28 @@
+--- ./data/career_slide_2/iter_6/gpt-4o/code.py	2025-02-14 09:43:26.391135713 +0000
++++ ./data/career_slide_2/iter_7/gpt-4o/code.py	2025-02-14 09:43:48.539079275 +0000
+@@ -27,13 +27,22 @@
+ p.font.bold = True
+ p.font.color.rgb = RGBColor(255, 255, 255)  # White text for contrast
+ 
++# Add introductory sentence
++intro_text = "Top grades for students typically refer to the highest possible grades or marks that a student can achieve in a particular educational system or institution."
++intro_box = slide.shapes.add_textbox(Inches(1), Inches(1.5), Inches(14), Inches(2))
++tf = intro_box.text_frame
++p = tf.add_paragraph()
++p.text = intro_text
++p.font.size = Pt(24)
++p.font.color.rgb = RGBColor(255, 255, 255)  # White text for contrast
++p.space_after = Pt(14)  # Spacing after the introductory text
++
+ # Add initial bulleted text
+-content_box = slide.shapes.add_textbox(Inches(1), Inches(2), Inches(14), Inches(6))
++content_box = slide.shapes.add_textbox(Inches(1), Inches(3.5), Inches(14), Inches(6))
+ tf = content_box.text_frame
+ 
+-# Add main bullet points (including the missing definition)
++# Add main bullet points
+ main_points = [
+-    "Highest possible grades or marks that a student can achieve in a particular educational system or institution.",
+     "The specific grading system and what constitutes top grades can vary from one country, educational level, or institution to another.",
+     "However, in many cases, top grades are associated with excellence in academic performance and are often represented by letters (e.g., A+, A, A-, etc.) or numerical scores (e.g., 90-100%).",
+     "Top grades can vary from country to country."

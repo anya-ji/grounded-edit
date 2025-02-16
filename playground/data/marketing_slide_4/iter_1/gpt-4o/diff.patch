@@ -1,0 +1,11 @@
+--- ./data/marketing_slide_4/iter_0/gpt-4o/code.py	2025-02-14 21:30:32.298414303 +0000
++++ ./data/marketing_slide_4/iter_1/gpt-4o/code.py	2025-02-14 21:31:00.898325207 +0000
+@@ -61,7 +61,7 @@
+ 
+ # Add ribbon graphic in top left corner
+ ribbon_shape = slide.shapes.add_shape(
+-    MSO_SHAPE.WAVE, Inches(0.2), Inches(0.2), Inches(1.5), Inches(0.5)
++    MSO_SHAPE.ROUNDED_RECTANGLE, Inches(0.2), Inches(0.2), Inches(1.5), Inches(0.5)
+ )
+ ribbon_shape.fill.solid()
+ ribbon_shape.fill.fore_color.rgb = RGBColor(255, 165, 0)  # Orange color

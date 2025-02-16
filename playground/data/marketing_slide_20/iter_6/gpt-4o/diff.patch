@@ -1,0 +1,11 @@
+--- ./data/marketing_slide_20/iter_5/gpt-4o/code.py	2025-02-14 20:39:40.999474859 +0000
++++ ./data/marketing_slide_20/iter_6/gpt-4o/code.py	2025-02-14 20:40:05.020417088 +0000
+@@ -45,7 +45,7 @@
+ 
+ # Adjust the ship image to occupy the entire right side without blank space
+ left = Inches(8)
+-width = Inches(8)
++width = Inches(9)  # Slightly increased width to capture more details
+ slide.shapes[-1].left = left
+ slide.shapes[-1].width = width  # Ensure it fills the right side with no blank space
+ 

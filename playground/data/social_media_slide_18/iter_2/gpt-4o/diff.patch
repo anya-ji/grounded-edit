@@ -1,0 +1,38 @@
+--- ./data/social_media_slide_18/iter_1/gpt-4o/code.py	2025-02-14 22:18:01.096056727 +0000
++++ ./data/social_media_slide_18/iter_2/gpt-4o/code.py	2025-02-14 22:18:21.006007645 +0000
+@@ -39,25 +39,26 @@
+ perspective_title_paragraph.font.color.rgb = RGBColor(0, 0, 0)  # Black text
+ perspective_title_frame.word_wrap = True
+ 
+-# Add bullet points
+-bullet_points = [
+-    "emphasizes the fact that cultures are essentially different and are only superficially affected by global flows.",
+-    "It also involves barriers that prevent flows that serve to make cultures more a line; cultures tend to remain stubbornly different from one another."
+-]
+-
++# Add the content
+ content_box = slide.shapes.add_textbox(Inches(1), Inches(3.5), Inches(14), Inches(4))
+ content_frame = content_box.text_frame
+ content_frame.word_wrap = True
+ 
+-for point in bullet_points:
++# Add the baseline points without bullets
++baseline_points = [
++    "emphasizes the fact that cultures are essentially different and are only superficially affected by global flows.",
++    "It also involves barriers that prevent flows that serve to make cultures more a line; cultures tend to remain stubbornly different from one another."
++]
++
++for point in baseline_points:
+     p = content_frame.add_paragraph()
+     p.text = point
+     p.font.size = Pt(18)
+     p.font.color.rgb = RGBColor(0, 0, 0)  # Black text
+     p.space_after = Pt(10)  # Space after each bullet point
+ 
+-# Add bullet to the descriptions for clarity
+-for point in bullet_points:
++# Add bullet points before the baseline points for clarity
++for point in baseline_points:
+     p = content_frame.add_paragraph()
+     p.text = f"• {point}"  # Adding bullet point before description
+     p.font.size = Pt(18)

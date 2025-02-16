@@ -1,0 +1,24 @@
+--- ./data/social_media_slide_18/iter_7/gpt-4o/code.py	2025-02-14 22:20:32.104684507 +0000
++++ ./data/social_media_slide_18/iter_8/gpt-4o/code.py	2025-02-14 22:20:55.100627833 +0000
+@@ -15,7 +15,7 @@
+ fill.solid()
+ fill.fore_color.rgb = RGBColor(255, 255, 255)  # White background
+ 
+-# Add the main title with light blue background
++# Add the main title with dark blue background
+ title_text = "Three perspectives on global cultural flows:"
+ title_box = slide.shapes.add_textbox(Inches(1), Inches(0.5), Inches(14), Inches(1.5))
+ title_frame = title_box.text_frame
+@@ -27,10 +27,10 @@
+ title_paragraph.font.color.rgb = RGBColor(255, 255, 255)  # White text
+ title_frame.word_wrap = True
+ 
+-# Set the title background color to a lighter blue
++# Set the title background color to a solid dark blue
+ fill = title_box.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(173, 216, 230)  # Light blue background
++fill.fore_color.rgb = RGBColor(0, 0, 139)  # Dark blue background
+ 
+ # Add the first perspective title
+ perspective_title = "1. CULTURAL DIFFERENTIALISM"

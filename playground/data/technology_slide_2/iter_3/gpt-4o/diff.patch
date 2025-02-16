@@ -1,0 +1,19 @@
+--- ./data/technology_slide_2/iter_2/gpt-4o/code.py	2025-02-16 02:38:04.491592472 +0000
++++ ./data/technology_slide_2/iter_3/gpt-4o/code.py	2025-02-16 02:38:21.356542935 +0000
+@@ -26,11 +26,11 @@
+ 
+ # Add bullet points for blockchain content with checkboxes
+ content = [
+-    "☐ Blockchain is a type of decentralized, distributed database or ledger that is used to record transactions across many computers.",
+-    "☐ In blockchain, a list of records is stored as blocks and they are linked by using cryptography.",
+-    "☐ Hence, we can say that blockchain is a digital record and is used for recording transactions made with cryptocurrencies such as bitcoins.",
+-    "☐ If we add a new block, it can be linked with the previous block with the help of a cryptographic block generated from the previous block. By doing this, the block is permanently recorded and it is not broken.",
+-    "☐ In blockchain, previous transactions' alteration is very difficult because all subsequent blocks also need to be altered. We can say that blockchain is the purest peer-to-peer database that is immutable."
++    "✔️ Blockchain is a type of decentralized, distributed database or ledger that is used to record transactions across many computers.",
++    "✔️ In blockchain, a list of records is stored as blocks and they are linked by using cryptography.",
++    "✔️ Hence, we can say that blockchain is a digital record and is used for recording transactions made with cryptocurrencies such as bitcoins.",
++    "✔️ If we add a new block, it can be linked with the previous block with the help of a cryptographic block generated from the previous block. By doing this, the block is permanently recorded and it is not broken.",
++    "✔️ In blockchain, previous transactions' alteration is very difficult because all subsequent blocks also need to be altered. We can say that blockchain is the purest peer-to-peer database that is immutable."
+ ]
+ 
+ content_box = slide.shapes.add_textbox(Inches(1), Inches(1.5), Inches(14), Inches(7))

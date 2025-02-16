@@ -1,0 +1,16 @@
+--- ./data/food_slide_9/init/code.py	2025-02-14 06:46:11.864157046 +0000
++++ ./data/food_slide_9/iter_0/gpt-4o/code.py	2025-02-14 20:06:26.381304650 +0000
+@@ -71,5 +71,12 @@
+ button_text.font.size = Pt(18)
+ button_text.font.color.rgb = RGBColor(255, 255, 255)  # White text
+ 
++# Add dialogue subtitle
++subtitle_box = slide.shapes.add_textbox(Inches(0.5), Inches(5.5), Inches(15), Inches(1))
++subtitle_p = subtitle_box.text_frame.add_paragraph()
++subtitle_p.text = "Joey: How you doin'?"
++subtitle_p.font.size = Pt(18)
++subtitle_p.font.color.rgb = RGBColor(0, 0, 0)  # Black text, typical for subtitles
++
+ # Save presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

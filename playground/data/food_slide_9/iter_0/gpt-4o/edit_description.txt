@@ -1,0 +1,1 @@
+Add a subtitle layer that displays Joey's dialogue, which could be extracted from the video/audio track, ensuring it matches the style and position of subtitles used in the target image.

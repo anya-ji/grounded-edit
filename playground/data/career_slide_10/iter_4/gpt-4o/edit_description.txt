@@ -1,0 +1,1 @@
+Adjust the layout to ensure uniform spacing between the portraits and remove any borders around them for a cohesive look, while also aligning the title text to match the style and position of the target image.

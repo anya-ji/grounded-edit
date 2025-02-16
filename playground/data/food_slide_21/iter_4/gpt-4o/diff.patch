@@ -1,0 +1,18 @@
+--- ./data/food_slide_21/iter_3/gpt-4o/code.py	2025-02-14 19:30:31.086409665 +0000
++++ ./data/food_slide_21/iter_4/gpt-4o/code.py	2025-02-14 19:30:58.293345115 +0000
+@@ -58,14 +58,7 @@
+     response_paragraph.text = "Stressed word(s):"
+     response_paragraph.font.size = Pt(16)
+     response_paragraph.font.color.rgb = RGBColor(255, 0, 0)
+-
+-    # Highlighting the stressed words - removed duplicate
+-    stressed_box = slide.shapes.add_textbox(Inches(1.2), Inches(y_position + 0.6), Inches(10), Inches(0.5))
+-    stressed_frame = stressed_box.text_frame
+-    stressed_paragraph = stressed_frame.add_paragraph()
+-    stressed_paragraph.text = "Stressed word(s):"
+-    stressed_paragraph.font.size = Pt(16)
+-    stressed_paragraph.font.color.rgb = RGBColor(255, 0, 0)
++    response_paragraph.font.bold = True  # Make the text bold
+ 
+ # PART 2
+ part2_title_box = slide.shapes.add_textbox(Inches(0.5), Inches(8.5), Inches(12), Inches(0.5))

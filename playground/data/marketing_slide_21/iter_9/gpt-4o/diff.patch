@@ -1,0 +1,49 @@
+--- ./data/marketing_slide_21/iter_8/gpt-4o/code.py	2025-02-14 20:44:55.883718120 +0000
++++ ./data/marketing_slide_21/iter_9/gpt-4o/code.py	2025-02-14 20:46:09.792540639 +0000
+@@ -40,17 +40,20 @@
+ width = Inches(3)
+ height = Inches(1)
+ 
+-# Add flowchart elements
++# Define the element positions
+ elements = [
+     ("Direct", left_margin, top_margin),
+     ("Retail", left_margin, top_margin + Inches(1.25)),
+     ("Wholesale", left_margin, top_margin + Inches(2.5)),
+-    ("Producer or manufacturer", left_margin + Inches(3.5), top_margin + Inches(1.25), Inches(4), height),  # Adjusted width for centering
++    ("Producer or manufacturer", left_margin + Inches(3.5), top_margin + Inches(1.25), Inches(4), height),
+     ("Wholesaler", left_margin + Inches(6.5), top_margin + Inches(2.5)),
+     ("Retailer", left_margin + Inches(9), top_margin + Inches(1.25)),
+     ("Consumer", left_margin + Inches(9), top_margin + Inches(2.5))
+ ]
+ 
++# Store the shapes for arrow connections
++shapes = []
++
+ # Add rectangles with text
+ for element in elements:
+     if len(element) == 3:  # For usual elements
+@@ -59,12 +62,23 @@
+         shape.fill.solid()  # Set solid fill for rectangle
+         shape.fill.fore_color.rgb = RGBColor(255, 165, 0)  # Change to orange
+         add_textbox(slide, text, left, top, width, height, bold=True, align=PP_ALIGN.CENTER)
++        shapes.append(shape)
+     else:  # For "Producer or manufacturer" with adjusted width
+         text, left, top, w, h = element
+         shape = slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, left, top, w, h)
+         shape.fill.solid()  # Set solid fill for rectangle
+         shape.fill.fore_color.rgb = RGBColor(255, 165, 0)  # Change to orange
+         add_textbox(slide, text, left, top, w, h, bold=True, align=PP_ALIGN.CENTER)
++        shapes.append(shape)
++
++# Add arrows between boxes
++arrow_color = RGBColor(128, 128, 128)  # Grey color
++for i in range(len(shapes) - 1):
++    left_start = shapes[i].left + shapes[i].width
++    top_start = shapes[i].top + shapes[i].height / 2
++    left_end = shapes[i + 1].left
++    top_end = shapes[i + 1].top + shapes[i + 1].height / 2
++    slide.shapes.add_line(left_start, top_start, left_end, top_end).line.color.rgb = arrow_color
+ 
+ # Add title at the bottom with increased font size
+ add_textbox(slide, "Sales and Distribution", Inches(4), Inches(7.5), Inches(8), Inches(1), font_size=40, bold=True, color=RGBColor(0, 0, 0), align=PP_ALIGN.CENTER)

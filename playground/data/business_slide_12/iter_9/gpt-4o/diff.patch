@@ -1,0 +1,32 @@
+--- ./data/business_slide_12/iter_8/gpt-4o/code.py	2025-02-14 08:24:15.472367121 +0000
++++ ./data/business_slide_12/iter_9/gpt-4o/code.py	2025-02-14 08:24:59.746235669 +0000
+@@ -1,6 +1,7 @@
+ from pptx import Presentation
+ from pptx.util import Inches, Pt
+ from pptx.dml.color import RGBColor
++from PIL import Image, ImageEnhance
+ 
+ # Create presentation
+ presentation = Presentation()
+@@ -11,9 +12,19 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Add background image
++# Add background image with color enhancement
+ image_path = "../../media/image_0.jpg"
+-slide.shapes.add_picture(image_path, Inches(0), Inches(0), Inches(16), Inches(9))
++image = Image.open(image_path)
++
++# Enhance colors (increase yellows and oranges)
++enhancer = ImageEnhance.Color(image)
++image = enhancer.enhance(1.5)  # Adjust the factor as necessary for more saturation
++
++# Save the enhanced image temporarily
++enhanced_image_path = "../../media/enhanced_image.jpg"
++image.save(enhanced_image_path)
++
++slide.shapes.add_picture(enhanced_image_path, Inches(0), Inches(0), Inches(16), Inches(9))
+ 
+ # Add title text
+ title_text = "NYC"  # Accent removed from "C"

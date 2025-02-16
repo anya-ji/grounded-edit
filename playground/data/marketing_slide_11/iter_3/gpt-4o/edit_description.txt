@@ -1,0 +1,1 @@
+Change the background from a light gradient to a dark gradient to enhance text contrast and readability.

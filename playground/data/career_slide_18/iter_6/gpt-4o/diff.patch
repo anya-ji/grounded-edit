@@ -1,0 +1,32 @@
+--- ./data/career_slide_18/iter_5/gpt-4o/code.py	2025-02-14 09:38:05.565988526 +0000
++++ ./data/career_slide_18/iter_6/gpt-4o/code.py	2025-02-14 09:38:30.212920137 +0000
+@@ -24,9 +24,26 @@
+ title_frame.word_wrap = True
+ title_paragraph = title_frame.add_paragraph()
+ title_paragraph.text = title_text
+-title_paragraph.font.size = Pt(44)  # Uniform font size
+-title_paragraph.font.bold = True
+-title_paragraph.font.color.rgb = RGBColor(255, 255, 255)  # White color
++
++# Split title into parts to have different sizes
++academic_world = title_frame.add_paragraph()
++academic_world.text = "ACADEMIC WORLD"
++academic_world.font.size = Pt(58)  # Larger font size for emphasis
++academic_world.font.bold = True
++academic_world.font.color.rgb = RGBColor(255, 255, 255)  # White color
++
++professional_world = title_frame.add_paragraph()
++professional_world.text = "PROFESSIONAL WORLD"
++professional_world.font.size = Pt(58)  # Larger font size for emphasis
++professional_world.font.bold = True
++professional_world.font.color.rgb = RGBColor(255, 255, 255)  # White color
++
++# Add the remaining text "AND" with original size
++and_paragraph = title_frame.add_paragraph()
++and_paragraph.text = "AND"
++and_paragraph.font.size = Pt(44)  # Original font size
++and_paragraph.font.bold = True
++and_paragraph.font.color.rgb = RGBColor(255, 255, 255)  # White color
+ 
+ # Adjust line spacing for title
+ title_paragraph.space_after = Pt(10)  # Set desired spacing after the title

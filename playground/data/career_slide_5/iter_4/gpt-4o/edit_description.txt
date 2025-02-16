@@ -1,0 +1,1 @@
+Adjust the background color of the rendered image to match the light background of the target image for better visibility and consistency.

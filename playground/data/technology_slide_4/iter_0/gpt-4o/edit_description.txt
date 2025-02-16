@@ -1,0 +1,1 @@
+Change the numbered list in the rendered image to a bullet-point list to match the format of the target image.

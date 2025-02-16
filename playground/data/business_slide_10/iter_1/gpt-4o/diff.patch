@@ -1,0 +1,16 @@
+--- ./data/business_slide_10/iter_0/gpt-4o/code.py	2025-02-14 08:18:55.051360740 +0000
++++ ./data/business_slide_10/iter_1/gpt-4o/code.py	2025-02-14 08:19:34.940257705 +0000
+@@ -40,5 +40,12 @@
+ p2.font.bold = True
+ p2.font.color.rgb = RGBColor(255, 255, 255)  # Set color to white
+ 
++# Apply stroke effect to "Community" text for rough texture
++p2.font.fill.solid()
++p2.font.fill.fore_color.rgb = RGBColor(255, 255, 255)  # Set color to white
++p2.font.stroke.fill.solid()  # Add stroke effect
++p2.font.stroke.fore_color.rgb = RGBColor(0, 0, 0)  # Set stroke color to black 
++p2.font.stroke.width = Pt(2)  # Set stroke width
++
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

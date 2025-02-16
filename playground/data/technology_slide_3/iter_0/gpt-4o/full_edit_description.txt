@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: The target image has bullet points (☐) for each statement, indicating checklist items, and the text is bold for the title "Origin of Blockchain Technology."
+2. Description of Rendered Image: The rendered image uses dashes (-) instead of bullet points, and the title is in a larger font but is not bold.
+3. Change Suggestion: Replace the dashes (-) in the rendered image with bullet points (☐) for the checklist items to match the target image.
+```

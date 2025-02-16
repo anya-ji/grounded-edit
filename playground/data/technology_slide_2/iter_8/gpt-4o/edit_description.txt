@@ -1,0 +1,1 @@
+Increase the font weight of the title "What is Blockchain?" to bold and ensure that bullet points are indented for clearer organization and improved readability.

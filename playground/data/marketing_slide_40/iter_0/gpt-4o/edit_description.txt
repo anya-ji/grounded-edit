@@ -1,0 +1,1 @@
+Remove the white space around the images by adjusting the layout to maintain equal spacing and alignment for a more cohesive look.

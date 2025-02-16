@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: The target image features a title "Purpose of Blockchain" in bold, with checkboxes next to each statement about the blockchain's purpose, all statements correctly formatted with the checkboxes fully visible.
+2. Description of Rendered Image: The rendered image shows similar content with the title "Purpose of Blockchain", but the checkboxes next to the statements are only partially filled/outlined and the checkbox for the first statement is missing the check mark, giving a less completed appearance.
+3. Change Suggestion: Update the first checkbox next to the statement "Blockchain uses an online ledger which is very secure." to include a filled check mark.
+```

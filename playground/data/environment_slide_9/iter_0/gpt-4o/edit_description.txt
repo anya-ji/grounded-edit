@@ -1,0 +1,1 @@
+Add a bold title "CONCLUSION" at the top of the rendered image with a larger font size and a contrasting color to make it stand out against the background.

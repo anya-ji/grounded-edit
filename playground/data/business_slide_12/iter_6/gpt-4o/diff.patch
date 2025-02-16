@@ -1,0 +1,11 @@
+--- ./data/business_slide_12/iter_5/gpt-4o/code.py	2025-02-14 08:22:40.578656210 +0000
++++ ./data/business_slide_12/iter_6/gpt-4o/code.py	2025-02-14 08:23:20.593533005 +0000
+@@ -23,7 +23,7 @@
+ p.text = title_text
+ p.font.bold = True
+ p.font.size = Pt(72)  # Font size
+-p.font.color.rgb = RGBColor(255, 255, 255)  # White color
++p.font.color.rgb = RGBColor(255, 255, 255)  # White color for all letters
+ p.font.name = 'Arial'  # Change font to a more uniform style
+ text_frame.paragraphs[0].alignment = 1  # Center alignment
+ 

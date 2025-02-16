@@ -1,0 +1,1 @@
+Replace the blank white area on the right with the image of the ship and containers from the target image to recreate the complete scene.

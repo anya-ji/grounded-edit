@@ -1,0 +1,1 @@
+Change the background color of the question bubble in the rendered image to a soft pastel color to match the warmer tones of the target image.

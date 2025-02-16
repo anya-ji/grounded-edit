@@ -1,0 +1,1 @@
+Remove the large blank white box overlay to restore the clarity of the text.

@@ -1,0 +1,1 @@
+Increase the font size of the bullet points to match the font size used in the target image for improved emphasis and readability.

@@ -1,0 +1,19 @@
+--- ./data/art_photos_slide_18/init/code.py	2025-02-14 06:46:11.817157214 +0000
++++ ./data/art_photos_slide_18/iter_0/gpt-4o/code.py	2025-02-14 07:11:13.545814105 +0000
+@@ -11,9 +11,13 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set the background image
+-image_path = "../../media/image_0.jpg"
+-slide.shapes.add_picture(image_path, Inches(0), Inches(0), Inches(16), Inches(9))
++# Set the background gradient
++background = slide.background
++fill = background.fill
++fill.gradient()
++stops = fill.gradient_stops
++stops[0].color.rgb = RGBColor(255, 0, 0)  # Red color
++stops[1].color.rgb = RGBColor(255, 165, 0)  # Orange color
+ 
+ # Add the main title
+ main_title_box = slide.shapes.add_textbox(Inches(1), Inches(1), Inches(14), Inches(1.5))

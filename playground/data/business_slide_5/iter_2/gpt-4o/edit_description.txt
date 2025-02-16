@@ -1,0 +1,1 @@
+Replace the text content of the rendered image with a grid layout of colorful city posters similar to the target image, ensuring that each poster includes a city name and the Airbnb logo prominently displayed.

@@ -1,0 +1,1 @@
+Increase the font size of the title "CULTURAL CONVERGENCE" in the rendered image to match the font size in the target image.

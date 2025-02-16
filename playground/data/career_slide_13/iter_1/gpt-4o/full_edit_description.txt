@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: A slide with a dark background featuring bold white text for the title and yellow highlighted text for section headings, with bullet points formatted with solid bullets.
+2. Description of Rendered Image: A similar slide with a black background, but the title and section headings are in white text without yellow highlighting, and bullet points are formatted with hyphens instead of solid bullets.
+3. Change Suggestion: Change the section headings from plain white text to yellow highlighted text to match the target image.
+```

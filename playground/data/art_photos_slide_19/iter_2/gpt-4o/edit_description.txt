@@ -1,0 +1,1 @@
+Add a solid yellow header bar at the top of the rendered image to match the target image.

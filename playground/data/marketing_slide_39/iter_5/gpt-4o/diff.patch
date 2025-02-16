@@ -1,0 +1,11 @@
+--- ./data/marketing_slide_39/iter_4/gpt-4o/code.py	2025-02-14 21:28:01.868902112 +0000
++++ ./data/marketing_slide_39/iter_5/gpt-4o/code.py	2025-02-14 21:28:28.412813453 +0000
+@@ -36,7 +36,7 @@
+ 
+ # Add image of character holding money without surrounding rectangle
+ image_path_0 = "../../media/image_0.jpg"
+-slide.shapes.add_picture(image_path_0, Inches(7), Inches(2.5), height=Inches(4))
++slide.shapes.add_picture(image_path_0, Inches(6.5), Inches(2.5), height=Inches(4))  # Adjusted position to overlap
+ 
+ # Add image of various coins and bills
+ image_path_1 = "../../media/image_1.jpg"

@@ -1,0 +1,1 @@
+Adjust the position of the image in the rendered slide to better align with the text, mimicking the layout of the target image.

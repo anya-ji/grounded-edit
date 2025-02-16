@@ -1,0 +1,1 @@
+Add colored speech bubbles to the dialogue sections to match the styling of the target image.

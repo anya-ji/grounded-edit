@@ -1,0 +1,1 @@
+Adjust the placement of the text box containing "Producer or manufacturer" to ensure it is fully visible and centered in the box.

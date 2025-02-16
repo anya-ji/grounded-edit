@@ -1,0 +1,1 @@
+Change the background gradient in the rendered image to match the target image, transitioning from teal to dark green instead of teal to dark blue.

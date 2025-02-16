@@ -1,0 +1,38 @@
+--- ./data/art_photos_slide_15/init/code.py	2025-02-14 06:46:11.800157275 +0000
++++ ./data/art_photos_slide_15/iter_0/gpt-4o/code.py	2025-02-14 06:55:54.020290802 +0000
+@@ -2,6 +2,7 @@
+ from pptx.util import Inches, Pt
+ from pptx.dml.color import RGBColor
+ from pptx.enum.text import PP_ALIGN
++from PIL import Image, ImageEnhance
+ 
+ # Create a presentation object
+ presentation = Presentation()
+@@ -34,15 +35,25 @@
+ subtitle.font.size = Pt(28)
+ subtitle.font.color.rgb = RGBColor(255, 255, 255)
+ 
+-# Add images side by side
++# Enhance saturation of the left painting image
+ image1_path = "../../media/image_2.jpg"
++enhanced_image_path = "../../media/enhanced_image_2.jpg"
++
++# Open the image
++image = Image.open(image1_path)
++# Enhance saturation
++enhancer = ImageEnhance.Color(image)
++image_enhanced = enhancer.enhance(1.5)  # Adjust the factor as necessary
++image_enhanced.save(enhanced_image_path)
++
++# Add images side by side
+ image2_path = "../../media/image_3.jpg"
+ left = Inches(1)
+ top = Inches(2.5)
+ image_width = Inches(6)
+ image_height = Inches(4.5)
+ 
+-pic1 = slide.shapes.add_picture(image1_path, left, top, width=image_width, height=image_height)
++pic1 = slide.shapes.add_picture(enhanced_image_path, left, top, width=image_width, height=image_height)
+ pic2 = slide.shapes.add_picture(image2_path, left + image_width + Inches(1), top, width=image_width, height=image_height)
+ 
+ # Add white borders around images

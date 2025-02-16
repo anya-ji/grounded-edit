@@ -1,0 +1,29 @@
+--- ./data/career_slide_18/iter_1/gpt-4o/code.py	2025-02-14 09:36:34.251247309 +0000
++++ ./data/career_slide_18/iter_2/gpt-4o/code.py	2025-02-14 09:37:00.187172890 +0000
+@@ -18,24 +18,16 @@
+ fill.fore_color.rgb = RGBColor(30, 30, 30)  # Dark background
+ 
+ # Add main title
+-title_text = "ACADEMIC  WORLD AND PROFESSIONAL WORLD"
++title_text = "ACADEMIC  WORLD  AND  PROFESSIONAL  WORLD"
+ title_box = slide.shapes.add_textbox(Inches(0.5), Inches(0.5), Inches(15), Inches(1))
+ title_frame = title_box.text_frame
+ title_frame.word_wrap = True
+ title_paragraph = title_frame.add_paragraph()
+ title_paragraph.text = title_text
+-title_paragraph.font.size = Pt(44)
++title_paragraph.font.size = Pt(44)  # Uniform font size
+ title_paragraph.font.bold = True
+ title_paragraph.font.color.rgb = RGBColor(255, 255, 255)  # White color
+ 
+-# Adjust spacing and font size of "WORLD" in the title
+-world_paragraph = title_frame.add_paragraph()
+-world_paragraph.text = "WORLD"  # Combine into single text for letter spacing
+-world_paragraph.font.size = Pt(50)  # Larger font size for emphasis
+-world_paragraph.font.bold = True
+-world_paragraph.font.color.rgb = RGBColor(255, 255, 255)  # White color
+-world_paragraph.space_after = Pt(20)  # Adjust spacing between letters
+-
+ # Add subtitle
+ subtitle_text = "DEMANDS AND CHARACTERISTICS"
+ subtitle_box = slide.shapes.add_textbox(Inches(0.5), Inches(1.7), Inches(15), Inches(1))

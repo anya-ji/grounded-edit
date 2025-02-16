@@ -1,0 +1,1 @@
+Add the same text and layout from the target image onto the rendered image, ensuring it is centered on a colorful background similar to that of the target image.

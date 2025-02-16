@@ -1,0 +1,1 @@
+Increase the border thickness of the checkboxes in the rendered image to match the thickness found in the target image.

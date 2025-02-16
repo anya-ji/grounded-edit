@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: A marketing funnel diagram with red and blue labels for 'Marketing' and 'Sales', correctly positioned on the sides of the funnel and properly sized.
+2. Description of Rendered Image: A similar marketing funnel diagram, but the labels for 'Sales' are incorrectly positioned and do not match the size and placement in the target image.
+3. Change Suggestion: Adjust the 'Sales' labels on the left and right sides of the funnel to match the font size and position (vertically aligned with the funnel) of the labels in the target image.
+```

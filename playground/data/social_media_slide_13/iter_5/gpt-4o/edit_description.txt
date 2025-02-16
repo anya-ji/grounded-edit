@@ -1,0 +1,1 @@
+Align the text in the rendered image to match the text alignment in the target image, ensuring it is properly justified or left-aligned as seen in the target.

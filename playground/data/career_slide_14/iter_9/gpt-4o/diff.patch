@@ -1,0 +1,68 @@
+--- ./data/career_slide_14/iter_8/gpt-4o/code.py	2025-02-14 09:19:12.900037661 +0000
++++ ./data/career_slide_14/iter_9/gpt-4o/code.py	2025-02-14 09:19:56.808952622 +0000
+@@ -33,8 +33,8 @@
+ academic_title_frame = academic_title_box.text_frame
+ academic_title_paragraph = academic_title_frame.add_paragraph()
+ academic_title_paragraph.text = academic_title_text
+-academic_title_paragraph.font.size = Pt(24)
+-academic_title_paragraph.font.color.rgb = RGBColor(0, 0, 255)  # Blue color
++academic_title_paragraph.font.size = Pt(32)  # Changed to 32pt
++academic_title_paragraph.font.color.rgb = RGBColor(255, 255, 0)  # Changed to yellow color
+ academic_title_paragraph.font.bold = True
+ 
+ # Academic World: Goal and Focus
+@@ -43,8 +43,8 @@
+ 
+ academic_goal_focus_header = academic_goal_focus_frame.add_paragraph()
+ academic_goal_focus_header.text = "Goal and Focus"
+-academic_goal_focus_header.font.size = Pt(22)
+-academic_goal_focus_header.font.color.rgb = RGBColor(0, 0, 255)  # Change to blue color
++academic_goal_focus_header.font.size = Pt(32)  # Changed to 32pt
++academic_goal_focus_header.font.color.rgb = RGBColor(255, 255, 0)  # Changed to yellow color
+ academic_goal_focus_header.font.bold = True
+ 
+ academic_goal = academic_goal_focus_frame.add_paragraph()
+@@ -64,8 +64,8 @@
+ 
+ academic_environment_header = academic_environment_frame.add_paragraph()
+ academic_environment_header.text = "Environment"
+-academic_environment_header.font.size = Pt(20)
+-academic_environment_header.font.color.rgb = RGBColor(0, 0, 255)  # Change to blue color
++academic_environment_header.font.size = Pt(32)  # Changed to 32pt
++academic_environment_header.font.color.rgb = RGBColor(255, 255, 0)  # Changed to yellow color
+ academic_environment_header.font.bold = True
+ 
+ academic_setting = academic_environment_frame.add_paragraph()
+@@ -86,8 +86,8 @@
+ professional_title_frame = professional_title_box.text_frame
+ professional_title_paragraph = professional_title_frame.add_paragraph()
+ professional_title_paragraph.text = professional_title_text
+-professional_title_paragraph.font.size = Pt(24)
+-professional_title_paragraph.font.color.rgb = RGBColor(0, 0, 255)  # Consistent Blue color
++professional_title_paragraph.font.size = Pt(32)  # Changed to 32pt
++professional_title_paragraph.font.color.rgb = RGBColor(255, 255, 0)  # Changed to yellow color
+ professional_title_paragraph.font.bold = True
+ 
+ # Professional World: Goal and Focus
+@@ -96,8 +96,8 @@
+ 
+ professional_goal_focus_header = professional_goal_focus_frame.add_paragraph()
+ professional_goal_focus_header.text = "Goal and Focus"
+-professional_goal_focus_header.font.size = Pt(22)  # Match Academic font size
+-professional_goal_focus_header.font.color.rgb = RGBColor(0, 0, 255)  # Change to blue color
++professional_goal_focus_header.font.size = Pt(32)  # Changed to 32pt
++professional_goal_focus_header.font.color.rgb = RGBColor(255, 255, 0)  # Changed to yellow color
+ professional_goal_focus_header.font.bold = True
+ 
+ professional_goal = professional_goal_focus_frame.add_paragraph()
+@@ -117,8 +117,8 @@
+ 
+ professional_environment_header = professional_environment_frame.add_paragraph()
+ professional_environment_header.text = "Environment"
+-professional_environment_header.font.size = Pt(20)
+-professional_environment_header.font.color.rgb = RGBColor(0, 0, 255)  # Change to blue color
++professional_environment_header.font.size = Pt(32)  # Changed to 32pt
++professional_environment_header.font.color.rgb = RGBColor(255, 255, 0)  # Changed to yellow color
+ professional_environment_header.font.bold = True
+ 
+ professional_setting = professional_environment_frame.add_paragraph()

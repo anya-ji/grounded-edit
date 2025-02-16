@@ -1,0 +1,1 @@
+Adjust the text rendering for "KEEPING ART" to ensure uniform alignment and consistent capitalization across all letters, making it fully uppercase for cleaner appearance.

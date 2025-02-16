@@ -1,0 +1,1 @@
+Align the images of the four figures such that they are centered with equal spacing between them, and ensure that the names and descriptions are fully visible and not overlapping with other elements in the rendered image.

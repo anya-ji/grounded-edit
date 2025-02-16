@@ -1,0 +1,27 @@
+--- ./data/social_media_slide_21/iter_8/gpt-4o/code.py	2025-02-16 02:09:11.146464358 +0000
++++ ./data/social_media_slide_21/iter_9/gpt-4o/code.py	2025-02-16 02:09:24.581433002 +0000
+@@ -13,7 +13,7 @@
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+ # Title text
+-text = "THANK YOU!"  # Removed one exclamation mark
++text = "THANK YOU!"  # Updated to only include one exclamation mark
+ 
+ # Create a text box for the main message, centered
+ text_box = slide.shapes.add_textbox(Inches(4), Inches(3.5), Inches(8), Inches(2))
+@@ -26,13 +26,7 @@
+ p.font.name = 'Arial'  # Changed font to a simpler style
+ p.alignment = PP_ALIGN.CENTER
+ 
+-# Adjust vertical alignment of the last character (exclamation mark)
+-run = p.add_run()
+-run.text = "!"
+-run.font.size = Pt(100)  # Match the size of the main text
+-run.font.color.rgb = RGBColor(0, 51, 102)  # Dark Blue
+-run.font.name = 'Arial'  # Changed font to a simpler style
+-run.font.bold = True
++# Remove the last character (exclamation mark) as it is now part of the main text
+ 
+ # Save the slide to the specified path
+ presentation.save("render.pptx")
+\ No newline at end of file

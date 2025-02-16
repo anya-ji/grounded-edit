@@ -1,0 +1,1 @@
+Change the background of the rendered image to a subtle gradient that matches the vibrant and artistic background of the target image.

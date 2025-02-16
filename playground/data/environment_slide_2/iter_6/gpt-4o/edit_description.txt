@@ -1,0 +1,1 @@
+Change the background color from bright green to a light green (#B2D8B2) to improve text readability and better match the target image's aesthetic.

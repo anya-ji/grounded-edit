@@ -1,0 +1,41 @@
+--- ./data/marketing_slide_23/iter_6/gpt-4o/code.py	2025-02-14 20:50:30.412920165 +0000
++++ ./data/marketing_slide_23/iter_7/gpt-4o/code.py	2025-02-14 20:50:59.524876694 +0000
+@@ -37,29 +37,25 @@
+ # Set solid black fill for the box
+ fill = orange_box.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(0, 0, 0)  # Changed to black
++fill.fore_color.rgb = RGBColor(0, 0, 0)
+ 
+ text_frame1 = orange_box.text_frame
+ p1 = text_frame1.add_paragraph()
+ p1.text = "Define the term Market"
+-p1.font.size = Pt(20)  # Decreased font size
+-p1.font.color.rgb = RGBColor(255, 165, 0)  # Change text color for contrast
++p1.font.size = Pt(20)
++p1.font.color.rgb = RGBColor(255, 255, 0)  # Changed text color to yellow
+ text_frame1.word_wrap = True
+ 
+-# Add second bullet point with black background box
++# Add second bullet point without a background box
+ top = Inches(4)
+-dark_box = slide.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, left, top, width, height)
++text_box2 = slide.shapes.add_textbox(left, top, width, height)
+ 
+-# Set solid black fill for the box
+-dark_box.fill.solid()
+-dark_box.fill.fore_color.rgb = RGBColor(0, 0, 0)  # Changed to black
+-
+-text_frame2 = dark_box.text_frame
++text_frame2 = text_box2.text_frame
+ p2 = text_frame2.add_paragraph()
+ p2.text = "Explain how products reach to market"
+-p2.font.size = Pt(20)  # Decreased font size
+-p2.font.bold = True  # Changed font weight to bold
+-p2.font.color.rgb = RGBColor(255, 255, 255)  # Changed text color for contrast
++p2.font.size = Pt(20)
++p2.font.bold = True
++p2.font.color.rgb = RGBColor(255, 255, 255)
+ text_frame2.word_wrap = True
+ 
+ # Add the image as a background on the right side

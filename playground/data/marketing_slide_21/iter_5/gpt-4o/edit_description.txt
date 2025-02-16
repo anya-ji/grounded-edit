@@ -1,0 +1,1 @@
+Align the text boxes in the rendered image so that they match the structured layout of the target image, ensuring no overlapping text occurs.

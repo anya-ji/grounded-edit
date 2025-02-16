@@ -1,0 +1,1 @@
+Change the background of the rendered image from white to a soft light blue gradient to more closely resemble the background in the target image.

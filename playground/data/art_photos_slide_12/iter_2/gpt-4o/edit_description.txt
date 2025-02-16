@@ -1,0 +1,1 @@
+Replace the plain background in the rendered image with a soft gradient resembling the light blue and green hues of the ocean seen in the target image to enhance visual continuity.

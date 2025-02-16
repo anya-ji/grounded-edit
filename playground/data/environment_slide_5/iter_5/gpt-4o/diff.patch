@@ -1,0 +1,34 @@
+--- ./data/environment_slide_5/iter_4/gpt-4o/code.py	2025-02-14 18:53:47.344494299 +0000
++++ ./data/environment_slide_5/iter_5/gpt-4o/code.py	2025-02-14 18:54:06.571451109 +0000
+@@ -12,11 +12,11 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set a softer green background
++# Set a vibrant green background
+ background = slide.background
+ fill = background.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(178, 235, 242)  # Softer Green (#B2EBF2)
++fill.fore_color.rgb = RGBColor(0, 255, 0)  # Vibrant Green (Green color)
+ 
+ # Add a large white textbox in the middle
+ left = Inches(1.5)
+@@ -35,7 +35,7 @@
+ title_p = text_frame.add_paragraph()
+ title_p.text = "Further types of natural environment"
+ title_p.font.bold = True
+-title_p.font.size = Pt(48)  # Increased font size
++title_p.font.size = Pt(56)  # Increased font size
+ title_p.font.color.rgb = RGBColor(0, 128, 0)  # Updated Green color
+ title_p.alignment = PP_ALIGN.LEFT
+ title_p.space_before = Pt(0)  # Reduce top padding
+@@ -52,7 +52,7 @@
+ for point in bullet_points:
+     p = text_frame.add_paragraph()
+     p.text = point
+-    p.font.size = Pt(28)
++    p.font.size = Pt(32)  # Increased font size
+     p.font.color.rgb = RGBColor(0, 0, 0)  # Black color for content text
+     p.space_after = Pt(10)
+     p.alignment = PP_ALIGN.LEFT

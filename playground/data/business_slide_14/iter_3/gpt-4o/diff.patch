@@ -1,0 +1,12 @@
+--- ./data/business_slide_14/iter_2/gpt-4o/code.py	2025-02-14 08:27:05.215873115 +0000
++++ ./data/business_slide_14/iter_3/gpt-4o/code.py	2025-02-14 08:27:24.408818806 +0000
+@@ -35,7 +35,7 @@
+ p.text = "Innovations (Future Products or Services)"
+ p.font.bold = False  # Change to less bold font
+ p.font.size = Pt(36)  # Adjust size to be lighter
+-p.font.color.rgb = RGBColor(255, 255, 255)  # White font color
++p.font.color.rgb = RGBColor(255, 255, 255)  # Changed font color to white
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

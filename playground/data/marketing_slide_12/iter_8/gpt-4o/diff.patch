@@ -1,0 +1,31 @@
+--- ./data/marketing_slide_12/iter_7/gpt-4o/code.py	2025-02-14 20:23:08.104879013 +0000
++++ ./data/marketing_slide_12/iter_8/gpt-4o/code.py	2025-02-14 20:23:34.608814070 +0000
+@@ -12,11 +12,11 @@
+ presentation.slide_width = Inches(16)
+ presentation.slide_height = Inches(9)
+ 
+-# Set the background color to solid black
++# Set the background color to a slightly brighter dark tone
+ background = slide.background
+ fill = background.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(0, 0, 0)  # Black background
++fill.fore_color.rgb = RGBColor(30, 30, 30)  # Dark gray background for improved contrast
+ 
+ # Add title text
+ title_box = slide.shapes.add_textbox(Inches(1), Inches(0.5), Inches(14), Inches(1))
+@@ -27,12 +27,12 @@
+ p.font.size = Pt(40)
+ p.font.color.rgb = RGBColor(255, 255, 255)  # White text
+ 
+-# Add a dark gray box for bullet points to replace the black one
++# Add a dark gray box for bullet points
+ bullet_box = slide.shapes.add_shape(
+     MSO_SHAPE.RECTANGLE, Inches(1), Inches(2), Inches(8), Inches(4)
+ )
+ bullet_box.fill.solid()
+-bullet_box.fill.fore_color.rgb = RGBColor(0, 0, 0)  # Changed to black fill to match the request
++bullet_box.fill.fore_color.rgb = RGBColor(0, 0, 0)  # Black fill for the box
+ line = bullet_box.line
+ line.color.rgb = RGBColor(255, 165, 0)  # Orange border
+ 

@@ -1,0 +1,1 @@
+Adjust the kerning of the text in the rendered image to ensure even spacing between all letters, particularly between "YO" and "U."

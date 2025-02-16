@@ -1,0 +1,17 @@
+--- ./data/social_media_slide_13/iter_6/gpt-4o/code.py	2025-02-14 22:03:35.653193829 +0000
++++ ./data/social_media_slide_13/iter_7/gpt-4o/code.py	2025-02-14 22:03:55.936143602 +0000
+@@ -18,12 +18,12 @@
+ background.fill.solid()
+ background.fill.fore_color.rgb = RGBColor(255, 255, 255)
+ 
+-# Add a dark blue rectangle for the title background
++# Add a blue rectangle for the title background
+ title_shape = slide.shapes.add_shape(
+     MSO_SHAPE.RECTANGLE, Inches(0), Inches(0), presentation.slide_width, Inches(1)
+ )
+ title_shape.fill.solid()
+-title_shape.fill.fore_color.rgb = RGBColor(0, 51, 102)  # Dark blue
++title_shape.fill.fore_color.rgb = RGBColor(0, 51, 102)  # Original color changed to #003366
+ title_shape.line.color.rgb = RGBColor(0, 51, 102)  # Same as fill to avoid lines
+ 
+ # Add title text

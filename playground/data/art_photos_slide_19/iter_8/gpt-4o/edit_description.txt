@@ -1,0 +1,1 @@
+Add a decorative background pattern similar to the target image and ensure the text box has proper formatting with a centered position and a yellow background that matches the target.

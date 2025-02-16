@@ -1,0 +1,1 @@
+Reduce the font size of the text "Transportation and Storage" to ensure it doesn't obscure the forklift and the warehouse elements.

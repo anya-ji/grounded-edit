@@ -1,0 +1,1 @@
+Change the header color from red to light pink and change the font style for "Vision" from bold to regular.

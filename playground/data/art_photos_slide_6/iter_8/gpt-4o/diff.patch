@@ -1,0 +1,13 @@
+--- ./data/art_photos_slide_6/iter_7/gpt-4o/code.py	2025-02-14 08:04:29.893332660 +0000
++++ ./data/art_photos_slide_6/iter_8/gpt-4o/code.py	2025-02-14 08:04:54.181276842 +0000
+@@ -17,8 +17,8 @@
+ # Define vibrant yellow color
+ vibrant_yellow = RGBColor(255, 255, 102)  # More vibrant yellow
+ 
+-# Add the main title
+-title_box = slide.shapes.add_textbox(Inches(3.5), Inches(0.5), Inches(9), Inches(1))
++# Add the main title, adjusted position
++title_box = slide.shapes.add_textbox(Inches(3.5), Inches(1.5), Inches(9), Inches(1))  # Lowered position
+ title_box.fill.solid()
+ title_box.fill.fore_color.rgb = vibrant_yellow  # Change to vibrant yellow
+ frame = title_box.text_frame

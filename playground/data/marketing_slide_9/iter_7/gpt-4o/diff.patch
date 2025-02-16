@@ -1,0 +1,20 @@
+--- ./data/marketing_slide_9/iter_6/gpt-4o/code.py	2025-02-14 21:45:24.532933780 +0000
++++ ./data/marketing_slide_9/iter_7/gpt-4o/code.py	2025-02-14 21:45:50.228867561 +0000
+@@ -11,7 +11,7 @@
+ slide_layout = presentation.slide_layouts[5]  # Blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Add a solid teal background
++# Add a solid light background
+ left = top = 0
+ width = presentation.slide_width
+ height = presentation.slide_height
+@@ -21,7 +21,7 @@
+ )
+ fill = background_shape.fill
+ fill.solid()  # Apply solid fill
+-fill.fore_color.rgb = RGBColor(0, 128, 128)  # Teal color
++fill.fore_color.rgb = RGBColor(173, 216, 230)  # Light blue color
+ 
+ # Add title
+ title_text = "From Factory to the Market"

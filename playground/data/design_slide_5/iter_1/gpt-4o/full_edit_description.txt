@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: A clean, minimalistic design featuring a blue background with white text. The title “Principles of graphic design” is prominent, and the listed principles are in gradients of blue to green.
+2. Description of Rendered Image: A more cluttered design with a blue rectangle background behind the title “Principles of Graphic Design” in bold, uppercase text. The principles listed are presented in varying shades of green and blue, with some text in black and additional awkward spacing.
+3. Change Suggestion: Change the title text color from blue to white for better contrast against the blue background.
+```

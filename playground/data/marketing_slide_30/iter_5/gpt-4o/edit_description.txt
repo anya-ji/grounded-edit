@@ -1,0 +1,1 @@
+Change the color of the top overlay text to a specific shade of orange (#FF7F00) and the bottom overlay text to a specific shade of yellow (#FFFF00) to match the target image.

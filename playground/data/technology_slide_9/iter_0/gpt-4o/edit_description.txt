@@ -1,0 +1,1 @@
+Add checkboxes next to each blockchain type description to replicate the checklist format seen in the target image.

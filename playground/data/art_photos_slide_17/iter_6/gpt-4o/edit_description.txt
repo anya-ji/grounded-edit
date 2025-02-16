@@ -1,0 +1,1 @@
+Change the header text color from black to a shade of dark yellow or gold to match the target image more closely.

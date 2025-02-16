@@ -1,0 +1,1 @@
+Remove the white overlay box from the rendered image to improve visibility of the network and allow the text to be displayed unobstructed.

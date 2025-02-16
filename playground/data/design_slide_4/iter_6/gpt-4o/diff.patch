@@ -1,0 +1,13 @@
+--- ./data/design_slide_4/iter_5/gpt-4o/code.py	2025-02-14 18:23:26.065222460 +0000
++++ ./data/design_slide_4/iter_6/gpt-4o/code.py	2025-02-14 18:23:45.586167599 +0000
+@@ -63,5 +63,9 @@
+     textbox.fill.solid()
+     textbox.fill.fore_color.rgb = RGBColor(0, 102, 204)  # Deeper blue color
+ 
++# Adjust height of "Website composition" text box to match "Marketing and advertising design"
++website_box = slide.shapes[-2]  # This is the "Website composition" text box
++website_box.height = Inches(1.2)  # Set height to match the other boxes
++
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

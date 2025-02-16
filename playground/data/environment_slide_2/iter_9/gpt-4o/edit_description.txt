@@ -1,0 +1,1 @@
+Change the color of the "ENVIRONMENT" title text to a bold shade of green (#4CAF50) and increase the font weight to ensure it closely matches the target image style.

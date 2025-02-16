@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: A collage featuring four notable figures (Richard Branson, Mark Twain, Steve Jobs, Oprah Winfrey) with clear spacing, centered portraits, and a title text that emphasizes the phrase "YOU DON'T NEED A DEGREE TO BE SUCCESSFUL" at the top.
+2. Description of Rendered Image: A collage of the same four figures, but with a disorganized layout, harsh borders around the portraits, and disrupted title text that reads "DEGREE TO BE SUCCESSFUL" in a mismatched style.
+3. Change Suggestion: Adjust the layout to ensure uniform spacing between the portraits and remove any borders around them for a cohesive look, while also aligning the title text to match the style and position of the target image.
+```

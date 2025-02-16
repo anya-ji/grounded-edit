@@ -1,0 +1,13 @@
+--- ./data/social_media_slide_2/iter_5/gpt-4o/code.py	2025-02-14 22:27:55.661591606 +0000
++++ ./data/social_media_slide_2/iter_6/gpt-4o/code.py	2025-02-14 22:28:21.640527608 +0000
+@@ -61,5 +61,9 @@
+ culture_text.text = "can be defined as all the ways of life, including arts, beliefs and institutions of a population that are passed down from generation to generation."
+ culture_text.font.size = Pt(20)
+ 
++# Set border for the CULTURE text box
++culture_box.line.color.rgb = RGBColor(0, 0, 0)  # Set border color to black
++culture_box.line.width = Pt(1)  # Set border width
++
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

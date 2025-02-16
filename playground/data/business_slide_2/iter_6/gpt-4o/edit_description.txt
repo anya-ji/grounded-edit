@@ -1,0 +1,1 @@
+Change the background color of the rendered image from pink to a warm beige to match the ambiance of the target image.

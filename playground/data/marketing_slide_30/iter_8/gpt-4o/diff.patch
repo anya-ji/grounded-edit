@@ -1,0 +1,24 @@
+--- ./data/marketing_slide_30/iter_7/gpt-4o/code.py	2025-02-14 21:06:09.245120848 +0000
++++ ./data/marketing_slide_30/iter_8/gpt-4o/code.py	2025-02-14 21:06:37.187060334 +0000
+@@ -43,7 +43,7 @@
+ p1.text = "This is the overlay text in orange."
+ p1.font.bold = True
+ p1.font.size = Pt(30)
+-p1.font.color.rgb = RGBColor(255, 127, 0)  # Changed to specific shade of orange #FF7F00
++p1.font.color.rgb = RGBColor(255, 127, 0)  # Orange
+ p1.alignment = PP_ALIGN.CENTER
+ 
+ overlay_text_2 = slide.shapes.add_textbox(Inches(1), Inches(5.5), Inches(14), Inches(1))
+@@ -51,10 +51,10 @@
+ overlay_frame_2.word_wrap = True
+ 
+ p2 = overlay_frame_2.add_paragraph()
+-p2.text = "This is the overlay text in yellow."
++p2.text = "This is the overlay text in a soft yellow."
+ p2.font.bold = True
+ p2.font.size = Pt(30)  # Kept the font size consistent with orange overlay
+-p2.font.color.rgb = RGBColor(255, 255, 0)  # Changed to specific shade of yellow #FFFF00
++p2.font.color.rgb = RGBColor(255, 255, 204)  # Softer shade of yellow
+ p2.alignment = PP_ALIGN.CENTER
+ 
+ # Save the presentation

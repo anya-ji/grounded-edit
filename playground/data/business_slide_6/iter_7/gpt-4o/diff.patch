@@ -1,0 +1,13 @@
+--- ./data/business_slide_6/iter_6/gpt-4o/code.py	2025-02-14 08:43:23.143312433 +0000
++++ ./data/business_slide_6/iter_7/gpt-4o/code.py	2025-02-14 08:43:41.379266844 +0000
+@@ -27,8 +27,8 @@
+ p.font.size = Pt(80)  # Increased font size
+ p.font.color.rgb = RGBColor(255, 255, 255)
+ 
+-# Set a rounder, softer font style
+-p.font.name = 'Comic Sans MS'  # Changed to a more rounded font
++# Change to a thicker, more rounded font style
++p.font.name = 'Arial Rounded MT Bold'  # Updated to a thick, rounded font
+ p.alignment = PP_ALIGN.CENTER
+ 
+ # Save the presentation

@@ -1,0 +1,1 @@
+Adjust the font style of the text "HOMEWORK" in the rendered image to match the font style and positioning used in the target image.

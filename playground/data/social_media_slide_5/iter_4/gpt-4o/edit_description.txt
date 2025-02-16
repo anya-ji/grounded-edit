@@ -1,0 +1,1 @@
+Adjust the background of the rendered image to mimic the faded parchment effect of the target image for better visual consistency.

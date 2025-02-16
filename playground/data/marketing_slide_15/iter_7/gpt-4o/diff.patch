@@ -1,0 +1,18 @@
+--- ./data/marketing_slide_15/iter_6/gpt-4o/code.py	2025-02-14 20:27:20.182263879 +0000
++++ ./data/marketing_slide_15/iter_7/gpt-4o/code.py	2025-02-14 20:27:35.401226896 +0000
+@@ -12,12 +12,12 @@
+ slide_layout = presentation.slide_layouts[5]  # blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set a gradient background with adjusted shades to blue
++# Set a lighter gradient background to improve visibility
+ background = slide.background
+ fill = background.fill
+ fill.gradient()
+-fill.gradient_stops[0].color.rgb = RGBColor(0, 0, 128)  # dark blue
+-fill.gradient_stops[1].color.rgb = RGBColor(0, 0, 255)  # lighter blue
++fill.gradient_stops[0].color.rgb = RGBColor(173, 216, 230)  # light blue
++fill.gradient_stops[1].color.rgb = RGBColor(0, 191, 255)   # deeper light blue
+ 
+ # Insert the graphic on the left side
+ image_path = "../../media/image_0.jpg"

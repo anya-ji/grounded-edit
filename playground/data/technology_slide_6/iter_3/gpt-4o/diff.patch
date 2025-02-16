@@ -1,0 +1,21 @@
+--- ./data/technology_slide_6/iter_2/gpt-4o/code.py	2025-02-16 02:49:51.036619783 +0000
++++ ./data/technology_slide_6/iter_3/gpt-4o/code.py	2025-02-16 02:50:12.949560735 +0000
+@@ -48,15 +48,15 @@
+     bullet_frame = bullet_box.text_frame
+     bullet_frame.word_wrap = True
+ 
+-    # Adding bullet points with filled circle prefix
++    # Adding bullet points with square prefix
+     for index, point in enumerate(bullet_points):
+         p = bullet_frame.add_paragraph()
+         p.text = point
+         p.font.size = Pt(24)
+         p.font.color.rgb = RGBColor(0, 0, 0)  # black color
+         
+-        # Add a bullet (circle styled) prefix
+-        p.text = "\u25CF " + point  # All checkboxes set to filled circles
++        # Add a bullet (square styled) prefix
++        p.text = "\u25A0 " + point  # All checkboxes set to filled squares
+ 
+     # Save the presentation
+     presentation.save("render.pptx")

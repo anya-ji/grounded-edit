@@ -1,0 +1,11 @@
+--- ./data/food_slide_29/iter_4/gpt-4o/code.py	2025-02-14 19:46:46.062100286 +0000
++++ ./data/food_slide_29/iter_5/gpt-4o/code.py	2025-02-14 19:47:10.469042982 +0000
+@@ -76,6 +76,6 @@
+ button_paragraph.font.size = Pt(14)
+ button_paragraph.font.bold = True
+ button_box.fill.solid()
+-button_box.fill.fore_color.rgb = RGBColor(100, 149, 237)  # Cornflower Blue
++button_box.fill.fore_color.rgb = RGBColor(30, 144, 255)  # Brighter Blue
+ 
+ presentation.save("render.pptx")
+\ No newline at end of file

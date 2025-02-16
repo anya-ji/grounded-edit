@@ -1,0 +1,1 @@
+Replace the yellow rectangle in the rendered image with a brown bookmark ribbon similar to the one in the target image.

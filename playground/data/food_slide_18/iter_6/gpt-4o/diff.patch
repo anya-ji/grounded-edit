@@ -1,0 +1,11 @@
+--- ./data/food_slide_18/iter_5/gpt-4o/code.py	2025-02-14 19:25:26.150130548 +0000
++++ ./data/food_slide_18/iter_6/gpt-4o/code.py	2025-02-14 19:25:54.718063259 +0000
+@@ -50,7 +50,7 @@
+ ]
+ 
+ y_position = Inches(3.5)
+-bubble_color = RGBColor(173, 216, 230)  # Uniform color for all dialogue boxes
++bubble_color = RGBColor(255, 255, 255)  # Changed to white for improved contrast
+ for dialogue_text in dialogue_texts:
+     dialogue_box = slide.shapes.add_textbox(Inches(0.5), y_position, Inches(15), Inches(1.2))
+     dialogue_box.fill.solid()  # Set background color for the dialogue box

@@ -1,0 +1,1 @@
+Change the header text color from bright yellow to black to improve readability and match the target image.

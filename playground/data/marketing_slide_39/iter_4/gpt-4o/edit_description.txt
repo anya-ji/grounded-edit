@@ -1,0 +1,1 @@
+Change the background color of the rendered image from turquoise to a darker gradient similar to that of the target image.

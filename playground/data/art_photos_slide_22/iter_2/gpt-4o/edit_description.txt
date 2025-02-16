@@ -1,0 +1,1 @@
+Change the color of the title text "KEEPING ART" from yellow to a darker color (e.g., black) to improve readability against the background.

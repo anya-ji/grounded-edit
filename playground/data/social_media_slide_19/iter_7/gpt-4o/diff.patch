@@ -1,0 +1,19 @@
+--- ./data/social_media_slide_19/iter_6/gpt-4o/code.py	2025-02-14 22:24:36.335082677 +0000
++++ ./data/social_media_slide_19/iter_7/gpt-4o/code.py	2025-02-14 22:24:57.592030304 +0000
+@@ -23,7 +23,7 @@
+ title = title_box.text_frame.add_paragraph()
+ title.text = "Three perspectives on global cultural flows:"
+ title.font.size = Pt(32)
+-title.font.bold = True
++title.font.bold = True  # Ensures the title is bold
+ title.font.color.rgb = RGBColor(0, 0, 0)  # Black
+ title.alignment = PP_ALIGN.LEFT
+ 
+@@ -51,6 +51,7 @@
+     checkmark = checkmark_box.text_frame.add_paragraph()
+     checkmark.text = "✓"
+     checkmark.font.size = Pt(20)
++    checkmark.font.bold = True  # Ensures checkmarks are consistent and bold
+     checkmark.font.color.rgb = RGBColor(0, 0, 0)  # Black
+     
+     text_box = slide.shapes.add_textbox(Inches(left_inset), Inches(top_inset + i * 1), Inches(13), Inches(1))

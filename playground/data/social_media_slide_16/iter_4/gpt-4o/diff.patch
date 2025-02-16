@@ -1,0 +1,61 @@
+--- ./data/social_media_slide_16/iter_3/gpt-4o/code.py	2025-02-14 22:10:42.479138674 +0000
++++ ./data/social_media_slide_16/iter_4/gpt-4o/code.py	2025-02-14 22:11:24.138035840 +0000
+@@ -7,19 +7,19 @@
+ presentation.slide_width = Inches(16)
+ presentation.slide_height = Inches(9)
+ 
+-slide_layout = presentation.slide_layouts[5] # Blank layout
++slide_layout = presentation.slide_layouts[5]  # Blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+ # Title
+ title_box = slide.shapes.add_textbox(Inches(0.5), Inches(0.5), Inches(15), Inches(1.5))
+ title_frame = title_box.text_frame
+ title_frame.text = "Global and Local Cultural Products"
+-title_frame.paragraphs[0].font.size = Pt(32)  # Adjusted font size
++title_frame.paragraphs[0].font.size = Pt(20)  # Reduced font size
+ title_frame.paragraphs[0].font.bold = True
+ title_frame.paragraphs[0].alignment = PP_ALIGN.CENTER
+ title_box.fill.solid()
+-title_box.fill.fore_color.rgb = RGBColor(0, 0, 255) # Blue background
+-title_frame.paragraphs[0].font.color.rgb = RGBColor(255, 255, 255) # White text
++title_box.fill.fore_color.rgb = RGBColor(0, 0, 255)  # Blue background
++title_frame.paragraphs[0].font.color.rgb = RGBColor(0, 0, 139)  # Dark blue text color
+ 
+ # Subtitle
+ subtitle_box = slide.shapes.add_textbox(Inches(0.5), Inches(2), Inches(15), Inches(1))
+@@ -27,7 +27,7 @@
+ subtitle_frame.text = "Cultural Products"
+ subtitle_frame.paragraphs[0].font.size = Pt(28)
+ subtitle_frame.paragraphs[0].alignment = PP_ALIGN.CENTER
+-subtitle_frame.paragraphs[0].font.color.rgb = RGBColor(0, 0, 0) # Black text
++subtitle_frame.paragraphs[0].font.color.rgb = RGBColor(0, 0, 0)  # Black text
+ 
+ # Bullet Points
+ content_box = slide.shapes.add_textbox(Inches(0.5), Inches(3), Inches(15), Inches(2))
+@@ -37,19 +37,19 @@
+ p = content_frame.add_paragraph()
+ p.text = "✓ are goods and services such as arts, architectures, museums etc. that showcase the history and information of certain which belong to the country’s cultural heritage."
+ p.font.size = Pt(20)
+-p.font.color.rgb = RGBColor(0, 0, 0) # Black text
++p.font.color.rgb = RGBColor(0, 0, 0)  # Black text
+ content_box.fill.solid()
+-content_box.fill.fore_color.rgb = RGBColor(255, 255, 255) # White background
++content_box.fill.fore_color.rgb = RGBColor(255, 255, 255)  # White background
+ 
+ # Images
+ image_paths = [
+-    "../../media/image_0.jpg", # Woven textile image
+-    "../../media/image_1.jpg", # Japanese doll image
+-    "../../media/image_2.jpg"  # Sagrada Familia image
++    "../../media/image_0.jpg",  # Woven textile image
++    "../../media/image_1.jpg",  # Japanese doll image
++    "../../media/image_2.jpg"   # Sagrada Familia image
+ ]
+ 
+ # Updated size for uniformity and reduced spacing
+-image_size = Inches(3)  # uniform size for all images
++image_size = Inches(3)  # Uniform size for all images
+ x_positions = [Inches(0.5), Inches(4), Inches(7.5)]  # Adjusted positions for reduced space
+ for i, image_path in enumerate(image_paths):
+     slide.shapes.add_picture(image_path, x_positions[i], Inches(4.5), image_size, image_size)  # Adjusted y position here

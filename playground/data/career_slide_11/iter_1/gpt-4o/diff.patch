@@ -1,0 +1,18 @@
+--- ./data/career_slide_11/iter_0/gpt-4o/code.py	2025-02-14 09:00:27.625779215 +0000
++++ ./data/career_slide_11/iter_1/gpt-4o/code.py	2025-02-14 09:00:54.171757895 +0000
+@@ -54,12 +54,14 @@
+     p_main.font.size = Pt(28)
+     p_main.font.bold = True
+     p_main.font.color.rgb = RGBColor(255, 255, 255)  # White color for main bullet points
++    p_main.space_after = Pt(10)  # Increased space after main point
+ 
+     for sp in sub_points:
+         p_sub = content_frame.add_paragraph()
+         p_sub.text = sp
+         p_sub.level = 1
+-        p_sub.space_before = Pt(5)
++        p_sub.space_before = Pt(10)  # Increased space before sub-point
++        p_sub.space_after = Pt(10)  # Increased space after sub-point
+         p_sub.font.size = Pt(20)
+         p_sub.font.color.rgb = RGBColor(255, 255, 255)  # White color for sub-points
+ 

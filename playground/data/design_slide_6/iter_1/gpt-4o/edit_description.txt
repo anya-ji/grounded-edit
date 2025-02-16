@@ -1,0 +1,1 @@
+Adjust the text box's opacity to 80% to allow the background graphic to be more visible.

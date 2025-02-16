@@ -1,0 +1,4 @@
+Failed to execute code at iteration 2: Traceback (most recent call last):
+  File "/home/anyaji/grounded-edit/playground/data/food_slide_27/iter_2/gpt-4o/code.py", line 5, in <module>
+    from pptx.shapes.shapetypes import MSO_SHAPE
+ModuleNotFoundError: No module named 'pptx.shapes.shapetypes'

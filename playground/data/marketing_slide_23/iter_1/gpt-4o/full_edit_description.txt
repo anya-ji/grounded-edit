@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: The target image features a dark background with two text boxes where the top box is orange and has a white font stating "Define the term Market," and the bottom box is yellow with a black font stating "Explain how products reach to market."
+2. Description of Rendered Image: The rendered image has a black background with a bright orange text box stating "Define the term Market" and a light yellow text box stating "Explain how products reach to market," but the font is bold and larger than the target.
+3. Change Suggestion: Decrease the font size of both text boxes in the rendered image to match the font size of the text in the target image.
+```

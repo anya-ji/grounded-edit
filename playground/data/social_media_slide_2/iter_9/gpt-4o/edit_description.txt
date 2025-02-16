@@ -1,0 +1,1 @@
+Change the background color of the rendered image to white for the text area while keeping the blue header intact to match the target image's clarity and organization.

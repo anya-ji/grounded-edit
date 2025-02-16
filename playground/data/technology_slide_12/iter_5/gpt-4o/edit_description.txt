@@ -1,0 +1,1 @@
+Change the font weight of the "Thank You!" text in the rendered image from bold to normal to match the target image.

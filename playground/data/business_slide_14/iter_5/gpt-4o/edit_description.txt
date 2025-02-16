@@ -1,0 +1,1 @@
+Change the header color from yellow to a bold orange and increase the font weight to match the thickness and vibrancy of the text in the target image.

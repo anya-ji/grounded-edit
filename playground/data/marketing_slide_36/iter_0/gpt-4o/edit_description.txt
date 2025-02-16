@@ -1,0 +1,1 @@
+Change the background from solid turquoise to a gradient that transitions from lighter to darker shades of turquoise, similar to the target image.

@@ -1,0 +1,1 @@
+Change the font style of the bullet points in the rendered image to match the normal text style used in the target image for consistency.

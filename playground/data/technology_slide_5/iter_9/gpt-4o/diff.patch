@@ -1,0 +1,11 @@
+--- ./data/technology_slide_5/iter_8/gpt-4o/code.py	2025-02-16 02:48:47.168792339 +0000
++++ ./data/technology_slide_5/iter_9/gpt-4o/code.py	2025-02-16 02:49:01.311754067 +0000
+@@ -15,7 +15,7 @@
+ background = slide.background
+ fill = background.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(255, 255, 255)  # White background for contrast
++fill.fore_color.rgb = RGBColor(128, 0, 128)  # Dark purple background
+ 
+ # Add title
+ title = slide.shapes.add_textbox(Inches(1), Inches(0.5), Inches(14), Inches(1))

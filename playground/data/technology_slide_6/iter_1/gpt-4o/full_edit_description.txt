@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: A presentation slide titled "Purpose of Blockchain" with several bullet points highlighted as unchecked checkboxes.
+2. Description of Rendered Image: A similar presentation slide with the same title, but with many bullet points marked as checked checkboxes.
+3. Change Suggestion: Change all checked checkboxes in the rendered image to unchecked checkboxes to match the target image.
+```

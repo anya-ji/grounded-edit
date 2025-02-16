@@ -1,0 +1,26 @@
+--- ./data/technology_slide_5/iter_6/gpt-4o/code.py	2025-02-16 02:48:09.611894151 +0000
++++ ./data/technology_slide_5/iter_7/gpt-4o/code.py	2025-02-16 02:48:31.200835593 +0000
+@@ -22,7 +22,7 @@
+ title_frame = title.text_frame
+ title_para = title_frame.add_paragraph()
+ title_para.text = "The Technology used in Blockchain"
+-title_para.font.size = Pt(56)  # Increased font size
++title_para.font.size = Pt(40)  # Reduced font size for better balance
+ title_para.font.bold = True
+ 
+ # Add bulleted list with unchecked boxes
+@@ -35,10 +35,10 @@
+ text_frame = content.text_frame
+ 
+ items = [
+-    "☐ Cryptographic Keys",  # Changed to unchecked
+-    "☐ Network Protocol",     # Changed to unchecked
+-    "☐ Distributed Ledger Technology",  # Changed to unchecked
+-    "☐ Hashing"              # Changed to unchecked
++    "☐ Cryptographic Keys",  
++    "☐ Network Protocol",     
++    "☐ Distributed Ledger Technology",  
++    "☐ Hashing"              
+ ]
+ 
+ for item in items:

@@ -1,0 +1,1 @@
+Add a warm sunset color gradient to the sky in the rendered image to match the sunset ambiance of the target image.

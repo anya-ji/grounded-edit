@@ -1,0 +1,1 @@
+Increase the saturation of the colors in the rendered image by 15% to make the colors match the vividness of the target image.

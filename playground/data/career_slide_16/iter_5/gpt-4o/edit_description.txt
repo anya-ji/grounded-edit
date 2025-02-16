@@ -1,0 +1,1 @@
+Adjust the font size of the "Learning Approach" section in the rendered image to match that of other sections and ensure that it is bolded for consistency with the target image.

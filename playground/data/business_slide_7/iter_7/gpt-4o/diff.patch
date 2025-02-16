@@ -1,0 +1,21 @@
+--- ./data/business_slide_7/iter_6/gpt-4o/code.py	2025-02-14 08:47:22.940715514 +0000
++++ ./data/business_slide_7/iter_7/gpt-4o/code.py	2025-02-14 08:47:48.161653008 +0000
+@@ -39,11 +39,14 @@
+ )
+ main_paragraph.font.size = Pt(20)
+ 
+-# Symbols paragraph (changed color to soft green)
++# Symbols paragraph (changed color of "Love" to darker shade)
+ symbols_paragraph = content_frame.add_paragraph()
+-symbols_paragraph.text = "PEOPLE + PLACES + LOVE + AIRBNB = Bélo"
+-symbols_paragraph.font.size = Pt(20)
+-symbols_paragraph.font.color.rgb = RGBColor(144, 238, 144)  # Changed to soft green
++symbols_paragraph.text = "PEOPLE + PLACES + "
++love_paragraph = content_frame.add_paragraph()
++love_paragraph.text = "LOVE"
++love_paragraph.font.color.rgb = RGBColor(255, 0, 0)  # Change this to a darker shade
++love_paragraph.font.size = Pt(20)
++symbols_paragraph.text += " + " + love_paragraph.text + " + AIRBNB = Bélo"  # Update symbols_paragraph text
+ 
+ # Visual Elements
+ slide.shapes.add_picture("../../media/image_0.jpg", Inches(1), Inches(3.5), Inches(10), Inches(2))

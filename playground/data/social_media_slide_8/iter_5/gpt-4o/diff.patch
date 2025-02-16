@@ -1,0 +1,30 @@
+--- ./data/social_media_slide_8/iter_4/gpt-4o/code.py	2025-02-16 02:24:20.367293642 +0000
++++ ./data/social_media_slide_8/iter_5/gpt-4o/code.py	2025-02-16 02:24:43.886236759 +0000
+@@ -43,17 +43,17 @@
+ content_frame.clear()
+ 
+ # Add bullet points with left alignment and indentation
+-p = content_frame.add_paragraph()
+-p.text = "• Digitized content that can be transmitted over the internet or computer networks."
+-p.font.size = Pt(24)
+-p.font.color.rgb = dark_blue
+-p.space_after = Pt(14)  # Add space after the bullet point
++bullet_points = [
++    "• Digitized content that can be transmitted over the internet or computer networks.",
++    "• It allows the advertisement of products and online business transactions."
++]
+ 
+-p = content_frame.add_paragraph()
+-p.text = "• It allows the advertisement of products and online business transactions."
+-p.font.size = Pt(24)
+-p.font.color.rgb = dark_blue
+-p.space_after = Pt(14)  # Add space after the bullet point
++for point in bullet_points:
++    p = content_frame.add_paragraph()
++    p.text = point
++    p.font.size = Pt(24)
++    p.font.color.rgb = dark_blue
++    p.space_after = Pt(14)  # Add space after the bullet point
+ 
+ # Set left indent for the bullet points
+ for paragraph in content_frame.paragraphs:

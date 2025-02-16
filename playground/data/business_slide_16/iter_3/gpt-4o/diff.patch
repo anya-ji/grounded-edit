@@ -1,0 +1,15 @@
+--- ./data/business_slide_16/iter_2/gpt-4o/code.py	2025-02-14 08:30:24.903320151 +0000
++++ ./data/business_slide_16/iter_3/gpt-4o/code.py	2025-02-14 08:31:02.640218262 +0000
+@@ -10,6 +10,12 @@
+ # Add a blank slide
+ slide = presentation.slides.add_slide(presentation.slide_layouts[5])
+ 
++# Set the background color to gray
++background = slide.background
++fill = background.fill
++fill.solid()
++fill.fore_color.rgb = RGBColor(192, 192, 192)  # Light gray background
++
+ # Add title with a dark gray background
+ title_height = Inches(1.5)
+ textbox = slide.shapes.add_textbox(0, 0, presentation.slide_width, title_height)

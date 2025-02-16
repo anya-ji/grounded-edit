@@ -1,0 +1,1 @@
+Replace the plain yellow background in the rendered image with a textured, colorful background similar to the target image.

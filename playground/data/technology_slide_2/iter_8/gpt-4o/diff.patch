@@ -1,0 +1,11 @@
+--- ./data/technology_slide_2/iter_7/gpt-4o/code.py	2025-02-16 02:39:29.158345512 +0000
++++ ./data/technology_slide_2/iter_8/gpt-4o/code.py	2025-02-16 02:39:45.867297257 +0000
+@@ -43,7 +43,7 @@
+     p.font.size = Pt(24)  # Adjusted font size for better text fitting
+     p.space_after = Pt(15)  # Increased line spacing after each point
+     p.space_before = Pt(15)  # Increased line spacing before each point
+-    p.level = 0  # This makes it bulleted
++    p.level = 1  # Indent bullet points for better organization
+ 
+ # Set line spacing to 1.5
+ for paragraph in content_frame.paragraphs:

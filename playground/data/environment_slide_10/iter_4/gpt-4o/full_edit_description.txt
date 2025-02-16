@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: A bright, green-themed card with the text "THANK YOU" in a bold, stylized font and a white border.
+2. Description of Rendered Image: A pastel green card with the text "THANK YOU" in a simple font, with a white background and no border.
+3. Change Suggestion: Change the font of the text "THANK YOU" in the rendered image to a bold, stylized font that resembles the one in the target image.
+```

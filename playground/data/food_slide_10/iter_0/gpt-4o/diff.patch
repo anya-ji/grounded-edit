@@ -1,0 +1,47 @@
+--- ./data/food_slide_10/init/code.py	2025-02-14 06:46:11.880156989 +0000
++++ ./data/food_slide_10/iter_0/gpt-4o/code.py	2025-02-14 19:03:12.011185797 +0000
+@@ -9,14 +9,14 @@
+ presentation.slide_height = Inches(9)
+ 
+ # Add slide
+-slide_layout = presentation.slide_layouts[5] # Blank layout
++slide_layout = presentation.slide_layouts[5]  # Blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set light background color
++# Set lighter background color
+ background = slide.background
+ fill = background.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(245, 245, 245)
++fill.fore_color.rgb = RGBColor(240, 240, 240)  # Lightened background color
+ 
+ # Add title
+ title_box = slide.shapes.add_textbox(Inches(1), Inches(0.5), Inches(5), Inches(1))
+@@ -76,21 +76,21 @@
+ # Add buttons below Joey's image
+ button_check = slide.shapes.add_textbox(Inches(11), Inches(7.7), Inches(2.5), Inches(0.7))
+ button_check.fill.solid()
+-button_check.fill.fore_color.rgb = RGBColor(255, 255, 255) # Transparent background
++button_check.fill.fore_color.rgb = RGBColor(255, 255, 255)  # Transparent background
+ check_p = button_check.text_frame.add_paragraph()
+ check_p.text = "Check your answers"
+ check_p.font.size = Pt(18)
+-check_p.font.color.rgb = RGBColor(255, 20, 147) # Pink
++check_p.font.color.rgb = RGBColor(255, 20, 147)  # Pink
+ check_p.alignment = PP_ALIGN.CENTER
+-button_check.line.color.rgb = RGBColor(255, 20, 147) # Pink border
++button_check.line.color.rgb = RGBColor(255, 20, 147)  # Pink border
+ 
+ button_view = slide.shapes.add_textbox(Inches(13.7), Inches(7.7), Inches(2.5), Inches(0.7))
+ button_view.fill.solid()
+-button_view.fill.fore_color.rgb = RGBColor(0, 0, 139) # Dark blue background
++button_view.fill.fore_color.rgb = RGBColor(0, 0, 139)  # Dark blue background
+ view_p = button_view.text_frame.add_paragraph()
+ view_p.text = "Viewing Activity"
+ view_p.font.size = Pt(18)
+-view_p.font.color.rgb = RGBColor(255, 255, 255) # White
++view_p.font.color.rgb = RGBColor(255, 255, 255)  # White
+ view_p.alignment = PP_ALIGN.CENTER
+ 
+ # Save presentation

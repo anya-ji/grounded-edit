@@ -1,0 +1,1 @@
+Change the background color of the rendered image from dark green to a gradient teal similar to the target image to improve text visibility and overall appearance.

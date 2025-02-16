@@ -1,0 +1,1 @@
+Increase the font weight of the text to bold in the rendered image to match the target image.

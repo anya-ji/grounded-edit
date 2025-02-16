@@ -1,0 +1,18 @@
+--- ./data/art_photos_slide_19/iter_6/gpt-4o/code.py	2025-02-14 07:20:17.198804451 +0000
++++ ./data/art_photos_slide_19/iter_7/gpt-4o/code.py	2025-02-14 07:20:44.178777361 +0000
+@@ -13,6 +13,15 @@
+ image_path = "../../media/image_0.jpg"
+ slide.shapes.add_picture(image_path, Inches(0), Inches(0), Inches(16), Inches(9))
+ 
++# Add a colorful abstract background
++abstract_box = slide.shapes.add_shape(
++    1,  # Shape type: 1 corresponds to a rectangle
++    Inches(1), Inches(1), Inches(14), Inches(4)  # Position and size to cover the quote box
++)
++abstract_fill = abstract_box.fill
++abstract_fill.solid()
++abstract_fill.fore_color.rgb = RGBColor(0, 128, 255)  # Example color change
++
+ # Add a semi-transparent overlay with 70% opacity
+ overlay_box = slide.shapes.add_shape(
+     1,  # Shape type: 1 corresponds to a rectangle

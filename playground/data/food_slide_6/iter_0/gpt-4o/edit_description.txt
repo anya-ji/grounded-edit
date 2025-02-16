@@ -1,0 +1,1 @@
+Change the thought bubble in the rendered image to a speech bubble similar to the one in the target image, repositioning it to maintain consistency with the conversational theme.

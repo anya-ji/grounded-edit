@@ -1,0 +1,1 @@
+Change the formatting of the bullet point "Effective Communication" to be bold and color it the same as the target image for better emphasis.

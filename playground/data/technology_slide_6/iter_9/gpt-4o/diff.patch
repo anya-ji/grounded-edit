@@ -1,0 +1,19 @@
+--- ./data/technology_slide_6/iter_8/gpt-4o/code.py	2025-02-16 02:51:48.526304019 +0000
++++ ./data/technology_slide_6/iter_9/gpt-4o/code.py	2025-02-16 02:52:04.742260586 +0000
+@@ -48,10 +48,13 @@
+     bullet_frame = bullet_box.text_frame
+     bullet_frame.word_wrap = True
+ 
+-    # Adding bullet points with checked box prefix
+-    for point in bullet_points:
++    # Adding bullet points without check marks for the first three items
++    for i, point in enumerate(bullet_points):
+         p = bullet_frame.add_paragraph()
+-        p.text = "\u2611 " + point  # Checked box for all points
++        if i < 3:
++            p.text = point  # No check mark for first three points
++        else:
++            p.text = "\u2611 " + point  # Checked box for remaining points
+ 
+         p.font.size = Pt(24)
+         p.font.color.rgb = RGBColor(0, 0, 0)  # black color

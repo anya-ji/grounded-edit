@@ -1,0 +1,37 @@
+--- ./data/career_slide_5/iter_8/gpt-4o/code.py	2025-02-14 09:54:21.028539931 +0000
++++ ./data/career_slide_5/iter_9/gpt-4o/code.py	2025-02-14 09:54:56.864455400 +0000
+@@ -46,20 +46,20 @@
+ sections = [
+     {'image_path': "../../media/image_0.jpg", 'title': "Innovation and Technological Advancement",
+      'content': "Academic success fuels innovation, driving progress in various fields, including healthcare, communication, and transportation.",
+-     'left': Inches(4.5)},
++     'top_spacing': Inches(1)},
+     {'image_path': "../../media/image_1.jpg", 'title': "Social Mobility and Equality",
+      'content': "Education can promote social mobility and reduce disparities by providing opportunities for academic success.",
+-     'left': Inches(4.5), 'top_spacing': Inches(5)},
++     'top_spacing': Inches(6)},
+     {'image_path': "../../media/image_2.jpg", 'title': "Civic Engagement and Informed Citizenship",
+      'content': "Education promotes critical thinking, enabling individuals to engage in democracy, contribute to community development, and solve social issues.",
+-     'left': Inches(4.5), 'top_spacing': Inches(10)},
++     'top_spacing': Inches(11)},
+ ]
+ 
+ for section in sections:
+     enhanced_image_path = enhance_image(section['image_path'])
+-    slide.shapes.add_picture(enhanced_image_path, section['left'], Inches(1.5 + section.get('top_spacing', 0)), width=layout_width, height=image_height)
++    slide.shapes.add_picture(enhanced_image_path, Inches(4.5), Inches(1.5 + section['top_spacing']), width=layout_width, height=image_height)
+ 
+-    title_box = slide.shapes.add_textbox(section['left'], Inches(1.5 + section.get('top_spacing', 0)), layout_width, Inches(1))
++    title_box = slide.shapes.add_textbox(Inches(4.5), Inches(1.5 + section['top_spacing'] + image_height), layout_width, Inches(1))
+     tf_title = title_box.text_frame
+     p = tf_title.add_paragraph()
+     p.text = section['title']
+@@ -67,7 +67,7 @@
+     p.font.bold = True
+     p.font.color.rgb = RGBColor(255, 255, 255)
+ 
+-    text_box = slide.shapes.add_textbox(section['left'], Inches(2.5 + section.get('top_spacing', 0)), layout_width, text_box_height)
++    text_box = slide.shapes.add_textbox(Inches(4.5), Inches(2.5 + section['top_spacing'] + image_height), layout_width, text_box_height)
+     tf = text_box.text_frame
+     p = tf.add_paragraph()
+     p.text = section['content']

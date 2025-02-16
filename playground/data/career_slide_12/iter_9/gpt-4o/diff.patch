@@ -1,0 +1,11 @@
+--- ./data/career_slide_12/iter_8/gpt-4o/code.py	2025-02-14 09:08:43.517164568 +0000
++++ ./data/career_slide_12/iter_9/gpt-4o/code.py	2025-02-14 09:09:04.654130955 +0000
+@@ -64,7 +64,7 @@
+     p = text_frame.add_paragraph()
+     p.text = heading
+     p.font.bold = True
+-    p.font.size = Pt(24)
++    p.font.size = Pt(20)  # Change made here for uniformity
+     
+     # Change color of "Leadership and Teamwork" heading to yellow
+     if heading == "Leadership and Teamwork":

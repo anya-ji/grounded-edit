@@ -1,0 +1,1 @@
+Adjust the text layout to ensure each section's titles and bullet points do not overlap and maintain a clear, consistent font size and style for better readability.

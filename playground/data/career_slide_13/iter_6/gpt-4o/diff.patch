@@ -1,0 +1,11 @@
+--- ./data/career_slide_13/iter_5/gpt-4o/code.py	2025-02-14 09:11:28.761891550 +0000
++++ ./data/career_slide_13/iter_6/gpt-4o/code.py	2025-02-14 09:11:49.589855641 +0000
+@@ -64,7 +64,7 @@
+     p.text = f"• {title}"
+     p.font.size = Pt(24)
+     p.font.bold = True
+-    p.font.color.rgb = RGBColor(255, 223, 0)  # warm yellow
++    p.font.color.rgb = RGBColor(255, 223, 0)  # warm yellow (unchanged)
+ 
+     # Content without indentation
+     p = text_frame.add_paragraph()

@@ -1,0 +1,1 @@
+Change the background color of the "Sources of the Subject" text box in the rendered image from bright yellow to white to create better contrast with the text and match the target image.

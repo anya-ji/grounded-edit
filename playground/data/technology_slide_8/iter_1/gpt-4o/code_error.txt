@@ -1,0 +1,6 @@
+Failed to execute code at iteration 1: Traceback (most recent call last):
+  File "/home/anyaji/grounded-edit/playground/data/technology_slide_8/iter_1/gpt-4o/code.py", line 47, in <module>
+    white_background.paste(image, (0, 0), image)
+  File "/home/anyaji/anaconda3/envs/edits/lib/python3.10/site-packages/PIL/Image.py", line 1847, in paste
+    self.im.paste(im, box, mask.im)
+ValueError: bad transparency mask

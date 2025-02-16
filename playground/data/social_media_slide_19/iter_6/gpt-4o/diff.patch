@@ -1,0 +1,18 @@
+--- ./data/social_media_slide_19/iter_5/gpt-4o/code.py	2025-02-14 22:24:13.193139696 +0000
++++ ./data/social_media_slide_19/iter_6/gpt-4o/code.py	2025-02-14 22:24:36.335082677 +0000
+@@ -47,13 +47,13 @@
+ left_inset = 1.5  # Indentation for all bullet points
+ top_inset = 3
+ for i, point in enumerate(bullet_points):
+-    checkmark_box = slide.shapes.add_textbox(Inches(left_inset), Inches(top_inset + i * 1), Inches(0.5), Inches(0.5))
++    checkmark_box = slide.shapes.add_textbox(Inches(left_inset - 0.5), Inches(top_inset + i * 1), Inches(0.5), Inches(0.5))
+     checkmark = checkmark_box.text_frame.add_paragraph()
+     checkmark.text = "✓"
+     checkmark.font.size = Pt(20)
+     checkmark.font.color.rgb = RGBColor(0, 0, 0)  # Black
+     
+-    text_box = slide.shapes.add_textbox(Inches(left_inset), Inches(top_inset + i * 1), Inches(13), Inches(1))  # Adjusted left inset here
++    text_box = slide.shapes.add_textbox(Inches(left_inset), Inches(top_inset + i * 1), Inches(13), Inches(1))
+     text = text_box.text_frame.add_paragraph()
+     text.text = point
+     text.font.size = Pt(20)

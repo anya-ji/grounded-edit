@@ -1,0 +1,39 @@
+--- ./data/art_photos_slide_7/iter_0/gpt-4o/code.py	2025-02-14 08:05:39.138173632 +0000
++++ ./data/art_photos_slide_7/iter_1/gpt-4o/code.py	2025-02-14 08:06:21.152077299 +0000
+@@ -2,6 +2,8 @@
+ from pptx.util import Inches, Pt
+ from pptx.enum.text import PP_ALIGN
+ from pptx.dml.color import RGBColor
++from pptx.oxml import parse_xml
++from pptx.oxml.ns import nsdecls
+ 
+ presentation = Presentation()
+ presentation.slide_width = Inches(16)
+@@ -41,6 +43,17 @@
+ content_frame = content_box.text_frame
+ content_frame.word_wrap = True
+ 
++# Add gradient background to content box
++gradient_xml = """
++<linearGradient id="gradient1">
++    <stop offset="0%" style="stop-color:orange;stop-opacity:1" />
++    <stop offset="100%" style="stop-color:red;stop-opacity:1" />
++</linearGradient>
++"""
++content_box.fill.gradient()
++fill = content_box.fill
++fill._element.get_or_add_solidFill().add_texturedFill(parse_xml(gradient_xml))
++
+ p = content_frame.add_paragraph()
+ p.text = "Examples:"
+ p.font.size = Pt(28)
+@@ -56,8 +69,4 @@
+ p.font.size = Pt(24)
+ p.level = 1  # Sub-bullet
+ 
+-# Set content box background to light gray for readability
+-content_box.fill.solid()
+-content_box.fill.fore_color.rgb = RGBColor(211, 211, 211)  # Light Gray
+-
+ presentation.save("render.pptx")
+\ No newline at end of file

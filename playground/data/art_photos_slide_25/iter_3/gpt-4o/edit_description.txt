@@ -1,0 +1,1 @@
+Increase the font weight of the "References" text in the header to bold and adjust the background gradient to feature a more vibrant reddish to yellowish transition for better visibility and contrast.

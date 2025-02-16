@@ -1,0 +1,1 @@
+Change the color of the stressed words in the rendered image from the default color to red for better visual emphasis.

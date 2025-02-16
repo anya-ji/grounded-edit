@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: A blue background with large, bold text displaying the question about the pronunciation scheme, and three answer options listed beneath it, with the selected answer marked with a checkmark.
+2. Description of Rendered Image: A light blue background with a similar layout, but the text is slightly less bold and the checkmark is placed lower, with the text less emphasized than in the target image.
+3. Change Suggestion: Increase the font weight of the main question text to 'bold' to match the emphasis in the target image.
+```

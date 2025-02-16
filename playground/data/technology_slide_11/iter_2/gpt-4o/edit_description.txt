@@ -1,0 +1,1 @@
+Adjust the check box style to match the target image, ensuring that all check boxes are uniformly styled and positioned consistently with equal spacing from the text.

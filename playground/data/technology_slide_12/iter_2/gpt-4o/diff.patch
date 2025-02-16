@@ -1,0 +1,32 @@
+--- ./data/technology_slide_12/iter_1/gpt-4o/code.py	2025-02-16 02:35:26.913065035 +0000
++++ ./data/technology_slide_12/iter_2/gpt-4o/code.py	2025-02-16 02:35:38.549029473 +0000
+@@ -1,7 +1,6 @@
+ from pptx import Presentation
+ from pptx.util import Inches, Pt
+ from pptx.dml.color import RGBColor
+-from pptx.enum.shapes import MSO_SHAPE
+ 
+ # Create a presentation object
+ presentation = Presentation()
+@@ -28,17 +27,11 @@
+ p.font.bold = True
+ p.font.color.rgb = RGBColor(0, 0, 0)
+ p.font.name = 'Serif'
+-p.font.italic = True  # Change to italic font style
++# Removed italic font style
++# p.font.italic = True  
+ text_box.text_frame.text_anchor = 'middle'
+ 
+-# Add a thin horizontal line near the bottom
+-left = Inches(1)
+-width = Inches(14)
+-top = Inches(7.5)
+-height = Inches(0.05)
+-line = slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, left, top, width, height)
+-line.fill.solid()
+-line.fill.fore_color.rgb = RGBColor(0, 0, 0)
++# Removed the code to add a thin horizontal line
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

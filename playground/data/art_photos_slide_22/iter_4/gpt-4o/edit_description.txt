@@ -1,0 +1,1 @@
+Change the font size of the header "KEEPING ART" to be smaller and match the font style of the target image to improve consistency and visual coherence.

@@ -1,0 +1,14 @@
+--- ./data/marketing_slide_21/iter_0/gpt-4o/code.py	2025-02-14 20:41:13.758251816 +0000
++++ ./data/marketing_slide_21/iter_1/gpt-4o/code.py	2025-02-14 20:41:40.788186843 +0000
+@@ -57,7 +57,10 @@
+     shape.fill.solid()
+     shape.fill.fore_color.rgb = RGBColor(255, 140, 0)  # Orange color
+     shape.line.color.rgb = RGBColor(255, 255, 255)  # White border
+-    add_textbox(slide, text, left, top, width, height, bold=True, align=PP_ALIGN.CENTER)
++    if text == "Producer or manufacturer":
++        add_textbox(slide, text, left, top, width, height, bold=True, align=PP_ALIGN.CENTER)  # Change to center alignment
++    else:
++        add_textbox(slide, text, left, top, width, height, bold=True)
+ 
+ # Add title at the bottom with increased font size
+ add_textbox(slide, "Sales and Distribution", Inches(4), Inches(7.5), Inches(8), Inches(1), font_size=40, bold=True, color=RGBColor(0, 0, 0), align=PP_ALIGN.CENTER)

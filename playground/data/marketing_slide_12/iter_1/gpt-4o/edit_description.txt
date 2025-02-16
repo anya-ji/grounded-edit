@@ -1,0 +1,1 @@
+Adjust the background color to a solid black and ensure the arrows are positioned central and directly below the text "Now: I, CAN", mirroring the layout of the target image.

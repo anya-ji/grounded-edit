@@ -1,0 +1,25 @@
+--- ./data/marketing_slide_16/init/code.py	2025-02-14 06:46:11.526158256 +0000
++++ ./data/marketing_slide_16/iter_0/gpt-4o/code.py	2025-02-14 20:28:38.339074102 +0000
+@@ -33,5 +33,21 @@
+ p.font.size = Pt(14)
+ p.font.color.rgb = RGBColor(255, 255, 255)  # White font color
+ 
++# Add "Marketing" with styling
++marketing_box = slide.shapes.add_textbox(Inches(0.5), Inches(2.5), Inches(2), Inches(1))
++marketing_frame = marketing_box.text_frame
++p_marketing = marketing_frame.add_paragraph()
++p_marketing.text = "Marketing"
++p_marketing.font.size = Pt(24)   # Adjust size as needed
++p_marketing.font.color.rgb = RGBColor(255, 0, 0)  # Red color, adjust as needed
++
++# Add "Sales" with styling
++sales_box = slide.shapes.add_textbox(Inches(0.5), Inches(4), Inches(2), Inches(1))
++sales_frame = sales_box.text_frame
++p_sales = sales_frame.add_paragraph()
++p_sales.text = "Sales"
++p_sales.font.size = Pt(24)  # Adjust size as needed
++p_sales.font.color.rgb = RGBColor(0, 0, 255)  # Blue color, adjust as needed
++
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

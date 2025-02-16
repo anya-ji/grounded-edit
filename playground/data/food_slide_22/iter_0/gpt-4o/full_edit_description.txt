@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: A quiz interface showing three options to choose from regarding pronunciation rules, with a checkmark indicating a correct answer, and a highlighted panel for selection.
+2. Description of Rendered Image: A similar quiz interface, but without the checkmark and with differently colored buttons, where the option selected is visually distinct.
+3. Change Suggestion: Add a green checkmark icon next to the selected correct answer in the rendered image to match the target image.
+```

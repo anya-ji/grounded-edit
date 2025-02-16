@@ -1,0 +1,1 @@
+Modify the color gradient in the top portion of the rendered image to include softer, pastel shades of pink and orange, similar to the target image, and adjust the texture effects to create a smoother gradient transition.

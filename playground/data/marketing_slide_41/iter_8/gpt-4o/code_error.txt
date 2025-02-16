@@ -1,0 +1,14 @@
+Failed to execute code at iteration 8: Traceback (most recent call last):
+  File "/home/anyaji/grounded-edit/playground/data/marketing_slide_41/iter_8/gpt-4o/code.py", line 32, in <module>
+    title_tf.vertical_anchor = 'middle'  # Center vertical alignment
+  File "/home/anyaji/anaconda3/envs/edits/lib/python3.10/site-packages/pptx/text/text.py", line 191, in vertical_anchor
+    bodyPr.anchor = value
+  File "/home/anyaji/anaconda3/envs/edits/lib/python3.10/site-packages/pptx/oxml/xmlchemy.py", line 225, in set_attr_value
+    str_value = self._simple_type.to_xml(value)
+  File "/home/anyaji/anaconda3/envs/edits/lib/python3.10/site-packages/pptx/enum/base.py", line 86, in to_xml
+    member = cls(value)
+  File "/home/anyaji/anaconda3/envs/edits/lib/python3.10/enum.py", line 385, in __call__
+    return cls.__new__(cls, value)
+  File "/home/anyaji/anaconda3/envs/edits/lib/python3.10/enum.py", line 710, in __new__
+    raise ve_exc
+ValueError: 'middle' is not a valid MSO_VERTICAL_ANCHOR

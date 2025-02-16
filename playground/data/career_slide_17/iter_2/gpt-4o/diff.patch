@@ -1,0 +1,11 @@
+--- ./data/career_slide_17/iter_1/gpt-4o/code.py	2025-02-14 09:31:36.659168986 +0000
++++ ./data/career_slide_17/iter_2/gpt-4o/code.py	2025-02-14 09:32:03.376080071 +0000
+@@ -68,7 +68,7 @@
+ professional_title_p.text = "PROFESSIONAL WORLD"
+ professional_title_p.font.size = Pt(24)
+ professional_title_p.font.bold = True
+-professional_title_p.font.color.rgb = RGBColor(0, 0, 255)  # Changed to blue font
++professional_title_p.font.color.rgb = RGBColor(255, 255, 0)  # Changed to yellow font
+ 
+ professional_outcome = slide.shapes.add_textbox(Inches(8), Inches(3), Inches(7), Inches(1))
+ professional_outcome_frame = professional_outcome.text_frame

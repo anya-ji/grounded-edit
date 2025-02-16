@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: The target image features a presentation slide titled "What is Blockchain?" with bulleted definitions and information. The text is formatted with some points bolded for emphasis and contains checkboxes next to each bullet point.
+2. Description of Rendered Image: The rendered image also presents a slide titled "What is Blockchain?" but lacks bulleted lists and checkboxes. The formatting of the text appears less organized, making it harder to distinguish individual points.
+3. Change Suggestion: Add bulleted formatting to the text content and include checkboxes next to each bullet point to match the layout of the target image.
+```

@@ -1,0 +1,13 @@
+--- ./data/marketing_slide_27/iter_8/gpt-4o/code.py	2025-02-14 20:58:56.299024377 +0000
++++ ./data/marketing_slide_27/iter_9/gpt-4o/code.py	2025-02-14 20:59:16.998983114 +0000
+@@ -62,8 +62,8 @@
+ 
+ p = text_frame.add_paragraph()
+ p.text = title_text
+-p.font.size = Pt(24)  # Adjusted font size for better proportion
+-p.font.bold = True
++p.font.size = Pt(12)  # Reduced font size by 50%
++p.font.bold = False   # Changed font weight to regular
+ p.font.color.rgb = RGBColor(255, 255, 255)  # White color for contrast
+ 
+ # Save the presentation

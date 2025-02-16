@@ -1,0 +1,13 @@
+--- ./data/design_slide_6/iter_8/gpt-4o/code.py	2025-02-14 18:31:02.518959707 +0000
++++ ./data/design_slide_6/iter_9/gpt-4o/code.py	2025-02-14 18:31:22.695904609 +0000
+@@ -29,8 +29,8 @@
+ image_path = "../../media/image_0.jpg"
+ slide.shapes.add_picture(image_path, Inches(0), Inches(1.6), width=Inches(8.5))  # Adjusted position to Inches(0)
+ 
+-# Adjust text box size and position to provide adequate spacing above and below
+-text_box = slide.shapes.add_textbox(Inches(8.6), Inches(5.0), Inches(6), Inches(5))  # Moved down for more padding
++# Adjust text box position to the right of the image
++text_box = slide.shapes.add_textbox(Inches(9), Inches(5.0), Inches(6), Inches(5))  # Moved to the right
+ text_frame = text_box.text_frame
+ 
+ # Add paragraphs

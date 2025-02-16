@@ -1,0 +1,1 @@
+Change the heading font color from green to a brighter green shade (e.g., HEX #00B300) while keeping the body text in black for improved contrast and readability.

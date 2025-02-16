@@ -1,0 +1,15 @@
+--- ./data/art_photos_slide_2/iter_1/gpt-4o/code.py	2025-02-14 07:23:10.291604104 +0000
++++ ./data/art_photos_slide_2/iter_2/gpt-4o/code.py	2025-02-14 07:23:39.313565014 +0000
+@@ -55,10 +55,8 @@
+ p2.font.size = Pt(24)
+ p2.font.color.rgb = RGBColor(0, 0, 0)
+ 
+-# Setting the background to be semi-transparent
+-content_box.fill.solid()
+-content_box.fill.fore_color.rgb = RGBColor(255, 255, 255)  # White color
+-content_box.fill.fore_color.alpha = 180  # Set alpha for transparency (0-255)
++# Remove the background fill from the content box for better integration
++# content_box.fill.solid()  # This line is removed to eliminate the white box
+ 
+ # Add a darker outline to the content box
+ content_box.line.color.rgb = RGBColor(0, 0, 0)  # Black outline

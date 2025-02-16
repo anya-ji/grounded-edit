@@ -1,0 +1,31 @@
+--- ./data/art_photos_slide_19/iter_3/gpt-4o/code.py	2025-02-14 07:18:50.704879123 +0000
++++ ./data/art_photos_slide_19/iter_4/gpt-4o/code.py	2025-02-14 07:19:14.790860306 +0000
+@@ -36,8 +36,8 @@
+ fill.solid()
+ fill.fore_color.rgb = RGBColor(255, 255, 0)  # Also make background yellow to match
+ 
+-# Add quote text box with white background
+-quote_box = slide.shapes.add_textbox(Inches(1), Inches(2.5), Inches(14), Inches(4))
++# Add quote text box with white background and center alignment
++quote_box = slide.shapes.add_textbox(Inches(1), Inches(1), Inches(14), Inches(4))  # Adjusted vertical position
+ quote_frame = quote_box.text_frame
+ quote_frame.clear()  # Clear default placeholder content
+ quote_text = quote_frame.add_paragraph()
+@@ -47,10 +47,16 @@
+ )
+ quote_text.font.size = Pt(32)
+ quote_text.font.color.rgb = RGBColor(0, 0, 0)  # Change text color to black
++quote_frame.text = ""  # Clear any previously set text to reset layout.
++quote_frame.add_paragraph().text = quote_text.text  # Ensure paragraph is added to preserve formatting
+ 
+ # Set white background for the quote text area
+ fill = quote_box.fill
+ fill.solid()
+ fill.fore_color.rgb = RGBColor(255, 255, 255)
+ 
++# Align text in the middle
++for paragraph in quote_frame.paragraphs:
++    paragraph.alignment = 1  # 1 corresponds to center alignment
++
+ presentation.save("render.pptx")
+\ No newline at end of file

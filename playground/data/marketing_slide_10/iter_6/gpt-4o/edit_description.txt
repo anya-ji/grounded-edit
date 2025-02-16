@@ -1,0 +1,1 @@
+Remove the circular blue shapes on the left side of the rendered image to create a cleaner background that allows for a focus on the text, resembling the target image's background style.

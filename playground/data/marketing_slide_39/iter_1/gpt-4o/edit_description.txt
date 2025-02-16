@@ -1,0 +1,1 @@
+Adjust the background to remove or decrease the size of the white space on the left side of the rendered image, allowing the figure and the money to have a more balanced and visually cohesive layout.

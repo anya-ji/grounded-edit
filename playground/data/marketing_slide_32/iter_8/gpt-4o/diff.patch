@@ -1,0 +1,11 @@
+--- ./data/marketing_slide_32/iter_7/gpt-4o/code.py	2025-02-14 21:09:57.315621932 +0000
++++ ./data/marketing_slide_32/iter_8/gpt-4o/code.py	2025-02-14 21:10:22.806565559 +0000
+@@ -35,7 +35,7 @@
+ 
+ title = title_frame.add_paragraph()
+ title.text = "ELO's"
+-# Removed bold setting for title
++# Changed font color to lighter gray for improved legibility
+ title.font.size = Pt(150)  # Increased font size to 150
+ title.font.color.rgb = light_gray_rgb  # Changed font color to lighter gray
+ 

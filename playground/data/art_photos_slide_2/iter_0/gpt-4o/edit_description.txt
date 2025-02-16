@@ -1,0 +1,1 @@
+Change the background of the text box from white to a semi-transparent color that blends with the abstract background while maintaining legibility of the text.

@@ -1,0 +1,11 @@
+--- ./data/business_slide_16/iter_1/gpt-4o/code.py	2025-02-14 08:30:10.199360049 +0000
++++ ./data/business_slide_16/iter_2/gpt-4o/code.py	2025-02-14 08:30:24.903320151 +0000
+@@ -24,7 +24,7 @@
+ title_paragraph.text = "References"
+ title_paragraph.font.bold = True  # Ensure the title is bold
+ title_paragraph.font.size = Pt(44)
+-title_paragraph.font.color.rgb = RGBColor(255, 255, 255)  # White
++title_paragraph.font.color.rgb = RGBColor(255, 255, 255)  # Changed to white
+ title_paragraph.font.name = 'Arial'  # Adjusted font type (example)
+ 
+ # Add URLs below the title

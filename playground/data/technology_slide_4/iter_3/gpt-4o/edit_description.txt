@@ -1,0 +1,1 @@
+Replace the square brackets [ ] in the rendered image with checkboxes (☑) to match the target image's bullet point style.

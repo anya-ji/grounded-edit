@@ -1,0 +1,1 @@
+Change the font of the text in the rendered image to a bold serif font to match the target image.

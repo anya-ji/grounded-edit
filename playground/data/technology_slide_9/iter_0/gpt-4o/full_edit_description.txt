@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: The target image features a title that reads "Types of Blockchain" in a prominent font, with checkboxes next to each description of different blockchain types, indicating a checklist format.
+2. Description of Rendered Image: The rendered image has the same title but lacks checkboxes next to the descriptions, presenting the information in a continuous text format without any visual indication of completion.
+3. Change Suggestion: Add checkboxes next to each blockchain type description to replicate the checklist format seen in the target image.
+```

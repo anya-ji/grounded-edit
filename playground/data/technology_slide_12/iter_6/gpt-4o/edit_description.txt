@@ -1,0 +1,1 @@
+Increase the letter spacing (tracking) of the text "Thank You!" in the rendered image for a more open appearance.

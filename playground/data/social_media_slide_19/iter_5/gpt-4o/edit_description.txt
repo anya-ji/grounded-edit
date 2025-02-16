@@ -1,0 +1,1 @@
+Ensure all bullet points are aligned consistently by adjusting the left indent of the first bullet point to match the indentation of the subsequent points.

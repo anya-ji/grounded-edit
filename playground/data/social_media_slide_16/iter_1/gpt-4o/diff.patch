@@ -1,0 +1,14 @@
+--- ./data/social_media_slide_16/iter_0/gpt-4o/code.py	2025-02-14 22:09:36.711301062 +0000
++++ ./data/social_media_slide_16/iter_1/gpt-4o/code.py	2025-02-14 22:09:57.557249585 +0000
+@@ -48,9 +48,9 @@
+     "../../media/image_2.jpg"  # Sagrada Familia image
+ ]
+ 
+-# Updated size for uniformity
++# Updated size for uniformity and reduced spacing
+ image_size = Inches(3)  # uniform size for all images
+-x_positions = [Inches(1), Inches(5.5), Inches(10)]
++x_positions = [Inches(0.5), Inches(4), Inches(7.5)]  # Adjusted positions for reduced space
+ for i, image_path in enumerate(image_paths):
+     slide.shapes.add_picture(image_path, x_positions[i], Inches(5), image_size, image_size)
+ 

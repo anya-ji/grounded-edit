@@ -1,0 +1,1 @@
+Remove the redundant bullet points that restate information already covered in the previous text sections to achieve a cleaner, more concise layout.

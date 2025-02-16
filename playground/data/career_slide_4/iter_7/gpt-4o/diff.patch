@@ -1,0 +1,38 @@
+--- ./data/career_slide_4/iter_6/gpt-4o/code.py	2025-02-14 09:48:48.978334073 +0000
++++ ./data/career_slide_4/iter_7/gpt-4o/code.py	2025-02-14 09:49:16.745266728 +0000
+@@ -26,7 +26,7 @@
+ p.font.size = Pt(24)  # Reduced font size for title to 1.5em (approximately 24 points)
+ p.font.bold = True
+ p.alignment = PP_ALIGN.CENTER
+-p.font.color.rgb = RGBColor(255, 255, 255)  # white color for title text
++p.font.color.rgb = RGBColor(255, 255, 0)  # yellow color for title text
+ 
+ # Section 1
+ left_title = "Personal Growth and Development"
+@@ -47,7 +47,7 @@
+     p = left_frame.add_paragraph()
+     p.text = bullet
+     p.font.size = Pt(16)
+-    p.font.color.rgb = RGBColor(255, 255, 255)  # white color
++    p.font.color.rgb = RGBColor(255, 255, 0)  # yellow color for bullets
+ 
+ # Add image to left section
+ left_image_path = "../../media/image_0.jpg"  # replace with your own image path
+@@ -72,7 +72,7 @@
+     p = middle_frame.add_paragraph()
+     p.text = bullet
+     p.font.size = Pt(16)
+-    p.font.color.rgb = RGBColor(255, 255, 255)  # white color
++    p.font.color.rgb = RGBColor(255, 255, 0)  # yellow color for bullets
+ 
+ # Add image to middle section
+ middle_image_path = "../../media/image_0.jpg"  # replace with your own image path
+@@ -96,7 +96,7 @@
+ p = right_frame.add_paragraph()
+ p.text = right_text
+ p.font.size = Pt(16)
+-p.font.color.rgb = RGBColor(255, 255, 255)  # white color
++p.font.color.rgb = RGBColor(255, 255, 0)  # yellow color for bullets
+ 
+ # Add image to right section
+ right_image_path = "../../media/image_1.jpg"  # replace with your own image path

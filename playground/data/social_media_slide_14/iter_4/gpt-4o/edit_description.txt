@@ -1,0 +1,1 @@
+Introduce line breaks after each paragraph in the text blocks to improve the layout and readability of the rendered image.

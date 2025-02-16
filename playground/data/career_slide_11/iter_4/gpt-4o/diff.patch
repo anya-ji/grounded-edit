@@ -1,0 +1,28 @@
+--- ./data/career_slide_11/iter_3/gpt-4o/code.py	2025-02-14 09:01:40.120717005 +0000
++++ ./data/career_slide_11/iter_4/gpt-4o/code.py	2025-02-14 09:02:06.574691314 +0000
+@@ -54,10 +54,7 @@
+     
+     # Change to white color for consistency
+     p_main.font.color.rgb = RGBColor(255, 255, 255)  # White color for the main point
+-
+-    if main_point == "Effective Communication":
+-        p_main.font.bold = True
+-
++    p_main.font.bold = True  # Make the main point bold
+     p_main.font.size = Pt(28)
+     p_main.space_after = Pt(10)  # Increased space after main point
+ 
+@@ -65,10 +62,11 @@
+         p_sub = content_frame.add_paragraph()
+         p_sub.text = sp
+         p_sub.level = 1
+-        p_sub.space_before = Pt(10)  # Increased space before sub-point
++        p_sub.space_before = Pt(5)  # Adjusted space before sub-point for better alignment
+         p_sub.space_after = Pt(10)  # Increased space after sub-point
+         p_sub.font.size = Pt(20)
+         p_sub.font.color.rgb = RGBColor(255, 255, 255)  # White color for sub-points
++        p_sub.space_after = Pt(15)  # More space after sub-points for clarity
+ 
+ # Save presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

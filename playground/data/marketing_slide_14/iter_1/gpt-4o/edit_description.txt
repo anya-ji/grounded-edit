@@ -1,0 +1,1 @@
+Remove the gray box background behind the text to allow the text to appear seamlessly on the rendered image, similar to the target image.

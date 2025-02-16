@@ -1,0 +1,1 @@
+Change the rendered image's icon from showing multiple people to a single person within the magnifying glass, making it match the target image more closely.

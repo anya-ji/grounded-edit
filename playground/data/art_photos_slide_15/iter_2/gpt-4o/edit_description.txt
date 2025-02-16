@@ -1,0 +1,1 @@
+Increase the saturation of the colors in the left piece of the rendered image to better match the bold and vivid color palette of the left piece in the target image.

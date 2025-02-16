@@ -1,0 +1,20 @@
+--- ./data/social_media_slide_9/iter_2/gpt-4o/code.py	2025-02-16 02:27:12.978728372 +0000
++++ ./data/social_media_slide_9/iter_3/gpt-4o/code.py	2025-02-16 02:27:44.042611753 +0000
+@@ -29,7 +29,7 @@
+ title_frame = title_box.text_frame
+ title_p = title_frame.add_paragraph()
+ title_p.text = title_text
+-title_p.font.size = Pt(28)
++title_p.font.size = Pt(28)  # Adjusted to match the first line's font size
+ title_p.font.bold = True
+ title_p.font.color.rgb = RGBColor(0, 51, 102)  # dark blue color
+ title_p.alignment = PP_ALIGN.LEFT  # Change alignment to left
+@@ -48,7 +48,7 @@
+ content_p1.alignment = PP_ALIGN.LEFT  # Change alignment to left
+ 
+ content_p2 = content_frame.add_paragraph()
+-content_p2.text = "2. It contributes to the formation of communicative networks and social structures."
++content_p2.text = "2. It contributes to the formation of communicative networks and social structures."  # Added period for consistency
+ content_p2.space_before = Pt(10)  # Add space before this point
+ content_p2.space_after = Pt(10)  # Add space after this point
+ content_p2.level = 0

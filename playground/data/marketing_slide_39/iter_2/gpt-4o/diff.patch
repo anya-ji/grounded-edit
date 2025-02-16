@@ -1,0 +1,11 @@
+--- ./data/marketing_slide_39/iter_1/gpt-4o/code.py	2025-02-14 21:27:02.429105249 +0000
++++ ./data/marketing_slide_39/iter_2/gpt-4o/code.py	2025-02-14 21:27:21.848038154 +0000
+@@ -32,7 +32,7 @@
+         run.font.bold = True
+         run.font.color.rgb = RGBColor(255, 255, 255)  # White font
+ 
+-# Add image of character holding money
++# Add image of character holding money without surrounding rectangle
+ image_path_0 = "../../media/image_0.jpg"
+ slide.shapes.add_picture(image_path_0, Inches(7), Inches(2.5), height=Inches(4))
+ 

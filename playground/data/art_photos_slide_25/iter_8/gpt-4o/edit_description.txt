@@ -1,0 +1,1 @@
+Change the background color from white to light yellow in the rendered image to match the target image's background color.

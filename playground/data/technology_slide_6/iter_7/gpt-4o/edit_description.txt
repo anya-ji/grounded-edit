@@ -1,0 +1,1 @@
+Change the list items in the rendered image to have unchecked boxes to match the target image's style.

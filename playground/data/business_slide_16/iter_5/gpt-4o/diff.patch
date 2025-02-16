@@ -1,0 +1,11 @@
+--- ./data/business_slide_16/iter_4/gpt-4o/code.py	2025-02-14 08:31:22.331165375 +0000
++++ ./data/business_slide_16/iter_5/gpt-4o/code.py	2025-02-14 08:31:37.717124176 +0000
+@@ -54,7 +54,7 @@
+ for url in urls:
+     p = text_frame_content.add_paragraph()
+     p.text = url
+-    p.font.size = Pt(24)
++    p.font.size = Pt(20)  # Adjusted font size to be slightly smaller than the title
+     p.font.color.rgb = RGBColor(0, 0, 255)  # Change links' color to a brighter blue
+     p.alignment = PP_ALIGN.LEFT
+ 

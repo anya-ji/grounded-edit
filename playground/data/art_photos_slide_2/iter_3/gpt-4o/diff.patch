@@ -1,0 +1,23 @@
+--- ./data/art_photos_slide_2/iter_2/gpt-4o/code.py	2025-02-14 07:23:39.313565014 +0000
++++ ./data/art_photos_slide_2/iter_3/gpt-4o/code.py	2025-02-14 07:24:08.447524411 +0000
+@@ -43,6 +43,10 @@
+ text_frame = content_box.text_frame
+ text_frame.word_wrap = True
+ 
++# Set the background of the content box to yellow
++content_box.fill.solid()
++content_box.fill.fore_color.rgb = RGBColor(255, 255, 0)  # Yellow background
++
+ # Add first bullet point
+ p1 = text_frame.add_paragraph()
+ p1.text = "The subject of art is usually anything that is represented in the artwork."
+@@ -55,9 +59,6 @@
+ p2.font.size = Pt(24)
+ p2.font.color.rgb = RGBColor(0, 0, 0)
+ 
+-# Remove the background fill from the content box for better integration
+-# content_box.fill.solid()  # This line is removed to eliminate the white box
+-
+ # Add a darker outline to the content box
+ content_box.line.color.rgb = RGBColor(0, 0, 0)  # Black outline
+ content_box.line.width = Pt(2)  # Set line width

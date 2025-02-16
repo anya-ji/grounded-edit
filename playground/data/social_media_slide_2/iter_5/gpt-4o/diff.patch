@@ -1,0 +1,47 @@
+--- ./data/social_media_slide_2/iter_4/gpt-4o/code.py	2025-02-14 22:27:24.271668935 +0000
++++ ./data/social_media_slide_2/iter_5/gpt-4o/code.py	2025-02-14 22:27:55.661591606 +0000
+@@ -17,7 +17,7 @@
+ )
+ fill = background.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(0, 102, 204)  # Lighter blue
++fill.fore_color.rgb = RGBColor(255, 255, 255)  # Changed to white
+ 
+ # Add title text
+ title_box = slide.shapes.add_textbox(Inches(0.2), Inches(0.1), Inches(8), Inches(1))
+@@ -25,14 +25,14 @@
+ title.text = "DEFINITION OF TERMS"
+ title.font.bold = True
+ title.font.size = Pt(32)
+-title.font.color.rgb = RGBColor(255, 255, 255)  # White
++title.font.color.rgb = RGBColor(0, 0, 0)  # Changed to black for contrast
+ 
+-# Adding lighter blue background behind definitions
++# Adding white background behind definitions
+ definitions_bg = slide.shapes.add_shape(
+     1, Inches(0.5), Inches(2.5), Inches(15), Inches(5.5)  # Adjusted position to separate definitions
+ )
+ definitions_bg.fill.solid()
+-definitions_bg.fill.fore_color.rgb = RGBColor(0, 102, 204)  # Lighter blue
++definitions_bg.fill.fore_color.rgb = RGBColor(255, 255, 255)  # Changed to white
+ 
+ # Add content for Media
+ media_box = slide.shapes.add_textbox(Inches(0.5), Inches(2.5), Inches(15), Inches(3))  # Adjusted height
+@@ -41,7 +41,7 @@
+ media_title.text = "MEDIA"
+ media_title.font.bold = True
+ media_title.font.size = Pt(26)  # Increased font size for MEDIA
+-media_title.font.color.rgb = RGBColor(255, 255, 255)  # White text for contrast
++media_title.font.color.rgb = RGBColor(0, 0, 0)  # Changed to black for contrast
+ 
+ media_text = media_frame.add_paragraph()
+ media_text.text = "refers to the communication channels through which we disseminate news, music, movies, education, promotional messages and other data."
+@@ -55,7 +55,7 @@
+ culture_title.text = "CULTURE"
+ culture_title.font.bold = True
+ culture_title.font.size = Pt(24)  # Font size remains the same for CULTURE
+-culture_title.font.color.rgb = RGBColor(255, 255, 255)  # White text for contrast
++culture_title.font.color.rgb = RGBColor(0, 0, 0)  # Changed to black for contrast
+ 
+ culture_text = culture_frame.add_paragraph()
+ culture_text.text = "can be defined as all the ways of life, including arts, beliefs and institutions of a population that are passed down from generation to generation."

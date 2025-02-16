@@ -1,0 +1,34 @@
+--- ./data/technology_slide_4/init/code.py	2025-02-14 06:46:12.010156523 +0000
++++ ./data/technology_slide_4/iter_0/gpt-4o/code.py	2025-02-16 02:43:14.058706962 +0000
+@@ -26,10 +26,10 @@
+ 
+ # Content text
+ content_text = (
+-    "1. Private Blockchain Networks: Private blockchains operate on closed networks, and tend to work well for private businesses and organizations.\n"
+-    "2. Public Blockchain Networks: Bitcoin and other cryptocurrencies originated from public blockchains, which also played a role in popularizing distributed ledger technology (DLT).\n"
+-    "3. Permissioned Blockchain Networks: Also sometimes known as hybrid blockchains, permissioned blockchain networks are private blockchains that allow special access for authorized individuals.\n"
+-    "4. Hybrid Blockchains: Hybrid blockchains are the combination of both public and private blockchains. In a hybrid blockchain, some parts of the blockchain are public and transparent, while others are private and accessible only to authorized and specific participants."
++    "Private Blockchain Networks: Private blockchains operate on closed networks, and tend to work well for private businesses and organizations.\n"
++    "Public Blockchain Networks: Bitcoin and other cryptocurrencies originated from public blockchains, which also played a role in popularizing distributed ledger technology (DLT).\n"
++    "Permissioned Blockchain Networks: Also sometimes known as hybrid blockchains, permissioned blockchain networks are private blockchains that allow special access for authorized individuals.\n"
++    "Hybrid Blockchains: Hybrid blockchains are the combination of both public and private blockchains. In a hybrid blockchain, some parts of the blockchain are public and transparent, while others are private and accessible only to authorized and specific participants."
+ )
+ 
+ # Add content as bullet points
+@@ -40,13 +40,14 @@
+ # Split content into individual bullet points
+ bullet_points = content_text.split("\n")
+ 
+-# Add each bullet point
++# Add each bullet point as bullet points instead of numbered
+ for bullet in bullet_points:
+     bullet_p = content_frame.add_paragraph()
+     bullet_p.text = bullet
+     bullet_p.font.size = Pt(24)
+     bullet_p.font.underline = True if ':' in bullet else False  # Underline topic
+     bullet_p.space_after = Pt(12)
++    bullet_p.level = 0  # Set bullet point level to 0
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

@@ -1,0 +1,15 @@
+--- ./data/design_slide_5/iter_8/gpt-4o/code.py	2025-02-14 18:27:39.498516926 +0000
++++ ./data/design_slide_5/iter_9/gpt-4o/code.py	2025-02-14 18:27:57.707466710 +0000
+@@ -9,6 +9,12 @@
+ slide_layout = presentation.slide_layouts[5]  # Blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
++# Set the background color of the slide to solid blue
++background = slide.background
++fill = background.fill
++fill.solid()
++fill.fore_color.rgb = RGBColor(0, 102, 204)  # Solid blue
++
+ # Title on the left side
+ left_title_box = slide.shapes.add_textbox(Inches(0.5), Inches(0.5), Inches(7.5), Inches(2))
+ left_title_frame = left_title_box.text_frame

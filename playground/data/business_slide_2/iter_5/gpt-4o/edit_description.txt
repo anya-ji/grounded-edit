@@ -1,0 +1,1 @@
+Adjust the color saturation and brightness levels of the rendered image to more closely match the warm, inviting tones of the target image.

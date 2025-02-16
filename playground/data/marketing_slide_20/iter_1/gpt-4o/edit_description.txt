@@ -1,0 +1,1 @@
+Reduce the opacity of the text "Transportation and Storage" to allow the background image to be more visible and blend better with the overall composition.

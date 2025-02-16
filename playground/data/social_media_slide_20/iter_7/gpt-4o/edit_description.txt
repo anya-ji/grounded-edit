@@ -1,0 +1,1 @@
+Adjust the font weight of the first bullet point to match the uniformity of the target image and ensure all bullet points are aligned consistently.

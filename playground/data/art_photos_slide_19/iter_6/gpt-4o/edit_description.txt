@@ -1,0 +1,1 @@
+Reduce the opacity of the abstract background in the rendered image to 70% to ensure the text stands out more clearly against it.

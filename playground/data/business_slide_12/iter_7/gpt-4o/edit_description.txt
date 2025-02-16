@@ -1,0 +1,1 @@
+Remove the accent from the letter "C" in "NYC" to match the target image more closely.

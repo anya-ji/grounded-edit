@@ -1,0 +1,13 @@
+--- ./data/environment_slide_10/iter_2/gpt-4o/code.py	2025-02-14 18:43:28.528771844 +0000
++++ ./data/environment_slide_10/iter_3/gpt-4o/code.py	2025-02-14 18:43:43.308745125 +0000
+@@ -37,8 +37,8 @@
+ p.font.color.rgb = RGBColor(100, 200, 100)  # Lighter green font
+ p.alignment = PP_ALIGN.CENTER  # Center the text
+ 
+-# Apply a stylized font and add shadow effect
+-p.font.name = 'Arial Black'  # More stylized font
++# Change to a more ornate font and add shadow effect
++p.font.name = 'Papyrus'  # More ornate typeface
+ p.shadow = True  # Enable shadow effect
+ 
+ # Save the presentation

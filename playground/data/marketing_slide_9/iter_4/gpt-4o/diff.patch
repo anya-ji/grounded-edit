@@ -1,0 +1,10 @@
+--- ./data/marketing_slide_9/iter_3/gpt-4o/code.py	2025-02-14 21:43:55.884163443 +0000
++++ ./data/marketing_slide_9/iter_4/gpt-4o/code.py	2025-02-14 21:44:33.955064571 +0000
+@@ -57,6 +57,7 @@
+     )
+     shape.fill.solid()
+     shape.fill.fore_color.rgb = color
++    shape.line.color.rgb = RGBColor(0, 0, 0)  # Outline color
+ 
+     # Add title inside shape
+     text_box = slide.shapes.add_textbox(left + Inches(0.2), top + Inches(0.2), width - Inches(0.4), height - Inches(0.4))

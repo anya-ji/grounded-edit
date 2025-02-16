@@ -1,0 +1,21 @@
+--- ./data/food_slide_30/iter_7/gpt-4o/code.py	2025-02-14 19:51:57.291367065 +0000
++++ ./data/food_slide_30/iter_8/gpt-4o/code.py	2025-02-14 19:52:26.907297063 +0000
+@@ -83,5 +83,17 @@
+ part3_instr_p.font.size = Pt(18)
+ part3_instr_frame.word_wrap = True
+ 
++# Modify dialogue to replace placeholders with past tense forms
++dialogue_text_modified = (
++    "JOEY: We **were** (be) out to dinner. We **had** (have) a really nice time, "
++    "I **thought** (think) she was really cool and then, out of nowhere, she **reached** (reach) over "
++    "and **took** (take) some of my fries!\n\n"
++    "PHOEBE: So she **took** (take) some fries, big deal!\n\n"
++    "RACHEL: Oh yeah, Joey doesn’t share food. I mean, just last week, we **had** (have) breakfast, "
++    "and he **had** (have) a couple of grapes on his plate..."
++)
++
++dialogue_frame.paragraphs[0].text = dialogue_text_modified
++
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

@@ -1,0 +1,1 @@
+Change the text color of "principles of graphic design" from bold white to a lighter shade of blue to match the header in the target image more closely.

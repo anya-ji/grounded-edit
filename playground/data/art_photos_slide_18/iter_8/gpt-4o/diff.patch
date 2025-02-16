@@ -1,0 +1,16 @@
+--- ./data/art_photos_slide_18/iter_7/gpt-4o/code.py	2025-02-14 07:16:20.367956242 +0000
++++ ./data/art_photos_slide_18/iter_8/gpt-4o/code.py	2025-02-14 07:17:07.060940370 +0000
+@@ -11,11 +11,8 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set the background to a solid bright color (e.g., bright yellow)
+-background = slide.background
+-fill = background.fill
+-fill.solid()
+-fill.fore_color.rgb = RGBColor(255, 255, 0)  # Bright yellow background
++# Set a textured image background (replace 'path_to_your_image.jpg' with your image path)
++slide.shapes.add_picture('path_to_your_image.jpg', 0, 0, width=presentation.slide_width, height=presentation.slide_height)
+ 
+ # Create a thin yellow border
+ border_shape = slide.shapes.add_shape(

@@ -1,0 +1,33 @@
+--- ./data/art_photos_slide_5/iter_3/gpt-4o/code.py	2025-02-14 07:58:09.769213627 +0000
++++ ./data/art_photos_slide_5/iter_4/gpt-4o/code.py	2025-02-14 07:58:37.160149555 +0000
+@@ -26,6 +26,7 @@
+ p_left.font.size = Pt(20)
+ p_left.font.bold = True
+ p_left.font.color.rgb = RGBColor(0, 0, 0)  # Black
++p_left.font.shadow = True  # Added shadow for contrast
+ 
+ # Add the main title with modified color
+ title_box = slide.shapes.add_textbox(Inches(1), Inches(1.5), Inches(14), Inches(1.5))
+@@ -37,6 +38,7 @@
+ p_title.font.size = Pt(44)
+ p_title.font.bold = True
+ p_title.font.color.rgb = RGBColor(0, 0, 0)  # Black
++p_title.font.shadow = True  # Added shadow for contrast
+ p_title.alignment = PP_ALIGN.CENTER
+ 
+ # Add the main content with extended width
+@@ -49,11 +51,13 @@
+ p_content1.font.size = Pt(28)
+ p_content1.font.bold = True
+ p_content1.font.color.rgb = RGBColor(0, 0, 0)  # Black
++p_content1.font.shadow = True  # Added shadow for contrast
+ 
+ p_content2 = tf_content.add_paragraph()
+ p_content2.text = "   - The subject is directly represented in the artwork like the subjects seen in portraits and other realistic visual art presentations."
+ p_content2.font.size = Pt(24)
+ p_content2.font.color.rgb = RGBColor(0, 0, 0)  # Black
++p_content2.font.shadow = True  # Added shadow for contrast
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

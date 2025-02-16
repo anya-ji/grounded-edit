@@ -1,0 +1,1 @@
+Change the box color for "Fixed – Shop Retailers" from orange to a more muted shade similar to the target's color palette, ensuring it aligns with the target's color tones.

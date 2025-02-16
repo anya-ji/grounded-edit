@@ -1,0 +1,22 @@
+--- ./data/career_slide_10/iter_1/gpt-4o/code.py	2025-02-14 08:56:15.061877015 +0000
++++ ./data/career_slide_10/iter_2/gpt-4o/code.py	2025-02-14 08:56:59.613875820 +0000
+@@ -17,13 +17,17 @@
+ fill.solid()
+ fill.fore_color.rgb = RGBColor(20, 20, 20)
+ 
+-# Add title
+-title_box = slide.shapes.add_textbox(Inches(0.5), Inches(0.5), Inches(15), Inches(1))
++# Add title with proper centering
++title_box = slide.shapes.add_textbox(Inches(0), Inches(0.5), Inches(16), Inches(1))
+ title = title_box.text_frame.add_paragraph()
+ title.text = "YOU DON'T NEED A DEGREE TO BE SUCCESSFUL"
+ title.font.bold = True
+ title.font.size = Pt(44)
+ title.font.color.rgb = RGBColor(255, 255, 255)
++title_box.text_frame.text = title.text  # Clear previous text and add
++
++# Center align the title
++title_box.text_frame.paragraphs[0].alignment = 1  # 1 = center alignment
+ 
+ # List of image paths and descriptions
+ people_info = [

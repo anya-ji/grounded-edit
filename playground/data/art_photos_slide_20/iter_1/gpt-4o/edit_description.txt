@@ -1,0 +1,1 @@
+Adjust the opacity of the background colors in the rendered image to make them more vibrant and brighter, matching the tonal quality of the target image.

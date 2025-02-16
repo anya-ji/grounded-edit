@@ -1,0 +1,1 @@
+Change the formatting of the "Environment" section in the rendered image to include bullet points for the lists, matching the presentation style of the target image.

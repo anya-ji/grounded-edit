@@ -1,0 +1,1 @@
+Remove the checkmarks from the rendered image to match the checkbox style of the target image.

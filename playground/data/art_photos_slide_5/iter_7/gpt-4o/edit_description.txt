@@ -1,0 +1,1 @@
+Adjust the background color of the text box containing the point about "Representational or Objective Art" to match the white background of the target image for better readability and visual consistency.

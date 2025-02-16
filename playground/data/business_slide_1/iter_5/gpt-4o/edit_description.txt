@@ -1,0 +1,1 @@
+Increase the opacity of the Airbnb symbol to 100% to match the solid appearance of the target image.

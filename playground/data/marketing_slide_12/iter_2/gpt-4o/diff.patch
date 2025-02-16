@@ -1,0 +1,17 @@
+--- ./data/marketing_slide_12/iter_1/gpt-4o/code.py	2025-02-14 20:20:27.237274936 +0000
++++ ./data/marketing_slide_12/iter_2/gpt-4o/code.py	2025-02-14 20:20:53.249210690 +0000
+@@ -64,6 +64,14 @@
+ arrow2.fill.solid()
+ arrow2.fill.fore_color.rgb = RGBColor(255, 255, 0)  # Yellow arrow
+ 
++# Add a white background box for the bullet points
++background_box = slide.shapes.add_shape(
++    MSO_SHAPE.RECTANGLE, Inches(1), Inches(2), Inches(8), Inches(4)
++)
++background_box.fill.solid()
++background_box.fill.fore_color.rgb = RGBColor(255, 255, 255)  # White fill
++background_box.line.color.rgb = RGBColor(255, 255, 255)  # No border
++
+ # Insert the textured image on the right
+ img_path = "../../media/image_0.jpg"
+ slide.shapes.add_picture(img_path, Inches(9), Inches(1), Inches(6), Inches(7))

@@ -1,0 +1,1 @@
+Remove the indentation from the bullet points in the rendered image to match the alignment style of the target image.

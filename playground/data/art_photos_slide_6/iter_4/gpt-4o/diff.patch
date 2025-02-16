@@ -1,0 +1,15 @@
+--- ./data/art_photos_slide_6/iter_3/gpt-4o/code.py	2025-02-14 08:02:44.861574578 +0000
++++ ./data/art_photos_slide_6/iter_4/gpt-4o/code.py	2025-02-14 08:03:25.572480700 +0000
+@@ -9,10 +9,10 @@
+ slide_layout = presentation.slide_layouts[5]  # blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set a light blue background
++# Set the swirling brushstroke background (assuming similar RGB for illustration)
+ background_fill = slide.background.fill
+ background_fill.solid()
+-background_fill.fore_color.rgb = RGBColor(173, 216, 230)  # Light blue color
++background_fill.fore_color.rgb = RGBColor(130, 180, 220)  # Example RGB color for swirling pattern
+ 
+ # Add the main title
+ title_box = slide.shapes.add_textbox(Inches(3.5), Inches(0.5), Inches(9), Inches(1))

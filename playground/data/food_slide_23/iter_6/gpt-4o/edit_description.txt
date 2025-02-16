@@ -1,0 +1,1 @@
+Increase the font size of the text to match the size in the target image.

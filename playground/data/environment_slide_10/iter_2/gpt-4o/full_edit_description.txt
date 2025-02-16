@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: A bright green background with large, stylized, and slightly uneven "THANK YOU" text in a lighter green shade.
+2. Description of Rendered Image: A pastel green background with regular "THANK YOU" text in dark green, featuring clear separation between the two words.
+3. Change Suggestion: Modify the text color to a lighter green similar to the target image, and adjust the text style to be more stylized and uneven, reflecting the font style of the target image.
+```

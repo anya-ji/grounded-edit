@@ -1,0 +1,24 @@
+--- ./data/design_slide_4/iter_4/gpt-4o/code.py	2025-02-14 18:23:07.260275405 +0000
++++ ./data/design_slide_4/iter_5/gpt-4o/code.py	2025-02-14 18:23:26.065222460 +0000
+@@ -38,7 +38,7 @@
+ box_height = Inches(1.2)
+ vertical_spacing = Inches(1.3)
+ 
+-# Add text boxes with the same lighter blue background
++# Add text boxes with a deeper blue background
+ for i, (title, description) in enumerate(text_boxes_data):
+     top_position = top_margin + i * vertical_spacing
+     textbox = slide.shapes.add_textbox(left_margin, top_position, box_width, box_height)
+@@ -59,9 +59,9 @@
+     p_desc.font.size = Pt(16)
+     p_desc.font.color.rgb = RGBColor(255, 255, 255)  # White color
+ 
+-    # Set background color to a lighter blue for all sections
++    # Set background color to a deeper blue for all sections
+     textbox.fill.solid()
+-    textbox.fill.fore_color.rgb = RGBColor(173, 216, 230)  # Lighter blue color (Light Sky Blue)
++    textbox.fill.fore_color.rgb = RGBColor(0, 102, 204)  # Deeper blue color
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

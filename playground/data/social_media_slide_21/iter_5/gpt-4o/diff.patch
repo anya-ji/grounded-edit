@@ -1,0 +1,18 @@
+--- ./data/social_media_slide_21/iter_4/gpt-4o/code.py	2025-02-16 02:08:18.322587280 +0000
++++ ./data/social_media_slide_21/iter_5/gpt-4o/code.py	2025-02-16 02:08:31.328557071 +0000
+@@ -28,5 +28,14 @@
+ # Set kerning for better letter spacing
+ text_frame.paragraphs[0].font.kerning = Pt(10)  # Adjust kerning
+ 
++# Create a separate paragraph for the letter "U" and exclamation mark
++u_paragraph = text_frame.add_paragraph()
++u_paragraph.text = "U!"
++u_paragraph.font.bold = True
++u_paragraph.font.size = Pt(100)  # Match the scale of the other letters
++u_paragraph.font.color.rgb = RGBColor(0, 51, 102)
++u_paragraph.font.name = 'Times New Roman'
++u_paragraph.alignment = PP_ALIGN.CENTER
++
+ # Save the slide to the specified path
+ presentation.save("render.pptx")
+\ No newline at end of file

@@ -1,0 +1,1 @@
+Reduce the font size of the section headers to improve readability and create more space around the text.

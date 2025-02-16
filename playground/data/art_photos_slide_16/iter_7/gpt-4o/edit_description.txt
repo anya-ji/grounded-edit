@@ -1,0 +1,1 @@
+Change the background of the text box in the rendered image from orange to white, matching the target image.

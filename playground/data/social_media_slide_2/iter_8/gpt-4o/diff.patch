@@ -1,0 +1,27 @@
+--- ./data/social_media_slide_2/iter_7/gpt-4o/code.py	2025-02-14 22:28:47.806463150 +0000
++++ ./data/social_media_slide_2/iter_8/gpt-4o/code.py	2025-02-14 22:29:16.148393333 +0000
+@@ -11,13 +11,13 @@
+ slide_layout = presentation.slide_layouts[5]  # Blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set slide background color to deep blue
++# Set slide background color to navy blue
+ background = slide.shapes.add_shape(
+     1, Inches(0), Inches(0), Inches(16), Inches(9)
+ )
+ fill = background.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(0, 61, 165)  # Changed to deep blue
++fill.fore_color.rgb = RGBColor(0, 0, 128)  # Changed to navy blue
+ 
+ # Add title text
+ title_box = slide.shapes.add_textbox(Inches(0.2), Inches(0.1), Inches(8), Inches(1))
+@@ -54,7 +54,7 @@
+ culture_title = culture_frame.add_paragraph()
+ culture_title.text = "CULTURE"
+ culture_title.font.bold = True
+-culture_title.font.size = Pt(24)  # Font size remains the same for CULTURE
++culture_title.font.size = Pt(26)  # Changed font size for CULTURE to match MEDIA
+ culture_title.font.color.rgb = RGBColor(0, 0, 0)  # Changed to black for contrast
+ 
+ culture_text = culture_frame.add_paragraph()

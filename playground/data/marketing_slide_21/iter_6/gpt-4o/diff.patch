@@ -1,0 +1,33 @@
+--- ./data/marketing_slide_21/iter_5/gpt-4o/code.py	2025-02-14 20:43:35.848910358 +0000
++++ ./data/marketing_slide_21/iter_6/gpt-4o/code.py	2025-02-14 20:44:00.927850113 +0000
+@@ -45,19 +45,22 @@
+     ("Direct", left_margin, top_margin),
+     ("Retail", left_margin, top_margin + Inches(1.25)),
+     ("Wholesale", left_margin, top_margin + Inches(2.5)),
+-    ("Producer or manufacturer", left_margin + Inches(3.5), top_margin + Inches(1.25)),
++    ("Producer or manufacturer", left_margin + Inches(3.5), top_margin + Inches(1.25), Inches(4), height),  # Adjusted width for centering
+     ("Wholesaler", left_margin + Inches(6.5), top_margin + Inches(2.5)),
+     ("Retailer", left_margin + Inches(9), top_margin + Inches(1.25)),
+-    ("Consumer", left_margin + Inches(9), top_margin + Inches(2.5))  # Adjusted Y position for proper alignment
++    ("Consumer", left_margin + Inches(9), top_margin + Inches(2.5))
+ ]
+ 
+ # Add rectangles with text
+-for text, left, top in elements:
+-    shape = slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, left, top, width, height)
+-    shape.fill.solid()
+-    shape.fill.fore_color.rgb = RGBColor(255, 140, 0)
+-    shape.line.color.rgb = RGBColor(255, 255, 255)
+-    add_textbox(slide, text, left, top, width, height, bold=True, align=PP_ALIGN.CENTER)
++for element in elements:
++    if len(element) == 3:  # For usual elements
++        text, left, top = element
++        shape = slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, left, top, width, height)
++        add_textbox(slide, text, left, top, width, height, bold=True, align=PP_ALIGN.CENTER)
++    else:  # For "Producer or manufacturer" with adjusted width
++        text, left, top, w, h = element
++        shape = slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, left, top, w, h)
++        add_textbox(slide, text, left, top, w, h, bold=True, align=PP_ALIGN.CENTER)
+ 
+ # Add title at the bottom with increased font size
+ add_textbox(slide, "Sales and Distribution", Inches(4), Inches(7.5), Inches(8), Inches(1), font_size=40, bold=True, color=RGBColor(0, 0, 0), align=PP_ALIGN.CENTER)

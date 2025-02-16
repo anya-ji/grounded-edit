@@ -1,0 +1,45 @@
+--- ./data/social_media_slide_4/iter_6/gpt-4o/code.py	2025-02-16 02:13:27.615860486 +0000
++++ ./data/social_media_slide_4/iter_7/gpt-4o/code.py	2025-02-16 02:13:50.279806667 +0000
+@@ -30,20 +30,20 @@
+ title_p.font.color.rgb = RGBColor(255, 255, 255)
+ title_p.alignment = PP_ALIGN.LEFT
+ 
+-# Add the subtitle
+-subtitle_textbox = slide.shapes.add_textbox(Inches(0.5), Inches(1.2), Inches(15), Inches(1))
++# Add the subtitle with increased size and space
++subtitle_textbox = slide.shapes.add_textbox(Inches(0.5), Inches(1.5), Inches(15), Inches(1))  # Adjusted Y coordinate for spacing
+ subtitle_frame = subtitle_textbox.text_frame
+ subtitle_frame.word_wrap = True
+ 
+ subtitle_p = subtitle_frame.add_paragraph()
+ subtitle_p.text = "1. ORAL COMMUNICATION"
+-subtitle_p.font.size = Pt(32)
++subtitle_p.font.size = Pt(36)  # Changed font size to match image
+ subtitle_p.font.bold = True
+ subtitle_p.font.color.rgb = RGBColor(255, 255, 255)  # Changed to white for better visibility
+ subtitle_p.alignment = PP_ALIGN.LEFT
+ 
+ # Add bullet points with dark blue background
+-content_textbox = slide.shapes.add_textbox(Inches(0.5), Inches(2), Inches(10), Inches(4))
++content_textbox = slide.shapes.add_textbox(Inches(0.5), Inches(2.5), Inches(10), Inches(4))  # Adjusted Y coordinate for spacing
+ content_frame = content_textbox.text_frame
+ content_frame.word_wrap = True
+ 
+@@ -63,15 +63,9 @@
+ bullet2.font.size = Pt(24)
+ bullet2.font.color.rgb = RGBColor(255, 255, 255)  # White for better visibility
+ 
+-# Removed the duplicate bullet point
+-# bullet3 = content_frame.add_paragraph()
+-# bullet3.text = "• Language became the most important tool for exploring the world and different cultures"
+-# bullet3.font.size = Pt(24)
+-# bullet3.font.color.rgb = RGBColor(255, 255, 255)  # White for better visibility
+-
+ # Insert the image
+ image_path = "../../media/image_0.jpg"
+-slide.shapes.add_picture(image_path, Inches(10.5), Inches(2), Inches(5), Inches(5))
++slide.shapes.add_picture(image_path, Inches(10.5), Inches(2.5), Inches(5), Inches(5))  # Adjusted Y coordinate for spacing
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

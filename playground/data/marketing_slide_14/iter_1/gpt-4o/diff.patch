@@ -1,0 +1,13 @@
+--- ./data/marketing_slide_14/iter_0/gpt-4o/code.py	2025-02-14 20:24:19.065705295 +0000
++++ ./data/marketing_slide_14/iter_1/gpt-4o/code.py	2025-02-14 20:24:39.759654725 +0000
+@@ -25,5 +25,9 @@
+ text_box.text_frame.word_wrap = True
+ text_box.text_frame.paragraphs[0].alignment = 1  # Center
+ 
++# Remove the gray background by ensuring no fill for the textbox
++text_box.fill.solid()   # Make sure this is present to define fill properties
++text_box.fill.fore_color.rgb = RGBColor(255, 255, 255)  # Set fill to white (or remove this entirely)
++
+ # Save presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

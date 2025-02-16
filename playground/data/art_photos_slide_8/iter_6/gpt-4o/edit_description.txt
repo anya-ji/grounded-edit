@@ -1,0 +1,1 @@
+Change the background color of the left side from a solid dark blue to a light pastel blue gradient to match the soft ambiance of the target image.

@@ -1,0 +1,1 @@
+Change the color of the continents on the globe in the rendered image to match the vibrant colors used in the target image.

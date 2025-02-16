@@ -1,0 +1,1 @@
+Adjust the list item formatting in the rendered image so that each point is presented as a bulleted list with a line break before each new point, similar to the target image.

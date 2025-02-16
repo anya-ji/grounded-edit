@@ -1,0 +1,1 @@
+Add a decorative horizontal line beneath the text "Thank You!" similar to the target image and set the background color to black.

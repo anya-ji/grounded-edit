@@ -1,0 +1,1 @@
+Adjust the font size of the heading "Obstacles that Elon faced" to match the font size used in the other headings for a consistent look.

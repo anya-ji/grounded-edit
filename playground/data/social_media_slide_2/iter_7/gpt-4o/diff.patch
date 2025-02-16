@@ -1,0 +1,28 @@
+--- ./data/social_media_slide_2/iter_6/gpt-4o/code.py	2025-02-14 22:28:21.640527608 +0000
++++ ./data/social_media_slide_2/iter_7/gpt-4o/code.py	2025-02-14 22:28:47.806463150 +0000
+@@ -11,13 +11,13 @@
+ slide_layout = presentation.slide_layouts[5]  # Blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set slide background color for the title area
++# Set slide background color to deep blue
+ background = slide.shapes.add_shape(
+-    1, Inches(0), Inches(0), Inches(16), Inches(1.5)
++    1, Inches(0), Inches(0), Inches(16), Inches(9)
+ )
+ fill = background.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(255, 255, 255)  # Changed to white
++fill.fore_color.rgb = RGBColor(0, 61, 165)  # Changed to deep blue
+ 
+ # Add title text
+ title_box = slide.shapes.add_textbox(Inches(0.2), Inches(0.1), Inches(8), Inches(1))
+@@ -25,7 +25,7 @@
+ title.text = "DEFINITION OF TERMS"
+ title.font.bold = True
+ title.font.size = Pt(32)
+-title.font.color.rgb = RGBColor(0, 0, 0)  # Changed to black for contrast
++title.font.color.rgb = RGBColor(255, 255, 255)  # Changed to white for contrast
+ 
+ # Adding white background behind definitions
+ definitions_bg = slide.shapes.add_shape(

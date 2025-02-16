@@ -1,0 +1,20 @@
+--- ./data/technology_slide_6/iter_5/gpt-4o/code.py	2025-02-16 02:51:02.351427882 +0000
++++ ./data/technology_slide_6/iter_6/gpt-4o/code.py	2025-02-16 02:51:19.065383014 +0000
+@@ -48,14 +48,10 @@
+     bullet_frame = bullet_box.text_frame
+     bullet_frame.word_wrap = True
+ 
+-    # Adding bullet points with checkbox outline prefix
+-    for index, point in enumerate(bullet_points):
++    # Adding bullet points with checkbox outline prefix, all checked
++    for point in bullet_points:
+         p = bullet_frame.add_paragraph()
+-        # Use filled checkbox for the first bullet point
+-        if index == 0:
+-            p.text = "\u2611 " + point  # Filled check box for the first point
+-        else:
+-            p.text = "\u2610 " + point  # All other checkboxes set to empty box
++        p.text = "\u2611 " + point  # Filled check box for all points
+ 
+         p.font.size = Pt(24)
+         p.font.color.rgb = RGBColor(0, 0, 0)  # black color

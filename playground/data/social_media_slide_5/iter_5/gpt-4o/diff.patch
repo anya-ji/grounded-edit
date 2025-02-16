@@ -1,0 +1,17 @@
+--- ./data/social_media_slide_5/iter_4/gpt-4o/code.py	2025-02-16 02:16:46.291386862 +0000
++++ ./data/social_media_slide_5/iter_5/gpt-4o/code.py	2025-02-16 02:17:07.120336994 +0000
+@@ -55,11 +55,11 @@
+     p.level = 0  # Set the level to 0 for top-level bullets
+     p.font.bold = False  # Ensure bullet points are not bold
+ 
+-# Add a faded parchment effect background for the image
++# Add a white background for the image
+ bg_box = slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, Inches(10), Inches(2), Inches(5), Inches(5))
+ bg_box.fill.solid()
+-bg_box.fill.fore_color.rgb = RGBColor(222, 201, 174)  # Light beige color
+-bg_box.line.color.rgb = RGBColor(222, 201, 174)  # Match line color to background
++bg_box.fill.fore_color.rgb = RGBColor(255, 255, 255)  # White color
++bg_box.line.color.rgb = RGBColor(255, 255, 255)  # Match line color to background
+ 
+ # Add image on the right side
+ image_path = "../../media/image_0.jpg"

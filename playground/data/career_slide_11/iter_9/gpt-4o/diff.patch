@@ -1,0 +1,14 @@
+--- ./data/career_slide_11/iter_8/gpt-4o/code.py	2025-02-14 09:04:03.990560511 +0000
++++ ./data/career_slide_11/iter_9/gpt-4o/code.py	2025-02-14 09:04:36.494519987 +0000
+@@ -39,9 +39,9 @@
+ p_effective_communication.font.size = Pt(28)
+ p_effective_communication.space_after = Pt(10)  # Space after header
+ 
+-# Add bullet point for "Effective Communication"
++# Update the text for "Effective Communication" sub-point
+ p_sub_communication = content_frame.add_paragraph()
+-p_sub_communication.text = "Effective communication is key in collaborating with others and sharing ideas effectively."
++p_sub_communication.text = "Strong communication skills encompass the ability to convey ideas clearly, listen actively, and adapt communication styles to different audiences."
+ p_sub_communication.level = 1
+ p_sub_communication.space_before = Pt(5)  # Adjusted space before sub-point for better alignment
+ p_sub_communication.space_after = Pt(10)  # Increased space after sub-point

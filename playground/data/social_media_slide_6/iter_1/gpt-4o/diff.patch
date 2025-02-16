@@ -1,0 +1,20 @@
+--- ./data/social_media_slide_6/iter_0/gpt-4o/code.py	2025-02-16 02:18:21.384158924 +0000
++++ ./data/social_media_slide_6/iter_1/gpt-4o/code.py	2025-02-16 02:18:36.366122953 +0000
+@@ -34,7 +34,7 @@
+ subtitle = subtitle_frame.add_paragraph()
+ subtitle.text = "3. PRINTING PRESS"
+ subtitle.font.bold = True
+-subtitle.font.size = Pt(28)
++subtitle.font.size = Pt(36)  # Increased font size for better readability
+ subtitle.font.color.rgb = RGBColor(0, 51, 102)  # Dark Blue text
+ 
+ # Add main content with bullet points
+@@ -42,7 +42,7 @@
+ content_frame = content_box.text_frame
+ content = content_frame.add_paragraph()
+ content.text = "• It allowed the continuous production, reproduction, and circulation of print materials."
+-content.font.size = Pt(20)  # Adjusted font size for better visibility
++content.font.size = Pt(28)  # Increased font size for better readability
+ content.font.color.rgb = RGBColor(0, 0, 0)  # Black text
+ 
+ # Add an illustration of a printing press

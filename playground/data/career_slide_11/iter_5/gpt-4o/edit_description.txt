@@ -1,0 +1,1 @@
+Make the text for all headings bold to match the format of the target image.

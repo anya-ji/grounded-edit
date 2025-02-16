@@ -1,0 +1,1 @@
+Change the heading text color from yellow to light grey to match the style of the target image.

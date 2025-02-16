@@ -1,0 +1,1 @@
+Change the background of the rendered image to a darker shade similar to that of the target image to enhance contrast and visual coherence.

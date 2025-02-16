@@ -1,0 +1,1 @@
+Change the background color of the rendered image to match the original target image's background color.

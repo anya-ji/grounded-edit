@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: The target image features a lesson reflection interface with three numbered questions. It has a light background with colorful accents and a section on the right displaying an illustration related to learning and brainstorming.
+2. Description of Rendered Image: The rendered image is a plain blue gradient background with no text or visual features resembling the target interface.
+3. Change Suggestion: Add the text "LESSON REFLECTION:" at the top of the rendered image in a bold, dark blue font, similar to the target image.
+```

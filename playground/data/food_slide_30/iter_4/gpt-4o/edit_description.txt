@@ -1,0 +1,1 @@
+Adjust the line spacing in the rendered image to match the target image, ensuring the dialogue appears uniformly spaced for improved readability.

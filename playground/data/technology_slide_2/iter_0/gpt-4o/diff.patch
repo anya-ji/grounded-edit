@@ -1,0 +1,12 @@
+--- ./data/technology_slide_2/init/code.py	2025-02-14 06:46:12.020156487 +0000
++++ ./data/technology_slide_2/iter_0/gpt-4o/code.py	2025-02-16 02:37:30.179693826 +0000
+@@ -41,7 +41,8 @@
+     p = content_frame.add_paragraph()
+     p.text = point
+     p.font.size = Pt(28)
+-    p.space_after = Pt(10)
++    p.space_after = Pt(10)  # Maintain consistent line spacing
++    p.space_before = Pt(10)  # Added consistent line spacing before each point
+     p.level = 0
+ 
+ # Set a clean white background for readability

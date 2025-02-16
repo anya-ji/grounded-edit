@@ -1,0 +1,1 @@
+Remove the hexagonal shape in the background so that the Airbnb logo is displayed clearly and prominently similar to the target image.

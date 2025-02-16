@@ -1,0 +1,11 @@
+--- ./data/food_slide_23/iter_4/gpt-4o/code.py	2025-02-14 19:35:52.633645165 +0000
++++ ./data/food_slide_23/iter_5/gpt-4o/code.py	2025-02-14 19:36:10.636602277 +0000
+@@ -24,7 +24,7 @@
+ title_para = title_frame.add_paragraph()
+ title_para.text = "What do you think is the general rule for this pronunciation scheme?"
+ title_para.font.size = Pt(32)
+-title_para.font.bold = True
++title_para.font.bold = True  # Keep bold for the title
+ 
+ # Subtitle
+ subtitle = slide.shapes.add_textbox(Inches(1), Inches(1.5), Inches(14), Inches(0.5))

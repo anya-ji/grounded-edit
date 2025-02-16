@@ -1,0 +1,24 @@
+--- ./data/food_slide_30/iter_4/gpt-4o/code.py	2025-02-14 19:50:15.781606736 +0000
++++ ./data/food_slide_30/iter_5/gpt-4o/code.py	2025-02-14 19:50:44.176539737 +0000
+@@ -30,14 +30,14 @@
+ instructions_p.space_after = Pt(12)  # Adjust space after the paragraph
+ instructions_frame.word_wrap = True
+ 
+-# Add dialogue with blanks
++# Add dialogue with blanks filled in
+ dialogue_text = (
+-    "JOEY: We __________ (be) out to dinner. We __________ (have) a really nice time, "
+-    "I __________ (think) she was really cool and then, out of nowhere, she __________ (reach) over "
+-    "and __________ (take) some of my fries!\n\n"
+-    "PHOEBE: So she __________ (take) some fries, big deal!\n\n"
+-    "RACHEL: Oh yeah, Joey doesn’t share food. I mean, just last week, we __________ (have) breakfast, "
+-    "and he __________ (have) a couple of grapes on his plate..."
++    "JOEY: We **were** (be) out to dinner. We **had** (have) a really nice time, "
++    "I **thought** (think) she was really cool and then, out of nowhere, she **reached** (reach) over "
++    "and **took** (take) some of my fries!\n\n"
++    "PHOEBE: So she **took** (take) some fries, big deal!\n\n"
++    "RACHEL: Oh yeah, Joey doesn’t share food. I mean, just last week, we **had** (have) breakfast, "
++    "and he **had** (have) a couple of grapes on his plate..."
+ )
+ 
+ dialogue_box = slide.shapes.add_textbox(Inches(1), Inches(2.5), Inches(14), Inches(3))  # Centered

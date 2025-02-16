@@ -1,0 +1,22 @@
+--- ./data/career_slide_11/iter_4/gpt-4o/code.py	2025-02-14 09:02:06.574691314 +0000
++++ ./data/career_slide_11/iter_5/gpt-4o/code.py	2025-02-14 09:02:29.694667653 +0000
+@@ -52,7 +52,7 @@
+     p_main = content_frame.add_paragraph()
+     p_main.text = main_point
+     
+-    # Change to white color for consistency
++    # Change to white color for consistency and make bold
+     p_main.font.color.rgb = RGBColor(255, 255, 255)  # White color for the main point
+     p_main.font.bold = True  # Make the main point bold
+     p_main.font.size = Pt(28)
+@@ -67,6 +67,9 @@
+         p_sub.font.size = Pt(20)
+         p_sub.font.color.rgb = RGBColor(255, 255, 255)  # White color for sub-points
+         p_sub.space_after = Pt(15)  # More space after sub-points for clarity
++        
++        # Make sub-points bold to match the format of the target image
++        p_sub.font.bold = True
+ 
+ # Save presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

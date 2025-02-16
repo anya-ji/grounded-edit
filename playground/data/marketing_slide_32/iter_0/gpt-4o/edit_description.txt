@@ -1,0 +1,1 @@
+Increase the font size of "ELO's" in the rendered image to match the bold style of the target image, ensuring the text appears more prominent and visually striking against the black background.

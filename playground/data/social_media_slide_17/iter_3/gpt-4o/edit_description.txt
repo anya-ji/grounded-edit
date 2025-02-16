@@ -1,0 +1,1 @@
+Change the header background color of the rendered image from light blue to dark blue to match the target image.

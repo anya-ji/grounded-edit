@@ -1,0 +1,13 @@
+--- ./data/career_slide_19/iter_0/gpt-4o/code.py	2025-02-14 09:40:07.750654785 +0000
++++ ./data/career_slide_19/iter_1/gpt-4o/code.py	2025-02-14 09:40:50.826540014 +0000
+@@ -44,6 +44,10 @@
+ title_p.font.color.rgb = RGBColor(255, 255, 255)
+ title_p.alignment = PP_ALIGN.CENTER
+ 
++# Insert the new trophy image
++trophy_path = "../../media/trophy_new_design.jpg"  # Updated path for the new trophy image
++trophy = slide.shapes.add_picture(trophy_path, Inches(8), Inches(3.5), Inches(2), Inches(2))  # Adjust size and position as needed
++
+ # Insert the yellow banner with text
+ banner_path = "../../media/image_1.jpg"
+ banner = slide.shapes.add_picture(banner_path, Inches(10), Inches(0.1), Inches(5), Inches(1))

@@ -1,0 +1,11 @@
+--- ./data/technology_slide_12/iter_6/gpt-4o/code.py	2025-02-16 02:36:36.558853859 +0000
++++ ./data/technology_slide_12/iter_7/gpt-4o/code.py	2025-02-16 02:36:48.182818988 +0000
+@@ -24,7 +24,7 @@
+ 
+ # Apply text formatting
+ p = text_frame.paragraphs[0]
+-p.font.size = Pt(60)
++p.font.size = Pt(80)  # Increased font size
+ p.font.color.rgb = RGBColor(0, 0, 0)
+ p.font.name = 'Times New Roman'  # Changed font to Times New Roman
+ text_box.rotation = 0  # Removed tilt for straight alignment

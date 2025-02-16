@@ -1,0 +1,26 @@
+--- ./data/design_slide_1/init/code.py	2025-02-14 06:46:11.854157081 +0000
++++ ./data/design_slide_1/iter_0/gpt-4o/code.py	2025-02-14 18:14:48.980728817 +0000
+@@ -8,14 +8,19 @@
+ presentation.slide_height = Inches(9)
+ 
+ # Add a blank slide layout
+-slide_layout = presentation.slide_layouts[5] # blank layout
++slide_layout = presentation.slide_layouts[5]  # blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set white background color
++# Set gradient background color
+ background = slide.background
+ fill = background.fill
+-fill.solid()
+-fill.fore_color.rgb = RGBColor(255, 255, 255) # white
++fill.gradient()  # Enable gradient fill
++colors = [RGBColor(255, 255, 255), RGBColor(200, 200, 200)]  # Define colors for the gradient
++fill.gradient()  # Apply the gradient
++for i, color in enumerate(colors):
++    stop = fill.gradient_stops[i]
++    stop.position = i / (len(colors) - 1)
++    stop.color.rgb = color
+ 
+ # Insert the laptop with paint splashes image
+ image_path = "../../media/image_0.jpg"

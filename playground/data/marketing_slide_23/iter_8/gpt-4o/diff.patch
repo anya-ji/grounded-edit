@@ -1,0 +1,11 @@
+--- ./data/marketing_slide_23/iter_7/gpt-4o/code.py	2025-02-14 20:50:59.524876694 +0000
++++ ./data/marketing_slide_23/iter_8/gpt-4o/code.py	2025-02-14 20:51:22.767841058 +0000
+@@ -43,7 +43,7 @@
+ p1 = text_frame1.add_paragraph()
+ p1.text = "Define the term Market"
+ p1.font.size = Pt(20)
+-p1.font.color.rgb = RGBColor(255, 255, 0)  # Changed text color to yellow
++p1.font.color.rgb = RGBColor(255, 165, 0)  # Changed text color to orange
+ text_frame1.word_wrap = True
+ 
+ # Add second bullet point without a background box

@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: A white background slide with suggested writing prompts and icons for writing and speaking.
+2. Description of Rendered Image: A dark background slide displaying similar prompts and icons but in a less organized layout.
+3. Change Suggestion: Change the background color of the rendered image to white to match the target image's background.
+```

@@ -1,0 +1,1 @@
+Change the font color of the highlighted text in the rendered image to match the consistent yellow and blue colors of the target image, ensuring proper alignment and spacing.

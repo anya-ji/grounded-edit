@@ -1,0 +1,16 @@
+--- ./data/environment_slide_6/iter_4/gpt-4o/code.py	2025-02-14 18:57:10.666031572 +0000
++++ ./data/environment_slide_6/iter_5/gpt-4o/code.py	2025-02-14 18:57:29.452988230 +0000
+@@ -15,11 +15,11 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set background color to light gray
++# Set background color to white
+ background = slide.background
+ fill = background.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(211, 211, 211)  # Light gray
++fill.fore_color.rgb = RGBColor(255, 255, 255)  # White
+ 
+ # Add a white textbox in the middle
+ left = Inches(1)

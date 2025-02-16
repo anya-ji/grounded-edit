@@ -1,0 +1,10 @@
+--- ./data/technology_slide_10/iter_0/gpt-4o/code.py	2025-02-16 02:30:19.940055632 +0000
++++ ./data/technology_slide_10/iter_1/gpt-4o/code.py	2025-02-16 02:30:32.792011689 +0000
+@@ -43,6 +43,7 @@
+     p = checklist_frame.add_paragraph()
+     p.text = f"☐ {item}"  # Use checkbox character
+     p.font.size = Pt(24)
++    p.font.bold = True  # Change to bold font
+ 
+ # Image (Benefits of Blockchain Technology diagram)
+ image_path = "../../media/image_0.jpg"

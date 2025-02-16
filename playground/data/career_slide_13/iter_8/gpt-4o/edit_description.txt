@@ -1,0 +1,1 @@
+Change all bullet point headers in the rendered image to yellow to match the target image's consistent use of color for emphasis.

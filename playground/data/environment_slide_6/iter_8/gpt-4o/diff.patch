@@ -1,0 +1,14 @@
+--- ./data/environment_slide_6/iter_7/gpt-4o/code.py	2025-02-14 18:58:13.202886975 +0000
++++ ./data/environment_slide_6/iter_8/gpt-4o/code.py	2025-02-14 18:58:49.418802837 +0000
+@@ -64,8 +64,8 @@
+ modified_image_path = "../../media/modified_image_0.jpg"
+ image.save(modified_image_path)
+ 
+-# Add the modified sunset image below the texts
+-slide.shapes.add_picture(modified_image_path, Inches(3), Inches(5.5), Inches(10), Inches(3))
++# Add the modified sunset image below the texts with a new aspect ratio
++slide.shapes.add_picture(modified_image_path, Inches(0.5), Inches(5.5), Inches(15), Inches(5))
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

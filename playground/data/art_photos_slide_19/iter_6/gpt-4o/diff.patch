@@ -1,0 +1,19 @@
+--- ./data/art_photos_slide_19/iter_5/gpt-4o/code.py	2025-02-14 07:19:41.096837973 +0000
++++ ./data/art_photos_slide_19/iter_6/gpt-4o/code.py	2025-02-14 07:20:17.198804451 +0000
+@@ -13,6 +13,16 @@
+ image_path = "../../media/image_0.jpg"
+ slide.shapes.add_picture(image_path, Inches(0), Inches(0), Inches(16), Inches(9))
+ 
++# Add a semi-transparent overlay with 70% opacity
++overlay_box = slide.shapes.add_shape(
++    1,  # Shape type: 1 corresponds to a rectangle
++    Inches(0), Inches(0), Inches(16), Inches(9)  # Same size as slide
++)
++overlay_fill = overlay_box.fill
++overlay_fill.solid()
++overlay_fill.fore_color.rgb = RGBColor(255, 255, 255)  # White color
++overlay_fill.alpha = 178  # 70% opacity (255 * 0.7 = 178.5, rounded down)
++
+ # Add a solid yellow header bar with a narrower width
+ header_box = slide.shapes.add_shape(
+     1,  # Shape type: 1 corresponds to a rectangle

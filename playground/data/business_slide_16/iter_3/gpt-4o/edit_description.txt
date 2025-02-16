@@ -1,0 +1,1 @@
+Change the background color of the rendered image to gray to match the background of the target image.

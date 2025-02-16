@@ -1,0 +1,17 @@
+--- ./data/marketing_slide_21/iter_6/gpt-4o/code.py	2025-02-14 20:44:00.927850113 +0000
++++ ./data/marketing_slide_21/iter_7/gpt-4o/code.py	2025-02-14 20:44:29.693781021 +0000
+@@ -56,10 +56,14 @@
+     if len(element) == 3:  # For usual elements
+         text, left, top = element
+         shape = slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, left, top, width, height)
++        shape.fill.solid()  # Set solid fill for rectangle
++        shape.fill.fore_color.rgb = RGBColor(255, 165, 0)  # Change to orange
+         add_textbox(slide, text, left, top, width, height, bold=True, align=PP_ALIGN.CENTER)
+     else:  # For "Producer or manufacturer" with adjusted width
+         text, left, top, w, h = element
+         shape = slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, left, top, w, h)
++        shape.fill.solid()  # Set solid fill for rectangle
++        shape.fill.fore_color.rgb = RGBColor(255, 165, 0)  # Change to orange
+         add_textbox(slide, text, left, top, w, h, bold=True, align=PP_ALIGN.CENTER)
+ 
+ # Add title at the bottom with increased font size

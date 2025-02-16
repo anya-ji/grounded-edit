@@ -1,0 +1,1 @@
+Adjust the alignment of the images and text to ensure consistent horizontal spacing and eliminate any text overlap.

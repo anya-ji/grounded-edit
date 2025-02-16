@@ -1,0 +1,1 @@
+Redraw the "places" icon with a clearer outline and ensure the heart symbol is intertwined as shown in the target image.

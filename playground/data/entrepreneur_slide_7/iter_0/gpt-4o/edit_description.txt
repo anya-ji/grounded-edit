@@ -1,0 +1,1 @@
+Align the logos in the rendered image so that they match the vertical alignment and spacing of the logos in the target image, specifically remove the duplicate Tesla logo and ensure all logos are properly centered and evenly spaced.

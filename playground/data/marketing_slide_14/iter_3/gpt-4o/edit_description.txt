@@ -1,0 +1,1 @@
+Adjust the background blur in the rendered image to create a softer focus effect similar to the target image, making the background appear more subdued and allowing the white figure to stand out without harsh contrast.

@@ -1,0 +1,21 @@
+--- ./data/social_media_slide_20/iter_1/gpt-4o/code.py	2025-02-14 22:30:21.791231634 +0000
++++ ./data/social_media_slide_20/iter_2/gpt-4o/code.py	2025-02-14 22:30:53.680153083 +0000
+@@ -46,7 +46,7 @@
+ bullet_1 = content_frame.add_paragraph()
+ bullet_1.text = "approach stresses homogeneity introduced by globalization."
+ bullet_1.font.size = Pt(24)
+-bullet_1.font.color.rgb = RGBColor(255, 255, 255)  # White
++bullet_1.font.color.rgb = RGBColor(255, 255, 255)  # Changed to white for better readability
+ 
+ # Bullet point 2
+ bullet_2 = content_frame.add_paragraph()
+@@ -54,7 +54,7 @@
+                  "while cultural imperialism happens when one culture imposes itself on "
+                  "and tends to destroy at least parts of another culture.")
+ bullet_2.font.size = Pt(24)
+-bullet_2.font.color.rgb = RGBColor(255, 255, 255)  # White
++bullet_2.font.color.rgb = RGBColor(255, 255, 255)  # Changed to white for better readability
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

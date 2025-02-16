@@ -1,0 +1,1 @@
+Add bullet points to the text in the rendered image to enhance clarity and improve layout alignment with the target image.

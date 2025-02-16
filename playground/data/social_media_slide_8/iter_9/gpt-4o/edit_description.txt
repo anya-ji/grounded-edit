@@ -1,0 +1,1 @@
+Adjust the rendered image to include the full bullet points with proper text alignment under the subtitle, ensuring the formatting matches that of the target image.

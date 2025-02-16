@@ -1,0 +1,1 @@
+Adjust the background color to match the solid color of the target image and ensure the images are properly aligned without overlapping text.

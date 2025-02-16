@@ -1,0 +1,1 @@
+Adjust the cropping of the rendered image to fully include the text "IT'S ABOUT THE PEOPLE," ensuring the entire quote reads "IT'S ABOUT THE PEOPLE, NOT THE PLACES."

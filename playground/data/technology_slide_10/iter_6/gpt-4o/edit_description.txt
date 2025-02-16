@@ -1,0 +1,1 @@
+Increase the canvas size of the rendered image to ensure all text is fully visible and aligned correctly without being cut off.

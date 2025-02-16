@@ -1,0 +1,11 @@
+--- ./data/food_slide_24/iter_6/gpt-4o/code.py	2025-02-14 19:40:07.485037461 +0000
++++ ./data/food_slide_24/iter_7/gpt-4o/code.py	2025-02-14 19:40:31.596979911 +0000
+@@ -29,7 +29,7 @@
+ # Add instruction text
+ instruction_box = slide.shapes.add_textbox(Inches(0.5), Inches(1.5), Inches(10), Inches(1))
+ instruction = instruction_box.text_frame.add_paragraph()
+-instruction.text = "Tell the short story below out loud using the pronunciation rule you studied on the previous slide."
++instruction.text = "Tell the story below out loud using the pronunciation rule you studied on the previous slide."
+ instruction.font.size = Pt(20)
+ instruction.font.bold = True
+ 

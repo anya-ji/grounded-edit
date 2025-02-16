@@ -1,0 +1,21 @@
+--- ./data/marketing_slide_24/init/code.py	2025-02-14 06:46:11.528158249 +0000
++++ ./data/marketing_slide_24/iter_0/gpt-4o/code.py	2025-02-14 20:52:18.970751708 +0000
+@@ -21,17 +21,7 @@
+ top = Inches(0)
+ pic = slide.shapes.add_picture(img_path, left, top, width=Inches(8), height=Inches(9))
+ 
+-# Add circular shape mask on the left side over the image
+-circle_left = Inches(2)
+-circle_top = Inches(2)
+-circle_width = Inches(4)
+-circle_height = Inches(4)
+-
+-circle = slide.shapes.add_shape(MSO_SHAPE.OVAL, circle_left, circle_top, circle_width, circle_height)
+-fill = circle.fill
+-fill.solid()
+-fill.fore_color.rgb = RGBColor(0, 0, 0)
+-fill.transparency = 0.5  # Make it semi-transparent
++# Removed circular shape mask on the left side over the image
+ 
+ # Add title
+ title_box = slide.shapes.add_textbox(Inches(9), Inches(7), Inches(6), Inches(1))

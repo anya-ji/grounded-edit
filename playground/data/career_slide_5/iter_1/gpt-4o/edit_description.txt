@@ -1,0 +1,1 @@
+Adjust the background color of the rendered image to match the dark background of the target image for improved contrast and text legibility.

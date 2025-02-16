@@ -1,0 +1,18 @@
+--- ./data/social_media_slide_17/iter_8/gpt-4o/code.py	2025-02-14 22:16:57.869212606 +0000
++++ ./data/social_media_slide_17/iter_9/gpt-4o/code.py	2025-02-14 22:17:20.159157650 +0000
+@@ -68,12 +68,12 @@
+ p.font.color.rgb = RGBColor(0, 0, 0)  # Black text
+ p.space_after = Pt(14)  # Adjust line spacing
+ 
+-# Adding bullet points
++# Adding bullet points with formatting changes
+ for point in bullet_points:
+     p = content_frame.add_paragraph()
+     p.text = point
+     p.space_after = Pt(14)  # Adjust line spacing for bullet points
+-    p.level = 1  # Set the paragraph level to create a bullet point
++    p.level = 0  # Set the paragraph level to create a bullet point (level 0 for top level)
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

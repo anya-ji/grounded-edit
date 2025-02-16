@@ -1,0 +1,1 @@
+Reduce the top and bottom padding of the title text in the rendered image to make the title appear closer to the top of the title area, matching the spacing in the target image.

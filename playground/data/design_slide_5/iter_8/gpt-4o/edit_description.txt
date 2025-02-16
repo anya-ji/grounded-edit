@@ -1,0 +1,1 @@
+Increase the font size of the text "The principles of graphic design related to the areas are:" in the rendered image to match the size used in the target image.

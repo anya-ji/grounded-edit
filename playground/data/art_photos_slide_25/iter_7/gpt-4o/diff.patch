@@ -1,0 +1,19 @@
+--- ./data/art_photos_slide_25/iter_6/gpt-4o/code.py	2025-02-14 07:52:14.275058636 +0000
++++ ./data/art_photos_slide_25/iter_7/gpt-4o/code.py	2025-02-14 07:52:38.889999113 +0000
+@@ -28,14 +28,14 @@
+ p.font.size = Pt(44)
+ p.font.color.rgb = RGBColor(0, 0, 0)  # Black
+ 
+-# Add references with a softer pastel white background
++# Add references with a softer pastel yellow background
+ content_box = slide.shapes.add_textbox(Inches(1), Inches(1.5), Inches(14), Inches(6))
+ content_frame = content_box.text_frame
+ content_frame.word_wrap = True
+ 
+ content_fill = content_box.fill
+ content_fill.solid()
+-content_fill.fore_color.rgb = RGBColor(255, 240, 240)  # Softer pastel white
++content_fill.fore_color.rgb = RGBColor(255, 255, 204)  # Softer pastel yellow
+ 
+ references = (
+     "1. Garces, J.C., Inoc, D.S., Inocian, R.B., Labajo, O.P., Rama, F., Tiempo, A.Y., & Un, J.L. 2021. "

@@ -1,0 +1,15 @@
+--- ./data/design_slide_2/init/code.py	2025-02-14 06:46:11.850157096 +0000
++++ ./data/design_slide_2/iter_0/gpt-4o/code.py	2025-02-14 18:15:57.542521146 +0000
+@@ -44,12 +44,6 @@
+ height = Inches(6)
+ pic = slide.shapes.add_picture(img_path, left, top, height=height)
+ 
+-# Create a masking circle for the image
+-mask_circle = slide.shapes.add_shape(MSO_SHAPE.OVAL, left, top, height, height)
+-mask_circle.fill.solid()
+-mask_circle.fill.fore_color.rgb = RGBColor(255, 255, 255)
+-mask_circle.line.color.rgb = RGBColor(255, 255, 255)
+-
+ # Add geometric shapes
+ shapes_colors = [RGBColor(255, 69, 0), RGBColor(60, 179, 113), RGBColor(30, 144, 255)]
+ 

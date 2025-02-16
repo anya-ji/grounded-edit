@@ -1,0 +1,1 @@
+Rearrange the images in the rendered image into a circular layout similar to the target image, ensuring the central theme of "Types of Markets" is prominently displayed in the center.

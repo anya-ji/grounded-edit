@@ -1,0 +1,25 @@
+--- ./data/social_media_slide_21/iter_6/gpt-4o/code.py	2025-02-16 02:08:45.828523347 +0000
++++ ./data/social_media_slide_21/iter_7/gpt-4o/code.py	2025-02-16 02:08:57.511496143 +0000
+@@ -22,20 +22,8 @@
+ text_frame.paragraphs[0].font.bold = True
+ text_frame.paragraphs[0].font.size = Pt(100)  # Increased font size
+ text_frame.paragraphs[0].font.color.rgb = RGBColor(0, 51, 102) # Dark Blue
+-text_frame.paragraphs[0].font.name = 'Times New Roman' # Set font to a serif font
++text_frame.paragraphs[0].font.name = 'Arial' # Changed font to a simpler style
+ text_frame.paragraphs[0].alignment = PP_ALIGN.CENTER
+ 
+-# Set kerning for better letter spacing
+-text_frame.paragraphs[0].font.kerning = Pt(10)  # Adjust kerning
+-
+-# Create a separate paragraph for the letters "YOU!" to match the target image
+-u_paragraph = text_frame.add_paragraph()
+-u_paragraph.text = "YOU!"
+-u_paragraph.font.bold = True
+-u_paragraph.font.size = Pt(100)  # Match the scale of the other letters
+-u_paragraph.font.color.rgb = RGBColor(0, 51, 102)
+-u_paragraph.font.name = 'Times New Roman'
+-u_paragraph.alignment = PP_ALIGN.CENTER
+-
+ # Save the slide to the specified path
+ presentation.save("render.pptx")
+\ No newline at end of file

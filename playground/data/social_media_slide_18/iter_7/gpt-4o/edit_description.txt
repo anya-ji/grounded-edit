@@ -1,0 +1,1 @@
+Change the background color of the rendered image from dark blue to a lighter blue that matches the target image's upper background color to ensure the text is clearly visible.

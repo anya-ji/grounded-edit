@@ -1,0 +1,1 @@
+Adjust the height of the text box containing "MEDIA" to ensure that the full definition is visible and not clipped at the bottom.

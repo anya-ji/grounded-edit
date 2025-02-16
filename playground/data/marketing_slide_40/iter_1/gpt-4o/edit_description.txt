@@ -1,0 +1,1 @@
+Apply circular cropping to each image in the rendered layout to match the circular framing of the target image.

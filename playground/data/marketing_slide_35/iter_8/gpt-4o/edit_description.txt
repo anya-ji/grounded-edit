@@ -1,0 +1,1 @@
+Change the arrow pointing down in the rendered image to a direct connector arrow that aligns the two retailer boxes, similar to the target image.

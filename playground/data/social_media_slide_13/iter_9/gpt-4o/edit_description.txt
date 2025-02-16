@@ -1,0 +1,1 @@
+Ensure the text content under the title is correctly rendered to match the target image.

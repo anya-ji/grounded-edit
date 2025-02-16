@@ -1,0 +1,11 @@
+--- ./data/career_slide_10/iter_3/gpt-4o/code.py	2025-02-14 08:57:25.993871482 +0000
++++ ./data/career_slide_10/iter_4/gpt-4o/code.py	2025-02-14 08:57:50.106865297 +0000
+@@ -57,7 +57,7 @@
+     left_inch += 2 + spacing  # Add picture width and spacing
+     
+     # Add name and description
+-    text_box = slide.shapes.add_textbox(pic.left, desc_top_inch, Inches(3), Inches(1))
++    text_box = slide.shapes.add_textbox(pic.left, desc_top_inch, Inches(2), Inches(1))  # Changed width to 2 for uniformity
+     text_frame = text_box.text_frame
+ 
+     name_paragraph = text_frame.add_paragraph()

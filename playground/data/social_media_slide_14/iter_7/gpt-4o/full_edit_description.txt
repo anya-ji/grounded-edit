@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: The target image features a title and three bullet points discussing media, with the last bullet point written in one sentence, mentioning digital media allowing access to information. The text is well-aligned, and the images of people are stylized and interacting positively. 
+2. Description of Rendered Image: The rendered image has the same title and bullet points but the last bullet point is split into two sentences, making it less clear. The text is also reformatted to a different font weight, which makes it stand out more than in the target image. 
+3. Change Suggestion: Modify the last bullet point to be a single sentence: "Digital media through phone and computers allows people to access information from around the world."
+```

@@ -1,0 +1,29 @@
+--- ./data/design_slide_4/iter_0/gpt-4o/code.py	2025-02-14 18:21:44.170510577 +0000
++++ ./data/design_slide_4/iter_1/gpt-4o/code.py	2025-02-14 18:22:06.535447069 +0000
+@@ -42,8 +42,6 @@
+ for i, (title, description) in enumerate(text_boxes_data):
+     top_position = top_margin + i * vertical_spacing
+     textbox = slide.shapes.add_textbox(left_margin, top_position, box_width, box_height)
+-    textbox.fill.solid()
+-    textbox.fill.fore_color.rgb = RGBColor(0, 102, 204)  # Blue color
+ 
+     text_frame = textbox.text_frame
+     text_frame.clear()
+@@ -61,9 +59,13 @@
+     p_desc.font.size = Pt(16)
+     p_desc.font.color.rgb = RGBColor(255, 255, 255)  # White color
+ 
+-# Modify the header for "For more professional assistance" to be bold
+-if title == "For more professional assistance":
+-    p_title.font.bold = True
++    # Set background color based on title
++    if title == "For more professional assistance":
++        textbox.fill.solid()
++        textbox.fill.fore_color.rgb = RGBColor(0, 153, 255)  # New color for this specific section
++    else:
++        textbox.fill.solid()
++        textbox.fill.fore_color.rgb = RGBColor(0, 102, 204)  # Original blue color
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

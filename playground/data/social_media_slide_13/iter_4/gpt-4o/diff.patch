@@ -1,0 +1,13 @@
+--- ./data/social_media_slide_13/iter_3/gpt-4o/code.py	2025-02-14 22:02:23.605372334 +0000
++++ ./data/social_media_slide_13/iter_4/gpt-4o/code.py	2025-02-14 22:02:48.623310332 +0000
+@@ -62,5 +62,9 @@
+ content_frame.margin_left = Pt(10)
+ content_frame.margin_right = Pt(10)
+ 
++# Adjust bullet point formatting
++content_p.space_before = Pt(12)  # Add space before the bullet point
++content_p.space_after = Pt(6)     # Add space after the bullet point
++
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

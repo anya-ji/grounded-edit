@@ -1,0 +1,1 @@
+Adjust the background gradient in the rendered image to a darker shade similar to the target image to enhance contrast and visibility of the figures and text.

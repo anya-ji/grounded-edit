@@ -1,0 +1,11 @@
+--- ./data/food_slide_6/iter_2/gpt-4o/code.py	2025-02-14 20:04:45.499544589 +0000
++++ ./data/food_slide_6/iter_3/gpt-4o/code.py	2025-02-14 20:05:09.887486592 +0000
+@@ -33,7 +33,7 @@
+     MSO_SHAPE.ROUNDED_RECTANGLE, Inches(1), Inches(2.5), Inches(1.5), Inches(1)
+ )
+ speech_bubble.fill.solid()
+-speech_bubble.fill.fore_color.rgb = RGBColor(255, 230, 230)  # Light pink color
++speech_bubble.fill.fore_color.rgb = RGBColor(255, 240, 245)  # Soft pastel pink color
+ speech_bubble.text_frame.text = "?"
+ speech_bubble_text = speech_bubble.text_frame.paragraphs[0]
+ speech_bubble_text.font.size = Pt(20)

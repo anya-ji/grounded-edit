@@ -1,0 +1,1 @@
+Add a light blue background color to the rendered image to match the vibrant design of the target image.

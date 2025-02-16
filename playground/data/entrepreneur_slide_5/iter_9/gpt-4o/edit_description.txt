@@ -1,0 +1,1 @@
+Add a vertical yellow stripe on the left side of the rendered image to match the layout of the target image.

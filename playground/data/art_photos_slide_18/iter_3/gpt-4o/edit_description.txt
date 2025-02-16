@@ -1,0 +1,1 @@
+Change the background color of the rendered image from orange to yellow to improve text legibility and match the target image.

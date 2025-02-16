@@ -1,0 +1,1 @@
+Change the background color of the rendered image from blue to white to better match the target image's bright background.

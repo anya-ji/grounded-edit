@@ -1,0 +1,17 @@
+--- ./data/environment_slide_6/iter_6/gpt-4o/code.py	2025-02-14 18:57:50.256940136 +0000
++++ ./data/environment_slide_6/iter_7/gpt-4o/code.py	2025-02-14 18:58:13.202886975 +0000
+@@ -53,12 +53,12 @@
+ image_path = "../../media/image_0.jpg"
+ image = Image.open(image_path)
+ 
+-# Increase brightness and saturation
++# Increase brightness and decrease saturation
+ enhancer = ImageEnhance.Brightness(image)
+ image = enhancer.enhance(1.2)  # Increase brightness by 20%
+ 
+ enhancer = ImageEnhance.Color(image)
+-image = enhancer.enhance(1.2)  # Increase saturation by 20%
++image = enhancer.enhance(0.8)  # Decrease saturation to achieve more natural tones
+ 
+ # Save the modified image
+ modified_image_path = "../../media/modified_image_0.jpg"

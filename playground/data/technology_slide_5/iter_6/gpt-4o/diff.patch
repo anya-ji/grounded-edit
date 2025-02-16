@@ -1,0 +1,26 @@
+--- ./data/technology_slide_5/iter_5/gpt-4o/code.py	2025-02-16 02:47:49.951947556 +0000
++++ ./data/technology_slide_5/iter_6/gpt-4o/code.py	2025-02-16 02:48:09.611894151 +0000
+@@ -25,7 +25,7 @@
+ title_para.font.size = Pt(56)  # Increased font size
+ title_para.font.bold = True
+ 
+-# Add bulleted list with checkboxes
++# Add bulleted list with unchecked boxes
+ left_inch = Inches(1)
+ top_inch = Inches(2)
+ width_inch = Inches(7)
+@@ -35,10 +35,10 @@
+ text_frame = content.text_frame
+ 
+ items = [
+-    "☑ Cryptographic Keys",  # Already checked
+-    "☑ Network Protocol",     # Already checked
+-    "☑ Distributed Ledger Technology",  # Changed to checked
+-    "☑ Hashing"
++    "☐ Cryptographic Keys",  # Changed to unchecked
++    "☐ Network Protocol",     # Changed to unchecked
++    "☐ Distributed Ledger Technology",  # Changed to unchecked
++    "☐ Hashing"              # Changed to unchecked
+ ]
+ 
+ for item in items:

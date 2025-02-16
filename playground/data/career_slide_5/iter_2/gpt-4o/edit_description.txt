@@ -1,0 +1,1 @@
+Change the color of the text "Civic Engagement and Informed Citizenship" in the rendered image to yellow, matching the target image.

@@ -1,0 +1,1 @@
+Update the text in the rendered image to fully match the text in the target image, ensuring that the font style and size are consistent with the design of the target image.

@@ -1,0 +1,1 @@
+Add the missing text boxes for steps 3 (Distributors) and 4 (Retailer) in the same style as the other boxes, ensuring they have a consistent background color and visible outlines.

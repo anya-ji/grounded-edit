@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: A clean, structured design with a light blue background, white text for the main title, and vertically arranged colored boxes for design principles on the right.
+2. Description of Rendered Image: A cluttered design with a dark blue background, bold white text for the title, and misaligned and differently colored boxes for the design principles on the right.
+3. Change Suggestion: Change the title font color from bold white to light blue to match the target image.
+```

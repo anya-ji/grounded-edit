@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: A presentation slide with a blue background featuring large white text stating "Principles of graphic design" and a list of principles in varying shades of blue and green.
+2. Description of Rendered Image: A similar presentation slide with a blue background, but the text "principles of graphic design" is in a smaller font and a dark blue color, the list of principles has a mix of colors that differ from the target image and some text in bold.
+3. Change Suggestion: Change the color of the title text "principles of graphic design" to white and increase its font size to be more prominent, matching the style in the target image.
+```

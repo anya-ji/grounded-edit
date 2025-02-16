@@ -1,0 +1,1 @@
+Change the font color of the text "Q2. HOTS" in the rendered image to white to enhance contrast and improve readability against the lighter background.

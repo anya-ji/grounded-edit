@@ -1,0 +1,1 @@
+Adjust the background color of the rendered image to match the light gray background of the target image for better visual consistency.

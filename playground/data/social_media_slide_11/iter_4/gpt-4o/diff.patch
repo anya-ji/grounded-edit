@@ -1,0 +1,10 @@
+--- ./data/social_media_slide_11/iter_3/gpt-4o/code.py	2025-02-14 21:50:19.560180935 +0000
++++ ./data/social_media_slide_11/iter_4/gpt-4o/code.py	2025-02-14 21:50:43.050121575 +0000
+@@ -30,6 +30,7 @@
+ p.alignment = PP_ALIGN.CENTER
+ title_box.fill.solid()
+ title_box.fill.fore_color.rgb = RGBColor(0, 51, 102)  # Dark blue background
++p.font.underline = False  # Removed underlining
+ 
+ # Add the Subtitle
+ subtitle_box = slide.shapes.add_textbox(Inches(0.5), Inches(1.75), Inches(15), Inches(0.8))

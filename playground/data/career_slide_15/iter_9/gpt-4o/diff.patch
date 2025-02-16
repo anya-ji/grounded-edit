@@ -1,0 +1,20 @@
+--- ./data/career_slide_15/iter_8/gpt-4o/code.py	2025-02-14 09:24:24.024425693 +0000
++++ ./data/career_slide_15/iter_9/gpt-4o/code.py	2025-02-14 09:24:57.715358340 +0000
+@@ -38,7 +38,7 @@
+ add_textbox(slide, 4, 0.5, 8, 1, title_text, 32, True, RGBColor(255, 255, 255)).text_frame.paragraphs[0].alignment = PP_ALIGN.CENTER
+ 
+ # Add Academic World section
+-add_textbox(slide, 0.5, 1.5, 7, 1, "ACADEMIC WORLD", 32, False, RGBColor(0, 102, 204)).text_frame.paragraphs[0].alignment = PP_ALIGN.LEFT
++add_textbox(slide, 0.5, 1.5, 7, 1, "ACADEMIC WORLD", 28, False, RGBColor(0, 102, 204)).text_frame.paragraphs[0].alignment = PP_ALIGN.LEFT
+ add_textbox(slide, 0.5, 2.5, 7, 0.5, "Evaluation and Feedback", 24, True, RGBColor(255, 204, 0)).text_frame.paragraphs[0].alignment = PP_ALIGN.LEFT
+ add_textbox(slide, 0.5, 3.2, 7, 1, "Assessment\n• Students are assessed through exams, assignments, and projects, with a focus on understanding and demonstrating knowledge.", 20).text_frame.paragraphs[0].alignment = PP_ALIGN.LEFT
+ add_textbox(slide, 0.5, 4.5, 7, 1, "Feedback\n• Feedback is provided by educators to help students improve their understanding and skills.", 20).text_frame.paragraphs[0].alignment = PP_ALIGN.LEFT
+@@ -46,7 +46,7 @@
+ add_textbox(slide, 0.5, 6.7, 7, 1, "Structured\n• Academic schedules are typically structured into semesters or quarters, with predefined courses and timelines.", 20).text_frame.paragraphs[0].alignment = PP_ALIGN.LEFT
+ 
+ # Add Professional World section
+-add_textbox(slide, 8.5, 1.5, 7, 1, "PROFESSIONAL WORLD", 32, True, RGBColor(0, 102, 204)).text_frame.paragraphs[0].alignment = PP_ALIGN.LEFT
++add_textbox(slide, 8.5, 1.5, 7, 1, "PROFESSIONAL WORLD", 28, True, RGBColor(0, 102, 204)).text_frame.paragraphs[0].alignment = PP_ALIGN.LEFT
+ add_textbox(slide, 8.5, 2.5, 7, 0.5, "Evaluation and Feedback", 24, True, RGBColor(255, 204, 0)).text_frame.paragraphs[0].alignment = PP_ALIGN.LEFT
+ add_textbox(slide, 8.5, 3.2, 7, 1, "Assessment\n• Professionals are evaluated based on their performance, results, and contributions to their organizations or clients.", 20).text_frame.paragraphs[0].alignment = PP_ALIGN.LEFT
+ add_textbox(slide, 8.5, 4.5, 7, 1, "Feedback\n• Feedback is often tied to specific work outcomes and is focused on improvement.", 20).text_frame.paragraphs[0].alignment = PP_ALIGN.LEFT

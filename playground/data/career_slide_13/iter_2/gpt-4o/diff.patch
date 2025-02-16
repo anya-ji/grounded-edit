@@ -1,0 +1,14 @@
+--- ./data/career_slide_13/iter_1/gpt-4o/code.py	2025-02-14 09:09:48.029060695 +0000
++++ ./data/career_slide_13/iter_2/gpt-4o/code.py	2025-02-14 09:10:07.608028446 +0000
+@@ -66,9 +66,9 @@
+     p.font.bold = True
+     p.font.color.rgb = RGBColor(255, 223, 0)  # change all subtitles to warm yellow
+ 
+-    # Content
++    # Content without indentation
+     p = text_frame.add_paragraph()
+-    p.text = f"  - {content}"
++    p.text = content  # removed extra space before the text
+     p.font.size = Pt(20)
+     p.font.color.rgb = RGBColor(211, 211, 211)  # light gray text
+ 

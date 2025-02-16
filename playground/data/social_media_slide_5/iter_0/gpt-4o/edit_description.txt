@@ -1,0 +1,1 @@
+Adjust the rendered image to format the text as bullet points with consistent spacing between each point.

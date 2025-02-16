@@ -1,0 +1,1 @@
+Change the background color from white to a gradient green similar to the target image to enhance visual coherence and make the text pop.

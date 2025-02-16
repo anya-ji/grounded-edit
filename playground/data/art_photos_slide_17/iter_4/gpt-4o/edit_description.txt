@@ -1,0 +1,1 @@
+Change the text color from darker gray back to black to match the target image.

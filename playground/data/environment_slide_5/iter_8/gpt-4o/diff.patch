@@ -1,0 +1,17 @@
+--- ./data/environment_slide_5/iter_7/gpt-4o/code.py	2025-02-14 18:54:48.512356446 +0000
++++ ./data/environment_slide_5/iter_8/gpt-4o/code.py	2025-02-14 18:55:04.256320760 +0000
+@@ -31,12 +31,12 @@
+ text_frame = textbox.text_frame
+ text_frame.word_wrap = True
+ 
+-# Add title with updated font size and color
++# Add title with updated font size and lighter green color
+ title_p = text_frame.add_paragraph()
+ title_p.text = "Further types of natural environment"
+ title_p.font.bold = True
+ title_p.font.size = Pt(56)  # Increased font size
+-title_p.font.color.rgb = RGBColor(0, 179, 0)  # Updated brighter Green color (#00B300)
++title_p.font.color.rgb = RGBColor(144, 238, 144)  # Updated to a lighter green color (Light Green)
+ title_p.alignment = PP_ALIGN.LEFT
+ title_p.space_before = Pt(0)  # Reduce top padding
+ title_p.space_after = Pt(0)   # Reduce bottom padding

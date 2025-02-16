@@ -1,0 +1,1 @@
+Change the color of the text "HOW DO MARKETS HELP US?" from blue to white to match the target image.

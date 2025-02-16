@@ -1,0 +1,25 @@
+--- ./data/art_photos_slide_9/iter_1/gpt-4o/code.py	2025-02-14 08:12:38.033217034 +0000
++++ ./data/art_photos_slide_9/iter_2/gpt-4o/code.py	2025-02-14 08:13:03.377159372 +0000
+@@ -12,11 +12,11 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Change slide background to a softer yellow
++# Change slide background to a mixture of pink and yellow hues
+ background = slide.background
+ fill = background.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(255, 255, 224)  # Softer yellow color
++fill.fore_color.rgb = RGBColor(255, 204, 204)  # Light pink color
+ 
+ # Add background image
+ image_path = "../../media/image_0.jpg"
+@@ -25,8 +25,6 @@
+ # Title text box
+ title_box = slide.shapes.add_textbox(Inches(2), Inches(1), Inches(12), Inches(1))
+ title_frame = title_box.text_frame
+-title_box.fill.solid()
+-title_box.fill.fore_color.rgb = RGBColor(0, 0, 0)  # Changed background to black for visibility
+ title_paragraph = title_frame.add_paragraph()
+ title_paragraph.text = "Representational or Objective Art"
+ title_paragraph.font.bold = True

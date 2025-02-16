@@ -1,0 +1,29 @@
+--- ./data/marketing_slide_16/iter_8/gpt-4o/code.py	2025-02-14 20:31:54.122600100 +0000
++++ ./data/marketing_slide_16/iter_9/gpt-4o/code.py	2025-02-14 20:32:17.006544804 +0000
+@@ -42,12 +42,19 @@
+ p_marketing.font.color.rgb = RGBColor(255, 0, 0)  # Red color, adjust as needed
+ 
+ # Change position of "Sales" to align with funnel
+-sales_box = slide.shapes.add_textbox(Inches(5.0), Inches(3.5), Inches(2), Inches(1))  # Adjusted position for better alignment
+-sales_frame = sales_box.text_frame
+-p_sales = sales_frame.add_paragraph()
+-p_sales.text = "Sales"
+-p_sales.font.size = Pt(24)  # Adjust size as needed
+-p_sales.font.color.rgb = RGBColor(0, 0, 255)  # Change color to blue
++sales_box_left = slide.shapes.add_textbox(Inches(5.0), Inches(3.0), Inches(2), Inches(1))  # Adjusted position for better alignment
++sales_frame_left = sales_box_left.text_frame
++p_sales_left = sales_frame_left.add_paragraph()
++p_sales_left.text = "Sales"
++p_sales_left.font.size = Pt(24)  # Adjust size as needed
++p_sales_left.font.color.rgb = RGBColor(0, 0, 255)  # Change color to blue
++
++sales_box_right = slide.shapes.add_textbox(Inches(6.0), Inches(3.0), Inches(2), Inches(1))  # Adjusted position for better alignment
++sales_frame_right = sales_box_right.text_frame
++p_sales_right = sales_frame_right.add_paragraph()
++p_sales_right.text = "Sales"
++p_sales_right.font.size = Pt(24)  # Same size as left
++p_sales_right.font.color.rgb = RGBColor(0, 0, 255)  # Change color to blue
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

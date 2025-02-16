@@ -1,0 +1,13 @@
+--- ./data/business_slide_12/iter_7/gpt-4o/code.py	2025-02-14 08:23:48.074449511 +0000
++++ ./data/business_slide_12/iter_8/gpt-4o/code.py	2025-02-14 08:24:15.472367121 +0000
+@@ -27,8 +27,8 @@
+ p.font.name = 'Arial'  # Change font to a more uniform style
+ text_frame.paragraphs[0].alignment = 1  # Center alignment
+ 
+-# Add Airbnb logo
+-logo_path = image_path  # Replace with actual path if different
++# Add Airbnb logo (keep original logo path)
++logo_path = "../../media/image_0.jpg"  # Keep using the background image as logo
+ logo = slide.shapes.add_picture(logo_path, Inches(6.5), Inches(6), Inches(3), Inches(1.5))
+ 
+ # Save presentation

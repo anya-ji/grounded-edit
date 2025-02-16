@@ -1,0 +1,1 @@
+Increase the contrast of the background colors behind the text by darkening the yellow portions to ensure the text is more legible and visually prominent.

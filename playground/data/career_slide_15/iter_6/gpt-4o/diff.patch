@@ -1,0 +1,21 @@
+--- ./data/career_slide_15/iter_5/gpt-4o/code.py	2025-02-14 09:23:02.144588629 +0000
++++ ./data/career_slide_15/iter_6/gpt-4o/code.py	2025-02-14 09:23:27.033539221 +0000
+@@ -34,7 +34,8 @@
+     return textbox
+ 
+ # Add slide title
+-add_textbox(slide, 4, 0.5, 8, 1, "ACADEMIC WORLD AND PROFESSIONAL WORLD: DEMANDS AND CHARACTERISTICS", 32, True, RGBColor(255, 255, 255)).text_frame.paragraphs[0].alignment = PP_ALIGN.CENTER
++title_text = "ACADEMIC WORLD AND PROFESSIONAL WORLD: DEMANDS AND CHARACTERISTICS"
++add_textbox(slide, 4, 0.5, 8, 1, title_text, 32, True, RGBColor(255, 255, 255)).text_frame.paragraphs[0].alignment = PP_ALIGN.CENTER
+ 
+ # Add Academic World section
+ add_textbox(slide, 0.5, 1.5, 7, 1, "ACADEMIC WORLD", 32, True, RGBColor(0, 102, 204))
+@@ -45,7 +46,7 @@
+ add_textbox(slide, 0.5, 6.7, 7, 1, "Structured:\n• Academic schedules are typically structured into semesters or quarters, with predefined courses and timelines.", 20)
+ 
+ # Add Professional World section
+-add_textbox(slide, 8.5, 1.5, 7, 1, "PROFESSIONAL WORLD", 32, True, RGBColor(0, 102, 204))  # Changed to blue
++add_textbox(slide, 8.5, 1.5, 7, 1, "PROFESSIONAL WORLD", 32, True, RGBColor(0, 102, 204))
+ add_textbox(slide, 8.5, 2.5, 7, 0.5, "Evaluation and Feedback", 24, True, RGBColor(255, 204, 0))
+ add_textbox(slide, 8.5, 3.2, 7, 1, "Assessment:\n• Professionals are evaluated based on their performance, results, and contributions to their organizations or clients.", 20)
+ add_textbox(slide, 8.5, 4.5, 7, 1, "Feedback:\n• Feedback is often tied to specific work outcomes and is focused on improvement.", 20)

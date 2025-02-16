@@ -1,0 +1,27 @@
+--- ./data/social_media_slide_6/iter_2/gpt-4o/code.py	2025-02-16 02:18:56.959073485 +0000
++++ ./data/social_media_slide_6/iter_3/gpt-4o/code.py	2025-02-16 02:19:15.477028978 +0000
+@@ -41,23 +41,12 @@
+ content_box = slide.shapes.add_textbox(Inches(0.5), Inches(2.5), Inches(8), Inches(5))
+ content_frame = content_box.text_frame
+ 
+-# Create bullet points
++# Create bullet point
+ content = content_frame.add_paragraph()
+ content.text = "• It allowed the continuous production, reproduction, and circulation of print materials."
+ content.font.size = Pt(28)  # Increased font size for better readability
+ content.font.color.rgb = RGBColor(0, 0, 0)  # Black text
+ 
+-# Adding more bullet points
+-content = content_frame.add_paragraph()
+-content.text = "• Revolutionized the way information was disseminated."
+-content.font.size = Pt(28)
+-content.font.color.rgb = RGBColor(0, 0, 0)
+-
+-content = content_frame.add_paragraph()
+-content.text = "• Enabled wider access to literature and education."
+-content.font.size = Pt(28)
+-content.font.color.rgb = RGBColor(0, 0, 0)
+-
+ # Add an illustration of a printing press
+ image_path = "../../media/image_0.jpg"
+ slide.shapes.add_picture(image_path, Inches(10), Inches(2), Inches(5), Inches(5))

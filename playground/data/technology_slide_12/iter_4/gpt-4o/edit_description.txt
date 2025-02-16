@@ -1,0 +1,1 @@
+Change the font of the text to match the serif font used in the target image and remove the tilt for straight alignment.

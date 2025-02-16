@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: A colorful infographic displaying the process "From Factory to the Market" with four steps, each in a distinct orange and yellow box, featuring information about Producers, Wholesalers, Distributors, and Retailers.
+2. Description of Rendered Image: A black-and-white abstract close-up of curved architectural features, showing smooth lines and patterns but lacking any text or color.
+3. Change Suggestion: Add a colorful overlay with clear sections labeled "Step 1: Producer," "Step 2: Wholesale," "Step 3: Distributors," and "Step 4: Retailer" in bold text, similar to the target image, while maintaining the abstract background.
+```

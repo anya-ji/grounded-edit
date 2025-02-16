@@ -1,0 +1,41 @@
+--- ./data/social_media_slide_18/iter_3/gpt-4o/code.py	2025-02-14 22:18:48.530939794 +0000
++++ ./data/social_media_slide_18/iter_4/gpt-4o/code.py	2025-02-14 22:19:20.859860106 +0000
+@@ -15,7 +15,7 @@
+ fill.solid()
+ fill.fore_color.rgb = RGBColor(255, 255, 255)  # White background
+ 
+-# Add the main title
++# Add the main title with blue background
+ title_text = "Three perspectives on global cultural flows:"
+ title_box = slide.shapes.add_textbox(Inches(1), Inches(0.5), Inches(14), Inches(1.5))
+ title_frame = title_box.text_frame
+@@ -24,9 +24,14 @@
+ title_paragraph = title_frame.paragraphs[0]
+ title_paragraph.font.size = Pt(32)
+ title_paragraph.font.bold = True
+-title_paragraph.font.color.rgb = RGBColor(0, 0, 0)  # Black text
++title_paragraph.font.color.rgb = RGBColor(255, 255, 255)  # White text
+ title_frame.word_wrap = True
+ 
++# Set the title background color to blue
++fill = title_box.fill
++fill.solid()
++fill.fore_color.rgb = RGBColor(0, 0, 255)  # Blue background
++
+ # Add the first perspective title
+ perspective_title = "1. CULTURAL DIFFERENTIALISM"
+ perspective_title_box = slide.shapes.add_textbox(Inches(1), Inches(2), Inches(14), Inches(1))
+@@ -44,10 +49,10 @@
+ content_frame = content_box.text_frame
+ content_frame.word_wrap = True
+ 
+-# Add the baseline points without bullets
++# Add the baseline points with checkmarks
+ baseline_points = [
+-    "emphasizes the fact that cultures are essentially different and are only superficially affected by global flows.",
+-    "It also involves barriers that prevent flows that serve to make cultures more a line; cultures tend to remain stubbornly different from one another."
++    "✓ emphasizes the fact that cultures are essentially different and are only superficially affected by global flows.",
++    "✓ It also involves barriers that prevent flows that serve to make cultures more a line; cultures tend to remain stubbornly different from one another."
+ ]
+ 
+ for point in baseline_points:

@@ -1,0 +1,1 @@
+Add a similar orange arrow pointing to the first text box in the rendered image to match the target image's layout and visual emphasis.

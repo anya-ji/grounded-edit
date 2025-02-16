@@ -1,0 +1,15 @@
+--- ./data/design_slide_6/init/code.py	2025-02-14 06:46:11.857157071 +0000
++++ ./data/design_slide_6/iter_0/gpt-4o/code.py	2025-02-14 18:28:15.754416992 +0000
+@@ -33,6 +33,12 @@
+ text_box = slide.shapes.add_textbox(Inches(8.6), Inches(1.6), Inches(7), Inches(6))
+ text_frame = text_box.text_frame
+ 
++# Set semi-transparent background for the text box
++fill = text_box.fill
++fill.solid()
++fill.fore_color.rgb = RGBColor(0, 0, 0)  # Black background
++fill.transparency = 0.5  # Set transparency to 50%
++
+ # Add paragraphs
+ p1 = text_frame.add_paragraph()
+ p1.text = ("ZENEROM is a leading ")

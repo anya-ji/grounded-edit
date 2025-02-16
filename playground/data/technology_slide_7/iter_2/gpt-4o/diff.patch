@@ -1,0 +1,12 @@
+--- ./data/technology_slide_7/iter_1/gpt-4o/code.py	2025-02-16 02:52:39.723167003 +0000
++++ ./data/technology_slide_7/iter_2/gpt-4o/code.py	2025-02-16 02:52:58.810116001 +0000
+@@ -42,6 +42,9 @@
+     p.font.color.rgb = RGBColor(0, 0, 0)  # Black color
+     p.space_after = Pt(10)  # Add space between bullet points
+ 
++    # Adjust line spacing for readability
++    p.space_before = Pt(5)  # Add space before each bullet point
++
+ # Image
+ image_path = "../../media/image_0.jpg"
+ slide.shapes.add_picture(image_path, Inches(11), Inches(2), Inches(4), Inches(4))

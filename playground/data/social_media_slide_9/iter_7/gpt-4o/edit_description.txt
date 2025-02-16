@@ -1,0 +1,1 @@
+Adjust the spacing between the lines to ensure there are no additional line breaks between the sections, maintaining uniform spacing similar to the target image.

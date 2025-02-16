@@ -1,0 +1,1 @@
+Adjust the text positioning in the rendered image to align it more closely with the top left corner of the target image, ensuring it does not overlap with the mural.

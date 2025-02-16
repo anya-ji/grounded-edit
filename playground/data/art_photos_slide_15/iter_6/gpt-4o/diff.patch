@@ -1,0 +1,16 @@
+--- ./data/art_photos_slide_15/iter_5/gpt-4o/code.py	2025-02-14 06:58:38.922811558 +0000
++++ ./data/art_photos_slide_15/iter_6/gpt-4o/code.py	2025-02-14 06:59:05.117736586 +0000
+@@ -45,11 +45,11 @@
+ image = Image.open(image1_path)
+ # Enhance saturation
+ saturation_enhancer = ImageEnhance.Color(image)
+-image_enhanced = saturation_enhancer.enhance(2.0)  # Increased saturation factor from 1.8 to 2.0
++image_enhanced = saturation_enhancer.enhance(2.5)  # Increased saturation factor
+ 
+ # Enhance brightness
+ brightness_enhancer = ImageEnhance.Brightness(image_enhanced)
+-image_final = brightness_enhancer.enhance(1.2)  # Adjust the brightness factor
++image_final = brightness_enhancer.enhance(1.5)  # Adjust the brightness factor
+ 
+ # Apply roughness filter
+ roughness_filter = ImageFilter.FIND_EDGES  # Example filter to enhance texture

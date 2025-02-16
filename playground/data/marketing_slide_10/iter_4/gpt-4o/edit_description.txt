@@ -1,0 +1,1 @@
+Add a subtle dark blue-green gradient overlay behind the text in the rendered image to match the background style of the target image.

@@ -1,0 +1,1 @@
+Adjust the font size of the word "MEDIA" to be larger than that of "CULTURE" to re-establish the visual hierarchy in the rendered image.

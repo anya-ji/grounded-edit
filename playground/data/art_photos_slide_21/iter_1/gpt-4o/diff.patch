@@ -1,0 +1,13 @@
+--- ./data/art_photos_slide_21/iter_0/gpt-4o/code.py	2025-02-14 07:30:04.908942161 +0000
++++ ./data/art_photos_slide_21/iter_1/gpt-4o/code.py	2025-02-14 07:40:50.139669292 +0000
+@@ -62,6 +62,10 @@
+ content_p.font.size = Pt(20)
+ content_p.font.color.rgb = RGBColor(0, 0, 0)
+ 
++# Apply dark drop shadow effect to content text
++content_p.shadow = True
++content_p.shadow_color.rgb = RGBColor(0, 0, 0)
++
+ # Set the background color of the content textbox
+ content_fill = content_textbox.fill
+ content_fill.solid()

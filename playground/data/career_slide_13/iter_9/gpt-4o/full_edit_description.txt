@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: A presentation slide with a dark background and white text, emphasizing the importance of skills beyond academics, with bullet points detailing various skills.
+2. Description of Rendered Image: A similar presentation slide but on a lighter background with some text in yellow, which may affect readability.
+3. Change Suggestion: Change the bullet point text color from yellow to white to improve contrast and readability against the dark background.
+```

@@ -1,0 +1,1 @@
+Add a vertical line separating the "Disadvantages" list from the additional points on the right to match the formatting of the target image.

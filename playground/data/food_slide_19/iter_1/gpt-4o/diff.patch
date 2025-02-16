@@ -1,0 +1,31 @@
+--- ./data/food_slide_19/iter_0/gpt-4o/code.py	2025-02-14 19:28:03.078760225 +0000
++++ ./data/food_slide_19/iter_1/gpt-4o/code.py	2025-02-14 19:28:21.881715751 +0000
+@@ -37,28 +37,6 @@
+              "and then, out of nowhere (I / fall) down (I / break) my leg!")
+ text.font.size = Pt(18)
+ 
+-# Adding text boxes for answers
+-verbs = ["I / go", "I / meet", "We / skate", "we / laugh", "he / make", "I / fall", "I / break"]
+-positions = [
+-    (Inches(3.5), Inches(3)), 
+-    (Inches(7), Inches(3)), 
+-    (Inches(2.6), Inches(3.5)), 
+-    (Inches(6.8), Inches(3.5)), 
+-    (Inches(9.3), Inches(3.5)), 
+-    (Inches(3.6), Inches(4)), 
+-    (Inches(5.6), Inches(4))
+-]
+-
+-# Add a text box in front of each verb in parentheses
+-for pos in positions:
+-    answer_box = slide.shapes.add_textbox(pos[0], pos[1], Inches(1.5), Inches(0.5))
+-    frame = answer_box.text_frame
+-    answer = frame.add_paragraph()
+-    frame.word_wrap = True
+-    answer_box.fill.solid()
+-    answer_box.fill.fore_color.rgb = RGBColor(230, 230, 230)  # Light background color
+-    answer_box.fill.transparency = 1.0  # Set transparency to 100% (0% opacity)
+-
+ # Insert exam icon
+ icon_path = "../../media/image_1.jpg"
+ slide.shapes.add_picture(icon_path, Inches(12), Inches(0.5), Inches(2), Inches(2))

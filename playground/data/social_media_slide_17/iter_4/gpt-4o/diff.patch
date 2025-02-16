@@ -1,0 +1,16 @@
+--- ./data/social_media_slide_17/iter_3/gpt-4o/code.py	2025-02-14 22:15:05.443489838 +0000
++++ ./data/social_media_slide_17/iter_4/gpt-4o/code.py	2025-02-14 22:15:28.361433318 +0000
+@@ -11,11 +11,11 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set slide background color to white
++# Set slide background color to dark blue
+ background = slide.background
+ fill = background.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(255, 255, 255)  # White
++fill.fore_color.rgb = RGBColor(0, 51, 102)  # Dark blue
+ 
+ # Add title with a solid dark blue background
+ title_text = "Dynamics of Local and Global Culture"

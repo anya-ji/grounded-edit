@@ -1,0 +1,1 @@
+Change the color of the word "LOVE" from red to a color that matches the theme of the other elements (e.g., dark green or another color used in the other text/icons) to create visual cohesion.

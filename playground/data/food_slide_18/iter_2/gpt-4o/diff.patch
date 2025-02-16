@@ -1,0 +1,71 @@
+--- ./data/food_slide_18/iter_1/gpt-4o/code.py	2025-02-14 19:23:23.999417510 +0000
++++ ./data/food_slide_18/iter_2/gpt-4o/code.py	2025-02-14 19:23:59.536334160 +0000
+@@ -38,26 +38,34 @@
+ instruction_p.font.size = Pt(32)
+ instruction_p.font.bold = True
+ 
+-# Dialogue text with different background color for contrast
+-dialogue_text = (
++# Dialogue text with colored speech bubbles
++dialogue_texts = [
+     "\"JOEY: We were out to dinner. We were getting along, having a really nice time, "
+-    "I was thinking she was really cool and then, out of nowhere, (she reached over and took some of my fries from my plate!)\""
+-    "\n\n\"PHOEBE: So she took some fries, big deal!\""
+-    "\n\n\"RACHEL: Oh yeah, Joey doesn't share food. I mean, just last week, we were having breakfast, "
++    "I was thinking she was really cool and then, out of nowhere, (she reached over and took some of my fries from my plate!)\"",
++
++    "\"PHOEBE: So she took some fries, big deal!\"",
++
++    "\"RACHEL: Oh yeah, Joey doesn't share food. I mean, just last week, we were having breakfast, "
+     "(and...and he had a couple of grapes on his plate...)\""
+-)
+-dialogue_box = slide.shapes.add_textbox(Inches(0.5), Inches(3.5), Inches(15), Inches(3))
+-dialogue_tf = dialogue_box.text_frame
+-dialogue_box.fill.solid()  # Set background color for the dialogue box
+-dialogue_box.fill.fore_color.rgb = RGBColor(255, 255, 255)  # Change to white for better contrast
+-
+-dialogue_p = dialogue_tf.add_paragraph()
+-dialogue_p.text = dialogue_text
+-dialogue_p.font.size = Pt(20)
+-dialogue_p.font.color.rgb = RGBColor(0, 0, 0)  # Dark text for better legibility
++]
++
++y_position = Inches(3.5)
++for i, dialogue_text in enumerate(dialogue_texts):
++    dialogue_box = slide.shapes.add_textbox(Inches(0.5), y_position, Inches(15), Inches(1))
++    dialogue_box.fill.solid()  # Set background color for the dialogue box
++    bubble_color = RGBColor(230, 230, 250) if i % 2 == 0 else RGBColor(173, 216, 230)  # Alternating colors
++    dialogue_box.fill.fore_color.rgb = bubble_color
++
++    dialogue_tf = dialogue_box.text_frame
++    dialogue_p = dialogue_tf.add_paragraph()
++    dialogue_p.text = dialogue_text
++    dialogue_p.font.size = Pt(20)
++    dialogue_p.font.color.rgb = RGBColor(0, 0, 0)  # Dark text for better legibility
++    
++    y_position += Inches(1.2)  # Move down for the next dialogue
+ 
+ # Question 1
+-question1_box = slide.shapes.add_textbox(Inches(0.5), Inches(7), Inches(15), Inches(1))
++question1_box = slide.shapes.add_textbox(Inches(0.5), Inches(y_position), Inches(15), Inches(1))
+ question1_tf = question1_box.text_frame
+ question1_tf.word_wrap = True
+ question1_p = question1_tf.add_paragraph()
+@@ -66,7 +74,7 @@
+ question1_p.font.bold = True
+ 
+ # Question 2
+-question2_box = slide.shapes.add_textbox(Inches(0.5), Inches(8), Inches(15), Inches(1))
++question2_box = slide.shapes.add_textbox(Inches(0.5), Inches(y_position + Inches(1)), Inches(15), Inches(1))
+ question2_tf = question2_box.text_frame
+ question2_tf.word_wrap = True
+ question2_p = question2_tf.add_paragraph()
+@@ -75,7 +83,7 @@
+ question2_p.font.bold = True
+ 
+ # Button for "VIEWING FOLLOW-UP"
+-button_box = slide.shapes.add_textbox(Inches(12), Inches(8), Inches(3.5), Inches(0.8))
++button_box = slide.shapes.add_textbox(Inches(12), Inches(y_position + Inches(2)), Inches(3.5), Inches(0.8))
+ button_tf = button_box.text_frame
+ button_green_color = RGBColor(0, 123, 255)  # Button color
+ button_p = button_tf.add_paragraph()

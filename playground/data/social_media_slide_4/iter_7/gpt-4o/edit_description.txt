@@ -1,0 +1,1 @@
+Change the font style of the subtitle "1. ORAL COMMUNICATION" to match the font style used in the target image, and increase the spacing between the text and the illustration to provide better visual balance.

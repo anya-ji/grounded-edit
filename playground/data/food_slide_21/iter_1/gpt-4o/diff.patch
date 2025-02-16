@@ -1,0 +1,17 @@
+--- ./data/food_slide_21/iter_0/gpt-4o/code.py	2025-02-14 19:29:19.177580117 +0000
++++ ./data/food_slide_21/iter_1/gpt-4o/code.py	2025-02-14 19:29:41.052528290 +0000
+@@ -59,6 +59,14 @@
+     response_paragraph.font.size = Pt(16)
+     response_paragraph.font.color.rgb = RGBColor(255, 0, 0)
+ 
++    # Highlighting the stressed words
++    stressed_box = slide.shapes.add_textbox(Inches(1.2), Inches(y_position + 0.6), Inches(10), Inches(0.5))
++    stressed_frame = stressed_box.text_frame
++    stressed_paragraph = stressed_frame.add_paragraph()
++    stressed_paragraph.text = "Stressed word(s):"
++    stressed_paragraph.font.size = Pt(16)
++    stressed_paragraph.font.color.rgb = RGBColor(255, 0, 0)
++
+ # PART 2
+ part2_title_box = slide.shapes.add_textbox(Inches(0.5), Inches(8.5), Inches(12), Inches(0.5))
+ part2_title_frame = part2_title_box.text_frame

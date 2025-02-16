@@ -1,0 +1,1 @@
+Change the color of the banner from solid red to a light red gradient to match the target image's style.

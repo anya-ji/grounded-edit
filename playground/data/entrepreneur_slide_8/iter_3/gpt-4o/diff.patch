@@ -1,0 +1,21 @@
+--- ./data/entrepreneur_slide_8/iter_2/gpt-4o/code.py	2025-02-14 18:39:16.418178658 +0000
++++ ./data/entrepreneur_slide_8/iter_3/gpt-4o/code.py	2025-02-14 18:39:38.301147641 +0000
+@@ -31,7 +31,7 @@
+ title_text.space_after = Pt(10)  # Add space after the title
+ title_text.alignment = 1  # Center alignment
+ 
+-# Add bullet points on the right side
++# Add bullet points on the right side with adjusted left margin
+ content_box = slide.shapes.add_textbox(Inches(7), Inches(1), Inches(8), Inches(7))
+ content_frame = content_box.text_frame
+ 
+@@ -51,5 +51,8 @@
+     p.level = 0
+     p.font.color.rgb = RGBColor(0, 0, 0)  # Black color
+ 
++# Adjusting left margin of the bullet points
++content_frame.margin_left = Pt(20)  # Adjust margin as needed
++
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

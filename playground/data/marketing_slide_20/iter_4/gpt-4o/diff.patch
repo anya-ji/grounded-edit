@@ -1,0 +1,18 @@
+--- ./data/marketing_slide_20/iter_3/gpt-4o/code.py	2025-02-14 20:38:49.354599097 +0000
++++ ./data/marketing_slide_20/iter_4/gpt-4o/code.py	2025-02-14 20:39:13.806540269 +0000
+@@ -33,13 +33,13 @@
+ overlay.fill.transparency = 0.3
+ overlay.line.fill.background()
+ 
+-# Add the title text with reduced size and reposition it
++# Add the title text with further reduced size and reposition it
+ title_text_box = slide.shapes.add_textbox(Inches(0), Inches(7.5), Inches(8), Inches(2))
+ text_frame = title_text_box.text_frame
+ p = text_frame.add_paragraph()
+ p.text = "Transportation and Storage"
+ p.font.bold = True
+-p.font.size = Pt(32)  # Reduced font size
++p.font.size = Pt(24)  # Further reduced font size
+ p.font.color.rgb = RGBColor(0, 0, 0)  # Black color for contrast
+ p.font.opacity = 0.5  # Reduce the opacity of the text
+ 

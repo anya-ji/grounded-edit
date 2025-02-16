@@ -1,0 +1,26 @@
+--- ./data/entrepreneur_slide_8/iter_1/gpt-4o/code.py	2025-02-14 18:38:57.885204170 +0000
++++ ./data/entrepreneur_slide_8/iter_2/gpt-4o/code.py	2025-02-14 18:39:16.418178658 +0000
+@@ -29,17 +29,18 @@
+ title_text.font.size = Pt(36)  # Reduced font size
+ title_text.font.color.rgb = RGBColor(0, 0, 0)  # Black color
+ title_text.space_after = Pt(10)  # Add space after the title
++title_text.alignment = 1  # Center alignment
+ 
+ # Add bullet points on the right side
+ content_box = slide.shapes.add_textbox(Inches(7), Inches(1), Inches(8), Inches(7))
+ content_frame = content_box.text_frame
+ 
+ bullets = [
+-    "Rejection from Netscape and Ousted at ZIP2: In 1996, Elon Musk was ousted as the CEO of the company.",
+-    "PayPal was voted 'worst business concept of the year’: When PayPal was issued as security software for the PalmPilot and other portable devices in 1999, it was voted the worst business idea of the year.",
+-    "Tesla crisis: The company also had serious financial problems, and it was on the verge of going out of business.",
+-    "SpaceX failure: The failure of the company's first three launches generated skepticism among many investors, but the fourth one got a huge success.",
+-    "Running on empty: 2008 was the worst year of his life. After investing his whole money in Tesla and SpaceX, Musk was reliant on personal loans from friends."
++    "• Rejection from Netscape and Ousted at ZIP2: In 1996, Elon Musk was ousted as the CEO of the company.",
++    "• PayPal was voted 'worst business concept of the year’: When PayPal was issued as security software for the PalmPilot and other portable devices in 1999, it was voted the worst business idea of the year.",
++    "• Tesla crisis: The company also had serious financial problems, and it was on the verge of going out of business.",
++    "• SpaceX failure: The failure of the company's first three launches generated skepticism among many investors, but the fourth one got a huge success.",
++    "• Running on empty: 2008 was the worst year of his life. After investing his whole money in Tesla and SpaceX, Musk was reliant on personal loans from friends."
+ ]
+ 
+ for bullet in bullets:

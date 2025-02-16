@@ -1,0 +1,25 @@
+--- ./data/entrepreneur_slide_7/init/code.py	2025-02-14 06:46:11.839157135 +0000
++++ ./data/entrepreneur_slide_7/iter_0/gpt-4o/code.py	2025-02-14 18:38:21.948251561 +0000
+@@ -50,9 +50,18 @@
+     p.font.size = Pt(24)
+     p.font.color.rgb = RGBColor(0, 0, 0)  # Black
+ 
+-# Insert image on the right side
+-image_path = "../../media/image_0.jpg"
+-slide.shapes.add_picture(image_path, Inches(8), Inches(1), Inches(7), Inches(7))
++# Insert images on the right side (adjust for logos)
++image_paths = [
++    "../../media/tesla_logo.jpg",
++    "../../media/spacex_logo.jpg",
++    "../../media/the_boring_company_logo.jpg",
++    "../../media/solar_city_logo.jpg",
++    "../../media/openai_logo.jpg"
++]
++
++# Adjusted positions to center and evenly space logos
++for index, image_path in enumerate(image_paths):
++    slide.shapes.add_picture(image_path, Inches(8), Inches(1 + index * 1.3), Inches(7), Inches(1))
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

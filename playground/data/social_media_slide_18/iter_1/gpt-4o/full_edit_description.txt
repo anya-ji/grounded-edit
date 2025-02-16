@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: A slide with a title "Three perspectives on global cultural flows:" followed by the heading "1. CULTURAL DIFFERENTIALISM" in bold, and a bullet point list containing a short paragraph explaining cultural differentialism, with proper spacing and layout.
+2. Description of Rendered Image: A similar slide but with the title and heading formatted differently; it contains the same text but lacks bullet points and has inconsistent spacing, making it harder to read.
+3. Change Suggestion: Adjust the spacing and format in the rendered image to match the target image's layout, specifically by adding bullet points before the descriptions for clearer organization.
+```

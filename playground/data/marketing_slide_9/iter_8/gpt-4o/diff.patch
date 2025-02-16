@@ -1,0 +1,11 @@
+--- ./data/marketing_slide_9/iter_7/gpt-4o/code.py	2025-02-14 21:45:50.228867561 +0000
++++ ./data/marketing_slide_9/iter_8/gpt-4o/code.py	2025-02-14 21:46:26.446774469 +0000
+@@ -77,6 +77,7 @@
+     content_paragraph.text = text
+     content_paragraph.font.size = Pt(16)
+     content_paragraph.font.color.rgb = RGBColor(0, 0, 0)
++    content_paragraph.space_after = Pt(10)  # Adjust spacing for better alignment
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

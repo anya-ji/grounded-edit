@@ -1,0 +1,1 @@
+Change the header color from green to yellow in the rendered image to match the target image's header.

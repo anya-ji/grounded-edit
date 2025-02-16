@@ -1,0 +1,19 @@
+--- ./data/marketing_slide_39/iter_0/gpt-4o/code.py	2025-02-14 21:26:40.346182455 +0000
++++ ./data/marketing_slide_39/iter_1/gpt-4o/code.py	2025-02-14 21:27:02.429105249 +0000
+@@ -14,14 +14,14 @@
+ 
+ # Add a gradient background
+ background = slide.shapes.add_shape(
+-    MSO_SHAPE.RECTANGLE, Inches(0), Inches(0), Inches(5), presentation.slide_height
++    MSO_SHAPE.RECTANGLE, Inches(0), Inches(0), presentation.slide_width, presentation.slide_height  # Adjusted width
+ )
+ fill = background.fill
+ fill.solid()
+ fill.fore_color.rgb = RGBColor(0, 128, 128)  # Dark teal color
+ 
+ # Add text box for title, adjusting the position
+-text_box = slide.shapes.add_textbox(Inches(0.5), Inches(3), Inches(7), Inches(2))  # Adjusted height
++text_box = slide.shapes.add_textbox(Inches(1), Inches(3), Inches(7), Inches(2))  # Adjusted left position
+ text_frame = text_box.text_frame
+ text_frame.text = "Do you think everybody in market get same share of profit? Why?"
+ 

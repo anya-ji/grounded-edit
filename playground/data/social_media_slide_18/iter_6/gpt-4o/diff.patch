@@ -1,0 +1,11 @@
+--- ./data/social_media_slide_18/iter_5/gpt-4o/code.py	2025-02-14 22:19:38.684816170 +0000
++++ ./data/social_media_slide_18/iter_6/gpt-4o/code.py	2025-02-14 22:20:05.500750076 +0000
+@@ -22,7 +22,7 @@
+ title_frame.text = title_text
+ 
+ title_paragraph = title_frame.paragraphs[0]
+-title_paragraph.font.size = Pt(32)
++title_paragraph.font.size = Pt(28)  # Reduced font size for consistency
+ title_paragraph.font.bold = True
+ title_paragraph.font.color.rgb = RGBColor(255, 255, 255)  # White text
+ title_frame.word_wrap = True

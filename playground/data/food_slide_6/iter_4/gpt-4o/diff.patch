@@ -1,0 +1,13 @@
+--- ./data/food_slide_6/iter_3/gpt-4o/code.py	2025-02-14 20:05:09.887486592 +0000
++++ ./data/food_slide_6/iter_4/gpt-4o/code.py	2025-02-14 20:05:55.768377469 +0000
+@@ -44,6 +44,10 @@
+ image_path = "../../media/image_0.jpg"
+ slide.shapes.add_picture(image_path, Inches(10), Inches(1.5), Inches(4), Inches(4))
+ 
++# Add characters with wine glasses
++characters_image_path = "../../media/characters_with_wine_glasses.jpg"  # New image for characters
++slide.shapes.add_picture(characters_image_path, Inches(8), Inches(5), Inches(2.5), Inches(2.5))
++
+ # Add buttons at the bottom
+ # Play button icon (using a rounded rectangle as a placeholder)
+ play_button = slide.shapes.add_shape(

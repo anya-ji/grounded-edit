@@ -1,0 +1,37 @@
+--- ./data/food_slide_4/iter_7/gpt-4o/code.py	2025-02-14 20:01:34.945997561 +0000
++++ ./data/food_slide_4/iter_8/gpt-4o/code.py	2025-02-14 20:02:03.853928868 +0000
+@@ -12,11 +12,11 @@
+ presentation.slide_width = Inches(16)
+ presentation.slide_height = Inches(9)
+ 
+-# Set background color
++# Set background color to white
+ background = slide.background
+ fill = background.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(255, 239, 204)  # Changed to a light color
++fill.fore_color.rgb = RGBColor(255, 255, 255)  # Changed to white
+ 
+ # Add title
+ title_box = slide.shapes.add_textbox(Inches(1), Inches(0.5), Inches(14), Inches(1))
+@@ -24,7 +24,7 @@
+ p = title_frame.add_paragraph()
+ p.text = "PART 2"
+ p.font.bold = True
+-p.font.size = Pt(60)  # Increased font size for better visibility
++p.font.size = Pt(60)
+ p.font.color.rgb = RGBColor(0, 0, 0)  # Dark font
+ 
+ # Add subtitle
+@@ -66,9 +66,9 @@
+ 
+     # Remove outline for the specific question
+     if i == 3:
+-        question_box.line.color.rgb = RGBColor(255, 255, 255)  # Set to white to hide the outline
++        question_box.line.color.rgb = RGBColor(255, 255, 255)
+ 
+-    p.font.bold = True  # Change question font to bold for better visibility
++    p.font.bold = True
+ 
+ # Add "PREVIEW ACTIVITY" button
+ button_left = Inches(12)

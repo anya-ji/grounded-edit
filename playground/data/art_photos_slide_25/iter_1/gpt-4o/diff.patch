@@ -1,0 +1,19 @@
+--- ./data/art_photos_slide_25/iter_0/gpt-4o/code.py	2025-02-14 07:49:31.847456673 +0000
++++ ./data/art_photos_slide_25/iter_1/gpt-4o/code.py	2025-02-14 07:49:53.848402164 +0000
+@@ -13,14 +13,14 @@
+ image_path = "../../media/image_0.jpg"
+ slide.shapes.add_picture(image_path, Inches(0), Inches(0), Inches(16), Inches(9))
+ 
+-# Add title with yellow background
++# Add title with light yellow background
+ title_box = slide.shapes.add_textbox(Inches(1), Inches(0.3), Inches(14), Inches(1))
+ title_frame = title_box.text_frame
+ title_frame.word_wrap = True
+ 
+ title_fill = title_box.fill
+ title_fill.solid()
+-title_fill.fore_color.rgb = RGBColor(255, 255, 0)  # Yellow
++title_fill.fore_color.rgb = RGBColor(255, 255, 204)  # Light Yellow
+ 
+ p = title_frame.add_paragraph()
+ p.text = "References:"

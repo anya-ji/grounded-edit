@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: The target image features a dialogue scene with various characters discussing a situation. The text is clearly laid out with assigned speaker labels and has highlighted dialogue from Phoebe that is easy to read.
+2. Description of Rendered Image: The rendered image has similar text but lacks highlighted dialogue, resulting in a less visually distinct representation of the characters’ speech and a cluttered appearance.
+3. Change Suggestion: Add a background color to the dialogue text of each character, similar to the target image, to enhance readability and visually separate the speech from the background.
+```

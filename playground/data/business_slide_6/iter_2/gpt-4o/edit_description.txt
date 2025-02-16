@@ -1,0 +1,1 @@
+Change the font of the rendered image to a more rounded typeface to match the softer aesthetic of the target image.

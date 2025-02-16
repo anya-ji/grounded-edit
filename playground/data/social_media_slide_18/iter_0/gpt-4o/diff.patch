@@ -1,0 +1,44 @@
+--- ./data/social_media_slide_18/init/code.py	2025-02-14 06:46:11.940156774 +0000
++++ ./data/social_media_slide_18/iter_0/gpt-4o/code.py	2025-02-14 22:17:43.626099795 +0000
+@@ -9,11 +9,11 @@
+ slide_layout = presentation.slide_layouts[5]  # Blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set slide background color
++# Set slide background color to white
+ background = slide.background
+ fill = background.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(10, 40, 75)  # Dark blue background
++fill.fore_color.rgb = RGBColor(255, 255, 255)  # White background
+ 
+ # Add the main title
+ title_text = "Three perspectives on global cultural flows:"
+@@ -24,7 +24,7 @@
+ title_paragraph = title_frame.paragraphs[0]
+ title_paragraph.font.size = Pt(32)
+ title_paragraph.font.bold = True
+-title_paragraph.font.color.rgb = RGBColor(255, 255, 255)  # White text
++title_paragraph.font.color.rgb = RGBColor(0, 0, 0)  # Black text
+ title_frame.word_wrap = True
+ 
+ # Add the first perspective title
+@@ -36,7 +36,7 @@
+ perspective_title_paragraph = perspective_title_frame.paragraphs[0]
+ perspective_title_paragraph.font.size = Pt(28)
+ perspective_title_paragraph.font.bold = True
+-perspective_title_paragraph.font.color.rgb = RGBColor(255, 255, 255)  # White text
++perspective_title_paragraph.font.color.rgb = RGBColor(0, 0, 0)  # Black text
+ perspective_title_frame.word_wrap = True
+ 
+ # Add bullet points
+@@ -53,7 +53,7 @@
+     p = content_frame.add_paragraph()
+     p.text = point
+     p.font.size = Pt(18)
+-    p.font.color.rgb = RGBColor(255, 255, 255)  # White text
++    p.font.color.rgb = RGBColor(0, 0, 0)  # Black text
+     p.space_after = Pt(10)  # Space after each bullet point
+ 
+ presentation.save("render.pptx")
+\ No newline at end of file

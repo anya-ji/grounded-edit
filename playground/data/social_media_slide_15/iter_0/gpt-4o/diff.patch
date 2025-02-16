@@ -1,0 +1,11 @@
+--- ./data/social_media_slide_15/init/code.py	2025-02-14 06:46:11.948156745 +0000
++++ ./data/social_media_slide_15/iter_0/gpt-4o/code.py	2025-02-14 22:09:11.887362370 +0000
+@@ -43,7 +43,7 @@
+ 
+ # Add images
+ image_paths = [
+-    "../../media/image_0.jpg",  # Coca-Cola
++    "../../media/classic_coca_cola_logo.jpg",  # Updated Coca-Cola logo
+     "../../media/image_1.jpg",  # McDonald's
+     "../../media/image_2.jpg",  # Apple
+     "../../media/image_3.jpg"   # Adidas

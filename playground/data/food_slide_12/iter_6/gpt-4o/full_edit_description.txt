@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: The target image features a scene from "Friends" with Joey on a couch, laughing, with specific text captions showing his dialogue.
+2. Description of Rendered Image: The rendered image showcases a similar scene but the text caption is formatted differently and is less centered compared to the target image.
+3. Change Suggestion: Center the text caption "Ha, ha. No." more accurately below Joey in the rendered image to match its position in the target image.
+```

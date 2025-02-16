@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: The top image features a colorful and textured background with bold strokes, and the text is clear with a bright yellow banner at the top.
+2. Description of Rendered Image: The bottom image has a similar layout but the background colors are less vibrant and more muddled, and the text appears less distinct with a green banner that does not match the target.
+3. Change Suggestion: Change the color of the top banner from green to bright yellow in the rendered image to match the target image.
+```

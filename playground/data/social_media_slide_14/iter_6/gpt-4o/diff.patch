@@ -1,0 +1,18 @@
+--- ./data/social_media_slide_14/iter_5/gpt-4o/code.py	2025-02-14 22:07:16.962646320 +0000
++++ ./data/social_media_slide_14/iter_6/gpt-4o/code.py	2025-02-14 22:07:36.649597663 +0000
+@@ -44,13 +44,8 @@
+     if is_bold:
+         p.font.bold = True  # Apply bold formatting
+ 
+-# Adjust the font size of the last sentence
+-last_paragraph = content_frame.add_paragraph()
+-last_paragraph.text = "Digital media through phone and computers allows people to access information from around the world."
+-last_paragraph.font.size = Pt(24)  # Font size for the last sentence
+-# No bold for the last sentence
+-# Add a line break after the last paragraph
+-content_frame.add_paragraph()  # This creates a new paragraph (line break)
++# Remove duplicate last sentence
++# last_paragraph = content_frame.add_paragraph()  # This was removed
+ 
+ # Add image
+ image_path = "../../media/image_0.jpg"

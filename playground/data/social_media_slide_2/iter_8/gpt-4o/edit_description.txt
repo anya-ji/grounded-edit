@@ -1,0 +1,1 @@
+Change the background color of the rendered image to match the navy blue of the target image and adjust the text size of the section titles to be bold and the same as in the target image.

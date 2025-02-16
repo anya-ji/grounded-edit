@@ -1,0 +1,1 @@
+Adjust the formatting of the bullet points in the rendered image to ensure that "reproduction" is on the same line as "production," maintaining consistent alignment.

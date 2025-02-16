@@ -1,0 +1,1 @@
+Add a pattern of faint hexagonal shapes in a slightly darker green shade to the background of the rendered image to match the aesthetic of the target image.

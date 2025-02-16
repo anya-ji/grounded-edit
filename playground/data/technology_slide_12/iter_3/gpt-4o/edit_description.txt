@@ -1,0 +1,1 @@
+Change the font of the rendered image to a bold serif font and apply a slight right tilt to the text for a more authentic look.

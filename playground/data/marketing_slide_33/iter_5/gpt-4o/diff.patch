@@ -1,0 +1,16 @@
+--- ./data/marketing_slide_33/iter_4/gpt-4o/code.py	2025-02-14 21:13:20.281170515 +0000
++++ ./data/marketing_slide_33/iter_5/gpt-4o/code.py	2025-02-14 21:13:50.179103585 +0000
+@@ -15,11 +15,11 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set the solid background to bright green
++# Set the solid background to light gray
+ background = slide.background
+ fill = background.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(0, 255, 0)  # Bright green color
++fill.fore_color.rgb = RGBColor(211, 211, 211)  # Light gray color
+ 
+ # Add text to the slide
+ text = "As an individual, how can we ensure equality in society?"

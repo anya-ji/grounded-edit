@@ -1,0 +1,22 @@
+--- ./data/career_slide_11/iter_7/gpt-4o/code.py	2025-02-14 09:03:34.002596334 +0000
++++ ./data/career_slide_11/iter_8/gpt-4o/code.py	2025-02-14 09:04:03.990560511 +0000
+@@ -39,7 +39,18 @@
+ p_effective_communication.font.size = Pt(28)
+ p_effective_communication.space_after = Pt(10)  # Space after header
+ 
+-# Update bullet points with the additional sections
++# Add bullet point for "Effective Communication"
++p_sub_communication = content_frame.add_paragraph()
++p_sub_communication.text = "Effective communication is key in collaborating with others and sharing ideas effectively."
++p_sub_communication.level = 1
++p_sub_communication.space_before = Pt(5)  # Adjusted space before sub-point for better alignment
++p_sub_communication.space_after = Pt(10)  # Increased space after sub-point
++p_sub_communication.font.size = Pt(20)
++p_sub_communication.font.color.rgb = RGBColor(255, 255, 255)  # White color for sub-points
++p_sub_communication.space_after = Pt(15)  # More space after sub-points for clarity
++p_sub_communication.font.bold = True  # Make sub-point bold for consistency
++
++# Update other bullet points with the additional sections
+ bullet_points = [
+     ("Problem Solving and Critical Thinking", [
+         "Critical thinking skills enable individuals to analyze information, evaluate options, and make informed decisions.",

@@ -1,0 +1,1 @@
+Increase the texture and detail of the hare in the rendered image to match the realistic depiction in the target image.

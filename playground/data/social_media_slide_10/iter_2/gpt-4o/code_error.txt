@@ -1,0 +1,4 @@
+Failed to execute code at iteration 2: Traceback (most recent call last):
+  File "/home/anyaji/grounded-edit/playground/data/social_media_slide_10/iter_2/gpt-4o/code.py", line 62, in <module>
+    checkbox.top = bullet_text_frame.margin_top + bullet.space_after + bullet.top
+NameError: name 'bullet_text_frame' is not defined. Did you mean: 'title_text_frame'?

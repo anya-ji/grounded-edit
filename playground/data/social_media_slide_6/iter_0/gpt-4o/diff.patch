@@ -1,0 +1,11 @@
+--- ./data/social_media_slide_6/init/code.py	2025-02-14 06:46:11.952156731 +0000
++++ ./data/social_media_slide_6/iter_0/gpt-4o/code.py	2025-02-16 02:18:21.384158924 +0000
+@@ -42,7 +42,7 @@
+ content_frame = content_box.text_frame
+ content = content_frame.add_paragraph()
+ content.text = "• It allowed the continuous production, reproduction, and circulation of print materials."
+-content.font.size = Pt(24)
++content.font.size = Pt(20)  # Adjusted font size for better visibility
+ content.font.color.rgb = RGBColor(0, 0, 0)  # Black text
+ 
+ # Add an illustration of a printing press

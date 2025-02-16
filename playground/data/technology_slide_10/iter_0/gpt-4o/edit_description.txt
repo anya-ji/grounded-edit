@@ -1,0 +1,1 @@
+Change the bullet points in the rendered image from a list format to checkboxes to match the checkbox style seen in the target image.

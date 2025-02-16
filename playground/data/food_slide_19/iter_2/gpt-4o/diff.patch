@@ -1,0 +1,13 @@
+--- ./data/food_slide_19/iter_1/gpt-4o/code.py	2025-02-14 19:28:21.881715751 +0000
++++ ./data/food_slide_19/iter_2/gpt-4o/code.py	2025-02-14 19:28:58.097630038 +0000
+@@ -13,6 +13,10 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
++# Add background image of snow and trees
++background_image_path = "../../media/background_snow_trees.jpg"
++slide.shapes.add_picture(background_image_path, 0, 0, width=presentation.slide_width, height=presentation.slide_height)
++
+ # Title
+ title_box = slide.shapes.add_textbox(Inches(1), Inches(0.5), Inches(14), Inches(1))
+ title_frame = title_box.text_frame

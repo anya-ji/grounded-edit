@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: A slide titled "Three perspectives on global cultural flows" with a white background, featuring bullet points about cultural hybridization, clearly formatted text, and a green checkmark symbol at the start of one line.
+2. Description of Rendered Image: A slide with the same title but a dark blue background, featuring the same content, but the text is less readable with inconsistent spacing and an incorrect symbol (a checkmark inside the text rather than preceding the line).
+3. Change Suggestion: Change the background of the rendered image to white to match the target image.
+```

@@ -1,0 +1,1 @@
+Change the background color of the rendered image to match the light blue shade of the target image.

@@ -1,0 +1,1 @@
+Change the background color of the rendered image to a lighter shade (e.g., #FFFFFF) to enhance text visibility and overall readability.

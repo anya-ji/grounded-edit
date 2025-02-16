@@ -1,0 +1,1 @@
+Align the bullet points and the checkmark symbol to match the formatting in the target image, ensuring consistent spacing and font style.

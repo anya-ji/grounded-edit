@@ -1,0 +1,11 @@
+--- ./data/art_photos_slide_22/iter_1/gpt-4o/code.py	2025-02-14 07:43:00.045397047 +0000
++++ ./data/art_photos_slide_22/iter_2/gpt-4o/code.py	2025-02-14 07:43:42.245307968 +0000
+@@ -30,7 +30,7 @@
+ p.text = "KEEPING ART"
+ p.font.bold = True
+ p.font.size = Pt(60)
+-p.font.color.rgb = RGBColor(0, 0, 0)
++p.font.color.rgb = RGBColor(0, 0, 0)  # Changed to black for better readability
+ 
+ # Style title background to solid yellow
+ fill = title_box.fill

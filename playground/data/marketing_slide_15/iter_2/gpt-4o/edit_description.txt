@@ -1,0 +1,1 @@
+Adjust the background gradient in the rendered image to match the smooth dark teal to lighter teal gradient of the target image.

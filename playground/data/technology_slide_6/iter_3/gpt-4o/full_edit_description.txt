@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: A presentation slide with bullet points describing the purpose of blockchain, using square bullets.
+2. Description of Rendered Image: A presentation slide with bullet points describing the purpose of blockchain, using circular bullets instead of square bullets.
+3. Change Suggestion: Change the bullet points from circular to square shapes.
+```

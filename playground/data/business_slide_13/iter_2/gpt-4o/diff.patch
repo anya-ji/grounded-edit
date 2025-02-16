@@ -1,0 +1,29 @@
+--- ./data/business_slide_13/iter_1/gpt-4o/code.py	2025-02-14 08:25:30.066146772 +0000
++++ ./data/business_slide_13/iter_2/gpt-4o/code.py	2025-02-14 08:25:58.714063562 +0000
+@@ -1,6 +1,7 @@
+ from pptx import Presentation
+ from pptx.util import Inches
+ from pptx.dml.color import RGBColor
++from PIL import Image, ImageFilter
+ 
+ # Create a presentation object
+ presentation = Presentation()
+@@ -11,9 +12,15 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set background image
++# Load and blur the background image
+ background_image_path = "../../media/image_0.jpg"
+-slide.shapes.add_picture(background_image_path, Inches(0), Inches(0), Inches(16), Inches(9))
++background_image = Image.open(background_image_path)
++blurred_image = background_image.filter(ImageFilter.GaussianBlur(radius=5))  # Adjust the radius as needed
++blurred_image_path = "blurred_image.jpg"
++blurred_image.save(blurred_image_path)
++
++# Set background image
++slide.shapes.add_picture(blurred_image_path, Inches(0), Inches(0), Inches(16), Inches(9))
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

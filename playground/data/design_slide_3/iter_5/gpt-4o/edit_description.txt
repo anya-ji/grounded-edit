@@ -1,0 +1,1 @@
+Adjust the text overlay to increase the contrast against the background by adding a subtle darker shadow effect to the text, improving legibility while keeping the alignment and size consistent with the target image.

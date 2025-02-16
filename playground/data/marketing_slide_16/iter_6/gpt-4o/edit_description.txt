@@ -1,0 +1,1 @@
+Adjust the color of the label "Sales" to a consistent blue and ensure it aligns properly with the respective section of the funnel, similar to the target image.

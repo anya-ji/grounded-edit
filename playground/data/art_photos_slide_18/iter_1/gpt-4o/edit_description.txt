@@ -1,0 +1,1 @@
+Change the background of the rendered image to a solid yellow color and add black checkmarks in front of each listed item to match the clean layout of the target image.

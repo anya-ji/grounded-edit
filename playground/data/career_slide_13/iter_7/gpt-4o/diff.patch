@@ -1,0 +1,11 @@
+--- ./data/career_slide_13/iter_6/gpt-4o/code.py	2025-02-14 09:11:49.589855641 +0000
++++ ./data/career_slide_13/iter_7/gpt-4o/code.py	2025-02-14 09:12:14.817811753 +0000
+@@ -16,7 +16,7 @@
+ background = slide.background
+ fill = background.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(35, 35, 35)  # dark background
++fill.fore_color.rgb = RGBColor(0, 0, 0)  # change to black background
+ 
+ # Add a title text box
+ title = slide.shapes.add_textbox(Inches(0.5), Inches(0.5), Inches(15), Inches(1))

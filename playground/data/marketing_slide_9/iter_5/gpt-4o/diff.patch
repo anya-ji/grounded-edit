@@ -1,0 +1,19 @@
+--- ./data/marketing_slide_9/iter_4/gpt-4o/code.py	2025-02-14 21:44:33.955064571 +0000
++++ ./data/marketing_slide_9/iter_5/gpt-4o/code.py	2025-02-14 21:44:58.191001822 +0000
+@@ -55,8 +55,14 @@
+         6,  # Rectangle
+         left, top, width, height
+     )
+-    shape.fill.solid()
+-    shape.fill.fore_color.rgb = color
++    # Set a solid white background for the "Distributors" shape
++    if title == "Step 3: Distributors":
++        shape.fill.solid()
++        shape.fill.fore_color.rgb = RGBColor(255, 255, 255)  # Solid white
++    else:
++        shape.fill.solid()
++        shape.fill.fore_color.rgb = color
++
+     shape.line.color.rgb = RGBColor(0, 0, 0)  # Outline color
+ 
+     # Add title inside shape

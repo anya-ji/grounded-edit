@@ -1,0 +1,1 @@
+Adjust the saturation of the rendered image to match the target image's vibrancy, and change the font style of the text to a more professional-looking font while ensuring consistent capitalization.

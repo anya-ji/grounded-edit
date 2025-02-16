@@ -1,0 +1,1 @@
+Add a colored background similar to the target image, incorporating a blue gradient with a textured effect.

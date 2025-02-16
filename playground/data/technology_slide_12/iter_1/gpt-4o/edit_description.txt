@@ -1,0 +1,1 @@
+Change the font style of the text to an italicized version to match the target image.

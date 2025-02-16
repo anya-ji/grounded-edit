@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: Four circular images featuring different types of markets, with a central text "Types of Markets" at the bottom on a dark background.
+2. Description of Rendered Image: Five rectangular images arranged in a row displaying various market scenes, with the same central text "Types of Markets" below but on a lighter background.
+3. Change Suggestion: Change the layout of the images from rectangles to circles to match the target image's format.
+```

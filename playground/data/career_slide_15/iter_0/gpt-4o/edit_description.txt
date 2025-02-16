@@ -1,0 +1,1 @@
+Change the formatting of the "Assessment," "Feedback," and "Timeframe" sections in the rendered image from bulleted to properly formatted bullet points for better consistency with the target image.

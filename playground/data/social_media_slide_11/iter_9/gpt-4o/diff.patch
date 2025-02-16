@@ -1,0 +1,20 @@
+--- ./data/social_media_slide_11/iter_8/gpt-4o/code.py	2025-02-14 21:52:15.306889065 +0000
++++ ./data/social_media_slide_11/iter_9/gpt-4o/code.py	2025-02-14 21:52:44.179816485 +0000
+@@ -19,7 +19,7 @@
+ fill.fore_color.rgb = RGBColor(255, 255, 255)
+ 
+ # Add the Main Title with adjusted height and width
+-title_box = slide.shapes.add_textbox(Inches(0.5), Inches(0.3), Inches(15), Inches(1.6))  # Adjusted height and position
++title_box = slide.shapes.add_textbox(Inches(0.5), Inches(0.3), Inches(15), Inches(2.0))  # Increased height for better visibility
+ title_tf = title_box.text_frame
+ title_tf.word_wrap = True
+ p = title_tf.add_paragraph()
+@@ -33,7 +33,7 @@
+ p.font.underline = False  # Removed underlining
+ 
+ # Add the Subtitle
+-subtitle_box = slide.shapes.add_textbox(Inches(0.5), Inches(1.75), Inches(15), Inches(0.8))
++subtitle_box = slide.shapes.add_textbox(Inches(0.5), Inches(2.5), Inches(15), Inches(0.8))  # Moved down to fit increased title height
+ subtitle_tf = subtitle_box.text_frame
+ subtitle_tf.word_wrap = True
+ p = subtitle_tf.add_paragraph()

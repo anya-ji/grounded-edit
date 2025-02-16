@@ -1,0 +1,10 @@
+--- ./data/food_slide_4/iter_4/gpt-4o/code.py	2025-02-14 20:00:01.375219837 +0000
++++ ./data/food_slide_4/iter_5/gpt-4o/code.py	2025-02-14 20:00:36.913135432 +0000
+@@ -63,6 +63,7 @@
+     p.text = question
+     p.font.size = Pt(20)
+     p.font.color.rgb = RGBColor(0, 0, 0)
++    p.font.bold = True  # Change question font to bold for better visibility
+ 
+ # Add "PREVIEW ACTIVITY" button
+ button_left = Inches(12)

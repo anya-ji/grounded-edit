@@ -1,0 +1,1 @@
+Ensure the rendered image includes the complete sentence and correctly formats the bullet point before it.

@@ -1,0 +1,52 @@
+--- ./data/social_media_slide_3/init/code.py	2025-02-14 06:46:11.943156763 +0000
++++ ./data/social_media_slide_3/iter_0/gpt-4o/code.py	2025-02-16 02:09:47.727378900 +0000
+@@ -2,6 +2,33 @@
+ from pptx.util import Inches, Pt
+ from pptx.enum.text import PP_ALIGN
+ from pptx.dml.color import RGBColor
++from PIL import Image
++import numpy as np
++
++# Function to increase image saturation
++def increase_saturation(image_path, increase_by=1.15):
++    img = Image.open(image_path)
++    img = img.convert("RGBA")
++    
++    # Convert to numpy array
++    arr = np.array(img)
++    
++    # Convert RGB to HSV
++    rgb = arr[..., :3]
++    hsv = (arr[..., :3] / 255.0).dot([[0.299], [0.587], [0.114]])  # Calculate brightness
++    s = np.linalg.norm(rgb - hsv, axis=-1)  # Calculate saturation
++    
++    # Increase saturation
++    s = np.clip(s * increase_by, 0, 1)
++    
++    # Example rendering, you can handle RGB values accordingly
++    arr[..., :3] = (arr[..., :3] * s[..., np.newaxis]).astype(np.uint8)
++    
++    # Save the modified image
++    new_image_path = "enhanced_image.png"
++    Image.fromarray(arr).save(new_image_path)
++    
++    return new_image_path
+ 
+ # Create a presentation
+ presentation = Presentation()
+@@ -46,10 +73,11 @@
+     p.font.size = Pt(20)
+     p.font.color.rgb = RGBColor(255, 255, 255)  # White
+     p.space_before = Pt(14)
+-    
+-# Insert image on the right side
++
++# Process image and insert it on the right side
+ image_path = "../../media/image_0.jpg"
+-slide.shapes.add_picture(image_path, Inches(8), Inches(2), Inches(7.5), Inches(6))
++enhanced_image_path = increase_saturation(image_path)
++slide.shapes.add_picture(enhanced_image_path, Inches(8), Inches(2), Inches(7.5), Inches(6))
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

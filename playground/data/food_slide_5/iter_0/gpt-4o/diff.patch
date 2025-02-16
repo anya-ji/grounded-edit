@@ -1,0 +1,13 @@
+--- ./data/food_slide_5/init/code.py	2025-02-14 06:46:11.888156960 +0000
++++ ./data/food_slide_5/iter_0/gpt-4o/code.py	2025-02-14 20:03:28.404727896 +0000
+@@ -50,8 +50,8 @@
+ )
+ speech_text.font.size = Pt(16)
+ 
+-# Insert French fries image
+-fries_image_path = "../../media/image_0.jpg"
++# Insert new French fries image
++fries_image_path = "../../media/new_image_of_fries.jpg"  # Updated image path
+ slide.shapes.add_picture(fries_image_path, Inches(12), Inches(3), width=Inches(3), height=Inches(3))
+ 
+ # Add "PREVIEW ACTIVITY" button

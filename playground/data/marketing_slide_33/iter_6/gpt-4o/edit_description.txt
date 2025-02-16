@@ -1,0 +1,1 @@
+Increase the saturation and contrast of the colors in the rendered image to make the mural's colors more vibrant and closely match the target image.

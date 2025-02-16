@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: A "Thank You!" message with a decorative line beneath it and a black background.
+2. Description of Rendered Image: A "Thank You!" message without any decorative line beneath it or background color.
+3. Change Suggestion: Add a decorative horizontal line beneath the text "Thank You!" similar to the target image and set the background color to black.
+```

@@ -1,0 +1,11 @@
+--- ./data/food_slide_29/iter_0/gpt-4o/code.py	2025-02-14 19:44:44.335385430 +0000
++++ ./data/food_slide_29/iter_1/gpt-4o/code.py	2025-02-14 19:45:07.166332038 +0000
+@@ -18,7 +18,7 @@
+ background = slide.background
+ fill = background.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(173, 216, 230)  # Light blue background
++fill.fore_color.rgb = RGBColor(255, 255, 255)  # Changed to white background
+ 
+ # Add title "PART 1"
+ title_box = slide.shapes.add_textbox(Inches(0.5), Inches(0.5), Inches(3), Inches(1))

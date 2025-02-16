@@ -1,0 +1,13 @@
+--- ./data/marketing_slide_35/iter_7/gpt-4o/code.py	2025-02-14 21:22:12.696968116 +0000
++++ ./data/marketing_slide_35/iter_8/gpt-4o/code.py	2025-02-14 21:22:52.642877266 +0000
+@@ -53,8 +53,8 @@
+ top_p.font.size = Pt(24)
+ top_p.alignment = PP_ALIGN.CENTER
+ 
+-# Add arrow between the two boxes
+-arrow = slide.shapes.add_shape(MSO_SHAPE.DOWN_ARROW, Inches(9), Inches(4), Inches(1), Inches(1))
++# Add direct connector arrow between the two boxes
++connector_arrow = slide.shapes.add_shape(MSO_SHAPE.BENT_ARROW, Inches(9), Inches(4), Inches(1), Inches(1))
+ 
+ # Add bottom content box for "2. Fixed – Shop Retailers"
+ bottom_box = slide.shapes.add_textbox(Inches(4), Inches(6), Inches(10), Inches(2))

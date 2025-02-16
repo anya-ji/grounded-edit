@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: A dialogue exercise with blanks for verbs in the past simple or past continuous.
+2. Description of Rendered Image: A similar dialogue exercise, but with some formatting inconsistencies, such as uneven spacing and alignment.
+3. Change Suggestion: Adjust the alignment and spacing of the text in the rendered image to match the formatting of the target image.
+```

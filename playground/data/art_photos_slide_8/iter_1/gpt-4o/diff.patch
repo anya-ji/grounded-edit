@@ -1,0 +1,27 @@
+--- ./data/art_photos_slide_8/iter_0/gpt-4o/code.py	2025-02-14 08:06:47.124017801 +0000
++++ ./data/art_photos_slide_8/iter_1/gpt-4o/code.py	2025-02-14 08:07:28.362923409 +0000
+@@ -2,6 +2,10 @@
+ from pptx.util import Inches, Pt
+ from pptx.dml.color import RGBColor
+ from pptx.enum.shapes import MSO_SHAPE
++from pptx.enum.shapes import MSO_SHAPE_TYPE
++from pptx.dml.color import MSO_COLOR_TYPE
++from pptx.oxml import parse_xml
++from pptx.oxml.ns import nsdecls
+ from PIL import Image, ImageEnhance
+ 
+ # Function to adjust brightness and contrast of an image
+@@ -23,6 +27,13 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
++# Set gradient background
++slide_background = slide.background
++fill = slide_background.fill
++fill.solid()
++fill.fore_color.rgb = RGBColor(173, 216, 230)  # Light blue
++fill.gradient()  # Applying gradient
++
+ # Add the main title "Still Life"
+ title_box = slide.shapes.add_textbox(Inches(5.5), Inches(0.5), Inches(5), Inches(1))
+ title_frame = title_box.text_frame

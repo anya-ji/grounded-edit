@@ -1,0 +1,40 @@
+--- ./data/social_media_slide_2/iter_3/gpt-4o/code.py	2025-02-14 22:27:03.122721036 +0000
++++ ./data/social_media_slide_2/iter_4/gpt-4o/code.py	2025-02-14 22:27:24.271668935 +0000
+@@ -17,7 +17,7 @@
+ )
+ fill = background.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(0, 51, 102)  # Dark blue
++fill.fore_color.rgb = RGBColor(0, 102, 204)  # Lighter blue
+ 
+ # Add title text
+ title_box = slide.shapes.add_textbox(Inches(0.2), Inches(0.1), Inches(8), Inches(1))
+@@ -27,15 +27,15 @@
+ title.font.size = Pt(32)
+ title.font.color.rgb = RGBColor(255, 255, 255)  # White
+ 
+-# Adding blue background behind definitions
++# Adding lighter blue background behind definitions
+ definitions_bg = slide.shapes.add_shape(
+-    1, Inches(0.5), Inches(1.5), Inches(15), Inches(6.5)  # Positioned according to the content
++    1, Inches(0.5), Inches(2.5), Inches(15), Inches(5.5)  # Adjusted position to separate definitions
+ )
+ definitions_bg.fill.solid()
+-definitions_bg.fill.fore_color.rgb = RGBColor(0, 51, 102)  # Dark blue
++definitions_bg.fill.fore_color.rgb = RGBColor(0, 102, 204)  # Lighter blue
+ 
+ # Add content for Media
+-media_box = slide.shapes.add_textbox(Inches(0.5), Inches(2), Inches(15), Inches(4))  # Increased height here
++media_box = slide.shapes.add_textbox(Inches(0.5), Inches(2.5), Inches(15), Inches(3))  # Adjusted height
+ media_frame = media_box.text_frame
+ media_title = media_frame.add_paragraph()
+ media_title.text = "MEDIA"
+@@ -49,7 +49,7 @@
+ media_text.space_after = Pt(10)
+ 
+ # Add content for Culture
+-culture_box = slide.shapes.add_textbox(Inches(0.5), Inches(6), Inches(15), Inches(3))  # Increased height here
++culture_box = slide.shapes.add_textbox(Inches(0.5), Inches(5.5), Inches(15), Inches(3))  # Adjusted height
+ culture_frame = culture_box.text_frame
+ culture_title = culture_frame.add_paragraph()
+ culture_title.text = "CULTURE"

@@ -1,0 +1,16 @@
+You are an AI model that specializes in vision-language reasoning and code generation. 
+Your are given a Python script (original code) that generates an image, a description of a code modification, and the rendered image from the given code. 
+
+Instructions:
+Your goal is to modify the original code minimally while ensuring the requested change is fully applied. 
+The modified code should still execute correctly and produce the intended visual result. To make sure the code can successfully execute. Do not hallucinate invalid library methods.
+You should generate Python code with the minimal modification needed on the original code to achieve the requested change in the description.
+
+Original code:
+[CODE]
+
+Description of code change:
+[DESCRIPTION]
+
+Your code:
+```python

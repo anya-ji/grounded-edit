@@ -1,0 +1,11 @@
+--- ./data/environment_slide_4/iter_3/gpt-4o/code.py	2025-02-14 18:50:09.138973517 +0000
++++ ./data/environment_slide_4/iter_4/gpt-4o/code.py	2025-02-14 18:50:32.514923284 +0000
+@@ -20,7 +20,7 @@
+ 
+ # Add a white textbox in the center
+ left = Inches(3)
+-top = Inches(1.5)
++top = Inches(0.5)  # Adjusted top position for vertical alignment
+ width = Inches(10)
+ height = Inches(6)
+ text_box = slide.shapes.add_textbox(left, top, width, height)

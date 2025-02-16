@@ -1,0 +1,1 @@
+Increase the font size of "DIGITAL MEDIA" to match the font size of the corresponding section title in the target image, and ensure it is bolded for consistency.

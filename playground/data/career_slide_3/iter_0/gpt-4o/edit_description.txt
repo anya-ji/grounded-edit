@@ -1,0 +1,1 @@
+Add a subtle drop shadow effect to the red speech bubble in the rendered image to match the depth of the target image.

@@ -1,0 +1,1 @@
+Change the text color of the headings from bold green to a lighter green to match the color in the target image.

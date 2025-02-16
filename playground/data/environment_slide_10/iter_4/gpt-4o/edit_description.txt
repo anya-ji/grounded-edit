@@ -1,0 +1,1 @@
+Change the font of the text "THANK YOU" in the rendered image to a bold, stylized font that resembles the one in the target image.

@@ -1,0 +1,13 @@
+--- ./data/design_slide_6/iter_3/gpt-4o/code.py	2025-02-14 18:29:21.148237240 +0000
++++ ./data/design_slide_6/iter_4/gpt-4o/code.py	2025-02-14 18:29:41.729180790 +0000
+@@ -29,8 +29,8 @@
+ image_path = "../../media/image_0.jpg"
+ slide.shapes.add_picture(image_path, Inches(0.5), Inches(1.6), width=Inches(8))
+ 
+-# Adjust text box size on the right side
+-text_box = slide.shapes.add_textbox(Inches(8.6), Inches(1.6), Inches(6), Inches(5))  # Increased height
++# Adjust text box size and position on the right side
++text_box = slide.shapes.add_textbox(Inches(8.6), Inches(1.6), Inches(6), Inches(5))  # Moved right
+ text_frame = text_box.text_frame
+ 
+ # Set lighter semi-transparent background for the text box

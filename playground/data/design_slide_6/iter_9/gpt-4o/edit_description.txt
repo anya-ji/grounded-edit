@@ -1,0 +1,1 @@
+Adjust the position of the text box so that it aligns neatly to the right side of the image, ensuring it does not overlap with the graphical elements and is fully visible.

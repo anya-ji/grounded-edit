@@ -1,0 +1,11 @@
+--- ./data/career_slide_17/iter_0/gpt-4o/code.py	2025-02-14 09:31:10.722256729 +0000
++++ ./data/career_slide_17/iter_1/gpt-4o/code.py	2025-02-14 09:31:36.659168986 +0000
+@@ -44,7 +44,7 @@
+ academic_outcome_p.text = "Outcome"
+ academic_outcome_p.font.size = Pt(20)
+ academic_outcome_p.font.bold = True
+-academic_outcome_p.font.color.rgb = RGBColor(255, 255, 0)  # yellow font
++academic_outcome_p.font.color.rgb = RGBColor(255, 255, 255)  # Changed to white font for better contrast
+ 
+ academic_details = slide.shapes.add_textbox(Inches(1), Inches(4), Inches(7), Inches(2))
+ academic_details_frame = academic_details.text_frame

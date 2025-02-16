@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: The first image has text organized in a boxed layout, with clear labels for each part and stressed words highlighted in a distinct color.
+2. Description of Rendered Image: The second image presents the same content, but the stressed words are not highlighted and the formatting lacks clarity, making it harder to read.
+3. Change Suggestion: Add CSS styles to highlight the stressed words in red for better visibility in the rendered image.
+```

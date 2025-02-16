@@ -1,0 +1,1 @@
+Change the background of the text area to black to match the target image.

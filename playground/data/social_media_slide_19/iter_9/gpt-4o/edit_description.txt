@@ -1,0 +1,1 @@
+Adjust the first bullet point to start with a proper bullet (•) instead of a lowercase 's' to ensure consistent formatting across the slide.

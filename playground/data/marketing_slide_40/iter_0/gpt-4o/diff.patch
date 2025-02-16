@@ -1,0 +1,39 @@
+--- ./data/marketing_slide_40/init/code.py	2025-02-14 06:46:11.540158206 +0000
++++ ./data/marketing_slide_40/iter_0/gpt-4o/code.py	2025-02-14 21:34:02.186781898 +0000
+@@ -8,7 +8,7 @@
+ presentation.slide_height = Inches(9)
+ 
+ # Add a blank slide
+-slide_layout = presentation.slide_layouts[5] # blank layout
++slide_layout = presentation.slide_layouts[5]  # blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+ # Add title
+@@ -23,20 +23,20 @@
+ 
+ # Paths to images
+ image_paths = [
+-    "../../media/image_2.jpg", # Sculpting
+-    "../../media/image_0.jpg", # Painting
+-    "../../media/image_4.jpg", # Field
+-    "../../media/image_1.jpg", # Market
+-    "../../media/image_3.jpg"  # Shopping mall
++    "../../media/image_2.jpg",  # Sculpting
++    "../../media/image_0.jpg",  # Painting
++    "../../media/image_4.jpg",  # Field
++    "../../media/image_1.jpg",  # Market
++    "../../media/image_3.jpg"   # Shopping mall
+ ]
+ 
+ # Coordinates for image positions
+ positions = [
+     (Inches(0.5), Inches(1.5)),  # Top left
+-    (Inches(11.5), Inches(1.5)), # Top right
++    (Inches(10.5), Inches(1.5)), # Top right
+     (Inches(6), Inches(3.5)),    # Center
+     (Inches(0.5), Inches(6)),    # Bottom left
+-    (Inches(11.5), Inches(6))    # Bottom right
++    (Inches(10.5), Inches(6))    # Bottom right
+ ]
+ 
+ # Add images in circular frames

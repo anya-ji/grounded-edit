@@ -1,0 +1,47 @@
+--- ./data/design_slide_6/iter_1/gpt-4o/code.py	2025-02-14 18:28:36.546359773 +0000
++++ ./data/design_slide_6/iter_2/gpt-4o/code.py	2025-02-14 18:28:58.959298164 +0000
+@@ -29,14 +29,14 @@
+ image_path = "../../media/image_0.jpg"
+ slide.shapes.add_picture(image_path, Inches(0.5), Inches(1.6), width=Inches(8))
+ 
+-# Add text box on the right side
+-text_box = slide.shapes.add_textbox(Inches(8.6), Inches(1.6), Inches(7), Inches(6))
++# Adjust text box size on the right side
++text_box = slide.shapes.add_textbox(Inches(8.6), Inches(1.6), Inches(6), Inches(4))  # Reduced height
+ text_frame = text_box.text_frame
+ 
+-# Set semi-transparent background for the text box
++# Set lighter semi-transparent background for the text box
+ fill = text_box.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(0, 0, 0)  # Black background
++fill.fore_color.rgb = RGBColor(255, 255, 255)  # Changed to white background
+ fill.transparency = 0.2  # Set transparency to 20% for 80% opacity
+ 
+ # Add paragraphs
+@@ -49,18 +49,18 @@
+                      "Google search organic services to clients all over the world. "
+                      "We can help your website indexed on top search engines and rate "
+                      "higher in order for it to be found.")
+-p1.font.size = Pt(20)
+-p1.font.color.rgb = RGBColor(255, 255, 255)  # White text
++p1.font.size = Pt(16)  # Reduced font size
++p1.font.color.rgb = RGBColor(0, 0, 0)  # Change to black text
+ 
+ p2 = text_frame.add_paragraph()
+ p2.text = "Contact us for more details;"
+-p2.font.size = Pt(20)
+-p2.font.color.rgb = RGBColor(255, 255, 255)  # White text
++p2.font.size = Pt(16)  # Reduced font size
++p2.font.color.rgb = RGBColor(0, 0, 0)  # Change to black text
+ 
+ p3 = text_frame.add_paragraph()
+ p3.text = "+916282126012"
+-p3.font.size = Pt(20)
+-p3.font.color.rgb = RGBColor(255, 255, 255)  # White text
++p3.font.size = Pt(16)  # Reduced font size
++p3.font.color.rgb = RGBColor(0, 0, 0)  # Change to black text
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

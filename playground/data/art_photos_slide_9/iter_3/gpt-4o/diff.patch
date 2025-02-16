@@ -1,0 +1,16 @@
+--- ./data/art_photos_slide_9/iter_2/gpt-4o/code.py	2025-02-14 08:13:03.377159372 +0000
++++ ./data/art_photos_slide_9/iter_3/gpt-4o/code.py	2025-02-14 08:13:30.444097809 +0000
+@@ -12,11 +12,11 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Change slide background to a mixture of pink and yellow hues
++# Change slide background to solid light gray color
+ background = slide.background
+ fill = background.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(255, 204, 204)  # Light pink color
++fill.fore_color.rgb = RGBColor(211, 211, 211)  # Light gray color
+ 
+ # Add background image
+ image_path = "../../media/image_0.jpg"

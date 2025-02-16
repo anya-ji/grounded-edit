@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: The top section is filled with a yellow background for the "References" header, with a clear white area for the text below it, and the references are in normal font without any special markings.
+2. Description of Rendered Image: The top section has a yellow background for the "References" header, but there are bold and italic markings on some reference titles as well as a gradient background, giving it a more chaotic appearance.
+3. Change Suggestion: Remove the bold and italic markings from the reference titles to make them appear in normal font as in the target image.
+```

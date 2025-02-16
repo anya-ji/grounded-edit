@@ -1,0 +1,19 @@
+--- ./data/career_slide_9/iter_0/gpt-4o/code.py	2025-02-14 18:10:43.442504778 +0000
++++ ./data/career_slide_9/iter_1/gpt-4o/code.py	2025-02-14 18:11:08.256423605 +0000
+@@ -51,14 +51,14 @@
+ paragraph.text = "Skills, "
+ paragraph.font.bold = True
+ paragraph.font.size = Pt(36)
+-paragraph.font.color.rgb = RGBColor(0, 255, 0) # green (changed from blue to green)
++paragraph.font.color.rgb = RGBColor(0, 255, 0) # green
+ paragraph.alignment = PP_ALIGN.CENTER
+ 
+ paragraph = content_frame.add_paragraph()
+ paragraph.text = "Experiences, "
+ paragraph.font.bold = True
+ paragraph.font.size = Pt(36)
+-paragraph.font.color.rgb = RGBColor(0, 255, 0) # green
++paragraph.font.color.rgb = RGBColor(0, 0, 255) # blue (changed from red to blue)
+ paragraph.alignment = PP_ALIGN.CENTER
+ 
+ paragraph = content_frame.add_paragraph()

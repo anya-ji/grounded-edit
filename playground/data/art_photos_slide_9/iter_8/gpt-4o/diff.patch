@@ -1,0 +1,64 @@
+--- ./data/art_photos_slide_9/iter_7/gpt-4o/code.py	2025-02-14 08:15:17.773853870 +0000
++++ ./data/art_photos_slide_9/iter_8/gpt-4o/code.py	2025-02-14 08:15:47.600786126 +0000
+@@ -12,28 +12,26 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Change slide background to solid white color for better readability
+-background = slide.background
+-fill = background.fill
+-fill.solid()
+-fill.fore_color.rgb = RGBColor(255, 255, 255)  # White color
+-
+-# Add background image
+-image_path = "../../media/image_0.jpg"
+-slide.shapes.add_picture(image_path, Inches(0), Inches(0), Inches(16), Inches(9))
++# Add colorful background rectangle
++colorful_background = slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, 0, 0, Inches(16), Inches(9))
++colorful_background.fill.solid()
++colorful_background.fill.fore_color.rgb = RGBColor(0, 191, 255)  # Light Blue background
++colorful_background.z_order = 0  # Send to back
+ 
+-# Title text box
++# Title text box centered
+ title_box = slide.shapes.add_textbox(Inches(2), Inches(1), Inches(12), Inches(1))
+ title_frame = title_box.text_frame
++title_frame.vertical_anchor = 'middle'
+ title_paragraph = title_frame.add_paragraph()
+ title_paragraph.text = "Representational or Objective Art"
+ title_paragraph.font.bold = True
+ title_paragraph.font.size = Pt(40)
+ title_paragraph.font.color.rgb = RGBColor(0, 0, 0)  # Black color
+ 
+-# Subheading text box
++# Subheading text box centered
+ subheading_box = slide.shapes.add_textbox(Inches(2), Inches(2), Inches(12), Inches(1))
+ subheading_frame = subheading_box.text_frame
++subheading_frame.vertical_anchor = 'middle'
+ subheading_box.fill.solid()
+ subheading_box.fill.fore_color.rgb = RGBColor(255, 255, 0)  # Yellow background
+ subheading_paragraph = subheading_frame.add_paragraph()
+@@ -43,9 +41,10 @@
+ subheading_paragraph.font.size = Pt(30)
+ subheading_paragraph.font.color.rgb = RGBColor(0, 0, 0)  # Black text
+ 
+-# Content text box
++# Content text box centered
+ content_box = slide.shapes.add_textbox(Inches(2), Inches(3), Inches(12), Inches(3))
+ content_frame = content_box.text_frame
++content_frame.vertical_anchor = 'middle'
+ 
+ content_box.fill.solid()
+ content_box.fill.fore_color.rgb = RGBColor(255, 255, 255)  # White background
+@@ -68,10 +67,5 @@
+ small_title_paragraph.font.size = Pt(18)
+ small_title_paragraph.font.color.rgb = RGBColor(0, 0, 0)  # Black text
+ 
+-# Change the background of the whole slide to white
+-slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, 0, 0, Inches(16), Inches(9)).fill.solid()
+-slide.shapes[-1].fill.fore_color.rgb = RGBColor(255, 255, 255)  # White background
+-slide.shapes[-1].z_order = 0  # Send to back
+-
+ # Save presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

@@ -1,0 +1,1 @@
+Add a blue background to the text for the item "Phoebe sarcastically says that Sarah is a monster for her etiquette" in the rendered image to match the target image.

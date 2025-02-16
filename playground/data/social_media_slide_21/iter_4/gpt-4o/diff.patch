@@ -1,0 +1,12 @@
+--- ./data/social_media_slide_21/iter_3/gpt-4o/code.py	2025-02-16 02:07:57.231636189 +0000
++++ ./data/social_media_slide_21/iter_4/gpt-4o/code.py	2025-02-16 02:08:18.322587280 +0000
+@@ -25,5 +25,8 @@
+ text_frame.paragraphs[0].font.name = 'Times New Roman' # Set font to a serif font
+ text_frame.paragraphs[0].alignment = PP_ALIGN.CENTER
+ 
++# Set kerning for better letter spacing
++text_frame.paragraphs[0].font.kerning = Pt(10)  # Adjust kerning
++
+ # Save the slide to the specified path
+ presentation.save("render.pptx")
+\ No newline at end of file

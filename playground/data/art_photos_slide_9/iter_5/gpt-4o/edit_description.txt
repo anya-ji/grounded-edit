@@ -1,0 +1,1 @@
+Modify the background of the rendered image to a solid white or light color to enhance text readability and maintain the clarity seen in the target image.

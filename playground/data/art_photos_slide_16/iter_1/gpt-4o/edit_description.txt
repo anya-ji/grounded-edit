@@ -1,0 +1,1 @@
+Change the background color of the list of sources in the rendered image from a gradient to a solid white background to enhance readability.

@@ -1,0 +1,1 @@
+Increase the font weight of the header "References" in the rendered image to bold and change the links' color to a brighter blue (#0000FF).

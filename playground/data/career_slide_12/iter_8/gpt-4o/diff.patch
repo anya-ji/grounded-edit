@@ -1,0 +1,39 @@
+--- ./data/career_slide_12/iter_7/gpt-4o/code.py	2025-02-14 09:08:10.504216196 +0000
++++ ./data/career_slide_12/iter_8/gpt-4o/code.py	2025-02-14 09:08:43.517164568 +0000
+@@ -56,6 +56,7 @@
+ # Define colors for bullet points
+ highlight_color = RGBColor(208, 208, 208)  # Changed to Light Gray
+ text_color = RGBColor(208, 208, 208)  # Default color for subpoints
++leadership_color = RGBColor(255, 255, 0)  # Yellow color for Leadership and Teamwork heading
+ 
+ # Add bullet points to slide
+ for heading, subpoints in bullet_points:
+@@ -64,7 +65,13 @@
+     p.text = heading
+     p.font.bold = True
+     p.font.size = Pt(24)
+-    p.font.color.rgb = highlight_color
++    
++    # Change color of "Leadership and Teamwork" heading to yellow
++    if heading == "Leadership and Teamwork":
++        p.font.color.rgb = leadership_color
++    else:
++        p.font.color.rgb = highlight_color  # Default color
++     
+     p.space_before = Pt(10)
+     
+     # Add subpoints
+@@ -73,11 +80,7 @@
+         p.text = subpoint
+         p.level = 1
+         p.font.size = Pt(20)
+-        # Change color of subpoints for Leadership and Teamwork to gray
+-        if heading == "Leadership and Teamwork":
+-            p.font.color.rgb = text_color
+-        else:
+-            p.font.color.rgb = text_color  # Default color
++        p.font.color.rgb = text_color  # Default color for subpoints
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

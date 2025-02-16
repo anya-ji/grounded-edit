@@ -1,0 +1,15 @@
+--- ./data/food_slide_10/iter_5/gpt-4o/code.py	2025-02-14 19:05:38.366837886 +0000
++++ ./data/food_slide_10/iter_6/gpt-4o/code.py	2025-02-14 19:06:09.310764056 +0000
+@@ -87,6 +87,12 @@
+ fill.solid()
+ fill.fore_color.rgb = RGBColor(173, 216, 230)  # Light blue background
+ 
++# Change the background color of Joey's statement to light blue
++cell = table.cell(0, 0)
++fill = cell.fill
++fill.solid()
++fill.fore_color.rgb = RGBColor(173, 216, 230)  # Light blue for the selected option
++
+ # Add Joey's image
+ joey_image_path = "../../media/image_1.jpg"
+ joey_image = slide.shapes.add_picture(joey_image_path, Inches(11), Inches(5.5), height=Inches(2))

@@ -1,0 +1,25 @@
+--- ./data/business_slide_9/iter_7/gpt-4o/code.py	2025-02-14 08:52:05.524017320 +0000
++++ ./data/business_slide_9/iter_8/gpt-4o/code.py	2025-02-14 08:52:34.960944813 +0000
+@@ -32,10 +32,10 @@
+ 
+ # Add the main image with adjusted cropping
+ image_path = "../../media/image_0.jpg"
+-slide.shapes.add_picture(image_path, Inches(0), Inches(3), Inches(16), Inches(4))  # Adjusted width to 16
++slide.shapes.add_picture(image_path, Inches(0), Inches(2), Inches(16), Inches(5))  # Adjusted height to 5
+ 
+ # Modify the quote
+-quote_textbox = slide.shapes.add_textbox(Inches(0.5), Inches(6), Inches(15), Inches(1.5))  # Adjusted height for the quote
++quote_textbox = slide.shapes.add_textbox(Inches(0.5), Inches(7), Inches(15), Inches(1.5))  # Adjusted height for the quote
+ quote_text_frame = quote_textbox.text_frame
+ quote = quote_text_frame.add_paragraph()
+ quote.text = "IT'S ABOUT THE PEOPLE, NOT THE PLACES"  # Corrected text to include "IT"
+@@ -43,7 +43,7 @@
+ quote.font.bold = True
+ quote.font.color.rgb = RGBColor(255, 255, 255)
+ quote_textbox.left = Inches(0.5)  # Centering the textbox
+-quote_textbox.top = Inches(6.2)  # Adjusted top position to prevent cutoff
++quote_textbox.top = Inches(7.2)  # Adjusted top position to prevent cutoff
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

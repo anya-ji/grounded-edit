@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: The target image features a header with bold, large text stating "Origin of Blockchain Technology". The bullet points below are accompanied by check marks, giving a visually organized and affirmative look to the points discussed.
+2. Description of Rendered Image: The rendered image has the same header as the target image but uses empty bullet points instead of filled check marks, resulting in a more neutral appearance that lacks the sense of completion.
+3. Change Suggestion: Change the empty bullet points in the rendered image to filled check marks to match the style of the target image.
+```

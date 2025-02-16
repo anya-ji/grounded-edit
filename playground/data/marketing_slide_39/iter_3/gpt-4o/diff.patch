@@ -1,0 +1,15 @@
+--- ./data/marketing_slide_39/iter_2/gpt-4o/code.py	2025-02-14 21:27:21.848038154 +0000
++++ ./data/marketing_slide_39/iter_3/gpt-4o/code.py	2025-02-14 21:27:41.075972426 +0000
+@@ -17,8 +17,10 @@
+     MSO_SHAPE.RECTANGLE, Inches(0), Inches(0), presentation.slide_width, presentation.slide_height  # Adjusted width
+ )
+ fill = background.fill
+-fill.solid()
+-fill.fore_color.rgb = RGBColor(0, 128, 128)  # Dark teal color
++fill.gradient()  # Change to gradient fill
++gradient_stops = fill.gradient_stops
++gradient_stops[0].color.rgb = RGBColor(0, 128, 128)  # Dark teal color
++gradient_stops[1].color.rgb = RGBColor(0, 255, 255)  # Light cyan color for gradient depth
+ 
+ # Add text box for title, adjusting the position
+ text_box = slide.shapes.add_textbox(Inches(1), Inches(3), Inches(7), Inches(2))  # Adjusted left position

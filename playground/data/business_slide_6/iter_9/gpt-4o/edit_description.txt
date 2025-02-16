@@ -1,0 +1,1 @@
+Increase the font weight of the text "This is Bélo." in the rendered image to match the bolder appearance in the target image.

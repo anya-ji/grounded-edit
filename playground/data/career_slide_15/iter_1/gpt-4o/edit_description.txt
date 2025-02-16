@@ -1,0 +1,1 @@
+Change the color of the "Professional World" header to match the target image's format, ensuring it is blue, and adjust the font weight to be consistent with the "Academic World" header.

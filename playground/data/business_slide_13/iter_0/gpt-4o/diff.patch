@@ -1,0 +1,11 @@
+--- ./data/business_slide_13/init/code.py	2025-02-14 06:46:11.635157866 +0000
++++ ./data/business_slide_13/iter_0/gpt-4o/code.py	2025-02-14 08:25:15.385189707 +0000
+@@ -27,7 +27,7 @@
+ text_frame = text_box.text_frame
+ p = text_frame.add_paragraph()
+ p.text = title
+-p.font.bold = True
++p.font.bold = False  # Change font weight to lighter
+ p.font.size = Pt(44)
+ p.alignment = PP_ALIGN.LEFT
+ 

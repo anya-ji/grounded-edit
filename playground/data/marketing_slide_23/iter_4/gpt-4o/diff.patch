@@ -1,0 +1,11 @@
+--- ./data/marketing_slide_23/iter_3/gpt-4o/code.py	2025-02-14 20:48:57.970136924 +0000
++++ ./data/marketing_slide_23/iter_4/gpt-4o/code.py	2025-02-14 20:49:43.647027303 +0000
+@@ -42,7 +42,7 @@
+ stop1.color.rgb = RGBColor(255, 165, 0)  # Orange
+ stop2 = fill.gradient_stops[1]
+ stop2.position = 1.0
+-stop2.color.rgb = RGBColor(255, 255, 0)  # Yellow
++stop2.color.rgb = RGBColor(255, 165, 0)  # Change this to Orange as well
+ 
+ text_frame1 = orange_box.text_frame
+ p1 = text_frame1.add_paragraph()

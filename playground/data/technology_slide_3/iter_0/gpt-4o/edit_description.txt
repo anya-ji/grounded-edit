@@ -1,0 +1,1 @@
+Replace the dashes (-) in the rendered image with bullet points (☐) for the checklist items to match the target image.

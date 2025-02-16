@@ -1,0 +1,11 @@
+--- ./data/career_slide_10/iter_7/gpt-4o/code.py	2025-02-14 08:59:07.984831991 +0000
++++ ./data/career_slide_10/iter_8/gpt-4o/code.py	2025-02-14 08:59:38.546813824 +0000
+@@ -52,7 +52,7 @@
+     pic = slide.shapes.add_picture(image_path, Inches(left_inch), Inches(top_inch), Inches(2), Inches(2.5))
+     
+     # Update the top position for description to be below the picture
+-    desc_top_inch = top_inch + 2.5 + Inches(0.5)  # Increased space below the picture
++    desc_top_inch = top_inch + 2.5 + Inches(0.2)  # Decreased space below the picture to avoid overlap
+ 
+     left_inch += 2 + spacing  # Add picture width and spacing
+     

@@ -1,0 +1,1 @@
+Adjust the layout to ensure all bullet points have equal spacing and use CSS to make the sidebar text fit within the available space without clipping.

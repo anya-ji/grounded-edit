@@ -1,0 +1,23 @@
+--- ./data/social_media_slide_16/init/code.py	2025-02-14 06:46:11.933156799 +0000
++++ ./data/social_media_slide_16/iter_0/gpt-4o/code.py	2025-02-14 22:09:36.711301062 +0000
+@@ -43,13 +43,15 @@
+ 
+ # Images
+ image_paths = [
+-    "../../media/image_0.jpg",
+-    "../../media/image_1.jpg",
+-    "../../media/image_2.jpg"
++    "../../media/image_0.jpg", # Woven textile image
++    "../../media/image_1.jpg", # Japanese doll image
++    "../../media/image_2.jpg"  # Sagrada Familia image
+ ]
+ 
++# Updated size for uniformity
++image_size = Inches(3)  # uniform size for all images
+ x_positions = [Inches(1), Inches(5.5), Inches(10)]
+ for i, image_path in enumerate(image_paths):
+-    slide.shapes.add_picture(image_path, x_positions[i], Inches(5), Inches(4), Inches(3))
++    slide.shapes.add_picture(image_path, x_positions[i], Inches(5), image_size, image_size)
+ 
+ presentation.save("render.pptx")
+\ No newline at end of file

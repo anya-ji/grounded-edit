@@ -1,0 +1,1 @@
+Add three numbered questions in speech bubbles to the upper left section of the rendered image, replicating the content and design of the target image.

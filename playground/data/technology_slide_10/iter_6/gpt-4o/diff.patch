@@ -1,0 +1,14 @@
+--- ./data/technology_slide_10/iter_5/gpt-4o/code.py	2025-02-16 02:31:37.023795798 +0000
++++ ./data/technology_slide_10/iter_6/gpt-4o/code.py	2025-02-16 02:31:52.533744542 +0000
+@@ -51,8 +51,8 @@
+ # Image (Benefits of Blockchain Technology diagram)
+ image_path = "../../media/image_0.jpg"
+ # Center the image by adjusting the left position
+-image_left = (presentation.slide_width - Inches(6)) / 2  # Center horizontally
+-slide.shapes.add_picture(image_path, image_left, Inches(2), Inches(6), Inches(4))
++image_left = (presentation.slide_width - Inches(8)) / 2  # Center horizontally
++slide.shapes.add_picture(image_path, image_left, Inches(2), Inches(6), Inches(8))  # Increased height and width
+ 
+ # Save presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

@@ -1,0 +1,34 @@
+--- ./data/marketing_slide_9/iter_0/gpt-4o/code.py	2025-02-14 21:42:02.697459853 +0000
++++ ./data/marketing_slide_9/iter_1/gpt-4o/code.py	2025-02-14 21:43:06.024293536 +0000
+@@ -11,6 +11,20 @@
+ slide_layout = presentation.slide_layouts[5]  # Blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
++# Add a gradient background
++left = top = 0
++width = presentation.slide_width
++height = presentation.slide_height
++gradient_shape = slide.shapes.add_shape(
++    6,  # Rectangle
++    left, top, width, height
++)
++fill = gradient_shape.fill
++fill.gradient()  # Apply gradient fill
++stops = fill.gradient_stops
++stops[0].color.rgb = RGBColor(0, 0, 150)  # Dark blue
++stops[1].color.rgb = RGBColor(173, 216, 230)  # Light blue
++
+ # Add title
+ title_text = "From Factory to the Market"
+ title_box = slide.shapes.add_textbox(Inches(0.5), Inches(0.3), Inches(15), Inches(1))
+@@ -59,9 +73,5 @@
+     content_paragraph.font.size = Pt(16)
+     content_paragraph.font.color.rgb = RGBColor(0, 0, 0)
+ 
+-# Add background image
+-background_image_path = "../../media/image_0.jpg"
+-slide.shapes.add_picture(background_image_path, Inches(0), Inches(0), Inches(16), Inches(9))
+-
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

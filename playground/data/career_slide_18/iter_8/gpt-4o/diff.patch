@@ -1,0 +1,18 @@
+--- ./data/career_slide_18/iter_7/gpt-4o/code.py	2025-02-14 09:38:53.743855371 +0000
++++ ./data/career_slide_18/iter_8/gpt-4o/code.py	2025-02-14 09:39:23.330774634 +0000
+@@ -38,12 +38,12 @@
+ professional_world.font.bold = True
+ professional_world.font.color.rgb = RGBColor(255, 255, 255)  # White color
+ 
+-# Add the remaining text "AND" without bolding
++# Adjust the "AND" paragraph to match the size and positioning
+ and_paragraph = title_frame.add_paragraph()
+ and_paragraph.text = "AND"
+-and_paragraph.font.size = Pt(44)  # Original font size
++and_paragraph.font.size = Pt(58)  # Adjusted size to match other elements
+ and_paragraph.font.color.rgb = RGBColor(255, 255, 255)  # White color
+-and_paragraph.font.bold = False  # Removed bold
++and_paragraph.font.bold = True  # Set bold to true for uniformity
+ 
+ # Adjust line spacing for title
+ title_paragraph.space_after = Pt(10)  # Set desired spacing after the title

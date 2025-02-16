@@ -1,0 +1,1 @@
+Increase the saturation and brightness of the colors in the floating garden area to match the vividness found in the target image.

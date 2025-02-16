@@ -1,0 +1,13 @@
+--- ./data/environment_slide_8/init/code.py	2025-02-14 06:46:11.926156824 +0000
++++ ./data/environment_slide_8/iter_0/gpt-4o/code.py	2025-02-14 19:01:21.055447842 +0000
+@@ -50,8 +50,8 @@
+ 
+ content_tf.word_wrap = True
+ 
+-# Add image section
+-image_path = "../../media/image_0.jpg"
++# Add image section with higher resolution image
++image_path = "../../media/higher_resolution_image.jpg"  # Update this line
+ slide.shapes.add_picture(image_path, Inches(1), Inches(8), Inches(5), Inches(2))
+ 
+ # Save the presentation

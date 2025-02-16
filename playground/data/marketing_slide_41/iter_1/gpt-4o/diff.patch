@@ -1,0 +1,16 @@
+--- ./data/marketing_slide_41/iter_0/gpt-4o/code.py	2025-02-14 21:35:20.216557520 +0000
++++ ./data/marketing_slide_41/iter_1/gpt-4o/code.py	2025-02-14 21:35:36.395511590 +0000
+@@ -14,11 +14,11 @@
+ slide_layout = presentation.slide_layouts[5]  # Using a blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set background to a gradient of light blue
++# Set background to a deep green
+ background = slide.background
+ fill = background.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(173, 216, 230)  # Light blue
++fill.fore_color.rgb = RGBColor(0, 100, 0)  # Deep green
+ 
+ # Add title text
+ title_text = "Research Work:"

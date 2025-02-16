@@ -1,0 +1,1 @@
+Remove the white rectangular obstruction from the upper left corner of the rendered image to restore visibility of the title card.

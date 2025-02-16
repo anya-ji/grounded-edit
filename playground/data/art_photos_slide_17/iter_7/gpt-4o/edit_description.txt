@@ -1,0 +1,1 @@
+Change the title background of the rendered image from yellow with a black outline to a solid yellow without an outline, ensuring the text "THE CONTENT OF ART" remains bold and the body text remains clearly legible against the background.

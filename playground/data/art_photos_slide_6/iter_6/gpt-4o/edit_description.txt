@@ -1,0 +1,1 @@
+Change the color of the title bar and the label from yellow to a soft yellow to match the target image's style and reduce visual interference.

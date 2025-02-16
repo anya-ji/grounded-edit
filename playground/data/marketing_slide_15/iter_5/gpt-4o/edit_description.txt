@@ -1,0 +1,1 @@
+Change the background color of the rendered image from turquoise to a dark green similar to that of the target image.

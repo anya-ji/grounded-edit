@@ -1,0 +1,14 @@
+--- ./data/marketing_slide_37/init/code.py	2025-02-14 06:46:11.538158213 +0000
++++ ./data/marketing_slide_37/iter_0/gpt-4o/code.py	2025-02-14 21:24:38.168629072 +0000
+@@ -17,8 +17,9 @@
+ # Set gradient background color
+ background = slide.background
+ fill = background.fill
+-fill.solid()
+-fill.fore_color.rgb = RGBColor(0, 51, 0)  # Dark green
++fill.gradient()  # Change from solid to gradient
++fill.gradient_stops[0].color.rgb = RGBColor(173, 216, 230)  # Light blue at the top
++fill.gradient_stops[1].color.rgb = RGBColor(0, 51, 0)  # Dark green at the bottom
+ 
+ # Add blue graphic of a person with an arrow pointing right
+ image_path = "../../media/image_0.jpg"

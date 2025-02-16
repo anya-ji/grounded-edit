@@ -1,0 +1,33 @@
+--- ./data/marketing_slide_11/iter_2/gpt-4o/code.py	2025-02-14 20:18:32.094560577 +0000
++++ ./data/marketing_slide_11/iter_3/gpt-4o/code.py	2025-02-14 20:18:54.668504402 +0000
+@@ -1,6 +1,7 @@
+ from pptx import Presentation
+ from pptx.util import Inches, Pt
+ from pptx.dml.color import RGBColor
++from pptx.enum.shapes import MSO_SHAPE
+ 
+ presentation = Presentation()
+ presentation.slide_width = Inches(16)
+@@ -9,9 +10,10 @@
+ slide_layout = presentation.slide_layouts[5]  # Blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Background image
+-image_path = "../../media/image_0.jpg"
+-slide.shapes.add_picture(image_path, Inches(0), Inches(0), width=Inches(16), height=Inches(9))
++# Dark background rectangle
++background = slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, 0, 0, Inches(16), Inches(9))
++background.fill.solid()
++background.fill.fore_color.rgb = RGBColor(0, 0, 0)  # Dark color
+ 
+ # Title text
+ title_box = slide.shapes.add_textbox(Inches(1), Inches(0.5), Inches(14), Inches(1))
+@@ -31,6 +33,6 @@
+ main_text.text = "Consider yourself as a producer, list the various things you must be taking care of till your product reaches the consumers. (3 MARKS)"
+ main_text.font.size = Pt(24)
+ main_text.font.bold = True
+-main_text.font.color.rgb = RGBColor(100, 100, 100)  # Darker color for better contrast
++main_text.font.color.rgb = RGBColor(200, 200, 200)  # Lighter gray color for contrast against dark background
+ 
+ presentation.save("render.pptx")
+\ No newline at end of file

@@ -1,0 +1,44 @@
+--- ./data/food_slide_21/iter_2/gpt-4o/code.py	2025-02-14 19:30:06.514467936 +0000
++++ ./data/food_slide_21/iter_3/gpt-4o/code.py	2025-02-14 19:30:31.086409665 +0000
+@@ -13,8 +13,8 @@
+ title_frame = title_box.text_frame
+ title = title_frame.add_paragraph()
+ title.text = "Pronunciation Activity"
+-title.font.size = Pt(48)  # Increased font size
+-title.font.bold = True
++title.font.size = Pt(36)  # Smaller font size
++title.font.bold = False  # Standard font weight
+ title.alignment = PP_ALIGN.LEFT
+ 
+ # Exam logo
+@@ -26,8 +26,8 @@
+ part1_title_frame = part1_title_box.text_frame
+ part1_title = part1_title_frame.add_paragraph()
+ part1_title.text = "PART 1"
+-part1_title.font.size = Pt(20)  # Reduced font size for readability
+-part1_title.font.bold = True
++part1_title.font.size = Pt(18)  # Smaller font size
++part1_title.font.bold = False  # Standard font weight
+ 
+ instruction_box1 = slide.shapes.add_textbox(Inches(0.5), Inches(2), Inches(12), Inches(0.5))
+ instruction_frame1 = instruction_box1.text_frame
+@@ -59,7 +59,7 @@
+     response_paragraph.font.size = Pt(16)
+     response_paragraph.font.color.rgb = RGBColor(255, 0, 0)
+ 
+-    # Highlighting the stressed words
++    # Highlighting the stressed words - removed duplicate
+     stressed_box = slide.shapes.add_textbox(Inches(1.2), Inches(y_position + 0.6), Inches(10), Inches(0.5))
+     stressed_frame = stressed_box.text_frame
+     stressed_paragraph = stressed_frame.add_paragraph()
+@@ -72,8 +72,8 @@
+ part2_title_frame = part2_title_box.text_frame
+ part2_title = part2_title_frame.add_paragraph()
+ part2_title.text = "PART 2"
+-part2_title.font.size = Pt(20)  # Reduced font size for readability
+-part2_title.font.bold = True
++part2_title.font.size = Pt(18)  # Smaller font size
++part2_title.font.bold = False  # Standard font weight
+ 
+ instruction_box2 = slide.shapes.add_textbox(Inches(0.5), Inches(9), Inches(12), Inches(1))
+ instruction_frame2 = instruction_box2.text_frame

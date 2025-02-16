@@ -1,0 +1,20 @@
+--- ./data/art_photos_slide_5/iter_1/gpt-4o/code.py	2025-02-14 07:57:15.214341597 +0000
++++ ./data/art_photos_slide_5/iter_2/gpt-4o/code.py	2025-02-14 07:57:42.818276784 +0000
+@@ -19,7 +19,7 @@
+ # Add a smaller title on the top-left corner
+ left_corner_textbox = slide.shapes.add_textbox(Inches(0.3), Inches(0.3), Inches(5), Inches(1))
+ left_corner_textbox.fill.solid()
+-left_corner_textbox.fill.fore_color.rgb = RGBColor(255, 255, 102)  # Yellow
++left_corner_textbox.fill.fore_color.rgb = RGBColor(204, 204, 0)  # Darkened Yellow
+ tf_left = left_corner_textbox.text_frame
+ p_left = tf_left.add_paragraph()
+ p_left.text = "The Subject and Content of Art"
+@@ -30,7 +30,7 @@
+ # Add the main title with modified color
+ title_box = slide.shapes.add_textbox(Inches(1), Inches(1.5), Inches(14), Inches(1.5))
+ title_box.fill.solid()
+-title_box.fill.fore_color.rgb = RGBColor(255, 255, 0)  # Brightened Yellow
++title_box.fill.fore_color.rgb = RGBColor(204, 204, 0)  # Darkened Yellow
+ tf_title = title_box.text_frame
+ p_title = tf_title.add_paragraph()
+ p_title.text = "Two kinds of Art as to Subject"

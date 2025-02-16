@@ -1,0 +1,1 @@
+Change the checkbox style from hollow to filled for each bullet point in the rendered image to match the target image.

@@ -1,0 +1,25 @@
+--- ./data/food_slide_29/iter_5/gpt-4o/code.py	2025-02-14 19:47:10.469042982 +0000
++++ ./data/food_slide_29/iter_6/gpt-4o/code.py	2025-02-14 19:47:39.837973976 +0000
+@@ -14,11 +14,19 @@
+ slide_layout = presentation.slide_layouts[5]  # Blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set background color to white
++# Set background color to a gradient
+ background = slide.background
+ fill = background.fill
+-fill.solid()
+-fill.fore_color.rgb = RGBColor(255, 255, 255)  # White background
++fill.gradient()  # Set to gradient fill
++
++# Define the gradient stops
++stop1 = fill.gradient_stops[0]
++stop1.position = 0.0
++stop1.color.rgb = RGBColor(30, 144, 255)  # Blue
++
++stop2 = fill.gradient_stops[1]
++stop2.position = 1.0
++stop2.color.rgb = RGBColor(255, 192, 203)  # Pink
+ 
+ # Add title "PART 1"
+ title_box = slide.shapes.add_textbox(Inches(0.5), Inches(0.5), Inches(3), Inches(1))

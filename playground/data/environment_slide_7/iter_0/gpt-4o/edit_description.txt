@@ -1,0 +1,1 @@
+Change the background color to a softer shade of green, similar to the target image, to make the rendered image more closely match the target image.

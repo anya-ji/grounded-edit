@@ -1,0 +1,1 @@
+Change the background color of the rendered image to black to match the background of the target image for improved text legibility.

@@ -1,0 +1,1 @@
+Adjust the font size of the last sentence in the main content ("Digital media through phone and computers allows people to access information from around the world.") to match the size of the text in the target image for consistency.

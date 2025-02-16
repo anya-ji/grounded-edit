@@ -1,0 +1,11 @@
+--- ./data/food_slide_4/init/code.py	2025-02-14 06:46:11.862157053 +0000
++++ ./data/food_slide_4/iter_0/gpt-4o/code.py	2025-02-14 19:57:55.640518312 +0000
+@@ -24,7 +24,7 @@
+ p = title_frame.add_paragraph()
+ p.text = "PART 2"
+ p.font.bold = True
+-p.font.size = Pt(48)
++p.font.size = Pt(60)  # Increased font size for better visibility
+ p.font.color.rgb = RGBColor(0, 0, 0)  # Dark font
+ 
+ # Add subtitle

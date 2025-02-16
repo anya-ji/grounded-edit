@@ -1,0 +1,15 @@
+--- ./data/marketing_slide_2/iter_0/gpt-4o/code.py	2025-02-14 20:36:33.457926240 +0000
++++ ./data/marketing_slide_2/iter_1/gpt-4o/code.py	2025-02-14 20:37:10.701836547 +0000
+@@ -25,9 +25,9 @@
+ p.font.size = Pt(40)
+ p.font.color.rgb = RGBColor(255, 255, 255)  # White
+ 
+-# Add image of bucket being filled
+-image_path = "../../media/image_1.jpg"
+-slide.shapes.add_picture(image_path, Inches(10.5), Inches(1.5), Inches(5), Inches(5))
++# Add image of bucket with enhanced water
++new_image_path = "../../media/enhanced_bucket.jpg"  # Updated image path
++slide.shapes.add_picture(new_image_path, Inches(10.5), Inches(1.5), Inches(5), Inches(5))
+ 
+ # Add "Filling" label
+ filling_label = slide.shapes.add_textbox(Inches(14), Inches(1), Inches(2), Inches(0.5))

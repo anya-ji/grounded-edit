@@ -1,0 +1,1 @@
+Change the background color of the rendered image to a lighter shade, similar to the gradient blue in the target image, to create a more inviting and friendly atmosphere.

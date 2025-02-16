@@ -1,0 +1,11 @@
+--- ./data/entrepreneur_slide_8/iter_4/gpt-4o/code.py	2025-02-14 18:39:57.190120118 +0000
++++ ./data/entrepreneur_slide_8/iter_5/gpt-4o/code.py	2025-02-14 18:40:25.130078191 +0000
+@@ -26,7 +26,7 @@
+ title_text = title_frame.add_paragraph()
+ title_text.text = "Obstacles that Elon faced"
+ title_text.font.bold = True
+-title_text.font.size = Pt(48)  # Increased font size
++title_text.font.size = Pt(20)  # Adjusted to match bullet point font size
+ title_text.font.color.rgb = RGBColor(0, 0, 0)  # Black color
+ title_text.space_after = Pt(10)  # Add space after the title
+ title_text.alignment = 1  # Center alignment

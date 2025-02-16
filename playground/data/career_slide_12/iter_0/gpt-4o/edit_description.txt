@@ -1,0 +1,1 @@
+Change the title text font color to a light grey to match the consistency of the text style in the target image.

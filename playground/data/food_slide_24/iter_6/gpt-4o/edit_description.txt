@@ -1,0 +1,1 @@
+Add bold formatting to specific phrases in the text to match the visual emphasis of the target image.

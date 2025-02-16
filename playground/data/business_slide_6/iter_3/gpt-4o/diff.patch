@@ -1,0 +1,11 @@
+--- ./data/business_slide_6/iter_2/gpt-4o/code.py	2025-02-14 08:42:28.749448648 +0000
++++ ./data/business_slide_6/iter_3/gpt-4o/code.py	2025-02-14 08:42:44.479409220 +0000
+@@ -19,7 +19,7 @@
+ fill.fore_color.rgb = RGBColor(255, 102, 102)
+ 
+ # Add the title text
+-text_box = slide.shapes.add_textbox(Inches(0), Inches(3.5), width=Inches(16), height=Inches(2))
++text_box = slide.shapes.add_textbox(Inches(0), Inches(3), width=Inches(16), height=Inches(3))
+ text_frame = text_box.text_frame
+ p = text_frame.add_paragraph()
+ p.text = "This is Bélo."

@@ -1,0 +1,11 @@
+--- ./data/environment_slide_2/iter_8/gpt-4o/code.py	2025-02-14 18:48:02.208240500 +0000
++++ ./data/environment_slide_2/iter_9/gpt-4o/code.py	2025-02-14 18:48:19.905203915 +0000
+@@ -26,7 +26,7 @@
+ title_paragraph = title_frame.paragraphs[0]
+ title_paragraph.font.bold = True
+ title_paragraph.font.size = Pt(24)
+-title_paragraph.font.color.rgb = RGBColor(0, 204, 0)  # Brighter green font
++title_paragraph.font.color.rgb = RGBColor(76, 175, 80)  # Bold green color (#4CAF50)
+ 
+ # Add content textbox
+ content_box = slide.shapes.add_textbox(Inches(1), Inches(3), Inches(14), Inches(5))

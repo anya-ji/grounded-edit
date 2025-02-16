@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: A slide background in a light green color with a white rectangular section containing text and an image of a tree in a bubble.
+2. Description of Rendered Image: A slide with a bright green background, with the same text content and an image of a tree in a bubble, but the text area and layout appear different.
+3. Change Suggestion: Change the text background to white for better contrast against the green text and to match the target image layout.
+```

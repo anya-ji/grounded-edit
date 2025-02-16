@@ -1,0 +1,61 @@
+--- ./data/career_slide_17/iter_5/gpt-4o/code.py	2025-02-14 09:33:39.654770884 +0000
++++ ./data/career_slide_17/iter_6/gpt-4o/code.py	2025-02-14 09:34:14.604662572 +0000
+@@ -32,6 +32,7 @@
+ # Left section: Academic World
+ academic_title = slide.shapes.add_textbox(Inches(1), Inches(2), Inches(7), Inches(1))
+ academic_title_frame = academic_title.text_frame
++academic_title_frame.word_wrap = True
+ academic_title_p = academic_title_frame.add_paragraph()
+ academic_title_p.text = "ACADEMIC WORLD"
+ academic_title_p.font.size = Pt(24)
+@@ -40,6 +41,7 @@
+ 
+ academic_outcome = slide.shapes.add_textbox(Inches(1), Inches(3), Inches(7), Inches(1))
+ academic_outcome_frame = academic_outcome.text_frame
++academic_outcome_frame.word_wrap = True
+ academic_outcome_p = academic_outcome_frame.add_paragraph()
+ academic_outcome_p.text = "Outcome"
+ academic_outcome_p.font.size = Pt(20)
+@@ -48,6 +50,7 @@
+ 
+ academic_details = slide.shapes.add_textbox(Inches(1), Inches(4), Inches(7), Inches(2))
+ academic_details_frame = academic_details.text_frame
++academic_details_frame.word_wrap = True
+ academic_details_p = academic_details_frame.add_paragraph()
+ academic_details_p.text = "Degrees and Certifications"
+ academic_details_p.font.size = Pt(18)
+@@ -64,6 +67,7 @@
+ # Right section: Professional World
+ professional_title = slide.shapes.add_textbox(Inches(8), Inches(2), Inches(7), Inches(1))
+ professional_title_frame = professional_title.text_frame
++professional_title_frame.word_wrap = True
+ professional_title_p = professional_title_frame.add_paragraph()
+ professional_title_p.text = "PROFESSIONAL WORLD"
+ professional_title_p.font.size = Pt(24)
+@@ -72,6 +76,7 @@
+ 
+ professional_outcome = slide.shapes.add_textbox(Inches(8), Inches(3), Inches(7), Inches(1))
+ professional_outcome_frame = professional_outcome.text_frame
++professional_outcome_frame.word_wrap = True
+ professional_outcome_p = professional_outcome_frame.add_paragraph()
+ professional_outcome_p.text = "Outcome"
+ professional_outcome_p.font.size = Pt(20)
+@@ -80,6 +85,7 @@
+ 
+ professional_achievement = slide.shapes.add_textbox(Inches(8), Inches(4), Inches(7), Inches(2))
+ professional_achievement_frame = professional_achievement.text_frame
++professional_achievement_frame.word_wrap = True
+ professional_achievement_p = professional_achievement_frame.add_paragraph()
+ professional_achievement_p.text = "Achievement and Success"
+ professional_achievement_p.font.size = Pt(18)
+@@ -105,9 +111,5 @@
+ professional_compensation_bullet.font.size = Pt(16)
+ professional_compensation_bullet.level = 1
+ 
+-# Adjusting spacing between the sections
+-# Add some vertical spacing after academic details
+-academic_details_frame.add_paragraph().text = ""  # Adds an empty paragraph to create space
+-
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

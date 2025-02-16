@@ -1,0 +1,14 @@
+--- ./data/art_photos_slide_7/init/code.py	2025-02-14 06:46:11.783157336 +0000
++++ ./data/art_photos_slide_7/iter_0/gpt-4o/code.py	2025-02-14 08:05:39.138173632 +0000
+@@ -56,8 +56,8 @@
+ p.font.size = Pt(24)
+ p.level = 1  # Sub-bullet
+ 
+-# Set content box background to white for readability
++# Set content box background to light gray for readability
+ content_box.fill.solid()
+-content_box.fill.fore_color.rgb = RGBColor(255, 255, 255)
++content_box.fill.fore_color.rgb = RGBColor(211, 211, 211)  # Light Gray
+ 
+ presentation.save("render.pptx")
+\ No newline at end of file

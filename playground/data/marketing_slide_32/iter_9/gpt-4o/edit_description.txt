@@ -1,0 +1,1 @@
+Change the color of "ELO'S" in the rendered image to white to match the target image and enhance its prominence.

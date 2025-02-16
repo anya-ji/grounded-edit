@@ -1,0 +1,1 @@
+Adjust the color tone of the rendered image to mirror the warmer tones of the target image, enhancing the yellows and oranges in the overall hue.

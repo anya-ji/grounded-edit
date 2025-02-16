@@ -1,0 +1,10 @@
+--- ./data/technology_slide_12/init/code.py	2025-02-14 06:46:12.005156541 +0000
++++ ./data/technology_slide_12/iter_0/gpt-4o/code.py	2025-02-16 02:35:15.315100599 +0000
+@@ -27,6 +27,7 @@
+ p.font.size = Pt(60)
+ p.font.bold = True
+ p.font.color.rgb = RGBColor(0, 0, 0)
++p.font.name = 'Serif'  # Change to a large serif typeface
+ text_box.text_frame.text_anchor = 'middle'
+ 
+ # Add a thin horizontal line near the bottom

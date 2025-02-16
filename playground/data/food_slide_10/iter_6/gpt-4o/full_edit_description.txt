@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: The target image is a quiz interface where users select true, false, or not given options related to a video, with highlighted selections in blue.
+2. Description of Rendered Image: The rendered image shows a similar quiz interface with a character from a video, featuring a speech bubble with text "Ha, ha. No."
+3. Change Suggestion: Change the background color of the selected options in the rendered image to a light blue to match the highlight style of the target image.
+```

@@ -1,0 +1,1 @@
+Increase the font size of the stressed word labels and change their color to red for better visibility and emphasis.

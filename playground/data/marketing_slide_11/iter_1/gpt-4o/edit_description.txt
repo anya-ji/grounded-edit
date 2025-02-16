@@ -1,0 +1,1 @@
+Change the color of the highlighted figure in the rendered image from bright white to a soft white with a slight transparency, to match the more subtle display in the target image.

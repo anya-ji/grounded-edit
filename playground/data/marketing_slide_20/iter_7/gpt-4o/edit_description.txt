@@ -1,0 +1,1 @@
+Add a background image of a green cargo ship and a more cluttered warehouse setting to the right side of the rendered image, ensuring the lighting matches the target image.

@@ -1,0 +1,1 @@
+Increase the font weight of the title "PART 2" to bold and use a larger font size to improve visibility and emphasis.

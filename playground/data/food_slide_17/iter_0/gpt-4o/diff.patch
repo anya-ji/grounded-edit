@@ -1,0 +1,13 @@
+--- ./data/food_slide_17/init/code.py	2025-02-14 06:46:11.891156949 +0000
++++ ./data/food_slide_17/iter_0/gpt-4o/code.py	2025-02-14 19:18:26.596109252 +0000
+@@ -61,6 +61,10 @@
+ table.cell(0, 0).text = "PAST SIMPLE"
+ table.cell(0, 1).text = "PAST CONTINUOUS"
+ 
++# Align headers to center
++for col in range(cols):
++    table.cell(0, col).text_frame.paragraphs[0].alignment = PP_ALIGN.CENTER
++
+ # Insert sentence into table cell
+ table.cell(1, 0).text = "We were out to dinner."
+ 

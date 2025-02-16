@@ -1,0 +1,10 @@
+--- ./data/social_media_slide_5/iter_1/gpt-4o/code.py	2025-02-16 02:15:41.531541670 +0000
++++ ./data/social_media_slide_5/iter_2/gpt-4o/code.py	2025-02-16 02:16:01.486494008 +0000
+@@ -53,6 +53,7 @@
+     p.font.size = Pt(24)
+     p.space_after = Pt(12)  # Ensure consistent spacing
+     p.level = 0  # Set the level to 0 for top-level bullets
++    p.font.bold = False  # Ensure bullet points are not bold
+ 
+ # Add image on the right side
+ image_path = "../../media/image_0.jpg"

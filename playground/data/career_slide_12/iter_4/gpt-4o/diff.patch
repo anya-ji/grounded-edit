@@ -1,0 +1,16 @@
+--- ./data/career_slide_12/iter_3/gpt-4o/code.py	2025-02-14 09:06:05.539400777 +0000
++++ ./data/career_slide_12/iter_4/gpt-4o/code.py	2025-02-14 09:06:35.146358731 +0000
+@@ -73,7 +73,11 @@
+         p.text = subpoint
+         p.level = 1
+         p.font.size = Pt(20)
+-        p.font.color.rgb = text_color
++        # Change color of subpoints for Leadership and Teamwork to gray
++        if heading == "Leadership and Teamwork":
++            p.font.color.rgb = text_color
++        else:
++            p.font.color.rgb = text_color  # Default color
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

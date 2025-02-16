@@ -1,0 +1,1 @@
+Adjust the background gradient to transition from dark teal to lighter teal, and center-align the text horizontally and vertically in the rendered image.

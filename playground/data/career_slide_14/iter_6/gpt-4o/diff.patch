@@ -1,0 +1,32 @@
+--- ./data/career_slide_14/iter_5/gpt-4o/code.py	2025-02-14 09:17:13.779265472 +0000
++++ ./data/career_slide_14/iter_6/gpt-4o/code.py	2025-02-14 09:17:47.870200744 +0000
+@@ -50,12 +50,12 @@
+ academic_goal = academic_goal_focus_frame.add_paragraph()
+ academic_goal.text = "Goal: The primary goal of the academic world is to facilitate learning, knowledge acquisition, and intellectual development."
+ academic_goal.space_after = Pt(10)
+-academic_goal.font.size = Pt(14)
++academic_goal.font.size = Pt(14)  # Ensure consistent font size
+ academic_goal.font.color.rgb = RGBColor(255, 255, 0)  # Yellow color for "Goal"
+ 
+ academic_focus = academic_goal_focus_frame.add_paragraph()
+ academic_focus.text = "Focus: The focus is on education, research, and the pursuit of new knowledge."
+-academic_focus.font.size = Pt(14)
++academic_focus.font.size = Pt(14)  # Ensure consistent font size
+ academic_focus.font.color.rgb = RGBColor(255, 255, 0)  # Yellow color for "Focus"
+ 
+ # Academic World: Environment
+@@ -104,12 +104,12 @@
+ professional_goal = professional_goal_focus_frame.add_paragraph()
+ professional_goal.text = "Goal: The professional world is primarily focused on applying knowledge and skills to achieve specific outcomes or goals."
+ professional_goal.space_after = Pt(10)
+-professional_goal.font.size = Pt(14)
++professional_goal.font.size = Pt(14)  # Ensure consistent font size
+ professional_goal.font.color.rgb = RGBColor(255, 255, 0)  # Yellow color for "Goal"
+ 
+ professional_focus = professional_goal_focus_frame.add_paragraph()
+ professional_focus.text = "Focus: The focus is on productivity, problem-solving, and delivering results."
+-professional_focus.font.size = Pt(14)
++professional_focus.font.size = Pt(14)  # Ensure consistent font size
+ professional_focus.font.color.rgb = RGBColor(255, 255, 0)  # Yellow color for "Focus"
+ 
+ # Professional World: Environment

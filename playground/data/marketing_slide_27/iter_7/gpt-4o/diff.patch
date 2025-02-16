@@ -1,0 +1,27 @@
+--- ./data/marketing_slide_27/iter_6/gpt-4o/code.py	2025-02-14 20:56:32.921302544 +0000
++++ ./data/marketing_slide_27/iter_7/gpt-4o/code.py	2025-02-14 20:58:29.608077204 +0000
+@@ -44,19 +44,19 @@
+ # Add circular image frames
+ for image_path, position in zip(image_paths, circle_positions):
+     left, top = position
+-    # Add the picture and apply the circular mask
++    # Add the picture
+     pic = slide.shapes.add_picture(image_path, left - circle_size / 2, top - circle_size / 2, circle_size, circle_size)
+-    
++
+     # Create a transparent circle mask
+     shape = slide.shapes.add_shape(MSO_SHAPE.OVAL, left - circle_size / 2, top - circle_size / 2, circle_size, circle_size)
+     shape.fill.solid()
+-    shape.fill.fore_color.rgb = RGBColor(255, 255, 255)  # Set to white instead of black
++    shape.fill.fore_color.rgb = RGBColor(255, 255, 255)  # Set to white
+     shape.fill.background()  # Make the shape transparent
+     shape.line.fill.background()
+ 
+-# Add title text at the top center
++# Add title text at the center
+ title_text = "Types of Markets"
+-text_box = slide.shapes.add_textbox(Inches(4), Inches(0.5), Inches(8), Inches(1.5))  # Center position adjusted
++text_box = slide.shapes.add_textbox(Inches(4), Inches(2), Inches(8), Inches(1.5))  # Center position modified
+ text_frame = text_box.text_frame
+ text_frame.word_wrap = True
+ 

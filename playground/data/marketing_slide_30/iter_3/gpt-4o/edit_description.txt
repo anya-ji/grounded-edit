@@ -1,0 +1,1 @@
+Change the background color of the rendered image to a darker shade to enhance contrast with the overlay text.

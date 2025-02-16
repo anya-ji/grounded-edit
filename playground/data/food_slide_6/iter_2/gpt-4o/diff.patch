@@ -1,0 +1,14 @@
+--- ./data/food_slide_6/iter_1/gpt-4o/code.py	2025-02-14 20:04:15.933614894 +0000
++++ ./data/food_slide_6/iter_2/gpt-4o/code.py	2025-02-14 20:04:45.499544589 +0000
+@@ -28,9 +28,9 @@
+ main_question_text.font.bold = True
+ main_question_text.font.color.rgb = RGBColor(0, 0, 139)  # Dark blue
+ 
+-# Change thought bubble graphic to a speech bubble on the left with vibrant colors
++# Change thought bubble graphic to a more stylized dialogue bubble on the left with vibrant colors
+ speech_bubble = slide.shapes.add_shape(
+-    MSO_SHAPE.CLOUD_CALLOUT, Inches(1), Inches(2.5), Inches(1.5), Inches(1)
++    MSO_SHAPE.ROUNDED_RECTANGLE, Inches(1), Inches(2.5), Inches(1.5), Inches(1)
+ )
+ speech_bubble.fill.solid()
+ speech_bubble.fill.fore_color.rgb = RGBColor(255, 230, 230)  # Light pink color

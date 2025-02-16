@@ -1,0 +1,1 @@
+Adjust the rendered image to use bullet points for each skill description, ensuring alignment and consistent spacing to match the layout of the target image.

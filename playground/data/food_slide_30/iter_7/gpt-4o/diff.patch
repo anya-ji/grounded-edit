@@ -1,0 +1,30 @@
+--- ./data/food_slide_30/iter_6/gpt-4o/code.py	2025-02-14 19:51:04.523491707 +0000
++++ ./data/food_slide_30/iter_7/gpt-4o/code.py	2025-02-14 19:51:57.291367065 +0000
+@@ -1,5 +1,6 @@
+ from pptx import Presentation
+ from pptx.util import Inches, Pt
++from pptx.dml.color import RGBColor
+ 
+ # Create a presentation object
+ presentation = Presentation()
+@@ -46,6 +47,20 @@
+ dialogue_p.text = dialogue_text
+ dialogue_p.font.size = Pt(16)
+ dialogue_frame.word_wrap = True
++
++# Apply highlights to the specified verbs
++highlighted_texts = ["**were**", "**had**", "**thought**", "**reached**", "**took**", "**took**", "**had**", "**had**"]
++for paragraph in dialogue_frame.paragraphs:
++    for text in highlighted_texts:
++        if text in paragraph.text:
++            start = paragraph.text.index(text)
++            end = start + len(text)
++            run = paragraph.add_run()
++            run.text = text
++            run.font.size = Pt(16)
++            run.font.highlight_color = RGBColor(255, 0, 128)  # Bright pink for contrast
++            paragraph.text = paragraph.text.replace(text, "", 1)
++
+ # Adjusting line spacing
+ for paragraph in dialogue_frame.paragraphs:
+     paragraph.space_after = Pt(10)  # Set the space after each paragraph

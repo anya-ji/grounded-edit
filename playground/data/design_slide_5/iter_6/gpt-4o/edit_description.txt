@@ -1,0 +1,1 @@
+Change the color of the title text "principles of graphic design" from bold white to white lowercase font to match the target image's style.

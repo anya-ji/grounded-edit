@@ -1,0 +1,53 @@
+--- ./data/social_media_slide_20/iter_8/gpt-4o/code.py	2025-02-14 22:33:02.192884565 +0000
++++ ./data/social_media_slide_20/iter_9/gpt-4o/code.py	2025-02-14 22:33:29.421920608 +0000
+@@ -11,11 +11,11 @@
+ slide_layout = presentation.slide_layouts[5]  # choosing a blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set light background color
++# Set dark blue background color
+ background = slide.background
+ fill = background.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(255, 255, 204)  # Change to a light color
++fill.fore_color.rgb = RGBColor(0, 0, 139)  # Change to dark blue color
+ 
+ # Add a title text box
+ title_text_box = slide.shapes.add_textbox(Inches(1), Inches(1), Inches(14), Inches(1))
+@@ -23,7 +23,7 @@
+ title_text = title_frame.add_paragraph()
+ title_text.text = "Three perspectives on global cultural flows:"
+ title_text.font.size = Pt(36)
+-title_text.font.color.rgb = RGBColor(0, 0, 0)  # Black for contrast
++title_text.font.color.rgb = RGBColor(255, 255, 255)  # White for contrast
+ title_text.font.bold = True
+ title_frame.word_wrap = True
+ 
+@@ -33,7 +33,7 @@
+ subtitle_text = subtitle_frame.add_paragraph()
+ subtitle_text.text = "3. CULTURAL CONVERGENCE"
+ subtitle_text.font.size = Pt(24)  # Reduced font size to match body text
+-subtitle_text.font.color.rgb = RGBColor(0, 0, 0)  # Black for contrast
++subtitle_text.font.color.rgb = RGBColor(255, 255, 255)  # White for contrast
+ subtitle_text.font.bold = True
+ subtitle_frame.word_wrap = True
+ 
+@@ -46,7 +46,7 @@
+ bullet_1 = content_frame.add_paragraph()
+ bullet_1.text = "✓ approach stresses homogeneity introduced by globalization."
+ bullet_1.font.size = Pt(28)  # Increased font size for emphasis
+-bullet_1.font.color.rgb = RGBColor(0, 0, 0)  # Black for contrast
++bullet_1.font.color.rgb = RGBColor(255, 255, 255)  # White for contrast
+ bullet_1.font.bold = True  # Set to bold for uniformity
+ 
+ # Bullet point 2
+@@ -55,7 +55,7 @@
+                 "while cultural imperialism happens when one culture imposes itself on " \
+                 "and tends to destroy at least parts of another culture."
+ bullet_2.font.size = Pt(28)  # Increased font size for emphasis
+-bullet_2.font.color.rgb = RGBColor(0, 0, 0)  # Black for contrast
++bullet_2.font.color.rgb = RGBColor(255, 255, 255)  # White for contrast
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

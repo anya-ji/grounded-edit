@@ -1,0 +1,25 @@
+--- ./data/art_photos_slide_20/iter_3/gpt-4o/code.py	2025-02-14 07:28:58.494060348 +0000
++++ ./data/art_photos_slide_20/iter_4/gpt-4o/code.py	2025-02-14 07:29:41.749983774 +0000
+@@ -12,9 +12,19 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Add the background image
+-image_path = "../../media/image_0.jpg"
+-slide.shapes.add_picture(image_path, Inches(0), Inches(0), presentation.slide_width, presentation.slide_height)
++# Create a gradient background
++background = slide.background
++fill = background.fill
++fill.solid()
++fill.fore_color.rgb = RGBColor(255, 204, 0)  # Dominant yellow color
++fill.gradient()  # Start gradient fill
++stops = fill.gradient_stops
++stops[0].position = 0.0
++stops[0].color.rgb = RGBColor(255, 204, 0)  # Yellow
++stops[1].position = 0.5
++stops[1].color.rgb = RGBColor(255, 153, 51)  # Orange
++stops[2].position = 1.0
++stops[2].color.rgb = RGBColor(255, 255, 255)  # White
+ 
+ # Title: Three levels of meaning
+ title_box = slide.shapes.add_textbox(Inches(0), Inches(1), Inches(16), Inches(1.5))

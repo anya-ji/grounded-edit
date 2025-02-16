@@ -1,0 +1,1 @@
+Change the background gradient color of the rendered image from green to a blue gradient to match the target image.

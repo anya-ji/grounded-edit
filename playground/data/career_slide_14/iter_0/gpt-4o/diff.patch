@@ -1,0 +1,36 @@
+--- ./data/career_slide_14/init/code.py	2025-02-14 06:46:11.989156598 +0000
++++ ./data/career_slide_14/iter_0/gpt-4o/code.py	2025-02-14 09:13:41.734657557 +0000
+@@ -68,14 +68,15 @@
+ academic_environment_header.font.color.rgb = RGBColor(255, 255, 0)  # Yellow color
+ academic_environment_header.font.bold = True
+ 
++# Adding bullet points to the Environment section
+ academic_setting = academic_environment_frame.add_paragraph()
+-academic_setting.text = "Setting: Academics typically take place in educational institutions such as schools, colleges, and universities."
++academic_setting.text = "• Setting: Academics typically take place in educational institutions such as schools, colleges, and universities."
+ academic_setting.space_after = Pt(10)
+ academic_setting.font.size = Pt(14)
+ academic_setting.font.color.rgb = RGBColor(255, 255, 255) # White color
+ 
+ academic_atmosphere = academic_environment_frame.add_paragraph()
+-academic_atmosphere.text = "Atmosphere: The atmosphere is often centered around learning, exploration, and academic freedom."
++academic_atmosphere.text = "• Atmosphere: The atmosphere is often centered around learning, exploration, and academic freedom."
+ academic_atmosphere.font.size = Pt(14)
+ academic_atmosphere.font.color.rgb = RGBColor(255, 255, 255) # White color
+ 
+@@ -121,13 +122,13 @@
+ professional_environment_header.font.bold = True
+ 
+ professional_setting = professional_environment_frame.add_paragraph()
+-professional_setting.text = "Setting: Professionals work in various settings, including businesses, government agencies, nonprofits, and industries."
++professional_setting.text = "• Setting: Professionals work in various settings, including businesses, government agencies, nonprofits, and industries."
+ professional_setting.space_after = Pt(10)
+ professional_setting.font.size = Pt(14)
+ professional_setting.font.color.rgb = RGBColor(255, 255, 255) # White color
+ 
+ professional_atmosphere = professional_environment_frame.add_paragraph()
+-professional_atmosphere.text = "Atmosphere: The atmosphere is goal-oriented, with an emphasis on productivity and meeting objectives."
++professional_atmosphere.text = "• Atmosphere: The atmosphere is goal-oriented, with an emphasis on productivity and meeting objectives."
+ professional_atmosphere.font.size = Pt(14)
+ professional_atmosphere.font.color.rgb = RGBColor(255, 255, 255) # White color
+ 

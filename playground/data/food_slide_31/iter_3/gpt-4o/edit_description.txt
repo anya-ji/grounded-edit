@@ -1,0 +1,1 @@
+Add the text "LESSON REFLECTION:" at the top of the rendered image in a bold, dark blue font, similar to the target image.

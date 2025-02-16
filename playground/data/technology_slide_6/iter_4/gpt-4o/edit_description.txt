@@ -1,0 +1,1 @@
+Change the bullet point style from solid black squares to a lighter checkbox outline to improve readability.

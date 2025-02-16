@@ -1,0 +1,1 @@
+Change the color of the text "5. DIGITAL MEDIA" in the rendered image to match the bold, dark blue color of the target image.

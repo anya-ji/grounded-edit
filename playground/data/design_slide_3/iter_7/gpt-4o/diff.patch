@@ -1,0 +1,29 @@
+--- ./data/design_slide_3/iter_6/gpt-4o/code.py	2025-02-14 18:19:45.270851150 +0000
++++ ./data/design_slide_3/iter_7/gpt-4o/code.py	2025-02-14 18:20:21.702746231 +0000
+@@ -1,19 +1,23 @@
+ from pptx import Presentation
+ from pptx.util import Inches, Pt
+ from pptx.dml.color import RGBColor
+-from PIL import Image, ImageEnhance
++from PIL import Image, ImageEnhance, ImageFilter
+ 
+ # Open the image using PIL
+ image_path = "../../media/image_0.jpg"
+ image = Image.open(image_path)
+ 
+-# Increase saturation and contrast
++# Reduce saturation
+ enhancer = ImageEnhance.Color(image)
+-image = enhancer.enhance(1.5)  # Increase saturation
++image = enhancer.enhance(0.5)  # Decrease saturation
+ 
++# Increase contrast
+ enhancer = ImageEnhance.Contrast(image)
+ image = enhancer.enhance(1.5)  # Increase contrast
+ 
++# Sharpen image to enhance details
++image = image.filter(ImageFilter.SHARPEN)
++
+ # Save the modified image to a temporary file
+ enhanced_image_path = "../../media/enhanced_image_0.jpg"
+ image.save(enhanced_image_path)

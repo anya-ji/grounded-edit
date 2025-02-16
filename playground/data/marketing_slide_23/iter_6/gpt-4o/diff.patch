@@ -1,0 +1,11 @@
+--- ./data/marketing_slide_23/iter_5/gpt-4o/code.py	2025-02-14 20:50:06.799971741 +0000
++++ ./data/marketing_slide_23/iter_6/gpt-4o/code.py	2025-02-14 20:50:30.412920165 +0000
+@@ -58,7 +58,7 @@
+ p2 = text_frame2.add_paragraph()
+ p2.text = "Explain how products reach to market"
+ p2.font.size = Pt(20)  # Decreased font size
+-p2.font.bold = True  # Set text to bold
++p2.font.bold = True  # Changed font weight to bold
+ p2.font.color.rgb = RGBColor(255, 255, 255)  # Changed text color for contrast
+ text_frame2.word_wrap = True
+ 

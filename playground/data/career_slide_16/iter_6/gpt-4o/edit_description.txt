@@ -1,0 +1,1 @@
+Change the text color of "PROFESSIONAL WORLD" in the rendered image from yellow to green to match the target image.

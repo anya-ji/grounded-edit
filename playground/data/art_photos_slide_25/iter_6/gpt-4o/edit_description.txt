@@ -1,0 +1,1 @@
+Reduce the saturation of the background colors to achieve softer pastel tones similar to the target image, focusing on incorporating lighter shades of pink and orange.

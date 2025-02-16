@@ -1,0 +1,51 @@
+--- ./data/career_slide_8/iter_0/gpt-4o/code.py	2025-02-14 18:05:13.891668911 +0000
++++ ./data/career_slide_8/iter_1/gpt-4o/code.py	2025-02-14 18:05:45.305549444 +0000
+@@ -18,11 +18,13 @@
+ title.text = "SUCCESSFUL INDIVIDUALS WITH TOP ACADEMIC RECORDS"
+ title.font.size = Pt(32)
+ title.font.bold = True
+-title.font.color.rgb = RGBColor(255, 255, 255)
++title.font.color.rgb = RGBColor(0, 0, 0)  # Title text color changed to black for contrast
+ 
+-# Background color (darker shade)
+-slide.background.fill.solid()
+-slide.background.fill.fore_color.rgb = RGBColor(0, 0, 0)  # Changed to black
++# Background color (light gray gradient)
++fill = slide.background.fill
++fill.gradient()
++fill.gradient_stops[0].color.rgb = RGBColor(192, 192, 192)  # Light gray
++fill.gradient_stops[1].color.rgb = RGBColor(240, 240, 240)  # Lighter gray
+ 
+ # Function to add individual section
+ def add_individual_section(left, image_path, name, title, education_list):
+@@ -43,26 +45,26 @@
+     name_p.text = name
+     name_p.font.bold = True
+     name_p.font.size = Pt(18)
+-    name_p.font.color.rgb = RGBColor(255, 255, 0)
++    name_p.font.color.rgb = RGBColor(0, 0, 0)  # Name text color changed to black for contrast
+ 
+     # Title
+     title_p = text_frame.add_paragraph()
+     title_p.text = title
+     title_p.font.size = Pt(14)
+-    title_p.font.color.rgb = RGBColor(255, 255, 255)
++    title_p.font.color.rgb = RGBColor(0, 0, 0)  # Title text color changed to black for contrast
+     
+     # Education
+     edu_p = text_frame.add_paragraph()
+     edu_p.text = "Education"
+     edu_p.font.size = Pt(14)
+     edu_p.font.bold = True
+-    edu_p.font.color.rgb = RGBColor(255, 255, 255)
++    edu_p.font.color.rgb = RGBColor(0, 0, 0)  # Education header color changed to black for contrast
+ 
+     for edu in education_list:
+         edu_bullet = text_frame.add_paragraph()
+         edu_bullet.text = edu
+         edu_bullet.font.size = Pt(12)
+-        edu_bullet.font.color.rgb = RGBColor(255, 255, 255)
++        edu_bullet.font.color.rgb = RGBColor(0, 0, 0)  # Education bullet color changed to black for contrast
+         edu_bullet.level = 1
+ 
+ # Paths to images

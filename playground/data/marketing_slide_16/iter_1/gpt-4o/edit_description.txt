@@ -1,0 +1,1 @@
+Reposition the "Sales" labels on the sides of the funnel to mirror their placement in the target image, ensuring they are vertically aligned and maintain the same orientation.

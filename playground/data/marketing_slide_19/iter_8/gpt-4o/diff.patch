@@ -1,0 +1,11 @@
+--- ./data/marketing_slide_19/iter_7/gpt-4o/code.py	2025-02-14 20:35:32.681072673 +0000
++++ ./data/marketing_slide_19/iter_8/gpt-4o/code.py	2025-02-14 20:35:50.073030760 +0000
+@@ -35,7 +35,7 @@
+ marketing_frame = marketing_box.text_frame
+ marketing = marketing_frame.add_paragraph()
+ marketing.text = "Marketing"
+-marketing.font.size = Pt(60)
++marketing.font.size = Pt(32)  # Reduced font size for consistency
+ marketing.font.bold = True
+ marketing.font.color.rgb = RGBColor(255, 255, 255)  # White text
+ 

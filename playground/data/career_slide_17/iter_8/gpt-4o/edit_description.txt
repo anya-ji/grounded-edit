@@ -1,0 +1,1 @@
+Change the color of the "PROFESSIONAL WORLD" text from muted yellow to a bright yellow (#FFA500) to match the target image.

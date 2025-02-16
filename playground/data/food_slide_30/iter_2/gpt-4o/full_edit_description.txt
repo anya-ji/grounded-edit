@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: A well-formatted dialogue exercise with clear prompts for completing verbs in various tenses, including visual components for parts and instructions.
+2. Description of Rendered Image: A similar dialogue exercise but with poor alignment and inconsistent formatting that detracts from readability.
+3. Change Suggestion: Adjust the alignment of the text boxes to ensure consistent, centered positioning across all dialogue prompts.
+```

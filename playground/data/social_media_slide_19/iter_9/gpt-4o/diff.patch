@@ -1,0 +1,11 @@
+--- ./data/social_media_slide_19/iter_8/gpt-4o/code.py	2025-02-14 22:25:16.063984793 +0000
++++ ./data/social_media_slide_19/iter_9/gpt-4o/code.py	2025-02-14 22:25:36.784933741 +0000
+@@ -38,7 +38,7 @@
+ 
+ # Bullet points
+ bullet_points = [
+-    "a process by which a cultural element blends into another culture by modifying the element to fit cultural norms.",
++    "• a process by which a cultural element blends into another culture by modifying the element to fit cultural norms.",
+     "It is actually an integration of local and global cultures.",
+     "A key concept is “glocalization” or the interpenetration of the global and local resulting in unique outcomes in different geographic areas."
+ ]

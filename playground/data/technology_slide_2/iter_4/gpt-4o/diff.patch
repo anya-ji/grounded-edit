@@ -1,0 +1,11 @@
+--- ./data/technology_slide_2/iter_3/gpt-4o/code.py	2025-02-16 02:38:21.356542935 +0000
++++ ./data/technology_slide_2/iter_4/gpt-4o/code.py	2025-02-16 02:38:37.279496328 +0000
+@@ -43,7 +43,7 @@
+     p.font.size = Pt(24)  # Adjusted font size for better text fitting
+     p.space_after = Pt(10)  # Maintain consistent line spacing
+     p.space_before = Pt(10)  # Added consistent line spacing before each point
+-    p.level = 0
++    p.level = 0  # This makes it bulleted
+ 
+ # Set a clean white background for readability
+ background = slide.background

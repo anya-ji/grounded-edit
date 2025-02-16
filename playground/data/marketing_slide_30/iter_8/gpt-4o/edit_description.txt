@@ -1,0 +1,1 @@
+Adjust the yellow text color to a softer shade and center both texts vertically within their respective sections for improved alignment and readability.

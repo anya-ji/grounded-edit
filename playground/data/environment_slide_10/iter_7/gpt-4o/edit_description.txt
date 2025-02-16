@@ -1,0 +1,1 @@
+Change the font color of "THANK YOU" in the rendered image to a brighter, bold green to match the target image more closely.

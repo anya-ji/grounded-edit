@@ -1,0 +1,1 @@
+Change the title text color from yellow to black to improve readability against the background.

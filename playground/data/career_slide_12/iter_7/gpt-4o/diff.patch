@@ -1,0 +1,22 @@
+--- ./data/career_slide_12/iter_6/gpt-4o/code.py	2025-02-14 09:07:46.333253286 +0000
++++ ./data/career_slide_12/iter_7/gpt-4o/code.py	2025-02-14 09:08:10.504216196 +0000
+@@ -22,7 +22,7 @@
+ title.text = "IMPORTANCE OF SKILLS BEYOND ACADEMICS"
+ title.text_frame.paragraphs[0].font.bold = True
+ title.text_frame.paragraphs[0].font.size = Pt(44)
+-title.text_frame.paragraphs[0].font.color.rgb = RGBColor(211, 211, 211)  # Light Gray
++title.text_frame.paragraphs[0].font.color.rgb = RGBColor(208, 208, 208)  # Changed to Light Gray
+ 
+ # Creating a textbox for bullet points
+ left_margin = Inches(1)
+@@ -54,8 +54,8 @@
+ ]
+ 
+ # Define colors for bullet points
+-highlight_color = RGBColor(255, 204, 0)  # Softer Yellow
+-text_color = RGBColor(208, 208, 208)  # Changed to Light Gray (#D0D0D0)
++highlight_color = RGBColor(208, 208, 208)  # Changed to Light Gray
++text_color = RGBColor(208, 208, 208)  # Default color for subpoints
+ 
+ # Add bullet points to slide
+ for heading, subpoints in bullet_points:

@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: The image features a red background with a black bar in the center containing the text "BIG QUESTION" in blue and "HOW DO MARKETS HELP US?" in white.
+2. Description of Rendered Image: The rendered image has a solid red background, a black bar with the same text, but the “BIG QUESTION” text is in a different shade of blue and has a slightly different font styling.
+3. Change Suggestion: Change the color of the "BIG QUESTION" text to match the brighter blue shade seen in the target image.
+```

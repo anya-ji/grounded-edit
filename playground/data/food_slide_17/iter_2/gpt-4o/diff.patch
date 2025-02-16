@@ -1,0 +1,27 @@
+--- ./data/food_slide_17/iter_1/gpt-4o/code.py	2025-02-14 19:18:50.908053177 +0000
++++ ./data/food_slide_17/iter_2/gpt-4o/code.py	2025-02-14 19:19:19.256987668 +0000
+@@ -1,7 +1,7 @@
+ from pptx import Presentation
+ from pptx.util import Inches, Pt
+ from pptx.enum.text import PP_ALIGN
+-from pptx.dml.color import RGBColor  # Import the RGBColor class
++from pptx.dml.color import RGBColor
+ 
+ # Initialize presentation
+ presentation = Presentation()
+@@ -70,12 +70,12 @@
+ 
+ # Insert sentence into table cell
+ table.cell(1, 0).text = "We were out to dinner."
+-table.cell(1, 1).text = ""  # Add empty strings to second cell
++table.cell(1, 1).text = ""
+ 
+-# Set background color for second row
++# Set background color for second row and match it with the header
+ for col in range(cols):
+     table.cell(1, col).fill.solid()
+-    table.cell(1, col).fill.fore_color.rgb = RGBColor(204, 204, 255)  # Set row color
++    table.cell(1, col).fill.fore_color.rgb = RGBColor(0, 102, 204)  # Set row color to match header
+ 
+ # Adjust font size in the table
+ for cell in table.iter_cells():

@@ -1,0 +1,1 @@
+Adjust the width of the title box in the rendered image to ensure that the full title "Various Media drive Various forms of Global Integration" is visible without being cut off.

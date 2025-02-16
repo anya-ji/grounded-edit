@@ -1,0 +1,1 @@
+Add a yellow vertical bar on the left side of the slide to match the target image and format the word "Content" to be both bold and italicized.

@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: The target image displays a list of types of blockchains with bullet points marked by checkboxes, and the text is centered under a title.
+2. Description of Rendered Image: The rendered image features the same content but uses square brackets instead of checkboxes for the bullet points. The title is also aligned left.
+3. Change Suggestion: Replace the square brackets [ ] in the rendered image with checkboxes (☑) to match the target image's bullet point style.
+```

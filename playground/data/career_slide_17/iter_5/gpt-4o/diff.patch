@@ -1,0 +1,13 @@
+--- ./data/career_slide_17/iter_4/gpt-4o/code.py	2025-02-14 09:33:13.846852146 +0000
++++ ./data/career_slide_17/iter_5/gpt-4o/code.py	2025-02-14 09:33:39.654770884 +0000
+@@ -105,5 +105,9 @@
+ professional_compensation_bullet.font.size = Pt(16)
+ professional_compensation_bullet.level = 1
+ 
++# Adjusting spacing between the sections
++# Add some vertical spacing after academic details
++academic_details_frame.add_paragraph().text = ""  # Adds an empty paragraph to create space
++
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

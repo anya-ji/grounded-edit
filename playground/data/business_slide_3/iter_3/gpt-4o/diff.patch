@@ -1,0 +1,20 @@
+--- ./data/business_slide_3/iter_2/gpt-4o/code.py	2025-02-14 08:37:01.696277235 +0000
++++ ./data/business_slide_3/iter_3/gpt-4o/code.py	2025-02-14 08:37:29.861205069 +0000
+@@ -20,8 +20,16 @@
+     img = enhancer_brightness.enhance(1.2)  # Increase brightness
+     enhancer_contrast = ImageEnhance.Contrast(img)
+     img = enhancer_contrast.enhance(1.2)  # Increase contrast
++
++    # Create a light blue background image
++    background_color = (173, 216, 230)  # Light blue RGB
++    background = Image.new('RGB', img.size, background_color)
++
++    # Paste the modified image onto the background
++    background.paste(img, (0, 0), img)
++
+     temp_image_path = "../../media/temp_image.jpg"
+-    img.save(temp_image_path)
++    background.save(temp_image_path)
+ 
+ # Add the modified image to the slide
+ slide.shapes.add_picture(temp_image_path, Inches(0.5), Inches(1), Inches(15), Inches(7))  # Adjusted size and position

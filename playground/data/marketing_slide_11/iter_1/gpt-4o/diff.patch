@@ -1,0 +1,20 @@
+--- ./data/marketing_slide_11/iter_0/gpt-4o/code.py	2025-02-14 20:17:50.964663168 +0000
++++ ./data/marketing_slide_11/iter_1/gpt-4o/code.py	2025-02-14 20:18:12.236610069 +0000
+@@ -21,7 +21,7 @@
+ title.text = "Q2. HOTS"
+ title.font.size = Pt(40)
+ title.font.bold = True
+-title.font.color.rgb = RGBColor(255, 255, 255)  # Ensure the title text is white
++title.font.color.rgb = RGBColor(255, 255, 255)  # White color
+ 
+ # Main text
+ main_box = slide.shapes.add_textbox(Inches(1), Inches(2), Inches(14), Inches(4))
+@@ -31,6 +31,6 @@
+ main_text.text = "Consider yourself as a producer, list the various things you must be taking care of till your product reaches the consumers. (3 MARKS)"
+ main_text.font.size = Pt(24)
+ main_text.font.bold = True
+-main_text.font.color.rgb = RGBColor(255, 255, 255)  # Keeping the main text white
++main_text.font.color.rgb = RGBColor(220, 220, 220)  # Soft white color
+ 
+ presentation.save("render.pptx")
+\ No newline at end of file

@@ -1,0 +1,1 @@
+Change the background color of the rendered image from black to a soft blue gradient to match the target image's muted background, improving the overall visibility and consistency.

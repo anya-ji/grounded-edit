@@ -1,0 +1,1 @@
+Change the box colors in the rendered image to match the orange and white colors from the target image.

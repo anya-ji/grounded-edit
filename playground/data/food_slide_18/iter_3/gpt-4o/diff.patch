@@ -1,0 +1,10 @@
+--- ./data/food_slide_18/iter_2/gpt-4o/code.py	2025-02-14 19:23:59.536334160 +0000
++++ ./data/food_slide_18/iter_3/gpt-4o/code.py	2025-02-14 19:24:22.122281127 +0000
+@@ -55,6 +55,7 @@
+     dialogue_box.fill.solid()  # Set background color for the dialogue box
+     bubble_color = RGBColor(230, 230, 250) if i % 2 == 0 else RGBColor(173, 216, 230)  # Alternating colors
+     dialogue_box.fill.fore_color.rgb = bubble_color
++    dialogue_box.fill.transparency = 0.25  # Set transparency to 75%
+ 
+     dialogue_tf = dialogue_box.text_frame
+     dialogue_p = dialogue_tf.add_paragraph()

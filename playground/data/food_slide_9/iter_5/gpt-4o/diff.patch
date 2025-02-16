@@ -1,0 +1,20 @@
+--- ./data/food_slide_9/iter_4/gpt-4o/code.py	2025-02-14 20:08:31.841006159 +0000
++++ ./data/food_slide_9/iter_5/gpt-4o/code.py	2025-02-14 20:09:04.681928010 +0000
+@@ -23,7 +23,7 @@
+ part1_text = part1_box.text_frame.add_paragraph()
+ part1_text.text = "PART 1"
+ part1_text.font.bold = True
+-part1_text.font.size = Pt(18)
++part1_text.font.size = Pt(24)  # Adjust font size to match target image
+ part1_text.font.color.rgb = RGBColor(255, 255, 255)  # White text
+ 
+ # Add instruction text for PART 1
+@@ -54,7 +54,7 @@
+ part2_text = part2_box.text_frame.add_paragraph()
+ part2_text.text = "PART 2"
+ part2_text.font.bold = True
+-part2_text.font.size = Pt(18)
++part2_text.font.size = Pt(24)  # Adjust font size to match target image
+ part2_text.font.color.rgb = RGBColor(255, 255, 255)  # White text
+ 
+ # Add instruction for PART 2

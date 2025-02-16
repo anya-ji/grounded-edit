@@ -1,0 +1,1 @@
+Increase the brightness and saturation of the left portion of the rendered image to match the vivid colors and structured appearance of the target image.

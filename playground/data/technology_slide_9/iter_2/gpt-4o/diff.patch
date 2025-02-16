@@ -1,0 +1,23 @@
+--- ./data/technology_slide_9/iter_1/gpt-4o/code.py	2025-02-16 02:55:37.286693982 +0000
++++ ./data/technology_slide_9/iter_2/gpt-4o/code.py	2025-02-16 02:55:51.219656987 +0000
+@@ -25,15 +25,15 @@
+ content_frame = content_box.text_frame
+ content_frame.word_wrap = True
+ 
+-# Add bullet points with checked checkboxes
++# Add bullet points with unchecked checkboxes
+ bullet_points = [
+-    ("☑ Private Blockchain Networks: ", 
++    ("☐ Private Blockchain Networks: ", 
+      "Private blockchains operate on closed networks, and tend to work well for private businesses and organizations."),
+-    ("☑ Public Blockchain Networks: ", 
++    ("☐ Public Blockchain Networks: ", 
+      "Bitcoin and other cryptocurrencies originated from public blockchains, which also played a role in popularizing distributed ledger technology (DLT)."),
+-    ("☑ Permissioned Blockchain Networks: ", 
++    ("☐ Permissioned Blockchain Networks: ", 
+      "Also sometimes known as hybrid blockchains, permissioned blockchain networks are private blockchains that allow special access for authorized individuals."),
+-    ("☑ Hybrid Blockchains: ", 
++    ("☐ Hybrid Blockchains: ", 
+      "Hybrid blockchains are the combination of both public and private blockchains. In a hybrid blockchain, some parts of the blockchain are public and transparent, while others are private and accessible only to authorized and specific participants."),
+ ]
+ 

@@ -1,0 +1,1 @@
+Adjust the width of the text box containing the third point to ensure that all text fits within the frame without being cut off.

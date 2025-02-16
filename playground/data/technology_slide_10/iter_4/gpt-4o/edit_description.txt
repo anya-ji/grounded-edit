@@ -1,0 +1,1 @@
+Adjust the text box height to ensure all items are fully visible without truncation.

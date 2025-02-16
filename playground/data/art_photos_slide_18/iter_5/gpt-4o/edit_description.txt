@@ -1,0 +1,1 @@
+Change the background color of the rendered image to a lighter shade for better text visibility, such as a light pastel color.

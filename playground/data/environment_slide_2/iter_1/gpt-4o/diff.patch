@@ -1,0 +1,25 @@
+--- ./data/environment_slide_2/iter_0/gpt-4o/code.py	2025-02-14 18:45:33.083538940 +0000
++++ ./data/environment_slide_2/iter_1/gpt-4o/code.py	2025-02-14 18:45:52.192501779 +0000
+@@ -13,11 +13,11 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set background color with a light green pattern
++# Set background color with a solid darker green
+ background = slide.background
+ fill = background.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(204, 255, 204)  # Light green color
++fill.fore_color.rgb = RGBColor(0, 100, 0)  # Darker green color
+ 
+ # Add title textbox
+ title_box = slide.shapes.add_textbox(Inches(1), Inches(1), Inches(14), Inches(2.5))
+@@ -44,7 +44,7 @@
+     p = content_frame.add_paragraph()
+     p.text = point
+     p.font.size = Pt(24)
+-    p.font.color.rgb = RGBColor(0, 0, 0)  # Black font
++    p.font.color.rgb = RGBColor(255, 255, 255)  # White font for contrast
+     p.space_after = Pt(10)  # Space between bullet points
+ 
+ # Add image

@@ -1,0 +1,1 @@
+Adjust the font styling to ensure that "AND" is not bolded or highlighted, making it consistent with the rest of the title text in the target image.

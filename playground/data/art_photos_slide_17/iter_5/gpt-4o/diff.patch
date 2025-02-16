@@ -1,0 +1,11 @@
+--- ./data/art_photos_slide_17/iter_4/gpt-4o/code.py	2025-02-14 07:08:35.580153228 +0000
++++ ./data/art_photos_slide_17/iter_5/gpt-4o/code.py	2025-02-14 07:09:11.156056564 +0000
+@@ -25,7 +25,7 @@
+ 
+ p = text_frame.add_paragraph()
+ p.text = "THE CONTENT OF ART"
+-p.font.bold = True
++p.font.bold = False  # Change bold to False
+ p.font.size = Pt(44)
+ p.font.color.rgb = RGBColor(0, 0, 0)  # Black text
+ text_frame.paragraphs[0].alignment = PP_ALIGN.CENTER

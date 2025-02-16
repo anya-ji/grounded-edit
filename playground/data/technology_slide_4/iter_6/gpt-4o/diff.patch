@@ -1,0 +1,24 @@
+--- ./data/technology_slide_4/iter_5/gpt-4o/code.py	2025-02-16 02:44:49.977440550 +0000
++++ ./data/technology_slide_4/iter_6/gpt-4o/code.py	2025-02-16 02:45:04.819399579 +0000
+@@ -32,7 +32,7 @@
+     "Hybrid Blockchains: Hybrid blockchains are the combination of both public and private blockchains. In a hybrid blockchain, some parts of the blockchain are public and transparent, while others are private and accessible only to authorized and specific participants."
+ )
+ 
+-# Add content as bullet points with check marks
++# Add content as bullet points
+ content_box = slide.shapes.add_textbox(Inches(1), Inches(2), Inches(14), Inches(6.5))
+ content_frame = content_box.text_frame
+ content_frame.word_wrap = True
+@@ -40,10 +40,10 @@
+ # Split content into individual bullet points
+ bullet_points = content_text.split("\n")
+ 
+-# Add each bullet point as bullet points with checkmarks
++# Add each bullet point as standard bullet points
+ for bullet in bullet_points:
+     bullet_p = content_frame.add_paragraph()
+-    bullet_p.text = "✓ " + bullet  # Added checkmark symbol
++    bullet_p.text = bullet  # Removed checkmark symbol
+     bullet_p.font.size = Pt(24)
+     bullet_p.space_after = Pt(12)
+     bullet_p.level = 0  # Set bullet point level to 0

@@ -1,0 +1,1 @@
+Change the header text color from yellow-green to yellow for better consistency with the target image.

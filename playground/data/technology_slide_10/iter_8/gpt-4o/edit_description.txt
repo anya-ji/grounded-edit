@@ -1,0 +1,1 @@
+Adjust the font size of the text items in the rendered image to match the consistent and legible sizes of the target image.

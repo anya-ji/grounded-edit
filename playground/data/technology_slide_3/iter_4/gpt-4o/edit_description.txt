@@ -1,0 +1,1 @@
+Replace all checked checkboxes with unmarked checkboxes to match the target image.

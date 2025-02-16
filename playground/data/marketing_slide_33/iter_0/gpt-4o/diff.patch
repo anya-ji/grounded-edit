@@ -1,0 +1,22 @@
+--- ./data/marketing_slide_33/init/code.py	2025-02-14 06:46:11.546158184 +0000
++++ ./data/marketing_slide_33/iter_0/gpt-4o/code.py	2025-02-14 21:11:18.788441406 +0000
+@@ -15,16 +15,16 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set the gradient background
++# Set the brighter gradient background
+ background = slide.background
+ fill = background.fill
+ fill.solid()
+ fill.gradient()
+ gradient_stops = fill.gradient_stops
+ gradient_stops[0].position = 0.0
+-gradient_stops[0].color.rgb = RGBColor(0, 51, 0)  # Dark green
++gradient_stops[0].color.rgb = RGBColor(255, 200, 0)  # Bright yellow
+ gradient_stops[1].position = 1.0
+-gradient_stops[1].color.rgb = RGBColor(102, 255, 178)  # Light green
++gradient_stops[1].color.rgb = RGBColor(0, 153, 255)  # Bright blue
+ 
+ # Add text to the slide
+ text = "As an individual, how can we ensure equality in society?"

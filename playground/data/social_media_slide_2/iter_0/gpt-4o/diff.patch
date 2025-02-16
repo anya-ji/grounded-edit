@@ -1,0 +1,20 @@
+--- ./data/social_media_slide_2/init/code.py	2025-02-14 06:46:11.959156706 +0000
++++ ./data/social_media_slide_2/iter_0/gpt-4o/code.py	2025-02-14 22:25:56.249885786 +0000
+@@ -40,7 +40,7 @@
+ media_title = media_frame.add_paragraph()
+ media_title.text = "MEDIA"
+ media_title.font.bold = True
+-media_title.font.size = Pt(24)
++media_title.font.size = Pt(26)  # Increased font size for MEDIA
+ media_title.font.color.rgb = RGBColor(0, 51, 102)  # Dark blue
+ 
+ media_text = media_frame.add_paragraph()
+@@ -54,7 +54,7 @@
+ culture_title = culture_frame.add_paragraph()
+ culture_title.text = "CULTURE"
+ culture_title.font.bold = True
+-culture_title.font.size = Pt(24)
++culture_title.font.size = Pt(24)  # Font size remains the same for CULTURE
+ culture_title.font.color.rgb = RGBColor(0, 51, 102)  # Dark blue
+ 
+ culture_text = culture_frame.add_paragraph()

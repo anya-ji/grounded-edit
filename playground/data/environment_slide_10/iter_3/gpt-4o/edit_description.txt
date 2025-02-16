@@ -1,0 +1,1 @@
+Change the font style of "THANK YOU" in the rendered image to a more ornate typeface and apply a slight 3D effect or shadow to match the target image.

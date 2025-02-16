@@ -1,0 +1,1 @@
+Modify the background behind the "References" header in the rendered image to match the light yellow color used in the target image to achieve a cleaner appearance.

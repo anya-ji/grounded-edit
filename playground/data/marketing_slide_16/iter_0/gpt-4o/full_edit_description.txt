@@ -1,0 +1,5 @@
+```
+1. Description of Target Image: The target image features a colorful funnel diagram with sections labeled ‘Aware,’ ‘Interested,’ ‘Considering,’ ‘Intent to Buy,’ ‘Evaluation,’ and ‘Buy,’ alongside the words ‘Marketing’ and ‘Sales’ visibly integrated into the design, all on a white background. 
+2. Description of Rendered Image: The rendered image is a similar funnel diagram but with a slightly different color scheme, layout, and style. The words ‘Marketing’ and ‘Sales’ are incorporated but appear in a different font and style than in the target image. The background is also white.
+3. Change Suggestion: Change the font of the words ‘Marketing’ and ‘Sales’ in the rendered image to match the style and weight of those words in the target image.
+```

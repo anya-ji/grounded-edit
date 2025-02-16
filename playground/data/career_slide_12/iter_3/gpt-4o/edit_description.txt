@@ -1,0 +1,1 @@
+Change the background color of the rendered image from light to dark to enhance text readability.

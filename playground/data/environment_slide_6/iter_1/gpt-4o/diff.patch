@@ -1,0 +1,13 @@
+--- ./data/environment_slide_6/iter_0/gpt-4o/code.py	2025-02-14 18:55:32.868255706 +0000
++++ ./data/environment_slide_6/iter_1/gpt-4o/code.py	2025-02-14 18:55:50.759214903 +0000
+@@ -33,8 +33,8 @@
+ title = text_frame.add_paragraph()
+ title.text = "Human impact or influence on environment."
+ title.font.bold = True
+-title.font.color.rgb = RGBColor(0, 102, 0)  # Green font
+-title.font.size = Pt(32)
++title.font.color.rgb = RGBColor(0, 204, 0)  # Brighter green font
++title.font.size = Pt(34)  # Increased font size for better visibility
+ title.alignment = PP_ALIGN.LEFT
+ 
+ # Add content text
