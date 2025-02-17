@@ -71,7 +71,7 @@ st.title("Data Dashboard")
 # Run `dashboard/store_paths.py` to store path
 # base_dir = "./data"
 # examples = sorted([os.path.join(base_dir, d) for d in os.listdir(base_dir) if os.path.isdir(os.path.join(base_dir, d))])
-with open('./dashboard/remote_paths.txt', "r") as f:
+with open('dashboard/remote_paths.txt', "r") as f:
     examples = [line.strip() for line in f.readlines()]
 
 for i, example in enumerate(examples):
