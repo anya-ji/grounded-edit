@@ -7,4 +7,4 @@ file_path = "./remote_paths.txt"
 
 with open(file_path, "w") as f:
     for example in examples:
-        f.write(example.replace('../', '') + "\n")
+        f.write(example.replace('..', 'playground') + "\n")
