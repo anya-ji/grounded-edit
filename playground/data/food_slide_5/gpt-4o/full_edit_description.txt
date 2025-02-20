@@ -1,0 +1,5 @@
+<edit>Change the background color of the rendered slide to a light blue (#E9F6FF) for better contrast with the text and images.</edit>
+<edit>Modify the font size of the title "PART 3" to 24pt to match the target slide's text size.</edit>
+<edit>Adjust the text box color to a light pink (#F8D4E2) to align with the design of the target slide.</edit>
+<edit>Increase the font size of the main text to 18pt for improved readability.</edit>
+<edit>Move the image of the person to the left side of the slide, ensuring it does not overlap with the text box.</edit>

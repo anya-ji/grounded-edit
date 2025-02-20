@@ -1,0 +1,11 @@
+--- ./data/marketing_slide_17/init/code.py	2025-02-20 02:15:03.967044535 +0000
++++ ./data/marketing_slide_17/gpt-4o/edit_2/code.py	2025-02-20 13:58:51.718430523 +0000
+@@ -43,7 +43,7 @@
+ content_box = slide.shapes.add_textbox(Inches(1), Inches(2), Inches(10), Inches(4))
+ content_frame = content_box.text_frame
+ p = content_frame.add_paragraph()
+-p.text = "Consider yourself as a producer, list the various things you must be taking care till your product reaches the consumers."
++p.text = "• Consider yourself as a producer, list the various things you must be taking care till your product reaches the consumers."
+ p.font.size = Pt(24)
+ p.font.color.rgb = RGBColor(255, 255, 255)
+ p.space_after = Pt(14)

@@ -1,0 +1,21 @@
+--- ./data/food_slide_22/init/code.py	2025-02-20 02:15:04.680043075 +0000
++++ ./data/food_slide_22/gpt-4o/edit_1/code.py	2025-02-20 13:23:55.079204083 +0000
+@@ -16,6 +16,7 @@
+ title_color = RGBColor(0, 102, 204)  # Dark blue for title
+ text_color = RGBColor(0, 0, 0)  # Black for general text
+ button_color = RGBColor(255, 140, 0)  # Orange for buttons
++option_bg_color = RGBColor(240, 240, 240)  # Light gray for options
+ 
+ # Add title
+ title_box = slide.shapes.add_textbox(Inches(0.5), Inches(0.3), Inches(5), Inches(1))
+@@ -48,7 +49,9 @@
+ 
+ for option in options:
+     # Add checkbox
+-    slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, Inches(0.5), top, Inches(0.4), Inches(0.4))
++    checkbox = slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, Inches(0.5), top, Inches(0.4), Inches(0.4))
++    checkbox.fill.solid()
++    checkbox.fill.fore_color.rgb = option_bg_color  # Set checkbox background color
+ 
+     # Add option text
+     option_box = slide.shapes.add_textbox(Inches(1.1), top, Inches(14), Inches(0.5))

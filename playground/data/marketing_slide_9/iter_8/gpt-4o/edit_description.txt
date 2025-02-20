@@ -1,1 +1,0 @@
-Adjust the background color of the rendered image to a light color similar to the target image, maintaining the orange rectangles while fixing the text alignment in the second step with clear spacing and formatting.

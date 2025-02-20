@@ -1,0 +1,1 @@
+Center the image on the slide using `image.left = Inches(2)` and `image.top = Inches(3)` for proper alignment.

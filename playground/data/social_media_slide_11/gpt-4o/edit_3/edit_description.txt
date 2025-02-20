@@ -1,0 +1,1 @@
+Change the font size of "GLOBAL INTEGRATION" to a larger size (e.g., 36) for improved emphasis.

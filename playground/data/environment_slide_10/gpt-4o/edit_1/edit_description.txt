@@ -1,0 +1,1 @@
+Change the text color of "THANK YOU" to a light lime green (hex code: #99CC00) for improved readability against the background.

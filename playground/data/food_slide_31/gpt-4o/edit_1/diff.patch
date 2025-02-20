@@ -1,0 +1,18 @@
+--- ./data/food_slide_31/init/code.py	2025-02-20 02:15:04.684043067 +0000
++++ ./data/food_slide_31/gpt-4o/edit_1/code.py	2025-02-20 13:37:44.993651132 +0000
+@@ -63,5 +63,14 @@
+ label_p.font.size = Pt(14)
+ label_p.font.color.rgb = RGBColor(0, 51, 102)  # Dark blue font
+ 
++# Adjusting the layout for questions 1 and 2
++question_1_p = text_frame.paragraphs[0]  # First question
++question_2_p = text_frame.paragraphs[1]  # Second question
++
++# Set consistent formatting
++for q_p in [question_1_p, question_2_p]:
++    q_p.font.size = Pt(20)
++    q_p.alignment = PP_ALIGN.LEFT
++
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

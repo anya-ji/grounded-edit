@@ -1,0 +1,19 @@
+--- ./data/food_slide_23/init/code.py	2025-02-20 02:15:04.670043096 +0000
++++ ./data/food_slide_23/gpt-4o/edit_3/code.py	2025-02-20 13:27:28.486810453 +0000
+@@ -9,7 +9,7 @@
+ presentation.slide_height = Inches(9)
+ 
+ # Add a slide layout
+-slide_layout = presentation.slide_layouts[5] # Blank layout
++slide_layout = presentation.slide_layouts[5]  # Blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+ # Set background color
+@@ -50,6 +50,7 @@
+ options_c = options_frame.add_paragraph()
+ options_c.text = "c) We add stress/intonation on the last word of the clause when retelling events."
+ options_c.font.size = Pt(20)
++options_c.font.color.rgb = RGBColor(0, 128, 0)  # Set to a vibrant green
+ 
+ # Insert checkmark image
+ checkmark_path = "../../media/image_0.jpg"

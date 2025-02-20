@@ -1,1 +1,0 @@
-Change the background color of the rendered image from pastel green to white to match the target image more closely.

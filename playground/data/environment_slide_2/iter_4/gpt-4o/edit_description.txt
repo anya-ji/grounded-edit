@@ -1,1 +1,0 @@
-Reduce the font size of the word "ENVIRONMENT" in the rendered image to match the font size of the other text for better balance and aesthetics.

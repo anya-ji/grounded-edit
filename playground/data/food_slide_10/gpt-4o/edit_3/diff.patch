@@ -1,0 +1,17 @@
+--- ./data/food_slide_10/init/code.py	2025-02-20 02:15:04.678043079 +0000
++++ ./data/food_slide_10/gpt-4o/edit_3/code.py	2025-02-20 13:08:02.901794738 +0000
+@@ -69,9 +69,12 @@
+     table.cell(1, i).text = '✓' if i == 2 else ''
+     table.cell(2, i).text = '✓' if i == 3 else ''
+ 
+-# Add Joey's image
++# Add Joey's image, aligned to center vertically
+ joey_image_path = "../../media/image_1.jpg"
+-joey_image = slide.shapes.add_picture(joey_image_path, Inches(11), Inches(5.5), height=Inches(2))
++joey_image = slide.shapes.add_picture(joey_image_path, Inches(11), Inches(5), height=Inches(2))
++
++# Center the image vertically in the allotted space
++joey_image.top = Inches(4.5)  # Adjusted for centering between 3 inches above and below
+ 
+ # Add buttons below Joey's image
+ button_check = slide.shapes.add_textbox(Inches(11), Inches(7.7), Inches(2.5), Inches(0.7))

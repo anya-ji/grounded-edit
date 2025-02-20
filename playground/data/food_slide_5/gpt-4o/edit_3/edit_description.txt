@@ -1,0 +1,1 @@
+Increase the font size of the main text to 18pt for improved readability.

@@ -1,0 +1,5 @@
+<edit>Change the font weight of the text "THANK YOU!" to bold.</edit>
+<edit>Change the font size of the text "THANK YOU!" to 64pt.</edit>
+<edit>Center the text "THANK YOU!" vertically on the slide.</edit>
+<edit>Change the color of the text "THANK YOU!" to navy blue (#001F5B).</edit>
+<edit>Add a light grey background color (#F5F5F5) to the slide.</edit>

@@ -1,0 +1,1 @@
+Center-align the title "The Subject and Content of Art" to match the alignment of other elements on the slide.

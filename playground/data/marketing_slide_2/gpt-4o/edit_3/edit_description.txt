@@ -1,0 +1,1 @@
+Adjust the position of the "Filling" text to be aligned vertically in the center of the section it occupies.

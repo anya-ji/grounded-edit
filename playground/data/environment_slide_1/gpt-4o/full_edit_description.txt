@@ -1,0 +1,5 @@
+<edit>Change the background color to a gradient of light green to match the target slide's look.</edit>
+<edit>Adjust the font color of the title "NATURAL ENVIRONMENT" to match the target slide's bright green color.</edit>
+<edit>Increase the font size of the title "NATURAL ENVIRONMENT" to ensure it is more prominent, similar to the target slide.</edit>
+<edit>Add a section with hexagonal shapes with a low opacity in the background to mimic the design elements from the target slide.</edit>
+<edit>Modify the text alignment of the name, class, and roll number to have consistent left alignment like in the target slide.</edit>

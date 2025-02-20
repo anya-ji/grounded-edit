@@ -1,0 +1,23 @@
+--- ./data/marketing_slide_34/init/code.py	2025-02-20 02:15:03.953044563 +0000
++++ ./data/marketing_slide_34/gpt-4o/edit_0/code.py	2025-02-20 14:24:51.212198409 +0000
+@@ -12,11 +12,17 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set the slide background to a gradient dark green
++# Set the slide background to a gradient dark teal to lighter teal
+ background = slide.background
+ fill = background.fill
+-fill.solid()
+-fill.fore_color.rgb = RGBColor(0, 51, 25)  # Dark green color
++fill.gradient()  # Use gradient fill
++stops = fill.gradient_stops
++stop1 = stops[0]
++stop1.position = 0.0
++stop1.rgb = RGBColor(0, 51, 51)  # Dark teal color
++stop2 = stops[1]
++stop2.position = 1.0
++stop2.rgb = RGBColor(0, 204, 204)  # Lighter teal color
+ 
+ # Add title text to the slide
+ title_text = "Let's Recall:"

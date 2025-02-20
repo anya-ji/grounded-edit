@@ -1,0 +1,11 @@
+--- ./data/marketing_slide_9/init/code.py	2025-02-20 02:15:03.955044559 +0000
++++ ./data/marketing_slide_9/gpt-4o/edit_3/code.py	2025-02-20 14:49:32.250910227 +0000
+@@ -56,7 +56,7 @@
+     # Add content inside shape
+     content_paragraph = text_frame.add_paragraph()
+     content_paragraph.text = text
+-    content_paragraph.font.size = Pt(16)
++    content_paragraph.font.size = Pt(18)  # Increased font size for bullet points
+     content_paragraph.font.color.rgb = RGBColor(0, 0, 0)
+ 
+ # Add background image

@@ -1,0 +1,1 @@
+Add a margin of 10 pixels around the portrait images to ensure sufficient spacing between them and the text elements, using `image.left_margin = 10` and `image.right_margin = 10`.

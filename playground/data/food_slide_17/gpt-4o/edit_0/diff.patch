@@ -1,0 +1,22 @@
+--- ./data/food_slide_17/init/code.py	2025-02-20 02:15:04.688043059 +0000
++++ ./data/food_slide_17/gpt-4o/edit_0/code.py	2025-02-20 13:14:38.476185039 +0000
+@@ -1,6 +1,7 @@
+ from pptx import Presentation
+ from pptx.util import Inches, Pt
+ from pptx.enum.text import PP_ALIGN
++from pptx.dml.color import RGBColor  # Import RGBColor for color formatting
+ 
+ # Initialize presentation
+ presentation = Presentation()
+@@ -61,6 +62,11 @@
+ table.cell(0, 0).text = "PAST SIMPLE"
+ table.cell(0, 1).text = "PAST CONTINUOUS"
+ 
++# Change background color of "PAST SIMPLE" section
++fill = table.cell(0, 0).fill
++fill.solid()
++fill.fore_color.rgb = RGBColor(208, 224, 240)  # Set to light blue (#d0e0f0)
++
+ # Insert sentence into table cell
+ table.cell(1, 0).text = "We were out to dinner."
+ 

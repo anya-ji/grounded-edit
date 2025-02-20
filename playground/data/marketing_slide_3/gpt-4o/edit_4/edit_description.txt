@@ -1,0 +1,1 @@
+Add a bottom margin of 2cm to provide more space at the bottom of the slide, avoiding an overcrowded appearance.

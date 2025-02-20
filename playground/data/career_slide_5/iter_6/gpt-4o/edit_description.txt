@@ -1,1 +1,0 @@
-Adjust the layout positioning to ensure that the title and sections are correctly centered and not overlapping, while maintaining the original font size and colors.

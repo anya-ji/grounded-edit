@@ -1,1 +1,0 @@
-Change the background color of the title box from yellow-orange to a bright orange and use a lighter, less bold font for the title text to match the target image.

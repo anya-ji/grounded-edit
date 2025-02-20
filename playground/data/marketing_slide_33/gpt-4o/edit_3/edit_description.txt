@@ -1,0 +1,1 @@
+Adjust the layout to increase the spacing between the title and the top image to avoid crowding.

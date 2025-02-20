@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image features a neatly formatted document with a light background, clearly categorized sections for past simple and past continuous, along with visible text and dialogue bubbles.
-2. Description of Rendered Image: The rendered image has a similar layout but the background is darker, which affects the readability of the text and the visibility of the sections.
-3. Change Suggestion: Change the background color of the rendered image to a lighter shade (e.g., #FFFFFF) to enhance text visibility and overall readability.
-```

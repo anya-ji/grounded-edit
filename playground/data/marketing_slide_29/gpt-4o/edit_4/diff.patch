@@ -1,0 +1,23 @@
+--- ./data/marketing_slide_29/init/code.py	2025-02-20 02:15:03.867044740 +0000
++++ ./data/marketing_slide_29/gpt-4o/edit_4/code.py	2025-02-20 14:17:21.272999829 +0000
+@@ -27,18 +27,17 @@
+ overlay.fill.transparency = 0.5
+ overlay.line.color.rgb = RGBColor(0, 0, 0)
+ 
+-# Add the text box with red background
++# Add the text box with rounded rectangle shape
+ left = Inches(4)
+ top = Inches(3)
+ width = Inches(8)
+ height = Inches(3)
+ text_box = slide.shapes.add_shape(
+-    MSO_SHAPE.RECTANGLE, left, top, width, height
++    MSO_SHAPE.ROUNDED_RECTANGLE, left, top, width, height
+ )
+ text_box.fill.solid()
+ text_box.fill.fore_color.rgb = RGBColor(255, 0, 0)  # Red background
+ text_box.text = "Which type of market is beneficial for the customers? Why?"
+-text_box.text_frame.text = "Which type of market is beneficial for the customers? Why?"
+ 
+ # Format the text
+ text_frame = text_box.text_frame

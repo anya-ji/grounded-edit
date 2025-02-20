@@ -1,0 +1,13 @@
+--- ./data/entrepreneur_slide_5/init/code.py	2025-02-20 02:15:04.518043407 +0000
++++ ./data/entrepreneur_slide_5/gpt-4o/edit_1/code.py	2025-02-20 12:45:57.584254166 +0000
+@@ -65,5 +65,9 @@
+ content_paragraph.font.size = Pt(20)
+ content_paragraph.alignment = PP_ALIGN.LEFT
+ 
++# Set line spacing
++content_paragraph.space_after = Pt(10)  # Additional space after each paragraph
++content_paragraph.line_spacing = Pt(30)  # Set total line spacing (1.5 times 20pt font size)
++
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

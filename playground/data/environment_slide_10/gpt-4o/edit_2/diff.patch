@@ -1,0 +1,25 @@
+--- ./data/environment_slide_10/init/code.py	2025-02-20 02:15:04.772042887 +0000
++++ ./data/environment_slide_10/gpt-4o/edit_2/code.py	2025-02-20 12:52:46.523185273 +0000
+@@ -2,8 +2,6 @@
+ from pptx.util import Inches, Pt
+ from pptx.dml.color import RGBColor
+ from pptx.enum.text import PP_ALIGN
+-from pptx.oxml import parse_xml
+-from pptx.oxml.ns import nsdecls
+ 
+ # Create a presentation object
+ presentation = Presentation()
+@@ -14,11 +12,11 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set a light green background with a subtle hexagonal pattern
++# Set a brighter green background (#CCFFCC)
+ background = slide.background
+ fill = background.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(204, 255, 204)  # Light green
++fill.fore_color.rgb = RGBColor(204, 255, 204)  # Brighter green
+ 
+ # Add a large white textbox in the center
+ left = Inches(2)

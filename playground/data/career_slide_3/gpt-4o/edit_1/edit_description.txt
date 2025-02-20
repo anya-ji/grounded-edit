@@ -1,0 +1,1 @@
+Increase the padding inside the speech bubble shape to 20 pixels from the text to ensure the text is not too close to the edges.

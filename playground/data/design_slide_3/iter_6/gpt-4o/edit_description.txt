@@ -1,1 +1,0 @@
-Increase the saturation and contrast of the colors in the rendered image for a more vibrant look matching the target image.

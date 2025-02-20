@@ -1,1 +1,0 @@
-Change the background of the rendered image to match the target with a red background and adjust the header text to be in the same shade of blue as in the target image.

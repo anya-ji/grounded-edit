@@ -1,1 +1,0 @@
-Remove the checkboxes next to each disadvantage to restore the original bullet point formatting.

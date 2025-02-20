@@ -1,0 +1,11 @@
+--- ./data/social_media_slide_3/init/code.py	2025-02-20 02:15:04.883042660 +0000
++++ ./data/social_media_slide_3/gpt-4o/edit_2/code.py	2025-02-20 15:13:55.535378830 +0000
+@@ -44,7 +44,7 @@
+     p = tf.add_paragraph()
+     p.text = f"✔ {point}"
+     p.font.size = Pt(20)
+-    p.font.color.rgb = RGBColor(255, 255, 255)  # White
++    p.font.color.rgb = RGBColor(255, 255, 255)  # White for better contrast
+     p.space_before = Pt(14)
+     
+ # Insert image on the right side

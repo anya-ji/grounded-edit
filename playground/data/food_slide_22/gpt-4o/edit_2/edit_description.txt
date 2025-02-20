@@ -1,0 +1,1 @@
+Adjust the spacing between the answer options to be consistent, ensuring at least 10 pixels of vertical space between each option.

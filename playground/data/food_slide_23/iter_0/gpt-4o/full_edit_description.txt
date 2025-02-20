@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image presents a question about pronunciation schemes with three options, where the correct answer is clearly marked with a check mark next to option c). 
-2. Description of Rendered Image: The rendered image shows the same question and options, but option c) is not marked with a check, making it appear unselected.
-3. Change Suggestion: Add a check mark next to option c) to indicate that it is the correct answer.
-```

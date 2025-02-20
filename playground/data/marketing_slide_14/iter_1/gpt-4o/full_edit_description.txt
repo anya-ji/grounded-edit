@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: A soft-focus background featuring stylized human figures in varying shades of blue and green with a prominent white figure in the center. The text overlays the image in a clean, white font.
-2. Description of Rendered Image: A crystal-clear view of stylized human figures in shades of beige and brown, with a bright white figure in the center. The text appears in a white font but with a gray box background that alters the clean aesthetic.
-3. Change Suggestion: Remove the gray box background behind the text to allow the text to appear seamlessly on the rendered image, similar to the target image.
-```

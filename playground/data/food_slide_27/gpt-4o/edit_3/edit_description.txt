@@ -1,0 +1,1 @@
+Increase the padding of the text box for "YOUR ‘DATE GONE WRONG’ STORY" to at least 20px to ensure it has sufficient spacing around the content.

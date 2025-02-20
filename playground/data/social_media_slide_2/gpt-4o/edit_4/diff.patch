@@ -1,0 +1,20 @@
+--- ./data/social_media_slide_2/init/code.py	2025-02-20 02:15:04.896042633 +0000
++++ ./data/social_media_slide_2/gpt-4o/edit_4/code.py	2025-02-20 15:10:11.247837634 +0000
+@@ -8,7 +8,7 @@
+ presentation.slide_height = Inches(9)
+ 
+ # Add a blank slide layout
+-slide_layout = presentation.slide_layouts[5] # Blank layout
++slide_layout = presentation.slide_layouts[5]  # Blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+ # Set slide background color for the title area
+@@ -60,6 +60,7 @@
+ culture_text = culture_frame.add_paragraph()
+ culture_text.text = "can be defined as all the ways of life, including arts, beliefs and institutions of a population that are passed down from generation to generation."
+ culture_text.font.size = Pt(20)
++culture_text.font.color.rgb = RGBColor(0, 51, 102)  # Change to dark blue
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

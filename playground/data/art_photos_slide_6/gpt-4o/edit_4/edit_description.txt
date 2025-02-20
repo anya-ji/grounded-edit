@@ -1,0 +1,1 @@
+Increase the padding of the yellow box surrounding the text “Self-portrait of Van Gogh” to 10 pixels for a more balanced appearance.

@@ -1,1 +1,0 @@
-Adjust the alignment of the text boxes to ensure consistent, centered positioning across all dialogue prompts.

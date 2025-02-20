@@ -1,0 +1,15 @@
+--- ./data/social_media_slide_4/init/code.py	2025-02-20 02:15:04.881042664 +0000
++++ ./data/social_media_slide_4/gpt-4o/edit_4/code.py	2025-02-20 15:18:31.883744916 +0000
+@@ -57,9 +57,9 @@
+ bullet2.font.size = Pt(24)
+ bullet2.font.color.rgb = RGBColor(0, 0, 0)  # Black
+ 
+-# Insert the image
++# Insert the image, adjusted for alignment
+ image_path = "../../media/image_0.jpg"
+-slide.shapes.add_picture(image_path, Inches(10.5), Inches(2), Inches(5), Inches(5))
++slide.shapes.add_picture(image_path, Inches(10.5 + 0.03), Inches(2), Inches(5), Inches(5))  # Margin of 30 pixels (0.03 inches)
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

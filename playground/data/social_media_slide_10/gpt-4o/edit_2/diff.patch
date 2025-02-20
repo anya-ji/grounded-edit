@@ -1,0 +1,24 @@
+--- ./data/social_media_slide_10/init/code.py	2025-02-20 02:15:04.892042641 +0000
++++ ./data/social_media_slide_10/gpt-4o/edit_2/code.py	2025-02-20 14:52:23.209472507 +0000
+@@ -42,15 +42,19 @@
+ 
+ bullet_points = [
+     "are used for globalization to work all over the world",
+-    "Media plays a major role in globalization"
++    "Media plays a major role in globalization"  # Change this bullet's font size later
+ ]
+ 
+-for point in bullet_points:
++for idx, point in enumerate(bullet_points):
+     bullet = content_text_frame.add_paragraph()
+     bullet.text = point
+     bullet.level = 1
+     bullet.font.size = Pt(20)
+ 
++    # Modify the font size of the second bullet point
++    if idx == 1:
++        bullet.font.size = Pt(18)  # Change font size of the second bullet
++
+ # Add "Examples:" subheading and bullet points
+ p = content_text_frame.add_paragraph()
+ p.text = "Examples:"

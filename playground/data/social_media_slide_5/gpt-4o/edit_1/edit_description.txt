@@ -1,0 +1,1 @@
+Adjust the bullet points to add a bullet character before each line for consistency in formatting.

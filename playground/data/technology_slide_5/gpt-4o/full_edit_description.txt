@@ -1,0 +1,5 @@
+<edit>Change the font size of the title "The Technology used in Blockchain" to match the target slide.</edit>
+<edit>Add bullet points to each item in the list (e.g., "Cryptographic Keys", "Network Protocol"), ensuring proper indentation and spacing.</edit>
+<edit>Adjust the spacing between the list items to provide more room, preventing any overlap.</edit>
+<edit>Change the text color of the list items to a darker shade to enhance readability.</edit>
+<edit>Reposition the image so it is aligned with the bottom of the text box while maintaining a consistent margin around it.</edit>

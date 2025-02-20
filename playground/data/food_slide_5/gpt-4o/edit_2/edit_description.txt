@@ -1,0 +1,1 @@
+Adjust the text box color to a light pink (#F8D4E2) to align with the design of the target slide.

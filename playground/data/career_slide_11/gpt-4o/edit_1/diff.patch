@@ -1,0 +1,12 @@
+--- ./data/career_slide_11/init/code.py	2025-02-20 02:15:04.979042463 +0000
++++ ./data/career_slide_11/gpt-4o/edit_1/code.py	2025-02-20 11:57:03.598085535 +0000
+@@ -59,7 +59,8 @@
+         p_sub = content_frame.add_paragraph()
+         p_sub.text = sp
+         p_sub.level = 1
+-        p_sub.space_before = Pt(5)
++        p_sub.space_before = Pt(10)  # Adjusting space before for consistency
++        p_sub.space_after = Pt(10)   # Adding space after for consistency
+         p_sub.font.size = Pt(20)
+         p_sub.font.color.rgb = RGBColor(255, 255, 255)  # White color for sub-points
+ 

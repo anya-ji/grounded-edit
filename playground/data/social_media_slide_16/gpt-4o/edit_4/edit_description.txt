@@ -1,0 +1,1 @@
+Change the alignment of the text in the bullet points to left-align for better consistency with typical slide formatting.

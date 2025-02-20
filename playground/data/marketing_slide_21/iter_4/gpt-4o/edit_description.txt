@@ -1,1 +1,0 @@
-Increase the text font size for all labels in the rendered image to improve readability and align the boxes so that they are evenly spaced and consistently placed.

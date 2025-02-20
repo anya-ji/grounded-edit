@@ -1,1 +1,0 @@
-Change the bullet point text color from yellow to white to improve contrast and readability against the dark background.

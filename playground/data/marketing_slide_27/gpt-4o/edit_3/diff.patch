@@ -1,0 +1,12 @@
+--- ./data/marketing_slide_27/init/code.py	2025-02-20 02:15:03.944044582 +0000
++++ ./data/marketing_slide_27/gpt-4o/edit_3/code.py	2025-02-20 14:14:31.328762237 +0000
+@@ -58,7 +58,7 @@
+ p.text = title_text
+ p.font.size = Pt(40)
+ p.font.bold = True
+-p.font.color.rgb = RGBColor(255, 255, 255)  # White color for contrast
++p.font.color.rgb = RGBColor(0, 0, 0)  # Change to black for better contrast
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

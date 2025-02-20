@@ -1,0 +1,1 @@
+Change the background color of the "PAST SIMPLE" section from white to a light shade of blue, e.g., hex color #d0e0f0.

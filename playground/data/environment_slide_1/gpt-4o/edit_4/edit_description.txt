@@ -1,0 +1,1 @@
+Modify the text alignment of the name, class, and roll number to have consistent left alignment like in the target slide.

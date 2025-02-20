@@ -1,0 +1,1 @@
+Center align the text "This is Bélo." horizontally within the slide.

@@ -1,0 +1,11 @@
+--- ./data/technology_slide_8/init/code.py	2025-02-20 02:15:05.093042230 +0000
++++ ./data/technology_slide_8/gpt-4o/edit_0/code.py	2025-02-20 15:44:07.716955353 +0000
+@@ -16,7 +16,7 @@
+ title_frame = title_box.text_frame
+ title_paragraph = title_frame.add_paragraph()
+ title_paragraph.text = title
+-title_paragraph.font.size = Pt(36)
++title_paragraph.font.size = Pt(40)  # Changed from Pt(36) to Pt(40)
+ title_paragraph.font.bold = True
+ 
+ # Add body text

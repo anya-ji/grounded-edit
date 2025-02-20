@@ -1,1 +1,0 @@
-Adjust the bullet point indentation to align with the target image, ensuring that each bullet point is properly indented and the spacing between them is consistent.

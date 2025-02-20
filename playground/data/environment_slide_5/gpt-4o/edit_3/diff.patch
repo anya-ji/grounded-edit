@@ -1,0 +1,24 @@
+--- ./data/environment_slide_5/init/code.py	2025-02-20 02:15:04.793042844 +0000
++++ ./data/environment_slide_5/gpt-4o/edit_3/code.py	2025-02-20 12:59:54.062293484 +0000
+@@ -12,11 +12,7 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set a light green background with a subtle hexagonal pattern
+-# Normally, we'd add custom images or patterns but for simplicity,
+-# we'll just set a plain light green background. Hexagonal pattern
+-# requires more complex operations not implemented here.
+-
++# Set a light green background
+ background = slide.background
+ fill = background.fill
+ fill.solid()
+@@ -46,7 +42,7 @@
+ # Add content with bullet points
+ bullet_points = [
+     "Lithosphere- It is defined as the rock and crust surface that covers the earth. An example of lithosphere is the rocky mountain range.",
+-    "Hydrosphere- all the water on the earth's surface such as lakes and seas is known as hydrosphere.",
++    "Hydrosphere- all the water on the earth's surface such as lakes and seas is known as hydrosphere.",  # Updated here
+     "Atmosphere- the mixture of gases that surrounds the earth is known as atmosphere.",
+     "Biosphere- the part of earth's surface and atmosphere which supports life and where plants and animals live is known as biosphere."
+ ]

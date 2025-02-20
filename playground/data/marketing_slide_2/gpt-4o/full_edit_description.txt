@@ -1,0 +1,5 @@
+<edit>Change the background color of the slide to a light blue (#66B2E6) for better readability.</edit>
+<edit>Change the font color of the main question text to a dark teal (#004d4d) for improved contrast against the background.</edit>
+<edit>Change the text of the main question to title case: "What is Filling Your Bucket Today and What’s Draining It?"</edit>
+<edit>Adjust the position of the "Filling" text to be aligned vertically in the center of the section it occupies.</edit>
+<edit>Increase the font size of the "Draining" text to ensure it is as prominent as the "Filling" text.</edit>

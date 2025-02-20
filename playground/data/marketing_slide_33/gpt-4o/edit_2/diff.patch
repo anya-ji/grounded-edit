@@ -1,0 +1,11 @@
+--- ./data/marketing_slide_33/init/code.py	2025-02-20 02:15:03.905044662 +0000
++++ ./data/marketing_slide_33/gpt-4o/edit_2/code.py	2025-02-20 14:23:39.266471827 +0000
+@@ -40,7 +40,7 @@
+ # Add images to the slide
+ image_path1 = "../../media/image_1.jpg"
+ image_path2 = "../../media/image_0.jpg"
+-top_image = slide.shapes.add_picture(image_path1, Inches(10), Inches(2), width=Inches(5))
++top_image = slide.shapes.add_picture(image_path1, Inches(10), Inches(2), width=Inches(4.5))  # Adjusted width
+ bottom_image = slide.shapes.add_picture(image_path2, Inches(10), Inches(5.5), width=Inches(5))
+ 
+ # Add attribution text

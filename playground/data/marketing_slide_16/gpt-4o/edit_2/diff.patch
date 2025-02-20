@@ -1,0 +1,17 @@
+--- ./data/marketing_slide_16/init/code.py	2025-02-20 02:15:03.875044723 +0000
++++ ./data/marketing_slide_16/gpt-4o/edit_2/code.py	2025-02-20 13:57:25.733400889 +0000
+@@ -33,5 +33,13 @@
+ p.font.size = Pt(14)
+ p.font.color.rgb = RGBColor(255, 255, 255)  # White font color
+ 
++# Add a shape around the text "Marketing"
++marketing_box = slide.shapes.add_shape(
++    1,  # msoShapeCurvedArrow
++    Inches(0.1), Inches(1), Inches(3), Inches(1)
++)
++marketing_box.line.color.rgb = RGBColor(255, 0, 0)  # Set line color
++marketing_box.line.width = Pt(2)  # Set line width to 2 pt
++
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

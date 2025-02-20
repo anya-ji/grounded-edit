@@ -1,0 +1,1 @@
+Adjust the font size of the main content text to match the target slide, using a size that is consistently larger than the current size for better emphasis.

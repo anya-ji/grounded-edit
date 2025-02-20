@@ -1,0 +1,1 @@
+Adjust the spacing between the words in the word cloud on the right to ensure there is more space between the terms.

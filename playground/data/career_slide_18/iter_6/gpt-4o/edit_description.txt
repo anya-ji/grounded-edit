@@ -1,1 +1,0 @@
-Increase the font size of "ACADEMIC WORLD" and "PROFESSIONAL WORLD" in the rendered image to make them larger than the rest of the text for emphasis, similar to the target image.

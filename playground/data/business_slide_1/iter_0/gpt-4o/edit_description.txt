@@ -1,1 +1,0 @@
-Change the logo in the rendered image to match the logo's crispness and definition in the target image, ensuring it is centrally aligned and fully visible without any distortion.

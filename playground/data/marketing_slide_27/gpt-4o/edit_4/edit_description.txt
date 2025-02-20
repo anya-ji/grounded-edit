@@ -1,0 +1,1 @@
+Replace the background color of the slide with a lighter shade for improved readability using: `plt.gcf().set_facecolor('#f0f0f0')`.

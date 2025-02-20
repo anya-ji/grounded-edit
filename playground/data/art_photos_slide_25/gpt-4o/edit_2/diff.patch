@@ -1,0 +1,16 @@
+--- ./data/art_photos_slide_25/init/code.py	2025-02-20 02:15:04.225044007 +0000
++++ ./data/art_photos_slide_25/gpt-4o/edit_2/code.py	2025-02-20 11:17:18.250675998 +0000
+@@ -37,10 +37,11 @@
+ content_fill.solid()
+ content_fill.fore_color.rgb = RGBColor(255, 255, 255)  # White
+ 
++# Updated references: removed asterisks
+ references = (
+     "1. Garces, J.C., Inoc, D.S., Inocian, R.B., Labajo, O.P., Rama, F., Tiempo, A.Y., & Un, J.L. 2021. "
+-    "*Modular Approach to Art Appreciation*. Lorimar Publishing Inc.\n"
+-    "2. Casaul, J.A., Caslib Jr. B.N., & Garing, D.C. 2018. *Art Appreciation*. Rex Bookstore, Inc."
++    "Modular Approach to Art Appreciation. Lorimar Publishing Inc.\n"
++    "2. Casaul, J.A., Caslib Jr. B.N., & Garing, D.C. 2018. Art Appreciation. Rex Bookstore, Inc."
+ )
+ 
+ p = content_frame.add_paragraph()

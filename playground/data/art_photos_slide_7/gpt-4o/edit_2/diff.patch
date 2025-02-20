@@ -1,0 +1,10 @@
+--- ./data/art_photos_slide_7/init/code.py	2025-02-20 02:15:04.317043818 +0000
++++ ./data/art_photos_slide_7/gpt-4o/edit_2/code.py	2025-02-20 11:27:07.581279885 +0000
+@@ -44,6 +44,7 @@
+ p = content_frame.add_paragraph()
+ p.text = "Examples:"
+ p.font.size = Pt(28)
++p.space_after = Pt(12)  # Increase space after to 12
+ 
+ p = content_frame.add_paragraph()
+ p.text = "A. *Still life* is a work of art that does not have life."

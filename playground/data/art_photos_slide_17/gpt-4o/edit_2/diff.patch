@@ -1,0 +1,15 @@
+--- ./data/art_photos_slide_17/init/code.py	2025-02-20 02:15:04.219044019 +0000
++++ ./data/art_photos_slide_17/gpt-4o/edit_2/code.py	2025-02-20 11:01:10.575389693 +0000
+@@ -50,6 +50,12 @@
+ text_frame_content = content_textbox.text_frame
+ text_frame_content.clear()
+ 
++# Adjust margins for padding around the text
++text_frame_content.margin_left = Inches(0.5)
++text_frame_content.margin_right = Inches(0.5)
++text_frame_content.margin_top = Inches(0.5)
++text_frame_content.margin_bottom = Inches(0.5)
++
+ p_content = text_frame_content.add_paragraph()
+ p_content.text = "✓ The content of art is the meaning, message, and/or feeling imparted by a work of art."
+ p_content.font.size = Pt(24)

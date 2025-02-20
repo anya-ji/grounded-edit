@@ -1,0 +1,37 @@
+--- ./data/marketing_slide_39/init/code.py	2025-02-20 02:15:03.910044651 +0000
++++ ./data/marketing_slide_39/gpt-4o/edit_4/code.py	2025-02-20 14:33:22.321669990 +0000
+@@ -2,7 +2,6 @@
+ from pptx.util import Inches, Pt
+ from pptx.dml.color import RGBColor
+ from pptx.enum.shapes import MSO_SHAPE
+-from pptx.util import Inches
+ 
+ # Create a presentation object
+ presentation = Presentation()
+@@ -21,12 +20,24 @@
+ fill.solid()
+ fill.fore_color.rgb = RGBColor(0, 128, 128)  # Dark teal color
+ 
+-# Add text box for title
++# Add title text box
++title_box = slide.shapes.add_textbox(Inches(0.5), Inches(0.5), Inches(7), Inches(1))
++title_frame = title_box.text_frame
++title_frame.text = "Profit Sharing"
++
++# Set font details for title
++for paragraph in title_frame.paragraphs:
++    for run in paragraph.runs:
++        run.font.size = Pt(36)
++        run.font.bold = True
++        run.font.color.rgb = RGBColor(255, 255, 255)  # White font
++
++# Add text box for existing text
+ text_box = slide.shapes.add_textbox(Inches(0.5), Inches(4), Inches(7), Inches(1.5))
+ text_frame = text_box.text_frame
+ text_frame.text = "Do you think everybody in market get same share of profit? Why?"
+ 
+-# Set font details
++# Set font details for the existing text
+ for paragraph in text_frame.paragraphs:
+     for run in paragraph.runs:
+         run.font.size = Pt(28)

@@ -1,0 +1,1 @@
+Adjust the left padding of the text to 0.5 inches to ensure consistent spacing between the text and the left edge of the slide.

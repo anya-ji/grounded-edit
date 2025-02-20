@@ -1,0 +1,1 @@
+Change the background color of the slide from dark green to a gradient that blends from teal to a darker shade of teal.

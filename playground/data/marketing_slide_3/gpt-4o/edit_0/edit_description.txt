@@ -1,0 +1,1 @@
+Change the slide background color from red to a more muted dark red or maroon color for better contrast with the text.

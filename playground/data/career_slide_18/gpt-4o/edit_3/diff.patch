@@ -1,0 +1,16 @@
+--- ./data/career_slide_18/init/code.py	2025-02-20 02:15:04.972042477 +0000
++++ ./data/career_slide_18/gpt-4o/edit_3/code.py	2025-02-20 12:14:05.759479900 +0000
+@@ -11,11 +11,11 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set dark background color
++# Set dark gray background color
+ background = slide.background
+ fill = background.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(30, 30, 30)  # Dark background
++fill.fore_color.rgb = RGBColor(46, 46, 46)  # Dark gray background
+ 
+ # Add main title
+ title_text = "ACADEMIC WORLD AND PROFESSIONAL WORLD"

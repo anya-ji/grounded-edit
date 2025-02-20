@@ -1,0 +1,1 @@
+Change the background color of the title area to white to maintain uniformity with the rest of the slide.

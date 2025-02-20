@@ -1,0 +1,12 @@
+--- ./data/marketing_slide_14/init/code.py	2025-02-20 02:15:03.988044492 +0000
++++ ./data/marketing_slide_14/gpt-4o/edit_3/code.py	2025-02-20 13:54:46.496705073 +0000
+@@ -25,6 +25,9 @@
+ text_box.text_frame.word_wrap = True
+ text_box.text_frame.paragraphs[0].alignment = 1  # Center
+ 
++# Center the text box on the slide
++text_box.left = (presentation.slide_width - text_box.width) / 2
++
+ # Add red rectangle
+ left_inch = presentation.slide_width - Inches(2.5)
+ top_inch = 0

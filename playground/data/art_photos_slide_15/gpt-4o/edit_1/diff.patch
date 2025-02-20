@@ -1,0 +1,15 @@
+--- ./data/art_photos_slide_15/init/code.py	2025-02-20 02:15:04.384043681 +0000
++++ ./data/art_photos_slide_15/gpt-4o/edit_1/code.py	2025-02-20 10:55:59.738077453 +0000
+@@ -39,9 +39,12 @@
+ image2_path = "../../media/image_3.jpg"
+ left = Inches(1)
+ top = Inches(2.5)
++
++# Size of the right image
+ image_width = Inches(6)
+ image_height = Inches(4.5)
+ 
++# Adjust the left image to match the aspect ratio of the right image
+ pic1 = slide.shapes.add_picture(image1_path, left, top, width=image_width, height=image_height)
+ pic2 = slide.shapes.add_picture(image2_path, left + image_width + Inches(1), top, width=image_width, height=image_height)
+ 

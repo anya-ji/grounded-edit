@@ -1,0 +1,11 @@
+--- ./data/social_media_slide_6/init/code.py	2025-02-20 02:15:04.891042643 +0000
++++ ./data/social_media_slide_6/gpt-4o/edit_0/code.py	2025-02-20 15:20:34.485447624 +0000
+@@ -34,7 +34,7 @@
+ subtitle = subtitle_frame.add_paragraph()
+ subtitle.text = "3. PRINTING PRESS"
+ subtitle.font.bold = True
+-subtitle.font.size = Pt(28)
++subtitle.font.size = Pt(36)  # Changed font size to 36 to match the title
+ subtitle.font.color.rgb = RGBColor(0, 51, 102)  # Dark Blue text
+ 
+ # Add main content with bullet points

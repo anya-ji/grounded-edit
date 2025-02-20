@@ -1,0 +1,22 @@
+--- ./data/marketing_slide_22/init/code.py	2025-02-20 02:15:03.969044530 +0000
++++ ./data/marketing_slide_22/gpt-4o/edit_4/code.py	2025-02-20 14:08:49.431548615 +0000
+@@ -23,15 +23,15 @@
+ p.font.size = Pt(44)
+ p.font.color.rgb = RGBColor(255, 255, 255)  # white font
+ 
+-# Insert images on the left side
++# Insert images with margin of 10 pixels
+ image1_path = "../../media/image_0.jpg"
+-image1 = slide.shapes.add_picture(image1_path, Inches(0.5), Inches(0.5), width=Inches(5))
++image1 = slide.shapes.add_picture(image1_path, Inches(0.5 + 0.1), Inches(0.5 + 0.1), width=Inches(5))
+ 
+ image2_path = "../../media/image_1.jpg"
+-image2 = slide.shapes.add_picture(image2_path, Inches(0.5), Inches(3.25), width=Inches(5))
++image2 = slide.shapes.add_picture(image2_path, Inches(0.5 + 0.1), Inches(3.25 + 0.1), width=Inches(5))
+ 
+ image3_path = "../../media/image_2.jpg"
+-image3 = slide.shapes.add_picture(image3_path, Inches(0.5), Inches(6), width=Inches(5))
++image3 = slide.shapes.add_picture(image3_path, Inches(0.5 + 0.1), Inches(6 + 0.1), width=Inches(5))
+ 
+ # Add captions below each image
+ caption_text = [

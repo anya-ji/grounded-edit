@@ -1,0 +1,11 @@
+--- ./data/art_photos_slide_6/init/code.py	2025-02-20 02:15:04.196044066 +0000
++++ ./data/art_photos_slide_6/gpt-4o/edit_1/code.py	2025-02-20 11:24:47.258797192 +0000
+@@ -34,7 +34,7 @@
+ p = frame.add_paragraph()
+ p.text = "The Subject and Content of Art"
+ p.font.bold = True
+-p.font.size = Pt(20)
++p.font.size = Pt(36)  # Changed font size to 36 pt
+ p.font.color.rgb = RGBColor(0, 0, 0)  # Black text
+ 
+ # Insert the image of Van Gogh's self-portrait

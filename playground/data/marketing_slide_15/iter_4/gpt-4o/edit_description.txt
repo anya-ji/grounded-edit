@@ -1,1 +1,0 @@
-Change the font of the text in the rendered image to a softer, less bold typeface to match the style of the target image.

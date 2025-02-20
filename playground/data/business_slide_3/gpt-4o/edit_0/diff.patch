@@ -1,0 +1,22 @@
+--- ./data/business_slide_3/init/code.py	2025-02-20 02:15:04.111044240 +0000
++++ ./data/business_slide_3/gpt-4o/edit_0/code.py	2025-02-20 11:42:54.368472475 +0000
+@@ -1,5 +1,6 @@
+ from pptx import Presentation
+ from pptx.util import Inches
++from pptx.dml.color import RGBColor
+ 
+ # Create a presentation object
+ presentation = Presentation()
+@@ -10,6 +11,12 @@
+ slide_layout = presentation.slide_layouts[5]  # Use a blank slide layout for flexibility
+ slide = presentation.slides.add_slide(slide_layout)
+ 
++# Set slide background color to bright blue
++background = slide.background
++fill = background.fill
++fill.solid()
++fill.fore_color.rgb = RGBColor(0, 0, 255)  # Bright blue color
++
+ # Insert the provided image prominently
+ image_path = "../../media/image_0.jpg"
+ slide.shapes.add_picture(image_path, Inches(2), Inches(2), Inches(12), Inches(6))

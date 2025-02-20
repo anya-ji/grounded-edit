@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: A plain white background with the text "THANK YOU!" displayed in a simple font, all in one line, with no special effects or embellishments.
-2. Description of Rendered Image: A plain white background with the text "THANK YOU! YOU!" shown in a bold font, where "YOU!" appears on the second line and has a noticeable shadow effect.
-3. Change Suggestion: Remove the second "YOU!" and adjust the font to a simpler style without any shadow effects.
-```

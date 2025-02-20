@@ -1,0 +1,1 @@
+Align the positioning of the main content text to center-align it, ensuring that it is properly spaced within the slide without any overflow.

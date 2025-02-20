@@ -1,0 +1,1 @@
+Change the font color of the "PART 1" text to match the target slide (dark blue).

@@ -1,0 +1,18 @@
+--- ./data/marketing_slide_1/init/code.py	2025-02-20 02:15:03.946044578 +0000
++++ ./data/marketing_slide_1/gpt-4o/edit_3/code.py	2025-02-20 13:47:41.467516330 +0000
+@@ -26,13 +26,7 @@
+ title.font.bold = True
+ title.font.color.rgb = RGBColor(255, 255, 255)
+ 
+-# Add attribution text at the bottom
+-attribution_box = slide.shapes.add_textbox(Inches(1), Inches(8), Inches(14), Inches(1))
+-attribution_frame = attribution_box.text_frame
+-attribution = attribution_frame.add_paragraph()
+-attribution.text = "This Photo by Unknown author is licensed under CC BY."
+-attribution.font.size = Pt(12)
+-attribution.font.color.rgb = RGBColor(255, 255, 255)
++# The attribution text has been removed for a cleaner look
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

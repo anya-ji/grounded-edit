@@ -1,0 +1,1 @@
+Change the background color of the body text area to white to enhance contrast and readability.

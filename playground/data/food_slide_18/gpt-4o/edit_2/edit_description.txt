@@ -1,0 +1,1 @@
+Right-align the dialogue text in the rendered slide to ensure it matches the alignment of the text in the target slide.

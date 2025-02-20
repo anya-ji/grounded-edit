@@ -1,0 +1,1 @@
+Add a bullet point symbol (•) before each line of text in the main content area.

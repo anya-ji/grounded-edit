@@ -1,0 +1,11 @@
+--- ./data/food_slide_26/init/code.py	2025-02-20 02:15:04.704043026 +0000
++++ ./data/food_slide_26/gpt-4o/edit_1/code.py	2025-02-20 13:30:12.963503618 +0000
+@@ -24,7 +24,7 @@
+ title = text_frame.add_paragraph()
+ title.text = "STEP 1: Choose one of the dates below by ticking (✔) the box."
+ title.font.bold = True
+-title.font.size = Pt(32)
++title.font.size = Pt(36)  # Changed from 32 to 36
+ title.alignment = PP_ALIGN.CENTER
+ 
+ # Icons and images

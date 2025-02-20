@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image features a cleanly formatted slide with a light background, clear headings using a stylized font, and well-structured bullet points for each type of blockchain, maintaining a professional and visually appealing layout.
-2. Description of Rendered Image: The rendered image has a dark background with less clarity in the text, making it difficult to read. The layout is similar but lacks the visual appeal and readability of the target image.
-3. Change Suggestion: Change the background color of the rendered image to a light color (e.g., white or light gray) to improve text readability and match the target image's style.
-```

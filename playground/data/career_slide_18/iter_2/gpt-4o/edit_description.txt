@@ -1,1 +1,0 @@
-Adjust the spacing between words in the title to ensure equal spacing and alignment, and ensure the font sizes are uniform to match the target image.

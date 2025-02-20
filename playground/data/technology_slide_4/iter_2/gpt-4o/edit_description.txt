@@ -1,1 +1,0 @@
-Adjust the alignment of the checkboxes to ensure they are uniformly placed at the beginning of each list item, and add a period at the end of each description for consistency.

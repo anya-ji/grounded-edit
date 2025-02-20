@@ -1,0 +1,19 @@
+--- ./data/art_photos_slide_1/init/code.py	2025-02-20 02:15:04.233043990 +0000
++++ ./data/art_photos_slide_1/gpt-4o/edit_4/code.py	2025-02-20 10:50:06.466859126 +0000
+@@ -2,7 +2,6 @@
+ from pptx.util import Inches, Pt
+ from pptx.enum.text import PP_ALIGN
+ from pptx.dml.color import RGBColor
+-from pptx.shapes.shapetree import SlideShapes
+ 
+ # Initialize presentation
+ presentation = Presentation()
+@@ -28,7 +27,7 @@
+     p = text_frame.add_paragraph()
+     p.text = text
+     p.font.size = Pt(font_size)
+-    p.font.bold = True
++    p.font.bold = False  # Changed from True to False to remove the outline
+     p.font.color.rgb = RGBColor(0, 0, 0)  # Black
+     p.alignment = PP_ALIGN.CENTER
+ 

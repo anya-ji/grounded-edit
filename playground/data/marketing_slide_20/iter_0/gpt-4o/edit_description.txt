@@ -1,1 +1,0 @@
-Edit the left side of the rendered image to remove the wavy cut, thereby allowing for a full view of the forklift and matching the clean edge of the target image.

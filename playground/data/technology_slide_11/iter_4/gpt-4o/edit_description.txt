@@ -1,1 +1,0 @@
-Move the entire text box containing the disadvantages list closer to the center of the image, aligning its left edge with the left edge of the text in the target image.

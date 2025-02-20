@@ -1,0 +1,1 @@
+Increase the font size of the paragraph text under "Museums and Private Collections" to 24pt for better readability.

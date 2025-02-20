@@ -1,0 +1,1 @@
+Change the border color around the bullet point boxes to a subtle light grey to ensure they stand out against the background.

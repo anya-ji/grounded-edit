@@ -1,1 +1,0 @@
-Change the font color of the text "THANK YOU" in the rendered image from dark green to the lighter green shade used in the target image, while also adjusting the font style to be more similar to the artistic style seen in the target image.

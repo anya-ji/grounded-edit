@@ -1,0 +1,29 @@
+--- ./data/art_photos_slide_13/init/code.py	2025-02-20 02:15:04.273043908 +0000
++++ ./data/art_photos_slide_13/gpt-4o/edit_1/code.py	2025-02-20 10:54:07.028326838 +0000
+@@ -2,8 +2,6 @@
+ from pptx.util import Inches, Pt
+ from pptx.dml.color import RGBColor
+ from pptx.enum.shapes import MSO_SHAPE
+-from pptx.oxml import parse_xml
+-from pptx.oxml.ns import nsdecls
+ 
+ # Initialize presentation
+ presentation = Presentation()
+@@ -11,7 +9,7 @@
+ presentation.slide_height = Inches(9)
+ 
+ # Add slide
+-slide_layout = presentation.slide_layouts[5] # BLANK layout
++slide_layout = presentation.slide_layouts[5]  # BLANK layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+ # Set background image
+@@ -32,7 +30,7 @@
+ title_paragraph = title_frame.paragraphs[0]
+ title_paragraph.font.size = Pt(44)
+ title_paragraph.font.bold = True
+-title_paragraph.font.color.rgb = RGBColor(0, 0, 0)  # Black text
++title_paragraph.font.color.rgb = RGBColor(0, 0, 0)  # Black text (RGB(0, 0, 0))
+ title_frame.text_anchor = "middle"
+ 
+ # Add subtitle

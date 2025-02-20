@@ -1,0 +1,21 @@
+--- ./data/business_slide_16/init/code.py	2025-02-20 02:15:04.124044213 +0000
++++ ./data/business_slide_16/gpt-4o/edit_0/code.py	2025-02-20 11:40:21.133619923 +0000
+@@ -2,7 +2,6 @@
+ from pptx.util import Inches, Pt
+ from pptx.enum.text import PP_ALIGN
+ from pptx.dml.color import RGBColor
+-from pptx.util import Inches
+ 
+ presentation = Presentation()
+ presentation.slide_width = Inches(16)
+@@ -11,6 +10,10 @@
+ # Add a blank slide
+ slide = presentation.slides.add_slide(presentation.slide_layouts[5])
+ 
++# Change slide background color to white
++slide.background.fill.solid()
++slide.background.fill.fore_color.rgb = RGBColor(255, 255, 255)  # White
++
+ # Add title with a dark gray background
+ title_height = Inches(1.5)
+ textbox = slide.shapes.add_textbox(0, 0, presentation.slide_width, title_height)

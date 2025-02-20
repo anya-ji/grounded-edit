@@ -1,0 +1,1 @@
+Ensure the font style of the title is set to bold for better visibility.

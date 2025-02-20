@@ -1,0 +1,15 @@
+--- ./data/art_photos_slide_4/init/code.py	2025-02-20 02:15:04.416043616 +0000
++++ ./data/art_photos_slide_4/gpt-4o/edit_0/code.py	2025-02-20 11:20:39.342781142 +0000
+@@ -12,9 +12,9 @@
+ slide_layout = presentation.slide_layouts[5]  # Blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set the slide background
+-background_img = "../../media/image_0.jpg"
+-slide.shapes.add_picture(background_img, 0, 0, presentation.slide_width, presentation.slide_height)
++# Set the slide background to white
++slide.background.fill.solid()
++slide.background.fill.fore_color.rgb = RGBColor(255, 255, 255)  # White background
+ 
+ # Add the smaller title at the top-left corner
+ title_text_box = slide.shapes.add_textbox(Inches(0.5), Inches(0.5), Inches(5), Inches(1))

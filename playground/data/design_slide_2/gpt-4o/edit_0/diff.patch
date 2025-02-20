@@ -1,0 +1,10 @@
+--- ./data/design_slide_2/init/code.py	2025-02-20 02:15:04.606043227 +0000
++++ ./data/design_slide_2/gpt-4o/edit_0/code.py	2025-02-20 12:35:50.300743167 +0000
+@@ -19,6 +19,7 @@
+ p.text = "What is Graphic Design?"
+ p.font.bold = True
+ p.font.size = Pt(32)
++p.font.color.rgb = RGBColor(51, 51, 51)  # Changed color to #333333
+ 
+ # Add bullet points
+ content_box = slide.shapes.add_textbox(Inches(8.5), Inches(2), Inches(7), Inches(4))

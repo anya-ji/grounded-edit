@@ -1,0 +1,1 @@
+Adjust the size of the title "Purpose of Blockchain" to increase its font size to be larger, such as `fontsize=36`.

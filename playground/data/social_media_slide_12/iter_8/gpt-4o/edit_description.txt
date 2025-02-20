@@ -1,1 +1,0 @@
-Apply bold formatting to the heading and ensure consistent spacing between the bullet points in the rendered image to match the target image's layout and readability.

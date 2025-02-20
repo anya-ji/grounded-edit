@@ -1,0 +1,16 @@
+--- ./data/business_slide_6/init/code.py	2025-02-20 02:15:04.098044267 +0000
++++ ./data/business_slide_6/gpt-4o/edit_3/code.py	2025-02-20 11:47:26.963204185 +0000
+@@ -12,11 +12,11 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set the background color to coral
++# Set the background color to #FF6B6B
+ background = slide.background
+ fill = background.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(255, 102, 102)
++fill.fore_color.rgb = RGBColor(255, 107, 107)  # Updated color
+ 
+ # Add the title text
+ text_box = slide.shapes.add_textbox(Inches(0), Inches(3.5), width=Inches(16), height=Inches(2))

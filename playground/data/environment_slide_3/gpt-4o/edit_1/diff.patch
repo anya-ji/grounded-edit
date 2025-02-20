@@ -1,0 +1,11 @@
+--- ./data/environment_slide_3/init/code.py	2025-02-20 02:15:04.780042870 +0000
++++ ./data/environment_slide_3/gpt-4o/edit_1/code.py	2025-02-20 12:55:34.625321561 +0000
+@@ -46,7 +46,7 @@
+ for point in bullet_points:
+     p = text_frame.add_paragraph()
+     p.text = point
+-    p.font.size = Pt(28)
++    p.font.size = Pt(24)  # Increased font size to 24pt
+     p.font.color.rgb = RGBColor(0, 0, 0)  # Black color
+     p.alignment = PP_ALIGN.LEFT
+ 

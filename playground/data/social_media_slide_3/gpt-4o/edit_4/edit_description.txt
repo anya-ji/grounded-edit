@@ -1,0 +1,1 @@
+Set the alignment of the bullet points text to justified to create a more uniform appearance.

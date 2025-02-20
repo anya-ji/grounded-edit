@@ -1,1 +1,0 @@
-Add bullet points to the description text in the rendered image to match the structured format of the target image.

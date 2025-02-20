@@ -1,0 +1,13 @@
+--- ./data/art_photos_slide_22/init/code.py	2025-02-20 02:15:04.202044054 +0000
++++ ./data/art_photos_slide_22/gpt-4o/edit_3/code.py	2025-02-20 11:12:10.681320547 +0000
+@@ -67,5 +67,9 @@
+     if idx == 0:
+         p.font.bold = True
+ 
++    # Change the color of the bullet point checkmark to dark green
++    if text.startswith("✓"):
++        p.font.color.rgb = RGBColor(0, 100, 0)  # Dark green
++
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

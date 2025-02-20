@@ -1,0 +1,19 @@
+--- ./data/marketing_slide_39/init/code.py	2025-02-20 02:15:03.910044651 +0000
++++ ./data/marketing_slide_39/gpt-4o/edit_0/code.py	2025-02-20 14:32:05.635696564 +0000
+@@ -2,7 +2,6 @@
+ from pptx.util import Inches, Pt
+ from pptx.dml.color import RGBColor
+ from pptx.enum.shapes import MSO_SHAPE
+-from pptx.util import Inches
+ 
+ # Create a presentation object
+ presentation = Presentation()
+@@ -29,7 +28,7 @@
+ # Set font details
+ for paragraph in text_frame.paragraphs:
+     for run in paragraph.runs:
+-        run.font.size = Pt(28)
++        run.font.size = Pt(28)  # Font size is already 28 points
+         run.font.bold = True
+         run.font.color.rgb = RGBColor(255, 255, 255)  # White font
+ 

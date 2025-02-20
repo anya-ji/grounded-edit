@@ -1,0 +1,5 @@
+<edit>Change the background color of the slide to a darker gradient, ensuring it transitions smoothly from black to a dark shade of grey.</edit>
+<edit>Set the text color of the list items to white for better readability against the darker background.</edit>
+<edit>Increase the font size of the title "Now: I, CAN" to 36 points to enhance its prominence on the slide.</edit>
+<edit>Add padding of 10 pixels around each bullet point to improve spacing and prevent text from touching the edges of the boxes.</edit>
+<edit>Change the border color around the bullet point boxes to a subtle light grey to ensure they stand out against the background.</edit>

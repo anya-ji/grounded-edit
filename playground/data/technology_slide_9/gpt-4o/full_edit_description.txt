@@ -1,0 +1,5 @@
+<edit>Change the title font size to 50 for better visibility of "Types of Blockchain".</edit>
+<edit>Add a checkbox symbol (e.g., "☐") before each item in the list to match the format in the target slide.</edit>
+<edit>Increase the line spacing of the text to 1.5 to improve readability.</edit>
+<edit>Change the background color of the slide to a light color (e.g., white) for better contrast with the text.</edit>
+<edit>Format the "Types of Blockchain" title to be bold for emphasis.</edit>

@@ -1,0 +1,1 @@
+Change the font size of "THANK YOU" to 120 to make it larger and more prominent.

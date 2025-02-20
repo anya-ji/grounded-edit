@@ -1,1 +1,0 @@
-Make the font of the question bold and ensure the green checkmark is positioned precisely at the bottom of the answer options for consistency with the target image.

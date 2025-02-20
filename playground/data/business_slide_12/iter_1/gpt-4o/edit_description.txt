@@ -1,1 +1,0 @@
-Remove the duplicate "NYC" text to simplify the design and make it more closely resemble the target image.

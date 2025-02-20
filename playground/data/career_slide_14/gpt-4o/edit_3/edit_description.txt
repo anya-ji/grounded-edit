@@ -1,0 +1,1 @@
+Change the font color of the bullet points under "Goal" and "Focus" in the "ACADEMIC WORLD" section from yellow to white for better contrast against the background.

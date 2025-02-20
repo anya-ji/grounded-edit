@@ -1,0 +1,10 @@
+--- ./data/career_slide_14/init/code.py	2025-02-20 02:15:04.994042432 +0000
++++ ./data/career_slide_14/gpt-4o/edit_4/code.py	2025-02-20 12:04:17.882023473 +0000
+@@ -109,6 +109,7 @@
+ professional_focus.text = "Focus: The focus is on productivity, problem-solving, and delivering results."
+ professional_focus.font.size = Pt(14)
+ professional_focus.font.color.rgb = RGBColor(255, 255, 255) # White color
++# Removed formatting from "Focus" here
+ 
+ # Professional World: Environment
+ professional_environment_box = slide.shapes.add_textbox(Inches(8.5), Inches(4), Inches(7), Inches(3))

@@ -1,0 +1,23 @@
+--- ./data/social_media_slide_1/init/code.py	2025-02-20 02:15:04.890042645 +0000
++++ ./data/social_media_slide_1/gpt-4o/edit_2/code.py	2025-02-20 14:50:42.540732329 +0000
+@@ -14,7 +14,6 @@
+ image_path = "../../media/image_0.jpg"
+ 
+ # Add the image in the center of the slide
+-# Centering calculations
+ image_width = Inches(3)
+ image_height = Inches(3)
+ 
+@@ -23,5 +22,11 @@
+ 
+ slide.shapes.add_picture(image_path, left, top, width=image_width, height=image_height)
+ 
++# Add text with equal spacing
++text = "global   media   cultures"  # Adjusted spacing
++text_box = slide.shapes.add_textbox(left, top + image_height + Inches(0.5), width=presentation.slide_width, height=Inches(1))
++text_frame = text_box.text_frame
++text_frame.text = text
++
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

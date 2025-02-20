@@ -1,0 +1,1 @@
+Add more vertical spacing between the bullet points in the list to avoid crowding and enhance clarity. Consider adding at least 10 points of space between each item.

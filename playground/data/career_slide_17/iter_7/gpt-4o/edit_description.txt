@@ -1,1 +1,0 @@
-Change the font color of the "PROFESSIONAL WORLD" section from yellow to a darker shade, such as a soft orange or gold, to improve readability against the dark background.

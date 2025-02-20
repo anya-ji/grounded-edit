@@ -1,0 +1,1 @@
+Add a margin of 10 pixels between the images and the edges of their containers to ensure they do not feel cramped.

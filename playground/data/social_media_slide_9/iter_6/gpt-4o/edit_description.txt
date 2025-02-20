@@ -1,1 +1,0 @@
-Update the first bullet point to end with a semicolon instead of a period.

@@ -1,1 +1,0 @@
-Modify the text formatting to use bullet points for the list items in the rendered image to match the target image's structure.

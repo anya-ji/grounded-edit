@@ -1,0 +1,1 @@
+Reposition the image so it is aligned with the bottom of the text box while maintaining a consistent margin around it.

@@ -1,1 +1,0 @@
-Change the background gradient of the rendered image from dark blue to bright cyan to a solid dark teal color to match the target image's background.

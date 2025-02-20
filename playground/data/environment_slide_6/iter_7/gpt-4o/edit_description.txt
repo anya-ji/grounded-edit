@@ -1,1 +1,0 @@
-Decrease the saturation of the image in the rendered slide to match the more natural color tones of the target image.

@@ -1,0 +1,11 @@
+--- ./data/career_slide_8/init/code.py	2025-02-20 02:15:05.008042404 +0000
++++ ./data/career_slide_8/gpt-4o/edit_1/code.py	2025-02-20 12:30:39.111480425 +0000
+@@ -43,7 +43,7 @@
+     name_p.text = name
+     name_p.font.bold = True
+     name_p.font.size = Pt(18)
+-    name_p.font.color.rgb = RGBColor(255, 255, 0)
++    name_p.font.color.rgb = RGBColor(255, 255, 0)  # Changed to yellow
+ 
+     # Title
+     title_p = text_frame.add_paragraph()

@@ -1,0 +1,5 @@
+<edit>Change the background color of the slide to black using plt.figure(facecolor='black').</edit>
+<edit>Change the text color of "BIG QUESTION" to blue using text.set_color('blue').</edit>
+<edit>Change the font weight of "HOW DO MARKETS HELP US?" to bold using text.set_weight('bold').</edit>
+<edit>Adjust the position of "HOW DO MARKETS HELP US?" text to be centered vertically and horizontally in its area using text.set_horizontalalignment('center') and text.set_verticalalignment('center').</edit>
+<edit>Modify the color of the ribbon to a darker orange using plt.fill_betweenx().</edit>

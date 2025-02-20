@@ -1,0 +1,1 @@
+Align the image of Joey to the center of the space allotted for it, ensuring it maintains the same spacing from the text above and below.

@@ -1,0 +1,12 @@
+--- ./data/marketing_slide_34/init/code.py	2025-02-20 02:15:03.953044563 +0000
++++ ./data/marketing_slide_34/gpt-4o/edit_3/code.py	2025-02-20 14:25:39.934015494 +0000
+@@ -42,6 +42,9 @@
+ subtitle_p.font.bold = True
+ subtitle_box.text_frame.paragraphs[0].alignment = 1  # Center alignment
+ 
++# Change subtitle alignment to center across the textbox
++subtitle_box.text_frame.paragraphs[0].alignment = 1  # Center alignment
++
+ # Add a small red rectangle in the top right corner for visual interest
+ red_rect = slide.shapes.add_shape(
+     MSO_SHAPE.RECTANGLE, Inches(14), Inches(0.5), Inches(1), Inches(0.5))

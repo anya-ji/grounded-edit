@@ -1,4 +1,0 @@
-Failed to execute code at iteration 6: Traceback (most recent call last):
-  File "/home/anyaji/grounded-edit/playground/data/technology_slide_11/iter_6/gpt-4o/code.py", line 44, in <module>
-    line = slide.shapes.add_line(Inches(10), Inches(1.5), Inches(10), Inches(6.5))
-AttributeError: 'SlideShapes' object has no attribute 'add_line'

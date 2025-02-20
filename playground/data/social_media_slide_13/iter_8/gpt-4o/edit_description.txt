@@ -1,1 +1,0 @@
-Adjust the text box alignment settings in the rendered image to ensure that all text is fully visible and appropriately aligned within the margins.

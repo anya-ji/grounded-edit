@@ -1,0 +1,11 @@
+--- ./data/food_slide_6/init/code.py	2025-02-20 02:15:04.703043028 +0000
++++ ./data/food_slide_6/gpt-4o/edit_2/code.py	2025-02-20 13:43:24.410006165 +0000
+@@ -30,7 +30,7 @@
+ 
+ # Add speech bubble graphic on the left
+ speech_bubble = slide.shapes.add_shape(
+-    MSO_SHAPE.CLOUD_CALLOUT, Inches(1), Inches(2.5), Inches(1.5), Inches(1)
++    MSO_SHAPE.CLOUD_CALLOUT, Inches(1), Inches(2.7), Inches(1.5), Inches(1)  # Shifted down by 20 pixels
+ )
+ speech_bubble.fill.solid()
+ speech_bubble.fill.fore_color.rgb = RGBColor(230, 230, 250)  # Light lavender

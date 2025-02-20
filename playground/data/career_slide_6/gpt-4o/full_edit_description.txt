@@ -1,0 +1,5 @@
+<edit>Change the font color of the text "Global Competitiveness" to white to improve contrast against the background.</edit>
+<edit>Set the font size of the subtitle "Scientific Advancement and Research" to a smaller size (e.g., 24 pt) to reduce visual clutter.</edit>
+<edit>Adjust the vertical alignment of the text block under "Cultural Enrichment and Social Cohesion" to ensure better spacing from the bottom of the slide.</edit>
+<edit>Change the background color of the entire slide to a darker shade (e.g., black or dark gray) for better visual appeal.</edit>
+<edit>Increase the padding around the text in all text boxes to create more breathing space and enhance readability.</edit>

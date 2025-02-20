@@ -1,0 +1,19 @@
+--- ./data/marketing_slide_32/init/code.py	2025-02-20 02:15:03.997044473 +0000
++++ ./data/marketing_slide_32/gpt-4o/edit_3/code.py	2025-02-20 14:22:06.729830182 +0000
+@@ -14,6 +14,7 @@
+ # Set colors
+ black_rgb = RGBColor(0, 0, 0)
+ white_rgb = RGBColor(255, 255, 255)
++light_gray_rgb = RGBColor(211, 211, 211)  # Lighter shade of gray
+ 
+ # Add black rectangle on the left side
+ left_box = slide.shapes.add_shape(
+@@ -46,7 +47,7 @@
+     bullet = bullet_frame.add_paragraph()
+     bullet.text = bullet_text
+     bullet.font.size = Pt(32)
+-    bullet.font.color.rgb = white_rgb
++    bullet.font.color.rgb = light_gray_rgb  # Change to lighter gray
+ 
+ # Insert image on the right side
+ image_path = "../../media/image_0.jpg"

@@ -1,0 +1,1 @@
+Change the font color of the text "The Bélo tells the story of the company in one symbol." from orange to white. Update the code for the text color to the color "#FFFFFF".

@@ -1,0 +1,11 @@
+--- ./data/marketing_slide_10/init/code.py	2025-02-20 02:15:03.973044522 +0000
++++ ./data/marketing_slide_10/gpt-4o/edit_0/code.py	2025-02-20 13:48:23.432436291 +0000
+@@ -23,7 +23,7 @@
+ title_p = title_frame.add_paragraph()
+ title_p.text = "HOMEWORK"
+ title_p.font.bold = True
+-title_p.font.size = Pt(60)
++title_p.font.size = Pt(48)  # Changed from 60 to 48
+ title_p.font.color.rgb = RGBColor(255, 255, 255)
+ 
+ # Add question text box

@@ -1,0 +1,1 @@
+Position the option labels ("a)", "b)", "c)") to be left-aligned to maintain a consistent layout.

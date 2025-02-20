@@ -1,0 +1,23 @@
+--- ./data/marketing_slide_19/init/code.py	2025-02-20 02:15:03.995044477 +0000
++++ ./data/marketing_slide_19/gpt-4o/edit_0/code.py	2025-02-20 13:59:58.554696314 +0000
+@@ -11,11 +11,17 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set dark background
++# Set gradient background
+ background = slide.background
+ fill = background.fill
+-fill.solid()
+-fill.fore_color.rgb = RGBColor(18, 18, 18)  # Dark color
++fill.gradient()
++stop1 = fill.gradient_stops[0]
++stop1.position = 0
++stop1.color.rgb = RGBColor(0, 100, 0)  # Dark green
++
++stop2 = fill.gradient_stops[1]
++stop2.position = 1
++stop2.color.rgb = RGBColor(144, 238, 144)  # Light green
+ 
+ # Add title text "THE MARKETING MIX"
+ title_box = slide.shapes.add_textbox(Inches(0.5), Inches(0.2), Inches(8), Inches(1))

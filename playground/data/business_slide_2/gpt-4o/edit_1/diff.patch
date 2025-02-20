@@ -1,0 +1,11 @@
+--- ./data/business_slide_2/init/code.py	2025-02-20 02:15:04.078044307 +0000
++++ ./data/business_slide_2/gpt-4o/edit_1/code.py	2025-02-20 11:41:45.573494323 +0000
+@@ -23,7 +23,7 @@
+ title_tf = title_box.text_frame
+ title_tf.paragraphs[0].text = "Misión"
+ title_tf.paragraphs[0].font.bold = True
+-title_tf.paragraphs[0].font.size = Pt(44)
++title_tf.paragraphs[0].font.size = Pt(48)  # Changed font size to 48pt
+ title_tf.paragraphs[0].font.color.rgb = RGBColor(255, 255, 255)  # White
+ title_tf.paragraphs[0].alignment = PP_ALIGN.LEFT
+ 

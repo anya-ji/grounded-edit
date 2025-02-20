@@ -1,0 +1,14 @@
+--- ./data/marketing_slide_20/init/code.py	2025-02-20 02:15:03.919044633 +0000
++++ ./data/marketing_slide_20/gpt-4o/edit_2/code.py	2025-02-20 14:03:58.371522355 +0000
+@@ -47,9 +47,9 @@
+ text_frame = title_text_box.text_frame
+ p = text_frame.add_paragraph()
+ p.text = "Transportation and Storage"
+-p.font.bold = True
+ p.font.size = Pt(44)
+ p.font.color.rgb = RGBColor(0, 0, 0)  # Black color for contrast
++p.font.bold = False  # Change to regular font weight
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

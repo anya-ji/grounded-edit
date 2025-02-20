@@ -1,0 +1,1 @@
+Resize the "KNOW YOUR CUSTOMER" sign image to ensure it fills the same amount of vertical space as in the target slide.

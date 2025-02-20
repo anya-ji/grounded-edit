@@ -1,0 +1,11 @@
+--- ./data/career_slide_18/init/code.py	2025-02-20 02:15:04.972042477 +0000
++++ ./data/career_slide_18/gpt-4o/edit_0/code.py	2025-02-20 12:13:22.401595844 +0000
+@@ -24,7 +24,7 @@
+ title_frame.word_wrap = True
+ title_paragraph = title_frame.add_paragraph()
+ title_paragraph.text = title_text
+-title_paragraph.font.size = Pt(44)
++title_paragraph.font.size = Pt(48)  # Changed from Pt(44) to Pt(48)
+ title_paragraph.font.bold = True
+ title_paragraph.font.color.rgb = RGBColor(255, 255, 255)  # White color
+ 

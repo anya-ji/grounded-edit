@@ -1,0 +1,1 @@
+Change the color of the title text "The Subject of Art" to black for enhanced contrast and visibility.

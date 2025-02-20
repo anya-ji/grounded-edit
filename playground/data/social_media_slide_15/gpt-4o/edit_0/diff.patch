@@ -1,0 +1,11 @@
+--- ./data/social_media_slide_15/init/code.py	2025-02-20 02:15:04.887042651 +0000
++++ ./data/social_media_slide_15/gpt-4o/edit_0/code.py	2025-02-20 14:59:49.873270726 +0000
+@@ -17,7 +17,7 @@
+ p = title_frame.add_paragraph()
+ p.text = "Global and Local Cultural Products"
+ p.font.bold = True
+-p.font.size = Pt(44)
++p.font.size = Pt(36)  # Changed from 44 to 36
+ p.font.color.rgb = RGBColor(255, 255, 255)  # White text
+ 
+ # Add subtitle

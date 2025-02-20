@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image has a light pink header with the word "Vision" in white text, and a white background with a gray Airbnb logo at the bottom left in a darker shade of pink.
-2. Description of Rendered Image: The rendered image has a red header with the same word "Vision" in bold white text, and a similar white background, but the Airbnb logo at the bottom left is rendered in a lighter shade of pink.
-3. Change Suggestion: Change the header color from red to light pink to match the target image.
-```

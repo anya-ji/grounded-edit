@@ -1,0 +1,16 @@
+--- ./data/business_slide_13/init/code.py	2025-02-20 02:15:04.068044328 +0000
++++ ./data/business_slide_13/gpt-4o/edit_4/code.py	2025-02-20 11:38:39.567945903 +0000
+@@ -12,9 +12,10 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set background image
+-background_image_path = "../../media/image_0.jpg"
+-slide.shapes.add_picture(background_image_path, Inches(0), Inches(0), Inches(16), Inches(9))
++# Set slide background color to light green
++background_color = RGBColor(209, 232, 185)  # #D1E8B9
++slide.background.fill.solid()
++slide.background.fill.fore_color.rgb = background_color
+ 
+ # Add a title
+ title = "Innovations (Future Products or Services)"

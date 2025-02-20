@@ -1,0 +1,12 @@
+--- ./data/environment_slide_6/init/code.py	2025-02-20 02:15:04.786042858 +0000
++++ ./data/environment_slide_6/gpt-4o/edit_3/code.py	2025-02-20 13:01:08.694246951 +0000
+@@ -47,6 +47,9 @@
+ content.font.color.rgb = RGBColor(0, 0, 0)  # Black font
+ content.font.size = Pt(20)
+ content.alignment = PP_ALIGN.LEFT
++content.space_before = Pt(12)  # Adjust spacing before the paragraph
++content.space_after = Pt(12)   # Adjust spacing after the paragraph
++text_frame.line_spacing = Pt(30)  # Set line spacing to 1.5
+ 
+ # Add the sunset image below the texts
+ image_path = "../../media/image_0.jpg"

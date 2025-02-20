@@ -1,0 +1,1 @@
+Increase the font size of the title "Are Top Grades Enough?" to match the size shown in the target slide.

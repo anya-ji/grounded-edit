@@ -1,0 +1,4 @@
+Failed to execute code for edit 3: Traceback (most recent call last):
+  File "/home/anyaji/grounded-edit/playground/data/food_slide_21/gpt-4o/edit_3/code.py", line 56, in <module>
+    bullet = sentence_paragraph.bullet
+AttributeError: '_Paragraph' object has no attribute 'bullet'

@@ -1,0 +1,1 @@
+Add a margin of 20 points at the bottom of the slide to provide sufficient spacing from the edge.

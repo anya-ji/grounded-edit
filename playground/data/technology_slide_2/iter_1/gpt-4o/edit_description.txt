@@ -1,1 +1,0 @@
-Add bullet points to the rendered image to match the formatting of the target image, ensuring that each point starts with a checkbox for visual consistency.

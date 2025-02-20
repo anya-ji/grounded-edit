@@ -1,1 +1,0 @@
-Change the header background color from yellow to the original yellow color used in the target image, ensuring a consistent bold black font for the title "KEEPING ART".

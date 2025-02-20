@@ -1,0 +1,12 @@
+--- ./data/social_media_slide_18/init/code.py	2025-02-20 02:15:04.880042666 +0000
++++ ./data/social_media_slide_18/gpt-4o/edit_3/code.py	2025-02-20 15:06:03.359250371 +0000
+@@ -54,6 +54,7 @@
+     p.text = point
+     p.font.size = Pt(18)
+     p.font.color.rgb = RGBColor(255, 255, 255)  # White text
+-    p.space_after = Pt(10)  # Space after each bullet point
++    p.space_after = Pt(15)  # Space after each bullet point
++    p.line_spacing = Pt(27)  # Setting line spacing to 1.5 (18pt * 1.5 = 27pt)
+ 
+ presentation.save("render.pptx")
+\ No newline at end of file

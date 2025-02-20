@@ -1,1 +1,0 @@
-Adjust the positioning of the text "Producer or manufacturer" to be centered within its box and ensure it fits properly without overflow, maintaining consistent text size and alignment with other labels.

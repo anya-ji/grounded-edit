@@ -1,1 +1,0 @@
-Change the text color of the "PROFESSIONAL WORLD" heading from green to the same blue color used for the "ACADEMIC WORLD" heading to ensure consistent styling.

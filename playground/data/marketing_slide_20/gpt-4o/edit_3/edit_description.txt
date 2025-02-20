@@ -1,0 +1,1 @@
+Add a subtle drop shadow effect to the text "Transportation and Storage" to enhance its readability against the background.

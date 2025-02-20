@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The text is displayed with a darker background, a clear contrast, and the headings highlighted in a bold light color.
-2. Description of Rendered Image: The text has a brighter background and the headings are bold, but the contrast with the background is less effective, making it harder to read.
-3. Change Suggestion: Change the background color of the rendered image from light to dark to enhance text readability.
-```

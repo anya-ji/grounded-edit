@@ -1,0 +1,23 @@
+--- ./data/design_slide_6/init/code.py	2025-02-20 02:15:04.611043216 +0000
++++ ./data/design_slide_6/gpt-4o/edit_1/code.py	2025-02-20 12:43:10.112668720 +0000
+@@ -43,17 +43,17 @@
+                      "Google search organic services to clients all over the world. "
+                      "We can help your website indexed on top search engines and rate "
+                      "higher in order for it to be found.")
+-p1.font.size = Pt(20)
++p1.font.size = Pt(24)  # Changed font size to 24pt
+ p1.font.color.rgb = RGBColor(255, 255, 255)  # White text
+ 
+ p2 = text_frame.add_paragraph()
+ p2.text = "Contact us for more details;"
+-p2.font.size = Pt(20)
++p2.font.size = Pt(24)  # Changed font size to 24pt
+ p2.font.color.rgb = RGBColor(255, 255, 255)  # White text
+ 
+ p3 = text_frame.add_paragraph()
+ p3.text = "+916282126012"
+-p3.font.size = Pt(20)
++p3.font.size = Pt(24)  # Changed font size to 24pt
+ p3.font.color.rgb = RGBColor(255, 255, 255)  # White text
+ 
+ # Save the presentation

@@ -1,0 +1,11 @@
+--- ./data/technology_slide_4/init/code.py	2025-02-20 02:15:05.085042246 +0000
++++ ./data/technology_slide_4/gpt-4o/edit_1/code.py	2025-02-20 15:37:33.600808969 +0000
+@@ -20,7 +20,7 @@
+ # Title formatting
+ title_p = title_frame.add_paragraph()
+ title_p.text = title_text
+-title_p.font.size = Pt(44)
++title_p.font.size = Pt(50)  # Increased font size
+ title_p.font.bold = True
+ title_p.alignment = PP_ALIGN.CENTER
+ 

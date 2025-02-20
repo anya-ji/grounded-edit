@@ -1,0 +1,11 @@
+--- ./data/business_slide_8/init/code.py	2025-02-20 02:15:04.081044301 +0000
++++ ./data/business_slide_8/gpt-4o/edit_0/code.py	2025-02-20 11:49:45.528986108 +0000
+@@ -18,7 +18,7 @@
+ title_paragraph = title_text_frame.add_paragraph()
+ title_paragraph.text = "Branding"
+ title_paragraph.font.bold = True
+-title_paragraph.font.size = Pt(44)
++title_paragraph.font.size = Pt(48)  # Changed from 44 to 48
+ title_paragraph.font.color.rgb = RGBColor(0, 0, 0)  # Black text
+ 
+ # Set background color to light gray

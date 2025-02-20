@@ -1,0 +1,27 @@
+--- ./data/marketing_slide_30/init/code.py	2025-02-20 02:15:03.857044760 +0000
++++ ./data/marketing_slide_30/gpt-4o/edit_4/code.py	2025-02-20 14:20:56.183109268 +0000
+@@ -30,20 +30,22 @@
+ p.font.color.rgb = RGBColor(255, 255, 255)
+ p.alignment = PP_ALIGN.CENTER
+ 
+-# Add the first bullet point
++# Add the first bullet point with border
+ top_box = slide.shapes.add_textbox(Inches(1), Inches(2), Inches(14), Inches(1.5))
+ top_box.fill.solid()
+ top_box.fill.fore_color.rgb = RGBColor(255, 165, 0)  # Orange
++top_box.line.color.rgb = RGBColor(211, 211, 211)  # Light grey border
+ top_frame = top_box.text_frame
+ top_frame.word_wrap = True
+ top_frame.text = "Differentiate between different types of market."
+ top_frame.paragraphs[0].font.size = Pt(24)
+ top_frame.paragraphs[0].font.color.rgb = RGBColor(0, 0, 0)
+ 
+-# Add the second bullet point
++# Add the second bullet point with border
+ bottom_box = slide.shapes.add_textbox(Inches(1), Inches(4), Inches(14), Inches(1.5))
+ bottom_box.fill.solid()
+ bottom_box.fill.fore_color.rgb = RGBColor(255, 255, 0)  # Yellow
++bottom_box.line.color.rgb = RGBColor(211, 211, 211)  # Light grey border
+ bottom_frame = bottom_box.text_frame
+ bottom_frame.word_wrap = True
+ bottom_frame.text = "Explain why society need different types of market."

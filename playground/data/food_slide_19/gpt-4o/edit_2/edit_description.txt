@@ -1,0 +1,1 @@
+Add padding of 10 px to the text box containing the story to improve readability and spacing.

@@ -1,0 +1,21 @@
+--- ./data/food_slide_13/init/code.py	2025-02-20 02:15:04.691043053 +0000
++++ ./data/food_slide_13/gpt-4o/edit_0/code.py	2025-02-20 13:10:34.740574365 +0000
+@@ -33,12 +33,12 @@
+ checklist_frame = checklist_box.text_frame
+ 
+ events = [
+-    "1. Sarah leaves the table for a phone call.",
+-    "2. Joey doesn’t like the dessert he orders and tries to order a different one.",
+-    "3. Joey refuses to apologize when Sarah returns.",
+-    "4. Joey apologizes for getting angry that Sarah took his food on the first date.",
+-    "5. Joey is unable to control himself and eats all of Sarah’s dessert.",
+-    "6. The waiter arrives with their desserts."
++    "☐ Sarah leaves the table for a phone call.",
++    "☐ Joey doesn’t like the dessert he orders and tries to order a different one.",
++    "☐ Joey refuses to apologize when Sarah returns.",
++    "☐ Joey apologizes for getting angry that Sarah took his food on the first date.",
++    "☐ Joey is unable to control himself and eats all of Sarah’s dessert.",
++    "☐ The waiter arrives with their desserts."
+ ]
+ 
+ for event in events:

@@ -1,0 +1,15 @@
+--- ./data/social_media_slide_3/init/code.py	2025-02-20 02:15:04.883042660 +0000
++++ ./data/social_media_slide_3/gpt-4o/edit_0/code.py	2025-02-20 15:13:04.795487946 +0000
+@@ -43,10 +43,10 @@
+ for point in bullet_points:
+     p = tf.add_paragraph()
+     p.text = f"✔ {point}"
+-    p.font.size = Pt(20)
++    p.font.size = Pt(24)  # Changed from 20 to 24 for better readability
+     p.font.color.rgb = RGBColor(255, 255, 255)  # White
+     p.space_before = Pt(14)
+-    
++
+ # Insert image on the right side
+ image_path = "../../media/image_0.jpg"
+ slide.shapes.add_picture(image_path, Inches(8), Inches(2), Inches(7.5), Inches(6))

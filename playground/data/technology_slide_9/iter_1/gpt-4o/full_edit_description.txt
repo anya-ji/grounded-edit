@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: A slide that presents types of blockchain networks with checkboxes next to the bullet points indicating completion.
-2. Description of Rendered Image: A similar slide, but with empty checkbox symbols next to the bullet points, suggesting that none have been marked.
-3. Change Suggestion: Change the empty checkbox symbols to checked checkbox symbols next to each bullet point to indicate completion.
-```

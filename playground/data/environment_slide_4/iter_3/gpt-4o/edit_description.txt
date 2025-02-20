@@ -1,1 +1,0 @@
-Adjust the background color to a lighter shade of green to match the target image's aesthetic more closely, ensuring a smooth transition between the header and the body text.

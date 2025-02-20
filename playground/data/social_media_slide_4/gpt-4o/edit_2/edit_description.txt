@@ -1,0 +1,1 @@
+Modify the color of the main body text to a darker shade for improved readability, such as RGB(34, 34, 34).

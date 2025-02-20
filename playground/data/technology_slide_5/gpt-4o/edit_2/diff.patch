@@ -1,0 +1,11 @@
+--- ./data/technology_slide_5/init/code.py	2025-02-20 02:15:05.094042228 +0000
++++ ./data/technology_slide_5/gpt-4o/edit_2/code.py	2025-02-20 15:39:23.308516878 +0000
+@@ -45,7 +45,7 @@
+     p = text_frame.add_paragraph()
+     p.text = item
+     p.font.size = Pt(28)
+-    p.space_after = Pt(5)
++    p.space_after = Pt(10)  # Increased spacing after each item
+ 
+ # Add image
+ image_path = "../../media/image_0.jpg"

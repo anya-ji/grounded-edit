@@ -1,0 +1,19 @@
+--- ./data/art_photos_slide_4/init/code.py	2025-02-20 02:15:04.416043616 +0000
++++ ./data/art_photos_slide_4/gpt-4o/edit_2/code.py	2025-02-20 11:21:17.949620587 +0000
+@@ -33,7 +33,7 @@
+ main_title_text_frame.paragraphs[0].font.size = Pt(40)
+ main_title_text_frame.paragraphs[0].alignment = PP_ALIGN.CENTER
+ 
+-# Add the main content
++# Add the main content with updated text color
+ content_text_box = slide.shapes.add_textbox(Inches(5), Inches(7.5), Inches(12), Inches(1.5))
+ content_text_box.fill.solid()
+ content_text_box.fill.fore_color.rgb = RGBColor(255, 255, 255)  # White background
+@@ -41,6 +41,7 @@
+ content_text_frame.text = "A cat catching a bird is the subject of both works above."
+ content_text_frame.paragraphs[0].font.size = Pt(20)
+ content_text_frame.paragraphs[0].alignment = PP_ALIGN.CENTER
++content_text_frame.paragraphs[0].font.color.rgb = RGBColor(51, 51, 51)  # Dark gray text
+ 
+ # Add two images side by side
+ image_1_path = "../../media/image_1.jpg"

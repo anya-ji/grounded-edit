@@ -1,1 +1,0 @@
-Change the font color of the text in the "Innovation and Technological Advancement" section from red to white to enhance readability against the dark background.

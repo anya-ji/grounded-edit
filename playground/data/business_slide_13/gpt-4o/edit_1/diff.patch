@@ -1,0 +1,13 @@
+--- ./data/business_slide_13/init/code.py	2025-02-20 02:15:04.068044328 +0000
++++ ./data/business_slide_13/gpt-4o/edit_1/code.py	2025-02-20 11:37:54.558091204 +0000
+@@ -31,8 +31,8 @@
+ p.font.size = Pt(44)
+ p.alignment = PP_ALIGN.LEFT
+ 
+-# Set font color and outline for contrast
+-p.font.color.rgb = RGBColor(255, 255, 255)  # White font
++# Set font color to black for contrast
++p.font.color.rgb = RGBColor(0, 0, 0)  # Black font
+ p.shadow = True  # Add shadow for visual contrast
+ 
+ # Save the presentation

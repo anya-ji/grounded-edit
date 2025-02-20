@@ -1,0 +1,12 @@
+--- ./data/entrepreneur_slide_2/init/code.py	2025-02-20 02:15:04.515043413 +0000
++++ ./data/entrepreneur_slide_2/gpt-4o/edit_3/code.py	2025-02-20 12:45:01.400393468 +0000
+@@ -57,6 +57,8 @@
+     p.font.size = Pt(28)
+     p.font.color.rgb = RGBColor(0, 0, 0)
+     p.space_before = Pt(10)
++    p.space_after = Pt(10)  # Adds spacing after each bullet point
++    p.line_spacing = Pt(42)  # Sets line spacing to 1.5 times the font size
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

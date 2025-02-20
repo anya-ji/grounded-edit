@@ -1,0 +1,1 @@
+Add a shadow effect to the text in the rendered slide for improved visibility against the background.

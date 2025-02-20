@@ -1,0 +1,72 @@
+--- ./data/career_slide_4/init/code.py	2025-02-20 02:15:04.976042469 +0000
++++ ./data/career_slide_4/gpt-4o/edit_4/code.py	2025-02-20 12:23:08.182474626 +0000
+@@ -2,7 +2,6 @@
+ from pptx.util import Inches, Pt
+ from pptx.enum.text import PP_ALIGN
+ from pptx.dml.color import RGBColor
+-from pptx.util import Inches
+ 
+ # Create a presentation
+ presentation = Presentation()
+@@ -10,7 +9,7 @@
+ presentation.slide_height = Inches(9)
+ 
+ # Add a slide
+-slide_layout = presentation.slide_layouts[5] # blank layout
++slide_layout = presentation.slide_layouts[5]  # blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+ # Set dark background
+@@ -31,7 +30,7 @@
+ 
+ # Section 1
+ left_title = "Personal Growth and Development"
+-left_box = slide.shapes.add_textbox(Inches(0.5), Inches(1.5), Inches(5), Inches(1.0))
++left_box = slide.shapes.add_textbox(Inches(1), Inches(1.5), Inches(5), Inches(1.0))
+ left_frame = left_box.text_frame
+ left_p = left_frame.add_paragraph()
+ left_p.text = left_title
+@@ -49,12 +48,12 @@
+     p.font.color.rgb = RGBColor(255, 255, 255)  # white color
+ 
+ # Add image to left section
+-left_image_path = "../../media/image_0.jpg" # replace with your own image path
+-slide.shapes.add_picture(left_image_path, Inches(0.5), Inches(3.0), width=Inches(4))
++left_image_path = "../../media/image_0.jpg"  # replace with your own image path
++slide.shapes.add_picture(left_image_path, Inches(1), Inches(3.0), width=Inches(4))
+ 
+ # Section 2
+ middle_title = "Employability and Career Opportunities"
+-middle_box = slide.shapes.add_textbox(Inches(5.5), Inches(1.5), Inches(5), Inches(1.0))
++middle_box = slide.shapes.add_textbox(Inches(6), Inches(1.5), Inches(5), Inches(1.0))
+ middle_frame = middle_box.text_frame
+ middle_p = middle_frame.add_paragraph()
+ middle_p.text = middle_title
+@@ -72,12 +71,12 @@
+     p.font.color.rgb = RGBColor(255, 255, 255)  # white color
+ 
+ # Add image to middle section
+-middle_image_path = "../../media/image_0.jpg" # replace with your own image path
+-slide.shapes.add_picture(middle_image_path, Inches(5.5), Inches(3.0), width=Inches(4))
++middle_image_path = "../../media/image_0.jpg"  # replace with your own image path
++slide.shapes.add_picture(middle_image_path, Inches(6), Inches(3.0), width=Inches(4))
+ 
+ # Section 3
+ right_title = "Economic Impact"
+-right_box = slide.shapes.add_textbox(Inches(10.5), Inches(1.5), Inches(5), Inches(1.0))
++right_box = slide.shapes.add_textbox(Inches(11), Inches(1.5), Inches(5), Inches(1.0))
+ right_frame = right_box.text_frame
+ right_p = right_frame.add_paragraph()
+ right_p.text = right_title
+@@ -94,8 +93,8 @@
+ p.font.color.rgb = RGBColor(255, 255, 255)  # white color
+ 
+ # Add image to right section
+-right_image_path = "../../media/image_1.jpg" # replace with your own image path
+-slide.shapes.add_picture(right_image_path, Inches(10.5), Inches(3.0), width=Inches(4))
++right_image_path = "../../media/image_1.jpg"  # replace with your own image path
++slide.shapes.add_picture(right_image_path, Inches(11), Inches(3.0), width=Inches(4))
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

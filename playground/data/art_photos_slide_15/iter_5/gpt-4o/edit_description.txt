@@ -1,1 +1,0 @@
-Increase the texture of the paint on the left side of the rendered image by applying a "roughness" texture filter to enhance the depth and contrast of the colors.

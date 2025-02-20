@@ -1,0 +1,14 @@
+--- ./data/social_media_slide_20/init/code.py	2025-02-20 02:15:04.874042678 +0000
++++ ./data/social_media_slide_20/gpt-4o/edit_2/code.py	2025-02-20 15:11:15.187713493 +0000
+@@ -42,9 +42,9 @@
+ content_frame = content_text_box.text_frame
+ content_frame.word_wrap = True
+ 
+-# Bullet point 1
++# Bullet point 1 with a bullet symbol
+ bullet_1 = content_frame.add_paragraph()
+-bullet_1.text = "approach stresses homogeneity introduced by globalization."
++bullet_1.text = "• approach stresses homogeneity introduced by globalization."
+ bullet_1.font.size = Pt(24)
+ bullet_1.font.color.rgb = RGBColor(255, 255, 255)  # White
+ 

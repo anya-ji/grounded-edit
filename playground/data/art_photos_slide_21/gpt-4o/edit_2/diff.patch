@@ -1,0 +1,11 @@
+--- ./data/art_photos_slide_21/init/code.py	2025-02-20 02:15:04.253043949 +0000
++++ ./data/art_photos_slide_21/gpt-4o/edit_2/code.py	2025-02-20 11:10:15.943061499 +0000
+@@ -41,7 +41,7 @@
+ 
+ main_title_p = main_title_frame.add_paragraph()
+ main_title_p.text = "Three levels of meaning"
+-main_title_p.font.size = Pt(32)
++main_title_p.font.size = Pt(36)  # Changed from 32 to 36
+ main_title_p.font.bold = True
+ main_title_p.font.color.rgb = RGBColor(0, 0, 0)
+ 

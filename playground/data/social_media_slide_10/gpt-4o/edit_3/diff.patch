@@ -1,0 +1,13 @@
+--- ./data/social_media_slide_10/init/code.py	2025-02-20 02:15:04.892042641 +0000
++++ ./data/social_media_slide_10/gpt-4o/edit_3/code.py	2025-02-20 14:52:47.680408560 +0000
+@@ -41,8 +41,8 @@
+ p.space_after = Pt(10)
+ 
+ bullet_points = [
+-    "are used for globalization to work all over the world",
+-    "Media plays a major role in globalization"
++    "✓ are used for globalization to work all over the world",
++    "✓ Media plays a major role in globalization"
+ ]
+ 
+ for point in bullet_points:

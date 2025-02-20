@@ -1,0 +1,1 @@
+Change the text "ACADEMIC WORLD" from a bold blue color to a bold lighter blue color to enhance the contrast.

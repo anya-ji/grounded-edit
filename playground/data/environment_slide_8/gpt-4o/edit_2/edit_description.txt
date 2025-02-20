@@ -1,0 +1,1 @@
+Increase the font size of the text to 22pt for better visibility.

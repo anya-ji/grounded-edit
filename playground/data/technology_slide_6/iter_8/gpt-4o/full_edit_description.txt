@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image displays a checklist with filled boxes next to the items, indicating that the statements have been selected or confirmed.
-2. Description of Rendered Image: The rendered image shows the same checklist but with empty boxes, indicating that none of the statements have been selected.
-3. Change Suggestion: Change the checkbox symbols from empty squares to filled squares for all items in the checklist.
-```

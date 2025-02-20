@@ -1,0 +1,1 @@
+Remove the extra space before the list begins to maintain proper spacing between the title and the first item.

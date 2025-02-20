@@ -1,1 +1,0 @@
-Change the font size of the text "Types of Markets" in the rendered image to be larger and centered at the top to enhance visibility and match the layout of the target image.

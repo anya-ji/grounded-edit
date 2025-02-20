@@ -1,1 +1,0 @@
-Change the empty bullet points in the rendered image to filled check marks to match the style of the target image.

@@ -1,0 +1,1 @@
+Change the text color of the questions to match the target slide (dark gray).

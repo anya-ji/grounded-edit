@@ -1,0 +1,1 @@
+Change the text color of the main body from black to a dark gray (e.g., #333333) to enhance contrast against the new background.

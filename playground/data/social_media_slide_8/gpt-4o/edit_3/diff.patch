@@ -1,0 +1,25 @@
+--- ./data/social_media_slide_8/init/code.py	2025-02-20 02:15:04.895042635 +0000
++++ ./data/social_media_slide_8/gpt-4o/edit_3/code.py	2025-02-20 15:27:05.208460475 +0000
+@@ -13,6 +13,7 @@
+ 
+ # Define colors
+ dark_blue = RGBColor(0, 0, 128)
++black = RGBColor(0, 0, 0)  # Change to black for bullet points
+ white = RGBColor(255, 255, 255)
+ 
+ # Add title with dark blue background
+@@ -43,12 +44,12 @@
+ p = content_frame.add_paragraph()
+ p.text = "• Digitized content that can be transmitted over the internet or computer networks."
+ p.font.size = Pt(24)
+-p.font.color.rgb = dark_blue
++p.font.color.rgb = black  # Changed to black
+ 
+ p = content_frame.add_paragraph()
+ p.text = "• It allows the advertisement of products and online business transactions."
+ p.font.size = Pt(24)
+-p.font.color.rgb = dark_blue
++p.font.color.rgb = black  # Changed to black
+ 
+ # Add image on the right
+ image_path = "../../media/image_0.jpg"

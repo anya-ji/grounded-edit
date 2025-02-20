@@ -1,1 +1,0 @@
-Change the background color of the references section in the rendered image to a soft yellow that matches the target image, ensuring that the color transition blends smoothly with the surrounding abstract background.

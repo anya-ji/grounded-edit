@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: A scene from a video showing a dialogue involving characters discussing etiquette and food preferences.
-2. Description of Rendered Image: A digital representation of the aforementioned scene, where characters are highlighted with a blue background indicating correctness of statements, but the layout and text presentation is altered.
-3. Change Suggestion: Adjust the text box layout to match the original image's positioning and styling, ensuring the character dialogue appears exactly as it does in the target image.
-```

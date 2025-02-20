@@ -1,0 +1,1 @@
+Remove the asterisks around the word "Still life" in the rendered slide to match the target formatting.

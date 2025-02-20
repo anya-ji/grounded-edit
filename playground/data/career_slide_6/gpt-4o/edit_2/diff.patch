@@ -1,0 +1,12 @@
+--- ./data/career_slide_6/init/code.py	2025-02-20 02:15:05.003042414 +0000
++++ ./data/career_slide_6/gpt-4o/edit_2/code.py	2025-02-20 12:27:47.154873302 +0000
+@@ -80,7 +80,8 @@
+ sec3_title_p.font.size = Pt(30)
+ sec3_title_p.font.color.rgb = RGBColor(255, 255, 0)  # Yellow text
+ 
+-sec3_text_box = slide.shapes.add_textbox(Inches(11), Inches(6.2), Inches(4.5), Inches(1.8))
++# Adjusted position of the text box for better spacing
++sec3_text_box = slide.shapes.add_textbox(Inches(11), Inches(6.5), Inches(4.5), Inches(1.8))  # Increased Y position
+ sec3_text_frame = sec3_text_box.text_frame
+ sec3_text_frame.word_wrap = True
+ sec3_text_p = sec3_text_frame.add_paragraph()

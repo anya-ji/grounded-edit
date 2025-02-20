@@ -1,0 +1,17 @@
+--- ./data/career_slide_14/init/code.py	2025-02-20 02:15:04.994042432 +0000
++++ ./data/career_slide_14/gpt-4o/edit_2/code.py	2025-02-20 12:03:11.940190887 +0000
+@@ -49,12 +49,13 @@
+ 
+ academic_goal = academic_goal_focus_frame.add_paragraph()
+ academic_goal.text = "Goal: The primary goal of the academic world is to facilitate learning, knowledge acquisition, and intellectual development."
+-academic_goal.space_after = Pt(10)
++academic_goal.space_after = Pt(20)  # Increased line spacing
+ academic_goal.font.size = Pt(14)
+ academic_goal.font.color.rgb = RGBColor(255, 255, 255) # White color
+ 
+ academic_focus = academic_goal_focus_frame.add_paragraph()
+ academic_focus.text = "Focus: The focus is on education, research, and the pursuit of new knowledge."
++academic_focus.space_after = Pt(20)  # Increased line spacing
+ academic_focus.font.size = Pt(14)
+ academic_focus.font.color.rgb = RGBColor(255, 255, 255) # White color
+ 

@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image shows an overhead view of a marketplace with wooden structures, various goods displayed, and several people browsing. It has a darker background with a circular border encompassing the central part of the image. The text “ELO's 1. Types of Market” appears on the right side in white font.
-2. Description of Rendered Image: The rendered image features a similar overhead view of the marketplace but lacks the circular border. The text “ELO's 1. Types of Market” is on the right side, but it is in a bold, larger font and is white on a plain black background with a red square at the top right corner.
-3. Change Suggestion: Add a circular frame around the central image similar to the target image to replicate the visual framing effect.
-```

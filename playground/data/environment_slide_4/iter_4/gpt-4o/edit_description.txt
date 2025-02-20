@@ -1,1 +1,0 @@
-Adjust the vertical alignment of the text "NATURAL ENVIRONMENT" to ensure it is centered at the top of the section, matching the target image's layout.

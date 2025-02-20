@@ -1,0 +1,5 @@
+<edit>Change the font size of the slide title "Values" to 48pt for better visibility.</edit>
+<edit>Adjust the spacing between the items in the list to 1.5 lines for improved readability.</edit>
+<edit>Change the color of the bullets to a dark shade of gray for better contrast with the background.</edit>
+<edit>Ensure the text "Embrace the adventure" has consistent capitalization by changing it to "Embrace the Adventure".</edit>
+<edit>Move the images to the right slightly to prevent any overflow into the text area on the left.</edit>

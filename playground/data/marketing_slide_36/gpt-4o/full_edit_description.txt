@@ -1,0 +1,5 @@
+<edit>Change the background color to a gradient from teal to dark teal.</edit>
+<edit>Increase the font size of the title "Types of Fixed Retailers" to 60 points.</edit>
+<edit>Change the font color of the title to white.</edit>
+<edit>Adjust the spacing between the images to 20 pixels.</edit>
+<edit>Ensure the text "General Stores", "Department Store", and "Chain Store" is centered under each respective image.</edit>

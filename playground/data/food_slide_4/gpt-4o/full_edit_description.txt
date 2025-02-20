@@ -1,0 +1,5 @@
+<edit>Change the font size of the title "PART 2" to match the larger size used in the target slide.</edit>
+<edit>Change the color of the question text to match the dark gray from the target slide for consistency.</edit>
+<edit>Change the color of the numbered circles to the light blue seen in the target slide instead of the solid blue.</edit>
+<edit>Add a speech bubble icon next to the title "PART 2" similar to the one in the target slide for visual consistency.</edit>
+<edit>Adjust the spacing between the questions to ensure even vertical distribution, keeping sufficient space without overlap.</edit>

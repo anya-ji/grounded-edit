@@ -1,0 +1,31 @@
+--- ./data/marketing_slide_10/init/code.py	2025-02-20 02:15:03.973044522 +0000
++++ ./data/marketing_slide_10/gpt-4o/edit_4/code.py	2025-02-20 13:49:34.335301024 +0000
+@@ -1,6 +1,7 @@
+ from pptx import Presentation
+ from pptx.util import Inches, Pt
+ from pptx.dml.color import RGBColor
++from pptx.dml.fill import GradientFill
+ 
+ # Create a presentation object
+ presentation = Presentation()
+@@ -11,11 +12,15 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set image path
+-image_path = "../../media/image_0.jpg"
+-
+-# Insert background image
+-slide.shapes.add_picture(image_path, Inches(0), Inches(0), Inches(16), Inches(9))
++# Set background gradient
++background = slide.background
++fill = background.fill
++fill.gradient()
++stops = fill.gradient_stops
++stops[0].color.rgb = RGBColor(50, 50, 100)  # Lighter color (subtle)
++stops[1].color.rgb = RGBColor(30, 30, 60)   # Darker color (subtle)
++stops[0].position = 0.0
++stops[1].position = 1.0
+ 
+ # Add title text box
+ title_text_box = slide.shapes.add_textbox(Inches(0.5), Inches(0.5), Inches(15), Inches(1))

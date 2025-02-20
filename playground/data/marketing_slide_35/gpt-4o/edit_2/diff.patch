@@ -1,0 +1,11 @@
+--- ./data/marketing_slide_35/init/code.py	2025-02-20 02:15:03.986044496 +0000
++++ ./data/marketing_slide_35/gpt-4o/edit_2/code.py	2025-02-20 14:27:49.605536186 +0000
+@@ -46,6 +46,8 @@
+ 
+ # Add arrow between the two boxes
+ arrow = slide.shapes.add_shape(MSO_SHAPE.DOWN_ARROW, Inches(9), Inches(4), Inches(1), Inches(1))
++arrow.fill.solid()
++arrow.fill.fore_color.rgb = RGBColor(204, 173, 0)  # Darker gold color
+ 
+ # Add bottom content box for "2. Fixed – Shop Retailers"
+ bottom_box = slide.shapes.add_textbox(Inches(4), Inches(6), Inches(10), Inches(2))

@@ -1,0 +1,11 @@
+--- ./data/social_media_slide_10/init/code.py	2025-02-20 02:15:04.892042641 +0000
++++ ./data/social_media_slide_10/gpt-4o/edit_1/code.py	2025-02-20 14:52:04.357521571 +0000
+@@ -26,7 +26,7 @@
+ p.alignment = PP_ALIGN.CENTER
+ title_box.fill.solid()
+ title_box.fill.fore_color.rgb = RGBColor(0, 0, 139)  # Dark blue background
+-p.font.color.rgb = RGBColor(255, 255, 255)  # White text
++p.font.color.rgb = RGBColor(0, 51, 102)  # Darker shade of blue (#003366)
+ 
+ # Add main content text box with white background
+ content_box = slide.shapes.add_textbox(Inches(0.5), Inches(2), Inches(15), Inches(6.5))

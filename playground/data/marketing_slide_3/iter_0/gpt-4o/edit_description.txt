@@ -1,1 +1,0 @@
-Add a textured overlay to the background of the rendered image to match the subtle texture of the target image, ensuring it appears less flat and more visually appealing.

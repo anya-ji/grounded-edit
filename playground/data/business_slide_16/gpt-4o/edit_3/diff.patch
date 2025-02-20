@@ -1,0 +1,20 @@
+--- ./data/business_slide_16/init/code.py	2025-02-20 02:15:04.124044213 +0000
++++ ./data/business_slide_16/gpt-4o/edit_3/code.py	2025-02-20 11:40:52.806518743 +0000
+@@ -2,7 +2,6 @@
+ from pptx.util import Inches, Pt
+ from pptx.enum.text import PP_ALIGN
+ from pptx.dml.color import RGBColor
+-from pptx.util import Inches
+ 
+ presentation = Presentation()
+ presentation.slide_width = Inches(16)
+@@ -37,6 +36,9 @@
+ text_frame_content = textbox_content.text_frame
+ text_frame_content.clear()
+ 
++# Set line spacing for the content
++text_frame_content.line_spacing = Pt(20)  # Adjusted line spacing
++
+ # Example URLs for references
+ urls = [
+     "https://example.com/article1",

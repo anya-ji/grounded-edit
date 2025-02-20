@@ -1,1 +1,0 @@
-Remove the bold black outlines around all figures and elements to create a softer transition between figures and background, allowing for a more natural and vibrant appearance.

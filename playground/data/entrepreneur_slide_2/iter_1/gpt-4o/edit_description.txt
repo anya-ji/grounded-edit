@@ -1,1 +1,0 @@
-Change the color of the left vertical bar in the rendered image from bright yellow to a darker shade of yellow or gold to increase contrast against the white background.

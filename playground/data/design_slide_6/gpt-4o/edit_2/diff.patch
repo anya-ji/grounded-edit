@@ -1,0 +1,13 @@
+--- ./data/design_slide_6/init/code.py	2025-02-20 02:15:04.611043216 +0000
++++ ./data/design_slide_6/gpt-4o/edit_2/code.py	2025-02-20 12:43:25.881629778 +0000
+@@ -29,8 +29,8 @@
+ image_path = "../../media/image_0.jpg"
+ slide.shapes.add_picture(image_path, Inches(0.5), Inches(1.6), width=Inches(8))
+ 
+-# Add text box on the right side
+-text_box = slide.shapes.add_textbox(Inches(8.6), Inches(1.6), Inches(7), Inches(6))
++# Add text box on the right side, shift down by 20 pixels
++text_box = slide.shapes.add_textbox(Inches(8.6), Inches(1.8), Inches(7), Inches(6))  # Adjusted Y position
+ text_frame = text_box.text_frame
+ 
+ # Add paragraphs

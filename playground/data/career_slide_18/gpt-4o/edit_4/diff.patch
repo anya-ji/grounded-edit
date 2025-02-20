@@ -1,0 +1,18 @@
+--- ./data/career_slide_18/init/code.py	2025-02-20 02:15:04.972042477 +0000
++++ ./data/career_slide_18/gpt-4o/edit_4/code.py	2025-02-20 12:15:55.046247007 +0000
+@@ -55,12 +55,13 @@
+     ("• Transitioning from the academic to the professional world often requires adapting to a different set of priorities and challenges.", Pt(24)),
+ ]
+ 
+-# Add text to content frame
++# Add text to content frame with line spacing
+ for text, size in content_text:
+     paragraph = content_frame.add_paragraph()
+     paragraph.text = text
+     paragraph.font.size = size
+     paragraph.font.color.rgb = RGBColor(255, 255, 255)  # White color
++    paragraph.space_after = Pt(15)  # Set line spacing to 1.5
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

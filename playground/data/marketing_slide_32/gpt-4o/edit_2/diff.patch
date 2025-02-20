@@ -1,0 +1,19 @@
+--- ./data/marketing_slide_32/init/code.py	2025-02-20 02:15:03.997044473 +0000
++++ ./data/marketing_slide_32/gpt-4o/edit_2/code.py	2025-02-20 14:21:48.036903600 +0000
+@@ -42,11 +42,16 @@
+ bullet_frame = bullet_box.text_frame
+ bullet_frame.clear()
+ 
++# Set diamond bullet shape
+ for bullet_text in ["Market and Opportunity", "Market and Equality"]:
+     bullet = bullet_frame.add_paragraph()
+     bullet.text = bullet_text
+     bullet.font.size = Pt(32)
+     bullet.font.color.rgb = white_rgb
++    bullet.space_after = Pt(14)  # Add spacing after each bullet
++    bullet.level = 0  # Reset to level 0 for bullet points
++    bullet.bullet = True
++    bullet.bullet_character = '♦'  # Diamond character for bullet
+ 
+ # Insert image on the right side
+ image_path = "../../media/image_0.jpg"

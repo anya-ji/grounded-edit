@@ -1,0 +1,5 @@
+<edit>Change the background color of the slide to a light yellow color (e.g., `#FFFFE0`) for better readability and to match more closely with the target slide.</edit>
+<edit>Change the font color of the title "KEEPING ART" to black for improved visibility and contrast against the background.</edit>
+<edit>Remove the bullet point in front of "Museums are the repositories..." to match the format seen in the target slide.</edit>
+<edit>Change the font style of the section title "Museums and Private Collections" to bold to ensure it stands out more prominently.</edit>
+<edit>Increase the font size of the paragraph text under "Museums and Private Collections" to 24pt for better readability.</edit>

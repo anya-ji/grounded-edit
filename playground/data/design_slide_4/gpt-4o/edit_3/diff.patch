@@ -1,0 +1,13 @@
+--- ./data/design_slide_4/init/code.py	2025-02-20 02:15:04.599043241 +0000
++++ ./data/design_slide_4/gpt-4o/edit_3/code.py	2025-02-20 12:40:55.238000846 +0000
+@@ -61,5 +61,9 @@
+     p_desc.font.size = Pt(16)
+     p_desc.font.color.rgb = RGBColor(255, 255, 255)  # White color
+ 
++    # If it's the last box, don't set bold for the title
++    if title == "For more professional assistance":
++        p_title.font.bold = False
++
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

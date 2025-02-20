@@ -1,0 +1,1 @@
+Change the color of the text for "Market and Opportunity" and "Market and Equality" to a lighter shade of gray (for example, #D3D3D3) to improve contrast with the background.

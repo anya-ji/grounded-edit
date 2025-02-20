@@ -1,0 +1,1 @@
+Add a space between the text "CEO of SpaceX and Tesla" and "Education" for clearer separation, similar to the target layout.

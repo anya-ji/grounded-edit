@@ -1,0 +1,15 @@
+--- ./data/food_slide_10/init/code.py	2025-02-20 02:15:04.678043079 +0000
++++ ./data/food_slide_10/gpt-4o/edit_1/code.py	2025-02-20 13:07:08.737867878 +0000
+@@ -65,9 +65,9 @@
+ 
+ # Add checkboxes headers: T, F, N
+ for i in range(1, 4):
+-    table.cell(0, i).text = '✓' if i == 1 else ''
+-    table.cell(1, i).text = '✓' if i == 2 else ''
+-    table.cell(2, i).text = '✓' if i == 3 else ''
++    table.cell(0, i).text = '✔️' if i == 1 else ''
++    table.cell(1, i).text = '✔️' if i == 2 else ''
++    table.cell(2, i).text = '✔️' if i == 3 else ''
+ 
+ # Add Joey's image
+ joey_image_path = "../../media/image_1.jpg"

@@ -1,1 +1,0 @@
-Change the title text in the rendered image to "Innovations (Future Products or Services)" and ensure it is bold, centered, and positioned at the top of the image to match the target image layout.

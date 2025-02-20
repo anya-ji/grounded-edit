@@ -1,0 +1,1 @@
+Change the font color of the text "Sales" on the left side from blue to a darker shade, such as navy blue.

@@ -1,0 +1,11 @@
+--- ./data/environment_slide_8/init/code.py	2025-02-20 02:15:04.795042840 +0000
++++ ./data/environment_slide_8/gpt-4o/edit_0/code.py	2025-02-20 13:03:18.479135984 +0000
+@@ -26,7 +26,7 @@
+ title_p.text = "POSITIVE IMPACT"
+ title_p.font.bold = True
+ title_p.font.size = Pt(44)
+-title_p.font.color.rgb = RGBColor(0, 128, 0) # Green color
++title_p.font.color.rgb = RGBColor(0, 0, 0) # Changed to black color for better contrast
+ title_tf.word_wrap = True
+ 
+ # Add content section

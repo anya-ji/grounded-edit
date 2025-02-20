@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image features the Airbnb logo in white against a coral background, along with the title "Business Case" and the names of three individuals below it.
-2. Description of Rendered Image: The rendered image has a similar coral background, but the Airbnb logo is outlined in a lighter shade, and the wording "Business Case" is less prominent due to a lack of boldness. The underscored names do persist similarly to the target.
-3. Change Suggestion: Change the Airbnb logo in the rendered image to be solid white instead of outlined, ensuring it matches the logo in the target image.
-```

@@ -1,0 +1,20 @@
+--- ./data/food_slide_14/init/code.py	2025-02-20 02:15:04.706043022 +0000
++++ ./data/food_slide_14/gpt-4o/edit_1/code.py	2025-02-20 13:12:51.801359869 +0000
+@@ -41,7 +41,16 @@
+     "6. Joey refuses to apologize when Sarah returns."
+ ]
+ 
+-for event_text in events:
++# Rearranged order: 2, 3, 4, 5, 6
++rearranged_events = [
++    events[1],
++    events[2],
++    events[3],
++    events[4],
++    events[5]
++]
++
++for event_text in rearranged_events:
+     event = content_frame.add_paragraph()
+     event.text = event_text
+     event.font.size = Pt(20)

@@ -1,0 +1,1 @@
+Replace the bold style of the title "KEEPING ART" with a regular style to reduce visual weight and maintain consistency with the subtitle.

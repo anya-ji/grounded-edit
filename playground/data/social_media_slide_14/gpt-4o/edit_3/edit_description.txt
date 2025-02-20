@@ -1,0 +1,1 @@
+Ensure the spacing between the bullet points is 1.5x line height to provide better separation between them.

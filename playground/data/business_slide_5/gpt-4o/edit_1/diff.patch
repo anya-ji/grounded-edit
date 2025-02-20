@@ -1,0 +1,17 @@
+--- ./data/business_slide_5/init/code.py	2025-02-20 02:15:04.075044314 +0000
++++ ./data/business_slide_5/gpt-4o/edit_1/code.py	2025-02-20 11:45:49.362328583 +0000
+@@ -53,11 +53,14 @@
+     p.font.bold = True
+     p.font.size = Pt(24)
+     p.font.color.rgb = RGBColor(0, 0, 0)  # Black
++    p.space_after = Pt(18)  # Add space after each title (1.5 lines)
++    
+     if desc:
+         p = text_frame.add_paragraph()
+         p.text = desc
+         p.font.size = Pt(20)
+         p.font.color.rgb = RGBColor(0, 0, 0)  # Black
++        p.space_after = Pt(18)  # Add space after each description (1.5 lines)
+ 
+ text_frame.word_wrap = True
+ 

@@ -1,0 +1,1 @@
+Increase the font size of the bullet points in each step from the current size to a slightly larger size for better readability.

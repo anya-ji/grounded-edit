@@ -1,0 +1,1 @@
+Change the color of the title to a darker shade of blue (e.g., #003366).

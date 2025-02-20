@@ -1,1 +1,0 @@
-Remove the solid color bars in the rendered image to uncover the curved metal background and integrate text boxes similar to those in the target image.

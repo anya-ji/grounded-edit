@@ -1,0 +1,1 @@
+Adjust the font size of the text "Q. What is that one quality your friend has that you would like to have ?" to 36pt for better visibility.

@@ -1,0 +1,1 @@
+Change the font color of the text for "CULTURE" to dark blue (Hex: #003366).

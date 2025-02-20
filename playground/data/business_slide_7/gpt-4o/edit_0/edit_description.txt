@@ -1,0 +1,1 @@
+Change the color of the icons in the slide from red to a dark green. Update the code for the icons to the color "#2C3E50".

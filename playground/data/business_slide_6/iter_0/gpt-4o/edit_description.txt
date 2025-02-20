@@ -1,1 +1,0 @@
-Modify the font of the text to a rounder, softer font style to match the target image's appearance.

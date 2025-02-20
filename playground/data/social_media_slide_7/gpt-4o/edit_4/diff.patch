@@ -1,0 +1,11 @@
+--- ./data/social_media_slide_7/init/code.py	2025-02-20 02:15:04.870042686 +0000
++++ ./data/social_media_slide_7/gpt-4o/edit_4/code.py	2025-02-20 15:25:10.747754439 +0000
+@@ -47,7 +47,7 @@
+     p_bullet.font.size = Pt(24)
+     p_bullet.space_after = Pt(10)
+ 
+-# Insert image
++# Insert image on the right side of the text
+ image_path = "../../media/image_0.jpg"  # Adjust path as needed
+ slide.shapes.add_picture(image_path, Inches(11), Inches(2.5), Inches(4), Inches(4))
+ 

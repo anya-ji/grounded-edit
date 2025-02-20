@@ -1,0 +1,11 @@
+--- ./data/food_slide_5/init/code.py	2025-02-20 02:15:04.686043063 +0000
++++ ./data/food_slide_5/gpt-4o/edit_3/code.py	2025-02-20 13:41:56.982172539 +0000
+@@ -33,7 +33,7 @@
+     "Imagine you went to a restaurant for a first date. Something went wrong involving French fries. "
+     "Imagine you’re telling the story to a friend. Use the prompt below to start your story."
+ )
+-text.font.size = Pt(18)
++text.font.size = Pt(18)  # Font size increased to 18pt
+ 
+ # Insert man's picture
+ man_image_path = "../../media/image_1.jpg"

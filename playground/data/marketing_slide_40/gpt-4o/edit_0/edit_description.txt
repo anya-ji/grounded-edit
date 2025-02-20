@@ -1,0 +1,1 @@
+Change the font size of the title "Art and Everyday Life" to 48pt for better visibility.

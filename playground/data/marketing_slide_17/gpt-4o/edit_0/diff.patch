@@ -1,0 +1,22 @@
+--- ./data/marketing_slide_17/init/code.py	2025-02-20 02:15:03.967044535 +0000
++++ ./data/marketing_slide_17/gpt-4o/edit_0/code.py	2025-02-20 13:58:22.925768111 +0000
+@@ -19,15 +19,17 @@
+ background = slide.background
+ fill = background.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(0, 64, 0)
++fill.fore_color.rgb = RGBColor(0, 80, 80)  # Dark teal color
+ fill_color = slide.shapes.add_shape(
+     8, Inches(0), Inches(0), presentation.slide_width, presentation.slide_height
+ )
+ fill_color.fill.solid()
+-fill_color.fill.fore_color.rgb = RGBColor(34, 139, 34)
++fill_color.fill.fore_color.rgb = RGBColor(173, 216, 230)  # Light teal color
+ fill_color.fill.gradient()
+ fill_color.fill.gradient_stops[0].position = 0.0
++fill_color.fill.gradient_stops[0].color.rgb = RGBColor(0, 80, 80)  # Dark teal color
+ fill_color.fill.gradient_stops[1].position = 1.0
++fill_color.fill.gradient_stops[1].color.rgb = RGBColor(173, 216, 230)  # Light teal color
+ 
+ # Title text box
+ title_box = slide.shapes.add_textbox(Inches(1), Inches(0.5), Inches(10), Inches(1))

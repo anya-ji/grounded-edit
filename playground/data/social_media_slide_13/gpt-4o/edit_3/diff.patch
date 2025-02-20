@@ -1,0 +1,15 @@
+--- ./data/social_media_slide_13/init/code.py	2025-02-20 02:15:04.902042621 +0000
++++ ./data/social_media_slide_13/gpt-4o/edit_3/code.py	2025-02-20 14:57:30.384652551 +0000
+@@ -12,10 +12,10 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set the background color to white
++# Set the background color to light grey
+ background = slide.background
+ background.fill.solid()
+-background.fill.fore_color.rgb = RGBColor(255, 255, 255)
++background.fill.fore_color.rgb = RGBColor(240, 240, 240)  # Light grey
+ 
+ # Add a dark blue rectangle for the title background
+ title_shape = slide.shapes.add_shape(

@@ -1,0 +1,11 @@
+--- ./data/business_slide_13/init/code.py	2025-02-20 02:15:04.068044328 +0000
++++ ./data/business_slide_13/gpt-4o/edit_0/code.py	2025-02-20 11:37:43.023128533 +0000
+@@ -28,7 +28,7 @@
+ p = text_frame.add_paragraph()
+ p.text = title
+ p.font.bold = True
+-p.font.size = Pt(44)
++p.font.size = Pt(48)  # Changed font size to 48 points
+ p.alignment = PP_ALIGN.LEFT
+ 
+ # Set font color and outline for contrast

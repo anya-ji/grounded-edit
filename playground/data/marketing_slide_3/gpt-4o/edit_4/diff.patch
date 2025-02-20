@@ -1,0 +1,25 @@
+--- ./data/marketing_slide_3/init/code.py	2025-02-20 02:15:03.954044561 +0000
++++ ./data/marketing_slide_3/gpt-4o/edit_4/code.py	2025-02-20 14:18:47.072636013 +0000
+@@ -10,7 +10,7 @@
+ presentation.slide_height = Inches(9)
+ 
+ # Create a blank slide layout
+-slide_layout = presentation.slide_layouts[5] # blank slide
++slide_layout = presentation.slide_layouts[5]  # blank slide
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+ # Set the slide background to solid red
+@@ -30,9 +30,9 @@
+ p.font.color.rgb = RGBColor(255, 255, 255)
+ p.font.name = 'Calibri'  # Clean, modern font
+ 
+-# Center the text box on the slide
+-text_box.left = int((presentation.slide_width - text_box.width) / 2)
+-text_box.top = int((presentation.slide_height - text_box.height) / 2)
++# Center the text box on the slide with a 2 cm bottom margin
++bottom_margin = 2 * 28.35  # 2 cm in points (1 cm = 28.35 points)
++text_box.top = int((presentation.slide_height - text_box.height - bottom_margin) / 2)
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

@@ -1,0 +1,20 @@
+--- ./data/art_photos_slide_13/init/code.py	2025-02-20 02:15:04.273043908 +0000
++++ ./data/art_photos_slide_13/gpt-4o/edit_0/code.py	2025-02-20 10:53:51.278361687 +0000
+@@ -11,7 +11,7 @@
+ presentation.slide_height = Inches(9)
+ 
+ # Add slide
+-slide_layout = presentation.slide_layouts[5] # BLANK layout
++slide_layout = presentation.slide_layouts[5]  # BLANK layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+ # Set background image
+@@ -30,7 +30,7 @@
+ title_frame = title_box.text_frame
+ title_frame.text = "The Subject and Content of Art"
+ title_paragraph = title_frame.paragraphs[0]
+-title_paragraph.font.size = Pt(44)
++title_paragraph.font.size = Pt(24)  # Changed font size to 24pt
+ title_paragraph.font.bold = True
+ title_paragraph.font.color.rgb = RGBColor(0, 0, 0)  # Black text
+ title_frame.text_anchor = "middle"

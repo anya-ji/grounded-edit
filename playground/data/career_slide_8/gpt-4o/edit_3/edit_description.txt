@@ -1,0 +1,1 @@
+Change the font size of the "Education" headings to match the font size used in the target slide.

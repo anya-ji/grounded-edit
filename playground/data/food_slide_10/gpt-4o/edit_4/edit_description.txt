@@ -1,0 +1,1 @@
+Increase the padding of the table cells to 10px to provide more breathing room around the text elements.

@@ -1,0 +1,10 @@
+--- ./data/art_photos_slide_8/init/code.py	2025-02-20 02:15:04.278043898 +0000
++++ ./data/art_photos_slide_8/gpt-4o/edit_1/code.py	2025-02-20 11:28:49.945915533 +0000
+@@ -30,6 +30,7 @@
+ subtitle_paragraph = subtitle_frame.paragraphs[0]
+ subtitle_paragraph.font.size = Pt(24)
+ subtitle_paragraph.font.bold = True
++subtitle_paragraph.font.color.rgb = RGBColor(101, 67, 33)  # Dark brown color
+ 
+ # Insert the flower painting image
+ image_path_flowers = "../../media/image_1.jpg"

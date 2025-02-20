@@ -1,0 +1,1 @@
+Add a speech bubble icon next to the title "PART 2" similar to the one in the target slide for visual consistency.

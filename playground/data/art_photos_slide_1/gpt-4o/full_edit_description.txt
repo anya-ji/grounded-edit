@@ -1,0 +1,5 @@
+<edit>Change the font size of "GE 7:" to 48 to enhance visibility.</edit>
+<edit>Change the font color of "GE 7:" to white for better contrast against the background.</edit>
+<edit>Change the font size of "ART APPRECIATION" to 72 to make it more prominent.</edit>
+<edit>Adjust the position of "GE 7:" to be centered vertically within its section, maintaining consistent spacing from the upper edge.</edit>
+<edit>Remove the outline from the text to provide a cleaner look.</edit>

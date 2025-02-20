@@ -1,0 +1,5 @@
+<edit>Change the background color of the slide to a light gradient (e.g., from white to light yellow) to improve readability.</edit>
+<edit>Change the font color of the title "KEEPING ART" to a dark color (e.g., dark blue or black) for better contrast against the yellow background.</edit>
+<edit>Adjust the size of the text in the bullet point "nations keep art because it is good for the economy and for the business." to be slightly larger (e.g., increase font size to 24 points) for improved readability.</edit>
+<edit>Change the color of the bullet point checkmark to a dark color (e.g., dark green) to distinguish it from the background.</edit>
+<edit>Replace the bold style of the title "KEEPING ART" with a regular style to reduce visual weight and maintain consistency with the subtitle.</edit>

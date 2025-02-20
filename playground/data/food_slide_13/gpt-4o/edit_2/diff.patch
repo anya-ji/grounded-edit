@@ -1,0 +1,11 @@
+--- ./data/food_slide_13/init/code.py	2025-02-20 02:15:04.691043053 +0000
++++ ./data/food_slide_13/gpt-4o/edit_2/code.py	2025-02-20 13:11:12.188517050 +0000
+@@ -45,7 +45,7 @@
+     paragraph = checklist_frame.add_paragraph()
+     paragraph.text = event
+     paragraph.space_after = Pt(10)
+-    paragraph.font.size = Pt(18)
++    paragraph.font.size = Pt(20)  # Adjusted font size to match instructions
+ 
+ # Add image of Joey
+ image_path = "../../media/image_0.jpg"

@@ -1,1 +1,0 @@
-Change the text "Viewing Activity" to "Friends | Joey Doesn't Share Food!" and make the subtitle bold and larger to match the title in the target image.

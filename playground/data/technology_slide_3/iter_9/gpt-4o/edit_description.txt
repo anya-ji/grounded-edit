@@ -1,1 +1,0 @@
-Add checkboxes to the beginning of each bullet point and adjust the spacing between the bullet points to ensure they are evenly spaced for better readability.

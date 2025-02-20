@@ -1,1 +1,0 @@
-Change the background color of the paragraph text in the rendered image from bright yellow to a soft orange, matching the overall warm tone of the target image.

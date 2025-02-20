@@ -1,1 +1,0 @@
-Increase the brightness and saturation of the blue background in the rendered image to match the vibrant hue of the target image, enhancing the visibility of the Bitcoin symbol.

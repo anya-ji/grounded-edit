@@ -1,0 +1,15 @@
+--- ./data/environment_slide_4/init/code.py	2025-02-20 02:15:04.784042862 +0000
++++ ./data/environment_slide_4/gpt-4o/edit_4/code.py	2025-02-20 12:58:28.027328235 +0000
+@@ -50,9 +50,9 @@
+     p.alignment = PP_ALIGN.LEFT
+     p.space_after = Pt(12)  # spacing between bullets
+ 
+-# Add image below the text
++# Add image below the text, centered
+ image_path = "../../media/image_0.jpg"
+-slide.shapes.add_picture(image_path, Inches(5.5), Inches(4.5), Inches(5), Inches(3.5))
++slide.shapes.add_picture(image_path, Inches(2), Inches(3), Inches(12), Inches(6))
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

@@ -1,0 +1,15 @@
+--- ./data/technology_slide_5/init/code.py	2025-02-20 02:15:05.094042228 +0000
++++ ./data/technology_slide_5/gpt-4o/edit_4/code.py	2025-02-20 15:39:48.174450583 +0000
+@@ -47,9 +47,9 @@
+     p.font.size = Pt(28)
+     p.space_after = Pt(5)
+ 
+-# Add image
++# Add image aligned to the bottom of the text box with a margin
+ image_path = "../../media/image_0.jpg"
+-slide.shapes.add_picture(image_path, Inches(9), Inches(2), Inches(6), Inches(4))
++slide.shapes.add_picture(image_path, Inches(9), Inches(6.5), Inches(6), Inches(4))  # Adjusted the top inch position
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

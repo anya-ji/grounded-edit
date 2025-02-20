@@ -1,0 +1,23 @@
+--- ./data/business_slide_3/init/code.py	2025-02-20 02:15:04.111044240 +0000
++++ ./data/business_slide_3/gpt-4o/edit_1/code.py	2025-02-20 11:43:03.001468199 +0000
+@@ -1,5 +1,5 @@
+ from pptx import Presentation
+-from pptx.util import Inches
++from pptx.util import Inches, Pt
+ 
+ # Create a presentation object
+ presentation = Presentation()
+@@ -14,5 +14,12 @@
+ image_path = "../../media/image_0.jpg"
+ slide.shapes.add_picture(image_path, Inches(2), Inches(2), Inches(12), Inches(6))
+ 
++# Add a text box with the specified font size
++textbox = slide.shapes.add_textbox(Inches(2), Inches(1), Inches(12), Inches(1))
++text_frame = textbox.text_frame
++paragraph = text_frame.add_paragraph()
++paragraph.text = "We imagine a world where you can belong anywhere."
++paragraph.font.size = Pt(48)  # Set the font size to 48 points
++
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

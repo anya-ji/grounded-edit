@@ -1,0 +1,16 @@
+--- ./data/marketing_slide_21/init/code.py	2025-02-20 02:15:03.993044481 +0000
++++ ./data/marketing_slide_21/gpt-4o/edit_4/code.py	2025-02-20 14:06:30.832419171 +0000
+@@ -45,10 +45,10 @@
+     ("Direct", left_margin, top_margin),
+     ("Retail", left_margin, top_margin + Inches(1.25)),
+     ("Wholesale", left_margin, top_margin + Inches(2.5)),
+-    ("Producer or manufacturer", left_margin + Inches(2.5), top_margin + Inches(0.625)),
++    ("Retailer", left_margin + Inches(5), top_margin + Inches(1.25)),  # Moved this down
++    ("Producer or manufacturer", left_margin + Inches(3), top_margin + Inches(1.25)),  # Adjusted position
+     ("Wholesaler", left_margin + Inches(5), top_margin + Inches(2.5)),
+-    ("Retailer", left_margin + Inches(7.5), top_margin + Inches(1.25)),
+-    ("Consumer", left_margin + Inches(10), top_margin + Inches(1.25))
++    ("Consumer", left_margin + Inches(7.5), top_margin + Inches(1.25))
+ ]
+ 
+ # Add rectangles with text

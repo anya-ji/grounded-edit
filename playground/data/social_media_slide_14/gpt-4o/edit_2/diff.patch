@@ -1,0 +1,20 @@
+--- ./data/social_media_slide_14/init/code.py	2025-02-20 02:15:04.894042637 +0000
++++ ./data/social_media_slide_14/gpt-4o/edit_2/code.py	2025-02-20 14:58:44.346450660 +0000
+@@ -1,6 +1,7 @@
+ from pptx import Presentation
+ from pptx.util import Inches, Pt
+ from pptx.enum.text import PP_ALIGN
++from pptx.dml.color import RGBColor  # Import RGBColor for color settings
+ 
+ # Create presentation
+ presentation = Presentation()
+@@ -41,6 +42,9 @@
+     p = content_frame.add_paragraph()
+     p.text = point
+     p.font.size = Pt(24)
++    # Change color of "Electronic media"
++    if "Electronic media" in p.text:
++        p.font.color.rgb = RGBColor(31, 78, 122)  # Set color to dark blue
+ 
+ # Add image
+ image_path = "../../media/image_0.jpg"

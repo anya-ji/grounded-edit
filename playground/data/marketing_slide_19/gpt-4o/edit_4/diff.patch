@@ -1,0 +1,42 @@
+--- ./data/marketing_slide_19/init/code.py	2025-02-20 02:15:03.995044477 +0000
++++ ./data/marketing_slide_19/gpt-4o/edit_4/code.py	2025-02-20 14:01:17.391909625 +0000
+@@ -39,5 +39,38 @@
+ marketing.font.bold = True
+ marketing.font.color.rgb = RGBColor(255, 255, 255)  # White text
+ 
++# Add text boxes for PRODUCT, PRICE, PROMOTION, and PLACE with white color
++product_box = slide.shapes.add_textbox(Inches(1), Inches(2), Inches(2), Inches(1))
++product_frame = product_box.text_frame
++product = product_frame.add_paragraph()
++product.text = "PRODUCT"
++product.font.size = Pt(24)
++product.font.bold = True
++product.font.color.rgb = RGBColor(255, 255, 255)  # White text
++
++price_box = slide.shapes.add_textbox(Inches(4), Inches(2), Inches(2), Inches(1))
++price_frame = price_box.text_frame
++price = price_frame.add_paragraph()
++price.text = "PRICE"
++price.font.size = Pt(24)
++price.font.bold = True
++price.font.color.rgb = RGBColor(255, 255, 255)  # White text
++
++promotion_box = slide.shapes.add_textbox(Inches(1), Inches(4), Inches(2), Inches(1))
++promotion_frame = promotion_box.text_frame
++promotion = promotion_frame.add_paragraph()
++promotion.text = "PROMOTION"
++promotion.font.size = Pt(24)
++promotion.font.bold = True
++promotion.font.color.rgb = RGBColor(255, 255, 255)  # White text
++
++place_box = slide.shapes.add_textbox(Inches(4), Inches(4), Inches(2), Inches(1))
++place_frame = place_box.text_frame
++place = place_frame.add_paragraph()
++place.text = "PLACE"
++place.font.size = Pt(24)
++place.font.bold = True
++place.font.color.rgb = RGBColor(255, 255, 255)  # White text
++
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

@@ -1,1 +1,0 @@
-Modify the color and style of the checkmark in the rendered image to match the vibrant green color and bold style of the checkmark in the target image.

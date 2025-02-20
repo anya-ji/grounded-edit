@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: A presentation slide with a black background and white text, featuring bullet points about various skills such as effective communication, problem-solving, emotional intelligence, and adaptability. 
-2. Description of Rendered Image: A presentation slide with a black background and white text as well, but missing some bullet points and sections, making it less complete and disorganized.
-3. Change Suggestion: Add the bullet point for "Effective Communication" to the rendered image to ensure all sections from the target image are present.
-```

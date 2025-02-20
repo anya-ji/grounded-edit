@@ -1,0 +1,1 @@
+Change the background color of the slide to a lighter shade of green using `slide.background.color.rgb = (204, 255, 204)`.

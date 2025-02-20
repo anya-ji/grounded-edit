@@ -1,0 +1,1 @@
+Increase the font size of the slide title "PART 2" to 36 points for better visibility.

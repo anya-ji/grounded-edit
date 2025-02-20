@@ -1,1 +1,0 @@
-Change the background color of the rendered image to a lighter shade of green to match the target image's background, enhancing visibility and contrast.

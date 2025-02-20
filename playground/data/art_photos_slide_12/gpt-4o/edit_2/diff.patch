@@ -1,0 +1,24 @@
+--- ./data/art_photos_slide_12/init/code.py	2025-02-20 02:15:04.399043650 +0000
++++ ./data/art_photos_slide_12/gpt-4o/edit_2/code.py	2025-02-20 10:52:57.680480281 +0000
+@@ -53,8 +53,18 @@
+ img_left2 = Inches(8.5)
+ img_width = Inches(6.5)
+ 
+-slide.shapes.add_picture(img1_path, img_left1, img_top, width=img_width)
+-slide.shapes.add_picture(img2_path, img_left2, img_top, width=img_width)
++# Add images with borders
++img1 = slide.shapes.add_picture(img1_path, img_left1, img_top, width=img_width)
++img2 = slide.shapes.add_picture(img2_path, img_left2, img_top, width=img_width)
++
++# Add borders
++for img in [img1, img2]:
++    border_shape = slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, img.left - Pt(1), img.top - Pt(1), img.width + Pt(2), img.height + Pt(2))
++    border_shape.line.color.rgb = RGBColor(0, 0, 0)  # Black color
++    border_shape.line.width = Pt(2)  # 2 pt width
++    border_shape.fill.solid()
++    border_shape.fill.fore_color.rgb = RGBColor(255, 255, 255)  # Background color for border
++    border_shape.z_order = 0  # Send border to back
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

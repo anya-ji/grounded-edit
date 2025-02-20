@@ -1,1 +1,0 @@
-Adjust the positioning of the "PAST SIMPLE" and "PAST CONTINUOUS" headers to ensure they align properly with their respective sections and eliminate any text overlap.

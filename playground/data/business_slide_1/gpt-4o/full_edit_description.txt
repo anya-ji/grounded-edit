@@ -1,0 +1,5 @@
+<edit>Change the shape of the slide background from a hexagon to a rectangle.</edit>
+<edit>Adjust the size of the Airbnb logo to be slightly larger for better visibility.</edit>
+<edit>Change the font color of "Business Case" to match the color used in the first slide.</edit>
+<edit>Increase the spacing between the title "airbnb" and the subtitle "Business Case" for improved clarity.</edit>
+<edit>Align the text on the left side of the slide consistently with the left edge of the logo for better layout coherence.</edit>

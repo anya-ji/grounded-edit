@@ -1,1 +1,0 @@
-Extend the text box in the rendered image to ensure the complete description "The subject is directly represented in the artwork like the subjects seen in portraits and other realistic visual art presentations" is fully visible.

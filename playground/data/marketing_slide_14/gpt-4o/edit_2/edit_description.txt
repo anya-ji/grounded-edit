@@ -1,0 +1,1 @@
+Increase the font size of the question text from its current size to make it more prominent.

@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: A quiz interface with options for true, false, or not given, displaying statements and a video still of a character reacting.
-2. Description of Rendered Image: A table with similar statements filled in alongside a video still featuring a character laughing, with a dialogue bubble saying "Ha, ha. No."
-3. Change Suggestion: Change the dialogue bubble text from "Ha, ha. No." to "That's not true." to align with the context of the quiz.
-```

@@ -1,0 +1,29 @@
+--- ./data/entrepreneur_slide_5/init/code.py	2025-02-20 02:15:04.518043407 +0000
++++ ./data/entrepreneur_slide_5/gpt-4o/edit_0/code.py	2025-02-20 12:45:39.543298919 +0000
+@@ -45,18 +45,18 @@
+ title_paragraph.font.bold = True
+ title_paragraph.alignment = PP_ALIGN.LEFT
+ 
+-# Add the bullet points on the right side
++# Add the bullet points on the right side with solid circles
+ content_box = slide.shapes.add_textbox(Inches(1), Inches(1.5), Inches(14), Inches(7))
+ content_text = (
+-    "- Elon Reeve Musk was born in 1971 in Pretoria, South Africa.\n"
+-    "- He is the Errol Musk and Maye Musk's oldest son of three children.\n"
+-    "- Elon was constantly buried in Encyclopedia Britannica at the age of four.\n"
+-    "- At the age of ten, he developed an interest in computing with the Commodore VIC-20\n"
++    "• Elon Reeve Musk was born in 1971 in Pretoria, South Africa.\n"
++    "• He is the Errol Musk and Maye Musk's oldest son of three children.\n"
++    "• Elon was constantly buried in Encyclopedia Britannica at the age of four.\n"
++    "• At the age of ten, he developed an interest in computing with the Commodore VIC-20\n"
+     "  and taught himself computer programming.\n"
+-    "- He used his skills to create a code of a BASIC-BASED video game called Blaster,\n"
++    "• He used his skills to create a code of a BASIC-BASED video game called Blaster,\n"
+     "  “a trivial game” and he sold it.\n"
+-    "- In 1992, he went to the University of Pennsylvania.\n"
+-    "- He got two degrees in Business and Physics Major."
++    "• In 1992, he went to the University of Pennsylvania.\n"
++    "• He got two degrees in Business and Physics Major."
+ )
+ content_text_frame = content_box.text_frame
+ content_text_frame.word_wrap = True

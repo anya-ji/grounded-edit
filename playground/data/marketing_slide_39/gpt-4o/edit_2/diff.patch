@@ -1,0 +1,21 @@
+--- ./data/marketing_slide_39/init/code.py	2025-02-20 02:15:03.910044651 +0000
++++ ./data/marketing_slide_39/gpt-4o/edit_2/code.py	2025-02-20 14:32:52.302683811 +0000
+@@ -2,7 +2,6 @@
+ from pptx.util import Inches, Pt
+ from pptx.dml.color import RGBColor
+ from pptx.enum.shapes import MSO_SHAPE
+-from pptx.util import Inches
+ 
+ # Create a presentation object
+ presentation = Presentation()
+@@ -21,8 +20,8 @@
+ fill.solid()
+ fill.fore_color.rgb = RGBColor(0, 128, 128)  # Dark teal color
+ 
+-# Add text box for title
+-text_box = slide.shapes.add_textbox(Inches(0.5), Inches(4), Inches(7), Inches(1.5))
++# Add text box for title with increased left margin
++text_box = slide.shapes.add_textbox(Inches(0.5 + (30 / 96)), Inches(4), Inches(7), Inches(1.5))  # 30 pixels = 0.3125 inches
+ text_frame = text_box.text_frame
+ text_frame.text = "Do you think everybody in market get same share of profit? Why?"
+ 

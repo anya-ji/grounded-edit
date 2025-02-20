@@ -1,1 +1,0 @@
-Adjust the alignment of the text in the "Environment" section to eliminate overlaps and ensure clear separation of bullet points for improved readability.

@@ -1,1 +1,0 @@
-Change the font weight of the title "Globalization isn’t possible to occur without media." to bold in the rendered image.

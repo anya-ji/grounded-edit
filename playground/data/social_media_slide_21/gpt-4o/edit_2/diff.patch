@@ -1,0 +1,13 @@
+--- ./data/social_media_slide_21/init/code.py	2025-02-20 02:15:04.900042625 +0000
++++ ./data/social_media_slide_21/gpt-4o/edit_2/code.py	2025-02-20 15:12:22.418576897 +0000
+@@ -15,8 +15,8 @@
+ # Title text
+ text = "THANK YOU!"
+ 
+-# Create a text box for the main message, centered
+-text_box = slide.shapes.add_textbox(Inches(4), Inches(3.5), Inches(8), Inches(2))
++# Create a text box for the main message, centered vertically and horizontally
++text_box = slide.shapes.add_textbox(Inches(4), Inches(3), Inches(8), Inches(2))  # Changed to 3 for vertical centering
+ text_frame = text_box.text_frame
+ text_frame.text = text
+ text_frame.paragraphs[0].font.bold = True

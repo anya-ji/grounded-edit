@@ -1,0 +1,1 @@
+Change the font size of "ART APPRECIATION" to 72 to make it more prominent.

@@ -1,0 +1,5 @@
+<edit>Change the font size of the bullet points to 24pt for better readability.</edit>
+<edit>Add a margin of 30 pixels to the text box containing the bullet points to create sufficient spacing from the right edge of the image.</edit>
+<edit>Change the text color of the bullet points to white for better contrast against the background.</edit>
+<edit>Increase the line spacing of the bullet points to 1.5 for improved readability.</edit>
+<edit>Set the alignment of the bullet points text to justified to create a more uniform appearance.</edit>

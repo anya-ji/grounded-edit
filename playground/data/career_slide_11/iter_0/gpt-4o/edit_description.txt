@@ -1,1 +1,0 @@
-Change all bullet points in the rendered image to white text, matching the font color used in the target image for consistency.

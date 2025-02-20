@@ -1,1 +1,0 @@
-Reduce the size of the text overlay to ensure the network graphic is fully visible and adjust the background color of the text area to a lighter shade that matches the overall theme of the target image.

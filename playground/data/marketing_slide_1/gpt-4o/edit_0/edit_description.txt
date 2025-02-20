@@ -1,0 +1,1 @@
+Change the font size of the title "MARKET AROUND US CHAPTER-6" to 40pt for better visibility.

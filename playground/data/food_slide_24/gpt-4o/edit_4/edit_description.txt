@@ -1,0 +1,1 @@
+Reposition the audio control button to the bottom-left corner of the slide to improve layout and accessibility.

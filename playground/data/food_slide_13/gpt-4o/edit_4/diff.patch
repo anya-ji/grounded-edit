@@ -1,0 +1,11 @@
+--- ./data/food_slide_13/init/code.py	2025-02-20 02:15:04.691043053 +0000
++++ ./data/food_slide_13/gpt-4o/edit_4/code.py	2025-02-20 13:11:53.675452378 +0000
+@@ -44,7 +44,7 @@
+ for event in events:
+     paragraph = checklist_frame.add_paragraph()
+     paragraph.text = event
+-    paragraph.space_after = Pt(10)
++    paragraph.space_after = Pt(20)  # Increased spacing
+     paragraph.font.size = Pt(18)
+ 
+ # Add image of Joey

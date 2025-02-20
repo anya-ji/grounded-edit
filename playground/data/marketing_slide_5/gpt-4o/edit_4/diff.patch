@@ -1,0 +1,37 @@
+--- ./data/marketing_slide_5/init/code.py	2025-02-20 02:15:03.864044745 +0000
++++ ./data/marketing_slide_5/gpt-4o/edit_4/code.py	2025-02-20 14:42:10.131928072 +0000
+@@ -7,7 +7,7 @@
+ presentation.slide_width = Inches(16)
+ presentation.slide_height = Inches(9)
+ 
+-slide_layout = presentation.slide_layouts[5] # blank layout
++slide_layout = presentation.slide_layouts[5]  # blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+ # Add image to the left side as background
+@@ -50,5 +50,24 @@
+ p.font.size = Pt(32)
+ p.font.color.rgb = RGBColor(255, 255, 255)  # White color
+ 
++# Add footer with light gray background
++footer_left = Inches(0)
++footer_top = Inches(7.8)  # Position it near the bottom
++footer_width = Inches(16)
++footer_height = Inches(1.2)
++footer_shape = slide.shapes.add_shape(
++    MSO_SHAPE.RECTANGLE, footer_left, footer_top, footer_width, footer_height
++)
++footer_fill = footer_shape.fill
++footer_fill.solid()
++footer_fill.fore_color.rgb = RGBColor(211, 211, 211)  # Light gray
++
++# Add text to the footer
++footer_text_box = slide.shapes.add_textbox(footer_left, footer_top, footer_width, footer_height)
++footer_text_frame = footer_text_box.text_frame
++footer_p = footer_text_frame.add_paragraph()
++footer_p.text = "This presentation uses images under CC BY-SA license"
++footer_p.font.size = Pt(12)
++
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

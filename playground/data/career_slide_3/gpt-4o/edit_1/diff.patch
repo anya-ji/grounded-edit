@@ -1,0 +1,24 @@
+--- ./data/career_slide_3/init/code.py	2025-02-20 02:15:04.980042461 +0000
++++ ./data/career_slide_3/gpt-4o/edit_1/code.py	2025-02-20 12:19:49.798860748 +0000
+@@ -41,7 +41,7 @@
+ quotation_p.font.size = Pt(48)
+ quotation_p.font.color.rgb = RGBColor(64, 64, 64)  # Dark gray
+ 
+-# Add the main text content to the speech bubble
++# Add the main text content to the speech bubble with increased padding
+ text_box = slide.shapes.add_textbox(left + Inches(0.5), top + Inches(0.5), width - Inches(1), height - Inches(1))
+ text_frame = text_box.text_frame
+ text_frame.word_wrap = True
+@@ -52,5 +52,11 @@
+ p.font.size = Pt(24)
+ p.font.color.rgb = RGBColor(255, 255, 255)  # White
+ 
++# Adjust the text box for padding (20 pixels = 0.25 inches)
++text_box.left += Inches(0.25)
++text_box.top += Inches(0.25)
++text_box.width -= Inches(0.5)  # Reduce width by 0.5 inches (left + right padding)
++text_box.height -= Inches(0.5)  # Reduce height by 0.5 inches (top + bottom padding)
++
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

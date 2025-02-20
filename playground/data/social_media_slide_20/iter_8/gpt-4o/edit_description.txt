@@ -1,1 +1,0 @@
-Change the background color of the rendered image to a light color similar to that of the target image for improved readability.

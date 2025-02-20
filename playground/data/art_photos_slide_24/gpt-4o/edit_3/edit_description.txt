@@ -1,0 +1,1 @@
+Add sufficient padding around the paragraph text to ensure it does not touch the edges of the text box.

@@ -1,0 +1,11 @@
+--- ./data/food_slide_21/init/code.py	2025-02-20 02:15:04.701043032 +0000
++++ ./data/food_slide_21/gpt-4o/edit_0/code.py	2025-02-20 13:20:19.069594881 +0000
+@@ -12,7 +12,7 @@
+ title_box = slide.shapes.add_textbox(Inches(0.5), Inches(0.2), Inches(12), Inches(0.8))
+ title_frame = title_box.text_frame
+ title = title_frame.add_paragraph()
+-title.text = "Pronunciation Activity"
++title.text = "PART 1"  # Changed title text
+ title.font.size = Pt(36)
+ title.font.bold = True
+ title.alignment = PP_ALIGN.LEFT

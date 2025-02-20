@@ -1,0 +1,1 @@
+Adjust the alignment of the image on the right to be top-aligned with the text to ensure consistent spacing and layout.

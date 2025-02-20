@@ -1,0 +1,28 @@
+--- ./data/environment_slide_10/init/code.py	2025-02-20 02:15:04.772042887 +0000
++++ ./data/environment_slide_10/gpt-4o/edit_4/code.py	2025-02-20 12:53:08.252211690 +0000
+@@ -2,8 +2,6 @@
+ from pptx.util import Inches, Pt
+ from pptx.dml.color import RGBColor
+ from pptx.enum.text import PP_ALIGN
+-from pptx.oxml import parse_xml
+-from pptx.oxml.ns import nsdecls
+ 
+ # Create a presentation object
+ presentation = Presentation()
+@@ -20,11 +18,11 @@
+ fill.solid()
+ fill.fore_color.rgb = RGBColor(204, 255, 204)  # Light green
+ 
+-# Add a large white textbox in the center
+-left = Inches(2)
+-top = Inches(3)
+-width = Inches(12)
+-height = Inches(3)
++# Add a large white textbox in the center with padding
++left = Inches(1)  # Decrease left margin for padding
++top = Inches(2.5)  # Decrease top margin for padding
++width = Inches(14)  # Increase width for padding
++height = Inches(4)  # Increase height for padding
+ textbox = slide.shapes.add_textbox(left, top, width, height)
+ text_frame = textbox.text_frame
+ textbox.fill.solid()

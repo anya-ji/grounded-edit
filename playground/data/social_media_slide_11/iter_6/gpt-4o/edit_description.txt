@@ -1,1 +1,0 @@
-Adjust the text box height to ensure the title "Various Media drive Various forms of Global Integration" is fully visible, and add the missing checkmarks before each bullet point.

@@ -1,0 +1,1 @@
+Change the font size of the text in the rendered slide to match the font size of the corresponding text in the target slide.

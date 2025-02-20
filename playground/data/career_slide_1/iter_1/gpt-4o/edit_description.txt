@@ -1,1 +1,0 @@
-Adjust the main text position to center-align "Are Top Grades Enough?" and ensure the text "A presentation by" and "TopicsForSeminar.com" are aligned properly below it, using clearer fonts and consistent sizing.

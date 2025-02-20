@@ -1,1 +1,0 @@
-Standardize the text color for headings in the rendered image to match the target image, ensuring all headings are in the same color (blue for "ACADEMIC WORLD" and "PROFESSIONAL WORLD").

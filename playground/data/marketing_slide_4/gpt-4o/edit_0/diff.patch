@@ -1,0 +1,16 @@
+--- ./data/marketing_slide_4/init/code.py	2025-02-20 02:15:03.985044498 +0000
++++ ./data/marketing_slide_4/gpt-4o/edit_0/code.py	2025-02-20 14:34:34.674620272 +0000
+@@ -13,11 +13,11 @@
+ slide_layout = presentation.slide_layouts[5]  # blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set background color to red
++# Set background color to black
+ background = slide.background
+ fill = background.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(255, 0, 0)  # Red color
++fill.fore_color.rgb = RGBColor(0, 0, 0)  # Black color
+ 
+ # Add black horizontal stripe
+ stripe_height = Inches(1.5)

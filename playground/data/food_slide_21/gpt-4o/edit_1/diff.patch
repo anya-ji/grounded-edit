@@ -1,0 +1,11 @@
+--- ./data/food_slide_21/init/code.py	2025-02-20 02:15:04.701043032 +0000
++++ ./data/food_slide_21/gpt-4o/edit_1/code.py	2025-02-20 13:20:43.539551107 +0000
+@@ -57,7 +57,7 @@
+     response_paragraph = response_frame.add_paragraph()
+     response_paragraph.text = "Stressed word(s):"
+     response_paragraph.font.size = Pt(16)
+-    response_paragraph.font.color.rgb = RGBColor(255, 0, 0)
++    response_paragraph.font.color.rgb = RGBColor(213, 0, 109)  # Updated color to pink
+ 
+ # PART 2
+ part2_title_box = slide.shapes.add_textbox(Inches(0.5), Inches(8.5), Inches(12), Inches(0.5))

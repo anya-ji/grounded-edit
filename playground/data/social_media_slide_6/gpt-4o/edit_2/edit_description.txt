@@ -1,0 +1,1 @@
+Change the color of the subtitle text "3. PRINTING PRESS" to match the target slide's color.

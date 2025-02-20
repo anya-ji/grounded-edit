@@ -1,1 +1,0 @@
-Change the title background color from bright yellow to a softer, less saturated shade of yellow to better match the target image's title background.

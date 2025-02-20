@@ -1,0 +1,1 @@
+Align the text "A presentation by TopicsForSeminar.com" to be centered instead of left-aligned for better visual balance.

@@ -1,0 +1,79 @@
+--- ./data/career_slide_6/init/code.py	2025-02-20 02:15:05.003042414 +0000
++++ ./data/career_slide_6/gpt-4o/edit_4/code.py	2025-02-20 12:29:42.624610908 +0000
+@@ -22,6 +22,10 @@
+ title_box = slide.shapes.add_textbox(Inches(1), Inches(0.5), Inches(14), Inches(1.5))
+ title_frame = title_box.text_frame
+ title_frame.word_wrap = True
++title_frame.margin_top = Pt(10)
++title_frame.margin_bottom = Pt(10)
++title_frame.margin_left = Pt(10)
++title_frame.margin_right = Pt(10)
+ title_p = title_frame.add_paragraph()
+ title_p.text = title_text
+ title_p.font.bold = True
+@@ -34,6 +38,10 @@
+ 
+ sec1_title_box = slide.shapes.add_textbox(Inches(1), Inches(5.5), Inches(4), Inches(1))
+ sec1_title_frame = sec1_title_box.text_frame
++sec1_title_frame.margin_top = Pt(10)
++sec1_title_frame.margin_bottom = Pt(10)
++sec1_title_frame.margin_left = Pt(10)
++sec1_title_frame.margin_right = Pt(10)
+ sec1_title_p = sec1_title_frame.add_paragraph()
+ sec1_title_p.text = "Global Competitiveness"
+ sec1_title_p.font.bold = True
+@@ -43,6 +51,10 @@
+ sec1_text_box = slide.shapes.add_textbox(Inches(1), Inches(6.2), Inches(4.5), Inches(1.8))
+ sec1_text_frame = sec1_text_box.text_frame
+ sec1_text_frame.word_wrap = True
++sec1_text_frame.margin_top = Pt(10)
++sec1_text_frame.margin_bottom = Pt(10)
++sec1_text_frame.margin_left = Pt(10)
++sec1_text_frame.margin_right = Pt(10)
+ sec1_text_p = sec1_text_frame.add_paragraph()
+ sec1_text_p.text = "Education is key for a country's competitiveness in the global market."
+ sec1_text_p.font.size = Pt(20)
+@@ -54,6 +66,10 @@
+ 
+ sec2_title_box = slide.shapes.add_textbox(Inches(6), Inches(5.5), Inches(4), Inches(1))
+ sec2_title_frame = sec2_title_box.text_frame
++sec2_title_frame.margin_top = Pt(10)
++sec2_title_frame.margin_bottom = Pt(10)
++sec2_title_frame.margin_left = Pt(10)
++sec2_title_frame.margin_right = Pt(10)
+ sec2_title_p = sec2_title_frame.add_paragraph()
+ sec2_title_p.text = "Scientific Advancement and Research"
+ sec2_title_p.font.bold = True
+@@ -63,6 +79,10 @@
+ sec2_text_box = slide.shapes.add_textbox(Inches(6), Inches(6.2), Inches(4.5), Inches(1.8))
+ sec2_text_frame = sec2_text_box.text_frame
+ sec2_text_frame.word_wrap = True
++sec2_text_frame.margin_top = Pt(10)
++sec2_text_frame.margin_bottom = Pt(10)
++sec2_text_frame.margin_left = Pt(10)
++sec2_text_frame.margin_right = Pt(10)
+ sec2_text_p = sec2_text_frame.add_paragraph()
+ sec2_text_p.text = "Academic success drives research, leading to advancements that improve society."
+ sec2_text_p.font.size = Pt(20)
+@@ -74,6 +94,10 @@
+ 
+ sec3_title_box = slide.shapes.add_textbox(Inches(11), Inches(5.5), Inches(4), Inches(1))
+ sec3_title_frame = sec3_title_box.text_frame
++sec3_title_frame.margin_top = Pt(10)
++sec3_title_frame.margin_bottom = Pt(10)
++sec3_title_frame.margin_left = Pt(10)
++sec3_title_frame.margin_right = Pt(10)
+ sec3_title_p = sec3_title_frame.add_paragraph()
+ sec3_title_p.text = "Cultural Enrichment and Social Cohesion"
+ sec3_title_p.font.bold = True
+@@ -83,6 +107,10 @@
+ sec3_text_box = slide.shapes.add_textbox(Inches(11), Inches(6.2), Inches(4.5), Inches(1.8))
+ sec3_text_frame = sec3_text_box.text_frame
+ sec3_text_frame.word_wrap = True
++sec3_text_frame.margin_top = Pt(10)
++sec3_text_frame.margin_bottom = Pt(10)
++sec3_text_frame.margin_left = Pt(10)
++sec3_text_frame.margin_right = Pt(10)
+ sec3_text_p = sec3_text_frame.add_paragraph()
+ sec3_text_p.text = "Education fosters cultural understanding and social cohesion through exposure to diverse perspectives and experiences, building a more inclusive society."
+ sec3_text_p.font.size = Pt(20)

@@ -1,0 +1,11 @@
+--- ./data/social_media_slide_5/init/code.py	2025-02-20 02:15:04.898042629 +0000
++++ ./data/social_media_slide_5/gpt-4o/edit_3/code.py	2025-02-20 15:19:52.866549410 +0000
+@@ -46,7 +46,7 @@
+ for bullet in bullet_points:
+     p = content_tf.add_paragraph()
+     p.text = bullet
+-    p.font.size = Pt(24)
++    p.font.size = Pt(28)  # Increased font size for better readability
+     p.space_after = Pt(12)
+ 
+ # Add image on the right side

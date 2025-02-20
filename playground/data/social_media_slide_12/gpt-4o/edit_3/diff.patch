@@ -1,0 +1,12 @@
+--- ./data/social_media_slide_12/init/code.py	2025-02-20 02:15:04.875042676 +0000
++++ ./data/social_media_slide_12/gpt-4o/edit_3/code.py	2025-02-20 14:55:56.412906910 +0000
+@@ -55,7 +55,7 @@
+ content_p = content_tf.add_paragraph()
+ content_p.text = content_text
+ content_p.font.size = Pt(20)
+-content_p.font.color.rgb = RGBColor(0, 0, 0)  # Black
++content_p.font.color.rgb = RGBColor(0, 0, 0)  # Black for bullet point text
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

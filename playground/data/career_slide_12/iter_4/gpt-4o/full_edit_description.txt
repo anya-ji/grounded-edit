@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image features text that is predominantly in gray, while the subpoints under "Leadership and Teamwork" are also in gray but with additional styling or emphasis on certain words.
-2. Description of Rendered Image: The rendered image displays the same text, but all points, including "Teamwork skills," are highlighted in yellow, creating a visually striking contrast.
-3. Change Suggestion: Change the color of the text for the subpoints under "Leadership and Teamwork" from yellow back to gray to match the target image's style.
-```

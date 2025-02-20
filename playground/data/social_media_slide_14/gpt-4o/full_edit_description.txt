@@ -1,0 +1,5 @@
+<edit>Change the font size of the title "Globalization isn't possible to occur without media." to 36 pt for better visibility.</edit>
+<edit>Add a line break after "Digital media through phone and computers" for improved readability.</edit>
+<edit>Change the text color of "Electronic media" to a dark blue (#1F4E7A) to enhance contrast against the background.</edit>
+<edit>Ensure the spacing between the bullet points is 1.5x line height to provide better separation between them.</edit>
+<edit>Adjust the alignment of the text blocks to be left-aligned instead of justified to enhance readability.</edit>

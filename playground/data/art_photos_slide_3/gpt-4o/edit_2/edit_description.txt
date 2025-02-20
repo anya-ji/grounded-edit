@@ -1,0 +1,1 @@
+Adjust the font size of the bullet points for better hierarchy, increasing it slightly to make it more legible.

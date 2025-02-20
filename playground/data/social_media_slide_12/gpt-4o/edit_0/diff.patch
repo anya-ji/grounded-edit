@@ -1,0 +1,11 @@
+--- ./data/social_media_slide_12/init/code.py	2025-02-20 02:15:04.875042676 +0000
++++ ./data/social_media_slide_12/gpt-4o/edit_0/code.py	2025-02-20 14:54:59.168060494 +0000
+@@ -24,7 +24,7 @@
+ tf = title_box.text_frame
+ p = tf.add_paragraph()
+ p.text = title_text
+-p.font.size = Pt(44)
++p.font.size = Pt(36)  # Changed font size to 36 points
+ p.font.bold = True
+ p.font.color.rgb = RGBColor(255, 255, 255)  # White
+ 

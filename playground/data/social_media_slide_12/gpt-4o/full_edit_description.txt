@@ -1,0 +1,5 @@
+<edit>Change the title font size to 36 points.</edit>
+<edit>Add a blue background color (#003366) to the title text box.</edit>
+<edit>Adjust the spacing between the title and the first bullet point to 30 pixels.</edit>
+<edit>Change the bullet point text color to black for better contrast and readability.</edit>
+<edit>Add a period at the end of the first bullet point.</edit>

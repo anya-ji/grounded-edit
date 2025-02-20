@@ -1,0 +1,1 @@
+Change the background color of the slide from light green to a light beige using: `slide.background.fill.solid() slide.background.fill.solid_color('beige')`

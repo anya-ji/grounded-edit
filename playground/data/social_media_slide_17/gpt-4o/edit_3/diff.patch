@@ -1,0 +1,21 @@
+--- ./data/social_media_slide_17/init/code.py	2025-02-20 02:15:04.889042647 +0000
++++ ./data/social_media_slide_17/gpt-4o/edit_3/code.py	2025-02-20 15:04:23.538510889 +0000
+@@ -50,5 +50,17 @@
+ p.font.size = Pt(28)
+ p.font.color.rgb = RGBColor(0, 0, 0)  # Black text
+ 
++# Change the color of a specific sentence
++p = content_frame.add_paragraph()
++p.text = "There are three perspectives on global cultural flows:"
++p.font.size = Pt(28)
++p.font.color.rgb = RGBColor(50, 50, 50)  # Darker shade for improved readability
++
++# Add remaining content
++p = content_frame.add_paragraph()
++p.text = "These are cultural differentialism, hybridization, and convergence."
++p.font.size = Pt(28)
++p.font.color.rgb = RGBColor(0, 0, 0)  # Black text
++
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

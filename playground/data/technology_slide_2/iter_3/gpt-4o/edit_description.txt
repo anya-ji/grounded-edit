@@ -1,1 +1,0 @@
-Add checkmarks before the bullet points in the text to match the target image's formatting.

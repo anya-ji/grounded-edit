@@ -1,0 +1,1 @@
+Resize the logo/icon to maintain consistent proportions, ensuring it fits within a designated space without overlap.

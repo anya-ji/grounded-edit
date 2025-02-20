@@ -1,1 +1,0 @@
-Adjust the spacing and format in the rendered image to match the target image's layout, specifically by adding bullet points before the descriptions for clearer organization.

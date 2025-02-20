@@ -1,0 +1,1 @@
+Remove the first bullet point's indentation to align it with the second bullet point.

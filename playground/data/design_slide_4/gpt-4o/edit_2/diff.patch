@@ -1,0 +1,17 @@
+--- ./data/design_slide_4/init/code.py	2025-02-20 02:15:04.599043241 +0000
++++ ./data/design_slide_4/gpt-4o/edit_2/code.py	2025-02-20 12:40:40.130037930 +0000
+@@ -59,7 +59,12 @@
+     p_desc = text_frame.add_paragraph()
+     p_desc.text = description
+     p_desc.font.size = Pt(16)
+-    p_desc.font.color.rgb = RGBColor(255, 255, 255)  # White color
++
++    # Change the font color of "Marketing and advertising design"
++    if title == "Marketing and advertising design":
++        p_desc.font.color.rgb = RGBColor(255, 255, 255)  # White color
++    else:
++        p_desc.font.color.rgb = RGBColor(255, 255, 255)  # White color
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

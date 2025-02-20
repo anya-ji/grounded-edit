@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: A graphic design layout featuring a blue background with white text and various principles of graphic design presented in a clean, organized manner.
-2. Description of Rendered Image: A similar graphic design layout but with a blue background and larger, bold text that is inconsistent in capitalization and color, leading to a cluttered appearance.
-3. Change Suggestion: Change the title "Principles of Graphic Design" to all lowercase as "principles of graphic design" to match the target image's style.
-```

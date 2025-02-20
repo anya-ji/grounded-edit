@@ -1,0 +1,10 @@
+--- ./data/food_slide_29/init/code.py	2025-02-20 02:15:04.668043100 +0000
++++ ./data/food_slide_29/gpt-4o/edit_0/code.py	2025-02-20 13:33:29.964133385 +0000
+@@ -27,6 +27,7 @@
+ title.text = "PART 1"
+ title.font.size = Pt(32)
+ title.font.bold = True
++title.font.color.rgb = RGBColor(0, 0, 139)  # Dark blue font color
+ 
+ # Add chat icon
+ icon_path = "../../media/image_0.jpg"  # Use the provided image path

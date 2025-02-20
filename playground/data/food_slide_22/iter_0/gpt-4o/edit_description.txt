@@ -1,1 +1,0 @@
-Add a green checkmark icon next to the selected correct answer in the rendered image to match the target image.

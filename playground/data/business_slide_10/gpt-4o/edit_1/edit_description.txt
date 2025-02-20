@@ -1,0 +1,1 @@
+Increase the font size of the text "Belo" to 48 points for better visibility and emphasis.

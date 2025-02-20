@@ -1,0 +1,11 @@
+--- ./data/marketing_slide_14/init/code.py	2025-02-20 02:15:03.988044492 +0000
++++ ./data/marketing_slide_14/gpt-4o/edit_2/code.py	2025-02-20 13:54:18.678758203 +0000
+@@ -20,7 +20,7 @@
+ text_frame = text_box.text_frame
+ p = text_frame.add_paragraph()
+ p.text = "Q. How often you think about social impact of your action before you act?"
+-p.font.size = Pt(36)
++p.font.size = Pt(44)  # Increased font size to 44
+ p.font.color.rgb = RGBColor(255, 255, 255)
+ text_box.text_frame.word_wrap = True
+ text_box.text_frame.paragraphs[0].alignment = 1  # Center

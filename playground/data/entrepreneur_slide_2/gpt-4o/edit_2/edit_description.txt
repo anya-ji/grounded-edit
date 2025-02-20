@@ -1,0 +1,1 @@
+Change the color of the text in the bullet list to dark gray for better readability against the background.

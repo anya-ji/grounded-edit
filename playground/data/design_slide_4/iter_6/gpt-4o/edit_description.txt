@@ -1,1 +1,0 @@
-Adjust the height of the "Website composition" text box to match the height of the "Marketing and advertising design" text box, ensuring consistent spacing and alignment across all text boxes.

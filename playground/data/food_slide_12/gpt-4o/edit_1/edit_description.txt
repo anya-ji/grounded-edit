@@ -1,0 +1,1 @@
+Update the text color of "Viewing Activity" to white for improved contrast against the blue background.

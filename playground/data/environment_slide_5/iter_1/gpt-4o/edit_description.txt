@@ -1,1 +1,0 @@
-Increase the font size of the heading "Further types of natural environment" in the rendered image to match the size in the target image.

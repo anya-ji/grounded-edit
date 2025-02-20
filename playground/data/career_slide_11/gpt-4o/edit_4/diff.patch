@@ -1,0 +1,12 @@
+--- ./data/career_slide_11/init/code.py	2025-02-20 02:15:04.979042463 +0000
++++ ./data/career_slide_11/gpt-4o/edit_4/code.py	2025-02-20 11:57:57.907959125 +0000
+@@ -48,6 +48,9 @@
+     ])
+ ]
+ 
++# Insert a prior bullet point for Emotional Intelligence
++bullet_points.insert(2, ("", []))  # Adding an empty bullet for uniformity
++
+ for main_point, sub_points in bullet_points:
+     p_main = content_frame.add_paragraph()
+     p_main.text = main_point

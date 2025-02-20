@@ -1,1 +1,0 @@
-Increase the line spacing of the bullet points to improve readability and make it more visually similar to the target image.

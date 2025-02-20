@@ -1,0 +1,29 @@
+--- ./data/environment_slide_8/init/code.py	2025-02-20 02:15:04.795042840 +0000
++++ ./data/environment_slide_8/gpt-4o/edit_2/code.py	2025-02-20 13:03:46.209108027 +0000
+@@ -16,7 +16,7 @@
+ background = slide.background
+ fill = background.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(144, 238, 144) # Light green color
++fill.fore_color.rgb = RGBColor(144, 238, 144)  # Light green color
+ 
+ # Add title section
+ title_textbox = slide.shapes.add_textbox(Inches(1), Inches(1), Inches(14), Inches(1.5))
+@@ -26,7 +26,7 @@
+ title_p.text = "POSITIVE IMPACT"
+ title_p.font.bold = True
+ title_p.font.size = Pt(44)
+-title_p.font.color.rgb = RGBColor(0, 128, 0) # Green color
++title_p.font.color.rgb = RGBColor(0, 128, 0)  # Green color
+ title_tf.word_wrap = True
+ 
+ # Add content section
+@@ -45,7 +45,7 @@
+ for line in content:
+     p = content_tf.add_paragraph()
+     p.text = line
+-    p.font.size = Pt(20)
++    p.font.size = Pt(22)  # Changed font size to 22pt
+     p.font.color.rgb = RGBColor(0, 0, 0)  # Black color
+ 
+ content_tf.word_wrap = True

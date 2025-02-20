@@ -1,0 +1,25 @@
+--- ./data/art_photos_slide_13/init/code.py	2025-02-20 02:15:04.273043908 +0000
++++ ./data/art_photos_slide_13/gpt-4o/edit_2/code.py	2025-02-20 10:54:22.082293529 +0000
+@@ -11,12 +11,18 @@
+ presentation.slide_height = Inches(9)
+ 
+ # Add slide
+-slide_layout = presentation.slide_layouts[5] # BLANK layout
++slide_layout = presentation.slide_layouts[5]  # BLANK layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set background image
+-background_img_path = "../../media/image_0.jpg"
+-slide.shapes.add_picture(background_img_path, Inches(0), Inches(0), width=Inches(16), height=Inches(9))
++# Set background color to white
++background = slide.background
++fill = background.fill
++fill.solid()
++fill.fore_color.rgb = RGBColor(255, 255, 255)
++
++# Add background image (optional, can be commented out)
++# background_img_path = "../../media/image_0.jpg"
++# slide.shapes.add_picture(background_img_path, Inches(0), Inches(0), width=Inches(16), height=Inches(9))
+ 
+ # Add white overlay for text readability
+ overlay = slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, Inches(0), Inches(0), Inches(16), Inches(9))

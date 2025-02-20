@@ -1,1 +1,0 @@
-Change the color of the "Sales" text from red to blue to match the color scheme of the target image.

@@ -1,0 +1,1 @@
+Adjust the bullet points from using hyphens ("-") to using bullets ("•") for the "Assessment" and "Feedback" sections for better readability.

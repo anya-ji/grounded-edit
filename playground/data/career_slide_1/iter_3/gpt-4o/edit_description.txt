@@ -1,1 +1,0 @@
-Increase the size of the title text "Are Top Grades Enough?" and change its color to match the bright yellow hue in the target image for better visibility.

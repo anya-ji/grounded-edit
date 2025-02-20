@@ -1,1 +1,0 @@
-Adjust the heading color of "PROFESSIONAL WORLD" to yellow and ensure that the text aligns properly to match the structured layout of the target image.

@@ -1,0 +1,29 @@
+--- ./data/technology_slide_7/init/code.py	2025-02-20 02:15:05.077042263 +0000
++++ ./data/technology_slide_7/gpt-4o/edit_3/code.py	2025-02-20 15:43:24.823041672 +0000
+@@ -1,7 +1,6 @@
+ from pptx import Presentation
+ from pptx.util import Inches, Pt
+ from pptx.enum.text import PP_ALIGN
+-from pptx.dml.color import RGBColor
+ 
+ # Create presentation
+ presentation = Presentation()
+@@ -19,7 +18,6 @@
+ title = title_tf.paragraphs[0]
+ title.font.bold = True
+ title.font.size = Pt(44)
+-title.font.color.rgb = RGBColor(0, 51, 102)  # Dark blue color
+ title.alignment = PP_ALIGN.CENTER
+ 
+ # Content
+@@ -39,7 +37,9 @@
+     p = content_tf.add_paragraph()
+     p.text = point
+     p.font.size = Pt(18)
+-    p.font.color.rgb = RGBColor(0, 0, 0)  # Black color
++    p.space_before = Pt(6)  # Add space before each bullet point
++    p.space_after = Pt(6)   # Add space after each bullet point
++    p.line_spacing = Pt(27)  # Set line spacing to 1.5 (18 * 1.5 = 27)
+ 
+ # Image
+ image_path = "../../media/image_0.jpg"

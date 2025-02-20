@@ -1,1 +1,0 @@
-Change the background color of the rendered image to a soft gradient or texture that resembles the target image's background.

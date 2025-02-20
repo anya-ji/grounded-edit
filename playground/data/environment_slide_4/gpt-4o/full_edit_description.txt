@@ -1,0 +1,5 @@
+<edit>Change the background color of the slide to a lighter shade of green using `slide.background.color.rgb = (204, 255, 204)`.</edit>
+<edit>Update the font size of the title "NATURAL ENVIRONMENT" to 40 points using `title.text_frame.paragraphs[0].font.size = Pt(40)`.</edit>
+<edit>Change the font color of the text "The natural environment means the non human made surroundings..." to a darker green using `text_box.text_frame.paragraphs[0].font.color.rgb = (0, 102, 0)`.</edit>
+<edit>Add a bullet point symbol to the list item by modifying the bullet style with `text_box.text_frame.paragraphs[0].bullet.char = '•'`.</edit>
+<edit>Center the image on the slide using `image.left = Inches(2)` and `image.top = Inches(3)` for proper alignment.</edit>

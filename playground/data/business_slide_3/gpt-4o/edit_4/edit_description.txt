@@ -1,0 +1,1 @@
+Increase the padding around the text by adjusting the `bbox` parameter in the text method to `{'facecolor': 'None', 'edgecolor': 'None', 'boxstyle': 'round,pad=0.5'}`.

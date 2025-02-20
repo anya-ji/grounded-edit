@@ -1,0 +1,1 @@
+Change the font size of the text to 32 points to enhance visibility and ensure it fills the speech bubble adequately.

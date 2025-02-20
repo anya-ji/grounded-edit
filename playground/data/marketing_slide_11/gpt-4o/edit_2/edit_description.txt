@@ -1,0 +1,1 @@
+Change the background gradient colors to a darker blue palette, similar to the target slide, to create a more cohesive look across the slide.

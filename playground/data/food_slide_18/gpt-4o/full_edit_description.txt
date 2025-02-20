@@ -1,0 +1,5 @@
+<edit>Change the font size of the text in the rendered slide to match the font size of the corresponding text in the target slide.</edit>  
+<edit>Adjust the color of the text bubbles in the rendered slide to a light blue similar to the one used in the target slide.</edit>  
+<edit>Right-align the dialogue text in the rendered slide to ensure it matches the alignment of the text in the target slide.</edit>  
+<edit>Add a shadow effect to the text in the rendered slide for improved visibility against the background.</edit>  
+<edit>Increase the spacing between the numbered questions in the rendered slide to ensure they are distinct and easy to read.</edit>  

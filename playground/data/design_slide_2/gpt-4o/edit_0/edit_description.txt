@@ -1,0 +1,1 @@
+Change the color of the title text "What is Graphic Design?" to a darker shade (e.g., #333333) for better readability.

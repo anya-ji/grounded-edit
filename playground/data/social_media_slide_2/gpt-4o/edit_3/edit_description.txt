@@ -1,0 +1,1 @@
+Adjust the vertical spacing between the "MEDIA" and "CULTURE" sections to 20px.

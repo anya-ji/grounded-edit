@@ -1,1 +1,0 @@
-Add checkboxes next to each bullet point in the rendered image to match the target image's format.

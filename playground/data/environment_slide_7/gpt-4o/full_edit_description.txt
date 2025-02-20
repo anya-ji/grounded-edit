@@ -1,0 +1,5 @@
+<edit>Change the background color of the slide from light green to a light beige using: `slide.background.fill.solid() slide.background.fill.solid_color('beige')`</edit>
+<edit>Change the title font size to 40pt using: `title.text_frame.text = "NEGATIVE IMPACT"` then `title.text_frame.paragraphs[0].font.size = Pt(40)`</edit>
+<edit>Adjust the first bullet point by adding a period at the end using: `first_bullet.text = "Humans are continuously cutting down trees and littering have a negative impact on environment."`</edit>
+<edit>Reposition the images to ensure consistent spacing of 10px between them by setting coordinates: `image1.left = Inches(1), image2.left = Inches(7)` to avoid overlap.</edit>
+<edit>Change the text color of the body content from dark green to black for better readability using: `for paragraph in body.text_frame.paragraphs: paragraph.font.color.rgb = RGBColor(0, 0, 0)`</edit>

@@ -1,0 +1,11 @@
+--- ./data/business_slide_4/init/code.py	2025-02-20 02:15:04.123044215 +0000
++++ ./data/business_slide_4/gpt-4o/edit_1/code.py	2025-02-20 11:44:28.245409427 +0000
+@@ -29,7 +29,7 @@
+ title.text = "Vision"
+ title.font.bold = True
+ title.font.size = Pt(32)
+-title.font.color.rgb = RGBColor(255, 255, 255)
++title.font.color.rgb = RGBColor(255, 255, 255)  # Font color changed to white
+ 
+ # Insert the airbnb logo at the bottom left corner
+ image_path = "../../media/image_0.jpg"

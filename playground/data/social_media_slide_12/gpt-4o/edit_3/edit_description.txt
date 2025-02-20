@@ -1,0 +1,1 @@
+Change the bullet point text color to black for better contrast and readability.

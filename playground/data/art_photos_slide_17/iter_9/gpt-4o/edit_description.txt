@@ -1,1 +1,0 @@
-Adjust the title "The Subject and Content of Art" to center it horizontally and add a yellow background stripe behind the title text that matches the style of the target image.

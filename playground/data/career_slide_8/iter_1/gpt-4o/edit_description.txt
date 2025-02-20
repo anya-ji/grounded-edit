@@ -1,1 +1,0 @@
-Adjust the background color of the rendered image to a light gray gradient to increase contrast with the text and images, making the overall layout visually cleaner.

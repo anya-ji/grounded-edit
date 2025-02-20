@@ -1,0 +1,1 @@
+Change the background color to a gradient of light green to match the target slide's look.

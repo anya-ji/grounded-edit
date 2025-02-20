@@ -1,0 +1,1 @@
+Reposition the text "Graphic Design" to be centered vertically and horizontally on the slide for a balanced layout.

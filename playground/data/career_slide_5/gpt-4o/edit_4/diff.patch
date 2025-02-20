@@ -1,0 +1,12 @@
+--- ./data/career_slide_5/init/code.py	2025-02-20 02:15:05.012042396 +0000
++++ ./data/career_slide_5/gpt-4o/edit_4/code.py	2025-02-20 12:24:51.386258624 +0000
+@@ -76,7 +76,7 @@
+     p = tf.add_paragraph()
+     p.text = section['content']
+     p.font.size = Pt(16)
+-    p.font.color.rgb = RGBColor(255, 255, 255)
++    p.font.color.rgb = RGBColor(255, 255, 255)  # Changed font color to white
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

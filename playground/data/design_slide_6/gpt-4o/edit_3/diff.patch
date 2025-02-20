@@ -1,0 +1,17 @@
+--- ./data/design_slide_6/init/code.py	2025-02-20 02:15:04.611043216 +0000
++++ ./data/design_slide_6/gpt-4o/edit_3/code.py	2025-02-20 12:43:44.323584208 +0000
+@@ -56,5 +56,13 @@
+ p3.font.size = Pt(20)
+ p3.font.color.rgb = RGBColor(255, 255, 255)  # White text
+ 
++# Add footer for contact information
++footer_box = slide.shapes.add_textbox(Inches(0.5), Inches(8), Inches(15), Inches(1))
++footer_frame = footer_box.text_frame
++footer = footer_frame.add_paragraph()
++footer.text = "For inquiries, please contact: +916282126012"
++footer.font.size = Pt(18)
++footer.font.color.rgb = RGBColor(255, 255, 255)  # White text
++
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

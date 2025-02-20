@@ -1,0 +1,13 @@
+--- ./data/social_media_slide_5/init/code.py	2025-02-20 02:15:04.898042629 +0000
++++ ./data/social_media_slide_5/gpt-4o/edit_1/code.py	2025-02-20 15:19:20.809627223 +0000
+@@ -39,8 +39,8 @@
+ content_tf.word_wrap = True
+ 
+ bullet_points = [
+-    "It allowed humans to communicate over a larger space and for a much longer duration.",
+-    "It allowed the permanent codification of economic, cultural, and political practice."
++    "• It allowed humans to communicate over a larger space and for a much longer duration.",
++    "• It allowed the permanent codification of economic, cultural, and political practice."
+ ]
+ 
+ for bullet in bullet_points:

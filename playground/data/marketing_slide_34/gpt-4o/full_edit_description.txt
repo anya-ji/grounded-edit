@@ -1,0 +1,5 @@
+<edit>Change the background color of the slide to a gradient that transitions from a dark teal to a lighter teal for improved visual appeal.</edit>
+<edit>Change the text color of the title "Let's Recall:" to white for better contrast against the background.</edit>
+<edit>Increase the font size of the title "Let's Recall:" to 36 pts to give it more prominence on the slide.</edit>
+<edit>Adjust the alignment of the subtitle "Differentiate between Wholesaler and Retailers" to be centered horizontally on the slide.</edit>
+<edit>Add a margin of 20 points at the bottom of the slide to provide sufficient spacing from the edge.</edit>

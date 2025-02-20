@@ -1,1 +1,0 @@
-Remove the white rectangle surrounding the central figure to match the layout in the target image.

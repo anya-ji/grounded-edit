@@ -1,0 +1,1 @@
+Increase the line spacing of the bullet points to 1.5 to improve the spacing and readability of the text.

@@ -1,0 +1,1 @@
+Increase the line spacing between the bullet points to ensure better readability, using a value such as `lineheight=1.5` in the text properties.

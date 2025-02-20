@@ -1,0 +1,1 @@
+Add a text shadow to "MARKET AROUND US CHAPTER-6" with a shadow color of black (#000000) and an offset of 2px to enhance readability.

@@ -1,0 +1,18 @@
+--- ./data/marketing_slide_22/init/code.py	2025-02-20 02:15:03.969044530 +0000
++++ ./data/marketing_slide_22/gpt-4o/edit_0/code.py	2025-02-20 14:07:01.961213961 +0000
+@@ -9,11 +9,12 @@
+ slide_layout = presentation.slide_layouts[5]  # blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set background color to dark teal
++# Set background color to a dark gradient
+ background = slide.background
+ fill = background.fill
+-fill.solid()
+-fill.fore_color.rgb = RGBColor(0, 128, 128)  # dark teal
++fill.gradient()  # Use gradient method for a gradient background
++fill.gradient_stops[0].color.rgb = RGBColor(0, 128, 128)  # dark teal
++fill.gradient_stops[1].color.rgb = RGBColor(0, 64, 64)  # a darker shade of teal
+ 
+ # Add title on the right side
+ text_box = slide.shapes.add_textbox(Inches(10.5), Inches(1), Inches(5), Inches(1))

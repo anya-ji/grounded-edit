@@ -1,0 +1,1 @@
+Change the font color of the body text to a lighter shade, such as white, to enhance readability against the dark background.

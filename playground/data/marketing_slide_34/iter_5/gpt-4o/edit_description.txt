@@ -1,1 +1,0 @@
-Reduce the font size of the subtitle "Differentiate between Wholesaler and Retailers" in the rendered image to better match the text size found in the target image.

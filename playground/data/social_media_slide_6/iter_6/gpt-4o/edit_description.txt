@@ -1,1 +1,0 @@
-Adjust the line spacing of the bullet points to ensure consistent and uniform spacing throughout the text in the rendered image.

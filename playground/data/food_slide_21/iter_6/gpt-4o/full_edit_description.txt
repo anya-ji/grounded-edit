@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: An interactive educational interface with visual elements clearly labeled, emphasizing parts of speech and intonation patterns in a conversation.
-2. Description of Rendered Image: A similar interactive interface with some visual elements, but it lacks clear labeling of the stressed words, appearing less organized and engaging.
-3. Change Suggestion: Add bold red text formatting to the section where stressed words are indicated to enhance visibility and emphasis.
-```

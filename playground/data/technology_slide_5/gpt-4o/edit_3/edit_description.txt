@@ -1,0 +1,1 @@
+Change the text color of the list items to a darker shade to enhance readability.

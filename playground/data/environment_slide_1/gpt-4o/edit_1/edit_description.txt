@@ -1,0 +1,1 @@
+Adjust the font color of the title "NATURAL ENVIRONMENT" to match the target slide's bright green color.

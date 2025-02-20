@@ -1,0 +1,1 @@
+Change the background to a solid color (e.g., dark gray) instead of the gradient for a cleaner look.

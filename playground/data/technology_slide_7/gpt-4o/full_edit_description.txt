@@ -1,0 +1,5 @@
+<edit>Change the font size of the slide title "Blockchain in Cryptocurrency" to 56 for better visibility.</edit>
+<edit>Adjust the text alignment of the body text to bullet points instead of a continuous paragraph for improved readability.</edit>
+<edit>Change the background color of the body text area to white to enhance contrast and readability.</edit>
+<edit>Increase the line spacing of the body text to 1.5 to provide better separation between lines and improve clarity.</edit>
+<edit>Add bullet points to the first sentence in the body text to create a list format starting from "The term blockchain..."</edit>

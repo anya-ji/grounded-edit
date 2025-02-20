@@ -1,0 +1,1 @@
+Change the color of the second shape containing the text "Explain how products reach to market" to a gradient yellow by modifying the fill property in the shape: `shape2.fill.color = 'gradient(yellow, gold)'`.

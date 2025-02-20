@@ -1,1 +1,0 @@
-Change the background color from blue to white to improve text readability and ensure it closely matches the target image.

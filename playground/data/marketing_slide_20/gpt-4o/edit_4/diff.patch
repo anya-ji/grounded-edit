@@ -1,0 +1,13 @@
+--- ./data/marketing_slide_20/init/code.py	2025-02-20 02:15:03.919044633 +0000
++++ ./data/marketing_slide_20/gpt-4o/edit_4/code.py	2025-02-20 14:04:32.132262596 +0000
+@@ -42,8 +42,8 @@
+ curved_shape.fill.fore_color.rgb = RGBColor(255, 255, 255)
+ curved_shape.line.fill.background()
+ 
+-# Add the title text
+-title_text_box = slide.shapes.add_textbox(left, Inches(3.5), Inches(7), Inches(2))
++# Add the title text with increased spacing
++title_text_box = slide.shapes.add_textbox(left, Inches(4), Inches(7), Inches(2))  # Increased top position
+ text_frame = title_text_box.text_frame
+ p = text_frame.add_paragraph()
+ p.text = "Transportation and Storage"

@@ -1,0 +1,19 @@
+--- ./data/design_slide_3/init/code.py	2025-02-20 02:15:04.601043237 +0000
++++ ./data/design_slide_3/gpt-4o/edit_3/code.py	2025-02-20 12:39:17.218240956 +0000
+@@ -26,7 +26,7 @@
+ content_box = slide.shapes.add_textbox(Inches(1), Inches(2.5), Inches(14), Inches(5.5))
+ content_frame = content_box.text_frame
+ 
+-# Bullet point 1
++# Bullet point 1 (removed indentation)
+ bullet1 = content_frame.add_paragraph()
+ bullet1.text = (
+     "Components of craftsmanship are the essential units of any visual plan "
+@@ -34,6 +34,7 @@
+ )
+ bullet1.font.size = Pt(24)
+ bullet1.font.color.rgb = RGBColor(255, 255, 255)
++bullet1.space_before = Pt(0)  # set space before to 0 to remove indentation
+ 
+ # Bullet point 2
+ bullet2 = content_frame.add_paragraph()

@@ -1,0 +1,1 @@
+Change the color of the text for the list items to black to enhance readability against the background.

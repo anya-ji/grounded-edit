@@ -1,0 +1,39 @@
+--- ./data/environment_slide_9/init/code.py	2025-02-20 02:15:04.783042864 +0000
++++ ./data/environment_slide_9/gpt-4o/edit_4/code.py	2025-02-20 13:05:51.932965676 +0000
+@@ -2,8 +2,6 @@
+ from pptx.util import Inches, Pt
+ from pptx.enum.text import PP_ALIGN
+ from pptx.dml.color import RGBColor
+-from pptx.oxml import parse_xml
+-from pptx.oxml.ns import nsdecls
+ 
+ def create_slide():
+     # Initialize presentation
+@@ -15,17 +13,24 @@
+     slide_layout = presentation.slide_layouts[5]
+     slide = presentation.slides.add_slide(slide_layout)
+     
+-    # Set background to a light green with hexagonal pattern
+-    # For the sake of simplicity, setting a solid light green color
++    # Set background to a light green color
+     fill = slide.background.fill
+     fill.solid()
+     fill.fore_color.rgb = RGBColor(204, 255, 204)  # Light green
+     
+-    # Add a centered large white text box for title and content
++    # Add a light gray rectangle behind the main content
+     left = Inches(1)
+     top = Inches(1)
+     width = Inches(14)
+     height = Inches(7)
++    gray_rectangle = slide.shapes.add_shape(
++        1, left, top, width, height  # 1 corresponds to the shape type for rectangle
++    )
++    gray_rectangle.fill.solid()
++    gray_rectangle.fill.fore_color.rgb = RGBColor(200, 200, 200)  # Light gray
++    gray_rectangle.fill.opacity = 0.8  # Set opacity to 0.8
++    
++    # Add a centered large white text box for title and content
+     textbox = slide.shapes.add_textbox(left, top, width, height)
+     textbox.fill.solid()
+     textbox.fill.fore_color.rgb = RGBColor(255, 255, 255)  # White background

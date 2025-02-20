@@ -1,0 +1,1 @@
+Change the background color of the slide from a multi-colored gradient to a solid white background for improved readability.

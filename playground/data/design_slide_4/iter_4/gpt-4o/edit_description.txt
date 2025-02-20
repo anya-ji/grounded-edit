@@ -1,1 +1,0 @@
-Change the background color of the text blocks to a lighter shade of blue instead of using pure blue for a softer appearance, aligning more closely with the target image's style.

@@ -1,1 +1,0 @@
-Change the header color from pink to red to match the target image.

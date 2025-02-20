@@ -1,1 +1,0 @@
-Change the font of the text "Thank You!" to a large serif typeface to match the target image.

@@ -1,1 +1,0 @@
-Change the check marks to standard bullet points to match the visual style of the target image.

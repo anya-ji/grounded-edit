@@ -1,0 +1,1 @@
+Change the font color of the text "Global Competitiveness" to white to improve contrast against the background.

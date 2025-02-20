@@ -1,0 +1,1 @@
+Add a margin of 20 pixels around the text box to prevent overflow and ensure sufficient spacing.

@@ -1,1 +1,0 @@
-Change the checked state of all checkbox items in the rendered image to unchecked (i.e., change them to unfilled checkboxes).

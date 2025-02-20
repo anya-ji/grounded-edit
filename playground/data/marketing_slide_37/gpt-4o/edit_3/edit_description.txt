@@ -1,0 +1,1 @@
+Change the color of the narrative arrow and person icon from blue to a lighter shade of blue to improve visibility against the new background color.

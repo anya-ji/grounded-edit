@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: A text box containing dialogue from characters Joey, Phoebe, and Rachel, with specific formatting elements like quotation marks and parentheses.
-2. Description of Rendered Image: A similar text box with the dialogue but lacking proper formatting, such as quotation marks and parentheses, appearing more plain and unstyled.
-3. Change Suggestion: Add quotation marks and parentheses around the specific dialogue segments to match the target image's formatting.
-```

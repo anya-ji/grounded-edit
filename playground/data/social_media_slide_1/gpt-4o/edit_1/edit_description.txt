@@ -1,0 +1,1 @@
+Change the color of the text "cultures" to a darker shade (e.g., dark blue) for better contrast with the background.

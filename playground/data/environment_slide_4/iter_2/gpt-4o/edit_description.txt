@@ -1,1 +1,0 @@
-Change the text background to white for better contrast against the green text and to match the target image layout.

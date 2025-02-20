@@ -1,0 +1,12 @@
+--- ./data/art_photos_slide_22/init/code.py	2025-02-20 02:15:04.202044054 +0000
++++ ./data/art_photos_slide_22/gpt-4o/edit_4/code.py	2025-02-20 11:12:29.599206303 +0000
+@@ -22,7 +22,8 @@
+ title_frame.word_wrap = True
+ p = title_frame.add_paragraph()
+ p.text = "KEEPING ART"
+-p.font.bold = True
++# Removed the bold style
++# p.font.bold = True
+ p.font.size = Pt(60)
+ p.font.color.rgb = RGBColor(0, 0, 0)
+ 

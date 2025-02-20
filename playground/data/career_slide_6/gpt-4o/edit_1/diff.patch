@@ -1,0 +1,11 @@
+--- ./data/career_slide_6/init/code.py	2025-02-20 02:15:05.003042414 +0000
++++ ./data/career_slide_6/gpt-4o/edit_1/code.py	2025-02-20 12:27:01.770974594 +0000
+@@ -57,7 +57,7 @@
+ sec2_title_p = sec2_title_frame.add_paragraph()
+ sec2_title_p.text = "Scientific Advancement and Research"
+ sec2_title_p.font.bold = True
+-sec2_title_p.font.size = Pt(30)
++sec2_title_p.font.size = Pt(24)  # Changed the font size to 24 pt
+ sec2_title_p.font.color.rgb = RGBColor(255, 255, 0)  # Yellow text
+ 
+ sec2_text_box = slide.shapes.add_textbox(Inches(6), Inches(6.2), Inches(4.5), Inches(1.8))

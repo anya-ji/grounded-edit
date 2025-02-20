@@ -1,0 +1,1 @@
+Change the font size of the text "This is Bélo." to 60 pt.

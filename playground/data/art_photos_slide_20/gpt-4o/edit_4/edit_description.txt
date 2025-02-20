@@ -1,0 +1,1 @@
+Add a line break after the first bullet point to separate it from the second bullet point for improved clarity.

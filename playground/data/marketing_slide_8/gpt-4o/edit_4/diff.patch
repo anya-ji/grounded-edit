@@ -1,0 +1,42 @@
+--- ./data/marketing_slide_8/init/code.py	2025-02-20 02:15:03.890044692 +0000
++++ ./data/marketing_slide_8/gpt-4o/edit_4/code.py	2025-02-20 14:47:30.475210149 +0000
+@@ -31,7 +31,20 @@
+ img_top = Inches(2)
+ img_width = Inches(4)
+ img_height = Inches(4)
+-slide.shapes.add_picture(image_path, img_left, img_top, img_width, img_height)
++light_bulb = slide.shapes.add_picture(image_path, img_left, img_top, img_width, img_height)
++
++# Adding a shape on top of the image to change its color
++overlay_rectangle = slide.shapes.add_shape(
++    MSO_SHAPE.RECTANGLE,
++    img_left,
++    img_top,
++    img_width,
++    img_height
++)
++overlay_rectangle.fill.solid()
++overlay_rectangle.fill.fore_color.rgb = RGBColor(0, 0, 255)  # More vibrant blue
++overlay_rectangle.opacity = 0.5  # Set semi-transparent to see the image underneath
++overlay_rectangle.line.color.rgb = RGBColor(255, 255, 255)  # Optional: white border
+ 
+ # Add title text
+ title_box = slide.shapes.add_textbox(Inches(6), Inches(1), Inches(9), Inches(2))
+@@ -40,7 +53,7 @@
+ p.text = "THINK LINE:"
+ p.font.bold = True
+ p.font.size = Pt(48)
+-p.font.color.rgb = RGBColor(173, 216, 230) # Light blue
++p.font.color.rgb = RGBColor(173, 216, 230)  # Light blue
+ 
+ # Add question text
+ question_box = slide.shapes.add_textbox(Inches(6), Inches(3), Inches(9), Inches(2))
+@@ -48,6 +61,6 @@
+ p = question_tf.add_paragraph()
+ p.text = "Q. How products reach to us?"
+ p.font.size = Pt(36)
+-p.font.color.rgb = RGBColor(173, 216, 230) # Light blue
++p.font.color.rgb = RGBColor(173, 216, 230)  # Light blue
+ 
+ presentation.save("render.pptx")
+\ No newline at end of file

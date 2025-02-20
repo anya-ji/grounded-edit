@@ -1,1 +1,0 @@
-Change the font weight of "ELO's" in the rendered image from bold to regular to match the lighter style of the target image.

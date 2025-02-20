@@ -1,1 +1,0 @@
-Adjust the line spacing and indentation of the bullet points in the rendered image to match the consistent formatting of the target image.

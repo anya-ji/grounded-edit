@@ -1,0 +1,1 @@
+Change the background color of the slide to a solid light color, such as white (#FFFFFF), to improve contrast with the text and make it more readable.

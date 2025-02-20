@@ -1,1 +1,0 @@
-Align all bullet points consistently to the left and ensure all headings are in the same color (white for primary headings and yellow for subheadings) to enhance the text layout and readability.

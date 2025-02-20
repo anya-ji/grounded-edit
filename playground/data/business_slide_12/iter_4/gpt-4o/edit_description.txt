@@ -1,1 +1,0 @@
-Remove the smaller "NYC" text to keep only the larger "NYC" in the rendered image for a cleaner composition.

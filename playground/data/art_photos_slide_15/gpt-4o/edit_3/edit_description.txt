@@ -1,0 +1,1 @@
+Add a margin of 10 pixels between the left image and the title text to provide better spacing.

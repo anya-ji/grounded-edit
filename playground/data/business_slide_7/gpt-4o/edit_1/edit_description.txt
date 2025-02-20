@@ -1,0 +1,1 @@
+Change the background color of the slide from white to light gray. Update the code for the slide background to the color "#EBEBEB".

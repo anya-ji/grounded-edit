@@ -1,1 +1,0 @@
-Add a soft focus effect to the background and include abstract figures similar to those in the target image, while maintaining the blue-green color scheme.

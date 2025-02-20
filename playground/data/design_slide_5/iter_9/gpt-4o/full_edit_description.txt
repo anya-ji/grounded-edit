@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image features a solid blue background with white text stating "Principles of graphic design." The text is clearly presented with a list of design principles in varying shades of blue and green, well arranged for readability.
-2. Description of Rendered Image: The rendered image has a white background with black text stating "principles of graphic design" in a smaller font. The list of principles is presented with varying colors but is less organized, with some text overlapping and an inconsistent layout.
-3. Change Suggestion: Change the background color of the rendered image to a solid blue similar to the target image to enhance contrast and readability of the text.
-```

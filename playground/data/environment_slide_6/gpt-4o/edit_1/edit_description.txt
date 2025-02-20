@@ -1,0 +1,1 @@
+Change the title font size to 36 points for better emphasis.

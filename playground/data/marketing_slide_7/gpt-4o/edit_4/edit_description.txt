@@ -1,0 +1,1 @@
+Reposition the circular image so that it maintains an equal margin from the edges of the slide to avoid crowding and ensure proper spacing.

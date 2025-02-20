@@ -1,0 +1,33 @@
+--- ./data/art_photos_slide_3/init/code.py	2025-02-20 02:15:04.326043800 +0000
++++ ./data/art_photos_slide_3/gpt-4o/edit_4/code.py	2025-02-20 11:20:07.986913918 +0000
+@@ -16,7 +16,7 @@
+ img_path = "../../media/image_0.jpg"
+ slide.shapes.add_picture(img_path, 0, 0, presentation.slide_width, presentation.slide_height)
+ 
+-# Add a smaller title at the top-left corner
++# Add a smaller title at the top-left corner with margin
+ small_title_box = slide.shapes.add_textbox(Inches(0.5), Inches(0.2), Inches(6), Inches(1))
+ small_title_frame = small_title_box.text_frame
+ small_title = small_title_frame.add_paragraph()
+@@ -27,8 +27,8 @@
+ small_title_box.fill.solid()
+ small_title_box.fill.fore_color.rgb = RGBColor(255, 255, 0)  # Yellow background
+ 
+-# Add the main title
+-title_box = slide.shapes.add_textbox(Inches(3), Inches(1.5), Inches(10), Inches(1.5))
++# Add the main title with margin
++title_box = slide.shapes.add_textbox(Inches(3), Inches(1.7), Inches(10), Inches(1.5))  # Adjusted Y position
+ title_frame = title_box.text_frame
+ title = title_frame.add_paragraph()
+ title.text = "The Subject of Art"
+@@ -38,8 +38,8 @@
+ title_box.fill.solid()
+ title_box.fill.fore_color.rgb = RGBColor(255, 255, 0)  # Yellow background
+ 
+-# Add bullets
+-content_box = slide.shapes.add_textbox(Inches(2), Inches(3.5), Inches(12), Inches(4))
++# Add bullets with margin
++content_box = slide.shapes.add_textbox(Inches(2), Inches(3.7), Inches(12), Inches(4))  # Adjusted Y position
+ content_frame = content_box.text_frame
+ content_frame.word_wrap = True
+ 

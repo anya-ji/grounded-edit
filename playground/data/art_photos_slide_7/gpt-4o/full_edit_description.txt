@@ -1,0 +1,5 @@
+<edit>Change the background color of the rendered slide to white for better readability.</edit>
+<edit>Change the font style of the text in the slide to match the weight used in the target slide for consistency.</edit>
+<edit>Adjust the spacing between "Examples:" and the subsequent text to ensure there is enough separation for clarity.</edit>
+<edit>Change the color of the header "Representational or Objective Art" to a darker shade for better contrast against the background.</edit>
+<edit>Remove the asterisks around the word "Still life" in the rendered slide to match the target formatting.</edit>

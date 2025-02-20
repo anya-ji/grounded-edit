@@ -1,0 +1,1 @@
+Modify the text color of the main title "The Subject of Art" to a dark shade, such as black or dark blue, for better visibility against the bright yellow background.

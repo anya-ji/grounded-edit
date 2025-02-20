@@ -1,1 +1,0 @@
-Change the color of the text "CONCLUSION" from red to a darker shade (e.g., dark green or black) and reduce its font size to match the font size seen in the target image.

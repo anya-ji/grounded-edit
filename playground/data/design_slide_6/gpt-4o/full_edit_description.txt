@@ -1,0 +1,5 @@
+<edit>Change the text color of the body text to a darker shade like #333333 for better readability.</edit>
+<edit>Adjust the font size of the body text to 24pt to enhance visibility.</edit>
+<edit>Shift the body text down by 20 pixels to increase spacing from the title "ZENROM UAE".</edit>
+<edit>Add a footer section containing contact information at the bottom of the slide with a font size of 18pt.</edit>
+<edit>Ensure that the background color of the slide remains a consistent dark gray (#333333) to enhance overall contrast with the text elements.</edit>

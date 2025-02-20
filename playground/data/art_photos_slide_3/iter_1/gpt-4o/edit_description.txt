@@ -1,1 +1,0 @@
-Adjust the layout to include two distinct text boxes, ensuring the second text box contains the line "An artwork can be identified by its subject."

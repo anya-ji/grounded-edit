@@ -1,0 +1,4 @@
+Failed to execute code for edit 2: Traceback (most recent call last):
+  File "/home/anyaji/grounded-edit/playground/data/food_slide_14/gpt-4o/edit_2/code.py", line 17, in <module>
+    background = slide.shapes.add_shape(
+TypeError: _BaseGroupShapes.add_shape() got an unexpected keyword argument 'auto_shape_type_id'

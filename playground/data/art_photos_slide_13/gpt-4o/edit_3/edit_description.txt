@@ -1,0 +1,1 @@
+Add a margin of 10 pixels around the images to ensure they do not touch the slide borders.

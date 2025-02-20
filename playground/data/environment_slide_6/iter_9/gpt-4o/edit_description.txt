@@ -1,1 +1,0 @@
-Change the background color of the text area from white to light green to match the background color of the target image.

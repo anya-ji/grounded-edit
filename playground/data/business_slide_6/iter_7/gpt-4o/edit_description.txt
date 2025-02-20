@@ -1,1 +1,0 @@
-Change the font of the text to a thicker, more rounded typeface to match the boldness and character shape of the target image.

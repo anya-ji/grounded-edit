@@ -1,0 +1,1 @@
+Change the color of the first box from yellow to a gold shade to align with the target's gold color.

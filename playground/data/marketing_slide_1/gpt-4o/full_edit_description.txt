@@ -1,0 +1,5 @@
+<edit>Change the font size of the title "MARKET AROUND US CHAPTER-6" to 40pt for better visibility.</edit>
+<edit>Adjust the text color of "MARKET AROUND US CHAPTER-6" to pure white (#FFFFFF) to ensure better contrast against the background.</edit>
+<edit>Add a text shadow to "MARKET AROUND US CHAPTER-6" with a shadow color of black (#000000) and an offset of 2px to enhance readability.</edit>
+<edit>Remove any unnecessary text or watermark in the bottom left corner for a cleaner look.</edit>
+<edit>Fix the alignment of the title "MARKET AROUND US CHAPTER-6" to center align it on the slide for improved visual balance.</edit>

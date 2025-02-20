@@ -1,1 +1,0 @@
-Adjust the top margin of the 'Viewing Activity' title in the rendered image so that it is fully visible and aligned properly at the top of the frame.

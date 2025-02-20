@@ -1,0 +1,1 @@
+Adjust the background color of the title area to a solid color, preferably a darker shade of yellow, to improve contrast with the text.

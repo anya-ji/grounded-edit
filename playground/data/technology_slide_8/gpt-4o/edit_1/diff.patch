@@ -1,0 +1,25 @@
+--- ./data/technology_slide_8/init/code.py	2025-02-20 02:15:05.093042230 +0000
++++ ./data/technology_slide_8/gpt-4o/edit_1/code.py	2025-02-20 15:44:22.093925974 +0000
+@@ -1,5 +1,6 @@
+ from pptx import Presentation
+ from pptx.util import Inches, Pt
++from pptx.dml.color import RGBColor  # Import RGBColor
+ 
+ # Create a presentation object
+ presentation = Presentation()
+@@ -26,10 +27,15 @@
+ body_frame = body_box.text_frame
+ body_frame.word_wrap = True
+ 
++# Create the first paragraph with the updated font color
+ for line in body_text.split('\n'):
+     p = body_frame.add_paragraph()
+     p.text = line
+     p.font.size = Pt(18)
++    
++    # Change color of the first line only to a desired color (e.g., blue)
++    if line.startswith("CRYPTOCURRENCY"):
++        p.font.color.rgb = RGBColor(0, 0, 255)  # Change to blue or desired RGB value
+ 
+ # Add image
+ image_path = "../../media/image_0.jpg"

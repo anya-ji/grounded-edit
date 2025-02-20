@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image presents a slide titled "What is Blockchain?" with a list of key points, where each point is formatted as a checkbox, and the text is well-organized with appropriate spacing and alignment. 
-2. Description of Rendered Image: The rendered image displays the same title but lacks bullet points and has uneven spacing and alignment, making it less visually appealing and harder to read.
-3. Change Suggestion: Adjust the line spacing to 1.5 and add bullet points for each list item to enhance readability and organization.
-```

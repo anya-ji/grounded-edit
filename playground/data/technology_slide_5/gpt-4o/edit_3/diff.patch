@@ -1,0 +1,10 @@
+--- ./data/technology_slide_5/init/code.py	2025-02-20 02:15:05.094042228 +0000
++++ ./data/technology_slide_5/gpt-4o/edit_3/code.py	2025-02-20 15:39:35.026485641 +0000
+@@ -45,6 +45,7 @@
+     p = text_frame.add_paragraph()
+     p.text = item
+     p.font.size = Pt(28)
++    p.font.color.rgb = RGBColor(0, 0, 0)  # Darker color for the text
+     p.space_after = Pt(5)
+ 
+ # Add image

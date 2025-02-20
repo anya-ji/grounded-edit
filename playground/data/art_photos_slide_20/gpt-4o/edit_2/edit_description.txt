@@ -1,0 +1,1 @@
+Change the color of the text for the second bullet point from black to a darker shade of gray for better readability.

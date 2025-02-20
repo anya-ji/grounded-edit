@@ -1,0 +1,1 @@
+Adjust the vertical spacing between the rows of images to be 30 pixels using: `plt.subplots_adjust(hspace=0.3)`.

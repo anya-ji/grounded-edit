@@ -1,0 +1,1 @@
+Update the text color of the body content to dark gray (#4B4B4D) for improved readability.

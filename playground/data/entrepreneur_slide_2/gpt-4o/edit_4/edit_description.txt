@@ -1,0 +1,1 @@
+Add additional padding on the left side of the bullet list to maintain consistency in spacing from the left edge of the slide.

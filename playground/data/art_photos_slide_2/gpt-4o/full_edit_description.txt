@@ -1,0 +1,5 @@
+<edit>Change the background color of the main content area to white for better readability.</edit>
+<edit>Add bullet points (•) before the text lines "The subject of art is usually anything that is represented in the artwork." and "It may be a person, object, scene or event." to match presentation style.</edit>
+<edit>Adjust the font size of the title "The Subject of Art" to match the title's size in the target slide.</edit>
+<edit>Change the color of the title text "The Subject of Art" to black for enhanced contrast and visibility.</edit>
+<edit>Increase the padding around the text in the main content area to ensure that there's adequate white space around the text.</edit>

@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: A slide showing "References" with a gray background and a bold header in a large font, followed by five links in blue text.
-2. Description of Rendered Image: A similar slide with the header "References" but with a white background and blue text for the header, accompanied by five placeholder links.
-3. Change Suggestion: Change the background color of the rendered image to gray to match the background of the target image.
-```

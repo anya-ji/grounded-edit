@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image features a set of bullet points with a checkbox style, where the boxes are empty, indicating items that have not been checked or completed.
-2. Description of Rendered Image: The rendered image displays the same text but with checkmarks next to all the listed points, suggesting that all items have been completed or approved.
-3. Change Suggestion: Remove the checkmarks from the rendered image to match the checkbox style of the target image.
-```

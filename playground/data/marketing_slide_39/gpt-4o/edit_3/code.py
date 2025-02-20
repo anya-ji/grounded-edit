@@ -1,0 +1,45 @@
+from pptx import Presentation
+from pptx.util import Inches, Pt
+from pptx.dml.color import RGBColor
+from pptx.enum.shapes import MSO_SHAPE
+from pptx.util import Inches
+
+# Create a presentation object
+presentation = Presentation()
+presentation.slide_width = Inches(16)
+presentation.slide_height = Inches(9)
+
+# Create a blank slide layout
+slide_layout = presentation.slide_layouts[5]
+slide = presentation.slides.add_slide(slide_layout)
+
+# Add a gradient background
+background = slide.shapes.add_shape(
+    MSO_SHAPE.RECTANGLE, Inches(0), Inches(0), Inches(5), presentation.slide_height
+)
+fill = background.fill
+fill.solid()
+fill.fore_color.rgb = RGBColor(0, 128, 128)  # Dark teal color
+
+# Add text box for title
+text_box = slide.shapes.add_textbox(Inches(0.5), Inches(4), Inches(7), Inches(1.5))
+text_frame = text_box.text_frame
+text_frame.text = "Do you think everybody in market get same share of profit? Why?"
+
+# Set font details
+for paragraph in text_frame.paragraphs:
+    for run in paragraph.runs:
+        run.font.size = Pt(28)
+        run.font.bold = True
+        run.font.color.rgb = RGBColor(0, 51, 102)  # Dark blue color (#003366)
+
+# Add image of character holding money
+image_path_0 = "../../media/image_0.jpg"
+slide.shapes.add_picture(image_path_0, Inches(7), Inches(2.5), height=Inches(4))
+
+# Add image of various coins and bills
+image_path_1 = "../../media/image_1.jpg"
+slide.shapes.add_picture(image_path_1, Inches(11), Inches(1.5), height=Inches(6))
+
+# Save the presentation
+presentation.save("render.pptx")

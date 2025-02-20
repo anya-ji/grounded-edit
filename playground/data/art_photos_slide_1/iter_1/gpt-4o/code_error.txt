@@ -1,6 +1,0 @@
-Failed to execute code at iteration 1: Traceback (most recent call last):
-  File "/home/anyaji/grounded-edit/playground/data/art_photos_slide_1/iter_1/gpt-4o/code.py", line 41, in <module>
-    add_background_bar(slide, Inches(2), Inches(2), presentation.slide_width)
-  File "/home/anyaji/grounded-edit/playground/data/art_photos_slide_1/iter_1/gpt-4o/code.py", line 37, in add_background_bar
-    slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, left, top, width, height).fill.solid()
-NameError: name 'MSO_SHAPE' is not defined

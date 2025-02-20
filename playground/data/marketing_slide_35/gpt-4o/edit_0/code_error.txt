@@ -1,0 +1,4 @@
+Failed to execute code for edit 0: Traceback (most recent call last):
+  File "/home/anyaji/grounded-edit/playground/data/marketing_slide_35/gpt-4o/edit_0/code.py", line 37, in <module>
+    title_frame.fill.solid()
+AttributeError: 'TextFrame' object has no attribute 'fill'

@@ -1,0 +1,1 @@
+Modify the border color of the "Step" boxes from light orange to a deeper orange for improved visibility.

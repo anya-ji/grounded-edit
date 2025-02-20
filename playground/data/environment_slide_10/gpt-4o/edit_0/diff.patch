@@ -1,0 +1,11 @@
+--- ./data/environment_slide_10/init/code.py	2025-02-20 02:15:04.772042887 +0000
++++ ./data/environment_slide_10/gpt-4o/edit_0/code.py	2025-02-20 12:52:27.471159688 +0000
+@@ -34,7 +34,7 @@
+ p = text_frame.add_paragraph()
+ p.text = "THANK YOU"
+ p.font.bold = True
+-p.font.size = Pt(100)  # Large font size
++p.font.size = Pt(120)  # Increased font size to 120
+ p.font.color.rgb = RGBColor(0, 102, 0)  # Green font
+ p.alignment = PP_ALIGN.CENTER  # Center the text
+ 

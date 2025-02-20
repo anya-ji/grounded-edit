@@ -1,0 +1,1 @@
+Set the font color of the title "Three levels of meaning" to black to enhance contrast.

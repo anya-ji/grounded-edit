@@ -1,0 +1,1 @@
+Increase the spacing between the list items to avoid overlapping and improve layout.

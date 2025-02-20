@@ -1,1 +1,0 @@
-Change the background color of the title area from white to the original blue and make the heading text "5 Stages of Development of Media" bold and larger in size.

@@ -1,1 +1,0 @@
-Adjust the 'Sales' labels on the left and right sides of the funnel to match the font size and position (vertically aligned with the funnel) of the labels in the target image.

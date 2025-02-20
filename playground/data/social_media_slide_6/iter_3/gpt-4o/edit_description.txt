@@ -1,1 +1,0 @@
-Remove the additional sentence in the rendered image to streamline the text and match the cleaner layout of the target image.

@@ -1,0 +1,15 @@
+--- ./data/technology_slide_8/init/code.py	2025-02-20 02:15:05.093042230 +0000
++++ ./data/technology_slide_8/gpt-4o/edit_3/code.py	2025-02-20 15:44:58.639850343 +0000
+@@ -31,9 +31,9 @@
+     p.text = line
+     p.font.size = Pt(18)
+ 
+-# Add image
++# Add image with adjusted width
+ image_path = "../../media/image_0.jpg"
+-slide.shapes.add_picture(image_path, Inches(12), Inches(2), Inches(3.5), Inches(3.5))
++slide.shapes.add_picture(image_path, Inches(12), Inches(2), Inches(4.8), Inches(3.5))
+ 
+ # Save presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

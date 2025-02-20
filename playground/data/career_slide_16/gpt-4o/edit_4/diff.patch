@@ -1,0 +1,20 @@
+--- ./data/career_slide_16/init/code.py	2025-02-20 02:15:04.977042467 +0000
++++ ./data/career_slide_16/gpt-4o/edit_4/code.py	2025-02-20 12:10:15.927091568 +0000
+@@ -29,7 +29,7 @@
+ academic_title_p.font.bold = True
+ academic_title_p.font.color.rgb = RGBColor(0, 0, 255)  # Blue
+ 
+-academic_content_box = slide.shapes.add_textbox(Inches(0.5), Inches(2.2), Inches(7), Inches(5))
++academic_content_box = slide.shapes.add_textbox(Inches(0.5), Inches(2.5), Inches(7), Inches(5))  # Increased Y position
+ academic_content_frame = academic_content_box.text_frame
+ 
+ # Hierarchy
+@@ -94,7 +94,7 @@
+ professional_title_p.font.bold = True
+ professional_title_p.font.color.rgb = RGBColor(0, 128, 0)  # Green
+ 
+-professional_content_box = slide.shapes.add_textbox(Inches(8.5), Inches(2.2), Inches(7), Inches(5))
++professional_content_box = slide.shapes.add_textbox(Inches(8.5), Inches(3.0), Inches(7), Inches(5))  # Increased Y position
+ professional_content_frame = professional_content_box.text_frame
+ 
+ # Hierarchy

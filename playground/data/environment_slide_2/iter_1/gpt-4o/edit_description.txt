@@ -1,1 +1,0 @@
-Change the background color from pale green to a solid, darker green to increase contrast with the text and make it more visually similar to the target image.

@@ -1,0 +1,11 @@
+--- ./data/art_photos_slide_16/init/code.py	2025-02-20 02:15:04.298043857 +0000
++++ ./data/art_photos_slide_16/gpt-4o/edit_1/code.py	2025-02-20 10:58:35.190733494 +0000
+@@ -52,7 +52,7 @@
+ for point in bullet_points:
+     p = content_frame.add_paragraph()
+     p.text = point
+-    p.font.size = Pt(28)
++    p.font.size = Pt(24)  # Changed the font size to 24 points
+ 
+ # Add smaller title
+ small_title_box = slide.shapes.add_textbox(Inches(0.5), Inches(0.5), Inches(5), Inches(1))

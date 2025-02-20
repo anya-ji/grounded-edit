@@ -1,0 +1,11 @@
+--- ./data/food_slide_24/init/code.py	2025-02-20 02:15:04.660043116 +0000
++++ ./data/food_slide_24/gpt-4o/edit_0/code.py	2025-02-20 13:28:20.376713922 +0000
+@@ -16,7 +16,7 @@
+ background = slide.background
+ fill = background.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(211, 211, 211)  # Light gray background
++fill.fore_color.rgb = RGBColor(173, 216, 230)  # Light blue background
+ 
+ # Add title text
+ title_box = slide.shapes.add_textbox(Inches(0.5), Inches(0.5), Inches(4), Inches(1))

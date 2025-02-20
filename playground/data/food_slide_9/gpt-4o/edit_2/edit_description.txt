@@ -1,0 +1,1 @@
+Change the color of the text in PART 2 to a shade of blue that is consistent with the color theme of the target slide.

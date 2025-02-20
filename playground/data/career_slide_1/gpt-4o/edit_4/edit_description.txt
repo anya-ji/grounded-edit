@@ -1,0 +1,1 @@
+Remove the duplicate text "Top Grades" that appears at the bottom of the slide to maintain clarity and prevent overcrowding of content.

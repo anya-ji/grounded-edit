@@ -1,0 +1,11 @@
+--- ./data/social_media_slide_13/init/code.py	2025-02-20 02:15:04.902042621 +0000
++++ ./data/social_media_slide_13/gpt-4o/edit_1/code.py	2025-02-20 14:56:55.120748305 +0000
+@@ -48,7 +48,7 @@
+ content_p = content_frame.add_paragraph()
+ content_p.text = content
+ content_p.font.size = Pt(24)
+-content_p.font.bold = False
++content_p.font.bold = True  # Changed to bold
+ content_p.font.name = 'Calibri'  # Sans-serif font
+ content_p.font.color.rgb = RGBColor(0, 0, 0)  # Black
+ 

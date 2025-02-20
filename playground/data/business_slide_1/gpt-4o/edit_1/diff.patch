@@ -1,0 +1,14 @@
+--- ./data/business_slide_1/init/code.py	2025-02-20 02:15:04.100044262 +0000
++++ ./data/business_slide_1/gpt-4o/edit_1/code.py	2025-02-20 11:32:48.367098183 +0000
+@@ -22,9 +22,9 @@
+ background.fill.solid()
+ background.fill.fore_color.rgb = background_color
+ 
+-# Add Airbnb icon on the left
++# Add Airbnb icon on the left with increased size
+ logo_icon_path = "../../media/image_1.jpg"
+-slide.shapes.add_picture(logo_icon_path, Inches(0), Inches(2), Inches(8), Inches(5))
++slide.shapes.add_picture(logo_icon_path, Inches(0), Inches(2), Inches(9), Inches(5))
+ 
+ # Add Airbnb text logo on the right, centered vertically
+ logo_text_path = "../../media/image_0.jpg"

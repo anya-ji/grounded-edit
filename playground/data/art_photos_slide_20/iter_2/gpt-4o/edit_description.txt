@@ -1,1 +1,0 @@
-Adjust the opacity of the background colors to create more contrast between the text and the background, enhancing text visibility and reducing the cluttered look.

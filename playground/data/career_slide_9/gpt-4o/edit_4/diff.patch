@@ -1,0 +1,15 @@
+--- ./data/career_slide_9/init/code.py	2025-02-20 02:15:04.981042459 +0000
++++ ./data/career_slide_9/gpt-4o/edit_4/code.py	2025-02-20 12:33:41.026052667 +0000
+@@ -68,9 +68,9 @@
+ paragraph.font.color.rgb = RGBColor(255, 0, 0) # red
+ paragraph.alignment = PP_ALIGN.CENTER
+ 
+-# Add image of trophy and dartboard
++# Adjust size for image of trophy and dartboard for better balance
+ image_path = "../../media/image_0.jpg"
+-slide.shapes.add_picture(image_path, Inches(12), Inches(6), Inches(3.5), Inches(2.5))
++slide.shapes.add_picture(image_path, Inches(10), Inches(5), Inches(4), Inches(3))
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

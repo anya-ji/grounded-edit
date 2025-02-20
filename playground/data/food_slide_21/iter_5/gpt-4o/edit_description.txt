@@ -1,1 +1,0 @@
-Change the color of the stressed words to red for better visibility and to match the target image's formatting.

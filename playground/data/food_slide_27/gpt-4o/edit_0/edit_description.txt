@@ -1,0 +1,1 @@
+Change the font size of the main text in Step 2 to 24pt to improve visibility.

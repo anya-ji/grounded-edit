@@ -1,0 +1,1 @@
+Change the text color of the questions to a dark gray for improved readability against the background.

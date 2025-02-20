@@ -1,1 +1,0 @@
-Increase the saturation of the blue and green colors in the left painting of the rendered image to match the vibrant hues of the target image.

@@ -1,0 +1,12 @@
+--- ./data/art_photos_slide_17/init/code.py	2025-02-20 02:15:04.219044019 +0000
++++ ./data/art_photos_slide_17/gpt-4o/edit_4/code.py	2025-02-20 11:01:47.216308622 +0000
+@@ -53,7 +53,7 @@
+ p_content = text_frame_content.add_paragraph()
+ p_content.text = "✓ The content of art is the meaning, message, and/or feeling imparted by a work of art."
+ p_content.font.size = Pt(24)
+-p_content.font.color.rgb = RGBColor(0, 0, 0)  # Black text
++p_content.font.color.rgb = RGBColor(255, 255, 0)  # Change the bullet point check mark color to yellow
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

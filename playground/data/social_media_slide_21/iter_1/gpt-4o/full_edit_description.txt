@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The text "THANK YOU!" is displayed in a bold, slightly larger font, with the letters in dark blue color.
-2. Description of Rendered Image: The text "THANK YOU!" is displayed in a similar style but the letters are slightly smaller and have a lighter shade of blue compared to the target image.
-3. Change Suggestion: Increase the font size of the text "THANK YOU!" in the rendered image to match the size of the text in the target image.
-```

@@ -1,0 +1,22 @@
+--- ./data/design_slide_5/init/code.py	2025-02-20 02:15:04.607043225 +0000
++++ ./data/design_slide_5/gpt-4o/edit_4/code.py	2025-02-20 12:42:30.530766372 +0000
+@@ -36,7 +36,7 @@
+ # List of items with varying background shades
+ items = [
+     ("Arrangement", RGBColor(173, 216, 230)),  # Light blue
+-    ("Proximity", RGBColor(152, 251, 152)),   # Light green
++    ("Proximity", RGBColor(152, 251, 152)),   # Light green changed to match text color
+     ("Repetition", RGBColor(135, 206, 235)),  # Sky blue
+     ("Contrast", RGBColor(144, 238, 144)),    # Light green
+     ("Balance", RGBColor(176, 224, 230))      # Powder blue
+@@ -55,5 +55,9 @@
+     item_p.font.size = Pt(22)
+     item_p.font.bold = True
+ 
++    # Change font color for Proximity
++    if text == "Proximity":
++        item_p.font.color.rgb = RGBColor(0, 0, 0)  # Black text color for coherence
++
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

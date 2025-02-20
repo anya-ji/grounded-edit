@@ -1,1 +1,0 @@
-Adjust the text alignment of the list items to ensure all text is fully visible without cutoffs and ensure checkboxes are properly aligned to their corresponding text.

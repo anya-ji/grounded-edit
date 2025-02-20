@@ -1,1 +1,0 @@
-Adjust the text box position to ensure it does not overlap the visual elements on the left, aligning it more closely with the right side of the image for improved readability.

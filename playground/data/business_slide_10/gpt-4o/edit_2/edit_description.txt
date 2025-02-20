@@ -1,0 +1,1 @@
+Change the font size of the text "Community" to 48 points to maintain consistency with the "Belo" text size.

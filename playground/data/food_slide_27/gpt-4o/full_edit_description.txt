@@ -1,0 +1,5 @@
+<edit>Change the font size of the main text in Step 2 to 24pt to improve visibility.</edit>
+<edit>Change the background color of the slide to a light shade (e.g., #F0F8FF) for better readability of text.</edit>
+<edit>Adjust the text alignment of the bullet points in Step 2 to be left-aligned for consistency with the rendered layout.</edit>
+<edit>Increase the padding of the text box for "YOUR ‘DATE GONE WRONG’ STORY" to at least 20px to ensure it has sufficient spacing around the content.</edit>
+<edit>Change the color of the header text "STEP 2:" to a darker shade (e.g., #333333) for enhanced contrast against the background.</edit>

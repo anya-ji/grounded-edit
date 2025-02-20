@@ -1,0 +1,1 @@
+Align the images and text boxes to ensure they are evenly spaced horizontally.

@@ -1,0 +1,1 @@
+Remove the extra images on the right side of the slide to maintain focus on the primary artwork displayed on the left.

@@ -1,0 +1,28 @@
+--- ./data/food_slide_31/init/code.py	2025-02-20 02:15:04.684043067 +0000
++++ ./data/food_slide_31/gpt-4o/edit_4/code.py	2025-02-20 13:38:33.110559875 +0000
+@@ -32,9 +32,9 @@
+ 
+ # Add questions
+ questions = [
+-    "1. Did you learn or use any new vocabulary, grammar, phrases, etc. in this lesson? If so, what?",
+-    "2. What did you enjoy about the lesson?",
+-    "3. Is there anything you found difficult about the lesson?"
++    "Did you learn or use any new vocabulary, grammar, phrases, etc. in this lesson? If so, what?",
++    "What did you enjoy about the lesson?",
++    "Is there anything you found difficult about the lesson?"
+ ]
+ 
+ left = Inches(1)
+@@ -44,9 +44,10 @@
+ text_box = slide.shapes.add_textbox(left, top, width, height)
+ text_frame = text_box.text_frame
+ 
+-for question in questions:
++# Adding numbered bullet points
++for i, question in enumerate(questions, start=1):
+     p = text_frame.add_paragraph()
+-    p.text = question
++    p.text = f"{i}. {question}"  # Numbering the questions
+     p.space_after = Pt(14)
+     p.font.size = Pt(20)
+     p.alignment = PP_ALIGN.LEFT

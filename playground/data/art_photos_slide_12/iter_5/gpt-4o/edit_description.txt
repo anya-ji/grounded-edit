@@ -1,1 +1,0 @@
-Change the background color from blue to white to match the background of the target image.

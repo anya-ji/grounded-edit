@@ -1,1 +1,0 @@
-Change the font color of the text from bright green to a darker shade, such as black, to improve readability against the white background.

@@ -1,1 +1,0 @@
-Change the background gradient of the rendered image to match the blue-green gradient style of the target image for a more cohesive look.

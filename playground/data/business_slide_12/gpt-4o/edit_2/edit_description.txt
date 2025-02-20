@@ -1,0 +1,1 @@
+Change the color of the text "NYC" to ensure high contrast with the background (e.g., from white to dark blue).

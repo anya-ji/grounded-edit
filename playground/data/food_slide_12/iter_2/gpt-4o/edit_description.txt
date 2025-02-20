@@ -1,1 +1,0 @@
-Change the font style of the "VIEWING ACTIVITY" section in the rendered image to bold and increase the font size for better prominence, matching the style in the target image.

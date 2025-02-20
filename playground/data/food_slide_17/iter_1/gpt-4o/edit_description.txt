@@ -1,1 +1,0 @@
-Change the background color of the "Past Simple" and "Past Continuous" columns to a uniform shade for better contrast and readability.

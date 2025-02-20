@@ -1,1 +1,0 @@
-Soften the transition of the background gradient to make it more seamless and less stark, mimicking the smoother blend seen in the target image.

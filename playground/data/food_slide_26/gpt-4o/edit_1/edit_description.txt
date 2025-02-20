@@ -1,0 +1,1 @@
+Increase the font size of the text "STEP 1: Choose one of the dates below by ticking (✔) the box." to 36 points for improved readability.

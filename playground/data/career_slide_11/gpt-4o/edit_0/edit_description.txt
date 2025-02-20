@@ -1,0 +1,1 @@
+Change the text color of "Effective Communication" to white for better readability.

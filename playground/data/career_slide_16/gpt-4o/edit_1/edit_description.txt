@@ -1,0 +1,1 @@
+Adjust the alignment of the "Collaboration" section in the PROFESSIONAL WORLD column to left-align the bullet points.

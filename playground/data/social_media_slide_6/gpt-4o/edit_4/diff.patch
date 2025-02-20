@@ -1,0 +1,13 @@
+--- ./data/social_media_slide_6/init/code.py	2025-02-20 02:15:04.891042643 +0000
++++ ./data/social_media_slide_6/gpt-4o/edit_4/code.py	2025-02-20 15:21:36.249295115 +0000
+@@ -37,8 +37,8 @@
+ subtitle.font.size = Pt(28)
+ subtitle.font.color.rgb = RGBColor(0, 51, 102)  # Dark Blue text
+ 
+-# Add main content with bullet points
+-content_box = slide.shapes.add_textbox(Inches(0.5), Inches(2.5), Inches(8), Inches(5))
++# Adjusted position for content to increase spacing
++content_box = slide.shapes.add_textbox(Inches(0.5), Inches(3), Inches(8), Inches(5))  # Increased the Y position
+ content_frame = content_box.text_frame
+ content = content_frame.add_paragraph()
+ content.text = "• It allowed the continuous production, reproduction, and circulation of print materials."

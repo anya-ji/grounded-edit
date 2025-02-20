@@ -1,0 +1,11 @@
+--- ./data/food_slide_22/init/code.py	2025-02-20 02:15:04.680043075 +0000
++++ ./data/food_slide_22/gpt-4o/edit_0/code.py	2025-02-20 13:23:11.687283307 +0000
+@@ -13,7 +13,7 @@
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+ # Define colors
+-title_color = RGBColor(0, 102, 204)  # Dark blue for title
++title_color = RGBColor(0, 51, 102)  # Changed to dark blue (#003366)
+ text_color = RGBColor(0, 0, 0)  # Black for general text
+ button_color = RGBColor(255, 140, 0)  # Orange for buttons
+ 

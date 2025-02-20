@@ -1,0 +1,1 @@
+Change the font color of the text "The natural environment means the non human made surroundings..." to a darker green using `text_box.text_frame.paragraphs[0].font.color.rgb = (0, 102, 0)`.

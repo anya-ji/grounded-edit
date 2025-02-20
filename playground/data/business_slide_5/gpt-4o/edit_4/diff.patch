@@ -1,0 +1,15 @@
+--- ./data/business_slide_5/init/code.py	2025-02-20 02:15:04.075044314 +0000
++++ ./data/business_slide_5/gpt-4o/edit_4/code.py	2025-02-20 11:46:38.783268988 +0000
+@@ -61,9 +61,9 @@
+ 
+ text_frame.word_wrap = True
+ 
+-# Add image to the slide
++# Add image to the slide (moved right by 0.5 inches)
+ image_path = "../../media/image_0.jpg"
+-slide.shapes.add_picture(image_path, Inches(9.5), Inches(1.2), height=Inches(6.5))
++slide.shapes.add_picture(image_path, Inches(10.0), Inches(1.2), height=Inches(6.5))  # Adjusted the left position
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

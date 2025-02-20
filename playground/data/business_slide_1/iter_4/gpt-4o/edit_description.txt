@@ -1,1 +1,0 @@
-Increase the opacity of the Airbnb logo in the rendered image to match the bold and vibrant appearance of the logo in the target image.

@@ -1,1 +1,0 @@
-Decrease the font size of the title to align it more closely with the proportions of the text in the target image, ensuring better visual balance and reducing the overpowering effect it has in the rendered image.

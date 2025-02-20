@@ -1,1 +1,0 @@
-Remove the trailing periods from each text entry in the rendered image and add checkboxes next to each item.

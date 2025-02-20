@@ -1,1 +1,0 @@
-Remove the circular cut-out effect to reveal the full arrangement of text and colors present in the target image.

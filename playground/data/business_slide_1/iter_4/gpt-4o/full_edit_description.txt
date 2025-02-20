@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image features a bold white Airbnb logo centered on a coral background, with the text "Business Case" in a large, white font below the logo. The names "Daniel Consuegra, Alejandra Del Chiaro, Maria Camila Echeverri" are in smaller, white text at the bottom.
-2. Description of Rendered Image: The rendered image has a faded or lower opacity white Airbnb logo on a similar coral background, with the same text "Business Case" but in a smaller size and in bold, and the names are also present, but the logo lacks clarity and definition compared to the target.
-3. Change Suggestion: Increase the opacity of the Airbnb logo in the rendered image to match the bold and vibrant appearance of the logo in the target image.
-```

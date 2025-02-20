@@ -1,0 +1,11 @@
+--- ./data/environment_slide_3/init/code.py	2025-02-20 02:15:04.780042870 +0000
++++ ./data/environment_slide_3/gpt-4o/edit_2/code.py	2025-02-20 12:55:58.021329422 +0000
+@@ -25,7 +25,7 @@
+ fill.fore_color.rgb = RGBColor(200, 230, 200)
+ 
+ # Add a large white textbox in the middle
+-text_box = slide.shapes.add_textbox(Inches(1), Inches(2), Inches(9), Inches(5))
++text_box = slide.shapes.add_textbox(Inches(1), Inches(2.2), Inches(9), Inches(5))  # Adjusted Y position
+ text_frame = text_box.text_frame
+ 
+ # Title section

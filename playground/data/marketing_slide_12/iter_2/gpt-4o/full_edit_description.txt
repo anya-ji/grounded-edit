@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image contains a dark background with a gradient transition, featuring text with an orange downward arrow and a yellow downward arrow, aligned within white boxes.
-2. Description of Rendered Image: The rendered image has a similar dark background with some white areas, but the text appears differently with boxes that are not well defined or aligned, and the arrows are on a clear background with no distinct white boxes.
-3. Change Suggestion: Add defined white rectangular boxes behind the text sections in the rendered image to match the layout of the target image.
-```

@@ -1,0 +1,1 @@
+Change the text color of the quote to a dark color, such as black, to enhance legibility against the background.

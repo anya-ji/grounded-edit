@@ -1,0 +1,5 @@
+<edit>Change the background color of the rendered slide to a dark gradient similar to the target slide.</edit>
+<edit>Adjust the font color of "After Sales Services" to match the white color used in the target slide.</edit>
+<edit>Reposition the word cloud image to ensure it's aligned properly with the other images, avoiding overlapping or unwanted spacing.</edit>
+<edit>Resize the "KNOW YOUR CUSTOMER" sign image to ensure it fills the same amount of vertical space as in the target slide.</edit>
+<edit>Add a margin of 10 pixels around each image to keep them well-spaced from each other and the slide edges.</edit>

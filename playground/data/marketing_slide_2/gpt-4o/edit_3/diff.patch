@@ -1,0 +1,13 @@
+--- ./data/marketing_slide_2/init/code.py	2025-02-20 02:15:03.891044690 +0000
++++ ./data/marketing_slide_2/gpt-4o/edit_3/code.py	2025-02-20 14:02:29.144258436 +0000
+@@ -29,8 +29,8 @@
+ image_path = "../../media/image_1.jpg"
+ slide.shapes.add_picture(image_path, Inches(10.5), Inches(1.5), Inches(5), Inches(5))
+ 
+-# Add "Filling" label
+-filling_label = slide.shapes.add_textbox(Inches(14), Inches(1), Inches(2), Inches(0.5))
++# Add "Filling" label, center it vertically
++filling_label = slide.shapes.add_textbox(Inches(14), Inches(3.25), Inches(2), Inches(0.5))  # Adjusted vertical position
+ text_frame = filling_label.text_frame
+ p = text_frame.add_paragraph()
+ p.text = "Filling"

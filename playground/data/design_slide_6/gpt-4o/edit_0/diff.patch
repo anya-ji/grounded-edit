@@ -1,0 +1,24 @@
+--- ./data/design_slide_6/init/code.py	2025-02-20 02:15:04.611043216 +0000
++++ ./data/design_slide_6/gpt-4o/edit_0/code.py	2025-02-20 12:42:54.959706120 +0000
+@@ -44,17 +44,17 @@
+                      "We can help your website indexed on top search engines and rate "
+                      "higher in order for it to be found.")
+ p1.font.size = Pt(20)
+-p1.font.color.rgb = RGBColor(255, 255, 255)  # White text
++p1.font.color.rgb = RGBColor(51, 51, 51)  # Updated to dark gray color (#333333)
+ 
+ p2 = text_frame.add_paragraph()
+ p2.text = "Contact us for more details;"
+ p2.font.size = Pt(20)
+-p2.font.color.rgb = RGBColor(255, 255, 255)  # White text
++p2.font.color.rgb = RGBColor(51, 51, 51)  # Updated to dark gray color (#333333)
+ 
+ p3 = text_frame.add_paragraph()
+ p3.text = "+916282126012"
+ p3.font.size = Pt(20)
+-p3.font.color.rgb = RGBColor(255, 255, 255)  # White text
++p3.font.color.rgb = RGBColor(51, 51, 51)  # Updated to dark gray color (#333333)
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

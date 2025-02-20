@@ -1,0 +1,4 @@
+Failed to execute code for edit 4: Traceback (most recent call last):
+  File "/home/anyaji/grounded-edit/playground/data/business_slide_11/gpt-4o/edit_4/code.py", line 36, in <module>
+    logo_fill = slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, Inches(0.5), Inches(2.5), Inches(2), Inches(2))
+NameError: name 'MSO_SHAPE' is not defined

@@ -1,1 +1,0 @@
-Adjust the pose of the worker in the rendered image to make it more dynamic, matching the angled arm position seen in the target image.

@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image has a light yellow background for the "References" header with a clean and organized layout of the references listed below it.
-2. Description of Rendered Image: The rendered image has a bright yellow background for the "References" header, but the rest of the header area is slightly messy, and the overall background colors are more chaotic with darker shades than the target image.
-3. Change Suggestion: Modify the background behind the "References" header in the rendered image to match the light yellow color used in the target image to achieve a cleaner appearance.
-```

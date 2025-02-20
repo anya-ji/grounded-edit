@@ -1,0 +1,1 @@
+Change the color of the text “Self-portrait of Van Gogh” to black for improved visibility against the background.

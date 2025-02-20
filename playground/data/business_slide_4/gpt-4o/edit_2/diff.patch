@@ -1,0 +1,15 @@
+--- ./data/business_slide_4/init/code.py	2025-02-20 02:15:04.123044215 +0000
++++ ./data/business_slide_4/gpt-4o/edit_2/code.py	2025-02-20 11:44:43.627395842 +0000
+@@ -31,9 +31,9 @@
+ title.font.size = Pt(32)
+ title.font.color.rgb = RGBColor(255, 255, 255)
+ 
+-# Insert the airbnb logo at the bottom left corner
++# Adjust the position of the logo at the bottom left corner
+ image_path = "../../media/image_0.jpg"
+-slide.shapes.add_picture(image_path, Inches(0.5), Inches(7), Inches(2), Inches(2))
++slide.shapes.add_picture(image_path, Inches(0.5), Inches(7 - 2), Inches(2), Inches(2))  # Adjusted the Y position
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

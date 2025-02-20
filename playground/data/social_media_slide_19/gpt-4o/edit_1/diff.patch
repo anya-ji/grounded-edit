@@ -1,0 +1,20 @@
+--- ./data/social_media_slide_19/init/code.py	2025-02-20 02:15:04.901042623 +0000
++++ ./data/social_media_slide_19/gpt-4o/edit_1/code.py	2025-02-20 15:07:03.024162725 +0000
+@@ -2,8 +2,6 @@
+ from pptx.util import Inches, Pt
+ from pptx.enum.text import PP_ALIGN
+ from pptx.dml.color import RGBColor
+-from pptx.oxml.ns import nsdecls
+-from pptx.oxml import parse_xml
+ 
+ # Create presentation
+ presentation = Presentation()
+@@ -35,7 +33,7 @@
+ subheading.text = "2. CULTURAL HYBRIDIZATION"
+ subheading.font.size = Pt(28)
+ subheading.font.bold = True
+-subheading.font.color.rgb = RGBColor(255, 255, 255)  # White
++subheading.font.color.rgb = RGBColor(0, 51, 102)  # Changed to Dark Blue
+ subheading.alignment = PP_ALIGN.LEFT
+ 
+ # Bullet points

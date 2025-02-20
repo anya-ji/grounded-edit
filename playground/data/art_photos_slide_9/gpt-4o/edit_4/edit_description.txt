@@ -1,0 +1,1 @@
+Add a black outline to the bullet points for better contrast and visibility against the background.

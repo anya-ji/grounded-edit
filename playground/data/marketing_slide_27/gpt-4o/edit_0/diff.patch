@@ -1,0 +1,35 @@
+--- ./data/marketing_slide_27/init/code.py	2025-02-20 02:15:03.944044582 +0000
++++ ./data/marketing_slide_27/gpt-4o/edit_0/code.py	2025-02-20 14:13:37.270018989 +0000
+@@ -27,23 +27,24 @@
+     "../../media/image_2.jpg"
+ ]
+ 
+-# Define circle positions and sizes
+-circle_positions = [
++# Define rectangle positions and sizes
++rectangle_positions = [
+     (Inches(2), Inches(1.5)),
+     (Inches(5), Inches(1.5)),
+     (Inches(8), Inches(1.5)),
+     (Inches(11), Inches(1.5)),
+     (Inches(6.5), Inches(5))
+ ]
+-circle_size = Inches(2.5)
++rectangle_size = Inches(2.5)
++corner_radius = Pt(0.5)  # Radius for rounded corners 
+ 
+-# Add circular image frames
+-for image_path, position in zip(image_paths, circle_positions):
++# Add rectangular image frames with rounded corners
++for image_path, position in zip(image_paths, rectangle_positions):
+     left, top = position
+-    pic = slide.shapes.add_picture(image_path, left, top, circle_size, circle_size)
++    pic = slide.shapes.add_picture(image_path, left, top, rectangle_size, rectangle_size)
+     
+-    # Create a circular mask
+-    shape = slide.shapes.add_shape(MSO_SHAPE.OVAL, left, top, circle_size, circle_size)
++    # Create a rectangular shape with rounded corners
++    shape = slide.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, left, top, rectangle_size, rectangle_size)
+     shape.fill.solid()
+     shape.fill.fore_color.rgb = RGBColor(255, 255, 255)
+     shape.line.fill.background()

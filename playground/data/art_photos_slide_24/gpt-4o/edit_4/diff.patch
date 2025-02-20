@@ -1,0 +1,13 @@
+--- ./data/art_photos_slide_24/init/code.py	2025-02-20 02:15:04.302043849 +0000
++++ ./data/art_photos_slide_24/gpt-4o/edit_4/code.py	2025-02-20 11:16:11.619998986 +0000
+@@ -52,8 +52,9 @@
+ content_frame = content_box.text_frame
+ content_frame.word_wrap = True
+ 
++# Change bullet point symbol from "✓" to a solid circle "•"
+ content_paragraph = content_frame.add_paragraph()
+-content_paragraph.text = "✓ Because art is valuable, enormous human efforts and financial resources are devoted to preserving art from the ravages of time, the environment, industrial-by-product, and even any other human being."
++content_paragraph.text = "• Because art is valuable, enormous human efforts and financial resources are devoted to preserving art from the ravages of time, the environment, industrial-by-product, and even any other human being."
+ content_paragraph.font.size = Pt(24)
+ content_paragraph.font.color.rgb = RGBColor(0, 0, 0)
+ 

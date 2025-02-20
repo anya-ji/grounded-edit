@@ -1,0 +1,20 @@
+--- ./data/marketing_slide_3/init/code.py	2025-02-20 02:15:03.954044561 +0000
++++ ./data/marketing_slide_3/gpt-4o/edit_1/code.py	2025-02-20 14:18:01.079829508 +0000
+@@ -10,7 +10,7 @@
+ presentation.slide_height = Inches(9)
+ 
+ # Create a blank slide layout
+-slide_layout = presentation.slide_layouts[5] # blank slide
++slide_layout = presentation.slide_layouts[5]  # blank slide
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+ # Set the slide background to solid red
+@@ -26,7 +26,7 @@
+ 
+ p = text_box.text_frame.add_paragraph()
+ p.text = text
+-p.font.size = Pt(44)
++p.font.size = Pt(32)  # Changed font size to 32pt
+ p.font.color.rgb = RGBColor(255, 255, 255)
+ p.font.name = 'Calibri'  # Clean, modern font
+ 

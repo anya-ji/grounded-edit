@@ -1,1 +1,0 @@
-Adjust the opacity of the overlay on the text in the rendered image to 0% to make it fully visible.

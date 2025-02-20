@@ -1,0 +1,31 @@
+--- ./data/food_slide_23/init/code.py	2025-02-20 02:15:04.670043096 +0000
++++ ./data/food_slide_23/gpt-4o/edit_2/code.py	2025-02-20 13:27:10.534843786 +0000
+@@ -1,6 +1,7 @@
+ from pptx import Presentation
+ from pptx.util import Inches, Pt
+ from pptx.enum.shapes import MSO_SHAPE
++from pptx.enum.text import PP_ALIGN
+ from pptx.dml.color import RGBColor
+ 
+ # Create a presentation object
+@@ -42,14 +43,20 @@
+ options_a = options_frame.add_paragraph()
+ options_a.text = "a) We add stress/intonation on the time or location we’re speaking about."
+ options_a.font.size = Pt(20)
++options_a.space_after = Pt(0)
++options_a.alignment = PP_ALIGN.LEFT
+ 
+ options_b = options_frame.add_paragraph()
+ options_b.text = "b) We add stress/intonation on the present participle (-ing verb)."
+ options_b.font.size = Pt(20)
++options_b.space_after = Pt(0)
++options_b.alignment = PP_ALIGN.LEFT
+ 
+ options_c = options_frame.add_paragraph()
+ options_c.text = "c) We add stress/intonation on the last word of the clause when retelling events."
+ options_c.font.size = Pt(20)
++options_c.space_after = Pt(0)
++options_c.alignment = PP_ALIGN.LEFT
+ 
+ # Insert checkmark image
+ checkmark_path = "../../media/image_0.jpg"

@@ -1,0 +1,1 @@
+Adjust the alignment of the title text to be centered on the slide, using `title_text.alignment = 'center'`.

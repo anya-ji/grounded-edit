@@ -1,4 +1,0 @@
-Failed to execute code at iteration 0: Traceback (most recent call last):
-  File "/home/anyaji/grounded-edit/playground/data/art_photos_slide_24/iter_0/gpt-4o/code.py", line 33, in <module>
-    title_box.fill.user_picture(title_bg_image_path)
-AttributeError: 'FillFormat' object has no attribute 'user_picture'

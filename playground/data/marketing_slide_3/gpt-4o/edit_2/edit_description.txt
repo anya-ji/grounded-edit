@@ -1,0 +1,1 @@
+Change the text color from white to a softer shade, such as light gray, to ensure readability against the background.

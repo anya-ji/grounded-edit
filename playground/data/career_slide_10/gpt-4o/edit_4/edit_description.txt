@@ -1,0 +1,1 @@
+Change the font color of the names to white for better contrast against the background.

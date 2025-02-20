@@ -1,1 +1,0 @@
-Reduce the font size of the title "The Technology used in Blockchain" to match the font size in the target image, ensuring a more balanced layout with the list of concepts.

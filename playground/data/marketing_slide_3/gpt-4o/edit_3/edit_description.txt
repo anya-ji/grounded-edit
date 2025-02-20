@@ -1,0 +1,1 @@
+Center the text both vertically and horizontally on the slide for improved aesthetics.

@@ -1,0 +1,12 @@
+--- ./data/marketing_slide_40/init/code.py	2025-02-20 02:15:03.895044682 +0000
++++ ./data/marketing_slide_40/gpt-4o/edit_2/code.py	2025-02-20 14:37:36.794409457 +0000
+@@ -21,6 +21,9 @@
+ title_paragraph.font.bold = True
+ title_paragraph.font.color.rgb = RGBColor(50, 50, 50)  # Neutral color
+ 
++# Center the text
++title_paragraph.alignment = 1  # 1 corresponds to center alignment
++
+ # Paths to images
+ image_paths = [
+     "../../media/image_2.jpg", # Sculpting

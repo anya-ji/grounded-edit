@@ -1,0 +1,11 @@
+--- ./data/career_slide_16/init/code.py	2025-02-20 02:15:04.977042467 +0000
++++ ./data/career_slide_16/gpt-4o/edit_2/code.py	2025-02-20 12:09:02.703284644 +0000
+@@ -62,7 +62,7 @@
+ # Learning Approach
+ learning_approach = academic_content_frame.add_paragraph()
+ learning_approach.text = "Learning Approach"
+-learning_approach.font.size = Pt(18)
++learning_approach.font.size = Pt(18)  # Increased font size to match PROFESSIONAL WORLD
+ learning_approach.font.bold = True
+ 
+ theoretical = academic_content_frame.add_paragraph()

@@ -1,0 +1,1 @@
+Change the color of the header "Representational or Objective Art" to a darker shade for better contrast against the background.

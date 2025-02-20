@@ -1,0 +1,10 @@
+--- ./data/food_slide_24/init/code.py	2025-02-20 02:15:04.660043116 +0000
++++ ./data/food_slide_24/gpt-4o/edit_1/code.py	2025-02-20 13:28:36.088684641 +0000
+@@ -32,6 +32,7 @@
+ instruction.text = "Tell the short story below out loud using the pronunciation rule you studied on the previous slide."
+ instruction.font.size = Pt(20)
+ instruction.font.bold = True
++instruction.font.color.rgb = RGBColor(0, 0, 139)  # Dark blue color
+ 
+ # Add speaking icon
+ icon_path = "../../media/image_1.jpg"

@@ -1,0 +1,5 @@
+<edit>Change the font size of the text "This is Bélo." to 60 pt.</edit>
+<edit>Set the font weight of the text "This is Bélo." to bold.</edit>
+<edit>Add 30 pixels of padding to the top of the text box containing "This is Bélo." for better spacing.</edit>
+<edit>Change the background color of the slide to #FF6B6B.</edit>
+<edit>Center align the text "This is Bélo." horizontally within the slide.</edit>

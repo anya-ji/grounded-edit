@@ -1,0 +1,1 @@
+Adjust the text alignment of the body text to bullet points instead of a continuous paragraph for improved readability.

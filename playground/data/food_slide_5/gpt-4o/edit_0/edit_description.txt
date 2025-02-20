@@ -1,0 +1,1 @@
+Change the background color of the rendered slide to a light blue (#E9F6FF) for better contrast with the text and images.

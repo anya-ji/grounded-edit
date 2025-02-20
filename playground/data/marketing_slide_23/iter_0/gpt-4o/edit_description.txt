@@ -1,1 +1,0 @@
-Change the background color of the "Explain how products reach to market" box from fluorescent yellow to a softer, more muted yellow to match the tone of the target image, and increase the text weight to bold for better visibility.

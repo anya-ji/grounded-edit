@@ -1,0 +1,11 @@
+--- ./data/food_slide_12/init/code.py	2025-02-20 02:15:04.674043087 +0000
++++ ./data/food_slide_12/gpt-4o/edit_0/code.py	2025-02-20 13:08:59.029715723 +0000
+@@ -23,7 +23,7 @@
+ title_frame = title_box.text_frame
+ p = title_frame.add_paragraph()
+ p.text = "Viewing Activity"
+-p.font.size = Pt(24)
++p.font.size = Pt(36)  # changed to 36 points
+ p.font.bold = True
+ p.font.color.rgb = RGBColor(255, 255, 255)  # white
+ 

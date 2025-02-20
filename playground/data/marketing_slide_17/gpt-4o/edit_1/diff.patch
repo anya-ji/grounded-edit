@@ -1,0 +1,10 @@
+--- ./data/marketing_slide_17/init/code.py	2025-02-20 02:15:03.967044535 +0000
++++ ./data/marketing_slide_17/gpt-4o/edit_1/code.py	2025-02-20 13:58:37.564594786 +0000
+@@ -36,6 +36,7 @@
+ title_frame.paragraphs[0].font.size = Pt(44)
+ title_frame.paragraphs[0].font.bold = True
+ title_frame.paragraphs[0].font.underline = True
++# Change text color to white
+ title_frame.paragraphs[0].font.color.rgb = RGBColor(255, 255, 255)
+ title_frame.paragraphs[0].alignment = PP_ALIGN.LEFT
+ 

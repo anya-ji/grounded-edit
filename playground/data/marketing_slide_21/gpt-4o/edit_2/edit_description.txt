@@ -1,0 +1,1 @@
+Add a border to each box to improve separation between elements on the slide.

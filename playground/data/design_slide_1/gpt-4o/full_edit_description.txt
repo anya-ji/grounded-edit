@@ -1,0 +1,5 @@
+<edit>Change the background color of the slide to a gradient from white to light gray for better contrast against the elements.</edit>
+<edit>Adjust the text size of "Graphic Design" to 80 pt to enhance readability.</edit>
+<edit>Reposition the text "Graphic Design" to be centered vertically and horizontally on the slide for a balanced layout.</edit>
+<edit>Change the font color of "Graphic Design" to a dark shade, such as #333333, to improve legibility against the background.</edit>
+<edit>Increase the spacing above and below the text "Graphic Design" to create a more spacious feel and prevent it from appearing cramped.</edit>

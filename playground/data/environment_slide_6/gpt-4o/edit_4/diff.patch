@@ -1,0 +1,15 @@
+--- ./data/environment_slide_6/init/code.py	2025-02-20 02:15:04.786042858 +0000
++++ ./data/environment_slide_6/gpt-4o/edit_4/code.py	2025-02-20 13:01:23.011236474 +0000
+@@ -48,9 +48,9 @@
+ content.font.size = Pt(20)
+ content.alignment = PP_ALIGN.LEFT
+ 
+-# Add the sunset image below the texts
++# Add the sunset image below the texts, reduced to 70% of its original size
+ image_path = "../../media/image_0.jpg"
+-slide.shapes.add_picture(image_path, Inches(3), Inches(5.5), Inches(10), Inches(3))
++slide.shapes.add_picture(image_path, Inches(3), Inches(5.5), Inches(7), Inches(2.1))  # Adjusted size
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

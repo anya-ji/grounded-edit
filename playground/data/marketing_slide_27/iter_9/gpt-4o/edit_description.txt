@@ -1,1 +1,0 @@
-Reduce the font size of the "Types of Markets" text by 50% and change the font weight to regular to match the aesthetics of the target image.

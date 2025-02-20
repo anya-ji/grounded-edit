@@ -1,1 +1,0 @@
-Adjust the background color of the rendered image to a light tone similar to the target image to enhance readability and visual resemblance.

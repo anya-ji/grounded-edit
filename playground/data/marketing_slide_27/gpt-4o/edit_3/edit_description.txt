@@ -1,0 +1,1 @@
+Change the text color for "Types of Markets" to a darker shade for better contrast, using `plt.title("Types of Markets", color='black')`.

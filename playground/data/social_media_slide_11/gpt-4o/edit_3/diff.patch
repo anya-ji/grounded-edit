@@ -1,0 +1,11 @@
+--- ./data/social_media_slide_11/init/code.py	2025-02-20 02:15:04.865042696 +0000
++++ ./data/social_media_slide_11/gpt-4o/edit_3/code.py	2025-02-20 14:54:16.177175067 +0000
+@@ -37,7 +37,7 @@
+ subtitle_tf.word_wrap = True
+ p = subtitle_tf.add_paragraph()
+ p.text = "GLOBAL INTEGRATION"
+-p.font.size = Pt(28)
++p.font.size = Pt(36)  # Changed font size to 36
+ p.font.bold = True
+ p.font.color.rgb = RGBColor(255, 255, 255)
+ p.alignment = PP_ALIGN.CENTER

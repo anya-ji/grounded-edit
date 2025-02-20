@@ -1,1 +1,0 @@
-Change the background color of the first text box from solid yellow to a gradient that transitions from orange to yellow.

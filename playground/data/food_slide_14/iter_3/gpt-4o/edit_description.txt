@@ -1,1 +1,0 @@
-Rearrange the numbering of the events in the rendered image to match the correct order: 2, 3, 6, 1, 5, 4.

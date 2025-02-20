@@ -1,0 +1,1 @@
+Adjust the font size of the title "ELO's" to 50pt to enhance prominence on the slide.

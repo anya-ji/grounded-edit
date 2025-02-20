@@ -1,1 +1,0 @@
-Change the text box background color from white to a soft light gray to improve readability and match the color scheme of the target image better.

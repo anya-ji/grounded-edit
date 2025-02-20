@@ -1,0 +1,10 @@
+--- ./data/art_photos_slide_18/init/code.py	2025-02-20 02:15:04.406043636 +0000
++++ ./data/art_photos_slide_18/gpt-4o/edit_4/code.py	2025-02-20 11:03:59.477015987 +0000
+@@ -22,6 +22,7 @@
+ main_title_frame.paragraphs[0].font.size = Pt(44)
+ main_title_frame.paragraphs[0].font.bold = True
+ main_title_frame.paragraphs[0].font.color.rgb = RGBColor(0, 0, 0)
++main_title_frame.paragraphs[0].font.name = 'Arial'  # Change to a sans-serif font
+ main_title_box.fill.solid()
+ main_title_box.fill.fore_color.rgb = RGBColor(255, 255, 0)  # Yellow background
+ 

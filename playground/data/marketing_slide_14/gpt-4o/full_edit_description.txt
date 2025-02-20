@@ -1,0 +1,5 @@
+<edit>Change the background color of the slide to a darker blue gradient to increase contrast with the text.</edit>
+<edit>Change the font color of the text to white for better readability against the background.</edit>
+<edit>Increase the font size of the question text from its current size to make it more prominent.</edit>
+<edit>Adjust the alignment of the text to be centered horizontally on the slide for better visual balance.</edit>
+<edit>Remove the red rectangle from the top right corner of the slide to declutter the design.</edit>

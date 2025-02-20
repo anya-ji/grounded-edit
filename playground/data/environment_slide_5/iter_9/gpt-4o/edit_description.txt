@@ -1,1 +1,0 @@
-Change the text color from light green to a darker shade (e.g., RGB(0, 102, 0)) to improve contrast and readability.

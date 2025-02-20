@@ -1,1 +1,0 @@
-Change the overlay text color to a more muted shade of yellow to match the soft yellow in the target image, ensuring it complements the vibrant orange without clashing.

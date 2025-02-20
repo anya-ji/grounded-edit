@@ -1,0 +1,12 @@
+--- ./data/business_slide_9/init/code.py	2025-02-20 02:15:04.101044260 +0000
++++ ./data/business_slide_9/gpt-4o/edit_3/code.py	2025-02-20 11:52:08.719720755 +0000
+@@ -41,7 +41,7 @@
+ quote.text = "IT'S ABOUT THE PEOPLE, NOT THE PLACES"
+ quote.font.size = Pt(36)
+ quote.font.bold = True
+-quote.font.color.rgb = RGBColor(255, 255, 255)
++quote.font.color.rgb = RGBColor(0, 0, 0)  # Changed color to black
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

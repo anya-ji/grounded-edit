@@ -1,0 +1,1 @@
+Remove the bullet point in front of "Museums are the repositories..." to match the format seen in the target slide.

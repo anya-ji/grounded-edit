@@ -1,1 +1,0 @@
-Increase the font size of "ELO's" in the rendered image to match the size in the target image.

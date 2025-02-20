@@ -1,1 +1,0 @@
-Uncheck the checkboxes for "Cryptographic Keys" and "Network Protocol" to match the target image's selection state.

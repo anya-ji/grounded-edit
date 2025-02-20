@@ -1,0 +1,5 @@
+<edit>Change the title font size to 60pt.</edit>
+<edit>Adjust the bullet point text size to 28pt.</edit>
+<edit>Modify the background of the first bullet point to a semi-transparent white overlay for better contrast.</edit>
+<edit>Remove the first bullet point's indentation to align it with the second bullet point.</edit>
+<edit>Add a margin of 20 pixels at the bottom of the slide to ensure elements do not get too close to the bottom edge.</edit>

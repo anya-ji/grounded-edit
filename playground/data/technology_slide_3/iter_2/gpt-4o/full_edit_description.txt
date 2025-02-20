@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image displays a list of statements about blockchain technology, with checkboxes next to completed items, where all statements are unchecked.
-2. Description of Rendered Image: The rendered image shows the same list with checkboxes, but all items are checked, indicating completion.
-3. Change Suggestion: Change all checkboxes in the rendered image from checked to unchecked to match the target image.
-```

@@ -1,0 +1,1 @@
+Update the bullet point symbol for the list items from a plain bullet to a diamond shape to match the style in the target slide.

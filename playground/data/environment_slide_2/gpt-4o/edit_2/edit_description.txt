@@ -1,0 +1,1 @@
+Add bullet points (using the bullet format character) before each of the text lines in the content section to improve readability and structure.

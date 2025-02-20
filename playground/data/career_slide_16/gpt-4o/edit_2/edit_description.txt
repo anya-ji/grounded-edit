@@ -1,0 +1,1 @@
+Increase the font size of "Learning Approach" in the ACADEMIC WORLD column to match the font size used for "Learning Approach" in the PROFESSIONAL WORLD column.

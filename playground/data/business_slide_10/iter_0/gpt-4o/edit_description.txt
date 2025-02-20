@@ -1,1 +1,0 @@
-Adjust the opacity of the "Community" logo in the rendered image to match the solid white opacity of the target image, ensuring the edges are sharp and the logo has the same vibrancy.

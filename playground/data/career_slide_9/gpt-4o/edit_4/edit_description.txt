@@ -1,0 +1,1 @@
+Ensure that the image of the trophy and dartboard is appropriately sized to maintain good balance with the text elements.

@@ -1,0 +1,1 @@
+Adjust the slide background color to match the target background by setting it to a bright blue color using `plt.gcf().set_facecolor('#FFFFFF')`.

@@ -1,0 +1,5 @@
+<edit>Change the background color of the "PAST SIMPLE" section from white to a light shade of blue, e.g., hex color #d0e0f0.</edit>
+<edit>Change the font color of the text in the "PAST SIMPLE" section to a darker shade, e.g., hex color #333333, to enhance readability.</edit>
+<edit>Adjust the width of the "PAST CONTINUOUS" section to match the width of the "PAST SIMPLE" section for uniformity.</edit>
+<edit>Increase the font size of the slide title "PART 2" to 36 points for better visibility.</edit>
+<edit>Add padding of 10 pixels to the text area within both the "PAST SIMPLE" and "PAST CONTINUOUS" sections to ensure better spacing around the text.</edit>

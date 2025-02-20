@@ -1,0 +1,1 @@
+Increase the font size of the bullet point text to at least 24pt to enhance visibility.

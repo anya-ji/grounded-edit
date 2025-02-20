@@ -1,0 +1,10 @@
+--- ./data/marketing_slide_41/init/code.py	2025-02-20 02:15:03.959044551 +0000
++++ ./data/marketing_slide_41/gpt-4o/edit_3/code.py	2025-02-20 14:39:43.249206671 +0000
+@@ -38,6 +38,7 @@
+ content_p.text = content_text
+ content_p.font.size = Pt(24)
+ content_p.font.color.rgb = RGBColor(255, 255, 0)  # Yellow text
++content_p.line_spacing = Pt(36)  # Set line spacing to 1.5 times the font size (24pt * 1.5 = 36pt)
+ content_p.alignment = None  # Left alignment
+ 
+ # Save the presentation

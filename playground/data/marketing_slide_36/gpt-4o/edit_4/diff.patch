@@ -1,0 +1,20 @@
+--- ./data/marketing_slide_36/init/code.py	2025-02-20 02:15:03.961044547 +0000
++++ ./data/marketing_slide_36/gpt-4o/edit_4/code.py	2025-02-20 14:30:10.824024319 +0000
+@@ -39,7 +39,7 @@
+ 
+ # Position settings
+ image_lefts = [Inches(0), Inches(4.44), Inches(8.88)]
+-label_top = Inches(2)
++label_top = Inches(6)  # Position label below images
+ image_top = Inches(2.5)
+ image_height = Inches(4)
+ 
+@@ -48,7 +48,7 @@
+     # Add image
+     slide.shapes.add_picture(image_paths[i], image_lefts[i], image_top, height=image_height)
+     
+-    # Add label above image
++    # Add label beneath image
+     label_box = slide.shapes.add_textbox(image_lefts[i], label_top, Inches(4.44), Inches(0.5))
+     label_frame = label_box.text_frame
+     label = label_frame.add_paragraph()

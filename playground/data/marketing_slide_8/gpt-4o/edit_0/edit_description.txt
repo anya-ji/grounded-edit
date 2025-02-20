@@ -1,0 +1,1 @@
+Change the background gradient from a green to a darker blue gradient for better contrast with the text and elements.

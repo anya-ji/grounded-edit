@@ -1,0 +1,12 @@
+--- ./data/art_photos_slide_22/init/code.py	2025-02-20 02:15:04.202044054 +0000
++++ ./data/art_photos_slide_22/gpt-4o/edit_2/code.py	2025-02-20 11:11:51.922435908 +0000
+@@ -66,6 +66,8 @@
+     p.font.size = Pt(28)
+     if idx == 0:
+         p.font.bold = True
++    if idx == 1:  # Adjust the font size for the second bullet point
++        p.font.size = Pt(24)  # Increased font size
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

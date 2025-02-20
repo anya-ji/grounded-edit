@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: A presentation slide with a red background, featuring a blue header that says "BIG QUESTION" and a black section with the question "HOW DO MARKETS HELP US?", below it a brown bookmark ribbon element is present.
-2. Description of Rendered Image: A presentation slide with a black background, featuring a blue header that says "BIG QUESTION" in bold, with the question "HOW DO MARKETS HELP US?" in large white font, and a yellow rectangle element instead of the brown bookmark ribbon.
-3. Change Suggestion: Replace the yellow rectangle in the rendered image with a brown bookmark ribbon similar to the one in the target image.
-```

@@ -1,0 +1,1 @@
+Increase the font size of "Personal Growth and Development" to be larger than the font size of "Employability and Career Opportunities" and "Economic Impact" for better visual hierarchy.

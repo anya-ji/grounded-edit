@@ -1,1 +1,0 @@
-Change the background color gradient to a brighter blue hue with added contrasting colors for the text boxes, ensuring they are rounded and well-defined like in the target image.

@@ -1,0 +1,1 @@
+Change the text color of the bullet points to a darker shade, such as `color='black'`, to enhance readability against the background.

@@ -1,0 +1,1 @@
+Change the text color of "PRODUCT", "PRICE", "PROMOTION", and "PLACE" to white for better visibility against the colored hexagons.

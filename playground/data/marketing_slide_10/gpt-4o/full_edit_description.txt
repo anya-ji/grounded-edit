@@ -1,0 +1,5 @@
+<edit>Change the font size of the title "HOMEWORK" to a smaller size, such as 48 points, to reduce its dominance on the slide.</edit>
+<edit>Change the color of the question text to white for better contrast against the background.</edit>
+<edit>Add a margin of 20 pixels to the bottom of the text block containing the question to ensure proper spacing from the edge of the slide.</edit>
+<edit>Change the alignment of the question text to justify, providing a more balanced look across the text block.</edit>
+<edit>Adjust the background color gradient settings to create a more subtle blend, reducing the intensity of the darker colors.</edit>

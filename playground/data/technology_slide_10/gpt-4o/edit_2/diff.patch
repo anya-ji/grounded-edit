@@ -1,0 +1,12 @@
+--- ./data/technology_slide_10/init/code.py	2025-02-20 02:15:05.096042224 +0000
++++ ./data/technology_slide_10/gpt-4o/edit_2/code.py	2025-02-20 15:29:59.298008144 +0000
+@@ -20,6 +20,9 @@
+ title_paragraph.font.size = Pt(44)
+ title_paragraph.font.bold = True
+ 
++# Change font color to dark gray
++title_paragraph.font.color.rgb = RGBColor(50, 50, 50)  # Dark gray color
++
+ # Checklist
+ checklist_items = [
+     "Greater Transparency",

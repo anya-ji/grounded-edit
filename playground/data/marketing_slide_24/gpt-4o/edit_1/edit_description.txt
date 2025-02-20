@@ -1,0 +1,1 @@
+Remove the black circle overlay from the slide to ensure the background image is fully visible.

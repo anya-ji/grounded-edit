@@ -1,0 +1,18 @@
+--- ./data/marketing_slide_41/init/code.py	2025-02-20 02:15:03.959044551 +0000
++++ ./data/marketing_slide_41/gpt-4o/edit_0/code.py	2025-02-20 14:39:08.395266400 +0000
+@@ -14,11 +14,12 @@
+ slide_layout = presentation.slide_layouts[5]  # Using a blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set background to a gradient of dark green
++# Set background to a gradient of dark teal to lighter teal
+ background = slide.background
+ fill = background.fill
+-fill.solid()
+-fill.fore_color.rgb = RGBColor(0, 50, 0)  # Dark green
++fill.gradient()  # Set to gradient fill
++fill.gradient_stops[0].color.rgb = RGBColor(0, 50, 50)  # Dark teal
++fill.gradient_stops[1].color.rgb = RGBColor(0, 255, 255)  # Lighter teal
+ 
+ # Add title text
+ title_text = "Research Work:"

@@ -1,0 +1,5 @@
+<edit>Change the color of the icons in the slide from red to a dark green. Update the code for the icons to the color "#2C3E50".</edit>
+<edit>Change the background color of the slide from white to light gray. Update the code for the slide background to the color "#EBEBEB".</edit>
+<edit>Change the font color of the text "The Bélo tells the story of the company in one symbol." from orange to white. Update the code for the text color to the color "#FFFFFF".</edit>
+<edit>Change the font size of the text "2013" to 36pt. Update the code for the font size to be 36.</edit>
+<edit>Adjust the vertical alignment of the section containing the icons and the equation to ensure there is equal spacing above and below them. Update the vertical position to center-align with respect to the surrounding text.</edit>

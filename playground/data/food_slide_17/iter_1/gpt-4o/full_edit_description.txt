@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: A text with a structured format showing sentences categorized under "Past Simple" and "Past Continuous" with clear headings and distinct columns.
-2. Description of Rendered Image: A similar text layout but with different background colors, less clarity in column separation, and inconsistent table formatting.
-3. Change Suggestion: Change the background color of the "Past Simple" and "Past Continuous" columns to a uniform shade for better contrast and readability.
-```

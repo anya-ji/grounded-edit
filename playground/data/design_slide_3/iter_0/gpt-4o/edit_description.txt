@@ -1,1 +1,0 @@
-Adjust the text positioning to move it higher up on the image, ensuring it does not overlap with the eye, and change the font color to white for better contrast.

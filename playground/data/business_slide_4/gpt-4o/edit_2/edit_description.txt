@@ -1,0 +1,1 @@
+Adjust the position of the logo at the bottom left corner to ensure it's aligned with the bottom edge of the slide.

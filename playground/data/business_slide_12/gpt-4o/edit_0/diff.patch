@@ -1,0 +1,11 @@
+--- ./data/business_slide_12/init/code.py	2025-02-20 02:15:04.119044223 +0000
++++ ./data/business_slide_12/gpt-4o/edit_0/code.py	2025-02-20 11:36:23.258387784 +0000
+@@ -22,7 +22,7 @@
+ p = text_frame.add_paragraph()
+ p.text = title_text
+ p.font.bold = True
+-p.font.size = Pt(96)
++p.font.size = Pt(150)  # Changed font size to 150 pt
+ p.font.color.rgb = RGBColor(255, 255, 255)  # White color
+ text_frame.paragraphs[0].alignment = 1  # Center alignment
+ 

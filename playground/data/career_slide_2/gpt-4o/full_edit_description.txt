@@ -1,0 +1,5 @@
+<edit>Change the background color of the slide to a dark texture similar to the target slide.</edit>
+<edit>Adjust the font size of the title "WHAT ARE 'TOP GRADES'?" to 48 points to match the target slide.</edit>
+<edit>Add bullet points to the text by inserting a bullet character before each point in the list.</edit>
+<edit>Change the font color of the main text to a lighter shade (e.g., white or light gray) for improved readability against the dark background.</edit>
+<edit>Ensure that there is consistent spacing of 1.5 line height for the body text to enhance readability.</edit>

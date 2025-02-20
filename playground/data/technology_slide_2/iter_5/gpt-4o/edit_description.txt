@@ -1,1 +1,0 @@
-Increase the line spacing throughout the rendered image to improve readability, ensuring a clear visual separation between the bullet points and the surrounding text.

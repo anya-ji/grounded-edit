@@ -1,7 +1,0 @@
-```
-1. Description of Target Image: The target image displays a bold and prominent title "What is Blockchain?" at the top, with additional points listed in bullet form. The text has a clean, organized layout, featuring various font weights and clear spacing which enhances readability.
-
-2. Description of Rendered Image: The rendered image has the same title but lacks the bold formatting for "What is Blockchain?" The bullet points are not indented properly, and the spacing between lines and paragraphs appears tighter, which affects the overall readability of the text.
-
-3. Change Suggestion: Increase the font weight of the title "What is Blockchain?" to bold and ensure that bullet points are indented for clearer organization and improved readability.
-```

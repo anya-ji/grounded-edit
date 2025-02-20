@@ -1,0 +1,20 @@
+--- ./data/art_photos_slide_20/init/code.py	2025-02-20 02:15:04.395043659 +0000
++++ ./data/art_photos_slide_20/gpt-4o/edit_0/code.py	2025-02-20 11:07:34.604273299 +0000
+@@ -25,7 +25,7 @@
+ title.font.bold = True
+ title.font.color.rgb = RGBColor(0, 0, 0)  # Black text
+ title_box.fill.solid()
+-title_box.fill.fore_color.rgb = RGBColor(255, 255, 0)  # Yellow background
++title_box.fill.fore_color.rgb = RGBColor(255, 0, 0)  # Change to red (or any specified color)
+ 
+ # Smaller title: The Subject and Content of Art
+ subtitle_box = slide.shapes.add_textbox(Inches(1), Inches(0.5), Inches(5), Inches(0.8))
+@@ -35,7 +35,7 @@
+ subtitle.font.size = Pt(24)
+ subtitle.font.color.rgb = RGBColor(0, 0, 0)  # Black text
+ subtitle_box.fill.solid()
+-subtitle_box.fill.fore_color.rgb = RGBColor(255, 255, 0)  # Yellow background
++subtitle_box.fill.fore_color.rgb = RGBColor(255, 0, 0)  # Change to red (or any specified color)
+ 
+ # Content box
+ content_box = slide.shapes.add_textbox(Inches(1), Inches(3), Inches(14), Inches(5))

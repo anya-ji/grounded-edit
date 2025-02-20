@@ -1,1 +1,0 @@
-Change the background gradient of the rendered image to match the target image's gradient, transitioning from dark green to light green.

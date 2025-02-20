@@ -1,0 +1,33 @@
+--- ./data/business_slide_8/init/code.py	2025-02-20 02:15:04.081044301 +0000
++++ ./data/business_slide_8/gpt-4o/edit_3/code.py	2025-02-20 11:50:38.626891876 +0000
+@@ -46,5 +46,29 @@
+ content_paragraph.font.size = Pt(18)
+ content_paragraph.font.color.rgb = RGBColor(0, 0, 0)  # Black text
+ 
++# Change specific words' colors to white
++for word in ["People", "Places", "Love", "Airbnb"]:
++    start_index = content_paragraph.text.find(word)
++    if start_index != -1:
++        end_index = start_index + len(word)
++        content_paragraph = content_frame.add_paragraph()
++        content_paragraph.text = content_text[:start_index]  # Text before the word
++        content_paragraph.font.size = Pt(18)
++        content_paragraph.font.color.rgb = RGBColor(0, 0, 0)  # Black text
++
++        # Create new paragraph for colored word
++        colored_paragraph = content_frame.add_paragraph()
++        colored_paragraph.text = word
++        colored_paragraph.font.size = Pt(18)
++        colored_paragraph.font.color.rgb = RGBColor(255, 255, 255)  # White text
++
++        content_text = content_text[end_index:]  # Remaining text after the word
++
++# Add remaining text
++final_paragraph = content_frame.add_paragraph()
++final_paragraph.text = content_text
++final_paragraph.font.size = Pt(18)
++final_paragraph.font.color.rgb = RGBColor(0, 0, 0)  # Black text
++
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

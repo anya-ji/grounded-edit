@@ -1,0 +1,11 @@
+--- ./data/career_slide_8/init/code.py	2025-02-20 02:15:05.008042404 +0000
++++ ./data/career_slide_8/gpt-4o/edit_3/code.py	2025-02-20 12:31:52.739308566 +0000
+@@ -54,7 +54,7 @@
+     # Education
+     edu_p = text_frame.add_paragraph()
+     edu_p.text = "Education"
+-    edu_p.font.size = Pt(14)
++    edu_p.font.size = Pt(18)  # Adjusted font size to 18
+     edu_p.font.bold = True
+     edu_p.font.color.rgb = RGBColor(255, 255, 255)
+ 

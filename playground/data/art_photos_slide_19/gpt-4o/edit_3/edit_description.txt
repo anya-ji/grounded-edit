@@ -1,0 +1,1 @@
+Add a small margin above the quote text to increase spacing from the header and create a cleaner layout.

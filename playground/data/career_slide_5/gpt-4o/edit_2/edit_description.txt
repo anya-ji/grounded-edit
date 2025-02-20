@@ -1,0 +1,1 @@
+Adjust the font color of the "Innovation and Technological Advancement" and "Civic Engagement and Informed Citizenship" text to white.

@@ -1,1 +1,0 @@
-Reduce the font size of the main headline "KEY REASONS WHY ACADEMIC SUCCESS IS IMPORTANT IN SOCIETY" to 1.5em and ensure it is centered to prevent overlap with the subsequent text.

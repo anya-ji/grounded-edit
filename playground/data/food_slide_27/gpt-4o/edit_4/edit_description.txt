@@ -1,0 +1,1 @@
+Change the color of the header text "STEP 2:" to a darker shade (e.g., #333333) for enhanced contrast against the background.

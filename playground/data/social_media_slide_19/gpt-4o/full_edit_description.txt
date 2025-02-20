@@ -1,0 +1,5 @@
+<edit>Change the font color of the title "Three perspectives on global cultural flows:" to white.</edit>
+<edit>Change the font color of the subtitle "2. CULTURAL HYBRIDIZATION" to dark blue.</edit>
+<edit>Add spacing of 10 points below the checklist items to improve readability.</edit>
+<edit>Correct the punctuation in the text "A key concept is “glocalization” or the interpenetration of the global and local resulting in unique outcomes in different geographic areas" by inserting a comma after "localization.”</edit>
+<edit>Increase the font size of the bullet point checkmark to match the size of the surrounding text.</edit>

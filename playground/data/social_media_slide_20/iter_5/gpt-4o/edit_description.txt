@@ -1,1 +1,0 @@
-Adjust the bullet points in the rendered image to be formatted as checkmarks (✓) instead of standard bullets, ensuring they align with the style of the target image.

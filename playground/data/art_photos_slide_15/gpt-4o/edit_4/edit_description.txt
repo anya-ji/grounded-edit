@@ -1,0 +1,1 @@
+Change the font size of the title to 36pt for improved visibility compared to the current setting.

@@ -1,0 +1,1 @@
+Set the background color of the slide to white (RGB(255, 255, 255)).

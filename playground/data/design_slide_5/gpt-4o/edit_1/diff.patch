@@ -1,0 +1,11 @@
+--- ./data/design_slide_5/init/code.py	2025-02-20 02:15:04.607043225 +0000
++++ ./data/design_slide_5/gpt-4o/edit_1/code.py	2025-02-20 12:41:45.988876086 +0000
+@@ -20,7 +20,7 @@
+ left_title_p.text = "Principles of Graphic Design"
+ left_title_p.font.size = Pt(50)
+ left_title_p.font.bold = True
+-left_title_p.font.color.rgb = RGBColor(255, 255, 255)  # White text
++left_title_p.font.color.rgb = RGBColor(255, 255, 255)  # White text (changed for contrast)
+ 
+ # Right side text box with subtitle and list
+ right_text_box = slide.shapes.add_textbox(Inches(8.5), Inches(0.5), Inches(7), Inches(7))

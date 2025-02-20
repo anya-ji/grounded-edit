@@ -1,0 +1,11 @@
+--- ./data/food_slide_30/init/code.py	2025-02-20 02:15:04.666043104 +0000
++++ ./data/food_slide_30/gpt-4o/edit_0/code.py	2025-02-20 13:35:39.626888530 +0000
+@@ -18,7 +18,7 @@
+ title_p = title_frame.add_paragraph()
+ title_p.text = "PART 2"
+ title_p.font.bold = True
+-title_p.font.size = Pt(32)
++title_p.font.size = Pt(22)  # Changed from 32 to 22 points
+ 
+ # Add instructions below the title
+ instructions_box = slide.shapes.add_textbox(Inches(0.5), Inches(1.5), Inches(8.5), Inches(1))

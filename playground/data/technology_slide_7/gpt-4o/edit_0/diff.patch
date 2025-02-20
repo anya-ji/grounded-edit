@@ -1,0 +1,11 @@
+--- ./data/technology_slide_7/init/code.py	2025-02-20 02:15:05.077042263 +0000
++++ ./data/technology_slide_7/gpt-4o/edit_0/code.py	2025-02-20 15:42:07.975190868 +0000
+@@ -18,7 +18,7 @@
+ title_tf.text = "Blockchain in Cryptocurrency"
+ title = title_tf.paragraphs[0]
+ title.font.bold = True
+-title.font.size = Pt(44)
++title.font.size = Pt(56)  # Changed font size to 56
+ title.font.color.rgb = RGBColor(0, 51, 102)  # Dark blue color
+ title.alignment = PP_ALIGN.CENTER
+ 

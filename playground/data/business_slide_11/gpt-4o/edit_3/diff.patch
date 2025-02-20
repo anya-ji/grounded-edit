@@ -1,0 +1,13 @@
+--- ./data/business_slide_11/init/code.py	2025-02-20 02:15:04.126044209 +0000
++++ ./data/business_slide_11/gpt-4o/edit_3/code.py	2025-02-20 11:35:29.985562129 +0000
+@@ -12,8 +12,8 @@
+ slide_layout = presentation.slide_layouts[5]  # blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Add title
+-txBox = slide.shapes.add_textbox(Inches(0.5), Inches(0.3), Inches(15), Inches(1))
++# Add title with adjusted padding
++txBox = slide.shapes.add_textbox(Inches(0.5), Inches(0.3), Inches(14), Inches(1))  # Adjust width
+ tf = txBox.text_frame
+ p = tf.add_paragraph()
+ p.text = "Information Systems"

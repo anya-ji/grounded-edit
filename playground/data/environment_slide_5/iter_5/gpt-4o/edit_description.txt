@@ -1,1 +1,0 @@
-Change the background color of the rendered image to a vibrant green and increase the font size of the text to match the boldness and scale of the target image.

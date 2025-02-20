@@ -1,1 +1,0 @@
-Change the text color from white to black for better contrast against the background.

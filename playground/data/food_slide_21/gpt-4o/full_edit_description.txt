@@ -1,0 +1,5 @@
+<edit>Change the title text from "Pronunciation Activity" to "PART 1" and ensure it is in the same font style and size as the original.</edit>
+<edit>Adjust the font color of the stressed words sections to match the color used in the target slide; change it to pink (#D5006D).</edit>
+<edit>Update the spacing between the audio clip icons and the corresponding text sections to provide uniform spacing similar to what is seen in the target slide.</edit>
+<edit>Change the bullet point format for the numbered list in Part 1 to include circles instead of using the default bullet format.</edit>
+<edit>Add an introductory sentence before "PART 1" in the rendered slide, similar to "Play the audio clips below. On which words do you notice the stress/intonation?" to maintain consistent content layout.</edit>

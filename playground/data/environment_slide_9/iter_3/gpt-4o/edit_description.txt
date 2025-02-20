@@ -1,1 +1,0 @@
-Add a dark gray rectangle behind the word "CONCLUSION" to match the target image's layout.

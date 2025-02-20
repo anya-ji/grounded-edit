@@ -1,0 +1,4 @@
+Failed to execute code for edit 4: Traceback (most recent call last):
+  File "/home/anyaji/grounded-edit/playground/data/art_photos_slide_9/gpt-4o/edit_4/code.py", line 60, in <module>
+    paragraph.font.outline_color.rgb = RGBColor(0, 0, 0)  # Black outline
+AttributeError: 'Font' object has no attribute 'outline_color'

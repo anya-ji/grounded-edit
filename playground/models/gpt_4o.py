@@ -1,6 +1,7 @@
 import os
 import openai
 import base64
+import re
 
 openai.api_key = os.environ["OPENAI_API_KEY"]
 client = openai.OpenAI()
@@ -50,7 +51,13 @@ def eval(prompt, target_image_path, render_image_path):
     return response_list[0]
 
 def parse_edit_description(response):
-    return response.split("Change Suggestion: ",1)[1].split("```",1)[0].strip()
+    '''
+    returns: a list of strings
+    '''
+    pattern = r"<edit>(.*?)</edit>"
+    edits = re.findall(pattern, response)
+    return edits
+
 
 def parse_code(response):
     return response.split("```python",1)[1].split("```",1)[0].strip()

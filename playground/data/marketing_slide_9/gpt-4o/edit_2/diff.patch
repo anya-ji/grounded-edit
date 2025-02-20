@@ -1,0 +1,25 @@
+--- ./data/marketing_slide_9/init/code.py	2025-02-20 02:15:03.955044559 +0000
++++ ./data/marketing_slide_9/gpt-4o/edit_2/code.py	2025-02-20 14:49:01.541986917 +0000
+@@ -24,10 +24,10 @@
+ 
+ # Define step details
+ steps = [
+-    ("Producer", "• Goods are produced in large factories or farms.", RGBColor(255, 165, 0)),
+-    ("Wholesale", "• Wholesalers buy goods in large quantity from factories or farms.", RGBColor(255, 223, 0)),
+-    ("Distributors", "• They provide goods to retailers on their demand.", RGBColor(255, 223, 0)),
+-    ("Retailer", "• Sell goods to consumers.", RGBColor(255, 223, 0))
++    ("Producer", "• Goods are produced in large factories or farms.", RGBColor(255, 140, 0)),  # Deeper orange
++    ("Wholesale", "• Wholesalers buy goods in large quantity from factories or farms.", RGBColor(255, 140, 0)),  # Deeper orange
++    ("Distributors", "• They provide goods to retailers on their demand.", RGBColor(255, 140, 0)),  # Deeper orange
++    ("Retailer", "• Sell goods to consumers.", RGBColor(255, 140, 0))  # Deeper orange
+ ]
+ 
+ # Add rectangles and text for each step
+@@ -43,6 +43,7 @@
+     )
+     shape.fill.solid()
+     shape.fill.fore_color.rgb = color
++    shape.line.color.rgb = RGBColor(255, 140, 0)  # Set border color to deeper orange
+ 
+     # Add title inside shape
+     text_box = slide.shapes.add_textbox(left + Inches(0.2), top + Inches(0.2), width - Inches(0.4), height - Inches(0.4))

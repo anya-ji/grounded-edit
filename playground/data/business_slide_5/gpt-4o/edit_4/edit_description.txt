@@ -1,0 +1,1 @@
+Move the images to the right slightly to prevent any overflow into the text area on the left.

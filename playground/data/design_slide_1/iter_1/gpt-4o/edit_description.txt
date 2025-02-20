@@ -1,1 +1,0 @@
-Increase the vibrancy and saturation of the color splashes in the rendered image to match the intensity of the splashes in the target image.

@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: A presentation slide that features the title "ACADMIC WORLD AND PROFESSIONAL WORLD: DEMANDS AND CHARACTERISTICS" at the top, with sections comparing "ACADEMIC WORLD" and "PROFESSIONAL WORLD" using blue and green text, respectively. There are bullet points under each category with uniform formatting.
-2. Description of Rendered Image: A similar presentation slide, but with the title and subcategories in different colors (blue for "ACADEMIC WORLD" and yellow for "PROFESSIONAL WORLD"). The formatting of text is inconsistent, with misalignment or spacing issues.
-3. Change Suggestion: Change the text color of "PROFESSIONAL WORLD" from yellow to green to match the target image's color scheme.
-```

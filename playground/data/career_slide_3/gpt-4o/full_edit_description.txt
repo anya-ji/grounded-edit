@@ -1,0 +1,5 @@
+<edit>Change the background color of the rendered slide to a dark gray (e.g., RGB(25, 25, 25)) to ensure consistency.</edit>
+<edit>Increase the padding inside the speech bubble shape to 20 pixels from the text to ensure the text is not too close to the edges.</edit>
+<edit>Change the font color of the text to white (RGB(255, 255, 255)) to improve readability against the darker background.</edit>
+<edit>Adjust the border color of the speech bubble shape to a lighter shade of gray (e.g., RGB(150, 150, 150)) for better contrast with the background.</edit>
+<edit>Change the font size of the text to 32 points to enhance visibility and ensure it fills the speech bubble adequately.</edit>

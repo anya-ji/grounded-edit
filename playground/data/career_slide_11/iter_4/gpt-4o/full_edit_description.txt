@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image features a title that reads "IMPORTANCE OF SKILLS BEYOND ACADEMICS" prominently displayed, along with several bullet points summarizing various skills, all well-organized and clearly formatted.
-2. Description of Rendered Image: The rendered image has a similar title structure but lacks the consistent formatting of bullet points and spaces, making it appear less organized and visually appealing.
-3. Change Suggestion: Adjust the rendered image to use bullet points for each skill description, ensuring alignment and consistent spacing to match the layout of the target image.
-```

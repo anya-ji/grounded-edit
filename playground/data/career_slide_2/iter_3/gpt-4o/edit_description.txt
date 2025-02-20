@@ -1,1 +1,0 @@
-Add bullet points back to the text in the rendered image to match the layout of the target image.

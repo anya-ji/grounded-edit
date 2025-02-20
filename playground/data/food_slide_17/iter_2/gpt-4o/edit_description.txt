@@ -1,1 +1,0 @@
-Change the background color of the "We were out to dinner." cell to match the blue of the header for uniformity.

@@ -1,0 +1,1 @@
+Adjust the text color of "MARKET AROUND US CHAPTER-6" to pure white (#FFFFFF) to ensure better contrast against the background.

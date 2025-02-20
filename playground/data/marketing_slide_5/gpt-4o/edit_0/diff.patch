@@ -1,0 +1,29 @@
+--- ./data/marketing_slide_5/init/code.py	2025-02-20 02:15:03.864044745 +0000
++++ ./data/marketing_slide_5/gpt-4o/edit_0/code.py	2025-02-20 14:40:46.371091934 +0000
+@@ -10,14 +10,23 @@
+ slide_layout = presentation.slide_layouts[5] # blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
++# Add a rectangle for the background color
++left = top = 0
++background_shape = slide.shapes.add_shape(
++    MSO_SHAPE.RECTANGLE, left, top, presentation.slide_width, presentation.slide_height
++)
++fill = background_shape.fill
++fill.solid()
++fill.fore_color.rgb = RGBColor(245, 245, 220)  # Light beige color
++
+ # Add image to the left side as background
+ image_path = "../../media/image_0.jpg"
+-left = top = 0
+-pic = slide.shapes.add_picture(image_path, left, top, Inches(8), presentation.slide_height)
++pic_left = top = 0
++pic = slide.shapes.add_picture(image_path, pic_left, top, Inches(8), presentation.slide_height)
+ 
+ # Add a semi-transparent overlay rectangle on the image
+ shape = slide.shapes.add_shape(
+-    MSO_SHAPE.RECTANGLE, left, top, pic.width, presentation.slide_height
++    MSO_SHAPE.RECTANGLE, pic_left, top, pic.width, presentation.slide_height
+ )
+ fill = shape.fill
+ fill.solid()

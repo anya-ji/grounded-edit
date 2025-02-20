@@ -1,0 +1,5 @@
+<edit>Change the font size of the title "Various Media drive Various forms of Global Integration" to 32pt.</edit>
+<edit>Change the color of the title to a darker shade of blue (e.g., #003366).</edit>
+<edit>Change the font size of the second bullet point "Media plays a major role in globalization" to 18pt.</edit>
+<edit>Add a bullet point marker (✓) before the first two points under "Various Media".</edit>
+<edit>Add 10px of padding above the "Examples:" section to increase spacing from the previous text.</edit>

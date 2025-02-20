@@ -1,0 +1,1 @@
+Remove the watermark/logo from the rendered slide to maintain a clean layout.

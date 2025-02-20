@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: A white background with "THANK YOU" in bold green letters, featuring a decorative font.
-2. Description of Rendered Image: A green background with "THANK YOU" in bright green letters, using a different font and spacing.
-3. Change Suggestion: Change the background color of the rendered image to white to match the target image.
-```

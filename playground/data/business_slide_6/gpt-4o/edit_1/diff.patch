@@ -1,0 +1,11 @@
+--- ./data/business_slide_6/init/code.py	2025-02-20 02:15:04.098044267 +0000
++++ ./data/business_slide_6/gpt-4o/edit_1/code.py	2025-02-20 11:47:09.711228110 +0000
+@@ -23,7 +23,7 @@
+ text_frame = text_box.text_frame
+ p = text_frame.add_paragraph()
+ p.text = "This is Bélo."
+-p.font.bold = True
++p.font.bold = True  # This line makes the text bold
+ p.font.size = Pt(60)
+ p.font.color.rgb = RGBColor(255, 255, 255)
+ p.alignment = PP_ALIGN.CENTER

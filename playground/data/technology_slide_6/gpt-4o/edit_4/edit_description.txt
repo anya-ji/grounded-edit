@@ -1,0 +1,1 @@
+Modify the background color of the slide to a lighter shade, such as `plt.gcf().set_facecolor('#f0f0f0')`, for better contrast with the text and elements.

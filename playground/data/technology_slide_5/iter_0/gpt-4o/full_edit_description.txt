@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image contains a title "The Technology used in Blockchain" at the top in large, bold font, followed by a checklist of technologies used in blockchain with checkboxes. The elements are clearly organized, and the overall color scheme is consistent and visually appealing.
-2. Description of Rendered Image: The rendered image has the same title and checklist but the title font is much smaller and not bold. The checklist items are displayed without checkboxes, and the overall layout appears more cluttered and less visually structured.
-3. Change Suggestion: Increase the font size of the title "The Technology used in Blockchain" and make it bold to match the style of the target image. Additionally, ensure that the checklist items are displayed with checkboxes.
-```

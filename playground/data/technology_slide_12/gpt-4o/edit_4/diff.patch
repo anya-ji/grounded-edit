@@ -1,0 +1,26 @@
+--- ./data/technology_slide_12/init/code.py	2025-02-20 02:15:05.075042267 +0000
++++ ./data/technology_slide_12/gpt-4o/edit_4/code.py	2025-02-20 15:33:36.758436717 +0000
+@@ -1,7 +1,6 @@
+ from pptx import Presentation
+ from pptx.util import Inches, Pt
+ from pptx.dml.color import RGBColor
+-from pptx.enum.shapes import MSO_SHAPE
+ 
+ # Create a presentation object
+ presentation = Presentation()
+@@ -29,14 +28,5 @@
+ p.font.color.rgb = RGBColor(0, 0, 0)
+ text_box.text_frame.text_anchor = 'middle'
+ 
+-# Add a thin horizontal line near the bottom
+-left = Inches(1)
+-width = Inches(14)
+-top = Inches(7.5)
+-height = Inches(0.05)
+-line = slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, left, top, width, height)
+-line.fill.solid()
+-line.fill.fore_color.rgb = RGBColor(0, 0, 0)
+-
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

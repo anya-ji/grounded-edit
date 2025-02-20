@@ -1,0 +1,1 @@
+Change the color of the numbered circles to the light blue seen in the target slide instead of the solid blue.

@@ -1,1 +1,0 @@
-Change the background color of the rendered image from gradient blue to gradient teal to match the target image.

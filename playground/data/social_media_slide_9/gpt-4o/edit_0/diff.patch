@@ -1,0 +1,11 @@
+--- ./data/social_media_slide_9/init/code.py	2025-02-20 02:15:04.886042653 +0000
++++ ./data/social_media_slide_9/gpt-4o/edit_0/code.py	2025-02-20 15:27:44.389359168 +0000
+@@ -20,7 +20,7 @@
+ title_p.text = title_text
+ title_p.font.size = Pt(28)
+ title_p.font.bold = True
+-title_p.font.color.rgb = RGBColor(0, 51, 102)  # dark blue color
++title_p.font.color.rgb = RGBColor(0, 0, 102)  # darker shade of blue
+ title_p.alignment = PP_ALIGN.CENTER
+ 
+ # Main content as a numbered list

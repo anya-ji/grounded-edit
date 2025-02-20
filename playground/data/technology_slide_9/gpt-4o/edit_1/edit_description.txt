@@ -1,0 +1,1 @@
+Add a checkbox symbol (e.g., "☐") before each item in the list to match the format in the target slide.

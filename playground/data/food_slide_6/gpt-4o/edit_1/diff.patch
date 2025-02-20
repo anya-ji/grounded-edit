@@ -1,0 +1,10 @@
+--- ./data/food_slide_6/init/code.py	2025-02-20 02:15:04.703043028 +0000
++++ ./data/food_slide_6/gpt-4o/edit_1/code.py	2025-02-20 13:43:06.380040486 +0000
+@@ -17,6 +17,7 @@
+ title_text = title_button.text_frame.paragraphs[0]
+ title_text.font.size = Pt(14)
+ title_text.font.bold = True
++title_text.font.color.rgb = RGBColor(0, 51, 102)  # Darker shade (#003366)
+ 
+ # Add main question
+ main_question = slide.shapes.add_textbox(

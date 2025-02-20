@@ -1,0 +1,1 @@
+Change the background color of the slide to a light shade (e.g., #F0F8FF) for better readability of text.

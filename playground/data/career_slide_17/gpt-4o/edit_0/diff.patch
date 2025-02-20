@@ -1,0 +1,11 @@
+--- ./data/career_slide_17/init/code.py	2025-02-20 02:15:05.014042392 +0000
++++ ./data/career_slide_17/gpt-4o/edit_0/code.py	2025-02-20 12:10:55.771986094 +0000
+@@ -36,7 +36,7 @@
+ academic_title_p.text = "ACADEMIC WORLD"
+ academic_title_p.font.size = Pt(24)
+ academic_title_p.font.bold = True
+-academic_title_p.font.color.rgb = RGBColor(0, 0, 255)  # blue font
++academic_title_p.font.color.rgb = RGBColor(0, 255, 255)  # changed to cyan
+ 
+ academic_outcome = slide.shapes.add_textbox(Inches(1), Inches(3), Inches(7), Inches(1))
+ academic_outcome_frame = academic_outcome.text_frame

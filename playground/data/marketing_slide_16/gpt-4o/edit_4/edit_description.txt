@@ -1,0 +1,1 @@
+Change the background color of the entire slide to a darker shade, such as black or dark gray, to improve contrast with the elements.

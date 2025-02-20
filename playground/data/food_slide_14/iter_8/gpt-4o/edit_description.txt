@@ -1,1 +1,0 @@
-Rearrange the order of the listed events in the rendered image to match the chronological order from the target image.

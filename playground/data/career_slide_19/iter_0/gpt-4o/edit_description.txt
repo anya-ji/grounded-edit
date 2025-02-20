@@ -1,1 +1,0 @@
-Change the background color from light green to a darker shade, resembling the darker background of the target image, to enhance contrast and depth.

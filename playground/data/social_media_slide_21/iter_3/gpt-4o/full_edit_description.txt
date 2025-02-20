@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The phrase "THANK YOU!" is displayed in bold, uppercase letters with a clear exclamation mark at the end.
-2. Description of Rendered Image: The phrase "THANK YOU!!" is shown in a similar style but has two exclamation marks at the end instead of one.
-3. Change Suggestion: Remove one exclamation mark from the end of the phrase to make it "THANK YOU!".
-```

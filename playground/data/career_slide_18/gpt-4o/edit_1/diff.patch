@@ -1,0 +1,14 @@
+--- ./data/career_slide_18/init/code.py	2025-02-20 02:15:04.972042477 +0000
++++ ./data/career_slide_18/gpt-4o/edit_1/code.py	2025-02-20 12:13:36.364558530 +0000
+@@ -28,9 +28,9 @@
+ title_paragraph.font.bold = True
+ title_paragraph.font.color.rgb = RGBColor(255, 255, 255)  # White color
+ 
+-# Add subtitle
++# Add subtitle and adjust position for left alignment
+ subtitle_text = "DEMANDS AND CHARACTERISTICS"
+-subtitle_box = slide.shapes.add_textbox(Inches(0.5), Inches(1.7), Inches(15), Inches(1))
++subtitle_box = slide.shapes.add_textbox(Inches(0.5), Inches(1.5), Inches(15), Inches(1))  # Adjusted Y position
+ subtitle_frame = subtitle_box.text_frame
+ subtitle_frame.word_wrap = True
+ subtitle_paragraph = subtitle_frame.add_paragraph()

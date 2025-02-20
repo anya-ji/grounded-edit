@@ -1,0 +1,1 @@
+Remove any extraneous shapes or colors around the text that may clutter the layout and create a cleaner appearance.

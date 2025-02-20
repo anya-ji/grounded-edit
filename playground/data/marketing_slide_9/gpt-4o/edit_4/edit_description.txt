@@ -1,0 +1,1 @@
+Add padding around the text within each step box to prevent text from appearing too close to the edges and improve overall spacing.

@@ -1,0 +1,1 @@
+Include a light gray rectangle behind the main text content to enhance readability (set opacity to 0.8).

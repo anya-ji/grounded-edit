@@ -1,1 +1,0 @@
-Change the background color of the rendered image from gray to a gradient of warm orange and red tones to match the vibrant color scheme of the target image.

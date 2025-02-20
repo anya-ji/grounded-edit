@@ -1,0 +1,11 @@
+--- ./data/environment_slide_1/init/code.py	2025-02-20 02:15:04.792042846 +0000
++++ ./data/environment_slide_1/gpt-4o/edit_1/code.py	2025-02-20 12:51:02.516015675 +0000
+@@ -31,7 +31,7 @@
+ title.text = "NATURAL ENVIRONMENT"
+ title.font.bold = True
+ title.font.size = Pt(44)
+-title.font.color.rgb = RGBColor(0, 102, 0)  # green color
++title.font.color.rgb = RGBColor(0, 255, 0)  # bright green color
+ title.space_after = Pt(20)
+ 
+ # Add content

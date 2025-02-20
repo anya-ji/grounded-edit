@@ -1,0 +1,1 @@
+Ensure the main title "Obstacles that Elon faced" is left-aligned to mirror the target slide's alignment.

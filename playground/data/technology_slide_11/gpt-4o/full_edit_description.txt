@@ -1,0 +1,5 @@
+<edit>Change the font weight of the title "Disadvantages of Blockchain" to bold in the rendered slide.</edit>
+<edit>Add a bullet point style for the list items using `\item` instead of plain text in the rendered slide.</edit>
+<edit>Ensure the text in the rendered slide is aligned to the left for all bullet points.</edit>
+<edit>Adjust the spacing between each bullet point to increase readability, ensuring sufficient space between the items.</edit>
+<edit>Modify the text color of the slide background to white to enhance contrast and readability with the text color.</edit>

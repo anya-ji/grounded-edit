@@ -1,0 +1,11 @@
+--- ./data/environment_slide_6/init/code.py	2025-02-20 02:15:04.786042858 +0000
++++ ./data/environment_slide_6/gpt-4o/edit_2/code.py	2025-02-20 13:00:53.442257585 +0000
+@@ -44,7 +44,7 @@
+     "on environment. So lets see some positive and negative impact of humans "
+     "on environment."
+ )
+-content.font.color.rgb = RGBColor(0, 0, 0)  # Black font
++content.font.color.rgb = RGBColor(75, 75, 77)  # Dark gray color (#4B4B4D)
+ content.font.size = Pt(20)
+ content.alignment = PP_ALIGN.LEFT
+ 

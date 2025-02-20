@@ -1,0 +1,1 @@
+Change the text color of the story content to a dark gray (#333333) for better readability against the light background.

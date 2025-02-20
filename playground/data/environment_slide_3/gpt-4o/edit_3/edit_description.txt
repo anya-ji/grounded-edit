@@ -1,0 +1,1 @@
+Change the background color of the slide to a lighter shade of green, like '#E7F9E9', to provide better contrast with the text.

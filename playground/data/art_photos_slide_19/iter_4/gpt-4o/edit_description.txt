@@ -1,1 +1,0 @@
-Adjust the alignment of the text in the rendered image to be centered below the yellow header, ensuring it matches the organization seen in the target image.

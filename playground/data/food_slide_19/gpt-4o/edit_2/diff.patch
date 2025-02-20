@@ -1,0 +1,13 @@
+--- ./data/food_slide_19/init/code.py	2025-02-20 02:15:04.690043055 +0000
++++ ./data/food_slide_19/gpt-4o/edit_2/code.py	2025-02-20 13:19:11.102715666 +0000
+@@ -28,8 +28,8 @@
+ instruction.text = "Fill in the correct past simple or past continuous forms in the short story below."
+ instruction.font.size = Pt(20)
+ 
+-# Text with blank spaces
+-text_box = slide.shapes.add_textbox(Inches(1), Inches(2.5), Inches(10), Inches(4))
++# Text with blank spaces, added padding by adjusting dimensions
++text_box = slide.shapes.add_textbox(Inches(1), Inches(2.5), Inches(10), Inches(4 + 0.2))  # 10px padding added
+ text_frame = text_box.text_frame
+ text = text_frame.add_paragraph()
+ text.text = ("Last week, I went (I / go) on a date with a nice boy (I / meet) recently. "

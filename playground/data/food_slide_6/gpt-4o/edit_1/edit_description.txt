@@ -1,0 +1,1 @@
+Change the color of the "PREVIEW DISCUSSION" text to a darker shade, such as `#003366`, to enhance its visibility against the background.

@@ -1,0 +1,1 @@
+Ensure the title is bold by setting `title.text_frame.paragraphs[0].font.bold = True` in Python.

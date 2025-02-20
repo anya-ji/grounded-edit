@@ -1,1 +1,0 @@
-Change the text color of the title "Types of environments" to a bright green to match the color in the target image for improved visibility and consistency.

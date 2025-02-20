@@ -1,0 +1,20 @@
+--- ./data/marketing_slide_3/init/code.py	2025-02-20 02:15:03.954044561 +0000
++++ ./data/marketing_slide_3/gpt-4o/edit_0/code.py	2025-02-20 14:17:42.957906704 +0000
+@@ -10,14 +10,14 @@
+ presentation.slide_height = Inches(9)
+ 
+ # Create a blank slide layout
+-slide_layout = presentation.slide_layouts[5] # blank slide
++slide_layout = presentation.slide_layouts[5]  # blank slide
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set the slide background to solid red
++# Set the slide background to a muted dark red color (maroon)
+ background = slide.background
+ fill = background.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(255, 0, 0)
++fill.fore_color.rgb = RGBColor(128, 0, 0)  # Maroon color
+ 
+ # Add a text box with white text centered on the slide
+ text = "Where do you buy your products from?"

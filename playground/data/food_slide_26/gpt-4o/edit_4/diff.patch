@@ -1,0 +1,23 @@
+--- ./data/food_slide_26/init/code.py	2025-02-20 02:15:04.704043026 +0000
++++ ./data/food_slide_26/gpt-4o/edit_4/code.py	2025-02-20 13:31:04.220407534 +0000
+@@ -43,6 +43,9 @@
+ image_width, image_height = Inches(4), Inches(3)
+ checkbox_offset_x, checkbox_offset_y = Inches(-0.5), Inches(-0.5)
+ 
++# Set sizes for checkbox
++checkbox_width, checkbox_height = Inches(20/96), Inches(20/96)  # Convert pixels to inches (1 inch = 96 pixels)
++
+ for row in range(2):
+     for col in range(3):
+         # Calculate position
+@@ -52,8 +55,8 @@
+         # Add image
+         slide.shapes.add_picture(image_paths[col], x, y, width=image_width, height=image_height)
+         
+-        # Add checkbox
+-        slide.shapes.add_picture(check_icon_path, x + checkbox_offset_x, y + checkbox_offset_y, width=Inches(0.5), height=Inches(0.5))
++        # Add checkbox with new size
++        slide.shapes.add_picture(check_icon_path, x + checkbox_offset_x, y + checkbox_offset_y, width=checkbox_width, height=checkbox_height)
+ 
+ # Add a footer
+ footer_textbox = slide.shapes.add_textbox(Inches(1), Inches(7.5), Inches(14), Inches(1))

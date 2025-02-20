@@ -1,0 +1,1 @@
+Increase the font size of the title "CONCLUSION" to 48 points.

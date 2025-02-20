@@ -1,0 +1,1 @@
+Increase the font size of the "Draining" text to ensure it is as prominent as the "Filling" text.

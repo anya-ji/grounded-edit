@@ -1,0 +1,1 @@
+Center align the text "Sales and Distribution" to create a better layout.

@@ -1,1 +1,0 @@
-Change the color of the title text "principles of graphic design" to white and increase its font size to be more prominent, matching the style in the target image.

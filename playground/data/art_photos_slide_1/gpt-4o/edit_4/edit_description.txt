@@ -1,0 +1,1 @@
+Remove the outline from the text to provide a cleaner look.

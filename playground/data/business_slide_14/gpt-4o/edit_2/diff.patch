@@ -1,0 +1,13 @@
+--- ./data/business_slide_14/init/code.py	2025-02-20 02:15:04.088044287 +0000
++++ ./data/business_slide_14/gpt-4o/edit_2/code.py	2025-02-20 11:39:30.096783422 +0000
+@@ -26,8 +26,8 @@
+ shape.fill.solid()
+ shape.fill.fore_color.rgb = RGBColor(255, 165, 0)  # Bright orange color
+ 
+-# Add title text
+-text_box = slide.shapes.add_textbox(Inches(0.7), Inches(0.4), Inches(15), Inches(1))
++# Add title text with adjusted left margin
++text_box = slide.shapes.add_textbox(Inches(0.15), Inches(0.4), Inches(15), Inches(1))  # Adjusted left margin
+ text_frame = text_box.text_frame
+ text_frame.clear()  # Clear any existing content
+ 

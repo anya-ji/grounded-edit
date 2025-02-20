@@ -1,0 +1,1 @@
+Change the font size of the title "Global and Local Cultural Products" to 36pt.

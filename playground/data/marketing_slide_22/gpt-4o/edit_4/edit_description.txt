@@ -1,0 +1,1 @@
+Add a margin of 10 pixels around each image to keep them well-spaced from each other and the slide edges.

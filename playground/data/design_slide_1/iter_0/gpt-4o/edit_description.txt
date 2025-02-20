@@ -1,1 +1,0 @@
-Add a gradient background to the rendered image that mimics the depth and hue transitions seen in the target image, enhancing visual appeal and emphasizing the splashes.

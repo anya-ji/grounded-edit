@@ -1,0 +1,5 @@
+<edit>Change the font color of the title "Three perspectives on global cultural flows:" to white for better contrast against the blue background.</edit>
+<edit>Adjust the font size of the bullet points to be 14pt to enhance readability.</edit>
+<edit>Add a bullet point symbol before the first point: "approach stresses homogeneity introduced by globalization."</edit>
+<edit>Ensure there is a space after the colon in the title "Three perspectives on global cultural flows:".</edit>
+<edit>Change the text color of the body text to light gray for improved readability against the blue background.</edit>

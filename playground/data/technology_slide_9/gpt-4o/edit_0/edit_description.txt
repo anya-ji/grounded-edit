@@ -1,0 +1,1 @@
+Change the title font size to 50 for better visibility of "Types of Blockchain".

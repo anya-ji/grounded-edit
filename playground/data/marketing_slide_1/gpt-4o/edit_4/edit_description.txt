@@ -1,0 +1,1 @@
+Fix the alignment of the title "MARKET AROUND US CHAPTER-6" to center align it on the slide for improved visual balance.

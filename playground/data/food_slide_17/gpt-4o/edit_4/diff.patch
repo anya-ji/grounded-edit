@@ -1,0 +1,15 @@
+--- ./data/food_slide_17/init/code.py	2025-02-20 02:15:04.688043059 +0000
++++ ./data/food_slide_17/gpt-4o/edit_4/code.py	2025-02-20 13:15:46.599070452 +0000
+@@ -64,9 +64,11 @@
+ # Insert sentence into table cell
+ table.cell(1, 0).text = "We were out to dinner."
+ 
+-# Adjust font size in the table
++# Adjust font size in the table and add padding
+ for cell in table.iter_cells():
+     for paragraph in cell.text_frame.paragraphs:
++        paragraph.space_before = Pt(10)  # Add padding above
++        paragraph.space_after = Pt(10)   # Add padding below
+         for run in paragraph.runs:
+             run.font.size = Pt(14)
+ 

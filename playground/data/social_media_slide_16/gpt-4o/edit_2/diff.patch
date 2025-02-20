@@ -1,0 +1,32 @@
+--- ./data/social_media_slide_16/init/code.py	2025-02-20 02:15:04.871042684 +0000
++++ ./data/social_media_slide_16/gpt-4o/edit_2/code.py	2025-02-20 15:02:29.727828295 +0000
+@@ -21,14 +21,6 @@
+ title_box.fill.fore_color.rgb = RGBColor(0, 0, 255) # Blue background
+ title_frame.paragraphs[0].font.color.rgb = RGBColor(255, 255, 255) # White text
+ 
+-# Subtitle
+-subtitle_box = slide.shapes.add_textbox(Inches(0.5), Inches(2), Inches(15), Inches(1))
+-subtitle_frame = subtitle_box.text_frame
+-subtitle_frame.text = "Cultural Products"
+-subtitle_frame.paragraphs[0].font.size = Pt(28)
+-subtitle_frame.paragraphs[0].alignment = PP_ALIGN.CENTER
+-subtitle_frame.paragraphs[0].font.color.rgb = RGBColor(0, 0, 0) # Black text
+-
+ # Bullet Points
+ content_box = slide.shapes.add_textbox(Inches(0.5), Inches(3), Inches(15), Inches(2))
+ content_frame = content_box.text_frame
+@@ -41,6 +33,14 @@
+ content_box.fill.solid()
+ content_box.fill.fore_color.rgb = RGBColor(255, 255, 255) # White background
+ 
++# Subtitle repositioned
++subtitle_box = slide.shapes.add_textbox(Inches(0.5), Inches(2.5), Inches(15), Inches(1))
++subtitle_frame = subtitle_box.text_frame
++subtitle_frame.text = "Cultural Products"
++subtitle_frame.paragraphs[0].font.size = Pt(28)
++subtitle_frame.paragraphs[0].alignment = PP_ALIGN.CENTER
++subtitle_frame.paragraphs[0].font.color.rgb = RGBColor(0, 0, 0) # Black text
++
+ # Images
+ image_paths = [
+     "../../media/image_0.jpg",

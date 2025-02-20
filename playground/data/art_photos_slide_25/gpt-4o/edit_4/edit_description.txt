@@ -1,0 +1,1 @@
+Add a slight padding around the text boxes containing the references to ensure that the text does not touch the edges of the slide.

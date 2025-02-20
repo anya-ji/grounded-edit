@@ -1,1 +1,0 @@
-Modify the title font to match the font style and size of the target image, ensuring it is clear and less intrusive to the overall composition.

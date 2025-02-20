@@ -1,0 +1,16 @@
+--- ./data/technology_slide_7/init/code.py	2025-02-20 02:15:05.077042263 +0000
++++ ./data/technology_slide_7/gpt-4o/edit_4/code.py	2025-02-20 15:43:40.585010191 +0000
+@@ -35,7 +35,12 @@
+     "It is decentralized and it is not governed by anyone whereas blockchain is an advanced record and it has all information related to cryptocurrency exchanges over a shared system.",
+ ]
+ 
+-for point in bullet_points:
++# Modify the first bullet point to split it into sub-bullets
++bullet_point_first_part = "The term blockchain is often used to refer to cryptocurrency."
++bullet_point_second_part = "Cryptocurrency is a medium of exchange such as US dollars."
++
++# Add bullet points
++for point in [bullet_point_first_part, bullet_point_second_part] + bullet_points[1:]:
+     p = content_tf.add_paragraph()
+     p.text = point
+     p.font.size = Pt(18)

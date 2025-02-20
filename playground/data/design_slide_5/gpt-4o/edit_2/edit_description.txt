@@ -1,0 +1,1 @@
+Adjust the font size of the subtitle "The principles of graphic design related to the areas are," to match the target slide's size.

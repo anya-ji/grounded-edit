@@ -1,0 +1,5 @@
+<edit>Change the title text '2. SCRIPT' to '2. SCRIPTS' to reflect the correct plural form.</edit>
+<edit>Adjust the bullet points to add a bullet character before each line for consistency in formatting.</edit>
+<edit>Add a period at the end of the first bullet point: 'It allowed humans to communicate over a larger space and for a much longer duration.'</edit>
+<edit>Increase the font size of the text in the bullet points to enhance readability.</edit>
+<edit>Ensure there is sufficient spacing between the title and the body text to avoid clutter.</edit>

@@ -1,0 +1,5 @@
+<edit>Change the text color of "PROFESSIONAL WORLD" from green to orange.</edit>
+<edit>Adjust the alignment of the "Collaboration" section in the PROFESSIONAL WORLD column to left-align the bullet points.</edit>
+<edit>Increase the font size of "Learning Approach" in the ACADEMIC WORLD column to match the font size used for "Learning Approach" in the PROFESSIONAL WORLD column.</edit>
+<edit>Add a line break between the "Continuous Learning" header and its corresponding content in the PROFESSIONAL WORLD column to enhance readability.</edit>
+<edit>Relocate the "ACADEMIC WORLD" and "PROFESSIONAL WORLD" sections further apart to ensure sufficient spacing between the two columns.</edit>

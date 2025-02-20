@@ -1,1 +1,0 @@
-Change the font size of the bullet points to match the target image and remove the numbering from the second statement in the rendered image.

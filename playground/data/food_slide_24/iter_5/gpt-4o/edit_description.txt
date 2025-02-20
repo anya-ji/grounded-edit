@@ -1,1 +1,0 @@
-Change the background color of the rendered image to a lighter shade similar to that of the target image to enhance text visibility and match the target image's aesthetic.

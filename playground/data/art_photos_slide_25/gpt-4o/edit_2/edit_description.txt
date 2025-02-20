@@ -1,0 +1,1 @@
+Remove the asterisks around the titles of the references to ensure they are consistent with the target slide.

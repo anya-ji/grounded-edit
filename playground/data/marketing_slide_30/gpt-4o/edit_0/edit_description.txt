@@ -1,0 +1,1 @@
+Change the background color of the slide to a darker gradient, ensuring it transitions smoothly from black to a dark shade of grey.

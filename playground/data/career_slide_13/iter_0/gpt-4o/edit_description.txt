@@ -1,1 +1,0 @@
-Change the font color of the subheading "Networking and Relationship Building" from yellow to white to ensure uniformity with the other subheadings.

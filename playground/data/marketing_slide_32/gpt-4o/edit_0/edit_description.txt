@@ -1,0 +1,1 @@
+Change the font size of the title "ELO's" to 80 to match the target slide size.

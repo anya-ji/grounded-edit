@@ -1,0 +1,5 @@
+<edit>Change the title font size to match the target slide, using `font_size=28` for the title text "Global and Local Cultural Products".</edit>
+<edit>Adjust the bullet point style to use a checkmark symbol instead of a plain bullet for the line starting with "✓".</edit>
+<edit>Reposition the text box containing "Cultural Products" to be centered above the content images, ensuring equal spacing below it.</edit>
+<edit>Update the background color of the "Cultural Products" text box to white to enhance readability.</edit>
+<edit>Change the alignment of the text in the bullet points to left-align for better consistency with typical slide formatting.</edit>

@@ -1,0 +1,20 @@
+--- ./data/marketing_slide_29/init/code.py	2025-02-20 02:15:03.867044740 +0000
++++ ./data/marketing_slide_29/gpt-4o/edit_2/code.py	2025-02-20 14:16:29.800224355 +0000
+@@ -2,8 +2,6 @@
+ from pptx.util import Inches, Pt
+ from pptx.dml.color import RGBColor
+ from pptx.enum.shapes import MSO_SHAPE
+-from pptx.oxml.ns import nsdecls
+-from pptx.oxml import parse_xml
+ 
+ # Create a presentation object
+ presentation = Presentation()
+@@ -43,7 +41,7 @@
+ # Format the text
+ text_frame = text_box.text_frame
+ for paragraph in text_frame.paragraphs:
+-    paragraph.font.size = Pt(28)
++    paragraph.font.size = Pt(36)  # Increased font size for better readability
+     paragraph.font.bold = True
+     paragraph.font.color.rgb = RGBColor(255, 255, 255)  # White text
+ 

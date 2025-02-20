@@ -1,1 +1,0 @@
-Adjust the font size and boldness of "ACADEMIC WORLD" and "PROFESSIONAL WORLD" in the rendered image to match the target image's clear, uniform appearance and alignment.

@@ -1,0 +1,1 @@
+Change the background color to #F6B93B for better alignment with the target slide's color.

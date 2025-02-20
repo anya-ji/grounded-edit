@@ -1,1 +1,0 @@
-Adjust the header font size to be visually larger and bold, ensuring it matches the target image, and ensure all bullet points are consistently styled with appropriate spacing.

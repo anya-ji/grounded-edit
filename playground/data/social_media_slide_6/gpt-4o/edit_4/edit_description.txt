@@ -1,0 +1,1 @@
+Increase the spacing between the subtitle and the bullet point text to ensure sufficient separation between elements.

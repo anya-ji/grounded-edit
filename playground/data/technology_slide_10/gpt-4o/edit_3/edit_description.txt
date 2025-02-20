@@ -1,0 +1,1 @@
+Ensure the flowchart in the rendered slide is centered within the available space.

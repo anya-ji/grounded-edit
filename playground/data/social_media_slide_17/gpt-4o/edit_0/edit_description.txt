@@ -1,0 +1,1 @@
+Change the font size of the main title "Dynamics of Local and Global Culture" to 32pt for better visibility.

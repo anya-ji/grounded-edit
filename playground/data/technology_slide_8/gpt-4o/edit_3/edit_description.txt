@@ -1,0 +1,1 @@
+Adjust the width of the image to 0.3 of the slide width to maintain spacing without overflowing.

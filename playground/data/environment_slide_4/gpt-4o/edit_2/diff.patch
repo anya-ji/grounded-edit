@@ -1,0 +1,12 @@
+--- ./data/environment_slide_4/init/code.py	2025-02-20 02:15:04.784042862 +0000
++++ ./data/environment_slide_4/gpt-4o/edit_2/code.py	2025-02-20 12:57:52.319335910 +0000
+@@ -50,6 +50,9 @@
+     p.alignment = PP_ALIGN.LEFT
+     p.space_after = Pt(12)  # spacing between bullets
+ 
++# Change the font color of the first bullet point to a darker green
++text_frame.paragraphs[1].font.color.rgb = RGBColor(0, 102, 0)  # dark green
++
+ # Add image below the text
+ image_path = "../../media/image_0.jpg"
+ slide.shapes.add_picture(image_path, Inches(5.5), Inches(4.5), Inches(5), Inches(3.5))

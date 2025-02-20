@@ -1,0 +1,13 @@
+--- ./data/art_photos_slide_1/init/code.py	2025-02-20 02:15:04.233043990 +0000
++++ ./data/art_photos_slide_1/gpt-4o/edit_3/code.py	2025-02-20 10:49:53.383888075 +0000
+@@ -32,8 +32,8 @@
+     p.font.color.rgb = RGBColor(0, 0, 0)  # Black
+     p.alignment = PP_ALIGN.CENTER
+ 
+-# Add title
+-add_text_box(slide, "GE 7:", Inches(2), Inches(1), 60)
++# Add title, adjusted top position
++add_text_box(slide, "GE 7:", Inches(2.5), Inches(1), 60)  # Adjusted top position
+ 
+ # Add subtitle
+ add_text_box(slide, "ART APPRECIATION", Inches(3), Inches(1), 48)

@@ -1,0 +1,1 @@
+Change the text color of the body content from dark green to black for better readability using: `for paragraph in body.text_frame.paragraphs: paragraph.font.color.rgb = RGBColor(0, 0, 0)`

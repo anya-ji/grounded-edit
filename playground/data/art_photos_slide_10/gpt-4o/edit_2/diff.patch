@@ -1,0 +1,12 @@
+--- ./data/art_photos_slide_10/init/code.py	2025-02-20 02:15:04.208044041 +0000
++++ ./data/art_photos_slide_10/gpt-4o/edit_2/code.py	2025-02-20 10:51:17.034702978 +0000
+@@ -37,6 +37,9 @@
+ main_title_box.text_frame.paragraphs[0].font.bold = True
+ main_title_box.text_frame.paragraphs[0].font.color.rgb = RGBColor(0, 0, 0)  # Black text
+ 
++# Center the main title text
++main_title_frame.paragraphs[0].alignment = 1  # Set alignment to center
++
+ # Add images
+ mona_lisa_image_path = "../../media/image_1.jpg"
+ child_portrait_image_path = "../../media/image_2.jpg"

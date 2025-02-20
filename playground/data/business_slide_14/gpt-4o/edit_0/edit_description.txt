@@ -1,0 +1,1 @@
+Change the background color of the title text area to `#FF4500` (a bright orange) to match the target.

@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image shows a title "Blockchain in Cryptocurrency" in a large, bold font at the top, with a balanced layout and a cryptocurrency-related image to the right. The text is well-formatted and the color scheme is visually appealing.
-2. Description of Rendered Image: The rendered image features the same title, but the font is larger and in a darker blue color, causing the text to visually overpower the image. The overall layout is similar, but the text formatting is less appealing and cohesive with the image colors.
-3. Change Suggestion: Change the title font color from dark blue to black to improve readability and visually balance it with the image on the right.
-```

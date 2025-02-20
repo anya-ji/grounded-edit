@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: A presentation slide with a bold title and bullet points, using check marks for the bullet symbols.
-2. Description of Rendered Image: A similar slide where the main title is bold, but the bullet points are represented with standard dots instead of check marks.
-3. Change Suggestion: Replace the bullet points in the rendered image with check mark symbols to match the target image.
-```

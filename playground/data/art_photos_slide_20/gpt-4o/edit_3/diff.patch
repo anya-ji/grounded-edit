@@ -1,0 +1,13 @@
+--- ./data/art_photos_slide_20/init/code.py	2025-02-20 02:15:04.395043659 +0000
++++ ./data/art_photos_slide_20/gpt-4o/edit_3/code.py	2025-02-20 11:08:31.829817378 +0000
+@@ -37,8 +37,8 @@
+ subtitle_box.fill.solid()
+ subtitle_box.fill.fore_color.rgb = RGBColor(255, 255, 0)  # Yellow background
+ 
+-# Content box
+-content_box = slide.shapes.add_textbox(Inches(1), Inches(3), Inches(14), Inches(5))
++# Content box (added margins)
++content_box = slide.shapes.add_textbox(Inches(1 + (10/96)), Inches(3 + (10/96)), Inches(14 - (20/96)), Inches(5 - (20/96)))
+ content_frame = content_box.text_frame
+ 
+ # Add content

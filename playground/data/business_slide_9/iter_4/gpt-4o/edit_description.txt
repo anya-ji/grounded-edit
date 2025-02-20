@@ -1,1 +1,0 @@
-Adjust the positioning of the text in the rendered image to ensure it is fully visible and not cut off at the bottom.

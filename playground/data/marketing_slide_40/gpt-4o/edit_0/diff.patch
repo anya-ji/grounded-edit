@@ -1,0 +1,35 @@
+--- ./data/marketing_slide_40/init/code.py	2025-02-20 02:15:03.895044682 +0000
++++ ./data/marketing_slide_40/gpt-4o/edit_0/code.py	2025-02-20 14:37:03.625455740 +0000
+@@ -8,7 +8,7 @@
+ presentation.slide_height = Inches(9)
+ 
+ # Add a blank slide
+-slide_layout = presentation.slide_layouts[5] # blank layout
++slide_layout = presentation.slide_layouts[5]  # blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+ # Add title
+@@ -17,17 +17,17 @@
+ text_frame = text_box.text_frame
+ text_frame.text = title_text
+ title_paragraph = text_frame.paragraphs[0]
+-title_paragraph.font.size = Pt(48)
++title_paragraph.font.size = Pt(48)  # Font size change for better visibility
+ title_paragraph.font.bold = True
+ title_paragraph.font.color.rgb = RGBColor(50, 50, 50)  # Neutral color
+ 
+ # Paths to images
+ image_paths = [
+-    "../../media/image_2.jpg", # Sculpting
+-    "../../media/image_0.jpg", # Painting
+-    "../../media/image_4.jpg", # Field
+-    "../../media/image_1.jpg", # Market
+-    "../../media/image_3.jpg"  # Shopping mall
++    "../../media/image_2.jpg",  # Sculpting
++    "../../media/image_0.jpg",  # Painting
++    "../../media/image_4.jpg",  # Field
++    "../../media/image_1.jpg",  # Market
++    "../../media/image_3.jpg"   # Shopping mall
+ ]
+ 
+ # Coordinates for image positions

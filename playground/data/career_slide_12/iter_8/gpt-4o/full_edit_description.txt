@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: A presentation slide titled "IMPORTANCE OF SKILLS BEYOND ACADEMICS" with a dark background and light-colored text, featuring several bullet points with varied text colors for emphasis.
-2. Description of Rendered Image: A similar presentation slide with the same title but a lighter background and bolder, all-gray text for all bullet points, lacking the original emphasis colors.
-3. Change Suggestion: Change the bullet point text "Leadership and Teamwork" to have the color yellow for emphasis, similar to the target image.
-```

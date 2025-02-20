@@ -1,0 +1,11 @@
+--- ./data/social_media_slide_20/init/code.py	2025-02-20 02:15:04.874042678 +0000
++++ ./data/social_media_slide_20/gpt-4o/edit_0/code.py	2025-02-20 15:10:41.006780604 +0000
+@@ -23,7 +23,7 @@
+ title_text = title_frame.add_paragraph()
+ title_text.text = "Three perspectives on global cultural flows:"
+ title_text.font.size = Pt(36)
+-title_text.font.color.rgb = RGBColor(255, 255, 255)  # White
++title_text.font.color.rgb = RGBColor(255, 255, 255)  # Changed to White
+ title_text.font.bold = True
+ title_frame.word_wrap = True
+ 

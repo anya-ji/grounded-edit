@@ -1,0 +1,1 @@
+Change the font size of the text "Traditional" to a larger size, for example, 24 pt.

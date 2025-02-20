@@ -1,0 +1,15 @@
+--- ./data/marketing_slide_40/init/code.py	2025-02-20 02:15:03.895044682 +0000
++++ ./data/marketing_slide_40/gpt-4o/edit_1/code.py	2025-02-20 14:37:17.760436402 +0000
+@@ -11,6 +11,12 @@
+ slide_layout = presentation.slide_layouts[5] # blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
++# Set the background color of the slide to light grey
++background = slide.background
++fill = background.fill
++fill.solid()
++fill.fore_color.rgb = RGBColor(240, 240, 240)  # Light grey
++
+ # Add title
+ title_text = "Art and Everyday Life"
+ text_box = slide.shapes.add_textbox(Inches(0), Inches(0.2), Inches(16), Inches(1))

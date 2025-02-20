@@ -1,0 +1,1 @@
+Change the text color of the body text to light gray for improved readability against the blue background.

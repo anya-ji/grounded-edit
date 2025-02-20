@@ -1,0 +1,1 @@
+Update the title font color to a dark brown for better visibility against the yellow background.

@@ -1,1 +1,0 @@
-Increase the contrast of the text in the rendered image by adjusting the section headers (e.g., "Financial Literacy," "Leadership and Teamwork") to a brighter yellow color to match the brightness found in the target image.

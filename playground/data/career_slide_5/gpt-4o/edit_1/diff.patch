@@ -1,0 +1,11 @@
+--- ./data/career_slide_5/init/code.py	2025-02-20 02:15:05.012042396 +0000
++++ ./data/career_slide_5/gpt-4o/edit_1/code.py	2025-02-20 12:23:58.188371058 +0000
+@@ -20,7 +20,7 @@
+ # Add title
+ title = slide.shapes.add_textbox(Inches(0), Inches(0), Inches(16), Inches(1))
+ title.text_frame.text = "KEY REASONS WHY ACADEMIC SUCCESS IS IMPORTANT IN SOCIETY"
+-title.text_frame.paragraphs[0].font.size = Pt(34)
++title.text_frame.paragraphs[0].font.size = Pt(44)  # Changed font size to 44 points
+ title.text_frame.paragraphs[0].font.bold = True
+ title.text_frame.paragraphs[0].font.color.rgb = RGBColor(255, 255, 255)
+ title.text_frame.paragraphs[0].alignment = 1  # Center alignment

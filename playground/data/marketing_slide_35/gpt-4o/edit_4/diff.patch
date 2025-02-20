@@ -1,0 +1,11 @@
+--- ./data/marketing_slide_35/init/code.py	2025-02-20 02:15:03.986044496 +0000
++++ ./data/marketing_slide_35/gpt-4o/edit_4/code.py	2025-02-20 14:28:35.683368140 +0000
+@@ -29,7 +29,7 @@
+ title_p = title_frame.add_paragraph()
+ title_p.text = "Types of Retailers"
+ title_p.font.bold = True
+-title_p.font.size = Pt(28)
++title_p.font.size = Pt(36)  # Increased font size for better visibility
+ title_p.font.color.rgb = RGBColor(255, 255, 255)
+ title_p.alignment = PP_ALIGN.CENTER
+ 

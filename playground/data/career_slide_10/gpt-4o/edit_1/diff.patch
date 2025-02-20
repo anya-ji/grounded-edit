@@ -1,0 +1,20 @@
+--- ./data/career_slide_10/init/code.py	2025-02-20 02:15:05.005042410 +0000
++++ ./data/career_slide_10/gpt-4o/edit_1/code.py	2025-02-20 11:55:03.135356672 +0000
+@@ -22,7 +22,7 @@
+ title = title_box.text_frame.add_paragraph()
+ title.text = "YOU DON'T NEED A DEGREE TO BE SUCCESSFUL"
+ title.font.bold = True
+-title.font.size = Pt(44)
++title.font.size = Pt(60)  # Changed from Pt(44) to Pt(60)
+ title.font.color.rgb = RGBColor(255, 255, 255)
+ 
+ # List of image paths and descriptions
+@@ -59,6 +59,6 @@
+     desc_paragraph.text = description
+     desc_paragraph.font.size = Pt(14)
+     desc_paragraph.font.color.rgb = RGBColor(255, 255, 255)
+-    
++
+ # Save presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

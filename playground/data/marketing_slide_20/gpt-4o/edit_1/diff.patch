@@ -1,0 +1,11 @@
+--- ./data/marketing_slide_20/init/code.py	2025-02-20 02:15:03.919044633 +0000
++++ ./data/marketing_slide_20/gpt-4o/edit_1/code.py	2025-02-20 14:03:38.698678252 +0000
+@@ -43,7 +43,7 @@
+ curved_shape.line.fill.background()
+ 
+ # Add the title text
+-title_text_box = slide.shapes.add_textbox(left, Inches(3.5), Inches(7), Inches(2))
++title_text_box = slide.shapes.add_textbox(Inches(8.5), Inches(3.5), Inches(6), Inches(2))  # Adjusted position
+ text_frame = title_text_box.text_frame
+ p = text_frame.add_paragraph()
+ p.text = "Transportation and Storage"

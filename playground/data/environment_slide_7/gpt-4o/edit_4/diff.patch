@@ -1,0 +1,14 @@
+--- ./data/environment_slide_7/init/code.py	2025-02-20 02:15:04.775042881 +0000
++++ ./data/environment_slide_7/gpt-4o/edit_4/code.py	2025-02-20 13:02:50.063163184 +0000
+@@ -40,7 +40,10 @@
+     p = text_frame.add_paragraph()
+     p.text = item
+     p.font.size = Pt(20)
+-    p.font.color.rgb = RGBColor(0, 0, 0) # black font
++
++# Change text color of body content to black for better readability
++for paragraph in text_frame.paragraphs[1:]:
++    paragraph.font.color.rgb = RGBColor(0, 0, 0) # black font
+ 
+ text_frame.word_wrap = True
+ 

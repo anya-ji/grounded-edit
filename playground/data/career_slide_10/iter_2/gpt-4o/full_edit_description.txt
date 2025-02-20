@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: A visually appealing poster featuring four notable individuals (Richard Branson, Mark Twain, Steve Jobs, and Oprah Winfrey) with their names and brief descriptions below, all set against a dark background with the phrase "YOU DON'T NEED A DEGREE TO BE SUCCESSFUL" prominently displayed at the top.
-2. Description of Rendered Image: A poorly formatted version of the target poster where the individuals are misaligned and the text at the top is distorted and difficult to read. The layout lacks the visual appeal of the target image.
-3. Change Suggestion: Adjust the text "YOU DON'T NEED A DEGREE TO BE SUCCESSFUL" to have proper spacing and alignment, ensuring it is centered and maintains a bold, easily readable font style.
-```

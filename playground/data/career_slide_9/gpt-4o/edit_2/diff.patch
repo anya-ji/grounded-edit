@@ -1,0 +1,11 @@
+--- ./data/career_slide_9/init/code.py	2025-02-20 02:15:04.981042459 +0000
++++ ./data/career_slide_9/gpt-4o/edit_2/code.py	2025-02-20 12:33:09.364127839 +0000
+@@ -62,7 +62,7 @@
+ paragraph.alignment = PP_ALIGN.CENTER
+ 
+ paragraph = content_frame.add_paragraph()
+-paragraph.text = "and Personal Attributes."
++paragraph.text = "and Personal Attributes"  # Removed the period here
+ paragraph.font.bold = True
+ paragraph.font.size = Pt(36)
+ paragraph.font.color.rgb = RGBColor(255, 0, 0) # red

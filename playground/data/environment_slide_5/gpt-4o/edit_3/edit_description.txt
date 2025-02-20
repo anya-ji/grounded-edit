@@ -1,0 +1,1 @@
+Ensure the text for "Hydrosphere" uses "earth's" instead of "earths" to fix the grammatical error.

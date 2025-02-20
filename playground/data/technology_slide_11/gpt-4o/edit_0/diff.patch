@@ -1,0 +1,11 @@
+--- ./data/technology_slide_11/init/code.py	2025-02-20 02:15:05.083042250 +0000
++++ ./data/technology_slide_11/gpt-4o/edit_0/code.py	2025-02-20 15:30:53.703865752 +0000
+@@ -17,7 +17,7 @@
+ title_frame = title_box.text_frame
+ title_frame.text = title_text
+ title_paragraph = title_frame.paragraphs[0]
+-title_paragraph.font.bold = True
++title_paragraph.font.bold = True  # This line already makes the title bold
+ title_paragraph.font.size = Pt(40)
+ 
+ # Add bullet points

@@ -1,0 +1,1 @@
+Increase the font size of the title "Types of Fixed Retailers" to 60 points.

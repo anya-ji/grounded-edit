@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image features a printing press with a worker on the right, depicted in an illustrative style. The worker is wearing an apron and is positioned in a more dynamic pose, with a clear, bright background and well-defined text above describing the printing press. 
-2. Description of Rendered Image: The rendered image also depicts a printing press and a similarly dressed worker, but the worker appears in a more static pose. The background is slightly darker, and the text is less defined compared to the target image.
-3. Change Suggestion: Adjust the pose of the worker in the rendered image to make it more dynamic, matching the angled arm position seen in the target image.
-```

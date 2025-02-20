@@ -1,1 +1,0 @@
-Adjust the background color to a slightly darker shade of teal, similar to the target image, to create a closer match with the overall tone.

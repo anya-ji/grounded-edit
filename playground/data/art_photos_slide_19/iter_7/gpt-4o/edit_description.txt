@@ -1,1 +1,0 @@
-Add a colorful abstract background similar to the target image behind the text in the rendered image.

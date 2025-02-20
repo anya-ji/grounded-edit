@@ -1,0 +1,5 @@
+<edit>Change the font size of the title "Global and Local Cultural Products" to 36pt.</edit>
+<edit>Adjust the background color of the slide to white.</edit>
+<edit>Change the font color of the text in "Global Product" to navy blue.</edit>
+<edit>Modify the bullet point punctuation by changing the bullet style to a checkmark symbol.</edit>
+<edit>Add padding of 20 pixels to the left and right of the text description in the "Global Product" section.</edit>

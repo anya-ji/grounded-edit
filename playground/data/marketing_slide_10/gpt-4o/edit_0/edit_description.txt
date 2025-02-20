@@ -1,0 +1,1 @@
+Change the font size of the title "HOMEWORK" to a smaller size, such as 48 points, to reduce its dominance on the slide.

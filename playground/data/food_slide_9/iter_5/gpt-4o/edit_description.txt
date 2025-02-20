@@ -1,1 +1,0 @@
-Change the font of the "PART 1" and "PART 2" headings to match the font style used in the target image.

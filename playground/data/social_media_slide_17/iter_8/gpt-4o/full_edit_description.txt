@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image features a title at the top stating "Dynamics of Local and Global Culture" followed by a introductory paragraph. Below the paragraph, there is a list titled "There are three perspectives on global cultural flows:" with three items listed: "Cultural differentialism," "Hybridization," and "Convergence."
-2. Description of Rendered Image: The rendered image includes the same title and introductory paragraph but rearranges the list items without the initial phrase "There are three perspectives on global cultural flows:" The list items appear prominently.
-3. Change Suggestion: Add the phrase "There are three perspectives on global cultural flows:" above the list items in the rendered image.
-```

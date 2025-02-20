@@ -1,0 +1,1 @@
+Remove the redundant icon before the question prompt in PART 1 to match the formatting of the target slide.

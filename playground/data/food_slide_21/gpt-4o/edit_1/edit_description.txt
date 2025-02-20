@@ -1,0 +1,1 @@
+Adjust the font color of the stressed words sections to match the color used in the target slide; change it to pink (#D5006D).

@@ -1,0 +1,11 @@
+--- ./data/entrepreneur_slide_7/init/code.py	2025-02-20 02:15:04.534043374 +0000
++++ ./data/entrepreneur_slide_7/gpt-4o/edit_2/code.py	2025-02-20 12:47:50.934972546 +0000
+@@ -48,7 +48,7 @@
+     p = bullet_frame.add_paragraph()
+     p.text = bullet
+     p.font.size = Pt(24)
+-    p.font.color.rgb = RGBColor(0, 0, 0)  # Black
++    p.font.color.rgb = RGBColor(50, 50, 50)  # Dark gray
+ 
+ # Insert image on the right side
+ image_path = "../../media/image_0.jpg"

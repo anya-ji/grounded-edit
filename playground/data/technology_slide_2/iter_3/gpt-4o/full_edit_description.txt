@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image contains a text titled "What is Blockchain?" with a paragraph of content underneath, and the text is formatted with checkmarks preceding specific points.
-2. Description of Rendered Image: The rendered image has a similar title but lacks the checkmarks and has some incomplete sentences with improper spacing and alignment.
-3. Change Suggestion: Add checkmarks before the bullet points in the text to match the target image's formatting.
-```

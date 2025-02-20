@@ -1,0 +1,11 @@
+--- ./data/social_media_slide_19/init/code.py	2025-02-20 02:15:04.901042623 +0000
++++ ./data/social_media_slide_19/gpt-4o/edit_0/code.py	2025-02-20 15:06:48.933184184 +0000
+@@ -26,7 +26,7 @@
+ title.text = "Three perspectives on global cultural flows:"
+ title.font.size = Pt(32)
+ title.font.bold = True
+-title.font.color.rgb = RGBColor(255, 255, 255)  # White
++title.font.color.rgb = RGBColor(255, 255, 255)  # Changed to White
+ title.alignment = PP_ALIGN.LEFT
+ 
+ # Add the subheading

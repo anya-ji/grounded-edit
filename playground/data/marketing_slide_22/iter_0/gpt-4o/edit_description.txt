@@ -1,1 +1,0 @@
-Change the color of the text "KNOW YOUR CUSTOMER" in the rendered image to match the bold red color of the target image.

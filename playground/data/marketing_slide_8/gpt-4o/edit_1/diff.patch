@@ -1,0 +1,11 @@
+--- ./data/marketing_slide_8/init/code.py	2025-02-20 02:15:03.890044692 +0000
++++ ./data/marketing_slide_8/gpt-4o/edit_1/code.py	2025-02-20 14:46:25.281365608 +0000
+@@ -40,7 +40,7 @@
+ p.text = "THINK LINE:"
+ p.font.bold = True
+ p.font.size = Pt(48)
+-p.font.color.rgb = RGBColor(173, 216, 230) # Light blue
++p.font.color.rgb = RGBColor(0, 0, 139)  # Dark blue
+ 
+ # Add question text
+ question_box = slide.shapes.add_textbox(Inches(6), Inches(3), Inches(9), Inches(2))

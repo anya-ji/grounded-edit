@@ -1,1 +1,0 @@
-Adjust the background color of the rendered image to a solid dark green (similar to the target image) and ensure a smooth gradient transition, eliminating the harsh turquoise tones.

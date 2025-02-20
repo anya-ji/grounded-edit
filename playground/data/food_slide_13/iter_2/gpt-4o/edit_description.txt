@@ -1,1 +1,0 @@
-Modify the layout to remove or reposition the pop-up image on the right side of the rendered image so that the text can be fully visible and readable.

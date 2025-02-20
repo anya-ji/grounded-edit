@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: A presentation slide with a gradient turquoise-blue background and yellow text asking for research on how products are bought and sold online.
-2. Description of Rendered Image: A presentation slide with a solid dark green background and yellow text that closely resembles the text in the target image but with a different background color.
-3. Change Suggestion: Change the background color of the rendered image from dark green to gradient turquoise-blue to match the target image.
-```

@@ -1,0 +1,12 @@
+--- ./data/technology_slide_6/init/code.py	2025-02-20 02:15:05.090042236 +0000
++++ ./data/technology_slide_6/gpt-4o/edit_2/code.py	2025-02-20 15:40:54.300326443 +0000
+@@ -58,6 +58,9 @@
+         # Add a bullet (checkbox styled) prefix
+         p.text = "\u2611 " + point  # ☑ is unicode character for checked box
+ 
++        # Adjust line spacing
++        p.space_after = Pt(10)  # Adjust space after each bullet point for better readability
++
+     # Save the presentation
+     presentation.save("render.pptx")
+ 

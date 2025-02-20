@@ -1,0 +1,1 @@
+Add a slight padding of 10px around the text box containing the bullet point to ensure it doesn't touch the edges of the slide.

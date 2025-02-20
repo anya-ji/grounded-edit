@@ -1,0 +1,1 @@
+Change the font color of "GE 7:" to white for better contrast against the background.

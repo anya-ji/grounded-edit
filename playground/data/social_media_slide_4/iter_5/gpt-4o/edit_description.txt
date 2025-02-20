@@ -1,1 +1,0 @@
-Remove the line "• Tool for exploring cultures" from the rendered image to match the target image more closely.

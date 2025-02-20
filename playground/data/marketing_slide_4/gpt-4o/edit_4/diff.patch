@@ -1,0 +1,18 @@
+--- ./data/marketing_slide_4/init/code.py	2025-02-20 02:15:03.985044498 +0000
++++ ./data/marketing_slide_4/gpt-4o/edit_4/code.py	2025-02-20 14:36:33.585494859 +0000
+@@ -59,12 +59,12 @@
+ q.font.color.rgb = RGBColor(255, 255, 255)  # White color
+ q.alignment = PP_ALIGN.CENTER
+ 
+-# Add ribbon graphic in top left corner
++# Add ribbon graphic in top left corner with darker orange
+ ribbon_shape = slide.shapes.add_shape(
+     MSO_SHAPE.WAVE, Inches(0.2), Inches(0.2), Inches(1.5), Inches(0.5)
+ )
+ ribbon_shape.fill.solid()
+-ribbon_shape.fill.fore_color.rgb = RGBColor(255, 165, 0)  # Orange color
++ribbon_shape.fill.fore_color.rgb = RGBColor(255, 140, 0)  # Darker orange color
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

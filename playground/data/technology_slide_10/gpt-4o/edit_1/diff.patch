@@ -1,0 +1,16 @@
+--- ./data/technology_slide_10/init/code.py	2025-02-20 02:15:05.096042224 +0000
++++ ./data/technology_slide_10/gpt-4o/edit_1/code.py	2025-02-20 15:29:46.304042087 +0000
+@@ -39,10 +39,13 @@
+ checklist_box = slide.shapes.add_textbox(left, top, width, height)
+ checklist_frame = checklist_box.text_frame
+ checklist_frame.word_wrap = True
++
++# Adjusting spacing between checklist items
+ for item in checklist_items:
+     p = checklist_frame.add_paragraph()
+     p.text = f"• {item}"
+     p.font.size = Pt(24)
++    p.space_after = Pt(10)  # Adjusting space after each paragraph
+ 
+ # Image (Benefits of Blockchain Technology diagram)
+ image_path = "../../media/image_0.jpg"

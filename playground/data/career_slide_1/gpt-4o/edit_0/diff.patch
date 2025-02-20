@@ -1,0 +1,32 @@
+--- ./data/career_slide_1/init/code.py	2025-02-20 02:15:04.983042455 +0000
++++ ./data/career_slide_1/gpt-4o/edit_0/code.py	2025-02-20 11:52:53.057631947 +0000
+@@ -22,20 +22,21 @@
+ title_p.text = "Are Top Grades Enough?"
+ 
+ # Format Title
+-title_p.font.bold = True
+ title_p.font.size = Pt(64)
+ 
+-# Apply color to "Top Grades"
+-start_pos = title_p.text.find("Top Grades")
+-end_pos = start_pos + len("Top Grades")
+-title_run = title_p.runs[0]
++# Change font color for the title's words
++title_run = title_p.add_run()
++title_run.text = "Are "
+ title_run.font.color.rgb = RGBColor(0x00, 0x00, 0xFF)  # Blue
++
+ title_run = title_p.add_run()
+-title_run.text = title_p.text[start_pos:end_pos]
+-title_run.font.bold = True
+-title_run.font.size = Pt(64)
++title_run.text = "Top"
+ title_run.font.color.rgb = RGBColor(0xFF, 0xFF, 0x00)  # Yellow
+ 
++title_run = title_p.add_run()
++title_run.text = " Grades Enough?"
++title_run.font.color.rgb = RGBColor(0x00, 0x00, 0xFF)  # Blue
++
+ # Format subtitle
+ subtitle_box = slide.shapes.add_textbox(Inches(8), Inches(4.5), Inches(8), Inches(1))
+ subtitle_frame = subtitle_box.text_frame

@@ -1,0 +1,1 @@
+Change the font color of the title "Advantages of Blockchain" to a darker shade for better contrast against the background.

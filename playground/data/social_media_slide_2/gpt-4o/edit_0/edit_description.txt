@@ -1,0 +1,1 @@
+Increase the font size of the text for "MEDIA" to 32pt.

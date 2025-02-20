@@ -1,1 +1,0 @@
-Adjust the text size of the hyperlinks in the rendered image to be slightly smaller than the header "References" to create a clearer visual hierarchy.

@@ -1,0 +1,11 @@
+--- ./data/environment_slide_4/init/code.py	2025-02-20 02:15:04.784042862 +0000
++++ ./data/environment_slide_4/gpt-4o/edit_1/code.py	2025-02-20 12:57:39.866337573 +0000
+@@ -32,7 +32,7 @@
+ p = text_frame.add_paragraph()
+ p.text = "NATURAL ENVIRONMENT"
+ p.font.bold = True
+-p.font.size = Pt(44)
++p.font.size = Pt(40)  # Changed font size to 40 points
+ p.font.color.rgb = RGBColor(0, 128, 0)  # green
+ p.alignment = PP_ALIGN.CENTER
+ 

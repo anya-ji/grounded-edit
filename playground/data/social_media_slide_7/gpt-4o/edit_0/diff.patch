@@ -1,0 +1,11 @@
+--- ./data/social_media_slide_7/init/code.py	2025-02-20 02:15:04.870042686 +0000
++++ ./data/social_media_slide_7/gpt-4o/edit_0/code.py	2025-02-20 15:22:04.177225631 +0000
+@@ -28,7 +28,7 @@
+ subtitle_frame = subtitle_box.text_frame
+ p_subtitle = subtitle_frame.add_paragraph()
+ p_subtitle.text = "4. ELECTRONIC MEDIA"
+-p_subtitle.font.size = Pt(36)
++p_subtitle.font.size = Pt(48)  # Adjusted font size to match title
+ p_subtitle.font.bold = True
+ 
+ # Add bullet points

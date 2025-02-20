@@ -1,1 +1,0 @@
-Change the color of the top banner in the rendered image from yellow to a vibrant orange to match the target image.

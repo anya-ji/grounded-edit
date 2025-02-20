@@ -1,0 +1,18 @@
+--- ./data/design_slide_3/init/code.py	2025-02-20 02:15:04.601043237 +0000
++++ ./data/design_slide_3/gpt-4o/edit_2/code.py	2025-02-20 12:39:01.386279621 +0000
+@@ -35,6 +35,15 @@
+ bullet1.font.size = Pt(24)
+ bullet1.font.color.rgb = RGBColor(255, 255, 255)
+ 
++# Add semi-transparent white overlay for bullet point 1
++overlay_shape = slide.shapes.add_shape(
++    1,  # Shape type: rectangle
++    Inches(1), Inches(2.5), Inches(14), Inches(1.5)  # Position and size of the overlay
++)
++overlay_shape.fill.solid()
++overlay_shape.fill.fore_color.rgb = RGBColor(255, 255, 255)  # white color
++overlay_shape.fill.transparency = 0.5  # 50% transparency
++
+ # Bullet point 2
+ bullet2 = content_frame.add_paragraph()
+ bullet2.text = (

@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: A completed dialogue with correctly conjugated verbs in the past simple or past continuous tense.
-2. Description of Rendered Image: An incomplete dialogue with placeholders for verbs, indicating that the dialog needs to be filled in correctly.
-3. Change Suggestion: Replace all placeholders with the correct past tense forms: "were," "had," "thought," "reached," "took."
-```

@@ -1,1 +1,0 @@
-Reduce the vertical spacing between the bullet point text and the three images to match the spacing seen in the target image.

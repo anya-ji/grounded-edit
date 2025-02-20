@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: A set of four circular images showcasing different types of markets, with a title "Types of Markets" prominently displayed at the center.
-2. Description of Rendered Image: A grid layout of five rectangular images showing similar scenes of markets, with the same title "Types of Markets" below the images.
-3. Change Suggestion: Change the layout of the images from a grid format to a circular layout, similar to the target image, to emphasize the focus on different types of markets.
-```

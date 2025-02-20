@@ -1,0 +1,21 @@
+--- ./data/art_photos_slide_4/init/code.py	2025-02-20 02:15:04.416043616 +0000
++++ ./data/art_photos_slide_4/gpt-4o/edit_4/code.py	2025-02-20 11:21:59.759450096 +0000
+@@ -42,16 +42,14 @@
+ content_text_frame.paragraphs[0].font.size = Pt(20)
+ content_text_frame.paragraphs[0].alignment = PP_ALIGN.CENTER
+ 
+-# Add two images side by side
++# Add one image instead of two
+ image_1_path = "../../media/image_1.jpg"
+-image_2_path = "../../media/image_2.jpg"
+ 
+ left = Inches(2)
+ top = Inches(2)
+ height = Inches(4)
+ 
+ slide.shapes.add_picture(image_1_path, left, top, height=height)
+-slide.shapes.add_picture(image_2_path, left + Inches(5), top, height=height)
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

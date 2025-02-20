@@ -1,1 +1,0 @@
-Change the background color of the first statement to blue to match the target image.

@@ -1,0 +1,1 @@
+Change the fill color of the logo/icon to a shade of gray that is darker than the current pink.

@@ -1,0 +1,1 @@
+Change the background color of the second box from orange to a soft light red similar to the target slide.

@@ -1,0 +1,22 @@
+--- ./data/food_slide_21/init/code.py	2025-02-20 02:15:04.701043032 +0000
++++ ./data/food_slide_21/gpt-4o/edit_3/code.py	2025-02-20 13:22:00.671412237 +0000
+@@ -1,6 +1,6 @@
+ from pptx import Presentation
+ from pptx.util import Inches, Pt
+-from pptx.enum.text import PP_ALIGN
++from pptx.enum.text import PP_ALIGN, MSO_ANCHOR
+ from pptx.dml.color import RGBColor
+ 
+ # Create presentation and slide layout
+@@ -51,6 +51,11 @@
+     sentence_paragraph = sentence_frame.add_paragraph()
+     sentence_paragraph.text = sentence
+     sentence_paragraph.font.size = Pt(16)
++
++    # Set bullet points to circles
++    bullet = sentence_paragraph.bullet
++    bullet.char = '●'  # Circle bullet
++    bullet.space_after = Pt(10)  # Adjust space after bullet if needed
+     
+     response_box = slide.shapes.add_textbox(Inches(1.2), Inches(y_position + 0.6), Inches(10), Inches(0.5))
+     response_frame = response_box.text_frame

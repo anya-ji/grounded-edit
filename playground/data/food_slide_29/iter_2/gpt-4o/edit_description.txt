@@ -1,1 +1,0 @@
-Align all question numbers uniformly to the left margin and standardize the font weight and style for all question texts to ensure a clean, cohesive look.

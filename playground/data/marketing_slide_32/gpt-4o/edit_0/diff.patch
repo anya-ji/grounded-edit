@@ -1,0 +1,11 @@
+--- ./data/marketing_slide_32/init/code.py	2025-02-20 02:15:03.997044473 +0000
++++ ./data/marketing_slide_32/gpt-4o/edit_0/code.py	2025-02-20 14:21:18.122021879 +0000
+@@ -34,7 +34,7 @@
+ title = title_frame.add_paragraph()
+ title.text = "ELO's"
+ title.font.bold = True
+-title.font.size = Pt(60)
++title.font.size = Pt(80)  # Changed font size to 80
+ title.font.color.rgb = white_rgb
+ 
+ # Add bullet points

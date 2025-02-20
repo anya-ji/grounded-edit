@@ -1,0 +1,1 @@
+Change the alignment of the "THANK YOU" text to center alignment for a balanced layout.

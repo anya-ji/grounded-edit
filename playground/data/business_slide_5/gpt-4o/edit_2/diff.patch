@@ -1,0 +1,11 @@
+--- ./data/business_slide_5/init/code.py	2025-02-20 02:15:04.075044314 +0000
++++ ./data/business_slide_5/gpt-4o/edit_2/code.py	2025-02-20 11:46:06.779308417 +0000
+@@ -57,7 +57,7 @@
+         p = text_frame.add_paragraph()
+         p.text = desc
+         p.font.size = Pt(20)
+-        p.font.color.rgb = RGBColor(0, 0, 0)  # Black
++        p.font.color.rgb = RGBColor(105, 105, 105)  # Dark gray for bullets
+ 
+ text_frame.word_wrap = True
+ 

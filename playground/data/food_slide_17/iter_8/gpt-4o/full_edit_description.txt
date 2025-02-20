@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image displays a structured layout for categorizing sentences into past simple and past continuous, with clear text and distinct formatting for each section.
-2. Description of Rendered Image: The rendered image contains similar content but has a more cluttered appearance with some text overlapping and less organized format, making it harder to read.
-3. Change Suggestion: Adjust the placement of the past simple and past continuous sections to ensure they are aligned properly and do not overlap with other text, enhancing clarity and readability.
-```

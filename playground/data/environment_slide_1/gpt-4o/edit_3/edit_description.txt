@@ -1,0 +1,1 @@
+Add a section with hexagonal shapes with a low opacity in the background to mimic the design elements from the target slide.

@@ -1,0 +1,18 @@
+--- ./data/food_slide_30/init/code.py	2025-02-20 02:15:04.666043104 +0000
++++ ./data/food_slide_30/gpt-4o/edit_4/code.py	2025-02-20 13:37:01.188734147 +0000
+@@ -46,6 +46,15 @@
+ dialogue_p.font.size = Pt(16)
+ dialogue_frame.word_wrap = True
+ 
++# Set italic for character names
++for p in dialogue_frame.paragraphs:
++    if "JOEY:" in p.text:
++        p.font.italic = True
++    elif "PHOEBE:" in p.text:
++        p.font.italic = True
++    elif "RACHEL:" in p.text:
++        p.font.italic = True
++
+ # Add "PART 3"
+ part3_box = slide.shapes.add_textbox(Inches(0.5), Inches(6), Inches(3), Inches(0.8))
+ part3_frame = part3_box.text_frame

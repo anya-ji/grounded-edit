@@ -1,0 +1,1 @@
+Adjust the font size of "Adaptability and Resilience" section to match the size of other section headings.

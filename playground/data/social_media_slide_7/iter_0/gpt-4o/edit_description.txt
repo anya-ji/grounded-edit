@@ -1,1 +1,0 @@
-Remove the watermark "VectorStock" from the bottom of the rendered image to match the clean appearance of the target image.

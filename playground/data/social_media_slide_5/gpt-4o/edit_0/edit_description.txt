@@ -1,0 +1,1 @@
+Change the title text '2. SCRIPT' to '2. SCRIPTS' to reflect the correct plural form.

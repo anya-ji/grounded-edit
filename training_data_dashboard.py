@@ -3,9 +3,9 @@ import streamlit as st
 import os
 import glob
 
-def get_iterations(example_path):
-    """Get all iteration directories (iter_0 to iter_x) for an example."""
-    iterations = sorted(glob.glob(os.path.join(example_path, 'iter_*')))
+def get_iterations(example_path, model):
+    """Get all iteration directories (edit_0 to edit_x) for an example."""
+    iterations = sorted(glob.glob(os.path.join(example_path, model, 'edit_*')))
     return iterations
 
 def read_text_file(filepath):
@@ -35,15 +35,15 @@ def display_example(example_path, i, total, model):
         cols[1].image(init_image, caption="Init", width=450)
             
     
-    # Iterate over iter_x directories
-    iterations = get_iterations(example_path)
+    # Iterate over edit_x directories
+    iterations = get_iterations(example_path, model)
     for iter_path in iterations:
         iter_name = os.path.basename(iter_path)
-        iter_image = os.path.join(iter_path, f"{model}/render.png")
-        iter_error = os.path.join(iter_path, f"{model}/code_error.txt")
+        iter_image = os.path.join(iter_path, "render.png")
+        iter_error = os.path.join(iter_path, "code_error.txt")
        
-        iter_desc = read_text_file(os.path.join(iter_path, f"{model}/edit_description.txt"))
-        iter_diff = read_text_file(os.path.join(iter_path, f"{model}/diff.patch"))
+        iter_desc = read_text_file(os.path.join(iter_path, "edit_description.txt"))
+        iter_diff = read_text_file(os.path.join(iter_path, "diff.patch"))
 
         with st.expander(iter_name):
             sub_cols = st.columns(1)
@@ -53,7 +53,7 @@ def display_example(example_path, i, total, model):
                 sub_cols[0].code(iter_diff, language='diff')
 
         if os.path.exists(iter_error):
-            error_text = read_text_file(os.path.join(iter_path, f"{model}/code_error.txt"))
+            error_text = read_text_file(os.path.join(iter_path, "/code_error.txt"))
             st.code(error_text, language='bash')
 
         if os.path.exists(iter_image):

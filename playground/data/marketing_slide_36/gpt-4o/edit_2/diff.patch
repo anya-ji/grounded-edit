@@ -1,0 +1,11 @@
+--- ./data/marketing_slide_36/init/code.py	2025-02-20 02:15:03.961044547 +0000
++++ ./data/marketing_slide_36/gpt-4o/edit_2/code.py	2025-02-20 14:29:39.319137734 +0000
+@@ -25,7 +25,7 @@
+ title.font.bold = True
+ title.font.size = Pt(44)
+ title.alignment = 1  # Center alignment
+-title.font.color.rgb = RGBColor(255, 255, 255)
++title.font.color.rgb = RGBColor(255, 255, 255)  # Changed to white
+ 
+ # Image file paths
+ image_paths = [

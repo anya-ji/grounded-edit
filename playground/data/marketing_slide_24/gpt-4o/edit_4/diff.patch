@@ -1,0 +1,19 @@
+--- ./data/marketing_slide_24/init/code.py	2025-02-20 02:15:03.883044707 +0000
++++ ./data/marketing_slide_24/gpt-4o/edit_4/code.py	2025-02-20 14:12:55.945220748 +0000
+@@ -42,11 +42,15 @@
+ title_p.font.bold = True
+ title_p.font.color.rgb = RGBColor(255, 255, 255)
+ 
+-# Add subtitle
++# Add subtitle with increased line spacing
+ subtitle_p = title_frame.add_paragraph()
+ subtitle_p.text = "1. Types of Market"
+ subtitle_p.font.size = Pt(48)
+ subtitle_p.font.color.rgb = RGBColor(255, 255, 255)
++subtitle_p.space_before = Pt(12)  # Optional: space before for clearer separation
++
++# Set line spacing
++subtitle_p.space_after = Pt(12)  # Increase space after to achieve 1.5 line spacing
+ 
+ # Add small red rectangle in the top right corner
+ rect_left = Inches(15)

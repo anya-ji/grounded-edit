@@ -1,0 +1,23 @@
+--- ./data/art_photos_slide_25/init/code.py	2025-02-20 02:15:04.225044007 +0000
++++ ./data/art_photos_slide_25/gpt-4o/edit_0/code.py	2025-02-20 11:16:47.719822102 +0000
+@@ -9,6 +9,20 @@
+ slide_layout = presentation.slide_layouts[5]  # blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
++# Add the gradient background
++background = slide.background
++fill = background.fill
++fill.gradient()  # Use gradient fill
++
++# Set gradient stops
++stop1 = fill.gradient_stops[0]
++stop1.position = 0.0
++stop1.color.rgb = RGBColor(255, 255, 204)  # Light Yellow
++
++stop2 = fill.gradient_stops[1]
++stop2.position = 1.0
++stop2.color.rgb = RGBColor(255, 204, 204)  # Light Pink
++
+ # Add the background image
+ image_path = "../../media/image_0.jpg"
+ slide.shapes.add_picture(image_path, Inches(0), Inches(0), Inches(16), Inches(9))

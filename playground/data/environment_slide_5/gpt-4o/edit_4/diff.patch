@@ -1,0 +1,28 @@
+--- ./data/environment_slide_5/init/code.py	2025-02-20 02:15:04.793042844 +0000
++++ ./data/environment_slide_5/gpt-4o/edit_4/code.py	2025-02-20 13:00:09.262285161 +0000
+@@ -12,11 +12,7 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set a light green background with a subtle hexagonal pattern
+-# Normally, we'd add custom images or patterns but for simplicity,
+-# we'll just set a plain light green background. Hexagonal pattern
+-# requires more complex operations not implemented here.
+-
++# Set a light green background
+ background = slide.background
+ fill = background.fill
+ fill.solid()
+@@ -35,6 +31,12 @@
+ text_frame = textbox.text_frame
+ text_frame.word_wrap = True
+ 
++# Adding padding around the text
++text_frame.margin_top = Pt(20)
++text_frame.margin_bottom = Pt(20)
++text_frame.margin_left = Pt(20)
++text_frame.margin_right = Pt(20)
++
+ # Add title
+ title_p = text_frame.add_paragraph()
+ title_p.text = "Further types of natural environment"

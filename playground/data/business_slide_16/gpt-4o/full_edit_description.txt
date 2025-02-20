@@ -1,0 +1,5 @@
+<edit>Change the background color of the slide to white using `slide.background.fill.solid()` in Python.</edit>
+<edit>Change the title font size to 36 using `title.text_frame.paragraphs[0].font.size = Pt(36)` in Python.</edit>
+<edit>Update the hyperlinks to match the target slide's links, replacing the current links with the provided Airbnb links in the rendered slide.</edit>
+<edit>Adjust the line spacing of the hyperlink text to 1.5 using `text_frame.line_spacing = Pt(20)` in Python.</edit>
+<edit>Ensure the title is bold by setting `title.text_frame.paragraphs[0].font.bold = True` in Python.</edit>

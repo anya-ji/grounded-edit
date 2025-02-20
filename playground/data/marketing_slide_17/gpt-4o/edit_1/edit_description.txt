@@ -1,0 +1,1 @@
+Update the text color of "LOOK AROUND:" to white for better contrast against the background.

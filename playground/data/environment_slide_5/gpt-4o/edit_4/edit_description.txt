@@ -1,0 +1,1 @@
+Add sufficient padding around the text to increase readability and avoid text overflow.

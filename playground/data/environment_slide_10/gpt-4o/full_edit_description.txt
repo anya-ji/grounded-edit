@@ -1,0 +1,5 @@
+<edit>Change the font size of "THANK YOU" to 120 to make it larger and more prominent.</edit>
+<edit>Change the text color of "THANK YOU" to a light lime green (hex code: #99CC00) for improved readability against the background.</edit>
+<edit>Adjust the background color of the slide to a brighter green (hex code: #CCFFCC) for better contrast with the text.</edit>
+<edit>Change the alignment of the "THANK YOU" text to center alignment for a balanced layout.</edit>
+<edit>Increase the padding around the "THANK YOU" text to 20 pixels to ensure it does not feel cramped within the slide's layout.</edit>

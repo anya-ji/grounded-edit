@@ -1,1 +1,0 @@
-Change the background color of the rendered image from white to a light blue to more closely resemble the sky in the target image.

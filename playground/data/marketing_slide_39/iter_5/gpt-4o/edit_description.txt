@@ -1,1 +1,0 @@
-Remove the white box around the 3D character and integrate it more seamlessly with the background by allowing the character to overlap slightly with the surrounding elements.

@@ -1,0 +1,37 @@
+--- ./data/marketing_slide_30/init/code.py	2025-02-20 02:15:03.857044760 +0000
++++ ./data/marketing_slide_30/gpt-4o/edit_3/code.py	2025-02-20 14:20:34.158197575 +0000
+@@ -30,7 +30,7 @@
+ p.font.color.rgb = RGBColor(255, 255, 255)
+ p.alignment = PP_ALIGN.CENTER
+ 
+-# Add the first bullet point
++# Add the first bullet point with padding
+ top_box = slide.shapes.add_textbox(Inches(1), Inches(2), Inches(14), Inches(1.5))
+ top_box.fill.solid()
+ top_box.fill.fore_color.rgb = RGBColor(255, 165, 0)  # Orange
+@@ -40,7 +40,12 @@
+ top_frame.paragraphs[0].font.size = Pt(24)
+ top_frame.paragraphs[0].font.color.rgb = RGBColor(0, 0, 0)
+ 
+-# Add the second bullet point
++# Set padding for the first bullet point
++for paragraph in top_frame.paragraphs:
++    paragraph.space_before = Pt(10)
++    paragraph.space_after = Pt(10)
++
++# Add the second bullet point with padding
+ bottom_box = slide.shapes.add_textbox(Inches(1), Inches(4), Inches(14), Inches(1.5))
+ bottom_box.fill.solid()
+ bottom_box.fill.fore_color.rgb = RGBColor(255, 255, 0)  # Yellow
+@@ -50,6 +55,11 @@
+ bottom_frame.paragraphs[0].font.size = Pt(24)
+ bottom_frame.paragraphs[0].font.color.rgb = RGBColor(0, 0, 0)
+ 
++# Set padding for the second bullet point
++for paragraph in bottom_frame.paragraphs:
++    paragraph.space_before = Pt(10)
++    paragraph.space_after = Pt(10)
++
+ # Add the image
+ image_path = "../../media/image_0.jpg"
+ slide.shapes.add_picture(image_path, Inches(0), Inches(0), width=Inches(16), height=Inches(9))

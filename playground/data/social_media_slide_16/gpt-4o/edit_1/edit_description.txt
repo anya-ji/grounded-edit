@@ -1,0 +1,1 @@
+Adjust the bullet point style to use a checkmark symbol instead of a plain bullet for the line starting with "✓".

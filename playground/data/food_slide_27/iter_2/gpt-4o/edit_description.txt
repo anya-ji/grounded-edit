@@ -1,1 +1,0 @@
-Add a colorful gradient background to the header section and implement distinct borders or shading to separate the instruction sections more clearly.

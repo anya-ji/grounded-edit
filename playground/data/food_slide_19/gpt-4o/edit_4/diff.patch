@@ -1,0 +1,15 @@
+--- ./data/food_slide_19/init/code.py	2025-02-20 02:15:04.690043055 +0000
++++ ./data/food_slide_19/gpt-4o/edit_4/code.py	2025-02-20 13:19:50.956644988 +0000
+@@ -62,9 +62,9 @@
+ icon_path = "../../media/image_1.jpg"
+ slide.shapes.add_picture(icon_path, Inches(12), Inches(0.5), Inches(2), Inches(2))
+ 
+-# Insert image of people ice skating
++# Insert image of people ice skating with updated size
+ image_path = "../../media/image_0.jpg"
+-slide.shapes.add_picture(image_path, Inches(11), Inches(5), Inches(4), Inches(3))
++slide.shapes.add_picture(image_path, Inches(11), Inches(5), width=Inches(200), height=Inches(3))
+ 
+ # Save presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

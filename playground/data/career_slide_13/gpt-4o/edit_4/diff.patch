@@ -1,0 +1,25 @@
+--- ./data/career_slide_13/init/code.py	2025-02-20 02:15:04.992042437 +0000
++++ ./data/career_slide_13/gpt-4o/edit_4/code.py	2025-02-20 12:01:20.738469054 +0000
+@@ -58,7 +58,7 @@
+ ]
+ 
+ # Add bullet points with highlighted subtitles
+-for title, content in bullet_points:
++for i, (title, content) in enumerate(bullet_points):
+     # Sub-title
+     p = text_frame.add_paragraph()
+     p.text = f"• {title}"
+@@ -70,7 +70,11 @@
+     p = text_frame.add_paragraph()
+     p.text = f"  - {content}"
+     p.font.size = Pt(20)
+-    p.font.color.rgb = RGBColor(211, 211, 211)  # light gray text
++    # Change the text color of the subpoints for Networking and Relationship Building to white
++    if i == 2:  # Index of "Networking and Relationship Building"
++        p.font.color.rgb = RGBColor(255, 255, 255)  # white text
++    else:
++        p.font.color.rgb = RGBColor(211, 211, 211)  # light gray text
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

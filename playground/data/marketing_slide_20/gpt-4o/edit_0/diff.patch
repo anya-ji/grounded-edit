@@ -1,0 +1,12 @@
+--- ./data/marketing_slide_20/init/code.py	2025-02-20 02:15:03.919044633 +0000
++++ ./data/marketing_slide_20/gpt-4o/edit_0/code.py	2025-02-20 14:03:24.008796935 +0000
+@@ -29,8 +29,7 @@
+     MSO_SHAPE.RECTANGLE, left, top, width, height
+ )
+ overlay.fill.solid()
+-overlay.fill.fore_color.rgb = RGBColor(255, 255, 255)
+-overlay.fill.transparency = 0.3
++overlay.fill.fore_color.rgb = RGBColor(217, 217, 217)  # Light gray color
+ overlay.line.fill.background()
+ 
+ # Add a curved shape to create transition between the images

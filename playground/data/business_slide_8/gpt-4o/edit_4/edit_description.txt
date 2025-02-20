@@ -1,0 +1,1 @@
+Extend the background color of the slide down to the bottom edge to avoid any visual gaps.

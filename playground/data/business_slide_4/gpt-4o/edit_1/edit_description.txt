@@ -1,0 +1,1 @@
+Change the font color of the title "Vision" to white to improve contrast against the background.

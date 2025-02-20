@@ -1,0 +1,11 @@
+--- ./data/marketing_slide_34/init/code.py	2025-02-20 02:15:03.953044563 +0000
++++ ./data/marketing_slide_34/gpt-4o/edit_1/code.py	2025-02-20 14:25:05.324145253 +0000
+@@ -26,7 +26,7 @@
+ title_p = title_frame.add_paragraph()
+ title_p.text = title_text
+ title_p.font.size = Pt(54)
+-title_p.font.color.rgb = RGBColor(255, 255, 255)  # White color
++title_p.font.color.rgb = RGBColor(255, 255, 255)  # Changed to white color
+ title_p.font.bold = True
+ title_box.text_frame.paragraphs[0].alignment = 1  # Center alignment
+ 

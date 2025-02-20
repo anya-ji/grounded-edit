@@ -1,0 +1,1 @@
+Set the font weight of the text "This is Bélo." to bold.

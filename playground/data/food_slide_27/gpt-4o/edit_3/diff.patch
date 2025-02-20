@@ -1,0 +1,15 @@
+--- ./data/food_slide_27/init/code.py	2025-02-20 02:15:04.671043093 +0000
++++ ./data/food_slide_27/gpt-4o/edit_3/code.py	2025-02-20 13:32:36.085234881 +0000
+@@ -49,6 +49,12 @@
+ story_frame.paragraphs[0].font.size = Pt(20)
+ story_frame.paragraphs[0].alignment = PP_ALIGN.LEFT
+ 
++# Set padding (margins)
++story_frame.margin_left = Pt(20)  # Left padding
++story_frame.margin_right = Pt(20)  # Right padding
++story_frame.margin_top = Pt(20)    # Top padding
++story_frame.margin_bottom = Pt(20)  # Bottom padding
++
+ # Add image beside text box
+ image_path = "../../media/image_0.jpg"
+ slide.shapes.add_picture(image_path, Inches(11), Inches(5), height=Inches(2))

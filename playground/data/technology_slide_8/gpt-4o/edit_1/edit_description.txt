@@ -1,0 +1,1 @@
+Update the color of the text "CRYPTOCURRENCY bitcoin is one of the crypto currency" to match the font color used in the target slide.

@@ -1,0 +1,18 @@
+--- ./data/social_media_slide_1/init/code.py	2025-02-20 02:15:04.890042645 +0000
++++ ./data/social_media_slide_1/gpt-4o/edit_4/code.py	2025-02-20 14:51:12.949654429 +0000
+@@ -23,5 +23,14 @@
+ 
+ slide.shapes.add_picture(image_path, left, top, width=image_width, height=image_height)
+ 
++# Add a text box with drop shadow effect
++text_box = slide.shapes.add_textbox(left, top + image_height + Inches(0.2), width=Inches(6), height=Inches(1))
++text_frame = text_box.text_frame
++text_frame.text = "Your Text Here"  # Replace with your desired text
++
++# Apply drop shadow effect
++for paragraph in text_frame.paragraphs:
++    paragraph.font.shadow = True
++
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

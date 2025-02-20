@@ -1,0 +1,1 @@
+Change the background color of the slide to a light blue (#66B2E6) for better readability.

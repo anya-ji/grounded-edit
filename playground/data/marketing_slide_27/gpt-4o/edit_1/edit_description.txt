@@ -1,0 +1,1 @@
+Update the title font size to 30 points by modifying: `plt.title("Types of Markets", fontsize=30)`.

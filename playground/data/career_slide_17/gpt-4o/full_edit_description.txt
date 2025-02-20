@@ -1,0 +1,5 @@
+<edit>Change the color of the text "ACADEMIC WORLD" to cyan (#00FFFF).</edit>
+<edit>Change the color of the text "PROFESSIONAL WORLD" to medium sea green (#3CB371).</edit>
+<edit>Change the font size of the section title "DEMANDS AND CHARACTERISTICS" to 36pt.</edit>
+<edit>Change the bullet point style to solid circles (•) for both sections' lists.</edit>
+<edit>Increase the spacing between the "ACADEMIC WORLD" and "PROFESSIONAL WORLD" sections by setting the margin to 20 pixels.</edit>

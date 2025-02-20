@@ -1,0 +1,1 @@
+Reposition the word cloud image to ensure it's aligned properly with the other images, avoiding overlapping or unwanted spacing.

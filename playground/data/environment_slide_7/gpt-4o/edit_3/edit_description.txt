@@ -1,0 +1,1 @@
+Reposition the images to ensure consistent spacing of 10px between them by setting coordinates: `image1.left = Inches(1), image2.left = Inches(7)` to avoid overlap.

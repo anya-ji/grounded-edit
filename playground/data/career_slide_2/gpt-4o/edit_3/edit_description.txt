@@ -1,0 +1,1 @@
+Change the font color of the main text to a lighter shade (e.g., white or light gray) for improved readability against the dark background.

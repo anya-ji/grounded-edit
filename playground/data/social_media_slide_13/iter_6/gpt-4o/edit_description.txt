@@ -1,1 +1,0 @@
-Adjust the content margins to align them with the header, ensuring consistent spacing that enhances readability and structure.

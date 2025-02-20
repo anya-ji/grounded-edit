@@ -1,0 +1,11 @@
+--- ./data/social_media_slide_20/init/code.py	2025-02-20 02:15:04.874042678 +0000
++++ ./data/social_media_slide_20/gpt-4o/edit_3/code.py	2025-02-20 15:11:35.083673682 +0000
+@@ -21,7 +21,7 @@
+ title_text_box = slide.shapes.add_textbox(Inches(1), Inches(1), Inches(14), Inches(1))
+ title_frame = title_text_box.text_frame
+ title_text = title_frame.add_paragraph()
+-title_text.text = "Three perspectives on global cultural flows:"
++title_text.text = "Three perspectives on global cultural flows: "  # Added space after colon
+ title_text.font.size = Pt(36)
+ title_text.font.color.rgb = RGBColor(255, 255, 255)  # White
+ title_text.font.bold = True

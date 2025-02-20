@@ -1,0 +1,10 @@
+--- ./data/food_slide_19/init/code.py	2025-02-20 02:15:04.690043055 +0000
++++ ./data/food_slide_19/gpt-4o/edit_3/code.py	2025-02-20 13:19:30.026682159 +0000
+@@ -36,6 +36,7 @@
+              "(We / skate) in the park, (we / laugh), and (he / make) some really funny jokes, "
+              "and then, out of nowhere (I / fall) down (I / break) my leg!")
+ text.font.size = Pt(18)
++text.font.color.rgb = RGBColor(51, 51, 51)  # Set text color to dark gray
+ 
+ # Adding text boxes for answers
+ verbs = ["I / go", "I / meet", "We / skate", "we / laugh", "he / make", "I / fall", "I / break"]

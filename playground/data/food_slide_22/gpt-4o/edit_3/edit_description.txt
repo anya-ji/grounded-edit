@@ -1,0 +1,1 @@
+Change the border color of the checkboxes to a consistent color, such as a shade of maroon (#800000).

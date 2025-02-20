@@ -1,0 +1,1 @@
+Adjust the vertical alignment of the section containing the icons and the equation to ensure there is equal spacing above and below them. Update the vertical position to center-align with respect to the surrounding text.

@@ -1,1 +1,0 @@
-Remove the bold and italic markings from the reference titles to make them appear in normal font as in the target image.

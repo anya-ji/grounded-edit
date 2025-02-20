@@ -1,0 +1,1 @@
+Add additional spacing of 10px above and below the image to prevent it from appearing crowded.

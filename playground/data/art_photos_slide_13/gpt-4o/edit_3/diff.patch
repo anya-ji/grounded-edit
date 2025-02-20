@@ -1,0 +1,25 @@
+--- ./data/art_photos_slide_13/init/code.py	2025-02-20 02:15:04.273043908 +0000
++++ ./data/art_photos_slide_13/gpt-4o/edit_3/code.py	2025-02-20 10:54:36.622261357 +0000
+@@ -49,16 +49,17 @@
+ rabbit_img_path = "../../media/image_1.jpg"
+ animals_person_img_path = "../../media/image_2.jpg"
+ 
+-# Add images side by side
+-left_img = slide.shapes.add_picture(rabbit_img_path, Inches(2), Inches(3), height=Inches(4))
+-right_img = slide.shapes.add_picture(animals_person_img_path, Inches(9), Inches(3), height=Inches(4))
++# Add images side by side with margins
++margin = Inches(0.1)
++left_img = slide.shapes.add_picture(rabbit_img_path, Inches(2) + margin, Inches(3), height=Inches(4))
++right_img = slide.shapes.add_picture(animals_person_img_path, Inches(9) + margin, Inches(3), height=Inches(4))
+ 
+ # Add white borders (10 pixels)
+ for img in [left_img, right_img]:
+     sp = slide.shapes.add_shape(
+         MSO_SHAPE.RECTANGLE,
+-        img.left - Inches(0.1),
+-        img.top - Inches(0.1),
++        img.left - margin,
++        img.top - margin,
+         img.width + Inches(0.2),
+         img.height + Inches(0.2)
+     )

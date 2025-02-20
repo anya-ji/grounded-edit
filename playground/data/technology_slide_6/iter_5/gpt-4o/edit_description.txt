@@ -1,1 +1,0 @@
-Update the first checkbox next to the statement "Blockchain uses an online ledger which is very secure." to include a filled check mark.

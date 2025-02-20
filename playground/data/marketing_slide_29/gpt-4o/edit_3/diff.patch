@@ -1,0 +1,15 @@
+--- ./data/marketing_slide_29/init/code.py	2025-02-20 02:15:03.867044740 +0000
++++ ./data/marketing_slide_29/gpt-4o/edit_3/code.py	2025-02-20 14:16:51.761127942 +0000
+@@ -40,6 +40,12 @@
+ text_box.text = "Which type of market is beneficial for the customers? Why?"
+ text_box.text_frame.text = "Which type of market is beneficial for the customers? Why?"
+ 
++# Add padding to the text box
++text_box.left += Inches(0.1)  # Left padding
++text_box.top += Inches(0.1)    # Top padding
++text_box.width -= Inches(0.2)  # Reduce width for right padding
++text_box.height -= Inches(0.2) # Reduce height for bottom padding
++
+ # Format the text
+ text_frame = text_box.text_frame
+ for paragraph in text_frame.paragraphs:

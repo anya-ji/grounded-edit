@@ -1,1 +1,0 @@
-Remove the second instance of the text "NYC" from the rendered image to match the target image's single-instance design.

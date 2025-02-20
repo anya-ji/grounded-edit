@@ -1,0 +1,21 @@
+--- ./data/business_slide_4/init/code.py	2025-02-20 02:15:04.123044215 +0000
++++ ./data/business_slide_4/gpt-4o/edit_0/code.py	2025-02-20 11:44:17.637418290 +0000
+@@ -12,15 +12,15 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Add a pink rectangular bar at the top for the title area
++# Add a coral rectangular bar at the top for the title area
+ top_bar = slide.shapes.add_shape(
+     MSO_SHAPE.RECTANGLE, Inches(0), Inches(0), Inches(16), Inches(1)
+ )
+ fill = top_bar.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(255, 105, 180) # Pink color
++fill.fore_color.rgb = RGBColor(255, 111, 97) # Coral color
+ 
+-# Add title text inside the pink bar
++# Add title text inside the coral bar
+ title_box = slide.shapes.add_textbox(Inches(0.2), Inches(0.2), Inches(5), Inches(0.8))
+ title_frame = title_box.text_frame
+ title_frame.clear()

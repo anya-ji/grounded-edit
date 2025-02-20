@@ -1,1 +1,0 @@
-Change the background color of the rendered image to a more intense shade of blue that mirrors the vibrancy of the target image.

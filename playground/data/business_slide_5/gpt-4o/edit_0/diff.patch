@@ -1,0 +1,11 @@
+--- ./data/business_slide_5/init/code.py	2025-02-20 02:15:04.075044314 +0000
++++ ./data/business_slide_5/gpt-4o/edit_0/code.py	2025-02-20 11:45:31.589348180 +0000
+@@ -23,7 +23,7 @@
+ p = title_text.add_paragraph()
+ p.text = "Values"
+ p.font.bold = True
+-p.font.size = Pt(40)
++p.font.size = Pt(48)  # Changed from Pt(40) to Pt(48)
+ p.font.color.rgb = RGBColor(0, 0, 0)  # Black text
+ title_text.word_wrap = True
+ 

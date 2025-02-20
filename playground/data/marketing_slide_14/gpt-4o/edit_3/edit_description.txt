@@ -1,0 +1,1 @@
+Adjust the alignment of the text to be centered horizontally on the slide for better visual balance.

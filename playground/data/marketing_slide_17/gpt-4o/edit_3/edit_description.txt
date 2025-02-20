@@ -1,0 +1,1 @@
+Increase the font size of the main bullet point text to ensure it is easily readable.

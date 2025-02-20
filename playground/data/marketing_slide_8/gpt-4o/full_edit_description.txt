@@ -1,0 +1,5 @@
+<edit>Change the background gradient from a green to a darker blue gradient for better contrast with the text and elements.</edit>
+<edit>Change the text color of "THINK LINE:" to a darker shade of blue for improved readability against the background.</edit>
+<edit>Adjust the position of the light bulb icon to increase spacing from the text, ensuring no overlap of any elements.</edit>
+<edit>Change the font size of the question "Q. How products reach to us?" to be larger for better emphasis and visibility.</edit>
+<edit>Modify the light bulb icon color to a more vibrant blue, making it more visually distinct against the background.</edit>

@@ -1,0 +1,1 @@
+Change the color of the bullets to a dark shade of gray for better contrast with the background.

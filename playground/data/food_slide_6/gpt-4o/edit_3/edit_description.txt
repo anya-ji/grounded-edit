@@ -1,0 +1,1 @@
+Change the font color of the main question text to a darker blue, such as `#00008b`, for improved readability.

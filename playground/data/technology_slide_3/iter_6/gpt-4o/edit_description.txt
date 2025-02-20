@@ -1,1 +1,0 @@
-Change the check marks in the rendered image to standard bullet points for each statement to match the format of the target image.

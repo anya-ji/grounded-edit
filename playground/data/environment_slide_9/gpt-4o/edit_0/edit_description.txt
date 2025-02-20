@@ -1,0 +1,1 @@
+Change the slide background color to a light green shade (e.g., RGB(210, 255, 210)).

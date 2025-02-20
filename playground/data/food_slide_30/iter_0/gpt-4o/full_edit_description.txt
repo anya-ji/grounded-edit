@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: A dialogue script with verb blanks for students to fill in, structured in an engaging way for language learning.
-2. Description of Rendered Image: A less structured dialogue script with more clutter and less visual focus, making it harder for students to understand the task.
-3. Change Suggestion: Increase the spacing between dialogue lines to enhance readability and engagement.
-```

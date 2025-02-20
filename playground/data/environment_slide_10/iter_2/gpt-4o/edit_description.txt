@@ -1,1 +1,0 @@
-Modify the text color to a lighter green similar to the target image, and adjust the text style to be more stylized and uneven, reflecting the font style of the target image.

@@ -1,0 +1,5 @@
+<edit>Change the background color of the slide to black.</edit>
+<edit>Adjust the title text size to 60 points.</edit>
+<edit>Add a drop shadow effect to the title text to improve visibility.</edit>
+<edit>Align the images and text boxes to ensure they are evenly spaced horizontally.</edit>
+<edit>Change the font color of the names to white for better contrast against the background.</edit>

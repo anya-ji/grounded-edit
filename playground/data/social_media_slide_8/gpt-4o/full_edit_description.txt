@@ -1,0 +1,5 @@
+<edit>Change the font size of the text "5. DIGITAL MEDIA" to 32pt for better emphasis.</edit>
+<edit>Add a bullet point before the first text item "Digitized content that can be transmitted over the internet or computer networks." to maintain consistent formatting with other bullet points.</edit>
+<edit>Adjust the layout to ensure there's a minimum of 20px padding between the text and the right edge of the slide for better spacing.</edit>
+<edit>Change the color of the text for the points from blue to black to improve readability.</edit>
+<edit>Increase the spacing between the two bullet points to at least 15px to ensure they are clearly separated.</edit>

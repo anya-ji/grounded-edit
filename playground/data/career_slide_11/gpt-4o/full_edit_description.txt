@@ -1,0 +1,5 @@
+<edit>Change the text color of "Effective Communication" to white for better readability.</edit>
+<edit>Ensure the spacing between the bullet points and their respective text is consistent; adjust the indentation accordingly.</edit>
+<edit>Remove the bullet point from "Emotional Intelligence" section for consistency with other sections.</edit>
+<edit>Adjust the font size of "Adaptability and Resilience" section to match the size of other section headings.</edit>
+<edit>Add a bullet point in front of "Emotional Intelligence" for uniformity with other sections.</edit>

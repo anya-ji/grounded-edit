@@ -1,0 +1,19 @@
+--- ./data/environment_slide_1/init/code.py	2025-02-20 02:15:04.792042846 +0000
++++ ./data/environment_slide_1/gpt-4o/edit_4/code.py	2025-02-20 12:52:09.127132831 +0000
+@@ -34,13 +34,14 @@
+ title.font.color.rgb = RGBColor(0, 102, 0)  # green color
+ title.space_after = Pt(20)
+ 
+-# Add content
++# Add content with left alignment
+ content = "Name- Abhra Pawan Sharma\nClass- 9H\nRoll no- 4"
+ content_ph = title_tf.add_paragraph()
+ content_ph.text = content
+ content_ph.font.size = Pt(26)
+ content_ph.font.color.rgb = RGBColor(0, 0, 0)  # black color
+ content_ph.space_after = Pt(20)
++content_ph.alignment = 0  # Left alignment
+ 
+ # Save presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

@@ -1,0 +1,11 @@
+--- ./data/food_slide_4/init/code.py	2025-02-20 02:15:04.663043110 +0000
++++ ./data/food_slide_4/gpt-4o/edit_1/code.py	2025-02-20 13:39:19.915471041 +0000
+@@ -62,7 +62,7 @@
+     p = question_frame.add_paragraph()
+     p.text = question
+     p.font.size = Pt(20)
+-    p.font.color.rgb = RGBColor(0, 0, 0)
++    p.font.color.rgb = RGBColor(105, 105, 105)  # Changed to dark gray
+ 
+ # Add "PREVIEW ACTIVITY" button
+ button_left = Inches(12)

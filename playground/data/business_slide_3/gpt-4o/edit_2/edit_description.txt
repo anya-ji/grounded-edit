@@ -1,0 +1,1 @@
+Change the text color to white by setting the `color` parameter to `#FFFFFF` in the text method for each text element.

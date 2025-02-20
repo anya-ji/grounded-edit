@@ -1,0 +1,10 @@
+--- ./data/marketing_slide_16/init/code.py	2025-02-20 02:15:03.875044723 +0000
++++ ./data/marketing_slide_16/gpt-4o/edit_3/code.py	2025-02-20 13:57:39.298306386 +0000
+@@ -23,6 +23,7 @@
+ 
+ # Insert the word cloud image
+ word_cloud_image_path = "../../media/image_1.jpg"
++# Adding padding by adjusting position
+ word_cloud_img = slide.shapes.add_picture(word_cloud_image_path, Inches(8.5), Inches(2), Inches(7), Inches(5))
+ 
+ # Add a caption below the funnel image

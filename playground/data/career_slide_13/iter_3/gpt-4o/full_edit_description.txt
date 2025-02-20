@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image features a title "IMPORTANCE OF SKILLS BEYOND ACADEMICS" prominently at the top, followed by bullet points that discuss various skills such as Health and Wellness, Digital Literacy, Networking and Relationship Building, and Conflict Resolution, all with a clearly defined layout and some text in yellow.
-2. Description of Rendered Image: The rendered image presents the same title and bullet points but has a less consistent formatting, with yellow text only for "Networking and Relationship Building" while the others remain in white, causing a visual imbalance.
-3. Change Suggestion: Change the text color for "Health and Wellness," "Digital Literacy," and "Conflict Resolution" to yellow to match the color scheme of "Networking and Relationship Building."
-```

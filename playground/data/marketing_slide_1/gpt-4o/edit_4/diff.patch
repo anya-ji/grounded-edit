@@ -1,0 +1,20 @@
+--- ./data/marketing_slide_1/init/code.py	2025-02-20 02:15:03.946044578 +0000
++++ ./data/marketing_slide_1/gpt-4o/edit_4/code.py	2025-02-20 13:47:55.955488700 +0000
+@@ -17,14 +17,15 @@
+ slide.shapes.add_picture(image_left_path, Inches(0), Inches(0), Inches(8), Inches(9))
+ slide.shapes.add_picture(image_right_path, Inches(8), Inches(0), Inches(8), Inches(9))
+ 
+-# Add the title text on the right side
+-title_box = slide.shapes.add_textbox(Inches(9), Inches(1), Inches(6), Inches(1.5))
++# Add the title text on the slide and center align it
++title_box = slide.shapes.add_textbox(Inches(0), Inches(1), Inches(16), Inches(1.5))
+ title_frame = title_box.text_frame
+ title = title_frame.add_paragraph()
+ title.text = "MARKET AROUND US CHAPTER-6"
+ title.font.size = Pt(44)
+ title.font.bold = True
+ title.font.color.rgb = RGBColor(255, 255, 255)
++title.alignment = 1  # Center align the title
+ 
+ # Add attribution text at the bottom
+ attribution_box = slide.shapes.add_textbox(Inches(1), Inches(8), Inches(14), Inches(1))

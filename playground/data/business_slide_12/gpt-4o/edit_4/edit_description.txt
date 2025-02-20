@@ -1,0 +1,1 @@
+Modify the position of the logo to ensure it is aligned with the center of the slide horizontally.

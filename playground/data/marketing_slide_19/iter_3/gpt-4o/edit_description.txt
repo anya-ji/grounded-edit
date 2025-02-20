@@ -1,1 +1,0 @@
-Adjust the background of the rendered image to incorporate a dark green hue similar to the target image, with a subtle blurred overlay effect to enhance depth.

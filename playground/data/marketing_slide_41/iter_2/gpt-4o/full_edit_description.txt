@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: A text slide with a teal background and the phrase "Research Work:" in yellow, followed by a sentence in a smaller size, also in yellow.
-2. Description of Rendered Image: A text slide with a green background and the phrase "Research Work:" in yellow, but with a sentence that is indented differently and positioned lower compared to the target image.
-3. Change Suggestion: Adjust the vertical alignment of the text so that the sentence below "Research Work:" aligns closely with the corresponding sentence in the target image.
-```

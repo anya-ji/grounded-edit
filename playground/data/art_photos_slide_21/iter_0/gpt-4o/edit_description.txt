@@ -1,1 +1,0 @@
-Change the header background of the rendered image to a solid yellow to match the target image's clean appearance, improving readability.

@@ -1,1 +1,0 @@
-Add a blue background behind the definitions section in the rendered image to match the target image.

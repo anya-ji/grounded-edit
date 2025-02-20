@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: A chart illustrating the 5 stages of media development, highlighting the printing press, with a caption that includes the full text and a specific layout of the printing press illustration.
-2. Description of Rendered Image: A similar chart that also illustrates the printing press but with a text caption that is incomplete and a slightly altered layout of the printing press illustration.
-3. Change Suggestion: Adjust the font size of the text caption to ensure that "It allowed the continuous production, reproduction, and circulation of print materials." is fully visible and properly aligned within the designated area.
-```

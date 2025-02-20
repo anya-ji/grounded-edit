@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image features a well-defined title and clear text describing "Representational or Objective Art," with a background of vibrant colors (reds, yellows, and mixed brush strokes) and a clear white space for the text.
-2. Description of Rendered Image: The rendered image has similar elements but features a more chaotic background, with less contrast between the text and the background colors, making the text harder to read and less visually appealing.
-3. Change Suggestion: Increase the contrast of the background colors behind the text by darkening the yellow portions to ensure the text is more legible and visually prominent.
-```

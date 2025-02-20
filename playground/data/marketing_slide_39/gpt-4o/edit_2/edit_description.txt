@@ -1,0 +1,1 @@
+Increase the spacing between the text and the left edge of the slide to 30 pixels for better margins.

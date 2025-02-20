@@ -1,0 +1,11 @@
+--- ./data/business_slide_4/init/code.py	2025-02-20 02:15:04.123044215 +0000
++++ ./data/business_slide_4/gpt-4o/edit_4/code.py	2025-02-20 11:45:06.153374433 +0000
+@@ -27,7 +27,7 @@
+ 
+ title = title_frame.add_paragraph()
+ title.text = "Vision"
+-title.font.bold = True
++title.font.bold = True  # This line ensures the title is bold
+ title.font.size = Pt(32)
+ title.font.color.rgb = RGBColor(255, 255, 255)
+ 

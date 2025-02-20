@@ -1,1 +1,0 @@
-Adjust the alignment and spacing of the icons surrounding the figures so that they more closely follow the structure seen in the target image, ensuring that the icons are evenly distributed without overcrowding the text.

@@ -1,1 +1,0 @@
-Replace the circles next to the entries in the rendered image with checkmarks.

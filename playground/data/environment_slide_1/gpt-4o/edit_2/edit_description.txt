@@ -1,0 +1,1 @@
+Increase the font size of the title "NATURAL ENVIRONMENT" to ensure it is more prominent, similar to the target slide.

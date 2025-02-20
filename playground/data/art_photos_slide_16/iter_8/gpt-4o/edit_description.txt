@@ -1,1 +1,0 @@
-Change the background of the "Sources of the Subject" text panel in the rendered image from orange to white to improve contrast and match the target image.

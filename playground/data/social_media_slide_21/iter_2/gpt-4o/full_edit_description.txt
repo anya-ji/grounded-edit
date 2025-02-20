@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image features the text "THANK YOU!" in a bold, all-uppercase font with a period at the end, centered on a white background.
-2. Description of Rendered Image: The rendered image has the same text "THANK YOU!" but the last character "U" is missing a period at the end.
-3. Change Suggestion: Add a period at the end of the text "THANK YOU!" in the rendered image.
-```

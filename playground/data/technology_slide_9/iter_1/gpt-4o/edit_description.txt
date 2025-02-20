@@ -1,1 +1,0 @@
-Change the empty checkbox symbols to checked checkbox symbols next to each bullet point to indicate completion.

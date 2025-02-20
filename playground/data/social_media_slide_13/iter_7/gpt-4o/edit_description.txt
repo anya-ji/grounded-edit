@@ -1,1 +1,0 @@
-Add a blue background color (#003366) to the header section of the rendered image to match the target image.

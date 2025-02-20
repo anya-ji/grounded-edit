@@ -1,0 +1,1 @@
+Add bullet points to the content: change the paragraphs into bullet points for better readability.

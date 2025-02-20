@@ -1,0 +1,1 @@
+Resize the image on the right to ensure it occupies a similar vertical space as in the target slide, keeping appropriate margins.

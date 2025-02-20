@@ -1,0 +1,11 @@
+--- ./data/art_photos_slide_4/init/code.py	2025-02-20 02:15:04.416043616 +0000
++++ ./data/art_photos_slide_4/gpt-4o/edit_1/code.py	2025-02-20 11:20:59.744695908 +0000
+@@ -22,7 +22,7 @@
+ title_text_box.fill.fore_color.rgb = RGBColor(255, 255, 0)  # Yellow background
+ title_text_frame = title_text_box.text_frame
+ title_text_frame.text = "The Subject and Content of Art"
+-title_text_frame.paragraphs[0].font.size = Pt(24)
++title_text_frame.paragraphs[0].font.size = Pt(36)  # Modified font size
+ title_text_frame.paragraphs[0].font.bold = True
+ title_text_frame.paragraphs[0].font.color.rgb = RGBColor(0, 0, 0)  # Black text
+ 

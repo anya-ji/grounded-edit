@@ -1,1 +1,0 @@
-Increase the contrast of the dialogue text by darkening it or changing the background color of the dialogue area to make the text more legible.

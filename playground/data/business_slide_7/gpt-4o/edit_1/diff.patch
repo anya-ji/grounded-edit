@@ -1,0 +1,15 @@
+--- ./data/business_slide_7/init/code.py	2025-02-20 02:15:04.127044207 +0000
++++ ./data/business_slide_7/gpt-4o/edit_1/code.py	2025-02-20 11:48:29.037111898 +0000
+@@ -11,6 +11,12 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
++# Set background color of the slide to light gray
++background = slide.background
++fill = background.fill
++fill.solid()
++fill.fore_color.rgb = RGBColor(235, 235, 235)  # Light gray (#EBEBEB)
++
+ # Title section
+ title_box = slide.shapes.add_textbox(Inches(0), Inches(0), Inches(16), Inches(1))
+ title_frame = title_box.text_frame

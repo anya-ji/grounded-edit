@@ -1,1 +1,0 @@
-Add check marks (✓) next to each blockchain type description in the rendered image for consistency with the target image.

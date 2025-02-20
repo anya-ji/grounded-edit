@@ -1,0 +1,1 @@
+Update the background color of the slide to be white for better contrast and readability of text elements.

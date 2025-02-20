@@ -1,0 +1,1 @@
+Change the text color of "Electronic media" to a dark blue (#1F4E7A) to enhance contrast against the background.

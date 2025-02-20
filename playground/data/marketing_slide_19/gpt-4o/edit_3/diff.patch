@@ -1,0 +1,14 @@
+--- ./data/marketing_slide_19/init/code.py	2025-02-20 02:15:03.995044477 +0000
++++ ./data/marketing_slide_19/gpt-4o/edit_3/code.py	2025-02-20 14:00:53.037144190 +0000
+@@ -26,9 +26,9 @@
+ title.font.bold = True
+ title.font.color.rgb = RGBColor(255, 255, 255)  # White text
+ 
+-# Add Marketing Mix Diagram image
++# Add Marketing Mix Diagram image, centered and evenly spaced
+ image_path = "../../media/image_0.jpg"
+-slide.shapes.add_picture(image_path, Inches(0.5), Inches(1), Inches(7), Inches(6))
++slide.shapes.add_picture(image_path, Inches(4), Inches(1), Inches(8), Inches(6))  # Adjusted position
+ 
+ # Add the word "Marketing" on the right
+ marketing_box = slide.shapes.add_textbox(Inches(8.5), Inches(3), Inches(7), Inches(3))

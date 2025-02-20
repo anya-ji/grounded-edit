@@ -1,1 +1,0 @@
-Adjust the font size and formatting of the last sentence, "Digital media through phone and computers allows people to access information from around the world." to ensure it is separated into a new line and matches the style of the other text blocks.

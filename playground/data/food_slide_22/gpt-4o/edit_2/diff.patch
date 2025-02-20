@@ -1,0 +1,11 @@
+--- ./data/food_slide_22/init/code.py	2025-02-20 02:15:04.680043075 +0000
++++ ./data/food_slide_22/gpt-4o/edit_2/code.py	2025-02-20 13:24:29.906140275 +0000
+@@ -58,7 +58,7 @@
+     option_txt.font.size = Pt(20)
+     option_txt.font.color.rgb = text_color
+ 
+-    top += Inches(0.7)
++    top += Inches(0.75)  # Increase spacing to 0.75 inches for consistent spacing
+ 
+ # Add buttons
+ button1 = slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, Inches(11), Inches(7.5), Inches(3), Inches(0.75))

@@ -1,0 +1,18 @@
+--- ./data/social_media_slide_8/init/code.py	2025-02-20 02:15:04.895042635 +0000
++++ ./data/social_media_slide_8/gpt-4o/edit_4/code.py	2025-02-20 15:27:20.324421428 +0000
+@@ -40,11 +40,15 @@
+ content_box = slide.shapes.add_textbox(Inches(0.5), Inches(3), Inches(9), Inches(4))
+ content_frame = content_box.text_frame
+ content_frame.clear()
++
++# First bullet point
+ p = content_frame.add_paragraph()
+ p.text = "• Digitized content that can be transmitted over the internet or computer networks."
+ p.font.size = Pt(24)
+ p.font.color.rgb = dark_blue
++p.space_after = Pt(15)  # Set space after to 15px
+ 
++# Second bullet point
+ p = content_frame.add_paragraph()
+ p.text = "• It allows the advertisement of products and online business transactions."
+ p.font.size = Pt(24)

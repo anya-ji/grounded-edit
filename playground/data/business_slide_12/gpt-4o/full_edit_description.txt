@@ -1,0 +1,5 @@
+<edit>Change the font size of the text "NYC" to match the specified size (e.g., increase to 150 pt).</edit>
+<edit>Adjust the vertical alignment of the text "NYC" to center it in relation to the overall height of the slide.</edit>
+<edit>Change the color of the text "NYC" to ensure high contrast with the background (e.g., from white to dark blue).</edit>
+<edit>Add padding underneath the text "NYC" to ensure sufficient spacing before the logo appears.</edit>
+<edit>Modify the position of the logo to ensure it is aligned with the center of the slide horizontally.</edit>

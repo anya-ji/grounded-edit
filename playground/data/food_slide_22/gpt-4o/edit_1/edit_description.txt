@@ -1,0 +1,1 @@
+Change the background color of the answer options (a, b, c) to a light pastel shade, such as light gray (#f0f0f0), to improve readability.

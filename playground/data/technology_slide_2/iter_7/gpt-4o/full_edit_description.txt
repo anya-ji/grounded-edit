@@ -1,7 +1,0 @@
-```
-1. Description of Target Image: The target image presents a title and several bullet points explaining blockchain, highlighted with checkboxes on the left, and a bold title at the top. The text is well-structured with clear spacing and emphasis on important parts. 
-
-2. Description of Rendered Image: The rendered image replicates the target image but lacks the checkboxes beside each bullet point, making it visually less engaging and structured. Additionally, the title appears in a similar font but does not have the bold effect as seen in the target image.
-
-3. Change Suggestion: Add checkboxes to the left of each bullet point in the rendered image to match the visual structure of the target image.
-```

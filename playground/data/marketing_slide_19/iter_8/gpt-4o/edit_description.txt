@@ -1,1 +1,0 @@
-Reduce the font size of the word "Marketing" to match the font size of the target image for consistency.

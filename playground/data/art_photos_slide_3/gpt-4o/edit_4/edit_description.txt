@@ -1,0 +1,1 @@
+Add a margin of at least 10 pixels around the text areas to enhance the overall spacing and avoid crowding.

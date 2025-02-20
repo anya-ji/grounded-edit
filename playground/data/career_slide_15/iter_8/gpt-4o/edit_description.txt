@@ -1,1 +1,0 @@
-Modify the font weight of "ACADEMIC WORLD" in the rendered image to match the regular weight used for the "PROFESSIONAL WORLD" title, ensuring both titles maintain a consistent appearance.

@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image displays a title "Types of Blockchain" with a bullet-point list describing various types of blockchain networks, formatted with bullet points and varying indentation.
-2. Description of Rendered Image: The rendered image presents the same title "Types of Blockchain" but lists the types as numbered items instead of bullet points, with inconsistent formatting and alignment.
-3. Change Suggestion: Change the numbered list in the rendered image to a bullet-point list to match the format of the target image.
-```

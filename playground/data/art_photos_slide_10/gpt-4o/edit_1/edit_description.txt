@@ -1,0 +1,1 @@
+Change the font color of the title text to black for better contrast, using `title_text.color = 'black'`.

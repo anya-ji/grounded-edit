@@ -1,1 +1,0 @@
-Change the color of the word "Skills" from blue to green.

@@ -1,0 +1,18 @@
+--- ./data/social_media_slide_13/init/code.py	2025-02-20 02:15:04.902042621 +0000
++++ ./data/social_media_slide_13/gpt-4o/edit_2/code.py	2025-02-20 14:57:12.661700718 +0000
+@@ -36,13 +36,13 @@
+ title_p.font.bold = True
+ title_p.font.color.rgb = RGBColor(255, 255, 255)  # White
+ 
+-# Add main content text
++# Add main content text with a top margin of 20 pixels
+ content = (
+     "3. The character and pace of economic integration have been significantly "
+     "influenced by public policies, although it is not always in the direction "
+     "of increasing economic integration."
+ )
+-content_box = slide.shapes.add_textbox(Inches(1), Inches(1.5), presentation.slide_width - Inches(2), Inches(5))
++content_box = slide.shapes.add_textbox(Inches(1), Inches(1.5 + 0.02), presentation.slide_width - Inches(2), Inches(5))
+ content_frame = content_box.text_frame
+ content_frame.word_wrap = True
+ content_p = content_frame.add_paragraph()

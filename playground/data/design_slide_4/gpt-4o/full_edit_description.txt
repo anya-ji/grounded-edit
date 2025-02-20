@@ -1,0 +1,5 @@
+<edit>Change the background color of the "Corporate plan" text box to a light blue (RGB: 173, 216, 230).</edit>
+<edit>Add a margin of 10 pixels above the "Website composition" text box to create more space between it and the text box above.</edit>
+<edit>Change the font color of the text in the "Marketing and advertising design" text box to white.</edit>
+<edit>Remove the bold font style from the "For more professional assistance" text box to match the styling of the other text boxes.</edit>
+<edit>Ensure the text in the "For more professional assistance" text box starts with "For" capitalized, changing it to "For more professional assistance go through the site..." for consistency.</edit>

@@ -1,1 +1,0 @@
-Change the alignment of the second paragraph of text in the rendered image from center-aligned to left-aligned.

@@ -1,1 +1,0 @@
-Add round blue bullet points to the left of each question number in the rendered image to make it align with the target image.

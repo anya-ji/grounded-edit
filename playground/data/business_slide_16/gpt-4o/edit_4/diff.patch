@@ -1,0 +1,25 @@
+--- ./data/business_slide_16/init/code.py	2025-02-20 02:15:04.124044213 +0000
++++ ./data/business_slide_16/gpt-4o/edit_4/code.py	2025-02-20 11:41:04.555496167 +0000
+@@ -2,7 +2,6 @@
+ from pptx.util import Inches, Pt
+ from pptx.enum.text import PP_ALIGN
+ from pptx.dml.color import RGBColor
+-from pptx.util import Inches
+ 
+ presentation = Presentation()
+ presentation.slide_width = Inches(16)
+@@ -23,11 +22,13 @@
+ 
+ title_paragraph = text_frame.add_paragraph()
+ title_paragraph.text = "References"
+-title_paragraph.font.bold = True
+ title_paragraph.font.size = Pt(44)
+ title_paragraph.font.color.rgb = RGBColor(255, 255, 255)  # White
+ title_paragraph.alignment = PP_ALIGN.CENTER
+ 
++# Ensure the title is bold
++title_paragraph.font.bold = True
++
+ # Add URLs below the title
+ content_top = title_height + Inches(0.5)
+ content_width = presentation.slide_width - Inches(2)

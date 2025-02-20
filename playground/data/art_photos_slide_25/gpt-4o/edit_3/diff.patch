@@ -1,0 +1,19 @@
+--- ./data/art_photos_slide_25/init/code.py	2025-02-20 02:15:04.225044007 +0000
++++ ./data/art_photos_slide_25/gpt-4o/edit_3/code.py	2025-02-20 11:17:33.925602164 +0000
+@@ -43,9 +43,11 @@
+     "2. Casaul, J.A., Caslib Jr. B.N., & Garing, D.C. 2018. *Art Appreciation*. Rex Bookstore, Inc."
+ )
+ 
+-p = content_frame.add_paragraph()
+-p.text = references
+-p.font.size = Pt(20)
+-p.font.color.rgb = RGBColor(0, 0, 0)  # Black
++for ref in references.split('\n'):
++    p = content_frame.add_paragraph()
++    p.text = ref
++    p.font.size = Pt(20)
++    p.font.color.rgb = RGBColor(0, 0, 0)  # Black
++    p.space_after = Pt(10)  # Increase space after each reference
+ 
+ presentation.save("render.pptx")
+\ No newline at end of file

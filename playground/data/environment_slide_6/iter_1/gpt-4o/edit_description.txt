@@ -1,1 +1,0 @@
-Change the text color from dark green to a brighter shade of green with increased boldness to match the visibility and style of the target image.

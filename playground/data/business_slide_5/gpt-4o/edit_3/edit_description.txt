@@ -1,0 +1,1 @@
+Ensure the text "Embrace the adventure" has consistent capitalization by changing it to "Embrace the Adventure".

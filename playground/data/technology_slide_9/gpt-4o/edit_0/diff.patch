@@ -1,0 +1,11 @@
+--- ./data/technology_slide_9/init/code.py	2025-02-20 02:15:05.086042244 +0000
++++ ./data/technology_slide_9/gpt-4o/edit_0/code.py	2025-02-20 15:45:38.805765736 +0000
+@@ -17,7 +17,7 @@
+ title = title_frame.add_paragraph()
+ title.text = "Types of Blockchain"
+ title.font.bold = True
+-title.font.size = Pt(44)
++title.font.size = Pt(50)  # Changed font size to 50
+ title.alignment = PP_ALIGN.CENTER
+ 
+ # Add a text box for bullet points

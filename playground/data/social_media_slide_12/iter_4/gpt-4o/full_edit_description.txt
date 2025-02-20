@@ -1,7 +1,0 @@
-```
-1. Description of Target Image: The target image displays a slide with a blue header that includes the title "3 Factors that have affected the process of Economic Globalization," followed by two listed points. The points have clear spacing and line breaks, making them easy to read. The text is presented in a well-structured, visually appealing manner.
-
-2. Description of Rendered Image: The rendered image has a similar content style but lacks the title in the header. The text appears to be jammed together with inconsistent line breaks, making it less readable. The structure is disrupted, affecting the overall presentation.
-
-3. Change Suggestion: Add a header containing the title "3 Factors that have affected the process of Economic Globalization" in a bold, large font at the top of the rendered image to improve structure and clarity.
-```

@@ -1,0 +1,14 @@
+--- ./data/technology_slide_8/init/code.py	2025-02-20 02:15:05.093042230 +0000
++++ ./data/technology_slide_8/gpt-4o/edit_2/code.py	2025-02-20 15:44:34.297900867 +0000
+@@ -19,9 +19,8 @@
+ title_paragraph.font.size = Pt(36)
+ title_paragraph.font.bold = True
+ 
+-# Add body text
+-body_text = """CRYPTOCURRENCY bitcoin is one of the crypto currency
+-Bitcoin is one of the most popular and successful implementations of blockchain technology. It is an open source cryptocurrency that uses distributed peer-to-peer computing. There is no need of a central authority to manage bitcoin network."""
++# Add body text with line break
++body_text = """CRYPTOCURRENCY bitcoin is one of the crypto currency\nBitcoin is one of the most popular and successful implementations of blockchain technology. It is an open source cryptocurrency that uses distributed peer-to-peer computing. There is no need of a central authority to manage bitcoin network."""
+ body_box = slide.shapes.add_textbox(Inches(1), Inches(2), Inches(10), Inches(4))
+ body_frame = body_box.text_frame
+ body_frame.word_wrap = True

@@ -1,0 +1,19 @@
+--- ./data/food_slide_23/init/code.py	2025-02-20 02:15:04.670043096 +0000
++++ ./data/food_slide_23/gpt-4o/edit_1/code.py	2025-02-20 13:26:48.905883896 +0000
+@@ -9,14 +9,14 @@
+ presentation.slide_height = Inches(9)
+ 
+ # Add a slide layout
+-slide_layout = presentation.slide_layouts[5] # Blank layout
++slide_layout = presentation.slide_layouts[5]  # Blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+ # Set background color
+ background = slide.background
+ fill = background.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(240, 240, 255)  # Light background color
++fill.fore_color.rgb = RGBColor(173, 216, 230)  # Light blue background color
+ 
+ # Title
+ title = slide.shapes.add_textbox(Inches(1), Inches(0.5), Inches(14), Inches(1))

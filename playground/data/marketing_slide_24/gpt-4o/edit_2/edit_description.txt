@@ -1,0 +1,1 @@
+Change the color of the rectangular shape in the top right corner from red to orange (#FFA500) to enhance visibility against the dark background.

@@ -1,0 +1,11 @@
+--- ./data/social_media_slide_4/init/code.py	2025-02-20 02:15:04.881042664 +0000
++++ ./data/social_media_slide_4/gpt-4o/edit_0/code.py	2025-02-20 15:16:16.367063137 +0000
+@@ -25,7 +25,7 @@
+ 
+ title_p = title_frame.add_paragraph()
+ title_p.text = "5 Stages of Development of Media"
+-title_p.font.size = Pt(44)
++title_p.font.size = Pt(36)  # Changed from 44 to 36
+ title_p.font.bold = True
+ title_p.font.color.rgb = RGBColor(255, 255, 255)
+ title_p.alignment = PP_ALIGN.LEFT

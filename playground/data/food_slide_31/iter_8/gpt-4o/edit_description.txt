@@ -1,1 +1,0 @@
-Change the header color to a dark blue and introduce rounded text boxes for the question prompts, similar to the target image, to enhance visual appeal and create contrast.

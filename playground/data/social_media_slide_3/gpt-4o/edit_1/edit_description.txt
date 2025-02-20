@@ -1,0 +1,1 @@
+Add a margin of 30 pixels to the text box containing the bullet points to create sufficient spacing from the right edge of the image.

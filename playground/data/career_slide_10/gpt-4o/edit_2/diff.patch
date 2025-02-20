@@ -1,0 +1,12 @@
+--- ./data/career_slide_10/init/code.py	2025-02-20 02:15:05.005042410 +0000
++++ ./data/career_slide_10/gpt-4o/edit_2/code.py	2025-02-20 11:55:38.835277772 +0000
+@@ -25,6 +25,9 @@
+ title.font.size = Pt(44)
+ title.font.color.rgb = RGBColor(255, 255, 255)
+ 
++# Add drop shadow effect
++title.font.shadow = True  # Added line for the drop shadow effect
++
+ # List of image paths and descriptions
+ people_info = [
+     ("../../media/image_0.jpg", "Richard Branson", 

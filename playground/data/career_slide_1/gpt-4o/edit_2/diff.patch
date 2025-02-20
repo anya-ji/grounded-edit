@@ -1,0 +1,20 @@
+--- ./data/career_slide_1/init/code.py	2025-02-20 02:15:04.983042455 +0000
++++ ./data/career_slide_1/gpt-4o/edit_2/code.py	2025-02-20 11:53:44.838524836 +0000
+@@ -23,7 +23,7 @@
+ 
+ # Format Title
+ title_p.font.bold = True
+-title_p.font.size = Pt(64)
++title_p.font.size = Pt(80)  # Increased font size
+ 
+ # Apply color to "Top Grades"
+ start_pos = title_p.text.find("Top Grades")
+@@ -33,7 +33,7 @@
+ title_run = title_p.add_run()
+ title_run.text = title_p.text[start_pos:end_pos]
+ title_run.font.bold = True
+-title_run.font.size = Pt(64)
++title_run.font.size = Pt(80)  # Increased font size
+ title_run.font.color.rgb = RGBColor(0xFF, 0xFF, 0x00)  # Yellow
+ 
+ # Format subtitle

@@ -1,0 +1,1 @@
+Change the background color of the slide to a light gradient (e.g., from white to light yellow) to improve readability.

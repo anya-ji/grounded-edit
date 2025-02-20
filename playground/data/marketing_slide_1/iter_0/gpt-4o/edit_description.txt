@@ -1,1 +1,0 @@
-Remove the blur effect from the rendered image to restore clarity and detail to the scene.

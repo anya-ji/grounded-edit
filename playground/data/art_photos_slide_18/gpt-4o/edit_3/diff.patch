@@ -1,0 +1,10 @@
+--- ./data/art_photos_slide_18/init/code.py	2025-02-20 02:15:04.406043636 +0000
++++ ./data/art_photos_slide_18/gpt-4o/edit_3/code.py	2025-02-20 11:03:42.223054162 +0000
+@@ -55,6 +55,7 @@
+     p.text = point
+     p.font.size = Pt(20)
+     p.font.color.rgb = RGBColor(0, 0, 0)
++    p.space_before = Pt(10)  # Add vertical spacing before each bullet point
+ 
+ content_box.fill.solid()
+ content_box.fill.fore_color.rgb = RGBColor(255, 255, 255)  # White background

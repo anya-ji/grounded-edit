@@ -1,0 +1,1 @@
+Adjust the first bullet point by adding a period at the end using: `first_bullet.text = "Humans are continuously cutting down trees and littering have a negative impact on environment."`

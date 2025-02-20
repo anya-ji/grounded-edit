@@ -1,0 +1,1 @@
+Add bullet points to the text by inserting a bullet character before each point in the list.

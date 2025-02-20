@@ -1,1 +1,0 @@
-Adjust the text wrapping or scaling to ensure all content fits within the visible area without truncation.

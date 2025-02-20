@@ -1,0 +1,11 @@
+--- ./data/career_slide_12/init/code.py	2025-02-20 02:15:04.970042482 +0000
++++ ./data/career_slide_12/gpt-4o/edit_1/code.py	2025-02-20 11:58:39.478860848 +0000
+@@ -63,7 +63,7 @@
+     p = text_frame.add_paragraph()
+     p.text = heading
+     p.font.bold = True
+-    p.font.size = Pt(24)
++    p.font.size = Pt(36)  # Changed from 24 to 36
+     p.font.color.rgb = highlight_color
+     p.space_before = Pt(10)
+     

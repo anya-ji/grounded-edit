@@ -1,1 +1,0 @@
-Add grey arrows connecting each box in the rendered image to match the layout of the target image.

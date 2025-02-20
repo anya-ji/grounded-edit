@@ -1,0 +1,1 @@
+Change the font size of the slide title "Values" to 48pt for better visibility.

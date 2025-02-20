@@ -1,0 +1,18 @@
+--- ./data/environment_slide_3/init/code.py	2025-02-20 02:15:04.780042870 +0000
++++ ./data/environment_slide_3/gpt-4o/edit_4/code.py	2025-02-20 12:57:07.673339306 +0000
+@@ -36,11 +36,11 @@
+ title_p.font.color.rgb = RGBColor(34, 139, 34)  # Green color
+ title_p.alignment = PP_ALIGN.CENTER
+ 
+-# Content section
++# Content section with bullet points
+ bullet_points = [
+-    "Natural environment",
+-    "Human environment",
+-    "Physical environment"
++    "• Natural environment",  # Added bullet point symbol
++    "• Human environment",    # Added bullet point symbol
++    "• Physical environment"   # Added bullet point symbol
+ ]
+ 
+ for point in bullet_points:

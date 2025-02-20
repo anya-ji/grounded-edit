@@ -1,1 +1,0 @@
-Adjust the text box dimensions and text alignment settings to ensure that all text is fully visible and properly aligned without any cut-off sections.

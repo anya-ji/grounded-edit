@@ -1,0 +1,1 @@
+Change the shape of the image placeholders from circular to rectangular with rounded corners, using the command: `plt.gca().add_patch(plt.Rectangle((x, y), width, height, radius=corner_radius, color='white'))`.

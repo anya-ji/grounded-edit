@@ -1,0 +1,5 @@
+<edit>Change the font size of the title "ELO's" to 80 to match the target slide size.</edit>
+<edit>Adjust the line spacing of the text "Market and Opportunity" and "Market and Equality" to 1.5 for better clarity and readability.</edit>
+<edit>Update the bullet point symbol for the list items from a plain bullet to a diamond shape to match the style in the target slide.</edit>
+<edit>Change the color of the text for "Market and Opportunity" and "Market and Equality" to a lighter shade of gray (for example, #D3D3D3) to improve contrast with the background.</edit>
+<edit>Ensure there is an equal margin of 20 pixels on both the left and right sides of the text block to provide sufficient spacing from the edge of the slide.</edit>

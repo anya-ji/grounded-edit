@@ -1,0 +1,20 @@
+--- ./data/career_slide_11/init/code.py	2025-02-20 02:15:04.979042463 +0000
++++ ./data/career_slide_11/gpt-4o/edit_3/code.py	2025-02-20 11:57:33.137017072 +0000
+@@ -51,7 +51,7 @@
+ for main_point, sub_points in bullet_points:
+     p_main = content_frame.add_paragraph()
+     p_main.text = main_point
+-    p_main.font.size = Pt(28)
++    p_main.font.size = Pt(28)  # Font size for heading
+     p_main.font.bold = True
+     p_main.font.color.rgb = RGBColor(255, 255, 0)  # Yellow color for main bullet points
+ 
+@@ -60,7 +60,7 @@
+         p_sub.text = sp
+         p_sub.level = 1
+         p_sub.space_before = Pt(5)
+-        p_sub.font.size = Pt(20)
++        p_sub.font.size = Pt(20)  # Font size for sub-points
+         p_sub.font.color.rgb = RGBColor(255, 255, 255)  # White color for sub-points
+ 
+ # Save presentation

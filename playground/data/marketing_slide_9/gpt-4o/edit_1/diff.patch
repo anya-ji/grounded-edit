@@ -1,0 +1,11 @@
+--- ./data/marketing_slide_9/init/code.py	2025-02-20 02:15:03.955044559 +0000
++++ ./data/marketing_slide_9/gpt-4o/edit_1/code.py	2025-02-20 14:48:43.102032641 +0000
+@@ -24,7 +24,7 @@
+ 
+ # Define step details
+ steps = [
+-    ("Producer", "• Goods are produced in large factories or farms.", RGBColor(255, 165, 0)),
++    ("Producer", "• Goods are produced in large factories or farms.", RGBColor(210, 180, 140)),  # Changed color to beige
+     ("Wholesale", "• Wholesalers buy goods in large quantity from factories or farms.", RGBColor(255, 223, 0)),
+     ("Distributors", "• They provide goods to retailers on their demand.", RGBColor(255, 223, 0)),
+     ("Retailer", "• Sell goods to consumers.", RGBColor(255, 223, 0))

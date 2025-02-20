@@ -1,1 +1,0 @@
-Align the images in the rendered image to match the left-to-right positioning in the target image, reducing space between the images for consistency in layout.

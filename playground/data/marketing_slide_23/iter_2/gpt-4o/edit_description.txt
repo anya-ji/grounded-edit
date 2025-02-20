@@ -1,1 +1,0 @@
-Change the second block's background color from yellow to a dark shade similar to the target image, and make the text bold.

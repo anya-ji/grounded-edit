@@ -1,0 +1,21 @@
+--- ./data/marketing_slide_39/init/code.py	2025-02-20 02:15:03.910044651 +0000
++++ ./data/marketing_slide_39/gpt-4o/edit_1/code.py	2025-02-20 14:32:39.244688481 +0000
+@@ -2,7 +2,6 @@
+ from pptx.util import Inches, Pt
+ from pptx.dml.color import RGBColor
+ from pptx.enum.shapes import MSO_SHAPE
+-from pptx.util import Inches
+ 
+ # Create a presentation object
+ presentation = Presentation()
+@@ -26,8 +25,9 @@
+ text_frame = text_box.text_frame
+ text_frame.text = "Do you think everybody in market get same share of profit? Why?"
+ 
+-# Set font details
++# Set font details and left align the text
+ for paragraph in text_frame.paragraphs:
++    paragraph.alignment = PP_ALIGN.LEFT  # Left align the text
+     for run in paragraph.runs:
+         run.font.size = Pt(28)
+         run.font.bold = True

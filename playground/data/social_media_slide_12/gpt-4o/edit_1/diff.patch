@@ -1,0 +1,17 @@
+--- ./data/social_media_slide_12/init/code.py	2025-02-20 02:15:04.875042676 +0000
++++ ./data/social_media_slide_12/gpt-4o/edit_1/code.py	2025-02-20 14:55:22.043999255 +0000
+@@ -18,10 +18,13 @@
+ fill.solid()
+ fill.fore_color.rgb = RGBColor(0, 51, 102)  # Dark blue
+ 
+-# Add title with white text
++# Add title with blue background and white text
+ title_text = "3 Factors that have affected the process of Economic Globalization"
+ title_box = slide.shapes.add_textbox(Inches(1), Inches(0.5), Inches(14), Inches(1.5))
+ tf = title_box.text_frame
++fill_title = title_box.fill
++fill_title.solid()
++fill_title.fore_color.rgb = RGBColor(0, 51, 102)  # Blue background
+ p = tf.add_paragraph()
+ p.text = title_text
+ p.font.size = Pt(44)

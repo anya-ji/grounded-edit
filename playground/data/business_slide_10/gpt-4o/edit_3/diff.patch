@@ -1,0 +1,14 @@
+--- ./data/business_slide_10/init/code.py	2025-02-20 02:15:04.097044269 +0000
++++ ./data/business_slide_10/gpt-4o/edit_3/code.py	2025-02-20 11:34:20.566790956 +0000
+@@ -23,8 +23,9 @@
+ top = (presentation.slide_height - Inches(4)) / 2
+ logo = slide.shapes.add_picture(image_path, left, top, width=Inches(8))
+ 
+-# Add text below each logo
+-text_box1 = slide.shapes.add_textbox(left + Inches(1.2), top + Inches(3.5), Inches(2), Inches(1))
++# Adjust the top margin for the "Belo" text
++top_margin = 20 / 96  # Convert 20 pixels to inches (96 pixels per inch)
++text_box1 = slide.shapes.add_textbox(left + Inches(1.2), top + top_margin, Inches(2), Inches(1))
+ tf1 = text_box1.text_frame
+ p1 = tf1.add_paragraph()
+ p1.text = "Belo"

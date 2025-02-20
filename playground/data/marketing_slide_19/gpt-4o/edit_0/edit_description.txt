@@ -1,0 +1,1 @@
+Change the background color of the slide to a gradient from dark green to lighter shades to enhance readability and aesthetics.

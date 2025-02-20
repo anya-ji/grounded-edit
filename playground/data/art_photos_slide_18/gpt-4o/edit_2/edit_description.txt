@@ -1,0 +1,1 @@
+Increase the font size of the main content text to 24 points for improved readability.

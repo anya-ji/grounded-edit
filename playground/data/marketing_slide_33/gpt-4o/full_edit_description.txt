@@ -1,0 +1,5 @@
+<edit>Change the title text to say "As an individual, how can we ensure equality in society?" to include the comma after "individual."</edit>
+<edit>Change the text color of the title to a darker shade for better contrast against the background.</edit>
+<edit>Resize the top image on the slide to maintain proportion and fit better within its section without overflowing.</edit>
+<edit>Adjust the layout to increase the spacing between the title and the top image to avoid crowding.</edit>
+<edit>Change the background gradient colors to softer tones for improved readability of the text.</edit>

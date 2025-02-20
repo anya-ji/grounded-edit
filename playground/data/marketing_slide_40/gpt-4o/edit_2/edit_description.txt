@@ -1,0 +1,1 @@
+Adjust the alignment of the title "Art and Everyday Life" to center it at the top of the slide.

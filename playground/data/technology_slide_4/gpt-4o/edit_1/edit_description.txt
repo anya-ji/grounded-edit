@@ -1,0 +1,1 @@
+Change the font size of the title "Types of Blockchain" to match the target slide, increasing it to ensure it stands out.

@@ -1,0 +1,11 @@
+--- ./data/technology_slide_5/init/code.py	2025-02-20 02:15:05.094042228 +0000
++++ ./data/technology_slide_5/gpt-4o/edit_1/code.py	2025-02-20 15:39:11.320548827 +0000
+@@ -46,6 +46,8 @@
+     p.text = item
+     p.font.size = Pt(28)
+     p.space_after = Pt(5)
++    p.space_before = Pt(5)
++    p.level = 0  # Ensure it's a top-level bullet
+ 
+ # Add image
+ image_path = "../../media/image_0.jpg"

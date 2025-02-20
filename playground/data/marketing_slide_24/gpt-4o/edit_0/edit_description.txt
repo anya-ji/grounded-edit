@@ -1,0 +1,1 @@
+Change the background color of the rendered slide from black to a dark gray (#121212) for improved contrast with the text.

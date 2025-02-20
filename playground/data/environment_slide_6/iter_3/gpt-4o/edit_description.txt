@@ -1,1 +1,0 @@
-Increase the brightness and saturation of the landscape image to match the vibrancy seen in the target image.

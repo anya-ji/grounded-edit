@@ -1,0 +1,23 @@
+--- ./data/art_photos_slide_15/init/code.py	2025-02-20 02:15:04.384043681 +0000
++++ ./data/art_photos_slide_15/gpt-4o/edit_3/code.py	2025-02-20 10:57:25.041888708 +0000
+@@ -34,16 +34,17 @@
+ subtitle.font.size = Pt(28)
+ subtitle.font.color.rgb = RGBColor(255, 255, 255)
+ 
+-# Add images side by side
++# Add images side by side with a margin of 10 pixels
+ image1_path = "../../media/image_2.jpg"
+ image2_path = "../../media/image_3.jpg"
+-left = Inches(1)
++left = Inches(1)  # Adjusted to add margin
+ top = Inches(2.5)
+ image_width = Inches(6)
+ image_height = Inches(4.5)
+ 
++# Adjust left position to account for the margin
+ pic1 = slide.shapes.add_picture(image1_path, left, top, width=image_width, height=image_height)
+-pic2 = slide.shapes.add_picture(image2_path, left + image_width + Inches(1), top, width=image_width, height=image_height)
++pic2 = slide.shapes.add_picture(image2_path, left + image_width + Inches(1) + Inches(0.1), top, width=image_width, height=image_height)
+ 
+ # Add white borders around images
+ for pic in [pic1, pic2]:

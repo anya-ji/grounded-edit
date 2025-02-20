@@ -1,0 +1,1 @@
+Change the title font size to 36 using `title.text_frame.paragraphs[0].font.size = Pt(36)` in Python.

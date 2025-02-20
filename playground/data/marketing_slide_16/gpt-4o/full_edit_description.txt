@@ -1,0 +1,5 @@
+<edit>Change the font size of the text "Traditional" to a larger size, for example, 24 pt.</edit>
+<edit>Change the font color of the text "Sales" on the left side from blue to a darker shade, such as navy blue.</edit>
+<edit>Modify the shape surrounding the text "Marketing" to be more distinct by increasing its line width to 2 pt.</edit>
+<edit>Adjust the spacing between the words in the word cloud on the right to ensure there is more space between the terms.</edit>
+<edit>Change the background color of the entire slide to a darker shade, such as black or dark gray, to improve contrast with the elements.</edit>

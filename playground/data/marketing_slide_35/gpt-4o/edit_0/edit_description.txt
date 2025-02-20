@@ -1,0 +1,1 @@
+Change the background color of the title text "Types of Retailers" to match the target slide's teal gradient.

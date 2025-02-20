@@ -1,0 +1,11 @@
+--- ./data/social_media_slide_10/init/code.py	2025-02-20 02:15:04.892042641 +0000
++++ ./data/social_media_slide_10/gpt-4o/edit_0/code.py	2025-02-20 14:51:41.382581121 +0000
+@@ -21,7 +21,7 @@
+ 
+ p = title_text_frame.add_paragraph()
+ p.text = "Various Media drive Various forms of Global Integration"
+-p.font.size = Pt(36)
++p.font.size = Pt(32)  # Changed font size to 32pt
+ p.font.bold = True
+ p.alignment = PP_ALIGN.CENTER
+ title_box.fill.solid()

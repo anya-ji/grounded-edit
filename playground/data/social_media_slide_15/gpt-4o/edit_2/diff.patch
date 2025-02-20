@@ -1,0 +1,20 @@
+--- ./data/social_media_slide_15/init/code.py	2025-02-20 02:15:04.887042651 +0000
++++ ./data/social_media_slide_15/gpt-4o/edit_2/code.py	2025-02-20 15:00:29.826160579 +0000
+@@ -8,7 +8,7 @@
+ presentation.slide_height = Inches(9)
+ 
+ # Define slide layout
+-slide_layout = presentation.slide_layouts[5] # blank layout
++slide_layout = presentation.slide_layouts[5]  # blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+ # Add title textbox
+@@ -26,7 +26,7 @@
+ p_subtitle = subtitle_frame.add_paragraph()
+ p_subtitle.text = "Global Product"
+ p_subtitle.font.size = Pt(32)
+-p_subtitle.font.color.rgb = RGBColor(255, 255, 255)  # White text
++p_subtitle.font.color.rgb = RGBColor(0, 0, 128)  # Navy Blue text
+ 
+ # Change title background color
+ slide.background.fill.solid()

@@ -1,1 +1,0 @@
-Change the color of the symbols for "people," "places," "love," and "Airbnb" from pink to dark green to match the color scheme of the target image.

@@ -1,0 +1,1 @@
+Adjust the background color of the slide to a brighter green (hex code: #CCFFCC) for better contrast with the text.

@@ -1,1 +1,0 @@
-Adjust the font size of the instructions in the rendered image to be smaller and apply uniform spacing between the lines to enhance readability.

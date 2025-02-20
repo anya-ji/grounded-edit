@@ -1,0 +1,1 @@
+Replace the text color with a dark blue (e.g., #003366) to enhance contrast against the background.

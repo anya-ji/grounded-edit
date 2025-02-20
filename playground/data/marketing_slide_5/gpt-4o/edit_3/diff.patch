@@ -1,0 +1,23 @@
+--- ./data/marketing_slide_5/init/code.py	2025-02-20 02:15:03.864044745 +0000
++++ ./data/marketing_slide_5/gpt-4o/edit_3/code.py	2025-02-20 14:41:44.514979483 +0000
+@@ -7,7 +7,7 @@
+ presentation.slide_width = Inches(16)
+ presentation.slide_height = Inches(9)
+ 
+-slide_layout = presentation.slide_layouts[5] # blank layout
++slide_layout = presentation.slide_layouts[5]  # blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+ # Add image to the left side as background
+@@ -25,8 +25,9 @@
+ fill.fore_color.opacity = 0.4  # 60% transparency
+ shape.line.color.rgb = RGBColor(0, 0, 0)  # No border
+ 
+-# Create a text box for the title and points on the right side
+-text_box = slide.shapes.add_textbox(Inches(8.2), Inches(1), Inches(7.6), Inches(6))
++# Create a text box for the title and points on the right side with margin
++margin = 20  # 20 pixels margin
++text_box = slide.shapes.add_textbox(Inches(8.2 + margin/72), Inches(1 + margin/72), Inches(7.6 - margin/72), Inches(6 - margin/72))
+ text_frame = text_box.text_frame
+ text_frame.word_wrap = True
+ 

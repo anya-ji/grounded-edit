@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image features a header with the word "References" prominently displayed in bold, and the links beneath it are in blue.
-2. Description of Rendered Image: The rendered image shows a similar header saying "References," but the links are in a darker blue color, and the header is less prominent than in the target image. 
-3. Change Suggestion: Increase the font weight of the header "References" in the rendered image to bold and change the links' color to a brighter blue (#0000FF).
-```

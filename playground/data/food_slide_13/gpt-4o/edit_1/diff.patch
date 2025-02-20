@@ -1,0 +1,21 @@
+--- ./data/food_slide_13/init/code.py	2025-02-20 02:15:04.691043053 +0000
++++ ./data/food_slide_13/gpt-4o/edit_1/code.py	2025-02-20 13:10:51.842548320 +0000
+@@ -52,17 +52,8 @@
+ slide.shapes.add_picture(image_path, Inches(12), Inches(6.5), width=Inches(3))
+ 
+ # Add buttons
+-# Check your answers button
+-button_1 = slide.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, Inches(10), Inches(5), Inches(2), Inches(0.6))
+-button_1.fill.solid()
+-button_1.fill.fore_color.rgb = RGBColor(255, 255, 255)  # Transparent background
+-button_1.line.color.rgb = RGBColor(255, 192, 203)  # Pink border
+-button_1.text = "Check your answers"
+-button_1.text_frame.paragraphs[0].font.size = Pt(14)
+-button_1.text_frame.paragraphs[0].font.color.rgb = RGBColor(255, 105, 180)  # Pink text
+-
+ # VIEWING ACTIVITY button
+-button_2 = slide.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, Inches(10), Inches(6), Inches(2), Inches(0.6))
++button_2 = slide.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, Inches(10), Inches(5), Inches(2), Inches(0.6))
+ button_2.fill.solid()
+ button_2.fill.fore_color.rgb = RGBColor(0, 0, 139)  # Dark blue background
+ button_2.line.color.rgb = RGBColor(0, 0, 139)  # Dark blue border

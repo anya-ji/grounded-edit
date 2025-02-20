@@ -1,0 +1,5 @@
+<edit>Change the background color of the title text ("The Subject and Content of Art") to match a consistent yellow, using `slide.background_color = 'yellow'`.</edit>
+<edit>Change the font color of the title text to black for better contrast, using `title_text.color = 'black'`.</edit>
+<edit>Adjust the alignment of the title text to be centered on the slide, using `title_text.alignment = 'center'`.</edit>
+<edit>Reduce the font size of the title text to 36pt for better fitting within the allocated space, using `title_text.font_size = 36`.</edit>
+<edit>Add a margin of 10 pixels around the portrait images to ensure sufficient spacing between them and the text elements, using `image.left_margin = 10` and `image.right_margin = 10`.</edit>

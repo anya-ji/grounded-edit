@@ -1,0 +1,5 @@
+<edit>Change the font color of the title "From Factory to the Market" from white to a darker shade to enhance readability against the background.</edit>
+<edit>Adjust the background color of the "Producer" box from a light peach to a more pronounced beige to create better contrast.</edit>
+<edit>Modify the border color of the "Step" boxes from light orange to a deeper orange for improved visibility.</edit>
+<edit>Increase the font size of the bullet points in each step from the current size to a slightly larger size for better readability.</edit>
+<edit>Add padding around the text within each step box to prevent text from appearing too close to the edges and improve overall spacing.</edit>

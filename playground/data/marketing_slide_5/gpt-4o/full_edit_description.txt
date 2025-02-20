@@ -1,0 +1,5 @@
+<edit>Change the background color of the slide to a light beige (#F5F5DC) to enhance text readability.</edit>
+<edit>Adjust the font size of the main text to 36pt for better visibility.</edit>
+<edit>Set the color of the text to dark gray (#333333) to ensure strong contrast with the background.</edit>
+<edit>Add a margin of 20 pixels around the text box to prevent overflow and ensure sufficient spacing.</edit>
+<edit>Insert a footer at the bottom of the slide with a light gray background (#D3D3D3) and the text "This presentation uses images under CC BY-SA license" in 12pt.</edit>

@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: Text overlays with bold formatting for emphasis on the story.
-2. Description of Rendered Image: Similar text content displayed without any bold formatting or emphasized sections.
-3. Change Suggestion: Add bold formatting to specific phrases in the text to match the visual emphasis of the target image.
-```

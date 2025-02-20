@@ -1,0 +1,11 @@
+--- ./data/art_photos_slide_15/init/code.py	2025-02-20 02:15:04.384043681 +0000
++++ ./data/art_photos_slide_15/gpt-4o/edit_4/code.py	2025-02-20 10:57:45.481843481 +0000
+@@ -21,7 +21,7 @@
+ title_frame = title_box.text_frame
+ title = title_frame.add_paragraph()
+ title.text = "Non-representational or Non-objective Art"
+-title.font.size = Pt(48)
++title.font.size = Pt(36)  # Changed from Pt(48) to Pt(36)
+ title.font.bold = True
+ title.font.color.rgb = RGBColor(255, 255, 255)
+ title.alignment = PP_ALIGN.CENTER

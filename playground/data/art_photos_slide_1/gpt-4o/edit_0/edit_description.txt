@@ -1,0 +1,1 @@
+Change the font size of "GE 7:" to 48 to enhance visibility.

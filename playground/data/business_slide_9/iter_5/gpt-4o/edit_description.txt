@@ -1,1 +1,0 @@
-Adjust the cropping of the rendered image to include the full text "IT'S ABOUT THE PEOPLE, NOT THE PLACES" without any truncation.

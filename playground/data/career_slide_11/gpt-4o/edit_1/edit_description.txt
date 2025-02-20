@@ -1,0 +1,1 @@
+Ensure the spacing between the bullet points and their respective text is consistent; adjust the indentation accordingly.

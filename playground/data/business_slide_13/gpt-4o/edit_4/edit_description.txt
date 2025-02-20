@@ -1,0 +1,1 @@
+Ensure the background color of the slide is light green (e.g., #D1E8B9) for better visibility of elements.

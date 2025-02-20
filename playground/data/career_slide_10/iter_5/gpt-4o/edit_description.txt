@@ -1,1 +1,0 @@
-Realign the text descriptions beneath each figure to match the original target image layout for clarity.

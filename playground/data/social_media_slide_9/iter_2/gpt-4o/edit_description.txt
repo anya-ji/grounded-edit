@@ -1,1 +1,0 @@
-Adjust the alignment of the title and bullet points in the rendered image to match the left alignment found in the target image.

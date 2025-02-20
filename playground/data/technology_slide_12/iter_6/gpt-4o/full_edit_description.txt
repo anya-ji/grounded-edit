@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image features the text "Thank You!" in a bold serif font with additional spacing between letters.
-2. Description of Rendered Image: The rendered image shows the same text "Thank You!" in a standard serif font but with less letter spacing, making it appear more cramped.
-3. Change Suggestion: Increase the letter spacing (tracking) of the text "Thank You!" in the rendered image for a more open appearance.
-```

@@ -1,0 +1,1 @@
+Adjust the spacing between the text blocks and the circle graphic on the left to ensure they do not overlap and maintain clear separation.

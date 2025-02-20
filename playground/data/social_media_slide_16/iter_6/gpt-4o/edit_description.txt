@@ -1,1 +1,0 @@
-Adjust the alignment and spacing of the images in the rendered image to ensure they are evenly spaced and aligned in a straight row, similar to the target image.

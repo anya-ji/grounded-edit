@@ -1,0 +1,17 @@
+--- ./data/marketing_slide_40/init/code.py	2025-02-20 02:15:03.895044682 +0000
++++ ./data/marketing_slide_40/gpt-4o/edit_4/code.py	2025-02-20 14:38:43.947306631 +0000
+@@ -21,12 +21,12 @@
+ title_paragraph.font.bold = True
+ title_paragraph.font.color.rgb = RGBColor(50, 50, 50)  # Neutral color
+ 
+-# Paths to images
++# Paths to images (updated market image path)
+ image_paths = [
+     "../../media/image_2.jpg", # Sculpting
+     "../../media/image_0.jpg", # Painting
+     "../../media/image_4.jpg", # Field
+-    "../../media/image_1.jpg", # Market
++    "../../media/image_5.jpg", # Higher-res Market image
+     "../../media/image_3.jpg"  # Shopping mall
+ ]
+ 

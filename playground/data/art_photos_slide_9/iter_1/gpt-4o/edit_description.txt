@@ -1,1 +1,0 @@
-Change the background color of the rendered image to match the softer yellow tones of the target image for a more cohesive look.

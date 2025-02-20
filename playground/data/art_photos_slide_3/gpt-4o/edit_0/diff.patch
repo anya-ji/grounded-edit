@@ -1,0 +1,29 @@
+--- ./data/art_photos_slide_3/init/code.py	2025-02-20 02:15:04.326043800 +0000
++++ ./data/art_photos_slide_3/gpt-4o/edit_0/code.py	2025-02-20 11:18:39.548301133 +0000
+@@ -2,6 +2,9 @@
+ from pptx.util import Inches, Pt
+ from pptx.dml.color import RGBColor
+ from pptx.enum.shapes import MSO_SHAPE
++from pptx.enum.shapes import MSO_SHAPE
++from pptx.oxml import parse_xml
++from pptx.oxml.ns import nsdecls
+ 
+ # Create a presentation object
+ presentation = Presentation()
+@@ -12,6 +15,16 @@
+ slide_layout = presentation.slide_layouts[5]  # Use a blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
++# Add a soft gradient background
++fill = slide.background.fill
++fill.gradient()
++stop_1 = fill.gradient_stops[0]
++stop_1.position = 0.0
++stop_1.color.rgb = RGBColor(255, 223, 186)  # Light peach color
++stop_2 = fill.gradient_stops[1]
++stop_2.position = 1.0
++stop_2.color.rgb = RGBColor(255, 204, 204)  # Light pink color
++
+ # Add the background image
+ img_path = "../../media/image_0.jpg"
+ slide.shapes.add_picture(img_path, 0, 0, presentation.slide_width, presentation.slide_height)

@@ -1,0 +1,20 @@
+--- ./data/career_slide_12/init/code.py	2025-02-20 02:15:04.970042482 +0000
++++ ./data/career_slide_12/gpt-4o/edit_0/code.py	2025-02-20 11:58:25.961892941 +0000
+@@ -54,7 +54,7 @@
+ ]
+ 
+ # Define colors for bullet points
+-highlight_color = RGBColor(255, 223, 0)  # Yellow
++highlight_color = RGBColor(211, 211, 211)  # Light Gray for "Financial Literacy"
+ text_color = RGBColor(211, 211, 211)  # Light Gray
+ 
+ # Add bullet points to slide
+@@ -64,7 +64,7 @@
+     p.text = heading
+     p.font.bold = True
+     p.font.size = Pt(24)
+-    p.font.color.rgb = highlight_color
++    p.font.color.rgb = highlight_color  # This color is now light gray for "Financial Literacy"
+     p.space_before = Pt(10)
+     
+     # Add subpoints

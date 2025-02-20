@@ -1,0 +1,37 @@
+--- ./data/environment_slide_1/init/code.py	2025-02-20 02:15:04.792042846 +0000
++++ ./data/environment_slide_1/gpt-4o/edit_3/code.py	2025-02-20 12:51:47.292097908 +0000
+@@ -1,6 +1,7 @@
+ from pptx import Presentation
+ from pptx.util import Inches, Pt
+ from pptx.dml.color import RGBColor
++import math
+ 
+ # Create a new presentation
+ presentation = Presentation()
+@@ -17,6 +18,26 @@
+ fill.solid()
+ fill.fore_color.rgb = RGBColor(204, 255, 204) # light green
+ 
++# Adding hexagonal shapes in the background
++def add_hexagon(slide, left, top, size, color, opacity):
++    points = []
++    for i in range(6):
++        angle = math.radians(60 * i)
++        x = left + size * math.cos(angle)
++        y = top + size * math.sin(angle)
++        points.append((x, y))
++    
++    hexagon = slide.shapes.add_polygon(points, RGBColor(color[0], color[1], color[2]), fill=True)
++    
++    # Set low opacity
++    hexagon.fill.solid()
++    hexagon.fill.fore_color.rgb = RGBColor(color[0], color[1], color[2])
++    hexagon.fill.fore_color.alpha = int(opacity * 255)  # Control opacity (0.0 - 1.0)
++
++# Add multiple hexagons to the background
++for i in range(0, 5):
++    add_hexagon(slide, Inches(1 + (i % 3) * 5), Inches(1 + (i // 3) * 3), 1, (0, 128, 0), 0.1)
++
+ # Adding a textbox on the right side for title and content
+ left = Inches(10)
+ top = Inches(1)

@@ -1,0 +1,1 @@
+Ensure the text "General Stores", "Department Store", and "Chain Store" is centered under each respective image.

@@ -1,1 +1,0 @@
-Change the "ACADEMIC WORLD" header in the rendered image to bold formatting to match the emphasis in the target image.

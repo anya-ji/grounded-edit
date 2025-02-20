@@ -1,0 +1,1 @@
+Add a bullet point character before the text in the bullet point to standardize formatting with the target slide.

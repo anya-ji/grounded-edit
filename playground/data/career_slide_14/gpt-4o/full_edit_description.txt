@@ -1,0 +1,5 @@
+<edit>Change the text color of "ACADEMIC WORLD" from blue to a lighter shade, such as light blue, to enhance readability against the background.</edit>
+<edit>Adjust the font size of the "GOAL AND FOCUS" section header in the "ACADEMIC WORLD" from a larger size to match the font size used in the "PROFESSIONAL WORLD" section.</edit>
+<edit>Increase the line spacing of the text body in the "ACADEMIC WORLD" section to improve readability and visual clarity.</edit>
+<edit>Change the font color of the bullet points under "Goal" and "Focus" in the "ACADEMIC WORLD" section from yellow to white for better contrast against the background.</edit>
+<edit>Remove the bold formatting from the word "Focus" in the "Goal and Focus" section under "PROFESSIONAL WORLD" to create a more consistent style with the "ACADEMIC WORLD" section.</edit>

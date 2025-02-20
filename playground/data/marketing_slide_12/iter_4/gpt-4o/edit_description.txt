@@ -1,1 +1,0 @@
-Adjust the alignment of the yellow highlighted text to perfectly match the alignment of the first text line in the target image, removing any misalignment.

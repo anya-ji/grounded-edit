@@ -1,0 +1,12 @@
+--- ./data/marketing_slide_3/init/code.py	2025-02-20 02:15:03.954044561 +0000
++++ ./data/marketing_slide_3/gpt-4o/edit_3/code.py	2025-02-20 14:18:24.114732175 +0000
+@@ -32,7 +32,7 @@
+ 
+ # Center the text box on the slide
+ text_box.left = int((presentation.slide_width - text_box.width) / 2)
+-text_box.top = int((presentation.slide_height - text_box.height) / 2)
++text_box.top = int((presentation.slide_height - (text_box.height * 2)) / 2)  # Adjusted for vertical centering
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

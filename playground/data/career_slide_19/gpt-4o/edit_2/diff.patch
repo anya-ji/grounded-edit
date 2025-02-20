@@ -1,0 +1,29 @@
+--- ./data/career_slide_19/init/code.py	2025-02-20 02:15:04.990042441 +0000
++++ ./data/career_slide_19/gpt-4o/edit_2/code.py	2025-02-20 12:17:06.729139233 +0000
+@@ -31,7 +31,7 @@
+ p = text_frame.add_paragraph()
+ p.text = content_text
+ p.font.size = Pt(24)
+-p.font.color.rgb = RGBColor(255, 255, 255)
++p.font.color.rgb = RGBColor(255, 255, 255)  # This remains unchanged for better readability
+ p.alignment = PP_ALIGN.CENTER
+ 
+ # Add the title
+@@ -41,7 +41,7 @@
+ title_p = title_frame.add_paragraph()
+ title_p.text = "Conclusion"
+ title_p.font.size = Pt(48)
+-title_p.font.color.rgb = RGBColor(255, 255, 255)
++title_p.font.color.rgb = RGBColor(255, 255, 255)  # This remains unchanged for consistency
+ title_p.alignment = PP_ALIGN.CENTER
+ 
+ # Insert the yellow banner with text
+@@ -54,7 +54,7 @@
+ p_banner = text_frame_banner.add_paragraph()
+ p_banner.text = "To Download Visit www.topicsforseminar.com"
+ p_banner.font.size = Pt(12)
+-p_banner.font.color.rgb = RGBColor(255, 255, 255)
++p_banner.font.color.rgb = RGBColor(255, 255, 255)  # This remains unchanged for visibility
+ p_banner.alignment = PP_ALIGN.RIGHT
+ 
+ # Insert the background illustration

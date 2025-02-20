@@ -1,0 +1,13 @@
+--- ./data/food_slide_12/init/code.py	2025-02-20 02:15:04.674043087 +0000
++++ ./data/food_slide_12/gpt-4o/edit_2/code.py	2025-02-20 13:09:29.429671678 +0000
+@@ -52,8 +52,8 @@
+ left_paragraph.font.size = Pt(20)
+ left_paragraph.font.color.rgb = RGBColor(255, 255, 255)  # white
+ 
+-# Add "FLUENT" logo or text
+-fluent_box = slide.shapes.add_textbox(Inches(0.5), Inches(7.5), Inches(3), Inches(0.5))
++# Adjust "FLUENT" logo position to bottom left corner
++fluent_box = slide.shapes.add_textbox(Inches(0.5), Inches(8), Inches(3), Inches(0.5))
+ fluent_frame = fluent_box.text_frame
+ fluent_paragraph = fluent_frame.add_paragraph()
+ fluent_paragraph.text = "FLUENT"

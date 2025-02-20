@@ -1,0 +1,1 @@
+Adjust the font size of the title "The Subject of Art" to match the title's size in the target slide.

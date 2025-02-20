@@ -1,0 +1,5 @@
+<edit>Change the font size of the title "5 Stages of Development of Media" to 36 points.</edit>
+<edit>Adjust the spacing above the text "1. ORAL COMMUNICATION" to 20 pixels.</edit>
+<edit>Modify the color of the main body text to a darker shade for improved readability, such as RGB(34, 34, 34).</edit>
+<edit>Add a new line before the text "Language allowed humans to communicate and share information" to maintain proper separation between elements.</edit>
+<edit>Ensure the image is aligned to the right of the text block, maintaining a margin of 30 pixels from the edges.</edit>

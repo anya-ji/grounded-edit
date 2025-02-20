@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image features several individuals expressing their experiences with Airbnb, accompanied by the text "IT'S ABOUT THE PEOPLE, NOT THE PLACES" prominently displayed in the center.
-2. Description of Rendered Image: The rendered image includes similar individuals and text but alters the formatting of the text, making it less visually impactful and less centered.
-3. Change Suggestion: Center the text "IT'S ABOUT THE PEOPLE, NOT THE PLACES" and increase its font size to enhance visibility and create visual emphasis.
-```

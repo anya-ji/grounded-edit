@@ -1,0 +1,17 @@
+--- ./data/social_media_slide_4/init/code.py	2025-02-20 02:15:04.881042664 +0000
++++ ./data/social_media_slide_4/gpt-4o/edit_2/code.py	2025-02-20 15:17:24.847903868 +0000
+@@ -50,12 +50,12 @@
+ bullet1 = content_frame.add_paragraph()
+ bullet1.text = "Language allowed humans to communicate and share information."
+ bullet1.font.size = Pt(24)
+-bullet1.font.color.rgb = RGBColor(0, 0, 0)  # Black
++bullet1.font.color.rgb = RGBColor(34, 34, 34)  # Darker shade for improved readability
+ 
+ bullet2 = content_frame.add_paragraph()
+ bullet2.text = "Language became the most important tool for exploring the world and different cultures."
+ bullet2.font.size = Pt(24)
+-bullet2.font.color.rgb = RGBColor(0, 0, 0)  # Black
++bullet2.font.color.rgb = RGBColor(34, 34, 34)  # Darker shade for improved readability
+ 
+ # Insert the image
+ image_path = "../../media/image_0.jpg"

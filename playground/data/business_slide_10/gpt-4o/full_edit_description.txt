@@ -1,0 +1,5 @@
+<edit>Change the background color of the slide to a solid pink color (RGB: 255, 97, 97) to ensure it matches the desired slide background.</edit>
+<edit>Increase the font size of the text "Belo" to 48 points for better visibility and emphasis.</edit>
+<edit>Change the font size of the text "Community" to 48 points to maintain consistency with the "Belo" text size.</edit>
+<edit>Adjust the position of the "Belo" text to have a top margin of 20 pixels from the top of the slide to provide more space above it.</edit>
+<edit>Move the entire group of logos and text downward by 30 pixels to create more breathing space above the elements on the slide.</edit>

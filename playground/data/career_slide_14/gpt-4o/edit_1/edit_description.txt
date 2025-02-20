@@ -1,0 +1,1 @@
+Adjust the font size of the "GOAL AND FOCUS" section header in the "ACADEMIC WORLD" from a larger size to match the font size used in the "PROFESSIONAL WORLD" section.

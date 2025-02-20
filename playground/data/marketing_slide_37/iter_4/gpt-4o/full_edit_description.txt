@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image features a blue icon with a person and an arrow pointing right, set against a dark gradient background. The text "DO YOU THINK MARKET CREATE OPPORTUNITY. HOW?" appears prominently in light blue.
-2. Description of Rendered Image: The rendered image shows a similar blue icon with a person and an arrow, but the arrow points left. It has a lighter gradient background, and the text is more spaced out and aligned to the right.
-3. Change Suggestion: Change the direction of the arrow in the icon in the rendered image from left to right to match the target image.
-```

@@ -1,0 +1,5 @@
+<edit>Adjust the list marker style from numbers to bullet points for each item in the slide content.</edit>
+<edit>Change the font size of the title "Types of Blockchain" to match the target slide, increasing it to ensure it stands out.</edit>
+<edit>Remove the extra space before the list begins to maintain proper spacing between the title and the first item.</edit>
+<edit>Ensure a standard space (e.g., 6pt) between each list item to maintain visual clarity.</edit>
+<edit>Change the color of the text for the list items to black to enhance readability against the background.</edit>

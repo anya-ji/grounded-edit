@@ -1,0 +1,10 @@
+--- ./data/technology_slide_2/init/code.py	2025-02-20 02:15:05.091042234 +0000
++++ ./data/technology_slide_2/gpt-4o/edit_4/code.py	2025-02-20 15:35:37.050118442 +0000
+@@ -43,6 +43,7 @@
+     p.font.size = Pt(28)
+     p.space_after = Pt(10)
+     p.level = 0
++    p.alignment = PP_ALIGN.LEFT  # Set alignment to left
+ 
+ # Set a clean white background for readability
+ background = slide.background

@@ -1,0 +1,11 @@
+--- ./data/social_media_slide_18/init/code.py	2025-02-20 02:15:04.880042666 +0000
++++ ./data/social_media_slide_18/gpt-4o/edit_1/code.py	2025-02-20 15:05:20.641351030 +0000
+@@ -22,7 +22,7 @@
+ title_frame.text = title_text
+ 
+ title_paragraph = title_frame.paragraphs[0]
+-title_paragraph.font.size = Pt(32)
++title_paragraph.font.size = Pt(40)  # Changed font size to 40 pt
+ title_paragraph.font.bold = True
+ title_paragraph.font.color.rgb = RGBColor(255, 255, 255)  # White text
+ title_frame.word_wrap = True

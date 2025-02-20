@@ -1,0 +1,5 @@
+<edit>Change the font size of the title to 36 to increase its prominence.</edit>
+<edit>Adjust the font weight of the body text to bold for better readability.</edit>
+<edit>Add a top margin of 20 pixels to the body text to ensure sufficient spacing from the title.</edit>
+<edit>Change the background color of the slide to a light grey (#F0F0F0) for a better visual contrast with the text.</edit>
+<edit>Include a bullet point before the second line of body text for proper formatting of the list item.</edit>

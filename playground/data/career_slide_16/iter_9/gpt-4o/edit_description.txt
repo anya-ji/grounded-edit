@@ -1,1 +1,0 @@
-Change the font color of "Professional World" from green to the same shade of yellow used for "Learning Approach" for consistent color scheme and better visual coherence.

@@ -1,0 +1,18 @@
+--- ./data/marketing_slide_27/init/code.py	2025-02-20 02:15:03.944044582 +0000
++++ ./data/marketing_slide_27/gpt-4o/edit_2/code.py	2025-02-20 14:14:13.789844691 +0000
+@@ -27,13 +27,13 @@
+     "../../media/image_2.jpg"
+ ]
+ 
+-# Define circle positions and sizes
++# Define circle positions and sizes with updated vertical spacing
+ circle_positions = [
+     (Inches(2), Inches(1.5)),
+     (Inches(5), Inches(1.5)),
+     (Inches(8), Inches(1.5)),
+     (Inches(11), Inches(1.5)),
+-    (Inches(6.5), Inches(5))
++    (Inches(6.5), Inches(1.5 + 0.3))  # Adjusted for vertical spacing
+ ]
+ circle_size = Inches(2.5)
+ 

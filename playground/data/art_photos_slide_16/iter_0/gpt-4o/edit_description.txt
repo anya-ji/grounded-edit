@@ -1,1 +1,0 @@
-Change the background color of the title "Non-representational or Non-objective Art" in the rendered image from bright yellow to a more muted shade that matches the warm tone of the background in the target image.

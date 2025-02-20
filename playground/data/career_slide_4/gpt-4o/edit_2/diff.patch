@@ -1,0 +1,48 @@
+--- ./data/career_slide_4/init/code.py	2025-02-20 02:15:04.976042469 +0000
++++ ./data/career_slide_4/gpt-4o/edit_2/code.py	2025-02-20 12:22:03.616604958 +0000
+@@ -10,7 +10,7 @@
+ presentation.slide_height = Inches(9)
+ 
+ # Add a slide
+-slide_layout = presentation.slide_layouts[5] # blank layout
++slide_layout = presentation.slide_layouts[5]  # blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+ # Set dark background
+@@ -38,6 +38,9 @@
+ left_p.font.size = Pt(24)
+ left_p.font.color.rgb = RGBColor(255, 255, 0)  # yellow color
+ 
++# Add a blank paragraph for spacing
++left_frame.add_paragraph()
++
+ left_bullets = [
+     "Academic success promotes personal growth through critical thinking, problem-solving, and intellectual curiosity.",
+     "It leads to fulfilling careers and a sense of purpose."
+@@ -49,7 +52,7 @@
+     p.font.color.rgb = RGBColor(255, 255, 255)  # white color
+ 
+ # Add image to left section
+-left_image_path = "../../media/image_0.jpg" # replace with your own image path
++left_image_path = "../../media/image_0.jpg"  # replace with your own image path
+ slide.shapes.add_picture(left_image_path, Inches(0.5), Inches(3.0), width=Inches(4))
+ 
+ # Section 2
+@@ -72,7 +75,7 @@
+     p.font.color.rgb = RGBColor(255, 255, 255)  # white color
+ 
+ # Add image to middle section
+-middle_image_path = "../../media/image_0.jpg" # replace with your own image path
++middle_image_path = "../../media/image_0.jpg"  # replace with your own image path
+ slide.shapes.add_picture(middle_image_path, Inches(5.5), Inches(3.0), width=Inches(4))
+ 
+ # Section 3
+@@ -94,7 +97,7 @@
+ p.font.color.rgb = RGBColor(255, 255, 255)  # white color
+ 
+ # Add image to right section
+-right_image_path = "../../media/image_1.jpg" # replace with your own image path
++right_image_path = "../../media/image_1.jpg"  # replace with your own image path
+ slide.shapes.add_picture(right_image_path, Inches(10.5), Inches(3.0), width=Inches(4))
+ 
+ # Save the presentation

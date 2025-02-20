@@ -1,0 +1,11 @@
+--- ./data/marketing_slide_9/init/code.py	2025-02-20 02:15:03.955044559 +0000
++++ ./data/marketing_slide_9/gpt-4o/edit_0/code.py	2025-02-20 14:48:19.161091622 +0000
+@@ -19,7 +19,7 @@
+ title_paragraph.text = title_text
+ title_paragraph.font.size = Pt(40)
+ title_paragraph.font.bold = True
+-title_paragraph.font.color.rgb = RGBColor(0, 0, 0)
++title_paragraph.font.color.rgb = RGBColor(34, 34, 34)  # Changed to a darker shade
+ title_frame.word_wrap = True
+ 
+ # Define step details

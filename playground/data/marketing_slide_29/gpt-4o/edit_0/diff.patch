@@ -1,0 +1,18 @@
+--- ./data/marketing_slide_29/init/code.py	2025-02-20 02:15:03.867044740 +0000
++++ ./data/marketing_slide_29/gpt-4o/edit_0/code.py	2025-02-20 14:15:49.011406020 +0000
+@@ -14,6 +14,15 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
++# Add the background color as a subtle gradient
++gradient_fill = slide.shapes.add_shape(
++    MSO_SHAPE.RECTANGLE, Inches(0), Inches(0), Inches(16), Inches(9)
++)
++gradient_fill.fill.gradient()
++gradient_fill.fill.gradient_stops[0].color.rgb = RGBColor(0, 102, 204)  # Light blue
++gradient_fill.fill.gradient_stops[1].color.rgb = RGBColor(255, 255, 255)  # White
++gradient_fill.fill.gradient_angle = 45
++
+ # Add the background image
+ image_path = "../../media/image_0.jpg"
+ slide.shapes.add_picture(image_path, Inches(0), Inches(0), Inches(16), Inches(9))

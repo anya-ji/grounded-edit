@@ -1,0 +1,1 @@
+Relocate the "ACADEMIC WORLD" and "PROFESSIONAL WORLD" sections further apart to ensure sufficient spacing between the two columns.

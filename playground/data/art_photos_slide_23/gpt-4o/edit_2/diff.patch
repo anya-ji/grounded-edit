@@ -1,0 +1,11 @@
+--- ./data/art_photos_slide_23/init/code.py	2025-02-20 02:15:04.313043826 +0000
++++ ./data/art_photos_slide_23/gpt-4o/edit_2/code.py	2025-02-20 11:13:31.667845321 +0000
+@@ -43,7 +43,7 @@
+ content_tf = content_box.text_frame
+ content_tf.word_wrap = True
+ content_p = content_tf.add_paragraph()
+-content_p.text = ("• Museums are the repositories of much of the art in most "
++content_p.text = ("Museums are the repositories of much of the art in most "
+                   "countries and make them available for public viewing through "
+                   "either permanent or temporary exhibition.")
+ content_p.font.size = Pt(24)

@@ -1,0 +1,38 @@
+--- ./data/social_media_slide_19/init/code.py	2025-02-20 02:15:04.901042623 +0000
++++ ./data/social_media_slide_19/gpt-4o/edit_2/code.py	2025-02-20 15:07:28.175123319 +0000
+@@ -2,8 +2,6 @@
+ from pptx.util import Inches, Pt
+ from pptx.enum.text import PP_ALIGN
+ from pptx.dml.color import RGBColor
+-from pptx.oxml.ns import nsdecls
+-from pptx.oxml import parse_xml
+ 
+ # Create presentation
+ presentation = Presentation()
+@@ -48,19 +46,23 @@
+ # Add bullets with checkmarks
+ left_inset = 1.5
+ top_inset = 3
++spacing = 0.5  # Height between each bullet point
+ for i, point in enumerate(bullet_points):
+-    checkmark_box = slide.shapes.add_textbox(Inches(left_inset), Inches(top_inset + i * 1), Inches(0.5), Inches(0.5))
++    checkmark_box = slide.shapes.add_textbox(Inches(left_inset), Inches(top_inset + i * spacing), Inches(0.5), Inches(0.5))
+     checkmark = checkmark_box.text_frame.add_paragraph()
+     checkmark.text = "✓"
+     checkmark.font.size = Pt(20)
+     checkmark.font.color.rgb = RGBColor(0, 0, 0)  # Black
+     
+-    text_box = slide.shapes.add_textbox(Inches(left_inset + 0.5), Inches(top_inset + i * 1), Inches(13), Inches(1))
++    text_box = slide.shapes.add_textbox(Inches(left_inset + 0.5), Inches(top_inset + i * spacing), Inches(13), Inches(1))
+     text = text_box.text_frame.add_paragraph()
+     text.text = point
+     text.font.size = Pt(20)
+     text.font.color.rgb = RGBColor(0, 0, 0)  # Black
+     text.alignment = PP_ALIGN.LEFT
+ 
++# Add spacing below the last bullet point
++bullet_spacing_box = slide.shapes.add_textbox(Inches(left_inset), Inches(top_inset + len(bullet_points) * spacing + 0.5), Inches(1), Inches(1))
++
+ # Save presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

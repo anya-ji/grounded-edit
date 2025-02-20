@@ -1,0 +1,1 @@
+Replace the color of the second bullet point arrow from yellow to a shade of amber.

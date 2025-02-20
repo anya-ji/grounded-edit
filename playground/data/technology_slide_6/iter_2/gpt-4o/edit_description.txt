@@ -1,1 +1,0 @@
-Change the checkbox style from empty squares to filled circles for each item in the list.

@@ -1,0 +1,1 @@
+Adjust the position of "GE 7:" to be centered vertically within its section, maintaining consistent spacing from the upper edge.

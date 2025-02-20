@@ -1,1 +1,0 @@
-Change the font of the words ‘Marketing’ and ‘Sales’ in the rendered image to match the style and weight of those words in the target image.

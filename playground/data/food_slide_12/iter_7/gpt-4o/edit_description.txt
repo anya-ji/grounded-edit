@@ -1,1 +1,0 @@
-Remove the yellow "FLUENT" label at the bottom of the rendered image to match the target image more closely.

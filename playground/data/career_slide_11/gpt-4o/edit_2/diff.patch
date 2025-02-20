@@ -1,0 +1,13 @@
+--- ./data/career_slide_11/init/code.py	2025-02-20 02:15:04.979042463 +0000
++++ ./data/career_slide_11/gpt-4o/edit_2/code.py	2025-02-20 11:57:18.881050202 +0000
+@@ -40,9 +40,7 @@
+         "Critical thinking skills enable individuals to analyze information, evaluate options, and make informed decisions.",
+         "Problem-solving skills are essential for addressing challenges and finding innovative solutions in a wide range of situations."
+     ]),
+-    ("Emotional Intelligence", [
+-        "Emotional intelligence enhances empathy, interpersonal relationships, and the ability to work effectively in teams."
+-    ]),
++    ("Emotional Intelligence", []),  # Changed to no sub-points
+     ("Adaptability and Resilience", [
+         "These skills help individuals navigate unexpected setbacks, cope with stress, and embrace change as an opportunity for growth."
+     ])

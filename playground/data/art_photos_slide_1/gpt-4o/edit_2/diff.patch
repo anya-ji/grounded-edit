@@ -1,0 +1,14 @@
+--- ./data/art_photos_slide_1/init/code.py	2025-02-20 02:15:04.233043990 +0000
++++ ./data/art_photos_slide_1/gpt-4o/edit_2/code.py	2025-02-20 10:49:38.985919935 +0000
+@@ -35,8 +35,8 @@
+ # Add title
+ add_text_box(slide, "GE 7:", Inches(2), Inches(1), 60)
+ 
+-# Add subtitle
+-add_text_box(slide, "ART APPRECIATION", Inches(3), Inches(1), 48)
++# Add subtitle with modified font size
++add_text_box(slide, "ART APPRECIATION", Inches(3), Inches(1), 72)
+ 
+ # Save presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

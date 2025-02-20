@@ -1,0 +1,12 @@
+--- ./data/career_slide_12/init/code.py	2025-02-20 02:15:04.970042482 +0000
++++ ./data/career_slide_12/gpt-4o/edit_2/code.py	2025-02-20 11:58:56.229820902 +0000
+@@ -75,5 +75,8 @@
+         p.font.size = Pt(20)
+         p.font.color.rgb = text_color
+ 
++        # Adding bullet point
++        p.space_before = Pt(5)  # Add some space before bullet points
++
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

@@ -1,0 +1,14 @@
+--- ./data/food_slide_10/init/code.py	2025-02-20 02:15:04.678043079 +0000
++++ ./data/food_slide_10/gpt-4o/edit_0/code.py	2025-02-20 13:06:37.935907979 +0000
+@@ -63,6 +63,11 @@
+     cell.text_frame.paragraphs[0].font.size = Pt(20)
+     cell.text_frame.paragraphs[0].font.color.rgb = RGBColor(0, 0, 0)
+ 
++# Change background color of the first statement row to light blue
++fill = table.cell(0, 0).fill
++fill.solid()
++fill.fore_color.rgb = RGBColor(208, 224, 233)  # Light blue color
++
+ # Add checkboxes headers: T, F, N
+ for i in range(1, 4):
+     table.cell(0, i).text = '✓' if i == 1 else ''

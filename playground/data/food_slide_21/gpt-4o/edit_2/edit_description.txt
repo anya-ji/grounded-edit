@@ -1,0 +1,1 @@
+Update the spacing between the audio clip icons and the corresponding text sections to provide uniform spacing similar to what is seen in the target slide.

@@ -1,0 +1,1 @@
+Increase the margin at the top of the slide to provide additional spacing between the header and the title.

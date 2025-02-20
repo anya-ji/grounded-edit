@@ -1,0 +1,14 @@
+--- ./data/career_slide_13/init/code.py	2025-02-20 02:15:04.992042437 +0000
++++ ./data/career_slide_13/gpt-4o/edit_3/code.py	2025-02-20 12:00:58.581523770 +0000
+@@ -71,6 +71,10 @@
+     p.text = f"  - {content}"
+     p.font.size = Pt(20)
+     p.font.color.rgb = RGBColor(211, 211, 211)  # light gray text
++    
++    # Add a line break for readability
++    p = text_frame.add_paragraph()
++    p.text = ""  # empty paragraph for line break
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

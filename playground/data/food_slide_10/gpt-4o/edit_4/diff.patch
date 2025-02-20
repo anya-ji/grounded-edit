@@ -1,0 +1,53 @@
+--- ./data/food_slide_10/init/code.py	2025-02-20 02:15:04.678043079 +0000
++++ ./data/food_slide_10/gpt-4o/edit_4/code.py	2025-02-20 13:08:25.793762888 +0000
+@@ -9,7 +9,7 @@
+ presentation.slide_height = Inches(9)
+ 
+ # Add slide
+-slide_layout = presentation.slide_layouts[5] # Blank layout
++slide_layout = presentation.slide_layouts[5]  # Blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+ # Set light background color
+@@ -50,6 +50,14 @@
+ table.columns[2].width = Inches(1.5)
+ table.columns[3].width = Inches(1.5)
+ 
++# Set padding for table cells
++for row in table.rows:
++    for cell in row.cells:
++        cell.text_frame.margin_left = Pt(10)
++        cell.text_frame.margin_top = Pt(10)
++        cell.text_frame.margin_right = Pt(10)
++        cell.text_frame.margin_bottom = Pt(10)
++
+ # Add statements
+ statements = [
+     "Phoebe sarcastically says that Sarah is a monster for her etiquette.",
+@@ -76,21 +84,21 @@
+ # Add buttons below Joey's image
+ button_check = slide.shapes.add_textbox(Inches(11), Inches(7.7), Inches(2.5), Inches(0.7))
+ button_check.fill.solid()
+-button_check.fill.fore_color.rgb = RGBColor(255, 255, 255) # Transparent background
++button_check.fill.fore_color.rgb = RGBColor(255, 255, 255)  # Transparent background
+ check_p = button_check.text_frame.add_paragraph()
+ check_p.text = "Check your answers"
+ check_p.font.size = Pt(18)
+-check_p.font.color.rgb = RGBColor(255, 20, 147) # Pink
++check_p.font.color.rgb = RGBColor(255, 20, 147)  # Pink
+ check_p.alignment = PP_ALIGN.CENTER
+-button_check.line.color.rgb = RGBColor(255, 20, 147) # Pink border
++button_check.line.color.rgb = RGBColor(255, 20, 147)  # Pink border
+ 
+ button_view = slide.shapes.add_textbox(Inches(13.7), Inches(7.7), Inches(2.5), Inches(0.7))
+ button_view.fill.solid()
+-button_view.fill.fore_color.rgb = RGBColor(0, 0, 139) # Dark blue background
++button_view.fill.fore_color.rgb = RGBColor(0, 0, 139)  # Dark blue background
+ view_p = button_view.text_frame.add_paragraph()
+ view_p.text = "Viewing Activity"
+ view_p.font.size = Pt(18)
+-view_p.font.color.rgb = RGBColor(255, 255, 255) # White
++view_p.font.color.rgb = RGBColor(255, 255, 255)  # White
+ view_p.alignment = PP_ALIGN.CENTER
+ 
+ # Save presentation

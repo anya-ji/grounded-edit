@@ -1,0 +1,13 @@
+--- ./data/entrepreneur_slide_7/init/code.py	2025-02-20 02:15:04.534043374 +0000
++++ ./data/entrepreneur_slide_7/gpt-4o/edit_1/code.py	2025-02-20 12:47:36.941007352 +0000
+@@ -32,8 +32,8 @@
+ title.font.size = Pt(36)
+ title.font.color.rgb = RGBColor(255, 215, 0)  # Yellow
+ 
+-# Add bullet points
+-bullet_box = slide.shapes.add_textbox(Inches(0.5), Inches(2), Inches(7), Inches(5))
++# Add bullet points with adjusted left margin
++bullet_box = slide.shapes.add_textbox(Inches(2.5), Inches(2), Inches(7), Inches(5))  # Adjusted left margin
+ bullet_frame = bullet_box.text_frame
+ 
+ bullets = [

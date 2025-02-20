@@ -1,0 +1,1 @@
+Adjust the left margin of the title text to `15` pixels to ensure it is aligned with the visual elements below.

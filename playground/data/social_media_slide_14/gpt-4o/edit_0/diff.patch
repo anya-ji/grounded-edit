@@ -1,0 +1,11 @@
+--- ./data/social_media_slide_14/init/code.py	2025-02-20 02:15:04.894042637 +0000
++++ ./data/social_media_slide_14/gpt-4o/edit_0/code.py	2025-02-20 14:58:19.034519906 +0000
+@@ -17,7 +17,7 @@
+ title_frame = title_box.text_frame
+ title = title_frame.add_paragraph()
+ title.text = title_text
+-title.font.size = Pt(44)
++title.font.size = Pt(36)  # Changed from 44 to 36
+ title.font.bold = True
+ title.alignment = PP_ALIGN.CENTER
+ 

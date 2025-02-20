@@ -1,0 +1,5 @@
+<edit>Change the background color of the "Sources of the Subject" text box to light yellow (#F5E00E) for better readability.</edit>
+<edit>Increase the font size of the list items (Nature, History, etc.) to 24 points to enhance visibility.</edit>
+<edit>Align the "Sources of the Subject" header text to the left to ensure consistency with other elements on the slide.</edit>
+<edit>Add a margin of 10 pixels around the text box containing "Sources of the Subject" to maintain proper spacing from surrounding elements.</edit>
+<edit>Change the font color of the "Sources of the Subject" header to black (#000000) for improved contrast against the background.</edit>

@@ -1,0 +1,1 @@
+Increase the spacing above the bullet points to ensure they do not crowd the title of "B. Portrait".

@@ -1,0 +1,1 @@
+Move the bullet point ("✓") before "The subject is directly represented..." to align it vertically with the text above it, ensuring proper spacing.

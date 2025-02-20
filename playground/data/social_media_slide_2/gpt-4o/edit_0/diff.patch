@@ -1,0 +1,11 @@
+--- ./data/social_media_slide_2/init/code.py	2025-02-20 02:15:04.896042633 +0000
++++ ./data/social_media_slide_2/gpt-4o/edit_0/code.py	2025-02-20 15:08:41.930000176 +0000
+@@ -40,7 +40,7 @@
+ media_title = media_frame.add_paragraph()
+ media_title.text = "MEDIA"
+ media_title.font.bold = True
+-media_title.font.size = Pt(24)
++media_title.font.size = Pt(32)  # Increased font size
+ media_title.font.color.rgb = RGBColor(0, 51, 102)  # Dark blue
+ 
+ media_text = media_frame.add_paragraph()

@@ -1,0 +1,1 @@
+Include a bullet point before the second line of body text for proper formatting of the list item.

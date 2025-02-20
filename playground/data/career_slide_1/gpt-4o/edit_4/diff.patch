@@ -1,0 +1,12 @@
+--- ./data/career_slide_1/init/code.py	2025-02-20 02:15:04.983042455 +0000
++++ ./data/career_slide_1/gpt-4o/edit_4/code.py	2025-02-20 11:54:22.948443864 +0000
+@@ -30,6 +30,9 @@
+ end_pos = start_pos + len("Top Grades")
+ title_run = title_p.runs[0]
+ title_run.font.color.rgb = RGBColor(0x00, 0x00, 0xFF)  # Blue
++
++# Removed the duplicate "Top Grades" run
++# Title run for "Top Grades" only
+ title_run = title_p.add_run()
+ title_run.text = title_p.text[start_pos:end_pos]
+ title_run.font.bold = True

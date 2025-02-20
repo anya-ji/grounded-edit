@@ -1,0 +1,14 @@
+--- ./data/marketing_slide_37/init/code.py	2025-02-20 02:15:03.894044684 +0000
++++ ./data/marketing_slide_37/gpt-4o/edit_4/code.py	2025-02-20 14:31:42.551698680 +0000
+@@ -20,9 +20,9 @@
+ fill.solid()
+ fill.fore_color.rgb = RGBColor(0, 51, 0)  # Dark green
+ 
+-# Add blue graphic of a person with an arrow pointing right
++# Add blue graphic of a person with an arrow pointing right, repositioned
+ image_path = "../../media/image_0.jpg"
+-slide.shapes.add_picture(image_path, Inches(0.5), Inches(3), width=Inches(3), height=Inches(3))
++slide.shapes.add_picture(image_path, Inches(0.79), Inches(0.79), width=Inches(3), height=Inches(3))
+ 
+ # Add title text on the top right
+ title_box = slide.shapes.add_textbox(Inches(5), Inches(0.5), Inches(10), Inches(1))

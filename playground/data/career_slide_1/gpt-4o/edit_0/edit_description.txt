@@ -1,0 +1,1 @@
+Change the font color of the title "Are Top Grades Enough?" to match the target, specifically using yellow for the word "Top" and blue for the other words.

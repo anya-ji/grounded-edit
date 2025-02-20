@@ -1,0 +1,13 @@
+--- ./data/career_slide_15/init/code.py	2025-02-20 02:15:04.964042494 +0000
++++ ./data/career_slide_15/gpt-4o/edit_0/code.py	2025-02-20 12:05:06.156899910 +0000
+@@ -36,8 +36,8 @@
+ # Add slide title
+ add_textbox(slide, 4, 0.5, 8, 1, "ACADEMIC WORLD AND PROFESSIONAL WORLD: DEMANDS AND CHARACTERISTICS", 32, True, RGBColor(255, 255, 255)).text_frame.paragraphs[0].alignment = PP_ALIGN.CENTER
+ 
+-# Add Academic World section
+-add_textbox(slide, 0.5, 1.5, 7, 1, "ACADEMIC WORLD", 28, True, RGBColor(0, 102, 204))
++# Add Academic World section with lighter blue color
++add_textbox(slide, 0.5, 1.5, 7, 1, "ACADEMIC WORLD", 28, True, RGBColor(0, 153, 255))  # Changed color to a lighter blue
+ add_textbox(slide, 0.5, 2.5, 7, 0.5, "Evaluation and Feedback", 24, True, RGBColor(255, 204, 0))
+ add_textbox(slide, 0.5, 3.2, 7, 1, "Assessment:\n- Students are assessed through exams, assignments, and projects, with a focus on understanding and demonstrating knowledge.", 20)
+ add_textbox(slide, 0.5, 4.5, 7, 1, "Feedback:\n- Feedback is provided by educators to help students improve their understanding and skills.", 20)

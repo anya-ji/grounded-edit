@@ -1,0 +1,19 @@
+--- ./data/technology_slide_10/init/code.py	2025-02-20 02:15:05.096042224 +0000
++++ ./data/technology_slide_10/gpt-4o/edit_4/code.py	2025-02-20 15:30:30.035927748 +0000
+@@ -48,5 +48,15 @@
+ image_path = "../../media/image_0.jpg"
+ slide.shapes.add_picture(image_path, Inches(9), Inches(2), Inches(6), Inches(4))
+ 
++# Caption for the image
++caption_text = "Benefits of Blockchain Technology"
++caption_box = slide.shapes.add_textbox(Inches(9), Inches(6), Inches(6), Inches(0.5))
++caption_frame = caption_box.text_frame
++caption_frame.text = caption_text
++caption_paragraph = caption_frame.paragraphs[0]
++caption_paragraph.font.size = Pt(18)
++caption_paragraph.font.bold = True
++caption_paragraph.font.color.rgb = RGBColor(0, 0, 0)  # Black color
++
+ # Save presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

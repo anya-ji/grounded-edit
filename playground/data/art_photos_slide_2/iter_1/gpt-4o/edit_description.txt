@@ -1,1 +1,0 @@
-Modify the text box background to have a transparent overlay, and add a darker outline around the text to replicate the outlined effect in the target image.

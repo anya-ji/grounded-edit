@@ -1,0 +1,1 @@
+Reduce the font size of the title "THE CONTENT OF ART" to ensure it fits properly without overflow.

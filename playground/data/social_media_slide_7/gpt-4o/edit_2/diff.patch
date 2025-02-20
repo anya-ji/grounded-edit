@@ -1,0 +1,11 @@
+--- ./data/social_media_slide_7/init/code.py	2025-02-20 02:15:04.870042686 +0000
++++ ./data/social_media_slide_7/gpt-4o/edit_2/code.py	2025-02-20 15:22:52.837103856 +0000
+@@ -45,7 +45,7 @@
+     p_bullet = content_frame.add_paragraph()
+     p_bullet.text = point
+     p_bullet.font.size = Pt(24)
+-    p_bullet.space_after = Pt(10)
++    p_bullet.space_after = Pt(20)  # Increased spacing between bullet points
+ 
+ # Insert image
+ image_path = "../../media/image_0.jpg"  # Adjust path as needed

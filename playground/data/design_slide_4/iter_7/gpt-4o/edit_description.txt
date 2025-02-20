@@ -1,1 +1,0 @@
-Change the background color of each text section in the rendered image to match the alternating colors seen in the target image, and align the text to the left.

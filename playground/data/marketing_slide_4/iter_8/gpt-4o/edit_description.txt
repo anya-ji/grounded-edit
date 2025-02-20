@@ -1,1 +1,0 @@
-Change the background color of the rendered image from bright red to black to match the target image.

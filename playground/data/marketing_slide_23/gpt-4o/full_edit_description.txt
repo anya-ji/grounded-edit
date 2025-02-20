@@ -1,0 +1,5 @@
+<edit>Change the background color of the slide to black using: `slide.background_color = 'black'`.</edit>
+<edit>Change the color of the first shape containing the text "Define the term Market" to a gradient orange by modifying the fill property in the shape: `shape1.fill.color = 'gradient(orange, darkorange)'`.</edit>
+<edit>Change the color of the second shape containing the text "Explain how products reach to market" to a gradient yellow by modifying the fill property in the shape: `shape2.fill.color = 'gradient(yellow, gold)'`.</edit>
+<edit>Increase the font size of both text items to improve readability by using: `text_item.font_size = 24` for each text element.</edit>
+<edit>Adjust the vertical spacing between the two text boxes to ensure they do not overlap, setting it to `margin_bottom = 20` for the first text box.</edit>

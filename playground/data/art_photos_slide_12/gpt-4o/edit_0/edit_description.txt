@@ -1,0 +1,1 @@
+Change the font color of the title "The Subject and Content of Art" from red to black.

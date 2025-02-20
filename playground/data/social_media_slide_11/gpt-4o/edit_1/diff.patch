@@ -1,0 +1,11 @@
+--- ./data/social_media_slide_11/init/code.py	2025-02-20 02:15:04.865042696 +0000
++++ ./data/social_media_slide_11/gpt-4o/edit_1/code.py	2025-02-20 14:53:41.266267575 +0000
+@@ -50,7 +50,7 @@
+ content_tf.word_wrap = True
+ 
+ bullet_points = [
+-    "the process of increasing the degree of economic and political integration among countries around the world.",
++    "✓ the process of increasing the degree of economic and political integration among countries around the world.",
+     "Global integration can involve the processes of product standardization and technology development centralization."
+ ]
+ 

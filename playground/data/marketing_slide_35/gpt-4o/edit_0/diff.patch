@@ -1,0 +1,13 @@
+--- ./data/marketing_slide_35/init/code.py	2025-02-20 02:15:03.986044496 +0000
++++ ./data/marketing_slide_35/gpt-4o/edit_0/code.py	2025-02-20 14:27:17.514653881 +0000
+@@ -33,6 +33,10 @@
+ title_p.font.color.rgb = RGBColor(255, 255, 255)
+ title_p.alignment = PP_ALIGN.CENTER
+ 
++# Set the background color of the title text to match the gradient
++title_frame.fill.solid()
++title_frame.fill.fore_color.rgb = RGBColor(0, 51, 51)  # Matches the dark teal color
++
+ # Add top content box for "1. Mobile retailers"
+ top_box = slide.shapes.add_textbox(Inches(4), Inches(2), Inches(10), Inches(2))
+ top_box.fill.solid()

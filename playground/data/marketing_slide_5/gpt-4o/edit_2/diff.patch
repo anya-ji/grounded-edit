@@ -1,0 +1,27 @@
+--- ./data/marketing_slide_5/init/code.py	2025-02-20 02:15:03.864044745 +0000
++++ ./data/marketing_slide_5/gpt-4o/edit_2/code.py	2025-02-20 14:41:29.315009464 +0000
+@@ -35,20 +35,20 @@
+ p.text = "ELO's"
+ p.font.bold = True
+ p.font.size = Pt(48)
+-p.font.color.rgb = RGBColor(255, 255, 255)  # White color
++p.font.color.rgb = RGBColor(51, 51, 51)  # Dark gray color
+ 
+ # First point
+ p = text_frame.add_paragraph()
+ p.text = "1. What is market?"
+ p.font.size = Pt(32)
+ p.space_after = Pt(20)  # Add some space after paragraph
+-p.font.color.rgb = RGBColor(255, 255, 255)  # White color
++p.font.color.rgb = RGBColor(51, 51, 51)  # Dark gray color
+ 
+ # Second point
+ p = text_frame.add_paragraph()
+ p.text = "2. How product reach to market?"
+ p.font.size = Pt(32)
+-p.font.color.rgb = RGBColor(255, 255, 255)  # White color
++p.font.color.rgb = RGBColor(51, 51, 51)  # Dark gray color
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

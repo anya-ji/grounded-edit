@@ -1,0 +1,1 @@
+Change the color of the checked bullet in option "c" to a shade of green that is more vibrant, similar to the target slide.

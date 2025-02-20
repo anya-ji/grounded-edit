@@ -1,0 +1,11 @@
+--- ./data/business_slide_1/init/code.py	2025-02-20 02:15:04.100044262 +0000
++++ ./data/business_slide_1/gpt-4o/edit_2/code.py	2025-02-20 11:32:59.787059904 +0000
+@@ -37,7 +37,7 @@
+ p.text = "Business Case"
+ p.font.size = Pt(36)
+ p.font.bold = True
+-p.font.color.rgb = RGBColor(255, 255, 255)  # White
++p.font.color.rgb = background_color  # Changed font color to match background color
+ 
+ # Add names below the title
+ names = ["Daniel Consuegra", "Alejandra Del Chiaro", "Maria Camila Echeverri"]

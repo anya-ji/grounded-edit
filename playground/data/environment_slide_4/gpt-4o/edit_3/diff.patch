@@ -1,0 +1,10 @@
+--- ./data/environment_slide_4/init/code.py	2025-02-20 02:15:04.784042862 +0000
++++ ./data/environment_slide_4/gpt-4o/edit_3/code.py	2025-02-20 12:58:15.621331379 +0000
+@@ -49,6 +49,7 @@
+     p.font.color.rgb = RGBColor(0, 0, 0)  # black
+     p.alignment = PP_ALIGN.LEFT
+     p.space_after = Pt(12)  # spacing between bullets
++    p.bullet.char = '•'  # Add bullet point symbol
+ 
+ # Add image below the text
+ image_path = "../../media/image_0.jpg"

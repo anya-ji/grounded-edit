@@ -1,1 +1,0 @@
-Change the font of "THANK YOU" in the rendered image to a stylized, slightly italicized serif font similar to that in the target image, and adjust the color to a lighter green to match the target image.

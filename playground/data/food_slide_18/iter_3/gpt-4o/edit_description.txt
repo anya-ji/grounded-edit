@@ -1,1 +1,0 @@
-Adjust the transparency level of the highlighted dialogue to 75% to ensure improved readability while still distinguishing it from the background.

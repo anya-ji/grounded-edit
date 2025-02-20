@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image features a header titled "What is Blockchain?" in a bold, prominent font size, with a clear layout and consistent font formatting throughout the text paragraphs.
-2. Description of Rendered Image: The rendered image has the same header and content but features inconsistent font sizes, particularly in the main title and sections, which appears in a larger and bolder font compared to the target image.
-3. Change Suggestion: Change the font weight of the header "What is Blockchain?" in the rendered image to match the target image's font weight for consistency.
-```

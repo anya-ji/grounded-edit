@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: A white background with a prominent, bold "THANK YOU" text in green, featuring a slight 3D effect and an ornate font.
-2. Description of Rendered Image: A light green background with a simpler "THANK YOU" text in a flat style and a sans-serif font, lacking the 3D effect.
-3. Change Suggestion: Change the font style of "THANK YOU" in the rendered image to a more ornate typeface and apply a slight 3D effect or shadow to match the target image.
-```

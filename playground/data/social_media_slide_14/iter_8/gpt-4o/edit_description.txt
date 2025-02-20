@@ -1,1 +1,0 @@
-Reduce the font size of the primary text in the rendered image to more closely match the font size seen in the target image.

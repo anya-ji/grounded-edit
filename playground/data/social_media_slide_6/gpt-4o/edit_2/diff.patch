@@ -1,0 +1,11 @@
+--- ./data/social_media_slide_6/init/code.py	2025-02-20 02:15:04.891042643 +0000
++++ ./data/social_media_slide_6/gpt-4o/edit_2/code.py	2025-02-20 15:21:03.267376761 +0000
+@@ -35,7 +35,7 @@
+ subtitle.text = "3. PRINTING PRESS"
+ subtitle.font.bold = True
+ subtitle.font.size = Pt(28)
+-subtitle.font.color.rgb = RGBColor(0, 51, 102)  # Dark Blue text
++subtitle.font.color.rgb = RGBColor(255, 255, 255)  # Change to White text
+ 
+ # Add main content with bullet points
+ content_box = slide.shapes.add_textbox(Inches(0.5), Inches(2.5), Inches(8), Inches(5))

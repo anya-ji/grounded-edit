@@ -1,1 +1,0 @@
-Increase the font size of the word "WORLD" in the heading for better emphasis and apply a consistent spacing between "ACADEMIC" and "WORLD" to match the target image.

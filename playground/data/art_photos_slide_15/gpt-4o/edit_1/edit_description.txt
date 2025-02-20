@@ -1,0 +1,1 @@
+Resize the left image to match the aspect ratio of the right image, ensuring both images are uniformly sized.

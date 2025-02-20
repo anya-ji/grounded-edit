@@ -1,0 +1,1 @@
+Change the bullet point symbol from "✓" to a solid circle for a cleaner appearance.

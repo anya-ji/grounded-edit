@@ -1,0 +1,11 @@
+--- ./data/technology_slide_5/init/code.py	2025-02-20 02:15:05.094042228 +0000
++++ ./data/technology_slide_5/gpt-4o/edit_0/code.py	2025-02-20 15:38:46.848614025 +0000
+@@ -22,7 +22,7 @@
+ title_frame = title.text_frame
+ title_para = title_frame.add_paragraph()
+ title_para.text = "The Technology used in Blockchain"
+-title_para.font.size = Pt(44)
++title_para.font.size = Pt(60)  # Updated font size
+ title_para.font.bold = True
+ 
+ # Add bulleted list

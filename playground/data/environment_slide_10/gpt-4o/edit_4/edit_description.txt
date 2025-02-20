@@ -1,0 +1,1 @@
+Increase the padding around the "THANK YOU" text to 20 pixels to ensure it does not feel cramped within the slide's layout.

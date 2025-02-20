@@ -1,1 +1,0 @@
-Modify the font of the "C" in "NYC" in the rendered image to match the uniform style and clarity of the "N" and "Y" as seen in the target image, ensuring a consistent and clean appearance across all letters.

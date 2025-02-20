@@ -1,0 +1,1 @@
+Adjust the font size of the title "Still Life" to be larger (e.g., from 36pt to 48pt) to make it more prominent.

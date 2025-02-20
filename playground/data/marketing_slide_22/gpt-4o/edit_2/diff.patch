@@ -1,0 +1,28 @@
+--- ./data/marketing_slide_22/init/code.py	2025-02-20 02:15:03.969044530 +0000
++++ ./data/marketing_slide_22/gpt-4o/edit_2/code.py	2025-02-20 14:08:09.929785886 +0000
+@@ -23,21 +23,22 @@
+ p.font.size = Pt(44)
+ p.font.color.rgb = RGBColor(255, 255, 255)  # white font
+ 
+-# Insert images on the left side
++# Insert adjusted images
+ image1_path = "../../media/image_0.jpg"
+ image1 = slide.shapes.add_picture(image1_path, Inches(0.5), Inches(0.5), width=Inches(5))
+ 
+ image2_path = "../../media/image_1.jpg"
+ image2 = slide.shapes.add_picture(image2_path, Inches(0.5), Inches(3.25), width=Inches(5))
+ 
++# Assuming the word cloud image is the third image; reposition below the second image
+ image3_path = "../../media/image_2.jpg"
+-image3 = slide.shapes.add_picture(image3_path, Inches(0.5), Inches(6), width=Inches(5))
++image3 = slide.shapes.add_picture(image3_path, Inches(0.5), Inches(6.25), width=Inches(5))  # Adjusted height
+ 
+ # Add captions below each image
+ caption_text = [
+     "This Photo by Unknown author is licensed under CC BY-SA-NC",
+     "This Photo by Unknown author is licensed under CC BY-SA-NC",
+-    "This Photo by Unknown author is licensed under CC BY"
++    "This Photo by Unknown author is licensed under CC BY"  # Adjust as necessary
+ ]
+ 
+ for i, img in enumerate([image1, image2, image3]):

@@ -1,1 +1,0 @@
-Enhance the contrast of the white background box containing the bullet points by adding a subtle drop shadow to create better separation from the background, improving readability.

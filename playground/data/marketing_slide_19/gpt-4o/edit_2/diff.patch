@@ -1,0 +1,17 @@
+--- ./data/marketing_slide_19/init/code.py	2025-02-20 02:15:03.995044477 +0000
++++ ./data/marketing_slide_19/gpt-4o/edit_2/code.py	2025-02-20 14:00:27.832394756 +0000
+@@ -30,12 +30,12 @@
+ image_path = "../../media/image_0.jpg"
+ slide.shapes.add_picture(image_path, Inches(0.5), Inches(1), Inches(7), Inches(6))
+ 
+-# Add the word "Marketing" on the right
++# Add the word "Marketing" on the right with increased font size
+ marketing_box = slide.shapes.add_textbox(Inches(8.5), Inches(3), Inches(7), Inches(3))
+ marketing_frame = marketing_box.text_frame
+ marketing = marketing_frame.add_paragraph()
+ marketing.text = "Marketing"
+-marketing.font.size = Pt(60)
++marketing.font.size = Pt(80)  # Increased font size
+ marketing.font.bold = True
+ marketing.font.color.rgb = RGBColor(255, 255, 255)  # White text
+ 

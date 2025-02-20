@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image features a question about a pronunciation scheme, with three answer options listed below. The background is a solid color and the format is clear, with a checkmark indicating the selected answer.
-2. Description of Rendered Image: The rendered image presents a similar question format but differs in the background color and does not highlight the selected answer. The checkmark is placed at the bottom left corner instead of next to the selected answer option.
-3. Change Suggestion: Change the background color of the rendered image to match the target image and reposition the checkmark to appear next to the selected answer option.
-```

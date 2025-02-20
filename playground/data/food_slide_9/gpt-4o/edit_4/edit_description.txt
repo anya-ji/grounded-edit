@@ -1,0 +1,1 @@
+Add appropriate padding below the questions in PART 1 to ensure sufficient space between the questions and the images or other elements, preventing overlap or crowding.

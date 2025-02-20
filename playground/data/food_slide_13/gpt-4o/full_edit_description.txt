@@ -1,0 +1,5 @@
+<edit>Change the bullet points of the list from numbers to checkboxes to match the format.</edit>
+<edit>Remove the "Check your answers" button from the slide to streamline the content.</edit>
+<edit>Adjust the font size of the list items to be consistent with the rest of the text on the slide.</edit>
+<edit>Change the background color of the slide to a lighter shade to enhance text readability.</edit>
+<edit>Increase the spacing between the list items to avoid overlapping and improve layout.</edit>

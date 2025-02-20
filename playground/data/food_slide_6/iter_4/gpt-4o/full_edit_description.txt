@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image features a colorful and engaging interface, including a chat bubble with a question mark, inviting background elements, and two characters engaging in a conversation with wine glasses.
-2. Description of Rendered Image: The rendered image has a more simplified design, featuring a plain background with a lighter chat bubble containing a question mark, and lacks the character illustrations and vibrant accents.
-3. Change Suggestion: Add colorful illustrations of two characters with wine glasses to the bottom right corner of the rendered image, similar to the target image.
-```

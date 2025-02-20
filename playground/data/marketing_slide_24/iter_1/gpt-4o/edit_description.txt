@@ -1,1 +1,0 @@
-Add a circular frame around the central image similar to the target image to replicate the visual framing effect.

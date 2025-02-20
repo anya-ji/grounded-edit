@@ -1,0 +1,15 @@
+--- ./data/art_photos_slide_5/init/code.py	2025-02-20 02:15:04.249043957 +0000
++++ ./data/art_photos_slide_5/gpt-4o/edit_1/code.py	2025-02-20 11:22:54.628231243 +0000
+@@ -27,10 +27,10 @@
+ p_left.font.bold = True
+ p_left.font.color.rgb = RGBColor(0, 0, 0)  # Black
+ 
+-# Add the main title
++# Add the main title with darker yellow
+ title_box = slide.shapes.add_textbox(Inches(1), Inches(1.5), Inches(14), Inches(1.5))
+ title_box.fill.solid()
+-title_box.fill.fore_color.rgb = RGBColor(255, 255, 102)  # Yellow
++title_box.fill.fore_color.rgb = RGBColor(204, 204, 0)  # Darker shade of yellow
+ tf_title = title_box.text_frame
+ p_title = tf_title.add_paragraph()
+ p_title.text = "Two kinds of Art as to Subject"

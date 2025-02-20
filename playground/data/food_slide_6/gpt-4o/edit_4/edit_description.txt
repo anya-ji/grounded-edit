@@ -1,0 +1,1 @@
+Resize the speech bubble graphic so that it does not obstruct any part of the text, ensuring it fits within designated margins.

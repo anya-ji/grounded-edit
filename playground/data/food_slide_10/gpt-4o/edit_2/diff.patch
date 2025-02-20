@@ -1,0 +1,11 @@
+--- ./data/food_slide_10/init/code.py	2025-02-20 02:15:04.678043079 +0000
++++ ./data/food_slide_10/gpt-4o/edit_2/code.py	2025-02-20 13:07:36.040831412 +0000
+@@ -24,7 +24,7 @@
+ title_p = title_frame.add_paragraph()
+ title_p.text = "PART 3"
+ title_p.font.bold = True
+-title_p.font.size = Pt(48)
++title_p.font.size = Pt(28)  # Changed font size to 28pt
+ title_p.font.color.rgb = RGBColor(0, 0, 0)
+ title_p.alignment = PP_ALIGN.LEFT
+ 

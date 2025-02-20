@@ -1,0 +1,5 @@
+<edit>Change the background color from green to a gradient that transitions from dark teal to a lighter teal.</edit>
+<edit>Adjust the font size of the main title "Research Work :" to be larger, for example, 60 points.</edit>
+<edit>Change the font color of the title "Research Work :" to a lighter shade, such as light beige.</edit>
+<edit>Increase the line spacing of the body text to enhance readability, setting it to at least 1.5.</edit>
+<edit>Ensure adequate padding around the text elements, adding at least 20 pixels of margin on all sides of the text box.</edit>

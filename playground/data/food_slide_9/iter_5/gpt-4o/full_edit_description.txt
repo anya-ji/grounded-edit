@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: A digital interface containing questions about Joey's first date, including a video thumbnail of Joey speaking.
-2. Description of Rendered Image: A similar digital interface with blue highlighted sections but different fonts and layout for the text and video thumbnail.
-3. Change Suggestion: Change the font of the "PART 1" and "PART 2" headings to match the font style used in the target image.
-```

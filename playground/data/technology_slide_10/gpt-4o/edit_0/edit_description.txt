@@ -1,0 +1,1 @@
+Change the bullet points to checkboxes for the list of advantages.

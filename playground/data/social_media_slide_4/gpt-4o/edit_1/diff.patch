@@ -1,0 +1,13 @@
+--- ./data/social_media_slide_4/init/code.py	2025-02-20 02:15:04.881042664 +0000
++++ ./data/social_media_slide_4/gpt-4o/edit_1/code.py	2025-02-20 15:17:03.938952850 +0000
+@@ -30,8 +30,8 @@
+ title_p.font.color.rgb = RGBColor(255, 255, 255)
+ title_p.alignment = PP_ALIGN.LEFT
+ 
+-# Add the subtitle
+-subtitle_textbox = slide.shapes.add_textbox(Inches(0.5), Inches(1.2), Inches(15), Inches(1))
++# Add the subtitle with adjusted spacing
++subtitle_textbox = slide.shapes.add_textbox(Inches(0.5), Inches(1.4), Inches(15), Inches(1))  # Adjusted Y position
+ subtitle_frame = subtitle_textbox.text_frame
+ subtitle_frame.word_wrap = True
+ 

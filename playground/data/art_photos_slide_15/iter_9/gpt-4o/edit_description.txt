@@ -1,1 +1,0 @@
-Adjust the color saturation and brightness of the left section of the rendered image to match the vibrancy and clarity of the colors in the target image.

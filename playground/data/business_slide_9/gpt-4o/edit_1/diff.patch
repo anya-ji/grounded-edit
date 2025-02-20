@@ -1,0 +1,11 @@
+--- ./data/business_slide_9/init/code.py	2025-02-20 02:15:04.101044260 +0000
++++ ./data/business_slide_9/gpt-4o/edit_1/code.py	2025-02-20 11:51:34.717786884 +0000
+@@ -35,7 +35,7 @@
+ slide.shapes.add_picture(image_path, Inches(1), Inches(3), Inches(14), Inches(4))
+ 
+ # Add the quote
+-quote_textbox = slide.shapes.add_textbox(Inches(2), Inches(5.5), Inches(12), Inches(1))
++quote_textbox = slide.shapes.add_textbox(Inches(2), Inches(5.0), Inches(12), Inches(1))  # Adjusted top position
+ quote_text_frame = quote_textbox.text_frame
+ quote = quote_text_frame.add_paragraph()
+ quote.text = "IT'S ABOUT THE PEOPLE, NOT THE PLACES"

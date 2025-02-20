@@ -1,0 +1,10 @@
+--- ./data/food_slide_27/init/code.py	2025-02-20 02:15:04.671043093 +0000
++++ ./data/food_slide_27/gpt-4o/edit_2/code.py	2025-02-20 13:32:15.573273478 +0000
+@@ -38,6 +38,7 @@
+     p.text = point
+     p.space_after = Pt(10)
+     p.level = 0
++    p.alignment = PP_ALIGN.LEFT  # Align bullet points to the left
+ bullet_frame.word_wrap = True
+ bullet_frame.paragraphs[0].font.size = Pt(20)
+ 

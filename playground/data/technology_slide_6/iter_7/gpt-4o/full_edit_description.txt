@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image features a list with unchecked boxes next to items related to the purpose of blockchain, and the text is mostly unbolded except for the title.
-2. Description of Rendered Image: The rendered image displays all items with checked boxes, indicating completion, and the text is fully bolded, including the list items.
-3. Change Suggestion: Change the list items in the rendered image to have unchecked boxes to match the target image's style.
-```

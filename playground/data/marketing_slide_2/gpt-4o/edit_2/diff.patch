@@ -1,0 +1,16 @@
+--- ./data/marketing_slide_2/init/code.py	2025-02-20 02:15:03.891044690 +0000
++++ ./data/marketing_slide_2/gpt-4o/edit_2/code.py	2025-02-20 14:02:13.551395147 +0000
+@@ -17,11 +17,11 @@
+ fill.solid()
+ fill.fore_color.rgb = RGBColor(0, 0, 255)  # Blue
+ 
+-# Main question text
++# Main question text (modified to title case)
+ textbox = slide.shapes.add_textbox(Inches(0.5), Inches(0.5), Inches(10), Inches(1.5))
+ text_frame = textbox.text_frame
+ p = text_frame.add_paragraph()
+-p.text = "What is filling your bucket today and what’s draining it?"
++p.text = "What is Filling Your Bucket Today and What’s Draining It?"  # Title case
+ p.font.size = Pt(40)
+ p.font.color.rgb = RGBColor(255, 255, 255)  # White
+ 

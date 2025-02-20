@@ -1,0 +1,19 @@
+--- ./data/marketing_slide_24/init/code.py	2025-02-20 02:15:03.883044707 +0000
++++ ./data/marketing_slide_24/gpt-4o/edit_2/code.py	2025-02-20 14:11:55.766523969 +0000
+@@ -48,14 +48,14 @@
+ subtitle_p.font.size = Pt(48)
+ subtitle_p.font.color.rgb = RGBColor(255, 255, 255)
+ 
+-# Add small red rectangle in the top right corner
++# Add small orange rectangle in the top right corner
+ rect_left = Inches(15)
+ rect_top = Inches(0.5)
+ rect_width = Inches(0.5)
+ rect_height = Inches(0.5)
+ rect = slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, rect_left, rect_top, rect_width, rect_height)
+ rect.fill.solid()
+-rect.fill.fore_color.rgb = RGBColor(255, 0, 0)
++rect.fill.fore_color.rgb = RGBColor(255, 165, 0)  # Change color to orange
+ 
+ # Add attribution text
+ attribution_box = slide.shapes.add_textbox(Inches(12), Inches(8.5), Inches(3.5), Inches(0.5))

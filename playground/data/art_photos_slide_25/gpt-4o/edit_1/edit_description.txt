@@ -1,0 +1,1 @@
+Adjust the font color of the "References:" title to a darker shade for better contrast against the header background.

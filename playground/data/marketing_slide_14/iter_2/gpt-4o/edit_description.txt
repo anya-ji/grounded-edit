@@ -1,1 +1,0 @@
-Remove the white bar obscuring the text to allow the question to be clearly visible.

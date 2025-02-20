@@ -1,1 +1,0 @@
-Adjust the spacing between the portraits in the rendered image to match the consistent spacing used in the target image, ensuring that each individual's section is evenly separated for improved visual clarity.

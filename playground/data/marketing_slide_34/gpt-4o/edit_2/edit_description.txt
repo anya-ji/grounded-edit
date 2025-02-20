@@ -1,0 +1,1 @@
+Increase the font size of the title "Let's Recall:" to 36 pts to give it more prominence on the slide.

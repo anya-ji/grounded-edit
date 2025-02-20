@@ -1,0 +1,19 @@
+--- ./data/social_media_slide_11/init/code.py	2025-02-20 02:15:04.865042696 +0000
++++ ./data/social_media_slide_11/gpt-4o/edit_0/code.py	2025-02-20 14:53:26.044307752 +0000
+@@ -54,12 +54,15 @@
+     "Global integration can involve the processes of product standardization and technology development centralization."
+ ]
+ 
+-for point in bullet_points:
++for index, point in enumerate(bullet_points):
+     p = content_tf.add_paragraph()
+     p.text = point
+     p.font.size = Pt(20)
+     p.font.color.rgb = RGBColor(0, 0, 0)
+     p.space_after = Pt(14)  # Spacing between bullet points
++    # Make the first bullet point bold
++    if index == 0:
++        p.font.bold = True
+ 
+ content_box.fill.solid()
+ content_box.fill.fore_color.rgb = RGBColor(255, 255, 255)  # White background

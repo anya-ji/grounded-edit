@@ -1,0 +1,1 @@
+Adjust the font color of the text in the main content area to black (#000000) for better visibility against the background.

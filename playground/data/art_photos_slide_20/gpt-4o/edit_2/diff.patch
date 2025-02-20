@@ -1,0 +1,17 @@
+--- ./data/art_photos_slide_20/init/code.py	2025-02-20 02:15:04.395043659 +0000
++++ ./data/art_photos_slide_20/gpt-4o/edit_2/code.py	2025-02-20 11:08:14.310953659 +0000
+@@ -49,11 +49,13 @@
+     "or color has for a particular culture or group of people when it is shown in an artwork."
+ ]
+ 
+-for point in content:
++for i, point in enumerate(content):
+     p = content_frame.add_paragraph()
+     p.text = point
+     p.font.size = Pt(20)
+     p.space_after = Pt(10)
++    if i == 1:  # Change color for second bullet point
++        p.font.color.rgb = RGBColor(128, 128, 128)  # Darker shade of gray
+ 
+ content_box.fill.solid()
+ content_box.fill.fore_color.rgb = RGBColor(255, 255, 255)  # White background

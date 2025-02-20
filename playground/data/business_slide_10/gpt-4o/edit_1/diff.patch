@@ -1,0 +1,11 @@
+--- ./data/business_slide_10/init/code.py	2025-02-20 02:15:04.097044269 +0000
++++ ./data/business_slide_10/gpt-4o/edit_1/code.py	2025-02-20 11:33:56.355871242 +0000
+@@ -28,7 +28,7 @@
+ tf1 = text_box1.text_frame
+ p1 = tf1.add_paragraph()
+ p1.text = "Belo"
+-p1.font.size = Pt(24)
++p1.font.size = Pt(48)  # Increased font size to 48 points
+ p1.font.bold = True
+ p1.font.color.rgb = RGBColor(255, 255, 255)
+ 

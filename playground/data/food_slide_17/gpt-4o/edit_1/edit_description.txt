@@ -1,0 +1,1 @@
+Change the font color of the text in the "PAST SIMPLE" section to a darker shade, e.g., hex color #333333, to enhance readability.

@@ -1,0 +1,11 @@
+--- ./data/food_slide_19/init/code.py	2025-02-20 02:15:04.690043055 +0000
++++ ./data/food_slide_19/gpt-4o/edit_1/code.py	2025-02-20 13:18:45.515760808 +0000
+@@ -18,7 +18,7 @@
+ title_frame = title_box.text_frame
+ title = title_frame.add_paragraph()
+ title.text = "PART 3"
+-title.font.size = Pt(40)
++title.font.size = Pt(36)  # Changed font size to 36 pts
+ title.font.bold = True
+ 
+ # Instruction text

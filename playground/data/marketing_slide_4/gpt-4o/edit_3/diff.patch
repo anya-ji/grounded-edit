@@ -1,0 +1,12 @@
+--- ./data/marketing_slide_4/init/code.py	2025-02-20 02:15:03.985044498 +0000
++++ ./data/marketing_slide_4/gpt-4o/edit_3/code.py	2025-02-20 14:36:18.609513316 +0000
+@@ -59,6 +59,9 @@
+ q.font.color.rgb = RGBColor(255, 255, 255)  # White color
+ q.alignment = PP_ALIGN.CENTER
+ 
++# Center the text vertically
++question_frame.vertical_anchor = PP_ALIGN.CENTER
++
+ # Add ribbon graphic in top left corner
+ ribbon_shape = slide.shapes.add_shape(
+     MSO_SHAPE.WAVE, Inches(0.2), Inches(0.2), Inches(1.5), Inches(0.5)

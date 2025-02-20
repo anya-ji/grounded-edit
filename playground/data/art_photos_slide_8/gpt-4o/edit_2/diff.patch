@@ -1,0 +1,11 @@
+--- ./data/art_photos_slide_8/init/code.py	2025-02-20 02:15:04.278043898 +0000
++++ ./data/art_photos_slide_8/gpt-4o/edit_2/code.py	2025-02-20 11:29:06.935855955 +0000
+@@ -17,7 +17,7 @@
+ title_frame = title_box.text_frame
+ title_frame.text = "Still Life"
+ title_paragraph = title_frame.paragraphs[0]
+-title_paragraph.font.size = Pt(48)
++title_paragraph.font.size = Pt(48)  # Updated font size to 48pt
+ title_paragraph.font.bold = True
+ title_paragraph.alignment = 1  # Centered
+ 

@@ -1,0 +1,1 @@
+Add a margin of 20 pixels at the bottom of the slide to ensure elements do not get too close to the bottom edge.

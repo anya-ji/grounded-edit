@@ -1,0 +1,11 @@
+--- ./data/career_slide_2/init/code.py	2025-02-20 02:15:05.010042400 +0000
++++ ./data/career_slide_2/gpt-4o/edit_1/code.py	2025-02-20 12:18:35.243993231 +0000
+@@ -23,7 +23,7 @@
+ tf = title_box.text_frame
+ p = tf.add_paragraph()
+ p.text = title_text
+-p.font.size = Pt(48)
++p.font.size = Pt(48)  # Title font size set to 48 points
+ p.font.bold = True
+ p.font.color.rgb = RGBColor(255, 255, 255)  # White text for contrast
+ 

@@ -1,0 +1,1 @@
+Change the font size of the text "Thank You!" to a smaller size, such as 48pt.

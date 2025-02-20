@@ -1,0 +1,1 @@
+Modify the bullet point punctuation by changing the bullet style to a checkmark symbol.

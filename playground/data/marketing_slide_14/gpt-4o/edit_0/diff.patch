@@ -1,0 +1,17 @@
+--- ./data/marketing_slide_14/init/code.py	2025-02-20 02:15:03.988044492 +0000
++++ ./data/marketing_slide_14/gpt-4o/edit_0/code.py	2025-02-20 13:53:46.246820140 +0000
+@@ -11,9 +11,11 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Background image
+-image_path = "../../media/image_0.jpg"
+-slide.shapes.add_picture(image_path, Inches(0), Inches(0), width=Inches(16), height=Inches(9))
++# Set background color to a darker blue gradient
++background = slide.background
++fill = background.fill
++fill.solid()
++fill.fore_color.rgb = RGBColor(0, 0, 128)  # Dark blue
+ 
+ # Add question text
+ text_box = slide.shapes.add_textbox(Inches(1), Inches(3), Inches(14), Inches(3))

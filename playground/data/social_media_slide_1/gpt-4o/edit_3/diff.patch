@@ -1,0 +1,16 @@
+--- ./data/social_media_slide_1/init/code.py	2025-02-20 02:15:04.890042645 +0000
++++ ./data/social_media_slide_1/gpt-4o/edit_3/code.py	2025-02-20 14:50:52.106707881 +0000
+@@ -13,10 +13,9 @@
+ # Define image path
+ image_path = "../../media/image_0.jpg"
+ 
+-# Add the image in the center of the slide
+-# Centering calculations
+-image_width = Inches(3)
+-image_height = Inches(3)
++# Increase the overall size of the image
++image_width = Inches(5)  # Increased size
++image_height = Inches(5)  # Increased size
+ 
+ left = (presentation.slide_width - image_width) / 2
+ top = (presentation.slide_height - image_height) / 2

@@ -1,1 +1,0 @@
-Align the list items in the rendered image to match the uniform spacing and alignment seen in the target image.

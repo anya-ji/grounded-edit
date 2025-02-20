@@ -1,0 +1,5 @@
+<edit>Change the font color of the "PART 1" text to match the target slide (dark blue).</edit>
+<edit>Adjust the background color of the rendered slide to match the target light background color.</edit>
+<edit>Increase the spacing between the numbered questions to ensure they are evenly spaced without overlap.</edit>
+<edit>Change the text color of the questions to match the target slide (dark gray).</edit>
+<edit>Modify the button "QUIZ & REVIEW ACTIVITY" to have rounded corners to align with the design of the target slide.</edit>

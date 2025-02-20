@@ -1,0 +1,1 @@
+Modify the text color of the slide background to white to enhance contrast and readability with the text color.

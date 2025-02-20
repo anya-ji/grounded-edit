@@ -1,0 +1,1 @@
+Add a blue background color (#003366) to the title text box.

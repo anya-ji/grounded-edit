@@ -1,1 +1,0 @@
-Change the background color of the text bubbles from pastel blue to white for improved contrast and text readability.

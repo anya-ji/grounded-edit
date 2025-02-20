@@ -1,1 +1,0 @@
-Add bulleted formatting to the text content and include checkboxes next to each bullet point to match the layout of the target image.

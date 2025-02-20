@@ -1,0 +1,1 @@
+Adjust the alignment of the name and title text for each individual to ensure they are left-aligned, as seen in the target slide.

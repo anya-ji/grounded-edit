@@ -1,0 +1,1 @@
+Format the "Types of Blockchain" title to be bold for emphasis.

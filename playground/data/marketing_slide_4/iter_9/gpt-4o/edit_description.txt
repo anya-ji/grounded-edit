@@ -1,1 +1,0 @@
-Add a thick red banner at the bottom of the rendered image to match the layout of the target image.

@@ -1,0 +1,20 @@
+--- ./data/art_photos_slide_7/init/code.py	2025-02-20 02:15:04.317043818 +0000
++++ ./data/art_photos_slide_7/gpt-4o/edit_1/code.py	2025-02-20 11:26:42.345371270 +0000
+@@ -47,13 +47,15 @@
+ 
+ p = content_frame.add_paragraph()
+ p.text = "A. *Still life* is a work of art that does not have life."
+-p.font.size = Pt(24)
++p.font.size = Pt(24)  # Maintain font size for sub-bullets
++p.font.bold = True  # Change to bold for consistency
+ p.space_after = Pt(6)
+ p.level = 1  # Sub-bullet
+ 
+ p = content_frame.add_paragraph()
+ p.text = "examples: (food, flower, plants, rocks or shells) or man-made (drinking glasses, books, vases, jewelry, coins and so on) in an artificial setting."
+-p.font.size = Pt(24)
++p.font.size = Pt(24)  # Maintain font size for sub-bullets
++p.font.bold = True  # Change to bold for consistency
+ p.level = 1  # Sub-bullet
+ 
+ # Set content box background to white for readability

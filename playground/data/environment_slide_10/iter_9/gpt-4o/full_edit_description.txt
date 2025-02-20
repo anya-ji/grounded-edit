@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image features the text "THANK YOU" in a soft green color with distinct and stylized letters on a white background, accompanied by a light green geometric border.
-2. Description of Rendered Image: The rendered image shows the text "THANK YOU" in a bright green color, with a slightly different font style and boldness, on a plain white background without any border.
-3. Change Suggestion: Change the text color from bright green to a soft green similar to that in the target image.
-```

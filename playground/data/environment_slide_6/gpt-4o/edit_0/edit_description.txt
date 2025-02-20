@@ -1,0 +1,1 @@
+Change the background color of the slide from light green to a softer pastel color, such as #D9EAD3.

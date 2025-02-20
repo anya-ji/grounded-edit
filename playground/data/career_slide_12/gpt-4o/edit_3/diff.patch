@@ -1,0 +1,16 @@
+--- ./data/career_slide_12/init/code.py	2025-02-20 02:15:04.970042482 +0000
++++ ./data/career_slide_12/gpt-4o/edit_3/code.py	2025-02-20 11:59:11.575784140 +0000
+@@ -11,11 +11,11 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set a dark background color for the slide
++# Set a very dark gray background color for the slide
+ background = slide.background
+ fill = background.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(34, 34, 34)  # Dark gray
++fill.fore_color.rgb = RGBColor(50, 50, 50)  # Adjusted to a very dark gray
+ 
+ # Add slide title
+ title = slide.shapes.title

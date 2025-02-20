@@ -1,0 +1,5 @@
+<edit>Change the font size of the title "IMPORTANCE OF SKILLS BEYOND ACADEMICS" to 60 to match the target slide size.</edit>
+<edit>Change the bullet symbol from a standard dot to a filled circle for improved visibility.</edit>
+<edit>Adjust the color of the main bullet points to white for better contrast against the dark background.</edit>
+<edit>Add a line break between each main point to enhance readability and prevent overlap.</edit>
+<edit>Update the text color of the subpoints under “Networking and Relationship Building” to white for consistency with other points.</edit>

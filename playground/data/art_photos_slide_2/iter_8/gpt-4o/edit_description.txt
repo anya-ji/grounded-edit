@@ -1,1 +1,0 @@
-Adjust the size of the white box containing the main body text in the rendered image to match the proportion and positioning of the white box in the target image.

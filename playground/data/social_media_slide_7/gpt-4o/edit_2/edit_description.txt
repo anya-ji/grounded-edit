@@ -1,0 +1,1 @@
+Increase the spacing between the bullet points to ensure they are not too close to each other.

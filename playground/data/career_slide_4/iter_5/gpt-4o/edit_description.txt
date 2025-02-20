@@ -1,1 +1,0 @@
-Increase the font size of the headings in the rendered image to match the size of the headings in the target image for better visibility.

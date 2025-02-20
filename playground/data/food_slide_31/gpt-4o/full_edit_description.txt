@@ -1,0 +1,5 @@
+<edit>Change the font size of the section title "LESSON REFLECTION:" to 36 points for better visibility.</edit>
+<edit>Add a text box for questions 1 and 2 to match the formatting with question 3, ensuring consistent layout.</edit>
+<edit>Change the background color of the slide to a light blue shade to enhance readability.</edit>
+<edit>Change the text color of the questions to a dark gray for improved readability against the background.</edit>
+<edit>Add a bullet point format for questions 1, 2, and 3 to ensure that they are numerically ordered consistently.</edit>

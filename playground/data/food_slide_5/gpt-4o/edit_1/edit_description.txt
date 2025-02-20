@@ -1,0 +1,1 @@
+Modify the font size of the title "PART 3" to 24pt to match the target slide's text size.

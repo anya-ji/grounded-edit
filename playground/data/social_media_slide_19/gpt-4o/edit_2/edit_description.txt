@@ -1,0 +1,1 @@
+Add spacing of 10 points below the checklist items to improve readability.

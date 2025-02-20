@@ -1,0 +1,26 @@
+--- ./data/marketing_slide_27/init/code.py	2025-02-20 02:15:03.944044582 +0000
++++ ./data/marketing_slide_27/gpt-4o/edit_4/code.py	2025-02-20 14:14:49.051679707 +0000
+@@ -12,11 +12,11 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set background color to dark gray
++# Set background color to a lighter shade
+ background = slide.background
+ fill = background.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(64, 64, 64)  # Dark gray
++fill.fore_color.rgb = RGBColor(240, 240, 240)  # Lighter gray
+ 
+ # Define the images
+ image_paths = [
+@@ -58,7 +58,7 @@
+ p.text = title_text
+ p.font.size = Pt(40)
+ p.font.bold = True
+-p.font.color.rgb = RGBColor(255, 255, 255)  # White color for contrast
++p.font.color.rgb = RGBColor(0, 0, 0)  # Black color for contrast
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

@@ -1,1 +1,0 @@
-Remove the check marks from each bullet point in the rendered image to match the target image.

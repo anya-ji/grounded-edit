@@ -1,1 +1,0 @@
-Add an orange ribbon-like graphic at the top left corner of the rendered image to match the style of the target image.

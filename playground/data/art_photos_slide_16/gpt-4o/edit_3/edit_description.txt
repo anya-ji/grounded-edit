@@ -1,0 +1,1 @@
+Add a margin of 10 pixels around the text box containing "Sources of the Subject" to maintain proper spacing from surrounding elements.

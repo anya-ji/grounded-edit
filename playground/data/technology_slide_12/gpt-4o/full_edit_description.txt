@@ -1,0 +1,5 @@
+<edit>Change the font size of the text "Thank You!" to a smaller size, such as 48pt.</edit>
+<edit>Change the font style of the text "Thank You!" to a regular style instead of bold.</edit>
+<edit>Change the background color of the slide to white (RGB: 255, 255, 255).</edit>
+<edit>Adjust the position of the text "Thank You!" to be vertically centered on the slide.</edit>
+<edit>Remove the border line from the bottom of the slide.</edit>

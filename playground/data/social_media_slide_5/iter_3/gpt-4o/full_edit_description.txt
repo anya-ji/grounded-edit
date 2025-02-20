@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image features the title "5 Stages of Development of Media" at the top, with the second stage labeled "2. SCRIPT." Below that, there are two bullet points of text. It includes a large broken piece of parchment paper with writing on it on the right side.
-2. Description of Rendered Image: The rendered image has the same title and subtitle, but the second stage is labeled "2. SCRIPT" instead of "2. SCRIPTS." The text below remains the same, but the formatting for the bullet points appears different, and the parchment piece is placed similarly to the target image.
-3. Change Suggestion: Change the title text from "2. SCRIPT" to "2. SCRIPTS."
-```

@@ -1,0 +1,1 @@
+Decrease the size of the image to 70% of its current size to ensure sufficient spacing around it.

@@ -1,0 +1,26 @@
+--- ./data/marketing_slide_23/init/code.py	2025-02-20 02:15:03.865044744 +0000
++++ ./data/marketing_slide_23/gpt-4o/edit_1/code.py	2025-02-20 14:09:45.735223568 +0000
+@@ -27,14 +27,20 @@
+ p.font.bold = True
+ p.font.color.rgb = RGBColor(255, 255, 255)
+ 
+-# Add first bullet point with orange box
++# Add first bullet point with gradient orange box
+ left = Inches(1)
+ top = Inches(2)
+ width = Inches(6)
+ height = Inches(1.5)
+ orange_box = slide.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, left, top, width, height)
+-orange_box.fill.solid()
+-orange_box.fill.fore_color.rgb = RGBColor(255, 165, 0)
++fill = orange_box.fill
++fill.gradient()
++stop1 = fill.gradient_stops[0]
++stop1.position = 0.0
++stop1.color.rgb = RGBColor(255, 165, 0)  # orange
++stop2 = fill.gradient_stops[1]
++stop2.position = 1.0
++stop2.color.rgb = RGBColor(255, 140, 0)  # dark orange
+ orange_box.line.color.rgb = RGBColor(255, 165, 0)
+ 
+ text_frame1 = orange_box.text_frame

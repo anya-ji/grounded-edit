@@ -1,0 +1,1 @@
+Ensure that there is consistent spacing of at least 10 pixels between section titles and their content to avoid crowding.

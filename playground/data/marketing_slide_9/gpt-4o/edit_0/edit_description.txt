@@ -1,0 +1,1 @@
+Change the font color of the title "From Factory to the Market" from white to a darker shade to enhance readability against the background.

@@ -1,1 +1,0 @@
-Change the background color of the rendered image from pale purple to a light blue similar to that of the target image for better contrast and readability.

@@ -1,1 +1,0 @@
-Change the background color from dark blue to a lighter green to make it match the target image's background, enhancing the vibrancy and coherence with the colorful elements in the foreground.

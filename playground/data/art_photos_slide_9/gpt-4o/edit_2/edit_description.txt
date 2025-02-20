@@ -1,0 +1,1 @@
+Reduce the size of the "B. Portrait" text to match the font size of "Representational or Objective Art" for consistent hierarchy.

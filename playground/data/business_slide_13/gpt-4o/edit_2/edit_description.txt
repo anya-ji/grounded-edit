@@ -1,0 +1,1 @@
+Add 20 pixels of padding above the text "Innovations (Future Products or Services)" to increase spacing from the top edge of the slide.

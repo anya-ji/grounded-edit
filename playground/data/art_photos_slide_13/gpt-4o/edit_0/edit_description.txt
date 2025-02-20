@@ -1,0 +1,1 @@
+Change the font size of the title "The Subject and Content of Art" to 24pt.

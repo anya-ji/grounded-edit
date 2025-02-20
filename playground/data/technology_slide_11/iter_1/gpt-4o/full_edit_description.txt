@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The image displays the title "Disadvantages of Blockchain" at the top, followed by a list of disadvantages with checkboxes. There is a right-hand column with a bullet-point list, and the word "Dissadvantages" is vertically aligned on the right side, pointing downwards.
-2. Description of Rendered Image: The image has the same title and lists of disadvantages but does not include checkboxes for the items. The right-hand column and the vertical alignment of "Dissadvantages" is inconsistent with the target image's placement and font style.
-3. Change Suggestion: Add checkboxes to the list items in the rendered image to match the target image formatting.
-```

@@ -1,0 +1,5 @@
+<edit>Change the text "ACADEMIC WORLD" from a bold blue color to a bold lighter blue color to enhance the contrast.</edit>
+<edit>Change the font style of "Evaluation and Feedback" sections from italic to regular to ensure consistency.</edit>
+<edit>Adjust the bullet points from using hyphens ("-") to using bullets ("•") for the "Assessment" and "Feedback" sections for better readability.</edit>
+<edit>Ensure that there is consistent spacing of at least 10 pixels between section titles and their content to avoid crowding.</edit>
+<edit>Update the text color of "PROFESSIONAL WORLD" from green to a darker green to improve readability against the background.</edit>

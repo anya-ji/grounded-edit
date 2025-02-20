@@ -1,0 +1,5 @@
+<edit>Change the title font size to match the target slide, using `font_size = 48`.</edit>
+<edit>Remove the "Source: Airbnb and Design Studio, 2017" line from the bottom of the slide.</edit>
+<edit>Adjust the spacing between the illustrations and the text above to ensure they do not overlap, setting a margin of `20` units between them.</edit>
+<edit>Change the color of the text "People", "Places", "Love", and "Airbnb" to white to improve readability.</edit>
+<edit>Extend the background color of the slide down to the bottom edge to avoid any visual gaps.</edit>

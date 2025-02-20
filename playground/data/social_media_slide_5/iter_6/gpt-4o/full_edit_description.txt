@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image features text on a scroll-like parchment with a faded, aged appearance, where the scroll has jagged edges and a few irregular tear marks, enhancing its ancient look.
-2. Description of Rendered Image: The rendered image displays a similar parchment with text, but the edges appear more uniform and devoid of significant wear and tear, lacking characteristics of aging and damage.
-3. Change Suggestion: Apply a rugged edge effect to the parchment to create jagged, irregular outlines and add subtle wear marks to replicate an aged appearance.
-```

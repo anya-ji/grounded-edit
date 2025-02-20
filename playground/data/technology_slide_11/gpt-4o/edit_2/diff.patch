@@ -1,0 +1,10 @@
+--- ./data/technology_slide_11/init/code.py	2025-02-20 02:15:05.083042250 +0000
++++ ./data/technology_slide_11/gpt-4o/edit_2/code.py	2025-02-20 15:31:43.478735118 +0000
+@@ -38,6 +38,7 @@
+     p.text = point
+     p.font.size = Pt(24)
+     p.space_after = Pt(10)
++    p.alignment = PP_ALIGN.LEFT  # Aligning text to the left
+ 
+ # Add image on the right
+ image_path = "../../media/image_0.jpg"

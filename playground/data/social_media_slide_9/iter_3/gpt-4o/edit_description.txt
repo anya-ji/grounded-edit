@@ -1,1 +1,0 @@
-Ensure that the second point ends with a period for consistency and also adjust the size of the title text to match the first line's font size in the target image.

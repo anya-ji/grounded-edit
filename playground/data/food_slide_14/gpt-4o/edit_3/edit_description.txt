@@ -1,0 +1,1 @@
+Adjust the spacing between the list items to 10px to ensure better separation and clarity between them.

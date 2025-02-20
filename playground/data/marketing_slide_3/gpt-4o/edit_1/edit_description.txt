@@ -1,0 +1,1 @@
+Increase the font size of the text to enhance readability, for example, from 24pt to 32pt.

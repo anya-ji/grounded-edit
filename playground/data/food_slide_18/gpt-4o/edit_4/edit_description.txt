@@ -1,0 +1,1 @@
+Increase the spacing between the numbered questions in the rendered slide to ensure they are distinct and easy to read.

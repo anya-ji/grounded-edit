@@ -1,1 +1,0 @@
-Increase the height of the text box containing the point 3 content to ensure all text is fully visible without clipping.

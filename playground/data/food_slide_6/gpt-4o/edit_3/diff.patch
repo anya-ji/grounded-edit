@@ -1,0 +1,10 @@
+--- ./data/food_slide_6/init/code.py	2025-02-20 02:15:04.703043028 +0000
++++ ./data/food_slide_6/gpt-4o/edit_3/code.py	2025-02-20 13:43:42.290972121 +0000
+@@ -26,6 +26,7 @@
+ main_question_text.text = "What do you think are some good ways to make a good first impression on a date?"
+ main_question_text.font.size = Pt(24)
+ main_question_text.font.bold = True
++main_question_text.font.color.rgb = RGBColor(0, 0, 139)  # Change to darker blue (#00008b)
+ main_question_text.font.color.rgb = RGBColor(0, 0, 139)  # Dark blue
+ 
+ # Add speech bubble graphic on the left

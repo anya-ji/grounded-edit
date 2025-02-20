@@ -1,1 +1,0 @@
-Increase the contrast of the pink highlights in the rendered image to make them more vibrant against the background, enhancing readability.

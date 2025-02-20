@@ -1,0 +1,1 @@
+Reduce the font size of the title text to 36pt for better fitting within the allocated space, using `title_text.font_size = 36`.

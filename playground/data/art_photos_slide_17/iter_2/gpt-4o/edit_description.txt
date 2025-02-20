@@ -1,1 +1,0 @@
-Remove the white rectangle around the text to enhance visual coherence and better match the target image's presentation style.

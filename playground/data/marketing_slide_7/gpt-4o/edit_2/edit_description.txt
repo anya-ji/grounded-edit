@@ -1,0 +1,1 @@
+Change the font size of the primary text to a larger size (e.g., increase from 24pt to 36pt) for enhanced visibility.

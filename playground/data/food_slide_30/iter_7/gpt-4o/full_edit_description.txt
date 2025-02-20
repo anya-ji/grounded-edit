@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: A dialogue exercise with verb tenses highlighted in pink, emphasizing the parts where past simple or past continuous should be used, organized clearly for students.
-2. Description of Rendered Image: A similar dialogue exercise with the same highlighted verb tenses but with less contrast between the text and the background, making it harder to read.
-3. Change Suggestion: Increase the contrast of the pink highlights in the rendered image to make them more vibrant against the background, enhancing readability.
-```

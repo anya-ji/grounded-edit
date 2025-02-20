@@ -1,1 +1,0 @@
-Adjust the cropping of the rendered image to include the full bottom section of the collage, ensuring all individuals in that section are visible.

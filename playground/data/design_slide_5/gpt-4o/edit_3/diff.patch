@@ -1,0 +1,18 @@
+--- ./data/design_slide_5/init/code.py	2025-02-20 02:15:04.607043225 +0000
++++ ./data/design_slide_5/gpt-4o/edit_3/code.py	2025-02-20 12:42:17.435798647 +0000
+@@ -1,5 +1,5 @@
+ from pptx import Presentation
+-from pptx.util import Inches, Pt, Cm
++from pptx.util import Inches, Pt
+ from pptx.dml.color import RGBColor
+ 
+ presentation = Presentation()
+@@ -35,7 +35,7 @@
+ 
+ # List of items with varying background shades
+ items = [
+-    ("Arrangement", RGBColor(173, 216, 230)),  # Light blue
++    ("Arrangement", RGBColor(152, 251, 152)),  # Changed to Light green for consistency
+     ("Proximity", RGBColor(152, 251, 152)),   # Light green
+     ("Repetition", RGBColor(135, 206, 235)),  # Sky blue
+     ("Contrast", RGBColor(144, 238, 144)),    # Light green

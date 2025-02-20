@@ -1,0 +1,1 @@
+Ensure adequate padding around the text elements, adding at least 20 pixels of margin on all sides of the text box.

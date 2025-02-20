@@ -1,1 +1,0 @@
-Change the font color of "ENVIRONMENT" from dark green to a brighter shade of green to create a more cohesive look with the background and match the original image's style.

@@ -1,0 +1,11 @@
+--- ./data/art_photos_slide_2/init/code.py	2025-02-20 02:15:04.280043894 +0000
++++ ./data/art_photos_slide_2/gpt-4o/edit_2/code.py	2025-02-20 11:06:31.907678725 +0000
+@@ -32,7 +32,7 @@
+ main_title_box = slide.shapes.add_textbox(Inches(6), Inches(1), Inches(8), Inches(1.5))
+ main_title = main_title_box.text_frame.add_paragraph()
+ main_title.text = "The Subject of Art"
+-main_title.font.size = Pt(32)
++main_title.font.size = Pt(24)  # Adjusted font size to match
+ main_title.font.bold = True
+ main_title.font.color.rgb = RGBColor(0, 0, 0)
+ main_title_box.fill.solid()

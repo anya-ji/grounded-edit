@@ -1,0 +1,11 @@
+--- ./data/environment_slide_2/init/code.py	2025-02-20 02:15:04.797042836 +0000
++++ ./data/environment_slide_2/gpt-4o/edit_2/code.py	2025-02-20 12:53:59.418262938 +0000
+@@ -42,7 +42,7 @@
+ 
+ for point in bullet_points:
+     p = content_frame.add_paragraph()
+-    p.text = point
++    p.text = "• " + point  # Added bullet point character
+     p.font.size = Pt(24)
+     p.font.color.rgb = RGBColor(0, 0, 0)  # Black font
+     p.space_after = Pt(10)  # Space between bullet points

@@ -1,0 +1,1 @@
+Change the text color of the body text to a darker shade like #333333 for better readability.

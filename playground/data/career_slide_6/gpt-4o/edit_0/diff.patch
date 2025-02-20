@@ -1,0 +1,11 @@
+--- ./data/career_slide_6/init/code.py	2025-02-20 02:15:05.003042414 +0000
++++ ./data/career_slide_6/gpt-4o/edit_0/code.py	2025-02-20 12:25:59.691111212 +0000
+@@ -38,7 +38,7 @@
+ sec1_title_p.text = "Global Competitiveness"
+ sec1_title_p.font.bold = True
+ sec1_title_p.font.size = Pt(30)
+-sec1_title_p.font.color.rgb = RGBColor(255, 255, 0)  # Yellow text
++sec1_title_p.font.color.rgb = RGBColor(255, 255, 255)  # Changed to white text
+ 
+ sec1_text_box = slide.shapes.add_textbox(Inches(1), Inches(6.2), Inches(4.5), Inches(1.8))
+ sec1_text_frame = sec1_text_box.text_frame

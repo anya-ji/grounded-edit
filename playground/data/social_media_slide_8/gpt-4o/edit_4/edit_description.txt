@@ -1,0 +1,1 @@
+Increase the spacing between the two bullet points to at least 15px to ensure they are clearly separated.

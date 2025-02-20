@@ -1,1 +1,0 @@
-Replace the background of the rendered image with a panoramic city skyline to match the setting of the target image.

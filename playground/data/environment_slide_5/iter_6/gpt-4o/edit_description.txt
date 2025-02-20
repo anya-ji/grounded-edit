@@ -1,1 +1,0 @@
-Change the background color from bright green to white to match the target image.

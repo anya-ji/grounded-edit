@@ -1,0 +1,1 @@
+Increase the font size of both text items to improve readability by using: `text_item.font_size = 24` for each text element.

@@ -1,0 +1,25 @@
+--- ./data/career_slide_8/init/code.py	2025-02-20 02:15:05.008042404 +0000
++++ ./data/career_slide_8/gpt-4o/edit_2/code.py	2025-02-20 12:31:32.378356279 +0000
+@@ -44,12 +44,14 @@
+     name_p.font.bold = True
+     name_p.font.size = Pt(18)
+     name_p.font.color.rgb = RGBColor(255, 255, 0)
++    name_p.alignment = 0  # Left align
+ 
+     # Title
+     title_p = text_frame.add_paragraph()
+     title_p.text = title
+     title_p.font.size = Pt(14)
+     title_p.font.color.rgb = RGBColor(255, 255, 255)
++    title_p.alignment = 0  # Left align
+     
+     # Education
+     edu_p = text_frame.add_paragraph()
+@@ -57,6 +59,7 @@
+     edu_p.font.size = Pt(14)
+     edu_p.font.bold = True
+     edu_p.font.color.rgb = RGBColor(255, 255, 255)
++    edu_p.alignment = 0  # Left align
+ 
+     for edu in education_list:
+         edu_bullet = text_frame.add_paragraph()

@@ -1,0 +1,1 @@
+Increase the spacing between the two sections of the slide (the image and the text) to prevent visual clutter and improve clarity.

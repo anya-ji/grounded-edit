@@ -1,1 +1,0 @@
-Change the color of the heading "Fixed – Shop Retailers" from yellow to a red color to match the original target image's design.

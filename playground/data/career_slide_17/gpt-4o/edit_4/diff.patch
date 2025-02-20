@@ -1,0 +1,29 @@
+--- ./data/career_slide_17/init/code.py	2025-02-20 02:15:05.014042392 +0000
++++ ./data/career_slide_17/gpt-4o/edit_4/code.py	2025-02-20 12:12:55.417667886 +0000
+@@ -62,7 +62,7 @@
+ academic_details_bullet.level = 1
+ 
+ # Right section: Professional World
+-professional_title = slide.shapes.add_textbox(Inches(8), Inches(2), Inches(7), Inches(1))
++professional_title = slide.shapes.add_textbox(Inches(8), Inches(2 + 0.75), Inches(7), Inches(1))  # Increased margin (20 pixels = 0.75 inches)
+ professional_title_frame = professional_title.text_frame
+ professional_title_p = professional_title_frame.add_paragraph()
+ professional_title_p.text = "PROFESSIONAL WORLD"
+@@ -70,7 +70,7 @@
+ professional_title_p.font.bold = True
+ professional_title_p.font.color.rgb = RGBColor(0, 128, 0)  # green font
+ 
+-professional_outcome = slide.shapes.add_textbox(Inches(8), Inches(3), Inches(7), Inches(1))
++professional_outcome = slide.shapes.add_textbox(Inches(8), Inches(3 + 0.75), Inches(7), Inches(1))  # Increased margin
+ professional_outcome_frame = professional_outcome.text_frame
+ professional_outcome_p = professional_outcome_frame.add_paragraph()
+ professional_outcome_p.text = "Outcome"
+@@ -78,7 +78,7 @@
+ professional_outcome_p.font.bold = True
+ professional_outcome_p.font.color.rgb = RGBColor(255, 255, 0)  # yellow font
+ 
+-professional_achievement = slide.shapes.add_textbox(Inches(8), Inches(4), Inches(7), Inches(2))
++professional_achievement = slide.shapes.add_textbox(Inches(8), Inches(4 + 0.75), Inches(7), Inches(2))  # Increased margin
+ professional_achievement_frame = professional_achievement.text_frame
+ professional_achievement_p = professional_achievement_frame.add_paragraph()
+ professional_achievement_p.text = "Achievement and Success"

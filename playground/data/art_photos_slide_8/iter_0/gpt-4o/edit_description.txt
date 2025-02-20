@@ -1,1 +1,0 @@
-Increase the brightness and contrast of the rendered image to enhance the vibrancy of the flowers, similar to the target image.

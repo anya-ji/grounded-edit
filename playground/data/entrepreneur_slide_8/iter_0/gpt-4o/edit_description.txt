@@ -1,1 +1,0 @@
-Adjust the text formatting to eliminate the overlap by reducing the font size of the header "Obstacles that Elon faced" and ensuring proper text spacing.

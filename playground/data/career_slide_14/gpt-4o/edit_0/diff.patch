@@ -1,0 +1,11 @@
+--- ./data/career_slide_14/init/code.py	2025-02-20 02:15:04.994042432 +0000
++++ ./data/career_slide_14/gpt-4o/edit_0/code.py	2025-02-20 12:02:05.374358081 +0000
+@@ -34,7 +34,7 @@
+ academic_title_paragraph = academic_title_frame.add_paragraph()
+ academic_title_paragraph.text = academic_title_text
+ academic_title_paragraph.font.size = Pt(24)
+-academic_title_paragraph.font.color.rgb = RGBColor(0, 0, 255) # Blue color
++academic_title_paragraph.font.color.rgb = RGBColor(173, 216, 230)  # Light blue color
+ academic_title_paragraph.font.bold = True
+ 
+ # Academic World: Goal and Focus

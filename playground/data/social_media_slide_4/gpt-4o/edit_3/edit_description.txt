@@ -1,0 +1,1 @@
+Add a new line before the text "Language allowed humans to communicate and share information" to maintain proper separation between elements.

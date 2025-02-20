@@ -1,0 +1,1 @@
+Increase the font size of the header text "Three perspectives on global cultural flows:" to 40 pt for better visibility.

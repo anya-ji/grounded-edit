@@ -1,0 +1,16 @@
+--- ./data/marketing_slide_12/init/code.py	2025-02-20 02:15:03.935044600 +0000
++++ ./data/marketing_slide_12/gpt-4o/edit_0/code.py	2025-02-20 13:51:48.587044794 +0000
+@@ -12,11 +12,11 @@
+ presentation.slide_width = Inches(16)
+ presentation.slide_height = Inches(9)
+ 
+-# Set the background gradient color
++# Set the background color to black
+ background = slide.background
+ fill = background.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(64, 64, 64)  # Dark gray gradient
++fill.fore_color.rgb = RGBColor(0, 0, 0)  # Black background
+ 
+ # Add title text
+ title_box = slide.shapes.add_textbox(Inches(1), Inches(0.5), Inches(14), Inches(1))

@@ -1,0 +1,1 @@
+Add a bullet point symbol (✓) to the beginning of the first bullet point in the body text for consistency with the second bullet point.

@@ -1,1 +1,0 @@
-Overlay the text from the target image onto the rendered image, using a clear, bold font with contrasting colors (orange and yellow) for visibility against the existing monochrome background.

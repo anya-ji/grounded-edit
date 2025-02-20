@@ -1,1 +1,0 @@
-Change the background color of the text box labeled "For more professional assistance" to match the gradient and shade of the other text boxes to ensure visual consistency.

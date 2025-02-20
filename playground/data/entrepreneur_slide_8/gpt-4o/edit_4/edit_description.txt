@@ -1,0 +1,1 @@
+Modify the background color of the first section from white to a light gray to improve contrast with the blue text box.

@@ -1,0 +1,1 @@
+Remove extra space after each list item to prevent excessive vertical spacing between them.

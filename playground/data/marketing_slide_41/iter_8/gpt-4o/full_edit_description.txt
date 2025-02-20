@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image features a background gradient transitioning from dark teal to lighter shades, with bold yellow text that reads "Research Work:" and a complete sentence below it. The text is centrally aligned and clear.
-2. Description of Rendered Image: The rendered image has a background gradient that transitions from dark green to light green. The text is also yellow, but it has lost the structure and alignment found in the target image; it is only partially displayed and poorly aligned at the top left corner.
-3. Change Suggestion: Adjust the background gradient to transition from dark teal to lighter teal, and center-align the text horizontally and vertically in the rendered image.
-```

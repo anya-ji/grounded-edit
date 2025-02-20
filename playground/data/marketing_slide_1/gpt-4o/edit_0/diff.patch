@@ -1,0 +1,17 @@
+--- ./data/marketing_slide_1/init/code.py	2025-02-20 02:15:03.946044578 +0000
++++ ./data/marketing_slide_1/gpt-4o/edit_0/code.py	2025-02-20 13:46:38.662636083 +0000
+@@ -17,12 +17,12 @@
+ slide.shapes.add_picture(image_left_path, Inches(0), Inches(0), Inches(8), Inches(9))
+ slide.shapes.add_picture(image_right_path, Inches(8), Inches(0), Inches(8), Inches(9))
+ 
+-# Add the title text on the right side
++# Add the title text on the right side with updated font size
+ title_box = slide.shapes.add_textbox(Inches(9), Inches(1), Inches(6), Inches(1.5))
+ title_frame = title_box.text_frame
+ title = title_frame.add_paragraph()
+ title.text = "MARKET AROUND US CHAPTER-6"
+-title.font.size = Pt(44)
++title.font.size = Pt(40)  # Updated font size to 40pt
+ title.font.bold = True
+ title.font.color.rgb = RGBColor(255, 255, 255)
+ 

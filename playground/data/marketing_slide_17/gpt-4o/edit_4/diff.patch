@@ -1,0 +1,15 @@
+--- ./data/marketing_slide_17/init/code.py	2025-02-20 02:15:03.967044535 +0000
++++ ./data/marketing_slide_17/gpt-4o/edit_4/code.py	2025-02-20 13:59:29.643005798 +0000
+@@ -49,9 +49,9 @@
+ p.space_after = Pt(14)
+ content_frame.word_wrap = True
+ 
+-# Insert person/group icon
++# Insert person/group icon (shifted to the right)
+ image_path = "../../media/image_0.jpg"
+-icon = slide.shapes.add_picture(image_path, Inches(12), Inches(2), Inches(3), Inches(3))
++icon = slide.shapes.add_picture(image_path, Inches(13), Inches(2), Inches(3), Inches(3))  # Shifted to 13
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

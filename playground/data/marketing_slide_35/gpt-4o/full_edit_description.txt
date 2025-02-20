@@ -1,0 +1,5 @@
+<edit>Change the background color of the title text "Types of Retailers" to match the target slide's teal gradient.</edit>
+<edit>Change the color of the first box from yellow to a gold shade to align with the target's gold color.</edit>
+<edit>Adjust the arrow between the two boxes from blue to a darker gold color to ensure consistent color scheme.</edit>
+<edit>Change the background color of the second box from orange to a soft light red similar to the target slide.</edit>
+<edit>Increase the size of the title "Types of Retailers" to bold and a larger font size for better visibility.</edit>

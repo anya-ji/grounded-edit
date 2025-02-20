@@ -1,0 +1,1 @@
+Change the background color to a light gray (e.g., RGB: 240, 240, 240) for improved contrast with the text.

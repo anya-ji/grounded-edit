@@ -1,1 +1,0 @@
-Adjust the font size of the title text to match the font size in the target image, ensuring it is not oversized and does not overlap with the content below.

@@ -1,1 +1,0 @@
-Increase the font weight of the main question text to 'bold' to match the emphasis in the target image.

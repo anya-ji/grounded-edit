@@ -1,0 +1,1 @@
+Change the font size of the title "5 Stages of Development of Media" to 36 points.

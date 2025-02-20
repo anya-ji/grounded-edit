@@ -1,0 +1,10 @@
+--- ./data/food_slide_31/init/code.py	2025-02-20 02:15:04.684043067 +0000
++++ ./data/food_slide_31/gpt-4o/edit_3/code.py	2025-02-20 13:38:15.043594148 +0000
+@@ -50,6 +50,7 @@
+     p.space_after = Pt(14)
+     p.font.size = Pt(20)
+     p.alignment = PP_ALIGN.LEFT
++    p.font.color.rgb = RGBColor(128, 128, 128)  # Dark gray font
+ 
+ # Add blackboard image with label
+ blackboard_image_path = "../../media/image_0.jpg"

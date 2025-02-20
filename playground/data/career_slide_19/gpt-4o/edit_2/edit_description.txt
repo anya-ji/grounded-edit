@@ -1,0 +1,1 @@
+Update the color of the paragraph text to a darker shade, such as RGB(255, 255, 255) for better readability against the background.

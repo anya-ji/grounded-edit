@@ -1,0 +1,10 @@
+--- ./data/food_slide_29/init/code.py	2025-02-20 02:15:04.668043100 +0000
++++ ./data/food_slide_29/gpt-4o/edit_3/code.py	2025-02-20 13:34:28.868022247 +0000
+@@ -55,6 +55,7 @@
+     question_text = question_frame.add_paragraph()
+     question_text.text = question
+     question_text.font.size = Pt(14)
++    question_text.font.color.rgb = RGBColor(105, 105, 105)  # Dark gray text color
+     
+     # Add a border around the text box
+     sp = question_box

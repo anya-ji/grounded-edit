@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image features a title, "What is Blockchain?", in a large bold font, with bullet points that explain blockchain technology. The text appears clear, well-structured, and visually distinct with proper spacing between lines and sections.
-2. Description of Rendered Image: The rendered image has a similar title but the bullet points are presented in a less clear structure. The text appears crowded, with inconsistent line spacing and a lack of spacing before the bullet points.
-3. Change Suggestion: Increase the line spacing throughout the rendered image to improve readability, ensuring a clear visual separation between the bullet points and the surrounding text.
-```

@@ -1,1 +1,0 @@
-Change the text "2. SCRIPT" to bold formatting and add bullet points for the list items to match the style of the target image.

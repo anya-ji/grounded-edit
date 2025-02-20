@@ -1,0 +1,1 @@
+Adjust the layout to ensure there's a minimum of 20px padding between the text and the right edge of the slide for better spacing.

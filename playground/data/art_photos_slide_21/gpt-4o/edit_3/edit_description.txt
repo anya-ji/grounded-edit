@@ -1,0 +1,1 @@
+Change the font color of the text in the main body to a darker shade, ensuring high contrast against the background.

@@ -1,0 +1,13 @@
+--- ./data/art_photos_slide_4/init/code.py	2025-02-20 02:15:04.416043616 +0000
++++ ./data/art_photos_slide_4/gpt-4o/edit_3/code.py	2025-02-20 11:21:39.224533410 +0000
+@@ -33,8 +33,8 @@
+ main_title_text_frame.paragraphs[0].font.size = Pt(40)
+ main_title_text_frame.paragraphs[0].alignment = PP_ALIGN.CENTER
+ 
+-# Add the main content
+-content_text_box = slide.shapes.add_textbox(Inches(5), Inches(7.5), Inches(12), Inches(1.5))
++# Add the main content with padding
++content_text_box = slide.shapes.add_textbox(Inches(5) + Inches(0.01), Inches(7.5) + Inches(0.01), Inches(12) - Inches(0.02), Inches(1.5) - Inches(0.02))
+ content_text_box.fill.solid()
+ content_text_box.fill.fore_color.rgb = RGBColor(255, 255, 255)  # White background
+ content_text_frame = content_text_box.text_frame

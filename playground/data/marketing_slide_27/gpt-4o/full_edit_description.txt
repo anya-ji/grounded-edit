@@ -1,0 +1,5 @@
+<edit>Change the shape of the image placeholders from circular to rectangular with rounded corners, using the command: `plt.gca().add_patch(plt.Rectangle((x, y), width, height, radius=corner_radius, color='white'))`.</edit>
+<edit>Update the title font size to 30 points by modifying: `plt.title("Types of Markets", fontsize=30)`.</edit>
+<edit>Adjust the vertical spacing between the rows of images to be 30 pixels using: `plt.subplots_adjust(hspace=0.3)`.</edit>
+<edit>Change the text color for "Types of Markets" to a darker shade for better contrast, using `plt.title("Types of Markets", color='black')`.</edit>
+<edit>Replace the background color of the slide with a lighter shade for improved readability using: `plt.gcf().set_facecolor('#f0f0f0')`.</edit>

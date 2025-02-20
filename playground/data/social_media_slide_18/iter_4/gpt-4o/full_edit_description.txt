@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image contains a text block with a title in a blue font and bullet points marked with checkmarks. The overall layout includes a defined separation of sections with different background colors.
-2. Description of Rendered Image: The rendered image presents the same text but without the blue title background, with the title in plain text. The bullet points are displayed without checkmarks and the formatting appears less organized.
-3. Change Suggestion: Add a blue background to the title "Three perspectives on global cultural flows:" and restore the checkmark bullet points in the list.
-```

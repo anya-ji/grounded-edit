@@ -1,1 +1,0 @@
-Change the color of the headings in the rendered image from red to white to match the color scheme of the target image.

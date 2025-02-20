@@ -1,0 +1,11 @@
+--- ./data/marketing_slide_2/init/code.py	2025-02-20 02:15:03.891044690 +0000
++++ ./data/marketing_slide_2/gpt-4o/edit_1/code.py	2025-02-20 14:01:57.306540336 +0000
+@@ -23,7 +23,7 @@
+ p = text_frame.add_paragraph()
+ p.text = "What is filling your bucket today and what’s draining it?"
+ p.font.size = Pt(40)
+-p.font.color.rgb = RGBColor(255, 255, 255)  # White
++p.font.color.rgb = RGBColor(0, 77, 77)  # Dark teal
+ 
+ # Add image of bucket being filled
+ image_path = "../../media/image_1.jpg"

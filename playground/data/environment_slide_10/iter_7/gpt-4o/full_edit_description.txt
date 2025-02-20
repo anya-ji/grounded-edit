@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: A bright white background with bold green text saying "THANK YOU", featuring a stylized font that connects certain letters and has a shadow effect.
-2. Description of Rendered Image: A light green background with a pale green text saying "THANK YOU", presented in a less distinct font without shadows, and the spacing between the words appears wider than in the target image.
-3. Change Suggestion: Change the font color of "THANK YOU" in the rendered image to a brighter, bold green to match the target image more closely.
-```

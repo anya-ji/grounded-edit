@@ -1,0 +1,18 @@
+--- ./data/art_photos_slide_2/init/code.py	2025-02-20 02:15:04.280043894 +0000
++++ ./data/art_photos_slide_2/gpt-4o/edit_4/code.py	2025-02-20 11:07:07.366501685 +0000
+@@ -38,10 +38,14 @@
+ main_title_box.fill.solid()
+ main_title_box.fill.fore_color.rgb = RGBColor(255, 255, 0)  # Yellow background
+ 
+-# Add bullet points
++# Add bullet points with increased padding
+ content_box = slide.shapes.add_textbox(Inches(1), Inches(2.5), Inches(14), Inches(5))
+ text_frame = content_box.text_frame
+ text_frame.word_wrap = True
++text_frame.margin_left = Pt(10)  # Increase left padding
++text_frame.margin_right = Pt(10)  # Increase right padding
++text_frame.margin_top = Pt(10)  # Increase top padding
++text_frame.margin_bottom = Pt(10)  # Increase bottom padding
+ 
+ # Add first bullet point
+ p1 = text_frame.add_paragraph()

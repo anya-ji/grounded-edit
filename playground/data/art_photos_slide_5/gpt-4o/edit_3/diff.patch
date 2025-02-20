@@ -1,0 +1,12 @@
+--- ./data/art_photos_slide_5/init/code.py	2025-02-20 02:15:04.249043957 +0000
++++ ./data/art_photos_slide_5/gpt-4o/edit_3/code.py	2025-02-20 11:23:32.563082906 +0000
+@@ -53,7 +53,7 @@
+ p_content2 = tf_content.add_paragraph()
+ p_content2.text = "   - The subject is directly represented in the artwork like the subjects seen in portraits and other realistic visual art presentations."
+ p_content2.font.size = Pt(24)
+-p_content2.font.color.rgb = RGBColor(0, 0, 0)  # Black
++p_content2.font.color.rgb = RGBColor(0, 0, 0)  # Changed to black for better readability
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

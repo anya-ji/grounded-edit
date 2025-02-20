@@ -1,0 +1,11 @@
+--- ./data/business_slide_11/init/code.py	2025-02-20 02:15:04.126044209 +0000
++++ ./data/business_slide_11/gpt-4o/edit_1/code.py	2025-02-20 11:35:04.405646221 +0000
+@@ -20,7 +20,7 @@
+ p.font.bold = True
+ p.font.size = Pt(36)
+ p.font.name = 'Arial'
+-p.font.color.rgb = RGBColor(255, 255, 255)
++p.font.color.rgb = RGBColor(0, 0, 0)  # Darker color (black)
+ p.alignment = PP_ALIGN.LEFT
+ 
+ # Set the background for title

@@ -1,0 +1,1 @@
+Set a margin of 10 pixels around the text box containing the list items to ensure no text overlaps with the slide edges.

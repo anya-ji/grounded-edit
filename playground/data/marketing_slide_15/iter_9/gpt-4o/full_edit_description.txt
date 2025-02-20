@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image features a dark teal background with question marks in a speech bubble, surrounded by two stylized people figures in blue. There is white text on the image asking about qualities in a friend.
-2. Description of Rendered Image: The rendered image has a lighter blue gradient background, two people figures in blue, a speech bubble with a question mark, but the text is positioned differently and has a different question format.
-3. Change Suggestion: Change the background color of the rendered image to a dark teal similar to the target image.
-```

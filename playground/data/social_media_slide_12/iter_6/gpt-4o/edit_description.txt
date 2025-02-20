@@ -1,1 +1,0 @@
-Adjust the position of the title and ensure it is fully visible by increasing the top margin of the text box containing the title.

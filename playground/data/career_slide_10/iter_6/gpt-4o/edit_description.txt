@@ -1,1 +1,0 @@
-Center-align the text of each individual so that it matches the alignment seen in the target image.

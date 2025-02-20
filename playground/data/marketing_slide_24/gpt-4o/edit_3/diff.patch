@@ -1,0 +1,11 @@
+--- ./data/marketing_slide_24/init/code.py	2025-02-20 02:15:03.883044707 +0000
++++ ./data/marketing_slide_24/gpt-4o/edit_3/code.py	2025-02-20 14:12:25.538372498 +0000
+@@ -38,7 +38,7 @@
+ title_frame = title_box.text_frame
+ title_p = title_frame.add_paragraph()
+ title_p.text = "ELO's"
+-title_p.font.size = Pt(64)
++title_p.font.size = Pt(50)  # Changed from 64 to 50
+ title_p.font.bold = True
+ title_p.font.color.rgb = RGBColor(255, 255, 255)
+ 

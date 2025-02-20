@@ -1,0 +1,11 @@
+--- ./data/food_slide_24/init/code.py	2025-02-20 02:15:04.660043116 +0000
++++ ./data/food_slide_24/gpt-4o/edit_2/code.py	2025-02-20 13:28:53.747651704 +0000
+@@ -45,7 +45,7 @@
+     "and the guy was making some really funny jokes...and then, out of nowhere, "
+     "I fell down and I broke my leg!"
+ )
+-story.font.size = Pt(20)
++story.font.size = Pt(16)  # Changed font size to 16pt
+ 
+ # Add skating image
+ skating_image_path = "../../media/image_0.jpg"

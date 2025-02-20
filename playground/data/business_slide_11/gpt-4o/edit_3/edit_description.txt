@@ -1,0 +1,1 @@
+Adjust the padding around the "Information Systems" text to ensure it does not touch the edges of its background.

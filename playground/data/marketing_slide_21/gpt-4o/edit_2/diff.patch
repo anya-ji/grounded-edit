@@ -1,0 +1,17 @@
+--- ./data/marketing_slide_21/init/code.py	2025-02-20 02:15:03.993044481 +0000
++++ ./data/marketing_slide_21/gpt-4o/edit_2/code.py	2025-02-20 14:05:39.824769139 +0000
+@@ -51,12 +51,13 @@
+     ("Consumer", left_margin + Inches(10), top_margin + Inches(1.25))
+ ]
+ 
+-# Add rectangles with text
++# Add rectangles with text and borders
+ for text, left, top in elements:
+     shape = slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, left, top, width, height)
+     shape.fill.solid()
+     shape.fill.fore_color.rgb = RGBColor(255, 140, 0)  # Orange color
+     shape.line.color.rgb = RGBColor(255, 255, 255)  # White border
++    shape.line.width = Pt(1)  # Set border width
+     add_textbox(slide, text, left, top, width, height, bold=True, align=PP_ALIGN.CENTER)
+ 
+ # Add title at the bottom

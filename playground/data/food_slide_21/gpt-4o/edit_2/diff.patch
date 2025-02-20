@@ -1,0 +1,11 @@
+--- ./data/food_slide_21/init/code.py	2025-02-20 02:15:04.701043032 +0000
++++ ./data/food_slide_21/gpt-4o/edit_2/code.py	2025-02-20 13:21:19.590486362 +0000
+@@ -43,7 +43,7 @@
+ ]
+ 
+ for i, sentence in enumerate(sentences, start=1):
+-    y_position = 2.5 + (i - 1) * 1.5
++    y_position = 2.5 + (i - 1) * 1.6  # Increased spacing for uniformity
+     slide.shapes.add_picture("../../media/image_0.jpg", Inches(0.5), Inches(y_position), Inches(0.5), Inches(0.5))
+     
+     sentence_box = slide.shapes.add_textbox(Inches(1.2), Inches(y_position), Inches(9), Inches(0.5))

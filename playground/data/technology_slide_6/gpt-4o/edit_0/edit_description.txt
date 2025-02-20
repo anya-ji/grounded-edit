@@ -1,0 +1,1 @@
+Change the bullet points from checkboxes to standard bullets by updating the list format in the Python code to use a bullet point style, e.g., `plt.text()` instead of checkmarks.

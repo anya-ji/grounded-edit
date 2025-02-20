@@ -1,0 +1,1 @@
+Resize the top image on the slide to maintain proportion and fit better within its section without overflowing.

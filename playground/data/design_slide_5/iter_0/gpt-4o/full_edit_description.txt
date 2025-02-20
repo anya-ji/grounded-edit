@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: A vertical layout with a blue background, featuring white text for the title "Principles of graphic design" and a list of principles in varying shades of green.
-2. Description of Rendered Image: A vertical layout with a blue background, featuring bold blue text for the title "Principles of Graphic Design" and a list of principles in different colors but with inconsistent formatting.
-3. Change Suggestion: Change the title text color from bold blue to white to match the target image.
-```

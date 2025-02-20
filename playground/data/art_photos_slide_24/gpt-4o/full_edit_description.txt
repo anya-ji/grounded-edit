@@ -1,0 +1,5 @@
+<edit>Change the background color of the slide to a light shade (e.g., light beige or light gray) for better readability of text.</edit>
+<edit>Change the font color of the title "KEEPIING ART" to black for better contrast against the yellow background.</edit>
+<edit>Increase the font size of the bullet point text to 24 pt to enhance readability.</edit>
+<edit>Add sufficient padding around the paragraph text to ensure it does not touch the edges of the text box.</edit>
+<edit>Change the bullet point symbol from "✓" to a solid circle for a cleaner appearance.</edit>

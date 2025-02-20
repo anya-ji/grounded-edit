@@ -1,0 +1,1 @@
+Adjust the position of the light bulb icon to increase spacing from the text, ensuring no overlap of any elements.

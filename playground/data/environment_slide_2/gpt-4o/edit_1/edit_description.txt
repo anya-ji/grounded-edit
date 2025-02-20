@@ -1,0 +1,1 @@
+Update the font color of the title "ENVIRONMENT" to a darker shade of green (e.g., Hex: #6B8E23) for better contrast and visibility.

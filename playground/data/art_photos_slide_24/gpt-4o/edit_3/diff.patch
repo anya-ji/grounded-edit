@@ -1,0 +1,15 @@
+--- ./data/art_photos_slide_24/init/code.py	2025-02-20 02:15:04.302043849 +0000
++++ ./data/art_photos_slide_24/gpt-4o/edit_3/code.py	2025-02-20 11:15:54.256085749 +0000
+@@ -52,6 +52,12 @@
+ content_frame = content_box.text_frame
+ content_frame.word_wrap = True
+ 
++# Set padding for the content frame
++content_frame.margin_left = Pt(10)
++content_frame.margin_right = Pt(10)
++content_frame.margin_top = Pt(10)
++content_frame.margin_bottom = Pt(10)
++
+ content_paragraph = content_frame.add_paragraph()
+ content_paragraph.text = "✓ Because art is valuable, enormous human efforts and financial resources are devoted to preserving art from the ravages of time, the environment, industrial-by-product, and even any other human being."
+ content_paragraph.font.size = Pt(24)

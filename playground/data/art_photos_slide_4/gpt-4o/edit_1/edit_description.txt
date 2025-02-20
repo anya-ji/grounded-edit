@@ -1,0 +1,1 @@
+Increase the font size of the title "The Subject and Content of Art" to 36px for better visibility.

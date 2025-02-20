@@ -1,0 +1,1 @@
+Change the shape of the slide background from a hexagon to a rectangle.

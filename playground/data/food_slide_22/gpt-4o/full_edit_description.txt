@@ -1,0 +1,5 @@
+<edit>Change the font color of the title "PART 3" to dark blue (#003366).</edit>
+<edit>Change the background color of the answer options (a, b, c) to a light pastel shade, such as light gray (#f0f0f0), to improve readability.</edit>
+<edit>Adjust the spacing between the answer options to be consistent, ensuring at least 10 pixels of vertical space between each option.</edit>
+<edit>Change the border color of the checkboxes to a consistent color, such as a shade of maroon (#800000).</edit>
+<edit>Make the "Check your answers" button background color orange (#FFA500) to ensure it stands out.</edit>

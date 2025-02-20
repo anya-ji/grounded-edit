@@ -1,0 +1,1 @@
+Adjust the position of the question mark graphic to ensure it does not overlap with the text; consider shifting it downwards by about 20 pixels.

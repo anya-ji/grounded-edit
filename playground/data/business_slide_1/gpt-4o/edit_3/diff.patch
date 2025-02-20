@@ -1,0 +1,14 @@
+--- ./data/business_slide_1/init/code.py	2025-02-20 02:15:04.100044262 +0000
++++ ./data/business_slide_1/gpt-4o/edit_3/code.py	2025-02-20 11:33:13.835012906 +0000
+@@ -39,9 +39,9 @@
+ p.font.bold = True
+ p.font.color.rgb = RGBColor(255, 255, 255)  # White
+ 
+-# Add names below the title
++# Adjust Y position for names to increase spacing
+ names = ["Daniel Consuegra", "Alejandra Del Chiaro", "Maria Camila Echeverri"]
+-y_position = 6.5
++y_position = 7.5  # Increased spacing from previous 6.5
+ for name in names:
+     name_box = slide.shapes.add_textbox(Inches(8.5), Inches(y_position), Inches(7), Inches(0.5))
+     tf = name_box.text_frame

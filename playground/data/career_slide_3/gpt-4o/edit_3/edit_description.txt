@@ -1,0 +1,1 @@
+Adjust the border color of the speech bubble shape to a lighter shade of gray (e.g., RGB(150, 150, 150)) for better contrast with the background.

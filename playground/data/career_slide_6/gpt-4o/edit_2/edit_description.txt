@@ -1,0 +1,1 @@
+Adjust the vertical alignment of the text block under "Cultural Enrichment and Social Cohesion" to ensure better spacing from the bottom of the slide.

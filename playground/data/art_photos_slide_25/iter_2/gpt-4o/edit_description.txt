@@ -1,1 +1,0 @@
-Change the background color of the top band in the rendered image from white to a slightly darker yellow to match the color of the target image.

@@ -1,1 +1,0 @@
-Add defined white rectangular boxes behind the text sections in the rendered image to match the layout of the target image.

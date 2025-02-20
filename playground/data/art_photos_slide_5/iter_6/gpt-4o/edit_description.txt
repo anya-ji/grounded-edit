@@ -1,1 +1,0 @@
-Adjust the text alignment in the rendered image to ensure the text within the white box is properly aligned and does not overlap with other elements.

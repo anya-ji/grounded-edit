@@ -1,0 +1,1 @@
+Adjust the font size of the section titles to be 36 points to create more emphasis.

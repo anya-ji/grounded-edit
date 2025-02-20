@@ -1,0 +1,20 @@
+--- ./data/career_slide_18/init/code.py	2025-02-20 02:15:04.972042477 +0000
++++ ./data/career_slide_18/gpt-4o/edit_2/code.py	2025-02-20 12:13:44.605536496 +0000
+@@ -1,5 +1,5 @@
+ from pptx import Presentation
+-from pptx.util import Inches, Pt
++from pptx.util import Inches, Pt, Cm  # Added Cm for centimeter support
+ from pptx.dml.color import RGBColor
+ 
+ # Create a presentation object
+@@ -61,6 +61,9 @@
+     paragraph.text = text
+     paragraph.font.size = size
+     paragraph.font.color.rgb = RGBColor(255, 255, 255)  # White color
++    paragraph.space_before = Pt(14)  # Optional: to give some space before the bullets
++    paragraph.level = 0  # Set bullet level (not strictly required for indentation)
++    paragraph.indent = Cm(0.5)  # Set the bullet point indentation to 0.5 cm
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

@@ -1,0 +1,11 @@
+--- ./data/environment_slide_3/init/code.py	2025-02-20 02:15:04.780042870 +0000
++++ ./data/environment_slide_3/gpt-4o/edit_0/code.py	2025-02-20 12:55:05.754308456 +0000
+@@ -33,7 +33,7 @@
+ title_p.text = "Types of environments"
+ title_p.font.bold = True
+ title_p.font.size = Pt(36)
+-title_p.font.color.rgb = RGBColor(34, 139, 34)  # Green color
++title_p.font.color.rgb = RGBColor(102, 187, 106)  # Lighter green color
+ title_p.alignment = PP_ALIGN.CENTER
+ 
+ # Content section

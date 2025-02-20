@@ -1,0 +1,5 @@
+<edit>Change the background color of the row containing "Phoebe sarcastically says that Sarah is a monster for her etiquette." to a light blue shade (#D0E0E9) to match the target slide.</edit>
+<edit>Add checkmarks (✔️) to the first three items in the response column to visually indicate the answers have been chosen.</edit>
+<edit>Change the font size of the title "PART 3" to 28pt to enhance its prominence in the slide.</edit>
+<edit>Align the image of Joey to the center of the space allotted for it, ensuring it maintains the same spacing from the text above and below.</edit>
+<edit>Increase the padding of the table cells to 10px to provide more breathing room around the text elements.</edit>

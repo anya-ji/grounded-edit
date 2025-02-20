@@ -1,0 +1,1 @@
+Change bullet points from "-" to "☑" for each item in the list to match the original formatting.

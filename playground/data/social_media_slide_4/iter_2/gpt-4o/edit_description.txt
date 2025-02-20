@@ -1,1 +1,0 @@
-Change the bullet points to use fragment formatting (short phrases) instead of complete sentences to align with the target image's style.

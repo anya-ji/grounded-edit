@@ -1,0 +1,1 @@
+Adjust the padding of the text box containing the content to increase the spacing around the text.

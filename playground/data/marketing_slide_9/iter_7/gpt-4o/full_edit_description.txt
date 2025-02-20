@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: A flowchart titled "From Factory to the Market" with four steps: Producer, Wholesale, Distributors, and Retailer, each in a distinct orange shape, with a light background.
-2. Description of Rendered Image: A similar flowchart with the same title, but the steps are presented in white shapes on a darker background, and the text for "Wholesale" is partially cut off.
-3. Change Suggestion: Adjust the background color of the rendered image to a light tone similar to the target image to enhance readability and visual resemblance.
-```

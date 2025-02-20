@@ -1,0 +1,1 @@
+Change the font color of the title "POSITIVE IMPACT" to a darker shade, such as black, to improve contrast against the background.

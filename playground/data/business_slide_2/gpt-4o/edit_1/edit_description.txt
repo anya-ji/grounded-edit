@@ -1,0 +1,1 @@
+Set the title font size to 48pt to match the size in the target slide.

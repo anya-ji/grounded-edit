@@ -1,0 +1,34 @@
+--- ./data/social_media_slide_9/init/code.py	2025-02-20 02:15:04.886042653 +0000
++++ ./data/social_media_slide_9/gpt-4o/edit_2/code.py	2025-02-20 15:28:28.023245989 +0000
+@@ -23,25 +23,28 @@
+ title_p.font.color.rgb = RGBColor(0, 51, 102)  # dark blue color
+ title_p.alignment = PP_ALIGN.CENTER
+ 
+-# Main content as a numbered list
++# Main content as a bullet point list
+ content_box = slide.shapes.add_textbox(Inches(0.5), Inches(2), Inches(15), Inches(5))
+ content_frame = content_box.text_frame
+ content_frame.word_wrap = True
++
+ content_p1 = content_frame.add_paragraph()
+-content_p1.text = "1. The media provide an extensive transnational transmission of cultural products and;"
++content_p1.text = "The media provide an extensive transnational transmission of cultural products and;"
+ content_p1.space_before = Pt(10)  # Add space before this point
+ content_p1.space_after = Pt(10)  # Add space after this point
+ content_p1.level = 0
+ content_p1.font.size = Pt(20)
+ content_p1.font.color.rgb = RGBColor(0, 0, 0)  # black color
++content_p1.space_after = Pt(10)  # space after for the bullet format
+ 
+ content_p2 = content_frame.add_paragraph()
+-content_p2.text = "2. It contributes to the formation of communicative networks and social structures."
++content_p2.text = "It contributes to the formation of communicative networks and social structures."
+ content_p2.space_before = Pt(10)  # Add space before this point
+ content_p2.space_after = Pt(10)  # Add space after this point
+ content_p2.level = 0
+ content_p2.font.size = Pt(20)
+ content_p2.font.color.rgb = RGBColor(0, 0, 0)  # black color
++content_p2.space_after = Pt(10)  # space after for the bullet format
+ 
+ # Additional text
+ additional_text = "Global media cultures create a continuous cultural exchange."

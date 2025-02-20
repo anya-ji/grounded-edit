@@ -1,1 +1,0 @@
-Increase the saturation of the speech bubbles in the rendered image so that the colors match the more vibrant hues seen in the target image, particularly focusing on the orange and green bubbles.

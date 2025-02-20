@@ -1,1 +1,0 @@
-Remove the blank white area on the right side of the rendered image to make it consistent with the target image, which maintains a continuous background without empty space.

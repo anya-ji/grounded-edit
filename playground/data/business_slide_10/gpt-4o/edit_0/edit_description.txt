@@ -1,0 +1,1 @@
+Change the background color of the slide to a solid pink color (RGB: 255, 97, 97) to ensure it matches the desired slide background.

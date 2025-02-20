@@ -1,0 +1,15 @@
+--- ./data/art_photos_slide_6/init/code.py	2025-02-20 02:15:04.196044066 +0000
++++ ./data/art_photos_slide_6/gpt-4o/edit_0/code.py	2025-02-20 11:24:25.540879444 +0000
+@@ -9,6 +9,12 @@
+ slide_layout = presentation.slide_layouts[5]  # blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
++# Set the background color to white
++background = slide.background
++fill = background.fill
++fill.solid()
++fill.fore_color.rgb = RGBColor(255, 255, 255)  # White background
++
+ # Set the background image
+ background_image_path = "../../media/image_0.jpg"
+ slide.shapes.add_picture(background_image_path, Inches(0), Inches(0), Inches(16), Inches(9))

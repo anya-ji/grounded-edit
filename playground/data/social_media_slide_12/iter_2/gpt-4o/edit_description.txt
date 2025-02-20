@@ -1,1 +1,0 @@
-Add a period at the end of the first bullet point in the rendered image to match the punctuation of the target image.

@@ -1,0 +1,16 @@
+--- ./data/career_slide_5/init/code.py	2025-02-20 02:15:05.012042396 +0000
++++ ./data/career_slide_5/gpt-4o/edit_2/code.py	2025-02-20 12:24:16.073333506 +0000
+@@ -68,7 +68,12 @@
+     p.text = section['title']
+     p.font.size = Pt(20)
+     p.font.bold = True
+-    p.font.color.rgb = RGBColor(255, 255, 0)
++
++    # Adjust font color for specific sections
++    if section['title'] == "Innovation and Technological Advancement" or section['title'] == "Civic Engagement and Informed Citizenship":
++        p.font.color.rgb = RGBColor(255, 255, 255)  # Change to white
++    else:
++        p.font.color.rgb = RGBColor(255, 255, 0)  # Keep yellow for other title
+ 
+     # Add content
+     text_box = slide.shapes.add_textbox(section['left'], Inches(5), layout_width, text_box_height)

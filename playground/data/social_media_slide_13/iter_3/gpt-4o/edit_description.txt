@@ -1,1 +1,0 @@
-Adjust the text block's alignment and margins in the rendered image to match the proper formatting of the target image, ensuring adequate spacing for better readability.

@@ -1,0 +1,40 @@
+--- ./data/food_slide_9/init/code.py	2025-02-20 02:15:04.664043108 +0000
++++ ./data/food_slide_9/gpt-4o/edit_4/code.py	2025-02-20 13:46:09.042692546 +0000
+@@ -30,23 +30,23 @@
+ exam_logo_path = "../../media/image_1.jpg"
+ slide.shapes.add_picture(exam_logo_path, Inches(0.5), Inches(1.5), width=Inches(1))
+ 
+-# Add questions and time indicators
+-question1_text = slide.shapes.add_textbox(Inches(2), Inches(1.5), Inches(13), Inches(1))
++# Add questions and time indicators with padding
++question1_text = slide.shapes.add_textbox(Inches(2), Inches(2.0), Inches(13), Inches(1))
+ question1_p = question1_text.text_frame.add_paragraph()
+ question1_p.text = "1: What happened on Joey’s first date with Sarah?                                         0:18"
+ question1_p.font.size = Pt(16)
+ 
+-question2_text = slide.shapes.add_textbox(Inches(2), Inches(2.5), Inches(13), Inches(1))
++question2_text = slide.shapes.add_textbox(Inches(2), Inches(3.5), Inches(13), Inches(1))
+ question2_p = question2_text.text_frame.add_paragraph()
+ question2_p.text = "2: How does Joey feel about their first date? What does he say about it?           0:48"
+ question2_p.font.size = Pt(16)
+ 
+ # Add image of Joey
+ joey_image_path = "../../media/image_0.jpg"
+-slide.shapes.add_picture(joey_image_path, Inches(13.5), Inches(1.0), width=Inches(1.5))
++slide.shapes.add_picture(joey_image_path, Inches(13.5), Inches(4.0), width=Inches(1.5))  # Adjusted position
+ 
+ # Add PART 2 title
+-part2_box = slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, Inches(0.5), Inches(4), Inches(1.5), Inches(0.5))
++part2_box = slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, Inches(0.5), Inches(5.0), Inches(1.5), Inches(0.5))
+ part2_box.fill.solid()
+ part2_box.fill.fore_color.rgb = RGBColor(0, 0, 255)  # Blue color
+ part2_text = part2_box.text_frame.add_paragraph()
+@@ -56,7 +56,7 @@
+ part2_text.font.color.rgb = RGBColor(255, 255, 255)  # White text
+ 
+ # Add instruction for PART 2
+-instruction2_text = slide.shapes.add_textbox(Inches(2.3), Inches(3.8), Inches(10), Inches(1))
++instruction2_text = slide.shapes.add_textbox(Inches(2.3), Inches(6.3), Inches(10), Inches(1))
+ instruction2_p = instruction2_text.text_frame.add_paragraph()
+ instruction2_p.text = "Refer back to Preview, Part 3. How similar was your date story to Joey’s?"
+ instruction2_p.font.size = Pt(18)

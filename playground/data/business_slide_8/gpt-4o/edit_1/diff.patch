@@ -1,0 +1,12 @@
+--- ./data/business_slide_8/init/code.py	2025-02-20 02:15:04.081044301 +0000
++++ ./data/business_slide_8/gpt-4o/edit_1/code.py	2025-02-20 11:50:05.618951080 +0000
+@@ -35,8 +35,7 @@
+     "'Belong Anywhere’ became our compass. The ‘Belo’ symbol - a sort of heart/drop pin "
+     "hybrid that can be drawn by anyone - transcends language and culture in an ode to "
+     "Airbnb’s welcoming spirit, while a warm and welcoming new colour palette reflects the "
+-    "open heartedness of its people.\n\n"
+-    "Source: Airbnb and Design Studio, 2017"
++    "open heartedness of its people."
+ )
+ content_box = slide.shapes.add_textbox(Inches(1), Inches(7), Inches(14), Inches(2))
+ content_frame = content_box.text_frame

@@ -1,0 +1,1 @@
+Modify the shape of the text box to a softer rectangle with rounded corners instead of a sharp rectangle, enhancing the visual design.

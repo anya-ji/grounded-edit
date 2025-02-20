@@ -1,1 +1,0 @@
-Change the font color of the "Professional World" section header from green to a bold green and ensure it matches the font weight used in the "Academic World" section header.

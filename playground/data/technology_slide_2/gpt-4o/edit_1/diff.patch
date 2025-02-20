@@ -1,0 +1,12 @@
+--- ./data/technology_slide_2/init/code.py	2025-02-20 02:15:05.091042234 +0000
++++ ./data/technology_slide_2/gpt-4o/edit_1/code.py	2025-02-20 15:34:18.894325380 +0000
+@@ -42,7 +42,9 @@
+     p.text = point
+     p.font.size = Pt(28)
+     p.space_after = Pt(10)
++    p.space_before = Pt(10)  # Added for better readability
+     p.level = 0
++    p.space_after = Pt(14)  # Adjusted spacing for bullet points
+ 
+ # Set a clean white background for readability
+ background = slide.background

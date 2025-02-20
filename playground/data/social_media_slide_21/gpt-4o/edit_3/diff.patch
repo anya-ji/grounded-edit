@@ -1,0 +1,11 @@
+--- ./data/social_media_slide_21/init/code.py	2025-02-20 02:15:04.900042625 +0000
++++ ./data/social_media_slide_21/gpt-4o/edit_3/code.py	2025-02-20 15:12:31.881557215 +0000
+@@ -21,7 +21,7 @@
+ text_frame.text = text
+ text_frame.paragraphs[0].font.bold = True
+ text_frame.paragraphs[0].font.size = Pt(80)
+-text_frame.paragraphs[0].font.color.rgb = RGBColor(0, 51, 102) # Dark Blue
++text_frame.paragraphs[0].font.color.rgb = RGBColor(0, 31, 91)  # Navy Blue
+ text_frame.paragraphs[0].alignment = PP_ALIGN.CENTER
+ 
+ # Save the slide to the specified path

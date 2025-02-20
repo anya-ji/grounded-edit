@@ -1,0 +1,16 @@
+--- ./data/career_slide_2/init/code.py	2025-02-20 02:15:05.010042400 +0000
++++ ./data/career_slide_2/gpt-4o/edit_0/code.py	2025-02-20 12:18:23.659013076 +0000
+@@ -11,11 +11,10 @@
+ slide_layout = presentation.slide_layouts[5]  # Choosing a blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set the background color
++# Set the background texture (example using an existing texture image)
+ background = slide.background
+ fill = background.fill
+-fill.solid()
+-fill.fore_color.rgb = RGBColor(10, 10, 10)  # Dark background
++fill.user_picture('path_to_your_texture_image.png')  # Replace with the path to your texture image
+ 
+ # Add title text
+ title_text = "WHAT ARE 'TOP GRADES'?"

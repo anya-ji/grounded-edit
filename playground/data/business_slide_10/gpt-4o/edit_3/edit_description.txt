@@ -1,0 +1,1 @@
+Adjust the position of the "Belo" text to have a top margin of 20 pixels from the top of the slide to provide more space above it.

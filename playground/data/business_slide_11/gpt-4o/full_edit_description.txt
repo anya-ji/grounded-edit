@@ -1,0 +1,5 @@
+<edit>Change the background color of the slide to white.</edit>
+<edit>Change the text color of "Information Systems" to a darker shade for better contrast.</edit>
+<edit>Resize the logo/icon to maintain consistent proportions, ensuring it fits within a designated space without overlap.</edit>
+<edit>Adjust the padding around the "Information Systems" text to ensure it does not touch the edges of its background.</edit>
+<edit>Change the fill color of the logo/icon to a shade of gray that is darker than the current pink.</edit>

@@ -1,0 +1,11 @@
+--- ./data/marketing_slide_41/init/code.py	2025-02-20 02:15:03.959044551 +0000
++++ ./data/marketing_slide_41/gpt-4o/edit_2/code.py	2025-02-20 14:39:31.495227116 +0000
+@@ -28,7 +28,7 @@
+ title_p.text = title_text
+ title_p.font.bold = True
+ title_p.font.size = Pt(44)
+-title_p.font.color.rgb = RGBColor(255, 255, 0)  # Yellow text
++title_p.font.color.rgb = RGBColor(210, 180, 140)  # Light beige
+ 
+ # Add content text
+ content_text = "Find out how people buy and sell products over the internet. Are the goods sold at cheaper or higher rates than other market?"

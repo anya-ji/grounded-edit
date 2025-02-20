@@ -1,0 +1,1 @@
+Change the text color of "Information Systems" to a darker shade for better contrast.

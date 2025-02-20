@@ -1,0 +1,11 @@
+--- ./data/art_photos_slide_5/init/code.py	2025-02-20 02:15:04.249043957 +0000
++++ ./data/art_photos_slide_5/gpt-4o/edit_0/code.py	2025-02-20 11:22:37.461299150 +0000
+@@ -23,7 +23,7 @@
+ tf_left = left_corner_textbox.text_frame
+ p_left = tf_left.add_paragraph()
+ p_left.text = "The Subject and Content of Art"
+-p_left.font.size = Pt(20)
++p_left.font.size = Pt(36)  # Changed from 20 to 36
+ p_left.font.bold = True
+ p_left.font.color.rgb = RGBColor(0, 0, 0)  # Black
+ 

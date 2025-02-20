@@ -1,1 +1,0 @@
-Add a vertical yellow line along the left edge of the slide to match the target image.

@@ -1,0 +1,11 @@
+--- ./data/art_photos_slide_9/init/code.py	2025-02-20 02:15:04.342043767 +0000
++++ ./data/art_photos_slide_9/gpt-4o/edit_1/code.py	2025-02-20 11:30:46.465511367 +0000
+@@ -37,7 +37,7 @@
+ subheading_paragraph.font.bold = True
+ subheading_paragraph.font.underline = True
+ subheading_paragraph.font.size = Pt(30)
+-subheading_paragraph.font.color.rgb = RGBColor(0, 0, 0) # Black text
++subheading_paragraph.font.color.rgb = RGBColor(0, 0, 0) # Changed to black text for better visibility
+ 
+ # Content text box
+ content_box = slide.shapes.add_textbox(Inches(2), Inches(3), Inches(12), Inches(3))

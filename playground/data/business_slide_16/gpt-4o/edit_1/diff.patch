@@ -1,0 +1,19 @@
+--- ./data/business_slide_16/init/code.py	2025-02-20 02:15:04.124044213 +0000
++++ ./data/business_slide_16/gpt-4o/edit_1/code.py	2025-02-20 11:40:31.713586101 +0000
+@@ -2,7 +2,6 @@
+ from pptx.util import Inches, Pt
+ from pptx.enum.text import PP_ALIGN
+ from pptx.dml.color import RGBColor
+-from pptx.util import Inches
+ 
+ presentation = Presentation()
+ presentation.slide_width = Inches(16)
+@@ -24,7 +23,7 @@
+ title_paragraph = text_frame.add_paragraph()
+ title_paragraph.text = "References"
+ title_paragraph.font.bold = True
+-title_paragraph.font.size = Pt(44)
++title_paragraph.font.size = Pt(36)  # Changed to 36
+ title_paragraph.font.color.rgb = RGBColor(255, 255, 255)  # White
+ title_paragraph.alignment = PP_ALIGN.CENTER
+ 

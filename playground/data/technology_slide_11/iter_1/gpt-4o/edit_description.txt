@@ -1,1 +1,0 @@
-Add checkboxes to the list items in the rendered image to match the target image formatting.

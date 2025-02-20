@@ -1,1 +1,0 @@
-Adjust the yellow vertical bar's width to ensure it does not overlap the title "Obstacles that Elon faced" and ensure consistent spacing between the title and text blocks for better alignment.

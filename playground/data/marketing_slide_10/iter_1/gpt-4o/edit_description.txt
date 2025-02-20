@@ -1,1 +1,0 @@
-Reduce the brightness of the central figure in the rendered image to avoid obstructing the text underneath.

@@ -1,0 +1,1 @@
+Change the background color of the rendered slide to light blue to ensure better readability of the text.

@@ -1,0 +1,1 @@
+Change the text color to `#FFFFFF` (white) for better contrast against the background.

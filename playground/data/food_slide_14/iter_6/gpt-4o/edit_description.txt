@@ -1,1 +1,0 @@
-Correct the numbering of the events in the rendered image to match the sequence in the target image: change "2, 3, 6, 1, 5, 4" to "2, 3, 6, 1, 5, 4" to maintain the logical order.

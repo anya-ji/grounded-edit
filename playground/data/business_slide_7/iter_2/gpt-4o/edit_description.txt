@@ -1,1 +1,0 @@
-Change the color of the text and logo elements from red to green to match the color used in the target image.

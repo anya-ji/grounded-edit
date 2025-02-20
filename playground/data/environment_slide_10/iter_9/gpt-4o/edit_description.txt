@@ -1,1 +1,0 @@
-Change the text color from bright green to a soft green similar to that in the target image.

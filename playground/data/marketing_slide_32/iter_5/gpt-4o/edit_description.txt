@@ -1,1 +1,0 @@
-Change the font color of "ELO's" from white to gray to match the target image's color scheme.

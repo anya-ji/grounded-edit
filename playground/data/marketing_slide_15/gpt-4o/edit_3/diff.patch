@@ -1,0 +1,13 @@
+--- ./data/marketing_slide_15/init/code.py	2025-02-20 02:15:03.943044584 +0000
++++ ./data/marketing_slide_15/gpt-4o/edit_3/code.py	2025-02-20 13:55:56.741570899 +0000
+@@ -22,8 +22,8 @@
+ image_path = "../../media/image_0.jpg"
+ slide.shapes.add_picture(image_path, Inches(0.5), Inches(2), Inches(3), Inches(3))
+ 
+-# Add text on the right side
+-text_box = slide.shapes.add_textbox(Inches(4), Inches(2), Inches(11.5), Inches(5))
++# Add text on the right side with increased vertical space
++text_box = slide.shapes.add_textbox(Inches(4), Inches(3), Inches(11.5), Inches(5))  # Adjusted y position
+ text_frame = text_box.text_frame
+ p = text_frame.add_paragraph()
+ 

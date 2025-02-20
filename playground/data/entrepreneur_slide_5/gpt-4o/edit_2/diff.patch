@@ -1,0 +1,11 @@
+--- ./data/entrepreneur_slide_5/init/code.py	2025-02-20 02:15:04.518043407 +0000
++++ ./data/entrepreneur_slide_5/gpt-4o/edit_2/code.py	2025-02-20 12:46:15.058210800 +0000
+@@ -42,7 +42,7 @@
+ title_paragraph = title_text_frame.add_paragraph()
+ title_paragraph.text = "Early life of Elon Musk"
+ title_paragraph.font.size = Pt(44)
+-title_paragraph.font.bold = True
++title_paragraph.font.bold = True  # Ensure the title is bold
+ title_paragraph.alignment = PP_ALIGN.LEFT
+ 
+ # Add the bullet points on the right side

@@ -1,1 +1,0 @@
-Change the color of the logo from bright red to gray and remove the inner white circle while keeping the outer shape consistent with the target image.

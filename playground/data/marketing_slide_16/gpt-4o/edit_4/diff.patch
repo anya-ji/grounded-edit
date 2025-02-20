@@ -1,0 +1,16 @@
+--- ./data/marketing_slide_16/init/code.py	2025-02-20 02:15:03.875044723 +0000
++++ ./data/marketing_slide_16/gpt-4o/edit_4/code.py	2025-02-20 13:57:57.362079467 +0000
+@@ -11,11 +11,11 @@
+ presentation.slide_width = Inches(16)
+ presentation.slide_height = Inches(9)
+ 
+-# Set slide background color to black
++# Set slide background color to dark gray
+ slide_bg = slide.background
+ fill = slide_bg.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(0, 0, 0)
++fill.fore_color.rgb = RGBColor(30, 30, 30)  # Dark gray color
+ 
+ # Insert the funnel image
+ funnel_image_path = "../../media/image_0.jpg"

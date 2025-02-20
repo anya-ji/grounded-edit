@@ -1,0 +1,11 @@
+--- ./data/environment_slide_6/init/code.py	2025-02-20 02:15:04.786042858 +0000
++++ ./data/environment_slide_6/gpt-4o/edit_1/code.py	2025-02-20 13:00:40.051266459 +0000
+@@ -34,7 +34,7 @@
+ title.text = "Human impact or influence on environment."
+ title.font.bold = True
+ title.font.color.rgb = RGBColor(0, 102, 0)  # Green font
+-title.font.size = Pt(32)
++title.font.size = Pt(36)  # Changed font size to 36 points
+ title.alignment = PP_ALIGN.LEFT
+ 
+ # Add content text

@@ -1,0 +1,18 @@
+--- ./data/marketing_slide_7/init/code.py	2025-02-20 02:15:04.000044467 +0000
++++ ./data/marketing_slide_7/gpt-4o/edit_1/code.py	2025-02-20 14:43:44.773729293 +0000
+@@ -2,6 +2,7 @@
+ from pptx.util import Inches, Pt
+ from pptx.dml.color import RGBColor
+ from pptx.enum.shapes import MSO_SHAPE
++from pptx.enum.text import PP_ALIGN  # Import the alignment Enum
+ from PIL import Image, ImageDraw
+ 
+ # Create a presentation object and set the dimensions
+@@ -60,6 +61,7 @@
+ p.text = "Market is a place where products or services are bought or sold."
+ p.font.size = Pt(24)
+ p.font.color.rgb = RGBColor(255, 255, 255)
++p.alignment = PP_ALIGN.CENTER  # Center align the text
+ 
+ # Add attribution text
+ attr_text_box = slide.shapes.add_textbox(Inches(0.5), Inches(8), Inches(15), Inches(0.5))

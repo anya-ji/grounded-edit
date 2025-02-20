@@ -1,1 +1,0 @@
-Modify the layout to match the target image by placing the dialogue box and questions at the top left, ensuring the font style and size are consistent with the target image.

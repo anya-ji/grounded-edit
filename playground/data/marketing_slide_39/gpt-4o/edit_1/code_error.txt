@@ -1,0 +1,4 @@
+Failed to execute code for edit 1: Traceback (most recent call last):
+  File "/home/anyaji/grounded-edit/playground/data/marketing_slide_39/gpt-4o/edit_1/code.py", line 30, in <module>
+    paragraph.alignment = PP_ALIGN.LEFT  # Left align the text
+NameError: name 'PP_ALIGN' is not defined

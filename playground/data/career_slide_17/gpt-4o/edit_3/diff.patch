@@ -1,0 +1,29 @@
+--- ./data/career_slide_17/init/code.py	2025-02-20 02:15:05.014042392 +0000
++++ ./data/career_slide_17/gpt-4o/edit_3/code.py	2025-02-20 12:12:23.914751872 +0000
+@@ -55,7 +55,7 @@
+ 
+ academic_details_bullet = academic_details_frame.add_paragraph()
+ academic_details_bullet.text = (
+-    "Academic success leads to degrees and certifications (e.g., diplomas, degrees, Ph.Ds.), "
++    "• Academic success leads to degrees and certifications (e.g., diplomas, degrees, Ph.Ds.), "
+     "which serve as qualifications for future opportunities."
+ )
+ academic_details_bullet.font.size = Pt(16)
+@@ -87,7 +87,7 @@
+ 
+ professional_achievement_bullet = professional_achievement_frame.add_paragraph()
+ professional_achievement_bullet.text = (
+-    "Professional success is measured by job performance, career advancement, and the impact of one's work on "
++    "• Professional success is measured by job performance, career advancement, and the impact of one's work on "
+     "organizations and clients."
+ )
+ professional_achievement_bullet.font.size = Pt(16)
+@@ -100,7 +100,7 @@
+ 
+ professional_compensation_bullet = professional_achievement_frame.add_paragraph()
+ professional_compensation_bullet.text = (
+-    "Compensation and benefits are typically tied to professional success and experience."
++    "• Compensation and benefits are typically tied to professional success and experience."
+ )
+ professional_compensation_bullet.font.size = Pt(16)
+ professional_compensation_bullet.level = 1

@@ -1,0 +1,11 @@
+--- ./data/marketing_slide_41/init/code.py	2025-02-20 02:15:03.959044551 +0000
++++ ./data/marketing_slide_41/gpt-4o/edit_1/code.py	2025-02-20 14:39:19.923246947 +0000
+@@ -27,7 +27,7 @@
+ title_p = title_tf.add_paragraph()
+ title_p.text = title_text
+ title_p.font.bold = True
+-title_p.font.size = Pt(44)
++title_p.font.size = Pt(60)  # Changed font size to 60 points
+ title_p.font.color.rgb = RGBColor(255, 255, 0)  # Yellow text
+ 
+ # Add content text

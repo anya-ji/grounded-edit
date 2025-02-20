@@ -1,0 +1,5 @@
+<edit>Change the background color of the slide to a light blue (#A4D2E1) for better contrast with the text and images.</edit>
+<edit>Increase the font size of the text "STEP 1: Choose one of the dates below by ticking (✔) the box." to 36 points for improved readability.</edit>
+<edit>Add a margin of 10 pixels between the images and the edges of their containers to ensure they do not feel cramped.</edit>
+<edit>Change the text color of the image selection instructions to a darker shade, such as #333333, to enhance contrast and readability.</edit>
+<edit>Ensure that the checkmarks are sized consistently at 20x20 pixels to maintain uniformity across the selections.</edit>

@@ -1,1 +1,0 @@
-Adjust the spacing between paragraphs and bullet points to increase readability and mimic the well-organized layout of the target image. Specifically, implement padding of 10px above and below each bullet point and paragraph in the text container.

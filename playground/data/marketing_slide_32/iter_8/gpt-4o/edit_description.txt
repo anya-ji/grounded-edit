@@ -1,1 +1,0 @@
-Change the font color of "ELO's" from a darker shade to a lighter shade (e.g., change from dark gray to light gray) to improve legibility and match the target image's clarity.

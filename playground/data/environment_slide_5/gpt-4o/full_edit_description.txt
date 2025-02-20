@@ -1,0 +1,5 @@
+<edit>Change the background color to a light green shade to match the target slide's background.</edit>
+<edit>Adjust the title font size to 36 points for better prominence.</edit>
+<edit>Change the bullet point color to match the target slide's bullet point style.</edit>
+<edit>Ensure the text for "Hydrosphere" uses "earth's" instead of "earths" to fix the grammatical error.</edit>
+<edit>Add sufficient padding around the text to increase readability and avoid text overflow.</edit>

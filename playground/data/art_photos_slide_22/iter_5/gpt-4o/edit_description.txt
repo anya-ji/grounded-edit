@@ -1,1 +1,0 @@
-Adjust the background color of the header "KEEPING ART" to maintain a consistent yellow hue, ensuring the "G" in "KEEPING" is correctly formatted to match the target image.

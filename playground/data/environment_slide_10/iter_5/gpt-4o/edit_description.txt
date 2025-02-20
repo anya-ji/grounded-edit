@@ -1,1 +1,0 @@
-Change the font of the text to a bold, stylized version that resembles the font used in the target image and ensure the text has a green color similar to that in the target image.

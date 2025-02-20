@@ -1,0 +1,5 @@
+<edit>Change the background color of the rendered slide from black to a dark gray (#121212) for improved contrast with the text.</edit>
+<edit>Remove the black circle overlay from the slide to ensure the background image is fully visible.</edit>
+<edit>Change the color of the rectangular shape in the top right corner from red to orange (#FFA500) to enhance visibility against the dark background.</edit>
+<edit>Adjust the font size of the title "ELO's" to 50pt to enhance prominence on the slide.</edit>
+<edit>Increase the line spacing of the text "1. Types of Market" to 1.5 for better readability.</edit>

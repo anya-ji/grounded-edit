@@ -1,0 +1,1 @@
+Add some padding inside the text box to prevent the text from touching the edges, improving overall aesthetics and readability.

@@ -1,0 +1,1 @@
+Adjust the font color of the title "The Subject and Content of Art" to a dark shade (e.g., RGB(0, 0, 0)).

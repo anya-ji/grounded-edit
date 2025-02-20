@@ -1,0 +1,1 @@
+Change the font color of the text to white for better readability against the background.

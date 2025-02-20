@@ -1,0 +1,14 @@
+--- ./data/art_photos_slide_15/init/code.py	2025-02-20 02:15:04.384043681 +0000
++++ ./data/art_photos_slide_15/gpt-4o/edit_2/code.py	2025-02-20 10:57:07.811926831 +0000
+@@ -12,6 +12,11 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
++# Set the background color to a lighter shade
++background_fill = slide.background.fill
++background_fill.solid()
++background_fill.fore_color.rgb = RGBColor(255, 228, 196)  # Light color (e.g., light peach)
++
+ # Set the background image
+ background_path = "../../media/image_0.jpg"
+ slide.shapes.add_picture(background_path, 0, 0, width=presentation.slide_width, height=presentation.slide_height)

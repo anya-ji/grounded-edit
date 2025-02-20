@@ -1,0 +1,13 @@
+--- ./data/marketing_slide_10/init/code.py	2025-02-20 02:15:03.973044522 +0000
++++ ./data/marketing_slide_10/gpt-4o/edit_2/code.py	2025-02-20 13:48:46.903391519 +0000
+@@ -26,8 +26,8 @@
+ title_p.font.size = Pt(60)
+ title_p.font.color.rgb = RGBColor(255, 255, 255)
+ 
+-# Add question text box
+-question_text_box = slide.shapes.add_textbox(Inches(0.5), Inches(2), Inches(15), Inches(3))
++# Add question text box with margin
++question_text_box = slide.shapes.add_textbox(Inches(0.5), Inches(2), Inches(15), Inches(3.1))
+ question_frame = question_text_box.text_frame
+ question_p = question_frame.add_paragraph()
+ question_p.text = "Q1. Explain how a chain of market is formed? What purpose does it serve. (3+2=5 MARKS)"

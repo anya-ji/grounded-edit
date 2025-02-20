@@ -1,0 +1,1 @@
+Ensure the text alignment is centered vertically and horizontally by setting the parameters `ha='center'` and `va='center'` in the text method.

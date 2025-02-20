@@ -1,1 +1,0 @@
-Adjust the alignment of the images and text to ensure proper spacing between elements, ensuring that each image is centered above its corresponding text without any overlap.

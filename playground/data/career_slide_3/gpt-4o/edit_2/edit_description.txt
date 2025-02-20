@@ -1,0 +1,1 @@
+Change the font color of the text to white (RGB(255, 255, 255)) to improve readability against the darker background.

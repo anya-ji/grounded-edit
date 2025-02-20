@@ -1,0 +1,1 @@
+Move the left image slightly down to improve spacing between the title and the image.

@@ -1,0 +1,14 @@
+--- ./data/technology_slide_7/init/code.py	2025-02-20 02:15:05.077042263 +0000
++++ ./data/technology_slide_7/gpt-4o/edit_2/code.py	2025-02-20 15:42:50.082110031 +0000
+@@ -27,6 +27,11 @@
+ content_tf = content_box.text_frame
+ content_tf.word_wrap = True
+ 
++# Set fill color to white
++fill = content_box.fill
++fill.solid()
++fill.fore_color.rgb = RGBColor(255, 255, 255)  # White color
++
+ bullet_points = [
+     "The term blockchain is often used to refer to cryptocurrency. Cryptocurrency is a medium of exchange such as US dollars.",
+     "It is just an application in the form of e-currency using blockchain.",

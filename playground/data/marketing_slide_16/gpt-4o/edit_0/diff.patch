@@ -1,0 +1,17 @@
+--- ./data/marketing_slide_16/init/code.py	2025-02-20 02:15:03.875044723 +0000
++++ ./data/marketing_slide_16/gpt-4o/edit_0/code.py	2025-02-20 13:56:29.597508134 +0000
+@@ -33,5 +33,13 @@
+ p.font.size = Pt(14)
+ p.font.color.rgb = RGBColor(255, 255, 255)  # White font color
+ 
++# Add text for "Traditional" with a larger font size
++traditional_text_box = slide.shapes.add_textbox(Inches(0.5), Inches(1), Inches(3), Inches(1))
++traditional_text_frame = traditional_text_box.text_frame
++traditional_paragraph = traditional_text_frame.add_paragraph()
++traditional_paragraph.text = "Traditional"
++traditional_paragraph.font.size = Pt(24)
++traditional_paragraph.font.color.rgb = RGBColor(255, 255, 255)  # White font color
++
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

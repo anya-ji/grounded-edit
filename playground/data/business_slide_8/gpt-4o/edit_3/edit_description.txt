@@ -1,0 +1,1 @@
+Change the color of the text "People", "Places", "Love", and "Airbnb" to white to improve readability.

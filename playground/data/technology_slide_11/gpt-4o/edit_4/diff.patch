@@ -1,0 +1,23 @@
+--- ./data/technology_slide_11/init/code.py	2025-02-20 02:15:05.083042250 +0000
++++ ./data/technology_slide_11/gpt-4o/edit_4/code.py	2025-02-20 15:32:29.315614548 +0000
+@@ -1,6 +1,7 @@
+ from pptx import Presentation
+ from pptx.util import Inches, Pt
+ from pptx.enum.shapes import MSO_SHAPE
++from pptx.dml.color import RGBColor
+ 
+ # Create presentation
+ presentation = Presentation()
+@@ -11,6 +12,12 @@
+ slide_layout = presentation.slide_layouts[5]  # Blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
++# Set slide background color to white
++background = slide.background
++fill = background.fill
++fill.solid()
++fill.fore_color.rgb = RGBColor(255, 255, 255)
++
+ # Add title
+ title_text = "Disadvantages of Blockchain"
+ title_box = slide.shapes.add_textbox(Inches(0.5), Inches(0.2), Inches(15), Inches(1))

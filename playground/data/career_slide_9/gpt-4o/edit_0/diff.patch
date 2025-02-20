@@ -1,0 +1,11 @@
+--- ./data/career_slide_9/init/code.py	2025-02-20 02:15:04.981042459 +0000
++++ ./data/career_slide_9/gpt-4o/edit_0/code.py	2025-02-20 12:32:41.311194209 +0000
+@@ -51,7 +51,7 @@
+ paragraph.text = "Skills, "
+ paragraph.font.bold = True
+ paragraph.font.size = Pt(36)
+-paragraph.font.color.rgb = RGBColor(0, 255, 0) # green
++paragraph.font.color.rgb = RGBColor(255, 255, 0) # changed to yellow
+ paragraph.alignment = PP_ALIGN.CENTER
+ 
+ paragraph = content_frame.add_paragraph()

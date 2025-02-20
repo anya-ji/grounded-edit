@@ -1,0 +1,1 @@
+Remove the border line from the bottom of the slide.

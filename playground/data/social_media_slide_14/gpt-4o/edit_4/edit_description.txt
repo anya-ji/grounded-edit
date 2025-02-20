@@ -1,0 +1,1 @@
+Adjust the alignment of the text blocks to be left-aligned instead of justified to enhance readability.

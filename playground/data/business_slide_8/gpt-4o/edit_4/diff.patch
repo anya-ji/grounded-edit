@@ -1,0 +1,28 @@
+--- ./data/business_slide_8/init/code.py	2025-02-20 02:15:04.081044301 +0000
++++ ./data/business_slide_8/gpt-4o/edit_4/code.py	2025-02-20 11:50:53.681864221 +0000
+@@ -11,7 +11,12 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Add title with light gray background
++# Set background color to light gray for the entire slide
++background_fill = slide.background.fill
++background_fill.solid()
++background_fill.fore_color.rgb = RGBColor(211, 211, 211)  # Light gray
++
++# Add title with transparent background
+ title_box = slide.shapes.add_textbox(Inches(0.5), Inches(0.5), Inches(15), Inches(1.0))
+ title_text_frame = title_box.text_frame
+ title_text_frame.word_wrap = True
+@@ -21,11 +26,6 @@
+ title_paragraph.font.size = Pt(44)
+ title_paragraph.font.color.rgb = RGBColor(0, 0, 0)  # Black text
+ 
+-# Set background color to light gray
+-fill = title_box.fill
+-fill.solid()
+-fill.fore_color.rgb = RGBColor(211, 211, 211)  # Light gray
+-
+ # Insert the image
+ image_path = "../../media/image_0.jpg"
+ slide.shapes.add_picture(image_path, Inches(1), Inches(1.5), Inches(14), Inches(5))

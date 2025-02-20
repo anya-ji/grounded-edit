@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image features a title "IMPORTANCE OF SKILLS BEYOND ACADEMICS" prominently displayed in a light-colored font against a dark background, with bullet points of varying skill sets listed below in both light and bold yellow text.
-2. Description of Rendered Image: The rendered image shows the same title, but it is in a lighter font color that contrasts less with the dark background. The bullet points also appear in a brighter yellow color, creating a less cohesive look.
-3. Change Suggestion: Change the title text font color to a light grey to match the consistency of the text style in the target image.
-```

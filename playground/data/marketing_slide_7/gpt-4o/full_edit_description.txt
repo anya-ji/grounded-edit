@@ -1,0 +1,5 @@
+<edit>Change the background color of the slide from black to a light shade (e.g., light gray or white) for better readability of the text.</edit>
+<edit>Adjust the text alignment of the phrase "Market is a place where products or services are bought or sold." to center-align it.</edit>
+<edit>Change the font size of the primary text to a larger size (e.g., increase from 24pt to 36pt) for enhanced visibility.</edit>
+<edit>Modify the text color of the phrase "Market is a place where products or services are bought or sold." to a contrasting color (e.g., dark blue or black) to improve readability against the background.</edit>
+<edit>Reposition the circular image so that it maintains an equal margin from the edges of the slide to avoid crowding and ensure proper spacing.</edit>

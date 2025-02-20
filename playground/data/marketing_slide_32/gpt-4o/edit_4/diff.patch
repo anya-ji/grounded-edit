@@ -1,0 +1,24 @@
+--- ./data/marketing_slide_32/init/code.py	2025-02-20 02:15:03.997044473 +0000
++++ ./data/marketing_slide_32/gpt-4o/edit_4/code.py	2025-02-20 14:22:35.291718698 +0000
+@@ -26,8 +26,8 @@
+ left_box.fill.solid()
+ left_box.fill.fore_color.rgb = black_rgb
+ 
+-# Add title
+-title_box = slide.shapes.add_textbox(Inches(0.5), Inches(1), Inches(7), Inches(1))
++# Add title with margin
++title_box = slide.shapes.add_textbox(Inches(0.25), Inches(1), Inches(7.5), Inches(1))  # Adjusted width
+ title_frame = title_box.text_frame
+ title_frame.clear()  # Clear any existing text
+ 
+@@ -37,8 +37,8 @@
+ title.font.size = Pt(60)
+ title.font.color.rgb = white_rgb
+ 
+-# Add bullet points
+-bullet_box = slide.shapes.add_textbox(Inches(0.5), Inches(3), Inches(7), Inches(5))
++# Add bullet points with margin
++bullet_box = slide.shapes.add_textbox(Inches(0.25), Inches(3), Inches(7.5), Inches(5))  # Adjusted width
+ bullet_frame = bullet_box.text_frame
+ bullet_frame.clear()
+ 

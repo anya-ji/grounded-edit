@@ -1,0 +1,15 @@
+--- ./data/social_media_slide_3/init/code.py	2025-02-20 02:15:04.883042660 +0000
++++ ./data/social_media_slide_3/gpt-4o/edit_4/code.py	2025-02-20 15:14:27.883307897 +0000
+@@ -46,7 +46,11 @@
+     p.font.size = Pt(20)
+     p.font.color.rgb = RGBColor(255, 255, 255)  # White
+     p.space_before = Pt(14)
+-    
++
++# Set justification for each bullet point
++for paragraph in tf.paragraphs:
++    paragraph.alignment = PP_ALIGN.JUSTIFY
++
+ # Insert image on the right side
+ image_path = "../../media/image_0.jpg"
+ slide.shapes.add_picture(image_path, Inches(8), Inches(2), Inches(7.5), Inches(6))

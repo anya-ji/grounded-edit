@@ -1,1 +1,0 @@
-Adjust the header font size to match the target image (reduce to regular size) and change the text color to dark blue, ensuring consistent styling between the images and the text.

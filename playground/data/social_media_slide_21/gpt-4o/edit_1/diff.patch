@@ -1,0 +1,11 @@
+--- ./data/social_media_slide_21/init/code.py	2025-02-20 02:15:04.900042625 +0000
++++ ./data/social_media_slide_21/gpt-4o/edit_1/code.py	2025-02-20 15:12:12.042598353 +0000
+@@ -20,7 +20,7 @@
+ text_frame = text_box.text_frame
+ text_frame.text = text
+ text_frame.paragraphs[0].font.bold = True
+-text_frame.paragraphs[0].font.size = Pt(80)
++text_frame.paragraphs[0].font.size = Pt(64)  # Changed from 80 to 64
+ text_frame.paragraphs[0].font.color.rgb = RGBColor(0, 51, 102) # Dark Blue
+ text_frame.paragraphs[0].alignment = PP_ALIGN.CENTER
+ 

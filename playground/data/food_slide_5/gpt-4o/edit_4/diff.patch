@@ -1,0 +1,14 @@
+--- ./data/food_slide_5/init/code.py	2025-02-20 02:15:04.686043063 +0000
++++ ./data/food_slide_5/gpt-4o/edit_4/code.py	2025-02-20 13:42:12.962142140 +0000
+@@ -35,9 +35,9 @@
+ )
+ text.font.size = Pt(18)
+ 
+-# Insert man's picture
++# Insert man's picture (Adjusted position)
+ man_image_path = "../../media/image_1.jpg"
+-slide.shapes.add_picture(man_image_path, Inches(0.5), Inches(3), width=Inches(3), height=Inches(3))
++slide.shapes.add_picture(man_image_path, Inches(0.5), Inches(3), width=Inches(3), height=Inches(3))  # Moved to the left
+ 
+ # Insert speech bubble with text
+ speech_box = slide.shapes.add_textbox(Inches(3.5), Inches(3), Inches(8), Inches(2))

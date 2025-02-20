@@ -1,0 +1,11 @@
+--- ./data/food_slide_29/init/code.py	2025-02-20 02:15:04.668043100 +0000
++++ ./data/food_slide_29/gpt-4o/edit_4/code.py	2025-02-20 13:35:07.604949071 +0000
+@@ -68,7 +68,7 @@
+     top_position += 1.2  # Move down for the next question
+ 
+ # Add button "QUIZ & REVIEW ACTIVITY"
+-button_box = slide.shapes.add_textbox(Inches(12.5), Inches(7.5), Inches(3), Inches(1))
++button_box = slide.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, Inches(12.5), Inches(7.5), Inches(3), Inches(1))
+ button_frame = button_box.text_frame
+ button_paragraph = button_frame.add_paragraph()
+ button_paragraph.text = "QUIZ & REVIEW ACTIVITY"

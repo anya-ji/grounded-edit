@@ -1,0 +1,1 @@
+Change the background color gradient from a mix of orange to red to a softer gradient of light yellow and white for improved readability.

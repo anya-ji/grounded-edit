@@ -1,0 +1,1 @@
+Adjust the font size of the body text to 24pt to enhance visibility.

@@ -1,0 +1,1 @@
+Insert appropriate spacing before each bullet point (e.g., add a margin of 10 points above each bullet).

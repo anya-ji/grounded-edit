@@ -1,0 +1,20 @@
+--- ./data/business_slide_1/init/code.py	2025-02-20 02:15:04.100044262 +0000
++++ ./data/business_slide_1/gpt-4o/edit_4/code.py	2025-02-20 11:33:26.675970034 +0000
+@@ -31,7 +31,7 @@
+ slide.shapes.add_picture(logo_text_path, Inches(8.5), Inches(2), Inches(7), Inches(2.5))
+ 
+ # Add title text "Business Case"
+-title_tx_box = slide.shapes.add_textbox(Inches(8.5), Inches(5), Inches(7), Inches(2))
++title_tx_box = slide.shapes.add_textbox(Inches(1), Inches(5), Inches(7), Inches(2))  # Changed position to align with logo
+ title_frame = title_tx_box.text_frame
+ p = title_frame.add_paragraph()
+ p.text = "Business Case"
+@@ -43,7 +43,7 @@
+ names = ["Daniel Consuegra", "Alejandra Del Chiaro", "Maria Camila Echeverri"]
+ y_position = 6.5
+ for name in names:
+-    name_box = slide.shapes.add_textbox(Inches(8.5), Inches(y_position), Inches(7), Inches(0.5))
++    name_box = slide.shapes.add_textbox(Inches(1), Inches(y_position), Inches(7), Inches(0.5))  # Changed position to align with logo
+     tf = name_box.text_frame
+     p = tf.add_paragraph()
+     p.text = name

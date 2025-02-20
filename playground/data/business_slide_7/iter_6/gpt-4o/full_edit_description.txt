@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image features a clean and simple design with a calm color palette, containing a graphic representation of the Airbnb logo with specific elements labeled in a harmonious green color. 
-2. Description of Rendered Image: The rendered image has a jarring color scheme, featuring a bright pink and orange, which makes the Airbnb elements harder to visually connect compared to the target. It also lacks the same level of simplicity and clarity in the graphic representation.
-3. Change Suggestion: Change the color of the text "PEOPLE + PLACES + LOVE + AIRBNB = Bélo" from pink to a soft green matching the color used in the target image.
-```

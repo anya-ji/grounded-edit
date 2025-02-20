@@ -1,1 +1,0 @@
-Change the hyperlinks in the rendered image to match the specific URLs present in the target image.

@@ -1,0 +1,1 @@
+Change the font style of the section title "Museums and Private Collections" to bold to ensure it stands out more prominently.

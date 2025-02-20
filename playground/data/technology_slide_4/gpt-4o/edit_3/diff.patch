@@ -1,0 +1,12 @@
+--- ./data/technology_slide_4/init/code.py	2025-02-20 02:15:05.085042246 +0000
++++ ./data/technology_slide_4/gpt-4o/edit_3/code.py	2025-02-20 15:38:02.828731219 +0000
+@@ -46,7 +46,7 @@
+     bullet_p.text = bullet
+     bullet_p.font.size = Pt(24)
+     bullet_p.font.underline = True if ':' in bullet else False  # Underline topic
+-    bullet_p.space_after = Pt(12)
++    bullet_p.space_after = Pt(6)  # Set space after each bullet point
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

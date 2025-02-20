@@ -1,1 +1,0 @@
-Increase the line height of the hyperlinks in the rendered image to improve spacing between each link, enhancing readability.

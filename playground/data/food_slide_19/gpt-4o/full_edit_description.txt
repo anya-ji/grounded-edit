@@ -1,0 +1,5 @@
+<edit>Change the background color of the slide to a light blue (#E6F2F5) for better contrast with the text.</edit>
+<edit>Adjust the font size of the title "PART 3" to 36 pts to make it more prominent.</edit>
+<edit>Add padding of 10 px to the text box containing the story to improve readability and spacing.</edit>
+<edit>Change the text color of the story content to a dark gray (#333333) for better readability against the light background.</edit>
+<edit>Ensure the image on the right is resized to have a width of 200 px for balanced visual alignment with the text.</edit>

@@ -1,0 +1,5 @@
+<edit>Change the font color of "Skills," from green to yellow.</edit>
+<edit>Change the font color of "Experiences," from blue to cyan.</edit>
+<edit>Remove the period at the end of "Personal Attributes."</edit>
+<edit>Adjust the font size of the title "TOP GRADES ARE NOT THE SOLE DETERMINANT OF SUCCESS" to 48 pt.</edit>
+<edit>Ensure that the image of the trophy and dartboard is appropriately sized to maintain good balance with the text elements.</edit>

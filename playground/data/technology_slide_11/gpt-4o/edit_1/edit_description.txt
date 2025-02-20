@@ -1,0 +1,1 @@
+Add a bullet point style for the list items using `\item` instead of plain text in the rendered slide.

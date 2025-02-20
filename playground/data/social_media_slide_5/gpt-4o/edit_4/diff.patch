@@ -1,0 +1,24 @@
+--- ./data/social_media_slide_5/init/code.py	2025-02-20 02:15:04.898042629 +0000
++++ ./data/social_media_slide_5/gpt-4o/edit_4/code.py	2025-02-20 15:20:08.742510681 +0000
+@@ -24,8 +24,8 @@
+ title_tf.paragraphs[0].font.bold = True
+ title_tf.paragraphs[0].font.color.rgb = RGBColor(255, 255, 255)  # White text
+ 
+-# Add subtitle below title
+-subtitle_box = slide.shapes.add_textbox(Inches(0.5), Inches(1.7), Inches(15), Inches(1))
++# Add subtitle below title with increased spacing
++subtitle_box = slide.shapes.add_textbox(Inches(0.5), Inches(2), Inches(15), Inches(1))  # Changed Y position to Inches(2)
+ subtitle_tf = subtitle_box.text_frame
+ subtitle_p = subtitle_tf.add_paragraph()
+ subtitle_p.text = "2. SCRIPT"
+@@ -33,8 +33,8 @@
+ subtitle_p.font.bold = True
+ subtitle_p.font.color.rgb = RGBColor(0, 0, 0)  # Black text
+ 
+-# Add bullet points
+-content_box = slide.shapes.add_textbox(Inches(0.5), Inches(2.7), Inches(10), Inches(4))
++# Add bullet points with increased spacing
++content_box = slide.shapes.add_textbox(Inches(0.5), Inches(3.2), Inches(10), Inches(4))  # Changed Y position to Inches(3.2)
+ content_tf = content_box.text_frame
+ content_tf.word_wrap = True
+ 

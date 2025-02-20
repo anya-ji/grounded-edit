@@ -1,1 +1,0 @@
-Increase the font weight of the text to "bold" and ensure the background color is set to deep blue (hex code: #003DA5) for better contrast and clarity.

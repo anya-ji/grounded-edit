@@ -1,0 +1,13 @@
+--- ./data/business_slide_12/init/code.py	2025-02-20 02:15:04.119044223 +0000
++++ ./data/business_slide_12/gpt-4o/edit_1/code.py	2025-02-20 11:36:37.610340986 +0000
+@@ -17,7 +17,9 @@
+ 
+ # Add title text
+ title_text = "NYC"
+-text_box = slide.shapes.add_textbox(Inches(0), Inches(3), Inches(16), Inches(3))
++text_box_height = Inches(3)  # Height of the text box
++text_box_top = (presentation.slide_height - text_box_height) / 2  # Center the text box vertically
++text_box = slide.shapes.add_textbox(Inches(0), text_box_top, Inches(16), text_box_height)
+ text_frame = text_box.text_frame
+ p = text_frame.add_paragraph()
+ p.text = title_text

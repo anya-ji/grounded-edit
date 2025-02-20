@@ -1,0 +1,1 @@
+Ensure there is an equal margin of 20 pixels on both the left and right sides of the text block to provide sufficient spacing from the edge of the slide.

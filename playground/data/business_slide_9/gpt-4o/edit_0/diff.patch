@@ -1,0 +1,11 @@
+--- ./data/business_slide_9/init/code.py	2025-02-20 02:15:04.101044260 +0000
++++ ./data/business_slide_9/gpt-4o/edit_0/code.py	2025-02-20 11:51:20.135814685 +0000
+@@ -39,7 +39,7 @@
+ quote_text_frame = quote_textbox.text_frame
+ quote = quote_text_frame.add_paragraph()
+ quote.text = "IT'S ABOUT THE PEOPLE, NOT THE PLACES"
+-quote.font.size = Pt(36)
++quote.font.size = Pt(72)  # Modified font size
+ quote.font.bold = True
+ quote.font.color.rgb = RGBColor(255, 255, 255)
+ 

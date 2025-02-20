@@ -1,0 +1,11 @@
+--- ./data/art_photos_slide_25/init/code.py	2025-02-20 02:15:04.225044007 +0000
++++ ./data/art_photos_slide_25/gpt-4o/edit_1/code.py	2025-02-20 11:17:04.863739680 +0000
+@@ -26,7 +26,7 @@
+ p.text = "References:"
+ p.font.bold = True
+ p.font.size = Pt(44)
+-p.font.color.rgb = RGBColor(0, 0, 0)  # Black
++p.font.color.rgb = RGBColor(10, 10, 10)  # Darker shade for better contrast
+ 
+ # Add references with white background
+ content_box = slide.shapes.add_textbox(Inches(1), Inches(1.5), Inches(14), Inches(6))

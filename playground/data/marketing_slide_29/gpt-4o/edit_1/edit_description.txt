@@ -1,0 +1,1 @@
+Adjust the text color from white to a darker shade (e.g., dark gray) to ensure better visibility against the new background.

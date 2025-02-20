@@ -1,0 +1,1 @@
+Change the font size of the section title "LESSON REFLECTION:" to 36 points for better visibility.

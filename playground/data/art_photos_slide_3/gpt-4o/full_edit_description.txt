@@ -1,0 +1,5 @@
+<edit>Change the background color of the slide to a soft gradient that maintains sufficient contrast with the text, ensuring readability.</edit>
+<edit>Modify the text color of the main title "The Subject of Art" to a dark shade, such as black or dark blue, for better visibility against the bright yellow background.</edit>
+<edit>Adjust the font size of the bullet points for better hierarchy, increasing it slightly to make it more legible.</edit>
+<edit>Insert bullet points (•) before each statement to clearly delineate the separate ideas presented in the text.</edit>
+<edit>Add a margin of at least 10 pixels around the text areas to enhance the overall spacing and avoid crowding.</edit>

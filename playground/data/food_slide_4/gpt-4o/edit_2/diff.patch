@@ -1,0 +1,11 @@
+--- ./data/food_slide_4/init/code.py	2025-02-20 02:15:04.663043110 +0000
++++ ./data/food_slide_4/gpt-4o/edit_2/code.py	2025-02-20 13:39:40.318432299 +0000
+@@ -48,7 +48,7 @@
+     top = Inches(2.5 + i * 0.8)
+     shape = slide.shapes.add_shape(MSO_SHAPE.OVAL, left, top, Inches(0.5), Inches(0.5))
+     shape.fill.solid()
+-    shape.fill.fore_color.rgb = RGBColor(0, 102, 204)  # Blue color
++    shape.fill.fore_color.rgb = RGBColor(173, 216, 230)  # Light blue color
+     text_frame = shape.text_frame
+     p = text_frame.paragraphs[0]
+     p.text = str(i)

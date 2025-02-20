@@ -1,0 +1,18 @@
+--- ./data/business_slide_12/init/code.py	2025-02-20 02:15:04.119044223 +0000
++++ ./data/business_slide_12/gpt-4o/edit_3/code.py	2025-02-20 11:37:08.356240960 +0000
+@@ -26,9 +26,13 @@
+ p.font.color.rgb = RGBColor(255, 255, 255)  # White color
+ text_frame.paragraphs[0].alignment = 1  # Center alignment
+ 
++# Increase padding (add space) between title and logo
++spacing_padding = Inches(1)  # Adjusted padding
++text_box.top += spacing_padding  # Move the text box down
++
+ # Add Airbnb logo
+ logo_path = image_path  # Replace with actual path if different
+-logo = slide.shapes.add_picture(logo_path, Inches(6.5), Inches(6), Inches(3), Inches(1.5))
++logo = slide.shapes.add_picture(logo_path, Inches(6.5), Inches(6 + spacing_padding), Inches(3), Inches(1.5))
+ 
+ # Save presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

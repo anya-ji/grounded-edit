@@ -1,0 +1,12 @@
+--- ./data/entrepreneur_slide_8/init/code.py	2025-02-20 02:15:04.517043409 +0000
++++ ./data/entrepreneur_slide_8/gpt-4o/edit_2/code.py	2025-02-20 12:49:20.856769740 +0000
+@@ -45,7 +45,8 @@
+     p = content_frame.add_paragraph()
+     p.text = bullet
+     p.font.size = Pt(20)
+-    p.space_after = Pt(14)
++    p.space_after = Pt(14)  # Existing space after the bullet
++    p.space_before = Pt(10)  # Added spacing before the bullet
+     p.level = 0
+     p.font.color.rgb = RGBColor(0, 0, 0)  # Black color
+ 

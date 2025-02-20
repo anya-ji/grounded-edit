@@ -1,1 +1,0 @@
-Adjust the letter spacing of the word "WORLD" to create even spacing between letters and ensure consistent font size for uniformity.

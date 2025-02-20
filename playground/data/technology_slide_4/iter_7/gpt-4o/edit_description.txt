@@ -1,1 +1,0 @@
-Adjust the font size of the title "Types of Blockchain" in the rendered image to match the font size used for the main text in the target image, ensuring consistent visual hierarchy.

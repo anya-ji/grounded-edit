@@ -1,0 +1,1 @@
+Change the text color of the bullet points to white for better contrast against the background.

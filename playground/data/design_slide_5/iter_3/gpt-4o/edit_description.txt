@@ -1,1 +1,0 @@
-Change the title font color from bold white to light blue to match the target image.

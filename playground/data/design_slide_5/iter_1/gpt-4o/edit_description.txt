@@ -1,1 +1,0 @@
-Change the title text color from blue to white for better contrast against the blue background.

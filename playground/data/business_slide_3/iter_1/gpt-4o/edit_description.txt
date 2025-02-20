@@ -1,1 +1,0 @@
-Adjust the crop of the rendered image to fully include the billboard, ensuring that the entire text and logo are visible without any cut-off.

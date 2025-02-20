@@ -1,0 +1,1 @@
+Change the font size of the title "IMPORTANCE OF SKILLS BEYOND ACADEMICS" to 60 to match the target slide size.

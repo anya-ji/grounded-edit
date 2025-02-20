@@ -1,0 +1,1 @@
+Change the font color of "IT'S ABOUT THE PEOPLE, NOT THE PLACES" to black for improved contrast against the background.

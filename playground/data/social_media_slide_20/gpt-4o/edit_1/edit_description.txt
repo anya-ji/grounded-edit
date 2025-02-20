@@ -1,0 +1,1 @@
+Adjust the font size of the bullet points to be 14pt to enhance readability.

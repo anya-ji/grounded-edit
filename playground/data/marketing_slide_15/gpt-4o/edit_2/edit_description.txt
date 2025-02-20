@@ -1,0 +1,1 @@
+Change the color of the text from white to a light gray to enhance readability against the background.

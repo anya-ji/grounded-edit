@@ -1,0 +1,42 @@
+--- ./data/food_slide_18/init/code.py	2025-02-20 02:15:04.676043083 +0000
++++ ./data/food_slide_18/gpt-4o/edit_3/code.py	2025-02-20 13:17:28.240895923 +0000
+@@ -25,6 +25,7 @@
+ title_p = title_tf.paragraphs[0]
+ title_p.font.size = Pt(36)
+ title_p.font.bold = True
++title_p.shadow = True  # Add shadow effect
+ 
+ # Add chat icon
+ image_path = "../../media/image_0.jpg"
+@@ -37,6 +38,7 @@
+ instruction_p = instruction_tf.paragraphs[0]
+ instruction_p.font.size = Pt(32)
+ instruction_p.font.bold = True
++instruction_p.shadow = True  # Add shadow effect
+ 
+ # Dialogue text
+ dialogue_text = (
+@@ -52,6 +54,7 @@
+ dialogue_p = dialogue_tf.add_paragraph()
+ dialogue_p.text = dialogue_text
+ dialogue_p.font.size = Pt(20)
++dialogue_p.shadow = True  # Add shadow effect
+ 
+ # Question 1
+ question1_box = slide.shapes.add_textbox(Inches(0.5), Inches(7), Inches(15), Inches(1))
+@@ -61,6 +64,7 @@
+ question1_p.text = "1. When is the past continuous used in comparison with the past simple?"
+ question1_p.font.size = Pt(18)
+ question1_p.font.bold = True
++question1_p.shadow = True  # Add shadow effect
+ 
+ # Question 2
+ question2_box = slide.shapes.add_textbox(Inches(0.5), Inches(8), Inches(15), Inches(1))
+@@ -70,6 +74,7 @@
+ question2_p.text = "2. How is the structure for the past simple different than the past continuous?"
+ question2_p.font.size = Pt(18)
+ question2_p.font.bold = True
++question2_p.shadow = True  # Add shadow effect
+ 
+ # Button for "VIEWING FOLLOW-UP"
+ button_box = slide.shapes.add_textbox(Inches(12), Inches(8), Inches(3.5), Inches(0.8))

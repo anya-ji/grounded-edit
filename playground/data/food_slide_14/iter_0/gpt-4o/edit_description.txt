@@ -1,1 +1,0 @@
-Reorder the listed events in the rendered image to match the correct sequence shown in the target image, including appropriate numbering (1 to 6).

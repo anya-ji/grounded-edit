@@ -1,1 +1,0 @@
-Add a yellow vertical bar on the left side of the document to match the target image's styling.

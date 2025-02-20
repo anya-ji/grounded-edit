@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image features a list of blockchain types with bullet points, where each point is a description of different blockchain networks, without any marks indicating completion.
-2. Description of Rendered Image: The rendered image includes the same content as the target image but each description is marked with a check mark, indicating completion.
-3. Change Suggestion: Remove the check marks from each bullet point in the rendered image to match the target image.
-```

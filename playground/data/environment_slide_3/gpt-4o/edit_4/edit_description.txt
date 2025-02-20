@@ -1,0 +1,1 @@
+Add bullet point symbols (like circles or dashes) in front of the list items to clarify the list format.

@@ -1,1 +1,0 @@
-Increase the font weight to bold and adjust the font size to match the scale of the target image.

@@ -1,0 +1,26 @@
+--- ./data/design_slide_2/init/code.py	2025-02-20 02:15:04.606043227 +0000
++++ ./data/design_slide_2/gpt-4o/edit_4/code.py	2025-02-20 12:37:48.757456529 +0000
+@@ -50,21 +50,7 @@
+ mask_circle.fill.fore_color.rgb = RGBColor(255, 255, 255)
+ mask_circle.line.color.rgb = RGBColor(255, 255, 255)
+ 
+-# Add geometric shapes
+-shapes_colors = [RGBColor(255, 69, 0), RGBColor(60, 179, 113), RGBColor(30, 144, 255)]
+-
+-for _ in range(3):
+-    circle = slide.shapes.add_shape(
+-        MSO_SHAPE.OVAL, Inches(1.5), Inches(2), Inches(0.5), Inches(0.5)
+-    )
+-    circle.fill.solid()
+-    circle.fill.fore_color.rgb = shapes_colors.pop(0)
+-
+-triangle = slide.shapes.add_shape(
+-    MSO_SHAPE.ISOSCELES_TRIANGLE, Inches(2), Inches(6), Inches(1), Inches(1)
+-)
+-triangle.fill.solid()
+-triangle.fill.fore_color.rgb = RGBColor(255, 0, 255)
++# Remove the geometric shapes for a cleaner layout
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

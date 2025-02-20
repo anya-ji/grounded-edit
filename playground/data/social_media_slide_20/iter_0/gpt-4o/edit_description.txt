@@ -1,1 +1,0 @@
-Adjust the body text line spacing to reduce the gap between the title "3. CULTURAL CONVERGENCE" and the first line of the body text, matching the spacing in the target image for improved alignment and visual cohesion.

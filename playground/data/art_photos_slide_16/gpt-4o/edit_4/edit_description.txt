@@ -1,0 +1,1 @@
+Change the font color of the "Sources of the Subject" header to black (#000000) for improved contrast against the background.

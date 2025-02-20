@@ -1,1 +1,0 @@
-Adjust the alignment of the text within the box labeled "Producer or manufacturer" to be center-aligned, ensuring the text fits neatly within the box without extending beyond its borders.

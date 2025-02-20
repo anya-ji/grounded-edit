@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image features a yellow header at the top, with text in a clear font centered below it, discussing the concept of subject matter in artwork.
-2. Description of Rendered Image: The rendered image has a bright yellow header but features more of a chaotic background with text that is misaligned and appears less organized compared to the target.
-3. Change Suggestion: Adjust the alignment of the text in the rendered image to be centered below the yellow header, ensuring it matches the organization seen in the target image.
-```

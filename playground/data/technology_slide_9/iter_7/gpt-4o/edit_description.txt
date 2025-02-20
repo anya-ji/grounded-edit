@@ -1,1 +1,0 @@
-Change the background color of the rendered image to a light color (e.g., white or light gray) to improve text readability and match the target image's style.

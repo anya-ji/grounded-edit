@@ -1,1 +1,0 @@
-Change the color of the text "LOVE" to match the same shade of green used in the target image for consistency.

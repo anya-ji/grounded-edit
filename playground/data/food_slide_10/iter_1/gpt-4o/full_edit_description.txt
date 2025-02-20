@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: A table from a video showing characters responding to statements with a checkmark indicating correct answers.
-2. Description of Rendered Image: A scene from the same video featuring Joey saying, "Ha, ha. No." with his mouth moving and a focus on his expression.
-3. Change Suggestion: Add a checkmark next to the statement "Phoebe sarcastically says that Sarah is a monster for her etiquette." in the rendered image to align with the target image.
-```

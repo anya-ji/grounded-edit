@@ -1,0 +1,1 @@
+Change the background color of the slide to a soft gradient that maintains sufficient contrast with the text, ensuring readability.

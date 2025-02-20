@@ -1,1 +1,0 @@
-Change the Airbnb logo in the rendered image to be solid white instead of outlined, ensuring it matches the logo in the target image.

@@ -1,0 +1,11 @@
+--- ./data/career_slide_12/init/code.py	2025-02-20 02:15:04.970042482 +0000
++++ ./data/career_slide_12/gpt-4o/edit_4/code.py	2025-02-20 11:59:30.796737879 +0000
+@@ -74,6 +74,7 @@
+         p.level = 1
+         p.font.size = Pt(20)
+         p.font.color.rgb = text_color
++        p.space_before = Pt(12)  # Adjust line spacing to enhance readability
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

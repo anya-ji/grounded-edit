@@ -1,0 +1,1 @@
+Change the bullet point format for the numbered list in Part 1 to include circles instead of using the default bullet format.

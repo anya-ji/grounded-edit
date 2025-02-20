@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image features a colorful abstract background with a header that says "Non-representational or Non-objective Art" in black text, while the "Sources of the Subject" section is on a white box with a list of items in black text.
-2. Description of Rendered Image: The rendered image has the same colorful background, but the header is in yellow text, and the "Sources of the Subject" section is enclosed in a white box with black text, causing a lack of clarity.
-3. Change Suggestion: Change the header text color from yellow to black to ensure better contrast and readability against the background.
-```

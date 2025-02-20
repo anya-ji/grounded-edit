@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: A presentation slide with a white background, green headings, and black text detailing types of the natural environment.
-2. Description of Rendered Image: A presentation slide with a bright green background and green headings, featuring the same text, but less contrast which affects readability.
-3. Change Suggestion: Change the background color from bright green to white to match the target image.
-```

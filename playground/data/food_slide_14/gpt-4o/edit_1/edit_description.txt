@@ -1,0 +1,1 @@
+Rearrange the order of the items in the list to the following sequence: 2, 3, 4, 5, 6.

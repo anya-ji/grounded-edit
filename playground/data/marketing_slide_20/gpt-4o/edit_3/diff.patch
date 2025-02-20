@@ -1,0 +1,18 @@
+--- ./data/marketing_slide_20/init/code.py	2025-02-20 02:15:03.919044633 +0000
++++ ./data/marketing_slide_20/gpt-4o/edit_3/code.py	2025-02-20 14:04:16.629380687 +0000
+@@ -42,6 +42,15 @@
+ curved_shape.fill.fore_color.rgb = RGBColor(255, 255, 255)
+ curved_shape.line.fill.background()
+ 
++# Add a shadow text effect
++shadow_text_box = slide.shapes.add_textbox(left + 0.1, Inches(3.5) + 0.1, Inches(7), Inches(2))
++shadow_text_frame = shadow_text_box.text_frame
++shadow_p = shadow_text_frame.add_paragraph()
++shadow_p.text = "Transportation and Storage"
++shadow_p.font.bold = True
++shadow_p.font.size = Pt(44)
++shadow_p.font.color.rgb = RGBColor(100, 100, 100)  # Grey color for shadow
++
+ # Add the title text
+ title_text_box = slide.shapes.add_textbox(left, Inches(3.5), Inches(7), Inches(2))
+ text_frame = title_text_box.text_frame

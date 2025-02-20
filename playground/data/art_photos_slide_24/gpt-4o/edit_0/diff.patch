@@ -1,0 +1,14 @@
+--- ./data/art_photos_slide_24/init/code.py	2025-02-20 02:15:04.302043849 +0000
++++ ./data/art_photos_slide_24/gpt-4o/edit_0/code.py	2025-02-20 11:14:45.292442040 +0000
+@@ -11,6 +11,11 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
++# Set the background color of the slide to light beige
++background_fill = slide.background.fill
++background_fill.solid()
++background_fill.fore_color.rgb = RGBColor(255, 239, 204)  # Light beige color
++
+ # Set the background image
+ image_path = "../../media/image_0.jpg"
+ background = slide.shapes.add_picture(image_path, 0, 0, width=presentation.slide_width, height=presentation.slide_height)

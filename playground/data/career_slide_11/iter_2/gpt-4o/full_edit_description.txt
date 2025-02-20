@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: A PowerPoint slide with the title "IMPORTANCE OF SKILLS BEYOND ACADEMICS" at the top, followed by several bullet points detailing various skills with the first point being "Effective Communication," highlighted in bold and colored text.
-2. Description of Rendered Image: A similar PowerPoint slide with the same title, but the first point "Effective Communication" is not prominently styled and lacks bold formatting.
-3. Change Suggestion: Change the formatting of the bullet point "Effective Communication" to be bold and color it the same as the target image for better emphasis.
-```

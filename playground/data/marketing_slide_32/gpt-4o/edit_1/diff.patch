@@ -1,0 +1,10 @@
+--- ./data/marketing_slide_32/init/code.py	2025-02-20 02:15:03.997044473 +0000
++++ ./data/marketing_slide_32/gpt-4o/edit_1/code.py	2025-02-20 14:21:32.247965904 +0000
+@@ -47,6 +47,7 @@
+     bullet.text = bullet_text
+     bullet.font.size = Pt(32)
+     bullet.font.color.rgb = white_rgb
++    bullet.space_after = Pt(12)  # Set space after each bullet to create 1.5 line spacing
+ 
+ # Insert image on the right side
+ image_path = "../../media/image_0.jpg"

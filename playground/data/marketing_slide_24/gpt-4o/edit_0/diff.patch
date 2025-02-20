@@ -1,0 +1,14 @@
+--- ./data/marketing_slide_24/init/code.py	2025-02-20 02:15:03.883044707 +0000
++++ ./data/marketing_slide_24/gpt-4o/edit_0/code.py	2025-02-20 14:11:08.214772266 +0000
+@@ -11,9 +11,9 @@
+ slide_layout = presentation.slide_layouts[5]  # blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Add black background
++# Add dark gray background
+ slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, Inches(8), 0, Inches(8), Inches(9)).fill.solid()
+-slide.shapes[-1].fill.fore_color.rgb = RGBColor(0, 0, 0)
++slide.shapes[-1].fill.fore_color.rgb = RGBColor(18, 18, 18)  # Dark gray
+ 
+ # Add image with a curved shape on the left half
+ img_path = "../../media/image_0.jpg"

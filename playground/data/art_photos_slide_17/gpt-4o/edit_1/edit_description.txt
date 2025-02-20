@@ -1,0 +1,1 @@
+Change the font color of the main title "THE CONTENT OF ART" to a darker shade for improved readability.

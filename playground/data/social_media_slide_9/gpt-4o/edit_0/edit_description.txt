@@ -1,0 +1,1 @@
+Change the font color of the title text to a darker shade of blue (e.g., RGB(0, 51, 102)) for better readability.

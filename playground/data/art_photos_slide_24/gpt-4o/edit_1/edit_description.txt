@@ -1,0 +1,1 @@
+Change the font color of the title "KEEPIING ART" to black for better contrast against the yellow background.

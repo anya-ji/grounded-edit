@@ -1,0 +1,1 @@
+Add padding of 10 pixels around the text box containing "A cat catching a bird is the subject of both works above." to prevent text from touching the borders.

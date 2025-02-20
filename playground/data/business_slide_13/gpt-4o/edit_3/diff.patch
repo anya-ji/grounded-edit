@@ -1,0 +1,11 @@
+--- ./data/business_slide_13/init/code.py	2025-02-20 02:15:04.068044328 +0000
++++ ./data/business_slide_13/gpt-4o/edit_3/code.py	2025-02-20 11:38:14.719026052 +0000
+@@ -29,7 +29,7 @@
+ p.text = title
+ p.font.bold = True
+ p.font.size = Pt(44)
+-p.alignment = PP_ALIGN.LEFT
++p.alignment = PP_ALIGN.CENTER  # Change to center alignment
+ 
+ # Set font color and outline for contrast
+ p.font.color.rgb = RGBColor(255, 255, 255)  # White font

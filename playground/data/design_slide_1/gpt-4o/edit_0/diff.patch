@@ -1,0 +1,18 @@
+--- ./data/design_slide_1/init/code.py	2025-02-20 02:15:04.609043220 +0000
++++ ./data/design_slide_1/gpt-4o/edit_0/code.py	2025-02-20 12:34:06.192992726 +0000
+@@ -11,11 +11,12 @@
+ slide_layout = presentation.slide_layouts[5] # blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set white background color
++# Set gradient background color
+ background = slide.background
+ fill = background.fill
+-fill.solid()
+-fill.fore_color.rgb = RGBColor(255, 255, 255) # white
++fill.gradient()  # Set to gradient
++fill.gradient_stops[0].color.rgb = RGBColor(255, 255, 255)  # white
++fill.gradient_stops[1].color.rgb = RGBColor(211, 211, 211)  # light gray
+ 
+ # Insert the laptop with paint splashes image
+ image_path = "../../media/image_0.jpg"

@@ -1,0 +1,1 @@
+Ensure that the checkmarks are sized consistently at 20x20 pixels to maintain uniformity across the selections.

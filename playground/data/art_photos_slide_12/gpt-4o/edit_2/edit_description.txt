@@ -1,0 +1,1 @@
+Add a border around the images to enhance visibility, setting the border color to black and the width to 2 pt.

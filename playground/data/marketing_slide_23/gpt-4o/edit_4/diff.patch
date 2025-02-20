@@ -1,0 +1,13 @@
+--- ./data/marketing_slide_23/init/code.py	2025-02-20 02:15:03.865044744 +0000
++++ ./data/marketing_slide_23/gpt-4o/edit_4/code.py	2025-02-20 14:10:38.431932057 +0000
+@@ -44,8 +44,8 @@
+ p1.font.color.rgb = RGBColor(0, 0, 0)
+ text_frame1.word_wrap = True
+ 
+-# Add second bullet point with yellow box
+-top = Inches(4)
++# Adjust the vertical spacing for the second bullet point
++top = Inches(4 + 0.25)  # Adding a margin of 0.25 inches (20 pixels approx.)
+ yellow_box = slide.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, left, top, width, height)
+ yellow_box.fill.solid()
+ yellow_box.fill.fore_color.rgb = RGBColor(255, 255, 0)

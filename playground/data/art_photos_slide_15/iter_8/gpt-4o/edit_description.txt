@@ -1,1 +1,0 @@
-Increase the brightness and saturation of the colors in the left section of the rendered image to make them more vibrant and closely aligned with the target image.

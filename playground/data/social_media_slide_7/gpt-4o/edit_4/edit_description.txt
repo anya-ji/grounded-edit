@@ -1,0 +1,1 @@
+Reposition the graphic to the right side of the text to match the layout of the target slide.

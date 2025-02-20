@@ -1,0 +1,5 @@
+<edit>Change the color of the title text "What is Graphic Design?" to a darker shade (e.g., #333333) for better readability.</edit>
+<edit>Update the first bullet point's text to start with a capital 'G' in "Graphic design is the art..." for proper sentence casing.</edit>
+<edit>Change "visit the best seo agency in dubai" to "Visit the best SEO agency in Dubai" for consistent capitalization and formality.</edit>
+<edit>Adjust the spacing between the text blocks and the circle graphic on the left to ensure they do not overlap and maintain clear separation.</edit>
+<edit>Remove any extraneous shapes or colors around the text that may clutter the layout and create a cleaner appearance.</edit>

@@ -1,0 +1,28 @@
+--- ./data/art_photos_slide_25/init/code.py	2025-02-20 02:15:04.225044007 +0000
++++ ./data/art_photos_slide_25/gpt-4o/edit_4/code.py	2025-02-20 11:17:48.305535106 +0000
+@@ -28,7 +28,7 @@
+ p.font.size = Pt(44)
+ p.font.color.rgb = RGBColor(0, 0, 0)  # Black
+ 
+-# Add references with white background
++# Add references with white background, adjusting for padding
+ content_box = slide.shapes.add_textbox(Inches(1), Inches(1.5), Inches(14), Inches(6))
+ content_frame = content_box.text_frame
+ content_frame.word_wrap = True
+@@ -37,6 +37,7 @@
+ content_fill.solid()
+ content_fill.fore_color.rgb = RGBColor(255, 255, 255)  # White
+ 
++# Add padding by leaving space around the actual text
+ references = (
+     "1. Garces, J.C., Inoc, D.S., Inocian, R.B., Labajo, O.P., Rama, F., Tiempo, A.Y., & Un, J.L. 2021. "
+     "*Modular Approach to Art Appreciation*. Lorimar Publishing Inc.\n"
+@@ -45,6 +46,8 @@
+ 
+ p = content_frame.add_paragraph()
+ p.text = references
++p.space_before = Pt(10)  # Adding space before
++p.space_after = Pt(10)   # Adding space after
+ p.font.size = Pt(20)
+ p.font.color.rgb = RGBColor(0, 0, 0)  # Black
+ 

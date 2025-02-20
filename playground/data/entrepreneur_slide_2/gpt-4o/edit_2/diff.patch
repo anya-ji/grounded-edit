@@ -1,0 +1,11 @@
+--- ./data/entrepreneur_slide_2/init/code.py	2025-02-20 02:15:04.515043413 +0000
++++ ./data/entrepreneur_slide_2/gpt-4o/edit_2/code.py	2025-02-20 12:44:48.526425357 +0000
+@@ -55,7 +55,7 @@
+     p = content_frame.add_paragraph()
+     p.text = item
+     p.font.size = Pt(28)
+-    p.font.color.rgb = RGBColor(0, 0, 0)
++    p.font.color.rgb = RGBColor(105, 105, 105)  # Changed to dark gray
+     p.space_before = Pt(10)
+ 
+ # Save the presentation

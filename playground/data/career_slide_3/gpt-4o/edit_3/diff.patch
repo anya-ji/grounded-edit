@@ -1,0 +1,13 @@
+--- ./data/career_slide_3/init/code.py	2025-02-20 02:15:04.980042461 +0000
++++ ./data/career_slide_3/gpt-4o/edit_3/code.py	2025-02-20 12:20:14.633814908 +0000
+@@ -28,6 +28,10 @@
+ shape.fill.solid()
+ shape.fill.fore_color.rgb = RGBColor(178, 34, 34)  # Red color
+ 
++# Set the border color of the speech bubble to a lighter shade of gray
++line = shape.line
++line.color.rgb = RGBColor(150, 150, 150)  # Light gray border
++
+ # Add decorative quotation marks
+ quotation_top = slide.shapes.add_textbox(Inches(7.5), Inches(1.5), Inches(1), Inches(1))
+ quotation_p = quotation_top.text_frame.add_paragraph()

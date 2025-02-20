@@ -1,0 +1,1 @@
+Add a newline before the second bullet point "Global integration can involve the processes of product standardization and technology development centralization." to ensure proper spacing and separation from the previous point.

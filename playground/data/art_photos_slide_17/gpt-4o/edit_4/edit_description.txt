@@ -1,0 +1,1 @@
+Modify the color of the bullet point check mark to match the primary theme color of the slide for better integration.

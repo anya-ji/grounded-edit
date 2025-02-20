@@ -1,0 +1,1 @@
+Ensure that there is a padding of at least 20 pixels between the text and the slide borders to give the content more breathing room.

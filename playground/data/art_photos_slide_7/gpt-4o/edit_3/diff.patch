@@ -1,0 +1,11 @@
+--- ./data/art_photos_slide_7/init/code.py	2025-02-20 02:15:04.317043818 +0000
++++ ./data/art_photos_slide_7/gpt-4o/edit_3/code.py	2025-02-20 11:27:26.450211983 +0000
+@@ -32,7 +32,7 @@
+ main_title_frame.text = "Representational or Objective Art"
+ main_title_frame.paragraphs[0].font.size = Pt(32)
+ main_title_frame.paragraphs[0].font.bold = True
+-main_title_frame.paragraphs[0].font.color.rgb = RGBColor(0, 0, 0)
++main_title_frame.paragraphs[0].font.color.rgb = RGBColor(0, 0, 139)  # Darker shade for better contrast
+ main_title_box.fill.solid()
+ main_title_box.fill.fore_color.rgb = RGBColor(255, 255, 0)
+ 

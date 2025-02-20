@@ -1,0 +1,5 @@
+<edit>Change the background color of the left side of the slide to the same shade of blue used in the target slide.</edit>
+<edit>Change the font color of the title "Principles of Graphic Design" to white to improve contrast and readability.</edit>
+<edit>Adjust the font size of the subtitle "The principles of graphic design related to the areas are," to match the target slide's size.</edit>
+<edit>Update the background color of the button corresponding to "Arrangement" to be consistent with the gradient shades seen in the target slide.</edit>
+<edit>Ensure that the "Proximity" label has the same font color and background color combination as seen in the target slide for coherence.</edit>

@@ -1,1 +1,0 @@
-Change the text color of the "Outcome" heading in the Academic World section from yellow to a contrasting color, like white, to enhance visibility against the dark background.

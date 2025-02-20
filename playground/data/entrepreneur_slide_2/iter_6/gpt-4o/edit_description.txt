@@ -1,1 +1,0 @@
-Adjust the bullet point indentation in the rendered image to match the spacing and indentation in the target image for improved readability.

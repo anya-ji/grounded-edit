@@ -1,1 +1,0 @@
-Change the font of the list items from standard to a bold font to match the font style used in the target image.

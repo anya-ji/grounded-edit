@@ -1,0 +1,15 @@
+--- ./data/social_media_slide_8/init/code.py	2025-02-20 02:15:04.895042635 +0000
++++ ./data/social_media_slide_8/gpt-4o/edit_2/code.py	2025-02-20 15:26:46.218509459 +0000
+@@ -50,9 +50,9 @@
+ p.font.size = Pt(24)
+ p.font.color.rgb = dark_blue
+ 
+-# Add image on the right
++# Add image on the right with padding
+ image_path = "../../media/image_0.jpg"
+-slide.shapes.add_picture(image_path, Inches(10.5), Inches(2.5), Inches(5), Inches(5))
++slide.shapes.add_picture(image_path, Inches(10.8), Inches(2.5), Inches(5), Inches(5))  # Adjusted x position for 20px padding
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

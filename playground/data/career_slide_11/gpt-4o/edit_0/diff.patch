@@ -1,0 +1,18 @@
+--- ./data/career_slide_11/init/code.py	2025-02-20 02:15:04.979042463 +0000
++++ ./data/career_slide_11/gpt-4o/edit_0/code.py	2025-02-20 11:56:47.266123076 +0000
+@@ -51,9 +51,14 @@
+ for main_point, sub_points in bullet_points:
+     p_main = content_frame.add_paragraph()
+     p_main.text = main_point
++    
++    if main_point == "Effective Communication":  # Change made here
++        p_main.font.color.rgb = RGBColor(255, 255, 255)  # White color for "Effective Communication"
++    else:
++        p_main.font.color.rgb = RGBColor(255, 255, 0)  # Yellow color for other main bullet points
++
+     p_main.font.size = Pt(28)
+     p_main.font.bold = True
+-    p_main.font.color.rgb = RGBColor(255, 255, 0)  # Yellow color for main bullet points
+ 
+     for sp in sub_points:
+         p_sub = content_frame.add_paragraph()

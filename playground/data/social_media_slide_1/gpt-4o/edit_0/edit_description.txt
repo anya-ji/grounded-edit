@@ -1,0 +1,1 @@
+Adjust the font size of the text "global.media.cultures" to a larger size for increased visibility.

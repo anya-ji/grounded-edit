@@ -1,0 +1,1 @@
+Change the background color of the left side of the slide to the same shade of blue used in the target slide.

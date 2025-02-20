@@ -1,0 +1,1 @@
+Modify the background of the first bullet point to a semi-transparent white overlay for better contrast.

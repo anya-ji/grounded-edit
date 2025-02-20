@@ -1,0 +1,5 @@
+<edit>Change the font size of the title "Blockchain in Bitcoin" to 40 points.</edit>
+<edit>Update the color of the text "CRYPTOCURRENCY bitcoin is one of the crypto currency" to match the font color used in the target slide.</edit>
+<edit>Insert a line break after the first sentence of the first paragraph to improve text alignment and readability.</edit>
+<edit>Adjust the width of the image to 0.3 of the slide width to maintain spacing without overflowing.</edit>
+<edit>Change the background color of the slide to white for better contrast and readability.</edit>

@@ -1,0 +1,5 @@
+<edit>Change the bullet point style for questions in PART 1 from numbers to regular text to match the target slide format.</edit>
+<edit>Update the font size of the main text in PART 1 to match the target slide, ensuring it is visually consistent.</edit>
+<edit>Change the color of the text in PART 2 to a shade of blue that is consistent with the color theme of the target slide.</edit>
+<edit>Remove the redundant icon before the question prompt in PART 1 to match the formatting of the target slide.</edit>
+<edit>Add appropriate padding below the questions in PART 1 to ensure sufficient space between the questions and the images or other elements, preventing overlap or crowding.</edit>

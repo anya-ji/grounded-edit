@@ -1,1 +1,0 @@
-Remove the white box around the paragraph text to improve legibility and allow for better integration with the colorful background.

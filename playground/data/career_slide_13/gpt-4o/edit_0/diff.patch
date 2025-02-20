@@ -1,0 +1,11 @@
+--- ./data/career_slide_13/init/code.py	2025-02-20 02:15:04.992042437 +0000
++++ ./data/career_slide_13/gpt-4o/edit_0/code.py	2025-02-20 12:00:00.267666500 +0000
+@@ -25,7 +25,7 @@
+ 
+ p = title_frame.add_paragraph()
+ p.text = "IMPORTANCE OF SKILLS BEYOND ACADEMICS"
+-p.font.size = Pt(44)
++p.font.size = Pt(60)  # Changed font size to 60
+ p.font.bold = True
+ p.font.color.rgb = RGBColor(255, 255, 255)  # white text
+ 

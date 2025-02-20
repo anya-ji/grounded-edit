@@ -1,0 +1,14 @@
+--- ./data/career_slide_8/init/code.py	2025-02-20 02:15:05.008042404 +0000
++++ ./data/career_slide_8/gpt-4o/edit_4/code.py	2025-02-20 12:32:14.361257750 +0000
+@@ -50,7 +50,10 @@
+     title_p.text = title
+     title_p.font.size = Pt(14)
+     title_p.font.color.rgb = RGBColor(255, 255, 255)
+-    
++
++    # Add space between title and education
++    text_frame.add_paragraph()  # This adds a blank paragraph for spacing
++
+     # Education
+     edu_p = text_frame.add_paragraph()
+     edu_p.text = "Education"

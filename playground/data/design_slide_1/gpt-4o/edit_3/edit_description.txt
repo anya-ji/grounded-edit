@@ -1,0 +1,1 @@
+Change the font color of "Graphic Design" to a dark shade, such as #333333, to improve legibility against the background.

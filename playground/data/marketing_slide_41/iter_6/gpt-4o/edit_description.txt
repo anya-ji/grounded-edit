@@ -1,1 +1,0 @@
-Change the background color from dark green to the blue-green shade used in the target image.

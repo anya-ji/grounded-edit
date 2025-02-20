@@ -1,0 +1,11 @@
+--- ./data/career_slide_10/init/code.py	2025-02-20 02:15:05.005042410 +0000
++++ ./data/career_slide_10/gpt-4o/edit_4/code.py	2025-02-20 11:56:12.682201800 +0000
+@@ -53,7 +53,7 @@
+     name_paragraph.text = name
+     name_paragraph.font.size = Pt(20)
+     name_paragraph.font.bold = True
+-    name_paragraph.font.color.rgb = RGBColor(255, 255, 0)
++    name_paragraph.font.color.rgb = RGBColor(255, 255, 255)  # Changed to white
+ 
+     desc_paragraph = text_frame.add_paragraph()
+     desc_paragraph.text = description

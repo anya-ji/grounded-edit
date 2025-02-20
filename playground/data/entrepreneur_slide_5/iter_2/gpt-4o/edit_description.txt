@@ -1,1 +1,0 @@
-Add a yellow vertical stripe on the left side of the rendered image.

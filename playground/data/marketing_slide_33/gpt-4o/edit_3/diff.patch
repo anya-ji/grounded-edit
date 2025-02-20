@@ -1,0 +1,15 @@
+--- ./data/marketing_slide_33/init/code.py	2025-02-20 02:15:03.905044662 +0000
++++ ./data/marketing_slide_33/gpt-4o/edit_3/code.py	2025-02-20 14:24:02.399383455 +0000
+@@ -37,10 +37,10 @@
+ p.font.color.rgb = RGBColor(255, 255, 0)  # Yellow
+ p.alignment = PP_ALIGN.CENTER
+ 
+-# Add images to the slide
++# Add images to the slide with increased spacing
+ image_path1 = "../../media/image_1.jpg"
+ image_path2 = "../../media/image_0.jpg"
+-top_image = slide.shapes.add_picture(image_path1, Inches(10), Inches(2), width=Inches(5))
++top_image = slide.shapes.add_picture(image_path1, Inches(10), Inches(3.5), width=Inches(5))  # Adjusted position
+ bottom_image = slide.shapes.add_picture(image_path2, Inches(10), Inches(5.5), width=Inches(5))
+ 
+ # Add attribution text

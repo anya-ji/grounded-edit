@@ -1,0 +1,20 @@
+--- ./data/entrepreneur_slide_2/init/code.py	2025-02-20 02:15:04.515043413 +0000
++++ ./data/entrepreneur_slide_2/gpt-4o/edit_0/code.py	2025-02-20 12:44:23.730486744 +0000
+@@ -16,7 +16,7 @@
+ background = slide.background
+ fill = background.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(255, 255, 255)
++fill.fore_color.rgb = RGBColor(255, 255, 255)  # white color explicitly set
+ 
+ # Title
+ title_text = "Content"
+@@ -33,7 +33,7 @@
+ left_bar_width = Inches(0.5)
+ left_bar = slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, Inches(0.5), Inches(0), left_bar_width, Inches(9))
+ left_bar.fill.solid()
+-left_bar.fill.fore_color.rgb = RGBColor(255, 255, 0) # yellow
++left_bar.fill.fore_color.rgb = RGBColor(255, 255, 0)  # yellow
+ 
+ # Bullet points
+ content_texts = [

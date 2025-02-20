@@ -1,1 +1,0 @@
-Increase the brightness and saturation of the yellow background behind the header "Two kinds of Art as to Subject" in the rendered image to match the target image's vividness, ensuring the text remains legible.

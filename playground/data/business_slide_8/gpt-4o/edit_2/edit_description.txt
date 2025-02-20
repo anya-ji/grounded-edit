@@ -1,0 +1,1 @@
+Adjust the spacing between the illustrations and the text above to ensure they do not overlap, setting a margin of `20` units between them.

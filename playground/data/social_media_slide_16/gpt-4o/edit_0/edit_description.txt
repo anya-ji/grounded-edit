@@ -1,0 +1,1 @@
+Change the title font size to match the target slide, using `font_size=28` for the title text "Global and Local Cultural Products".

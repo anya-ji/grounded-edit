@@ -1,0 +1,20 @@
+--- ./data/food_slide_4/init/code.py	2025-02-20 02:15:04.663043110 +0000
++++ ./data/food_slide_4/gpt-4o/edit_4/code.py	2025-02-20 13:40:34.827328743 +0000
+@@ -35,7 +35,7 @@
+ p.font.size = Pt(24)
+ p.font.color.rgb = RGBColor(0, 0, 0)
+ 
+-# List the questions with numbers in circles
++# List the questions with adjusted vertical spacing
+ questions = [
+     "What do you think are some other good (or bad) date ideas not listed on the previous slide?",
+     "What are some things that could go wrong on a first date?",
+@@ -45,7 +45,7 @@
+ for i, question in enumerate(questions, start=1):
+     # Add circle with number
+     left = Inches(1)
+-    top = Inches(2.5 + i * 0.8)
++    top = Inches(2.5 + i * 1.2)  # Increased spacing for even distribution
+     shape = slide.shapes.add_shape(MSO_SHAPE.OVAL, left, top, Inches(0.5), Inches(0.5))
+     shape.fill.solid()
+     shape.fill.fore_color.rgb = RGBColor(0, 102, 204)  # Blue color

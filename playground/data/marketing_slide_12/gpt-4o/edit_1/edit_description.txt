@@ -1,0 +1,1 @@
+Replace the color of the first bullet point arrow from orange to a shade of coral.

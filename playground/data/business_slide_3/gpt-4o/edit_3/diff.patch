@@ -1,0 +1,20 @@
+--- ./data/business_slide_3/init/code.py	2025-02-20 02:15:04.111044240 +0000
++++ ./data/business_slide_3/gpt-4o/edit_3/code.py	2025-02-20 11:43:24.622456078 +0000
+@@ -14,5 +14,16 @@
+ image_path = "../../media/image_0.jpg"
+ slide.shapes.add_picture(image_path, Inches(2), Inches(2), Inches(12), Inches(6))
+ 
++# Add a centered text box
++left = Inches(2)
++top = Inches(8)
++width = Inches(12)
++height = Inches(1)
++textbox = slide.shapes.add_textbox(left, top, width, height)
++text_frame = textbox.text_frame
++p = text_frame.add_paragraph()
++p.text = "Your centered text here"
++p.alignment = 1  # Set alignment to center (1 = center alignment)
++
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

@@ -1,0 +1,21 @@
+--- ./data/food_slide_9/init/code.py	2025-02-20 02:15:04.664043108 +0000
++++ ./data/food_slide_9/gpt-4o/edit_0/code.py	2025-02-20 13:44:35.113871523 +0000
+@@ -30,15 +30,15 @@
+ exam_logo_path = "../../media/image_1.jpg"
+ slide.shapes.add_picture(exam_logo_path, Inches(0.5), Inches(1.5), width=Inches(1))
+ 
+-# Add questions and time indicators
++# Add questions and time indicators (modified to remove numbers)
+ question1_text = slide.shapes.add_textbox(Inches(2), Inches(1.5), Inches(13), Inches(1))
+ question1_p = question1_text.text_frame.add_paragraph()
+-question1_p.text = "1: What happened on Joey’s first date with Sarah?                                         0:18"
++question1_p.text = "What happened on Joey’s first date with Sarah?                                         0:18"
+ question1_p.font.size = Pt(16)
+ 
+ question2_text = slide.shapes.add_textbox(Inches(2), Inches(2.5), Inches(13), Inches(1))
+ question2_p = question2_text.text_frame.add_paragraph()
+-question2_p.text = "2: How does Joey feel about their first date? What does he say about it?           0:48"
++question2_p.text = "How does Joey feel about their first date? What does he say about it?           0:48"
+ question2_p.font.size = Pt(16)
+ 
+ # Add image of Joey

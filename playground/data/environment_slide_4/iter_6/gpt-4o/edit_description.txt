@@ -1,1 +1,0 @@
-Change the background color from bright green to a softer light green to match the target image.

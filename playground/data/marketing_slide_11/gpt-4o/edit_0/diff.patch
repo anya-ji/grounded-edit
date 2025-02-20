@@ -1,0 +1,11 @@
+--- ./data/marketing_slide_11/init/code.py	2025-02-20 02:15:03.869044735 +0000
++++ ./data/marketing_slide_11/gpt-4o/edit_0/code.py	2025-02-20 13:49:59.093253781 +0000
+@@ -31,6 +31,6 @@
+ main_text.text = "Consider yourself as a producer, list the various things you must be taking care of till your product reaches the consumers. (3 MARKS)"
+ main_text.font.size = Pt(24)
+ main_text.font.bold = True
+-main_text.font.color.rgb = RGBColor(255, 255, 255)
++main_text.font.color.rgb = RGBColor(0, 0, 0)  # Changed to darker color
+ 
+ presentation.save("render.pptx")
+\ No newline at end of file

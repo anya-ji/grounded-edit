@@ -1,0 +1,13 @@
+--- ./data/art_photos_slide_16/init/code.py	2025-02-20 02:15:04.298043857 +0000
++++ ./data/art_photos_slide_16/gpt-4o/edit_3/code.py	2025-02-20 10:59:20.559633111 +0000
+@@ -25,8 +25,8 @@
+ title_box.fill.fore_color.rgb = RGBColor(255, 255, 0)
+ title_frame.paragraphs[0].font.color.rgb = RGBColor(0, 0, 0)
+ 
+-# Add subtitle
+-subtitle_box = slide.shapes.add_textbox(Inches(1), Inches(3), Inches(14), Inches(1))
++# Add subtitle with margin
++subtitle_box = slide.shapes.add_textbox(Inches(1), Inches(3) + Inches(0.01), Inches(14), Inches(1))
+ subtitle_frame = subtitle_box.text_frame
+ subtitle_frame.text = "Sources of the Subject"
+ subtitle_frame.paragraphs[0].font.size = Pt(32)

@@ -1,0 +1,28 @@
+--- ./data/marketing_slide_40/init/code.py	2025-02-20 02:15:03.895044682 +0000
++++ ./data/marketing_slide_40/gpt-4o/edit_3/code.py	2025-02-20 14:38:09.378361024 +0000
+@@ -30,7 +30,7 @@
+     "../../media/image_3.jpg"  # Shopping mall
+ ]
+ 
+-# Coordinates for image positions
++# Coordinates for image positions with increased spacing
+ positions = [
+     (Inches(0.5), Inches(1.5)),  # Top left
+     (Inches(11.5), Inches(1.5)), # Top right
+@@ -39,8 +39,15 @@
+     (Inches(11.5), Inches(6))    # Bottom right
+ ]
+ 
++# Adjust positions to add spacing
++spacing = Inches(0.2)  # 20 pixels
++adjusted_positions = [
++    (x + (spacing if i % 2 == 0 else 0), y + (spacing if i >= 2 else 0)) 
++    for i, (x, y) in enumerate(positions)
++]
++
+ # Add images in circular frames
+-for img_path, pos in zip(image_paths, positions):
++for img_path, pos in zip(image_paths, adjusted_positions):
+     left, top = pos
+     picture = slide.shapes.add_picture(img_path, left, top, width=Inches(4), height=Inches(4))
+     

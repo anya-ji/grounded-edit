@@ -1,0 +1,22 @@
+--- ./data/art_photos_slide_12/init/code.py	2025-02-20 02:15:04.399043650 +0000
++++ ./data/art_photos_slide_12/gpt-4o/edit_4/code.py	2025-02-20 10:53:23.537423068 +0000
+@@ -35,6 +35,9 @@
+ title.font.size = Pt(44)
+ title.font.bold = True
+ 
++# Add padding space between title and main text
++padding_space = Pt(20)
++
+ # Add the smaller title at the top left corner
+ subtitle_text = "The Subject and Content of Art"
+ subtitle_box = slide.shapes.add_textbox(Inches(1), Inches(0.5), Inches(7), Inches(0.75))
+@@ -45,6 +48,9 @@
+ subtitle.font.bold = True
+ subtitle.font.color.rgb = RGBColor(255, 0, 0)  # Contrasting color
+ 
++# Adjust the position of the title text to include the padding
++title_box.top += padding_space
++
+ # Add the images side by side
+ img1_path = "../../media/image_1.jpg"
+ img2_path = "../../media/image_2.jpg"

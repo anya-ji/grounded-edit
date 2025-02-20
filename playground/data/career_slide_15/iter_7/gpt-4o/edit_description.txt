@@ -1,1 +1,0 @@
-Remove the colon after "Assessment" and "Feedback" in both sections and ensure all section titles are aligned to the left for a uniform look.

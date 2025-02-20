@@ -1,0 +1,12 @@
+--- ./data/art_photos_slide_6/init/code.py	2025-02-20 02:15:04.196044066 +0000
++++ ./data/art_photos_slide_6/gpt-4o/edit_3/code.py	2025-02-20 11:25:34.145621741 +0000
+@@ -50,7 +50,7 @@
+ p = frame.add_paragraph()
+ p.text = "Self-portrait of Van Gogh"
+ p.font.size = Pt(18)
+-p.font.color.rgb = RGBColor(0, 0, 0)  # Black text
++p.font.color.rgb = RGBColor(0, 0, 0)  # Changed to black for improved visibility
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

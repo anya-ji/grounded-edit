@@ -1,0 +1,18 @@
+--- ./data/business_slide_11/init/code.py	2025-02-20 02:15:04.126044209 +0000
++++ ./data/business_slide_11/gpt-4o/edit_4/code.py	2025-02-20 11:35:57.864470762 +0000
+@@ -30,7 +30,13 @@
+ 
+ # Add logo image
+ image_path = "../../media/image_0.jpg"
+-slide.shapes.add_picture(image_path, Inches(0.5), Inches(2.5), Inches(2), Inches(2))
++logo = slide.shapes.add_picture(image_path, Inches(0.5), Inches(2.5), Inches(2), Inches(2))
++
++# Change the fill color of the logo/icon to a darker gray
++logo_fill = slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, Inches(0.5), Inches(2.5), Inches(2), Inches(2))
++logo_fill.fill.solid()
++logo_fill.fill.fore_color.rgb = RGBColor(105, 105, 105)  # Dark gray color
++logo_fill.line.color.rgb = RGBColor(255, 255, 255)  # Optional: white border
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

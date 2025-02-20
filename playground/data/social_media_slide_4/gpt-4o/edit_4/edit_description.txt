@@ -1,0 +1,1 @@
+Ensure the image is aligned to the right of the text block, maintaining a margin of 30 pixels from the edges.

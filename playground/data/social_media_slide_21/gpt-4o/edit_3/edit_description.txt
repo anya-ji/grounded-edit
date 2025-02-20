@@ -1,0 +1,1 @@
+Change the color of the text "THANK YOU!" to navy blue (#001F5B).

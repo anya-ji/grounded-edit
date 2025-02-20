@@ -1,0 +1,11 @@
+--- ./data/food_slide_23/init/code.py	2025-02-20 02:15:04.670043096 +0000
++++ ./data/food_slide_23/gpt-4o/edit_0/code.py	2025-02-20 13:26:26.985924492 +0000
+@@ -23,7 +23,7 @@
+ title_frame = title.text_frame
+ title_para = title_frame.add_paragraph()
+ title_para.text = "What do you think is the general rule for this pronunciation scheme?"
+-title_para.font.size = Pt(32)
++title_para.font.size = Pt(28)  # Changed font size to 28 pt
+ title_para.font.bold = True
+ 
+ # Subtitle

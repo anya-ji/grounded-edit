@@ -1,0 +1,1 @@
+Add a bullet point symbol to the list item by modifying the bullet style with `text_box.text_frame.paragraphs[0].bullet.char = '•'`.

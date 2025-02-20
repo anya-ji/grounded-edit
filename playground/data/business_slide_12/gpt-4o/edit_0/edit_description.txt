@@ -1,0 +1,1 @@
+Change the font size of the text "NYC" to match the specified size (e.g., increase to 150 pt).

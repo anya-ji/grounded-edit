@@ -1,0 +1,1 @@
+Change the background color of the rendered slide to a dark gradient similar to the target slide.

@@ -1,0 +1,1 @@
+Add padding of 10 pixels to the text area within both the "PAST SIMPLE" and "PAST CONTINUOUS" sections to ensure better spacing around the text.

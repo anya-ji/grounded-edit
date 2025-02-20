@@ -1,0 +1,1 @@
+Add a subtle drop shadow effect to the text to enhance readability against the background.

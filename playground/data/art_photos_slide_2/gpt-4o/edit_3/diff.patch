@@ -1,0 +1,11 @@
+--- ./data/art_photos_slide_2/init/code.py	2025-02-20 02:15:04.280043894 +0000
++++ ./data/art_photos_slide_2/gpt-4o/edit_3/code.py	2025-02-20 11:06:49.359640112 +0000
+@@ -34,7 +34,7 @@
+ main_title.text = "The Subject of Art"
+ main_title.font.size = Pt(32)
+ main_title.font.bold = True
+-main_title.font.color.rgb = RGBColor(0, 0, 0)
++main_title.font.color.rgb = RGBColor(0, 0, 0)  # Changed to black for enhanced contrast
+ main_title_box.fill.solid()
+ main_title_box.fill.fore_color.rgb = RGBColor(255, 255, 0)  # Yellow background
+ 

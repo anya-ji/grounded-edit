@@ -1,1 +1,0 @@
-Adjust the text alignment of the bullet points in the rendered image to be left-aligned and properly indented to match the neat alignment of the target image.

@@ -1,1 +1,0 @@
-Adjust the background color gradient in the rendered image to match the target image's gradient from dark green to light blue-green.

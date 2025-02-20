@@ -1,0 +1,10 @@
+--- ./data/business_slide_7/init/code.py	2025-02-20 02:15:04.127044207 +0000
++++ ./data/business_slide_7/gpt-4o/edit_2/code.py	2025-02-20 11:48:44.147088053 +0000
+@@ -72,6 +72,7 @@
+ highlight_paragraph.text = "The Bélo tells the story of the company in one symbol."
+ highlight_paragraph.font.size = Pt(18)
+ highlight_paragraph.font.bold = True
++highlight_paragraph.font.color.rgb = RGBColor(255, 255, 255)  # Change font color to white
+ 
+ # Color Palette
+ slide.shapes.add_picture("../../media/image_1.jpg", Inches(12), Inches(7), Inches(3), Inches(2))

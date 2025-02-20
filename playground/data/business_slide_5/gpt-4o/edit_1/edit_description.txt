@@ -1,0 +1,1 @@
+Adjust the spacing between the items in the list to 1.5 lines for improved readability.

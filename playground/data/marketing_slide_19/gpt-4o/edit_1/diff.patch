@@ -1,0 +1,11 @@
+--- ./data/marketing_slide_19/init/code.py	2025-02-20 02:15:03.995044477 +0000
++++ ./data/marketing_slide_19/gpt-4o/edit_1/code.py	2025-02-20 14:00:11.048566208 +0000
+@@ -24,7 +24,7 @@
+ title.text = "THE MARKETING MIX"
+ title.font.size = Pt(32)
+ title.font.bold = True
+-title.font.color.rgb = RGBColor(255, 255, 255)  # White text
++title.font.color.rgb = RGBColor(255, 255, 255)  # Changed to white for contrast
+ 
+ # Add Marketing Mix Diagram image
+ image_path = "../../media/image_0.jpg"

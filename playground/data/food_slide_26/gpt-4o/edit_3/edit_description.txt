@@ -1,0 +1,1 @@
+Change the text color of the image selection instructions to a darker shade, such as #333333, to enhance contrast and readability.

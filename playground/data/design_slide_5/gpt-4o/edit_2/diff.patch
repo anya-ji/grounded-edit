@@ -1,0 +1,11 @@
+--- ./data/design_slide_5/init/code.py	2025-02-20 02:15:04.607043225 +0000
++++ ./data/design_slide_5/gpt-4o/edit_2/code.py	2025-02-20 12:42:02.108836403 +0000
+@@ -31,7 +31,7 @@
+ 
+ right_title_p = right_text_frame.add_paragraph()
+ right_title_p.text = "The principles of graphic design related to the areas are:"
+-right_title_p.font.size = Pt(24)
++right_title_p.font.size = Pt(28)  # Adjusted font size
+ 
+ # List of items with varying background shades
+ items = [

@@ -1,1 +1,0 @@
-Adjust the width of the yellow banner at the top of the rendered image to match the narrower style of the target image for better visual consistency.

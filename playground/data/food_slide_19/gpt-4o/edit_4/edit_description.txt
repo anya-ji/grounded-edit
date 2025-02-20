@@ -1,0 +1,1 @@
+Ensure the image on the right is resized to have a width of 200 px for balanced visual alignment with the text.

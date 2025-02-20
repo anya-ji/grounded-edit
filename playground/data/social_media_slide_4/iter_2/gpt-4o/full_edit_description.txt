@@ -1,7 +1,0 @@
-```
-1. Description of Target Image: The target image features a title "5 Stages of Development of Media" at the top, with the text "1. ORAL COMMUNICATION" and two bullet points below it. The bullet points describe the importance of language in communication, followed by an illustration of people communicating, with various colored speech bubbles above them.
-
-2. Description of Rendered Image: The rendered image has the same title and section heading as the target image, but the bullet points are formatted in a different way—specifically, they are presented as full sentences rather than fragments. The image of the people and speech bubbles is consistent with the target image.
-
-3. Change Suggestion: Change the bullet points to use fragment formatting (short phrases) instead of complete sentences to align with the target image's style.
-```

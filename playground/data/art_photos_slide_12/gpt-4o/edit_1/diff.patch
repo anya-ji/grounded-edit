@@ -1,0 +1,11 @@
+--- ./data/art_photos_slide_12/init/code.py	2025-02-20 02:15:04.399043650 +0000
++++ ./data/art_photos_slide_12/gpt-4o/edit_1/code.py	2025-02-20 10:52:42.825513150 +0000
+@@ -32,7 +32,7 @@
+ title_frame = title_box.text_frame
+ title = title_frame.add_paragraph()
+ title.text = title_text
+-title.font.size = Pt(44)
++title.font.size = Pt(36)  # Changed font size to 36 pt
+ title.font.bold = True
+ 
+ # Add the smaller title at the top left corner

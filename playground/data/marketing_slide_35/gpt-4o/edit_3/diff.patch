@@ -1,0 +1,11 @@
+--- ./data/marketing_slide_35/init/code.py	2025-02-20 02:15:03.986044496 +0000
++++ ./data/marketing_slide_35/gpt-4o/edit_3/code.py	2025-02-20 14:28:06.658473868 +0000
+@@ -50,7 +50,7 @@
+ # Add bottom content box for "2. Fixed – Shop Retailers"
+ bottom_box = slide.shapes.add_textbox(Inches(4), Inches(6), Inches(10), Inches(2))
+ bottom_box.fill.solid()
+-bottom_box.fill.fore_color.rgb = RGBColor(255, 140, 0)  # Orange color
++bottom_box.fill.fore_color.rgb = RGBColor(255, 102, 102)  # Soft light red color
+ bottom_frame = bottom_box.text_frame
+ bottom_frame.word_wrap = True
+ bottom_p = bottom_frame.add_paragraph()

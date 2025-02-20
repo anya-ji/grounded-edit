@@ -1,0 +1,1 @@
+Adjust the text alignment to be left-aligned instead of centered.

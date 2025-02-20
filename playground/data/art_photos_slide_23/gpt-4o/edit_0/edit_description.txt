@@ -1,0 +1,1 @@
+Change the background color of the slide to a light yellow color (e.g., `#FFFFE0`) for better readability and to match more closely with the target slide.

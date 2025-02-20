@@ -1,0 +1,28 @@
+--- ./data/design_slide_1/init/code.py	2025-02-20 02:15:04.609043220 +0000
++++ ./data/design_slide_1/gpt-4o/edit_3/code.py	2025-02-20 12:34:50.797886104 +0000
+@@ -8,14 +8,14 @@
+ presentation.slide_height = Inches(9)
+ 
+ # Add a blank slide layout
+-slide_layout = presentation.slide_layouts[5] # blank layout
++slide_layout = presentation.slide_layouts[5]  # blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+ # Set white background color
+ background = slide.background
+ fill = background.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(255, 255, 255) # white
++fill.fore_color.rgb = RGBColor(255, 255, 255)  # white
+ 
+ # Insert the laptop with paint splashes image
+ image_path = "../../media/image_0.jpg"
+@@ -28,7 +28,7 @@
+ p.text = "Graphic Design"
+ p.font.bold = True
+ p.font.size = Pt(54)
+-p.font.color.rgb = RGBColor(0, 0, 0)  # black
++p.font.color.rgb = RGBColor(51, 51, 51)  # dark gray (#333333)
+ 
+ # Center the text horizontally
+ text_frame.paragraphs[0].alignment = 1  # Centered

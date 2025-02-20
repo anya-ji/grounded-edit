@@ -1,1 +1,0 @@
-Add colorful illustrations of two characters with wine glasses to the bottom right corner of the rendered image, similar to the target image.

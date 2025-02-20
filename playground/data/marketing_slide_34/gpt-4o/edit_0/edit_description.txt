@@ -1,0 +1,1 @@
+Change the background color of the slide to a gradient that transitions from a dark teal to a lighter teal for improved visual appeal.

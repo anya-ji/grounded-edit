@@ -1,0 +1,23 @@
+--- ./data/environment_slide_1/init/code.py	2025-02-20 02:15:04.792042846 +0000
++++ ./data/environment_slide_1/gpt-4o/edit_0/code.py	2025-02-20 12:50:53.589997489 +0000
+@@ -11,11 +11,17 @@
+ slide_layout = presentation.slide_layouts[5] 
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set the background color to light green
++# Set the background color to a gradient of light green
+ background = slide.background
+ fill = background.fill
+-fill.solid()
+-fill.fore_color.rgb = RGBColor(204, 255, 204) # light green
++fill.gradient()  # Switch to gradient fill
++stop1 = fill.gradient_stops[0]
++stop1.position = 0.0
++stop1.color.rgb = RGBColor(204, 255, 204)  # light green
++
++stop2 = fill.gradient_stops[1]
++stop2.position = 1.0
++stop2.color.rgb = RGBColor(180, 255, 180)  # A slightly darker light green
+ 
+ # Adding a textbox on the right side for title and content
+ left = Inches(10)

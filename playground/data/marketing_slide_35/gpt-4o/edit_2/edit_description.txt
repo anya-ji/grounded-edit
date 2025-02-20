@@ -1,0 +1,1 @@
+Adjust the arrow between the two boxes from blue to a darker gold color to ensure consistent color scheme.

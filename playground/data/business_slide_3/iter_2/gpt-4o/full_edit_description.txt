@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image features a brightly illuminated billboard with bold white text on a vivid red background, showcasing the Airbnb slogan. The lighting on the billboard is clear and vibrant against a blue sky.
-2. Description of Rendered Image: The rendered image has the same billboard and text, but the overall brightness appears lower, making the billboard less vibrant. The left side of the image is also cut off, removing some context.
-3. Change Suggestion: Increase the brightness and contrast of the rendered image to match the vibrant look of the target image.
-```

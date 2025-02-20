@@ -1,0 +1,1 @@
+Change the font color of the title "Principles of Graphic Design" to white to improve contrast and readability.

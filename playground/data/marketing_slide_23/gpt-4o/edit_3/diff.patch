@@ -1,0 +1,20 @@
+--- ./data/marketing_slide_23/init/code.py	2025-02-20 02:15:03.865044744 +0000
++++ ./data/marketing_slide_23/gpt-4o/edit_3/code.py	2025-02-20 14:10:22.041021490 +0000
+@@ -40,7 +40,7 @@
+ text_frame1 = orange_box.text_frame
+ p1 = text_frame1.add_paragraph()
+ p1.text = "Define the term Market"
+-p1.font.size = Pt(24)
++p1.font.size = Pt(24)  # Increased font size
+ p1.font.color.rgb = RGBColor(0, 0, 0)
+ text_frame1.word_wrap = True
+ 
+@@ -54,7 +54,7 @@
+ text_frame2 = yellow_box.text_frame
+ p2 = text_frame2.add_paragraph()
+ p2.text = "Explain how products reach to market"
+-p2.font.size = Pt(24)
++p2.font.size = Pt(24)  # Increased font size
+ p2.font.color.rgb = RGBColor(0, 0, 0)
+ text_frame2.word_wrap = True
+ 

@@ -1,1 +1,0 @@
-Change the background color of the title "KEEPING ART" from yellow to a light gradient similar to that in the target image, to enhance readability and visual coherence.

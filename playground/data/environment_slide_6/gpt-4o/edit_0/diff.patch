@@ -1,0 +1,16 @@
+--- ./data/environment_slide_6/init/code.py	2025-02-20 02:15:04.786042858 +0000
++++ ./data/environment_slide_6/gpt-4o/edit_0/code.py	2025-02-20 13:00:27.776274205 +0000
+@@ -14,11 +14,11 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set background color to light green
++# Set background color to a pastel color
+ background = slide.background
+ fill = background.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(204, 255, 204)  # Light green
++fill.fore_color.rgb = RGBColor(217, 234, 211)  # Pastel color
+ 
+ # Add a white textbox in the middle
+ left = Inches(1)

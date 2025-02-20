@@ -1,0 +1,1 @@
+Update the text color of the title "The Subject and Content of Art" to dark brown for better readability.

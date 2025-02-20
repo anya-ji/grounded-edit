@@ -1,1 +1,0 @@
-Add a yellow border to the left side of the rendered image to match the layout of the target image.

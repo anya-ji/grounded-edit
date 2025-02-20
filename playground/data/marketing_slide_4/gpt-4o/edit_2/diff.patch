@@ -1,0 +1,14 @@
+--- ./data/marketing_slide_4/init/code.py	2025-02-20 02:15:03.985044498 +0000
++++ ./data/marketing_slide_4/gpt-4o/edit_2/code.py	2025-02-20 14:35:13.820584556 +0000
+@@ -54,10 +54,10 @@
+ question_frame = question_box.text_frame
+ q = question_frame.add_paragraph()
+ q.text = question_text
+-q.font.bold = True
+ q.font.size = Pt(48)
+ q.font.color.rgb = RGBColor(255, 255, 255)  # White color
+ q.alignment = PP_ALIGN.CENTER
++q.font.bold = True  # Here we maintain the original approach
+ 
+ # Add ribbon graphic in top left corner
+ ribbon_shape = slide.shapes.add_shape(

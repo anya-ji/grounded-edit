@@ -1,0 +1,5 @@
+<edit>Change the slide background color to a gradient with shades of teal, similar to the target slide.</edit>
+<edit>Adjust the font size of the text "Q. What is that one quality your friend has that you would like to have ?" to 36pt for better visibility.</edit>
+<edit>Change the color of the text from white to a light gray to enhance readability against the background.</edit>
+<edit>Increase the spacing between the text and the speech bubble to ensure they are not overlapping.</edit>
+<edit>Modify the shape color of the speech bubble from blue to a darker shade of blue to match the target.</edit>

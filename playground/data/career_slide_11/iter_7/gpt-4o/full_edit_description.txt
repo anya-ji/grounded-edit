@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: A presentation slide with clear headings and bullet points detailing the importance of skills beyond academics, with specific sections for Effective Communication, Problem Solving and Critical Thinking, Emotional Intelligence, and Adaptability and Resilience.
-2. Description of Rendered Image: A similar presentation slide, but the bullet points are missing the first section header "Effective Communication," and the layout appears less organized, affecting the clarity of the message.
-3. Change Suggestion: Add the missing "Effective Communication" section header back to the top of the rendered image to restore clarity and organization.
-```

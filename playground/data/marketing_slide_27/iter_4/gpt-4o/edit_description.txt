@@ -1,1 +1,0 @@
-Change the layout of the images from a grid format to a circular layout, similar to the target image, to emphasize the focus on different types of markets.

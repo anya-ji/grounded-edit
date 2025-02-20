@@ -1,1 +1,0 @@
-Add rounded orange and yellow background boxes behind the respective lines of text to match the target image.

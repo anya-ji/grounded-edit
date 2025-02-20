@@ -1,1 +1,0 @@
-Change the text color of the second overlay from yellow to a more vibrant shade of yellow to better match the target image's yellow.

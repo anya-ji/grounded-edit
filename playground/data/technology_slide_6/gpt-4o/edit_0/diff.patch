@@ -1,0 +1,26 @@
+--- ./data/technology_slide_6/init/code.py	2025-02-20 02:15:05.090042236 +0000
++++ ./data/technology_slide_6/gpt-4o/edit_0/code.py	2025-02-20 15:40:13.528397917 +0000
+@@ -48,15 +48,20 @@
+     bullet_frame = bullet_box.text_frame
+     bullet_frame.word_wrap = True
+ 
+-    # Adding bullet points with checkboxes
++    # Adding bullet points with standard bullet style
+     for point in bullet_points:
+         p = bullet_frame.add_paragraph()
+         p.text = point
+         p.font.size = Pt(24)
+         p.font.color.rgb = RGBColor(0, 0, 0)  # black color
+         
+-        # Add a bullet (checkbox styled) prefix
+-        p.text = "\u2611 " + point  # ☑ is unicode character for checked box
++        # Add a standard bullet prefix
++        p.space_before = Pt(14)  # Space before the bullet
++        p.space_after = Pt(0)    # Space after the bullet
++
++    # Set bullet style for the entire text frame
++    bullet_frame.text = '\n'.join(bullet_points)  # Refresh text frame content
++    bullet_frame.paragraphs[0].text = ""  # Clear first paragraph to avoid duplication
+ 
+     # Save the presentation
+     presentation.save("render.pptx")

@@ -1,0 +1,1 @@
+Change the font style of the title "THE CONTENT OF ART" to a sans-serif font to match the target slide's style, ensuring it conveys a modern appearance.

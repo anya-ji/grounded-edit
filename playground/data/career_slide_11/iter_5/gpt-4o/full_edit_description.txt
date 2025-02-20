@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: A presentation slide with a dark background featuring white text in a bold font. The slide lists various skills beyond academics, such as "Effective Communication," "Problem Solving and Critical Thinking," and includes corresponding bullet points under each heading.
-2. Description of Rendered Image: A similar presentation slide but with slightly varying text formatting. The headings are less bold and some sections are incorrectly aligned or have missing bullet points.
-3. Change Suggestion: Make the text for all headings bold to match the format of the target image.
-```

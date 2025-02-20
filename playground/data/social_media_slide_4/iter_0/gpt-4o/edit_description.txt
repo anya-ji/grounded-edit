@@ -1,1 +1,0 @@
-Change the background color of the text section to match the dark blue of the target image, and reformat the text into bullet points for clarity.

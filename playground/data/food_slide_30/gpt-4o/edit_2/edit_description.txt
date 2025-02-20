@@ -1,0 +1,1 @@
+Add 20 pixels of padding below "PART 3" to ensure proper spacing from the content below.

@@ -1,0 +1,1 @@
+Update the hyperlinks to match the target slide's links, replacing the current links with the provided Airbnb links in the rendered slide.

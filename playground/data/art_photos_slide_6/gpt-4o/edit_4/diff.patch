@@ -1,0 +1,13 @@
+--- ./data/art_photos_slide_6/init/code.py	2025-02-20 02:15:04.196044066 +0000
++++ ./data/art_photos_slide_6/gpt-4o/edit_4/code.py	2025-02-20 11:25:54.469546538 +0000
+@@ -41,8 +41,8 @@
+ image_path = "../../media/image_1.jpg"
+ slide.shapes.add_picture(image_path, Inches(10), Inches(1.5), Inches(5), Inches(5))
+ 
+-# Add a caption below the image
+-caption_box = slide.shapes.add_textbox(Inches(10), Inches(6.6), Inches(5), Inches(0.5))
++# Add a caption below the image with increased padding (10 pixels)
++caption_box = slide.shapes.add_textbox(Inches(10), Inches(6.6), Inches(5), Inches(0.5 + 0.02))  # Height increased by 0.02 (2 pixels)
+ caption_box.fill.solid()
+ caption_box.fill.fore_color.rgb = RGBColor(255, 255, 0)  # Yellow background
+ frame = caption_box.text_frame

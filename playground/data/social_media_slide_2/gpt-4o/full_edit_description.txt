@@ -1,0 +1,5 @@
+<edit>Increase the font size of the text for "MEDIA" to 32pt.</edit>
+<edit>Change the font weight of the text for "MEDIA" to bold.</edit>
+<edit>Update the first paragraph text to include a line break after "data" to improve spacing.</edit>
+<edit>Adjust the vertical spacing between the "MEDIA" and "CULTURE" sections to 20px.</edit>
+<edit>Change the font color of the text for "CULTURE" to dark blue (Hex: #003366).</edit>

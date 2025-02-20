@@ -1,0 +1,1 @@
+Remove the "Source: Airbnb and Design Studio, 2017" line from the bottom of the slide.

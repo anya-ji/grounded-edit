@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image features a blue background with bold white text displaying the title "3 Factors that have affected the process of Economic Globalization." The text is well-positioned at the top, with list items clearly formatted below.
-2. Description of Rendered Image: The rendered image has a similar blue background but the title text appears at the top left and the list items are enclosed in a white box, causing them to look cramped and less visually appealing.
-3. Change Suggestion: Remove the white box around the list items to allow the text to flow more naturally with the blue background and improve overall readability.
-```

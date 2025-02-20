@@ -1,0 +1,1 @@
+Adjust the position of "HOW DO MARKETS HELP US?" text to be centered vertically and horizontally in its area using text.set_horizontalalignment('center') and text.set_verticalalignment('center').

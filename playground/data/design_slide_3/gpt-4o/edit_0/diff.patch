@@ -1,0 +1,11 @@
+--- ./data/design_slide_3/init/code.py	2025-02-20 02:15:04.601043237 +0000
++++ ./data/design_slide_3/gpt-4o/edit_0/code.py	2025-02-20 12:38:18.180384958 +0000
+@@ -19,7 +19,7 @@
+ title_paragraph = title_frame.add_paragraph()
+ title_paragraph.text = "Components of visual communication"
+ title_paragraph.font.bold = True
+-title_paragraph.font.size = Pt(40)
++title_paragraph.font.size = Pt(60)  # Changed font size to 60pt
+ title_paragraph.font.color.rgb = RGBColor(255, 255, 255)  # white color
+ 
+ # Add content

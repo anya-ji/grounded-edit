@@ -1,1 +1,0 @@
-Add a vertical yellow sidebar on the left side of the rendered image, similar to the target image, to enhance the layout and improve the overall aesthetic.

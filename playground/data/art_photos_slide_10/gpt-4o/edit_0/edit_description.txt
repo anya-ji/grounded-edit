@@ -1,0 +1,1 @@
+Change the background color of the title text ("The Subject and Content of Art") to match a consistent yellow, using `slide.background_color = 'yellow'`.

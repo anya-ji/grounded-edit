@@ -1,1 +1,0 @@
-Enhance the brightness and saturation of the colors in the left artwork of the rendered image to closely match the vibrancy of the target image.

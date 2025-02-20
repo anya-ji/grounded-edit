@@ -1,0 +1,22 @@
+--- ./data/marketing_slide_14/init/code.py	2025-02-20 02:15:03.988044492 +0000
++++ ./data/marketing_slide_14/gpt-4o/edit_4/code.py	2025-02-20 13:54:54.545689700 +0000
+@@ -25,18 +25,5 @@
+ text_box.text_frame.word_wrap = True
+ text_box.text_frame.paragraphs[0].alignment = 1  # Center
+ 
+-# Add red rectangle
+-left_inch = presentation.slide_width - Inches(2.5)
+-top_inch = 0
+-width_inch = Inches(2.5)
+-height_inch = Inches(1)
+-
+-shape = slide.shapes.add_shape(
+-    1, left_inch, top_inch, width_inch, height_inch
+-)
+-fill = shape.fill
+-fill.solid()
+-fill.fore_color.rgb = RGBColor(255, 0, 0)
+-
+ # Save presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

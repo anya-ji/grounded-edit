@@ -1,0 +1,50 @@
+--- ./data/career_slide_4/init/code.py	2025-02-20 02:15:04.976042469 +0000
++++ ./data/career_slide_4/gpt-4o/edit_3/code.py	2025-02-20 12:22:37.720536617 +0000
+@@ -2,7 +2,6 @@
+ from pptx.util import Inches, Pt
+ from pptx.enum.text import PP_ALIGN
+ from pptx.dml.color import RGBColor
+-from pptx.util import Inches
+ 
+ # Create a presentation
+ presentation = Presentation()
+@@ -10,7 +9,7 @@
+ presentation.slide_height = Inches(9)
+ 
+ # Add a slide
+-slide_layout = presentation.slide_layouts[5] # blank layout
++slide_layout = presentation.slide_layouts[5]  # blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+ # Set dark background
+@@ -49,7 +48,7 @@
+     p.font.color.rgb = RGBColor(255, 255, 255)  # white color
+ 
+ # Add image to left section
+-left_image_path = "../../media/image_0.jpg" # replace with your own image path
++left_image_path = "../../media/image_0.jpg"  # replace with your own image path
+ slide.shapes.add_picture(left_image_path, Inches(0.5), Inches(3.0), width=Inches(4))
+ 
+ # Section 2
+@@ -69,10 +68,10 @@
+     p = middle_frame.add_paragraph()
+     p.text = bullet
+     p.font.size = Pt(16)
+-    p.font.color.rgb = RGBColor(255, 255, 255)  # white color
++    p.font.color.rgb = RGBColor(200, 200, 200)  # darker color for better visibility
+ 
+ # Add image to middle section
+-middle_image_path = "../../media/image_0.jpg" # replace with your own image path
++middle_image_path = "../../media/image_0.jpg"  # replace with your own image path
+ slide.shapes.add_picture(middle_image_path, Inches(5.5), Inches(3.0), width=Inches(4))
+ 
+ # Section 3
+@@ -94,7 +93,7 @@
+ p.font.color.rgb = RGBColor(255, 255, 255)  # white color
+ 
+ # Add image to right section
+-right_image_path = "../../media/image_1.jpg" # replace with your own image path
++right_image_path = "../../media/image_1.jpg"  # replace with your own image path
+ slide.shapes.add_picture(right_image_path, Inches(10.5), Inches(3.0), width=Inches(4))
+ 
+ # Save the presentation

@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image features a clean and neatly formatted list with specific text styling; it includes a highlighted yellow section on the left. 
-2. Description of Rendered Image: The rendered image has a similar content layout but lacks the prominent left-side highlight and has a more cluttered appearance with inconsistent text styles.
-3. Change Suggestion: Add a yellow highlighted vertical bar on the left side of the rendered image to match the visual style of the target image.
-```

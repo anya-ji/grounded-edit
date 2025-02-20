@@ -1,0 +1,1 @@
+Increase the overall size of the globe and headphones graphic to occupy more space on the slide without overlapping the text.

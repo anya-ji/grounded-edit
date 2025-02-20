@@ -1,1 +1,0 @@
-Correct the order of the event listings to match the sequential numbering from 1 to 6 as per the target image.

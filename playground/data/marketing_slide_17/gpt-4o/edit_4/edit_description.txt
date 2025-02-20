@@ -1,0 +1,1 @@
+Shift the icon in the slide to the right to maintain a balanced layout without overlapping the text.

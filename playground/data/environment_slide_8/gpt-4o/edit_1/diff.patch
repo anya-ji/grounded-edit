@@ -1,0 +1,25 @@
+--- ./data/environment_slide_8/init/code.py	2025-02-20 02:15:04.795042840 +0000
++++ ./data/environment_slide_8/gpt-4o/edit_1/code.py	2025-02-20 13:03:33.298121213 +0000
+@@ -36,8 +36,8 @@
+ 
+ content = [
+     "Promoting afforestation plays an important role in reducing air pollution by improving overall air quality.",
+-    "Conserving water resources- By not throwing industrial wastes, domestic wastes into rivers, lakes etc., water pollution can be prevented. Techniques like rainwater harvesting, watershed management, and drip irrigation help in conservation of water resources.",
+-    "Soil conservation- methods like terrace farming, crop rotation, windbreaks play an important role in preventing soil erosion.",
++    "Conserving water resources - By not throwing industrial wastes, domestic wastes into rivers, lakes etc., water pollution can be prevented. Techniques like rainwater harvesting, watershed management, and drip irrigation help in conservation of water resources.",
++    "Soil conservation - Methods like terrace farming, crop rotation, windbreaks play an important role in preventing soil erosion.",
+     "Conservation of flora and fauna by setting up conservation areas, botanical gardens, national parks, and wildlife sanctuaries.",
+     "Use of renewable sources of energy like solar energy, biofuels, wind energy etc."
+ ]
+@@ -45,8 +45,11 @@
+ for line in content:
+     p = content_tf.add_paragraph()
+     p.text = line
++    p.space_before = Pt(10)  # Add space before each bullet point
+     p.font.size = Pt(20)
+     p.font.color.rgb = RGBColor(0, 0, 0)  # Black color
++    p.level = 0  # Set bullet points
++    p.padding_left = Pt(10)  # Indent bullet points
+ 
+ content_tf.word_wrap = True
+ 

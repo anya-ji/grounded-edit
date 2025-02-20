@@ -1,0 +1,22 @@
+--- ./data/marketing_slide_9/init/code.py	2025-02-20 02:15:03.955044559 +0000
++++ ./data/marketing_slide_9/gpt-4o/edit_4/code.py	2025-02-20 14:49:56.162850064 +0000
+@@ -44,8 +44,8 @@
+     shape.fill.solid()
+     shape.fill.fore_color.rgb = color
+ 
+-    # Add title inside shape
+-    text_box = slide.shapes.add_textbox(left + Inches(0.2), top + Inches(0.2), width - Inches(0.4), height - Inches(0.4))
++    # Add title inside shape with padding
++    text_box = slide.shapes.add_textbox(left + Inches(0.5), top + Inches(0.5), width - Inches(1), height - Inches(1))
+     text_frame = text_box.text_frame
+     title_paragraph = text_frame.add_paragraph()
+     title_paragraph.text = title
+@@ -53,7 +53,7 @@
+     title_paragraph.font.bold = True
+     title_paragraph.font.color.rgb = RGBColor(0, 0, 0)
+ 
+-    # Add content inside shape
++    # Add content inside shape with padding
+     content_paragraph = text_frame.add_paragraph()
+     content_paragraph.text = text
+     content_paragraph.font.size = Pt(16)

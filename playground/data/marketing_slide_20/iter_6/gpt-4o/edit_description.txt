@@ -1,1 +1,0 @@
-Extend the right side of the rendered image to include the cargo ship and surrounding details to closely match the target image composition.

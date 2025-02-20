@@ -1,0 +1,1 @@
+Set the font weight of the title text to `bold` to make it stand out more.

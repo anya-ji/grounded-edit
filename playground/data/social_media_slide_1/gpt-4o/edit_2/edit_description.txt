@@ -1,0 +1,1 @@
+Modify the spacing between the text "global", "media", and "cultures" to ensure equal distribution between the words.

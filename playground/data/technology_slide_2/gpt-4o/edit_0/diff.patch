@@ -1,0 +1,11 @@
+--- ./data/technology_slide_2/init/code.py	2025-02-20 02:15:05.091042234 +0000
++++ ./data/technology_slide_2/gpt-4o/edit_0/code.py	2025-02-20 15:34:03.343366490 +0000
+@@ -21,7 +21,7 @@
+ title_p = title_frame.add_paragraph()
+ title_p.text = title_text
+ title_p.font.bold = True
+-title_p.font.size = Pt(48)
++title_p.font.size = Pt(44)  # Change from 48 to 44 for improved visibility
+ title_p.alignment = PP_ALIGN.CENTER
+ 
+ # Add bullet points for blockchain content

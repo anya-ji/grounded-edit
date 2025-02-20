@@ -1,0 +1,5 @@
+<edit>Change the font size of the text "4. ELECTRONIC MEDIA" to match the target slide's font size.</edit>
+<edit>Adjust the text color of the body text to ensure higher contrast and better readability.</edit>
+<edit>Increase the spacing between the bullet points to ensure they are not too close to each other.</edit>
+<edit>Remove the watermark/logo from the rendered slide to maintain a clean layout.</edit>
+<edit>Reposition the graphic to the right side of the text to match the layout of the target slide.</edit>

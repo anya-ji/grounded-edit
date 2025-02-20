@@ -1,0 +1,17 @@
+--- ./data/technology_slide_2/init/code.py	2025-02-20 02:15:05.091042234 +0000
++++ ./data/technology_slide_2/gpt-4o/edit_3/code.py	2025-02-20 15:34:55.338228950 +0000
+@@ -44,11 +44,11 @@
+     p.space_after = Pt(10)
+     p.level = 0
+ 
+-# Set a clean white background for readability
++# Set a light gray background for improved contrast
+ background = slide.background
+ fill = background.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(255, 255, 255)
++fill.fore_color.rgb = RGBColor(240, 240, 240)
+ 
+ # Save to the specified path
+ presentation.save("render.pptx")
+\ No newline at end of file

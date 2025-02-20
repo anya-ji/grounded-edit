@@ -1,0 +1,5 @@
+<edit>Change the background color to #F6B93B for better alignment with the target slide's color.</edit>
+<edit>Set the title font size to 48pt to match the size in the target slide.</edit>
+<edit>Move the title "Misión" to the top left corner of the slide with a margin of 20 pixels from the top and left edges.</edit>
+<edit>Change the body text color to #2D2A26 to improve readability against the background.</edit>
+<edit>Adjust the image position to be aligned centrally within the slide, ensuring there's enough padding around it (at least 15 pixels from the edges).</edit>

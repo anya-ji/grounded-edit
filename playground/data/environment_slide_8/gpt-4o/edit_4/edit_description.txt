@@ -1,0 +1,1 @@
+Move the image to the right to center it horizontally in relation to the text for a more balanced layout.

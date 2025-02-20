@@ -1,0 +1,1 @@
+Reduce the text alignment of "Innovations (Future Products or Services)" to center-aligned.

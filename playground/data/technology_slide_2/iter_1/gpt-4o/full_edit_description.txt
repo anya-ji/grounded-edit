@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image contains a neatly formatted text with bullet points explaining blockchain, featuring consistent font sizes and styles, along with some highlighted bullet points using checkboxes.
-2. Description of Rendered Image: The rendered image has text that is misaligned, lacks bullet points, and has inconsistent font sizes and styles. It also includes a portion of the text that is incomplete.
-3. Change Suggestion: Add bullet points to the rendered image to match the formatting of the target image, ensuring that each point starts with a checkbox for visual consistency.
-```

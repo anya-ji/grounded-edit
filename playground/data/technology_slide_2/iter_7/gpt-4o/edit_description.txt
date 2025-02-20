@@ -1,1 +1,0 @@
-Add checkboxes to the left of each bullet point in the rendered image to match the visual structure of the target image.

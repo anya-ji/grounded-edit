@@ -1,1 +1,0 @@
-Change the title text "THE CONTENT OF ART" in the rendered image to a standard, non-bold black font to match the styling of the target image.

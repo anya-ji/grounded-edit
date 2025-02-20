@@ -1,1 +1,0 @@
-Change the text color of the title "Are Top Grades Enough?" to yellow and reposition it to the top left corner to avoid overlapping with the character, ensuring it matches the target image layout.

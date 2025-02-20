@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image shows text with clear and properly formatted dialogue, where speech elements are distinctly separated from the main text, enhancing readability.
-2. Description of Rendered Image: The rendered image also features dialogue but has uneven shading and highlighting that makes it less readable and visually inconsistent with the target.
-3. Change Suggestion: Adjust the transparency level of the highlighted dialogue to 75% to ensure improved readability while still distinguishing it from the background.
-```

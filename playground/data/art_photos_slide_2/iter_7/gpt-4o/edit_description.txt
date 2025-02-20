@@ -1,1 +1,0 @@
-Increase the font weight of the text in the rendered image's text box to bold to match the emphasis seen in the target image.

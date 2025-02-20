@@ -1,0 +1,19 @@
+--- ./data/business_slide_7/init/code.py	2025-02-20 02:15:04.127044207 +0000
++++ ./data/business_slide_7/gpt-4o/edit_0/code.py	2025-02-20 11:48:07.800144523 +0000
+@@ -40,7 +40,15 @@
+ main_paragraph.font.size = Pt(20)
+ 
+ # Visual Elements
+-slide.shapes.add_picture("../../media/image_0.jpg", Inches(1), Inches(3.5), Inches(10), Inches(2))
++icon_color = RGBColor(44, 62, 80)  # Dark green color
++icons_paragraph = slide.shapes.add_textbox(Inches(1), Inches(3.5), Inches(10), Inches(1))
++icons_frame = icons_paragraph.text_frame
++icons_frame.word_wrap = True
++
++icons_paragraph = icons_frame.add_paragraph()
++icons_paragraph.text = "people + places + love + A ="
++icons_paragraph.font.size = Pt(36)
++icons_paragraph.font.color.rgb = icon_color
+ 
+ # Additional paragraphs
+ additional_box = slide.shapes.add_textbox(Inches(1), Inches(6), Inches(14), Inches(2))

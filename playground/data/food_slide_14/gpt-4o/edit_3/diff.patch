@@ -1,0 +1,10 @@
+--- ./data/food_slide_14/init/code.py	2025-02-20 02:15:04.706043022 +0000
++++ ./data/food_slide_14/gpt-4o/edit_3/code.py	2025-02-20 13:13:45.896271971 +0000
+@@ -45,6 +45,7 @@
+     event = content_frame.add_paragraph()
+     event.text = event_text
+     event.font.size = Pt(20)
++    event.space_after = Pt(10)  # Set space after each event to 10px
+ 
+ # Add image
+ image_path = "../../media/image_0.jpg"

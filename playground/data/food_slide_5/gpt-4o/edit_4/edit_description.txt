@@ -1,0 +1,1 @@
+Move the image of the person to the left side of the slide, ensuring it does not overlap with the text box.

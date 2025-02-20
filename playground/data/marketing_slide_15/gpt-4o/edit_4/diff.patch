@@ -1,0 +1,15 @@
+--- ./data/marketing_slide_15/init/code.py	2025-02-20 02:15:03.943044584 +0000
++++ ./data/marketing_slide_15/gpt-4o/edit_4/code.py	2025-02-20 13:56:09.787545978 +0000
+@@ -32,5 +32,11 @@
+ p.font.color.rgb = RGBColor(255, 255, 255)  # white
+ p.font.bold = True
+ 
++# Change the shape color of the speech bubble
++# Note: Ensure you add the speech bubble shape if it doesn't exist in the original code
++bubble = slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, Inches(4), Inches(2), Inches(2), Inches(1))
++bubble.fill.solid()
++bubble.fill.fore_color.rgb = RGBColor(0, 76, 153)  # darker blue
++
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

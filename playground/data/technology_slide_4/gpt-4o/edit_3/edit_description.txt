@@ -1,0 +1,1 @@
+Ensure a standard space (e.g., 6pt) between each list item to maintain visual clarity.

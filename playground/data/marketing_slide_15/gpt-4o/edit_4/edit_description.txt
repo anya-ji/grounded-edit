@@ -1,0 +1,1 @@
+Modify the shape color of the speech bubble from blue to a darker shade of blue to match the target.

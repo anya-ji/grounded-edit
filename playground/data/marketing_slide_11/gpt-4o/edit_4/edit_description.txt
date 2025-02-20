@@ -1,0 +1,1 @@
+Adjust the opacity of the overlay on the background image to be less pronounced, maintaining visibility of the background while ensuring text legibility.

@@ -1,0 +1,11 @@
+--- ./data/marketing_slide_36/init/code.py	2025-02-20 02:15:03.961044547 +0000
++++ ./data/marketing_slide_36/gpt-4o/edit_1/code.py	2025-02-20 14:29:23.548194665 +0000
+@@ -23,7 +23,7 @@
+ title = title_frame.add_paragraph()
+ title.text = "Types of Fixed Retailers"
+ title.font.bold = True
+-title.font.size = Pt(44)
++title.font.size = Pt(60)  # Increased font size to 60 points
+ title.alignment = 1  # Center alignment
+ title.font.color.rgb = RGBColor(255, 255, 255)
+ 

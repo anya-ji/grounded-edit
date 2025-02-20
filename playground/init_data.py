@@ -86,5 +86,5 @@ def generate_init_code():
                 shutil.copy(render_source, render_dest)
 
 if __name__ == "__main__":
-    # copy_folders()
+    copy_folders()
     generate_init_code()

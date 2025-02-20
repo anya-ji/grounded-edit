@@ -1,0 +1,1 @@
+Increase the line spacing between the reference items to enhance readability and avoid overcrowding.

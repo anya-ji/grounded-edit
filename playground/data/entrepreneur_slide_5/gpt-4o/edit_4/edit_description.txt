@@ -1,0 +1,1 @@
+Insert a vertical space of 10 pixels between the title and the first bullet point for better separation.

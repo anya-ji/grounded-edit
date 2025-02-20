@@ -1,0 +1,1 @@
+Change the font color of the descriptions under each section title to white for enhanced readability.

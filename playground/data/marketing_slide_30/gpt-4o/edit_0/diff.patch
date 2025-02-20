@@ -1,0 +1,21 @@
+--- ./data/marketing_slide_30/init/code.py	2025-02-20 02:15:03.857044760 +0000
++++ ./data/marketing_slide_30/gpt-4o/edit_0/code.py	2025-02-20 14:19:25.638476272 +0000
+@@ -12,11 +12,15 @@
+ slide_layout = presentation.slide_layouts[5]  # Use a blank slide layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set the slide background to black
++# Set the slide background to a gradient from black to dark grey
+ background = slide.background
+ fill = background.fill
+-fill.solid()
+-fill.fore_color.rgb = RGBColor(0, 0, 0)
++fill.gradient()  # Apply gradient fill
++stops = fill.gradient_stops  # Get gradient stops
++stops[0].color.rgb = RGBColor(0, 0, 0)     # First stop: black
++stops[0].position = 0.0                     # Position for the first stop
++stops[1].color.rgb = RGBColor(50, 50, 50)   # Second stop: dark grey
++stops[1].position = 1.0                     # Position for the second stop
+ 
+ # Add the title
+ title_box = slide.shapes.add_textbox(Inches(1), Inches(0.5), Inches(14), Inches(1))

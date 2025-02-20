@@ -1,1 +1,0 @@
-Change the color of the standard text from bold white to light gray (#D0D0D0) to create a softer contrast against the dark background.

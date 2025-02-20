@@ -1,0 +1,16 @@
+--- ./data/career_slide_3/init/code.py	2025-02-20 02:15:04.980042461 +0000
++++ ./data/career_slide_3/gpt-4o/edit_0/code.py	2025-02-20 12:19:33.891889677 +0000
+@@ -12,11 +12,11 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Set the slide background color to black
++# Set the slide background color to dark gray
+ background = slide.background
+ fill = background.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(0, 0, 0)
++fill.fore_color.rgb = RGBColor(25, 25, 25)  # Dark gray color
+ 
+ # Add a red speech bubble shape
+ left = Inches(3)

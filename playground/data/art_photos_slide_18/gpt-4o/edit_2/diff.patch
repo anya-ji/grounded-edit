@@ -1,0 +1,20 @@
+--- ./data/art_photos_slide_18/init/code.py	2025-02-20 02:15:04.406043636 +0000
++++ ./data/art_photos_slide_18/gpt-4o/edit_2/code.py	2025-02-20 11:03:15.585113100 +0000
+@@ -40,7 +40,7 @@
+ content_frame = content_box.text_frame
+ content_frame.text = ("✓ It is the mass of ideas associated with each artwork "
+                       "and communicated through the following:")
+-content_frame.paragraphs[0].font.size = Pt(20)
++content_frame.paragraphs[0].font.size = Pt(24)  # Changed font size to 24 points
+ content_frame.paragraphs[0].font.color.rgb = RGBColor(0, 0, 0)
+ 
+ bullet_points = [
+@@ -53,7 +53,7 @@
+ for point in bullet_points:
+     p = content_frame.add_paragraph()
+     p.text = point
+-    p.font.size = Pt(20)
++    p.font.size = Pt(24)  # Changed font size to 24 points for bullet points
+     p.font.color.rgb = RGBColor(0, 0, 0)
+ 
+ content_box.fill.solid()

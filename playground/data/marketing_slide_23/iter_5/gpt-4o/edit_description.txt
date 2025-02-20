@@ -1,1 +1,0 @@
-Change the background color of the rendered image text boxes to match the black background of the target image.

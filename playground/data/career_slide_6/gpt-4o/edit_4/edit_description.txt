@@ -1,0 +1,1 @@
+Increase the padding around the text in all text boxes to create more breathing space and enhance readability.

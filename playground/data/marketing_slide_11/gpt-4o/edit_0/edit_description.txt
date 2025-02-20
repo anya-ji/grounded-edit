@@ -1,0 +1,1 @@
+Change the text color for the main content from white to a darker shade (e.g., RGB(0, 0, 0) or similar) to enhance readability against the background.

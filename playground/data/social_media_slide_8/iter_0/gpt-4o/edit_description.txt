@@ -1,1 +1,0 @@
-Adjust the vertical alignment of the text to center it relative to the graphic, ensuring that both the title "5. DIGITAL MEDIA" and the descriptive content are evenly spaced and aligned with the graphic on the right.

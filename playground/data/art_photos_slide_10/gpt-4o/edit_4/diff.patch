@@ -1,0 +1,23 @@
+--- ./data/art_photos_slide_10/init/code.py	2025-02-20 02:15:04.208044041 +0000
++++ ./data/art_photos_slide_10/gpt-4o/edit_4/code.py	2025-02-20 10:51:59.394609249 +0000
+@@ -37,12 +37,16 @@
+ main_title_box.text_frame.paragraphs[0].font.bold = True
+ main_title_box.text_frame.paragraphs[0].font.color.rgb = RGBColor(0, 0, 0)  # Black text
+ 
+-# Add images
++# Add images with margins
+ mona_lisa_image_path = "../../media/image_1.jpg"
+ child_portrait_image_path = "../../media/image_2.jpg"
+ 
+-left_image = slide.shapes.add_picture(mona_lisa_image_path, Inches(0.5), Inches(1.5), width=Inches(7))
+-right_image = slide.shapes.add_picture(child_portrait_image_path, Inches(8.5), Inches(1.5), width=Inches(7))
++# Set margins for images
++left_margin = 10
++right_margin = 10
++
++left_image = slide.shapes.add_picture(mona_lisa_image_path, Inches(0.5 + left_margin / 96), Inches(1.5), width=Inches(7) - Inches(left_margin / 96))
++right_image = slide.shapes.add_picture(child_portrait_image_path, Inches(8.5 + right_margin / 96), Inches(1.5), width=Inches(7) - Inches(right_margin / 96))
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

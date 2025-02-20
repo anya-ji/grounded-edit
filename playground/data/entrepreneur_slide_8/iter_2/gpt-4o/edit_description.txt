@@ -1,1 +1,0 @@
-Change the text alignment of the title "Obstacles that Elon faced" to center-aligned and add bullet points before each item in the list to match the formatting of the target image.

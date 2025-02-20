@@ -1,0 +1,21 @@
+--- ./data/social_media_slide_17/init/code.py	2025-02-20 02:15:04.889042647 +0000
++++ ./data/social_media_slide_17/gpt-4o/edit_4/code.py	2025-02-20 15:04:35.964476135 +0000
+@@ -45,10 +45,13 @@
+ content_frame = content_box.text_frame
+ content_frame.word_wrap = True
+ 
+-p = content_frame.add_paragraph()
+-p.text = content_text
+-p.font.size = Pt(28)
+-p.font.color.rgb = RGBColor(0, 0, 0)  # Black text
++paragraphs = content_text.split("\n\n")
++for para in paragraphs:
++    p = content_frame.add_paragraph()
++    p.text = para
++    p.font.size = Pt(28)
++    p.font.color.rgb = RGBColor(0, 0, 0)  # Black text
++    p.space_after = Pt(14)  # Set consistent spacing after each paragraph
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

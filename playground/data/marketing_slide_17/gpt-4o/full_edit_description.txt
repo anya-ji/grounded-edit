@@ -1,0 +1,5 @@
+<edit>Change the background color of the slide to a gradient from dark teal to light teal.</edit>
+<edit>Update the text color of "LOOK AROUND:" to white for better contrast against the background.</edit>
+<edit>Adjust the bullet point symbol to a filled circle instead of an arrow to match the target style.</edit>
+<edit>Increase the font size of the main bullet point text to ensure it is easily readable.</edit>
+<edit>Shift the icon in the slide to the right to maintain a balanced layout without overlapping the text.</edit>

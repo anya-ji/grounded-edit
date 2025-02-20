@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image features a text presentation slide with several bullet points discussing various skills beyond academics. Each bullet point is uniform in color, except for "Leadership and Teamwork," which is highlighted in yellow.
-2. Description of Rendered Image: The rendered image is similar but has "Leadership and Teamwork" in a larger font size and in a bright yellow color. The rest of the text colors are mostly white and gray, with some bullet points larger than others.
-3. Change Suggestion: Adjust the font size of the "Leadership and Teamwork" section to match the size of the other bullet points for uniformity.
-```

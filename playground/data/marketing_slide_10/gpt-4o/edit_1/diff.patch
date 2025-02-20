@@ -1,0 +1,12 @@
+--- ./data/marketing_slide_10/init/code.py	2025-02-20 02:15:03.973044522 +0000
++++ ./data/marketing_slide_10/gpt-4o/edit_1/code.py	2025-02-20 13:48:33.611416875 +0000
+@@ -32,7 +32,7 @@
+ question_p = question_frame.add_paragraph()
+ question_p.text = "Q1. Explain how a chain of market is formed? What purpose does it serve. (3+2=5 MARKS)"
+ question_p.font.size = Pt(32)
+-question_p.font.color.rgb = RGBColor(255, 255, 255)
++question_p.font.color.rgb = RGBColor(255, 255, 255)  # Changed to white for better contrast
+ 
+ # Save the presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

@@ -1,0 +1,1 @@
+Reposition the text box containing "Cultural Products" to be centered above the content images, ensuring equal spacing below it.

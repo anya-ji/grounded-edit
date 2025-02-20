@@ -1,0 +1,13 @@
+--- ./data/career_slide_16/init/code.py	2025-02-20 02:15:04.977042467 +0000
++++ ./data/career_slide_16/gpt-4o/edit_1/code.py	2025-02-20 12:08:35.824355249 +0000
+@@ -124,6 +124,10 @@
+ bullet6.space_before = Pt(0)
+ bullet6.font.size = Pt(14)
+ 
++# Set left alignment for the bullets in the Collaboration section
++bullet6.space_before = Pt(0)
++bullet6.level = 0   # Ensure it's at the same level as other top-level bullets
++
+ # Learning Approach
+ prof_learning_approach = professional_content_frame.add_paragraph()
+ prof_learning_approach.text = "Learning Approach"

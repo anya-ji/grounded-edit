@@ -1,1 +1,0 @@
-Change the bullet point text "Leadership and Teamwork" to have the color yellow for emphasis, similar to the target image.

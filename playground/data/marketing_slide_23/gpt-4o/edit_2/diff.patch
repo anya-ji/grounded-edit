@@ -1,0 +1,23 @@
+--- ./data/marketing_slide_23/init/code.py	2025-02-20 02:15:03.865044744 +0000
++++ ./data/marketing_slide_23/gpt-4o/edit_2/code.py	2025-02-20 14:10:04.841116526 +0000
+@@ -44,11 +44,17 @@
+ p1.font.color.rgb = RGBColor(0, 0, 0)
+ text_frame1.word_wrap = True
+ 
+-# Add second bullet point with yellow box
++# Add second bullet point with gradient yellow box
+ top = Inches(4)
+ yellow_box = slide.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, left, top, width, height)
+-yellow_box.fill.solid()
+-yellow_box.fill.fore_color.rgb = RGBColor(255, 255, 0)
++fill = yellow_box.fill
++fill.gradient()
++stop1 = fill.gradient_stops[0]
++stop1.position = 0.0
++stop1.color.rgb = RGBColor(255, 255, 0)  # Yellow
++stop2 = fill.gradient_stops[1]
++stop2.position = 1.0
++stop2.color.rgb = RGBColor(255, 215, 0)  # Gold
+ yellow_box.line.color.rgb = RGBColor(255, 255, 0)
+ 
+ text_frame2 = yellow_box.text_frame

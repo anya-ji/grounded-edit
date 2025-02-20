@@ -1,1 +1,0 @@
-Change the font size of the headings to be smaller and use a standard font weight instead of bold to create a more balanced visual hierarchy while enhancing the readability of the content.

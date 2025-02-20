@@ -1,0 +1,5 @@
+<edit>Change the background color of the slide to a light color that provides better contrast with the text, for example, set it to `#f4f6f7`.</edit>
+<edit>Change the color of the "PREVIEW DISCUSSION" text to a darker shade, such as `#003366`, to enhance its visibility against the background.</edit>
+<edit>Adjust the position of the question mark graphic to ensure it does not overlap with the text; consider shifting it downwards by about 20 pixels.</edit>
+<edit>Change the font color of the main question text to a darker blue, such as `#00008b`, for improved readability.</edit>
+<edit>Resize the speech bubble graphic so that it does not obstruct any part of the text, ensuring it fits within designated margins.</edit>

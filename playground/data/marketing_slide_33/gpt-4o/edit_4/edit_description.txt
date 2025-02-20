@@ -1,0 +1,1 @@
+Change the background gradient colors to softer tones for improved readability of the text.

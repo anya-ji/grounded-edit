@@ -1,1 +1,0 @@
-Change the background color of the rendered image from yellow to a shade of blue that matches the target image to enhance readability.

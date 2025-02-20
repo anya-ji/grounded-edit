@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: A collage of people enjoying various moments together with a prominent quote overlay that reads "IT’S ABOUT THE PEOPLE, NOT THE PLACES."
-2. Description of Rendered Image: A similar collage featuring the same quote, but partially cut off at the bottom, making it difficult to read and understand.
-3. Change Suggestion: Adjust the cropping of the rendered image to include the entire quote "IT’S ABOUT THE PEOPLE, NOT THE PLACES" without cutting off any part.
-```

@@ -1,0 +1,26 @@
+--- ./data/social_media_slide_9/init/code.py	2025-02-20 02:15:04.886042653 +0000
++++ ./data/social_media_slide_9/gpt-4o/edit_4/code.py	2025-02-20 15:29:12.256130900 +0000
+@@ -27,12 +27,13 @@
+ content_box = slide.shapes.add_textbox(Inches(0.5), Inches(2), Inches(15), Inches(5))
+ content_frame = content_box.text_frame
+ content_frame.word_wrap = True
++
+ content_p1 = content_frame.add_paragraph()
+ content_p1.text = "1. The media provide an extensive transnational transmission of cultural products and;"
+ content_p1.space_before = Pt(10)  # Add space before this point
+ content_p1.space_after = Pt(10)  # Add space after this point
+ content_p1.level = 0
+-content_p1.font.size = Pt(20)
++content_p1.font.size = Pt(24)  # Changed font size to 24
+ content_p1.font.color.rgb = RGBColor(0, 0, 0)  # black color
+ 
+ content_p2 = content_frame.add_paragraph()
+@@ -40,7 +41,7 @@
+ content_p2.space_before = Pt(10)  # Add space before this point
+ content_p2.space_after = Pt(10)  # Add space after this point
+ content_p2.level = 0
+-content_p2.font.size = Pt(20)
++content_p2.font.size = Pt(24)  # Changed font size to 24
+ content_p2.font.color.rgb = RGBColor(0, 0, 0)  # black color
+ 
+ # Additional text

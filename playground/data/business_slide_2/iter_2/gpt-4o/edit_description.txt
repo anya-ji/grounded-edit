@@ -1,1 +1,0 @@
-Change the background color from yellow to a warm beige tone to closely resemble the warm color palette of the target image.

@@ -1,0 +1,19 @@
+--- ./data/social_media_slide_7/init/code.py	2025-02-20 02:15:04.870042686 +0000
++++ ./data/social_media_slide_7/gpt-4o/edit_1/code.py	2025-02-20 15:22:32.859153958 +0000
+@@ -31,7 +31,7 @@
+ p_subtitle.font.size = Pt(36)
+ p_subtitle.font.bold = True
+ 
+-# Add bullet points
++# Add bullet points with higher contrast text color
+ content_box = slide.shapes.add_textbox(Inches(0.5), Inches(2.5), Inches(10), Inches(5))
+ content_frame = content_box.text_frame
+ content_frame.word_wrap = True
+@@ -45,6 +45,7 @@
+     p_bullet = content_frame.add_paragraph()
+     p_bullet.text = point
+     p_bullet.font.size = Pt(24)
++    p_bullet.font.color.rgb = RGBColor(0, 0, 0)  # Changed to black for better contrast
+     p_bullet.space_after = Pt(10)
+ 
+ # Insert image

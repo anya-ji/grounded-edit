@@ -1,1 +1,0 @@
-Change the text font in the rendered image to match the font style used in the target image, ensuring it has a mix of blue and white as seen in the target.

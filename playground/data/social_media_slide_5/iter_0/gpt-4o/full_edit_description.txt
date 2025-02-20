@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: The target image features a title "2. SCRIPT" with the word "SCRIPT" in bold font, and the text below it has a specific layout with bullet points and clear spacing.
-2. Description of Rendered Image: The rendered image has the title "2. SCRIPT" in bold but uses a different format where the text is not in bullet points and lacks uniform spacing, creating a less structured appearance.
-3. Change Suggestion: Adjust the rendered image to format the text as bullet points with consistent spacing between each point.
-```

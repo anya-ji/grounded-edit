@@ -1,0 +1,25 @@
+--- ./data/social_media_slide_15/init/code.py	2025-02-20 02:15:04.887042651 +0000
++++ ./data/social_media_slide_15/gpt-4o/edit_3/code.py	2025-02-20 15:00:51.148101671 +0000
+@@ -8,7 +8,7 @@
+ presentation.slide_height = Inches(9)
+ 
+ # Define slide layout
+-slide_layout = presentation.slide_layouts[5] # blank layout
++slide_layout = presentation.slide_layouts[5]  # blank layout
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+ # Add title textbox
+@@ -32,11 +32,11 @@
+ slide.background.fill.solid()
+ slide.background.fill.fore_color.rgb = RGBColor(0, 51, 102)  # Dark Blue
+ 
+-# Add main content
++# Add main content with checkmark symbol
+ content_box = slide.shapes.add_textbox(Inches(1), Inches(3), Inches(14), Inches(2))
+ content_frame = content_box.text_frame
+ p_content = content_frame.add_paragraph()
+-p_content.text = "• Those products that are marketed internationally under the same brand name, features, and specifications across countries."
++p_content.text = "✔ Those products that are marketed internationally under the same brand name, features, and specifications across countries."
+ p_content.font.size = Pt(28)
+ content_box.fill.solid()
+ content_box.fill.fore_color.rgb = RGBColor(255, 255, 255)  # White background

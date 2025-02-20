@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: A slide with a clean design featuring a bold header in black text, a clear subheading, and neatly organized bullet points with checkmarks, all presented on a light colored background with a subtle texture.
-2. Description of Rendered Image: A slide that has similar content to the target image but features a bright yellow header in all caps, a messy background with overlapping red, orange, and yellow brush strokes, and bullet points that are less organized and harder to read.
-3. Change Suggestion: Change the header text color from bright yellow to black to improve readability and match the target image.
-```

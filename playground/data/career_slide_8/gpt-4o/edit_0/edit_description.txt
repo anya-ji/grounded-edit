@@ -1,0 +1,1 @@
+Change the background color of the slide from the current color to black to match the target design.

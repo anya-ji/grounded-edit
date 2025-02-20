@@ -1,0 +1,1 @@
+Adjust the font size of the title "WHAT ARE 'TOP GRADES'?" to 48 points to match the target slide.

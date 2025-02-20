@@ -1,1 +1,0 @@
-Change the background color of the rendered image to a more muted tone, similar to the target image, and add a thin orange border around the slide.

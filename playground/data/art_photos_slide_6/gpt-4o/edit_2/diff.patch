@@ -1,0 +1,15 @@
+--- ./data/art_photos_slide_6/init/code.py	2025-02-20 02:15:04.196044066 +0000
++++ ./data/art_photos_slide_6/gpt-4o/edit_2/code.py	2025-02-20 11:25:15.877689767 +0000
+@@ -39,10 +39,10 @@
+ 
+ # Insert the image of Van Gogh's self-portrait
+ image_path = "../../media/image_1.jpg"
+-slide.shapes.add_picture(image_path, Inches(10), Inches(1.5), Inches(5), Inches(5))
++slide.shapes.add_picture(image_path, Inches(10), Inches(2.5), Inches(5), Inches(5))  # Moved down
+ 
+ # Add a caption below the image
+-caption_box = slide.shapes.add_textbox(Inches(10), Inches(6.6), Inches(5), Inches(0.5))
++caption_box = slide.shapes.add_textbox(Inches(10), Inches(7.1), Inches(5), Inches(0.5))  # Adjusted to match image move
+ caption_box.fill.solid()
+ caption_box.fill.fore_color.rgb = RGBColor(255, 255, 0)  # Yellow background
+ frame = caption_box.text_frame

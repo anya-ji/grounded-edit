@@ -1,0 +1,27 @@
+--- ./data/art_photos_slide_9/init/code.py	2025-02-20 02:15:04.342043767 +0000
++++ ./data/art_photos_slide_9/gpt-4o/edit_0/code.py	2025-02-20 11:30:28.099574418 +0000
+@@ -12,15 +12,21 @@
+ slide_layout = presentation.slide_layouts[5]
+ slide = presentation.slides.add_slide(slide_layout)
+ 
+-# Add background image
++# Add background gradient image
+ image_path = "../../media/image_0.jpg"
+ slide.shapes.add_picture(image_path, Inches(0), Inches(0), Inches(16), Inches(9))
+ 
+ # Title text box
+ title_box = slide.shapes.add_textbox(Inches(2), Inches(1), Inches(12), Inches(1))
+ title_frame = title_box.text_frame
+-title_box.fill.solid()
+-title_box.fill.fore_color.rgb = RGBColor(255, 255, 0) # Yellow background
++title_box.fill.gradient()  # Change to gradient
++title_box.fill.gradient()
++stop1 = title_box.fill.gradient_stops
++stop1[0].position = 0.0
++stop1[0].color.rgb = RGBColor(255, 255, 204)  # Light Yellow
++stop1[1].position = 1.0
++stop1[1].color.rgb = RGBColor(255, 255, 255)   # White
++
+ title_paragraph = title_frame.add_paragraph()
+ title_paragraph.text = "Representational or Objective Art"
+ title_paragraph.font.bold = True

@@ -1,0 +1,1 @@
+Change the text color of the names from white to yellow for consistency with the target slide.

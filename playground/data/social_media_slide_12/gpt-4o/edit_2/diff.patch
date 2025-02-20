@@ -1,0 +1,10 @@
+--- ./data/social_media_slide_12/init/code.py	2025-02-20 02:15:04.875042676 +0000
++++ ./data/social_media_slide_12/gpt-4o/edit_2/code.py	2025-02-20 14:55:40.975948436 +0000
+@@ -52,6 +52,7 @@
+ 
+ content_tf = content_rect.text_frame
+ content_tf.word_wrap = True
++content_tf.margin_top = Pt(30)  # Adjust the margin to create spacing
+ content_p = content_tf.add_paragraph()
+ content_p.text = content_text
+ content_p.font.size = Pt(20)

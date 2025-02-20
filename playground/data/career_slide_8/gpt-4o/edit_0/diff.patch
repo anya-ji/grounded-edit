@@ -1,0 +1,14 @@
+--- ./data/career_slide_8/init/code.py	2025-02-20 02:15:05.008042404 +0000
++++ ./data/career_slide_8/gpt-4o/edit_0/code.py	2025-02-20 12:30:17.352530837 +0000
+@@ -20,9 +20,9 @@
+ title.font.bold = True
+ title.font.color.rgb = RGBColor(255, 255, 255)
+ 
+-# Background color (dark textured)
++# Background color (changed to black)
+ slide.background.fill.solid()
+-slide.background.fill.fore_color.rgb = RGBColor(20, 20, 20)
++slide.background.fill.fore_color.rgb = RGBColor(0, 0, 0)
+ 
+ # Function to add individual section
+ def add_individual_section(left, image_path, name, title, education_list):

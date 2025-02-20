@@ -1,0 +1,1 @@
+Adjust the alignment of the subtitle "Differentiate between Wholesaler and Retailers" to be centered horizontally on the slide.

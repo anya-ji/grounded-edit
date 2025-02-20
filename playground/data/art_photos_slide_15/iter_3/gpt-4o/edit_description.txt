@@ -1,1 +1,0 @@
-Increase the saturation of the colors in the left image of the rendered image to match the vibrancy of the target image.

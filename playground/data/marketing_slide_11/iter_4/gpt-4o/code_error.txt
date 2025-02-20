@@ -1,6 +1,0 @@
-Failed to execute code at iteration 4: Traceback (most recent call last):
-  File "/home/anyaji/grounded-edit/playground/data/marketing_slide_11/iter_4/gpt-4o/code.py", line 22, in <module>
-    slide.shapes.add_shape(MSO_SHAPE.PEOPLE, Inches(i * 3), Inches(5), Inches(2), Inches(2))
-  File "/home/anyaji/anaconda3/envs/edits/lib/python3.10/enum.py", line 437, in __getattr__
-    raise AttributeError(name) from None
-AttributeError: PEOPLE

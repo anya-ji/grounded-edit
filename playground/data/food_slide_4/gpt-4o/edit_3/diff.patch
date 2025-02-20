@@ -1,0 +1,17 @@
+--- ./data/food_slide_4/init/code.py	2025-02-20 02:15:04.663043110 +0000
++++ ./data/food_slide_4/gpt-4o/edit_3/code.py	2025-02-20 13:40:04.463386437 +0000
+@@ -64,6 +64,14 @@
+     p.font.size = Pt(20)
+     p.font.color.rgb = RGBColor(0, 0, 0)
+ 
++# Add speech bubble icon
++bubble_left = Inches(7)
++bubble_top = Inches(0.5) 
++bubble_shape = slide.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, bubble_left, bubble_top, Inches(0.8), Inches(0.5))
++bubble_shape.fill.solid()
++bubble_shape.fill.fore_color.rgb = RGBColor(255, 255, 255)  # White color
++bubble_shape.line.color.rgb = RGBColor(0, 0, 0)  # Black outline
++
+ # Add "PREVIEW ACTIVITY" button
+ button_left = Inches(12)
+ button_top = Inches(7.5)

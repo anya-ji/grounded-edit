@@ -1,0 +1,1 @@
+Change the color of the first shape containing the text "Define the term Market" to a gradient orange by modifying the fill property in the shape: `shape1.fill.color = 'gradient(orange, darkorange)'`.

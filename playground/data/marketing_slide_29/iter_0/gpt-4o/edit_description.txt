@@ -1,1 +1,0 @@
-Modify the rendered image's text box to have rounded corners and a slight shadow effect to resemble the more stylish look of the target image’s text box.

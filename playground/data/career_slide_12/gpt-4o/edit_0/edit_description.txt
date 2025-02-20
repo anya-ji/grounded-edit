@@ -1,0 +1,1 @@
+Change the text color of the section title "Financial Literacy" from yellow to a light gray for better readability.

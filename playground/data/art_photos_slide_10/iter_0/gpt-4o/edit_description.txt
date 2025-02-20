@@ -1,1 +1,0 @@
-Add a soft, blurred landscape background to the rendered image that mimics the mountainous scenery seen behind the Mona Lisa.

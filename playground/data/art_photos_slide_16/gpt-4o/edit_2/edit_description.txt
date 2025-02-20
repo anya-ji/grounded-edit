@@ -1,0 +1,1 @@
+Align the "Sources of the Subject" header text to the left to ensure consistency with other elements on the slide.

@@ -1,1 +1,0 @@
-Change the text color of "Types of Retailers" to white to enhance visibility against the green background.

@@ -1,0 +1,11 @@
+--- ./data/business_slide_12/init/code.py	2025-02-20 02:15:04.119044223 +0000
++++ ./data/business_slide_12/gpt-4o/edit_2/code.py	2025-02-20 11:36:50.747298210 +0000
+@@ -23,7 +23,7 @@
+ p.text = title_text
+ p.font.bold = True
+ p.font.size = Pt(96)
+-p.font.color.rgb = RGBColor(255, 255, 255)  # White color
++p.font.color.rgb = RGBColor(0, 0, 139)  # Dark blue color
+ text_frame.paragraphs[0].alignment = 1  # Center alignment
+ 
+ # Add Airbnb logo

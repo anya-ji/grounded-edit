@@ -1,0 +1,14 @@
+--- ./data/art_photos_slide_8/init/code.py	2025-02-20 02:15:04.278043898 +0000
++++ ./data/art_photos_slide_8/gpt-4o/edit_3/code.py	2025-02-20 11:29:22.253802438 +0000
+@@ -31,9 +31,9 @@
+ subtitle_paragraph.font.size = Pt(24)
+ subtitle_paragraph.font.bold = True
+ 
+-# Insert the flower painting image
++# Insert the flower painting image (moved down slightly)
+ image_path_flowers = "../../media/image_1.jpg"
+-left_image = slide.shapes.add_picture(image_path_flowers, Inches(1), Inches(2), width=Inches(7), height=Inches(5))
++left_image = slide.shapes.add_picture(image_path_flowers, Inches(1), Inches(2.5), width=Inches(7), height=Inches(5))  # Changed from Inches(2)
+ left_image.shadow.inherit = False
+ line = left_image.line
+ line.color.rgb = RGBColor(255, 255, 255)

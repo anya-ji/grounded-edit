@@ -1,0 +1,5 @@
+<edit>Change the title font size to 48 points.</edit>
+<edit>Adjust the subtitle text to align properly with the left margin of the slide.</edit>
+<edit>Change the bullet point indentation to 0.5 centimeters for uniform appearance.</edit>
+<edit>Set the background color of the slide to a dark gray shade (#2E2E2E).</edit>
+<edit>Increase the line spacing in the bullet points to 1.5 for improved readability.</edit>

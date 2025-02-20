@@ -1,0 +1,11 @@
+--- ./data/environment_slide_7/init/code.py	2025-02-20 02:15:04.775042881 +0000
++++ ./data/environment_slide_7/gpt-4o/edit_0/code.py	2025-02-20 13:01:49.584215800 +0000
+@@ -14,7 +14,7 @@
+ background = slide.background
+ fill = background.fill
+ fill.solid()
+-fill.fore_color.rgb = RGBColor(204, 255, 204) # light green background
++fill.fore_color.rgb = RGBColor(255, 239, 204) # light beige background
+ 
+ # Add title and content text box
+ text_box = slide.shapes.add_textbox(Inches(2), Inches(1), Inches(12), Inches(5.5))

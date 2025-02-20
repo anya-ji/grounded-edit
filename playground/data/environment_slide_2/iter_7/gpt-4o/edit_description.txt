@@ -1,1 +1,0 @@
-Change the color of the background in the rendered image to match the bright green color of the target image for better visual consistency.

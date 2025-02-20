@@ -1,0 +1,17 @@
+--- ./data/environment_slide_7/init/code.py	2025-02-20 02:15:04.775042881 +0000
++++ ./data/environment_slide_7/gpt-4o/edit_3/code.py	2025-02-20 13:02:36.428175689 +0000
+@@ -46,11 +46,11 @@
+ 
+ # Insert Deforestation Image
+ image_path_1 = "../../media/image_0.jpg"
+-slide.shapes.add_picture(image_path_1, Inches(0.5), Inches(7), Inches(7.5), Inches(2))
++slide.shapes.add_picture(image_path_1, Inches(1), Inches(7), Inches(7.5), Inches(2))
+ 
+ # Insert Pollution Image
+ image_path_2 = "../../media/image_1.jpg"
+-slide.shapes.add_picture(image_path_2, Inches(8), Inches(7), Inches(7.5), Inches(2))
++slide.shapes.add_picture(image_path_2, Inches(7), Inches(7), Inches(7.5), Inches(2))
+ 
+ # Save presentation
+ presentation.save("render.pptx")
+\ No newline at end of file

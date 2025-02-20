@@ -1,5 +1,0 @@
-```
-1. Description of Target Image: A slide titled "Importance of Skills Beyond Academics" with bullet points discussing different skill areas; the text is primarily in white font on a dark background, with specific keywords in bold.
-2. Description of Rendered Image: A similar slide, but with the text titles and bullet points in varying colors, one keyword ("Communication") is highlighted in green, which contrasts with the overall dark theme of the slide.
-3. Change Suggestion: Change the text color of "Communication" from green to white to maintain consistency with the rest of the text.
-```

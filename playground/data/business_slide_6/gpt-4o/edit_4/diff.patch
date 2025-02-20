@@ -1,0 +1,10 @@
+--- ./data/business_slide_6/init/code.py	2025-02-20 02:15:04.098044267 +0000
++++ ./data/business_slide_6/gpt-4o/edit_4/code.py	2025-02-20 11:47:36.778190227 +0000
+@@ -19,6 +19,7 @@
+ fill.fore_color.rgb = RGBColor(255, 102, 102)
+ 
+ # Add the title text
++# Adjust the position of the textbox to center it horizontally
+ text_box = slide.shapes.add_textbox(Inches(0), Inches(3.5), width=Inches(16), height=Inches(2))
+ text_frame = text_box.text_frame
+ p = text_frame.add_paragraph()

@@ -1,0 +1,11 @@
+--- ./data/career_slide_13/init/code.py	2025-02-20 02:15:04.992042437 +0000
++++ ./data/career_slide_13/gpt-4o/edit_1/code.py	2025-02-20 12:00:27.649599718 +0000
+@@ -68,7 +68,7 @@
+ 
+     # Content
+     p = text_frame.add_paragraph()
+-    p.text = f"  - {content}"
++    p.text = f"  • {content}"  # Changed the indentation here to use filled circle
+     p.font.size = Pt(20)
+     p.font.color.rgb = RGBColor(211, 211, 211)  # light gray text
+ 

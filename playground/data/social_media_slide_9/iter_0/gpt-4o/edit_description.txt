@@ -1,1 +1,0 @@
-Adjust the heading in the rendered image to capitalize "The" in "The media have a very important impact" for consistency with the target image.

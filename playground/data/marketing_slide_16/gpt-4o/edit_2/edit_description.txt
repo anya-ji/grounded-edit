@@ -1,0 +1,1 @@
+Modify the shape surrounding the text "Marketing" to be more distinct by increasing its line width to 2 pt.

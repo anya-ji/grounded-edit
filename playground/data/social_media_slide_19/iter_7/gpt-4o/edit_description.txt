@@ -1,1 +1,0 @@
-Increase the font weight of the header "Three perspectives on global cultural flows:" to bold and ensure consistent formatting of check marks in the list.

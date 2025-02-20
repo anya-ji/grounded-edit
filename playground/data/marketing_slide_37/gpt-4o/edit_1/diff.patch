@@ -1,0 +1,11 @@
+--- ./data/marketing_slide_37/init/code.py	2025-02-20 02:15:03.894044684 +0000
++++ ./data/marketing_slide_37/gpt-4o/edit_1/code.py	2025-02-20 14:30:50.973880358 +0000
+@@ -31,7 +31,7 @@
+ title.text = "Think Line:"
+ title.font.size = Pt(36)
+ title.font.bold = True
+-title.font.color.rgb = RGBColor(255, 255, 255)  # White
++title.font.color.rgb = RGBColor(200, 200, 200)  # Light gray
+ 
+ # Add main text below the title
+ text_box = slide.shapes.add_textbox(Inches(5), Inches(1.5), Inches(10), Inches(2))
